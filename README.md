@@ -1,4 +1,0 @@
-hunspell-gl
-===========
-
-hunspell-gl
