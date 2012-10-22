@@ -1,0 +1,47 @@
+The source files are organized in modules under the “src/” folder. Each module is lodated at “src/<module name>”.
+
+Module files define parts that are used to build the .aff and .dic files of the spellchecker (e.g. gl.aff and gl.dic).
+The modular approach makes it possible to define extensions to the main spellchecker, with words and affixes that might
+not be part of the standard Galician language and rules.
+
+
+Module Files
+============
+
+Each module might contain any combination of the following files:
+
+
+dependencies.txt
+----------------
+
+List of modules this module depends on, each one in a new line.
+
+
+header.txt
+----------
+
+Text to be added to the header of both the resulting .aff and .dic files.
+
+
+header-aff.txt
+--------------
+
+Text to be added to the header of the resulting .aff file.
+  
+
+header-dic.txt
+--------------
+
+Text to be added to the header of the resulting .dic file.
+
+
+main.aff
+--------
+
+Text to be added to the body of the resulting .aff file.
+
+
+main.dic
+--------
+
+Text to be added to the body of the resulting .dic file.
