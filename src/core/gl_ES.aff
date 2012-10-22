@@ -1,5 +1,5 @@
-# Versión 2.9b (versión en desenvolvemento)
-# 
+# Proxecto Trasno 18 de outubro de 2012
+#
 # Este ficheiro contén os parámetros de configuración 
 # do verificador ortográfico MySpell/Hunspell, as regras
 # para as suxestións de substitución e as regras de afixación 
@@ -29,21 +29,8 @@
 # A descrición do comportamento morfosintáctivo verbal
 # pódese atopar no núm. 1 da revista Linguamática (ISSN: 1647-0818)
 # http://linguamatica.com/index.php/linguamatica/article/view/13
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# 
-# Para máis información consulte o ficheiro licenza.txt
+
+
 
 # Codificación de caracteres:
 SET UTF-8
