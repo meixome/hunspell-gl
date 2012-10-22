@@ -1,0 +1,10 @@
+#
+### VOLGa ##############################################################################################################
+#
+# This file is meant to provide all the words defined in:
+#
+#       Vocabulario ortográfico da lingua galega
+#       Santamarina Fernández, Antón e González González, Manuel (coord.)
+#       Real Academia Galega / Instituto da Lingua Galega, 2004.
+#       http://www.realacademiagalega.org/volga/
+#

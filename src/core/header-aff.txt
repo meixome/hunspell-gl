@@ -1,0 +1,14 @@
+#
+### Main Rules #########################################################################################################
+# 
+# This file is meant to comply with the rules defined in:
+#
+#       Normas ortográficas e morfolóxicas do idioma galego
+#       Real Academia Galega / Instituto da Lingua Galega, 2003.
+#       http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+#
+# The description of the verbal conjugations may be found in:
+#
+#       Núm. 1 da revista Linguamática (ISSN: 1647-0818)
+#       http://linguamatica.com/index.php/linguamatica/article/view/13
+#

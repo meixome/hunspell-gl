@@ -1,10 +1,7 @@
-# Proxecto Trasno 18 de outubro de 2012
-#
 # Este ficheiro contén os parámetros de configuración 
 # do verificador ortográfico MySpell/Hunspell, as regras
 # para as suxestións de substitución e as regras de afixación 
 # para o dicionario do verificador en lingua galega.
-# Miguel Solla (bradomin@gmail.com), 2010.
 #
 # O ficheiro co dicionario creouse a partir do 
 # Vocabulario ortográfico da lingua galega (VOLGa) 
@@ -29,8 +26,6 @@
 # A descrición do comportamento morfosintáctivo verbal
 # pódese atopar no núm. 1 da revista Linguamática (ISSN: 1647-0818)
 # http://linguamatica.com/index.php/linguamatica/article/view/13
-
-
 
 # Codificación de caracteres:
 SET UTF-8
