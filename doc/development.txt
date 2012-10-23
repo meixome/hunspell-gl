@@ -1,0 +1,18 @@
+This page describes how to work on the development of the Hunspell Spellchecker for Galician.
+
+For general-purpose Hunspell documentation, see http://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/ 
+
+  
+AFF File
+========
+
+The AFF file defines:
+- Hunspell settings, options and parameters.
+- Rules for suggestions.
+- Affixation rules.
+
+
+DIC File
+========
+
+The DIC file defines the correct words, combining prefixes with the affixation rules of the AFF file.

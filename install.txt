@@ -1,0 +1,22 @@
+This file describes how to build and install the spellchecker.
+
+Dependencies
+============
+
+* SCons
+
+
+Build
+=====
+
+To build the spellchecker, run:
+
+    scons
+    
+To rebuild after changing some files:
+
+    scons -c && scons
+
+For information on how to build a customized spellchecker (i.e. non-standard vocabulary and extensions) run:
+
+    scons -h
