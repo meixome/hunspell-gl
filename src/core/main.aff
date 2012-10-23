@@ -1,40 +1,12 @@
-# Este ficheiro contén os parámetros de configuración 
-# do verificador ortográfico MySpell/Hunspell, as regras
-# para as suxestións de substitución e as regras de afixación 
-# para o dicionario do verificador en lingua galega.
-#
-# O ficheiro co dicionario creouse a partir do 
-# Vocabulario ortográfico da lingua galega (VOLGa) 
-# Santamarina Fernández, Antón e González González, Manuel (coord.)
-# Real Academia Galega / Instituto da Lingua Galega, 2004.
-# http://www.realacademiagalega.org/volga/
-# 
-# As regras de afixación tratan de acadar un comportamento
-# consonte as Normas ortográficas e morfolóxicas do idioma
-# galego, Real Academia Galega / Instituto da Lingua Galega, 2003.
-# http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
-#
-# Para a elaboración das regras de afixación reaproveitáronse
-# algunhas das regras da versión que creou en 2006-2007
-# Mar Castro Pereiro para Mancomún (http://www.mancomun.org/) 
-# baixo os termos da GNU General Public License (GPL)
-#
-# [SEN REVISAR: ] Os topónimos, os antopónimos, as abreviaturas e
-# as siglas que figuran ao final do ficheiro de dicionario tamén
-# proceden desta versión anterior. 
-#
-# A descrición do comportamento morfosintáctivo verbal
-# pódese atopar no núm. 1 da revista Linguamática (ISSN: 1647-0818)
-# http://linguamatica.com/index.php/linguamatica/article/view/13
 
-# Codificación de caracteres:
+# Codificación de caracteres.
 SET UTF-8
 
 # Caracteres que se buscarán para facer suxestións de substitucións 
-# cando unicamente varíe un carácter na cadea
+# cando unicamente varíe un carácter na cadea.
 TRY -aáàâãäeéêèiïìíîoóòôõöuùúûübcçdfghjklmnñpqrstvxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÀÈÌÒÙÏÜÇ·
 
-# Indícase o tipo de nomenclatura das regras de afixación
+# Indícase o tipo de nomenclatura das regras de afixación.
 FLAG num
 
 # O seguinte parámetro («666») utilizarase para indicar que a raíz
