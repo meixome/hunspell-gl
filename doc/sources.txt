@@ -11,28 +11,10 @@ Module Files
 Each module might contain any combination of the following files:
 
 
-dependencies.txt
-----------------
-
-List of modules this module depends on, each one in a new line.
-
-
 header.txt
 ----------
 
-Text to be added to the header of both the resulting .aff and .dic files.
-
-
-header-aff.txt
---------------
-
 Text to be added to the header of the resulting .aff file.
-  
-
-header-dic.txt
---------------
-
-Text to be added to the header of the resulting .dic file.
 
 
 main.aff
