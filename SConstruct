@@ -2,80 +2,77 @@
 
 import mmap, os
 
-#---# HELP #-----------------------------------------------------------------------------------------------------------#
+#---# Valores predeterminados #----------------------------------------------------------------------------------------#
+
+defaultAff  = u'norma,unidades'
+defaultDic  = u'unidades,volga'
+defaultCode = u'gl'
+
+#---# Axuda #----------------------------------------------------------------------------------------------------------#
 
 Help("""
-Type: 'scons [aff=<rules>] [dic=<dictionary name>] [lang=<language code>]' to build the spellchecker with the specified
-rules and dictionary, using the specified language code for the filename.
+Execute «scons aff=<módulos de regras> dic=<módulos de dicionario> code=<código de lingua>» para construír o corrector cos módulos indicados para as regras e o dicionario, empregando o código de lingua indicado para o nome dos ficheiros.
 
-Supported values:
+Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
+    scons dic=volga,unidades
 
-    RULES
+Os valores por omisión son:
 
-    core    Normas ortográficas e morfolóxicas do idioma galego
-            Real Academia Galega / Instituto da Lingua Galega, 2003.
-            http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+    Regras: {aff}.
+    Dicionario: {dic}.
+    Código de lingua: {code} (dá lugar a «{code}.aff» e «{code}.dic»).
 
-
-    DICTIONARY
-
-    volga   Vocabulario ortográfico da lingua galega
-            Santamarina Fernández, Antón e González González, Manuel (coord.)
-            Real Academia Galega / Instituto da Lingua Galega, 2004.
-            http://www.realacademiagalega.org/volga/
+Módulos dispoñíbeis:
 
 
-Default values are ‘core’ for the rules and ‘volga’ for the dictionary. Default language code is ‘gl’, resulting in the
-files ‘gl.aff’ and ‘gl.dic’.
+    REGRAS
+
+    norma    Normas ortográficas e morfolóxicas do idioma galego
+             Real Academia Galega / Instituto da Lingua Galega, 2003.
+             http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+            
+    unidades Prefixos e sufixos para símbolos de unidades.
+             http://en.wikipedia.org/wiki/International_System_of_Units
+             Nota: inclúense prefixos para unidades binarias.
 
 
-You can optionally define the rules or dictionary specifying a comma-separated list of modules. Example:
+    DICIONARIO
+            
+    unidades Símbolos de unidades.
+             http://en.wikipedia.org/wiki/International_System_of_Units
+             Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
 
-    scons dic=volga,trasno,numbers,names
+    volga    Vocabulario ortográfico da lingua galega
+             Santamarina Fernández, Antón e González González, Manuel (coord.)
+             Real Academia Galega / Instituto da Lingua Galega, 2004.
+             http://www.realacademiagalega.org/volga/
     
-To specify a single module, add a comma to it as suffix:
-
-    scons dic=trasno,
-    
-Supported modules are:
-
-    core    Normas ortográficas e morfolóxicas do idioma galego
-            Real Academia Galega / Instituto da Lingua Galega, 2003.
-            http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
-    
-    volga   Vocabulario ortográfico da lingua galega
-            Santamarina Fernández, Antón e González González, Manuel (coord.)
-            Real Academia Galega / Instituto da Lingua Galega, 2004.
-            http://www.realacademiagalega.org/volga/
-    
-""")
+""".format(aff=defaultAff, dic=defaultDic, code=defaultCode))
 
 
 #---# Builders #-------------------------------------------------------------------------------------------------------#
 
 
-# Creates an empty file at the specified location.
-#
 def initialize(target):
+    """ Crea un ficheiro baleiro na ruta indicada.
+    """
     with open(target, 'w') as file:
         file.write('')
 
 
-# Determines whether the specified directory is a module.
-#
 def isModule(directory):
+    """ Determina se o directorio indicado é un módulo.
+    """
     if unicode(directory) == 'src':
         return False
     else:
         return True
 
 
-# Includes header data from the source module in the target file.
-#
-# To be called from extendAff() and extendDic().
-#
 def extendHeader(target, source, env):
+    """ Inclúe os datos para a cabeceira do módulo de orixe no ficheiro de destino.
+    """
     with open(target, 'a') as targetFile:
         try:
             with open(os.path.join(source, 'header.txt')) as sourceFile:
@@ -84,11 +81,9 @@ def extendHeader(target, source, env):
             pass
 
 
-# Includes data from the source module in an existing or non-existing .aff file (the target).
-#
-# To be called from createAff().
-#
 def extendAff(target, source, env):
+    """ Inclúe datos do módulo de orixe nun ficheiro .aff, o de destino, que pode que exista ou que non.
+    """
     with open(target, 'a') as targetFile:
         try:
             with open(os.path.join(source, 'main.aff')) as sourceFile:
@@ -97,21 +92,19 @@ def extendAff(target, source, env):
             pass
 
 
-# Includes data from the source module in an existing or non-existing .dic file (the target).
-#
-# To be called from createDic().
-#
 def extendDic(target, source):
-        try:
-            with open(os.path.join(source, 'main.dic')) as sourceFile:
-                return sourceFile.read()
-        except IOError:
-            return ''
+    """ Inclúe datos do módulo de orixe nun ficheiro .dic, o de destino, que pode que exista ou que non.
+    """
+    try:
+        with open(os.path.join(source, 'main.dic')) as sourceFile:
+            return sourceFile.read()
+    except IOError:
+        return ''
 
 
-# Builds the target .aff file from the specified source modules.
-#
 def createAff(target, source, env):
+    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
+    """
     target = unicode(target[0])
     initialize(target)
     for directory in source:
@@ -122,9 +115,9 @@ def createAff(target, source, env):
             extendAff(target, unicode(directory), env)
 
 
-# Builds the target .dic file from the specified source modules.
-#
 def createDic(target, source, env):
+    """ Constrúe o ficheiro .dic a partir dos módulos indicados.
+    """
     target = unicode(target[0])
     content = ''
     for directory in source:
@@ -133,42 +126,29 @@ def createDic(target, source, env):
     contentLines = content.count('\n')
     with open(target, 'w') as targetFile:
         targetFile.write('{}\n{}'.format(contentLines, content))
+        
+        
+def parseModuleList(string):
+    if ',' in string:
+        return [Dir('src/{}'.format(module)) for module in string.split(',')]
+    else:
+        return [Dir('src/{}'.format(string))]
 
 
-# Hunspell file builder.
+# Construtores para os ficheiros de Hunspell.
 env = Environment()
 env['BUILDERS']['rules'] = Builder(action = createAff)
 env['BUILDERS']['dictionary'] = Builder(action = createDic)
 
 
-#---# ARGUMENTS PARSING #----------------------------------------------------------------------------------------------#
+#---# Análise dos argumentos da chamada #------------------------------------------------------------------------------#
 
-languageCode = ARGUMENTS.get('code', 'gl')
-rules = ARGUMENTS.get('aff', 'core')
-dictionary = ARGUMENTS.get('dic', 'volga')
-
-
-#---# BUILD #----------------------------------------------------------------------------------------------------------#
+languageCode = ARGUMENTS.get('code', defaultCode)
+rules = ARGUMENTS.get('aff', defaultAff)
+dictionary = ARGUMENTS.get('dic', defaultDic)
 
 
+#---# Construción #----------------------------------------------------------------------------------------------------#
 
-
-# RULES (.aff)
-if ',' in rules:
-    env.rules('build/{}.aff'.format(languageCode), [Dir('src/{}'.format(module)) for module in rules.split(',')])
-elif rules == 'core':
-    env.rules('build/{}.aff'.format(languageCode), [Dir('src/{}'.format(module)) for module in ['core']])
-else:
-    raise Exception('Unsuported rules: {}'.format(rules))
-
-
-# DICTIONARY (.dic)
-
-if ',' in dictionary:
-    env.dictionary('build/{}.dic'.format(languageCode), [Dir('src/{}'.format(module)) for module in dictionary.split(',')])
-elif dictionary == 'volga':
-    env.dictionary('build/{}.dic'.format(languageCode), [Dir('src/{}'.format(module)) for module in ['core', 'volga']])
-elif dictionary == 'trasno':
-    env.dictionary('build/{}.dic'.format(languageCode), [Dir('src/{}'.format(module)) for module in ['core', 'volga', 'trasno']])
-else:
-    raise Exception('Unsuported dictionary: {}'.format(dictionary))    
+env.rules('build/{}.aff'.format(languageCode), parseModuleList(rules))
+env.dictionary('build/{}.dic'.format(languageCode), parseModuleList(dictionary))
