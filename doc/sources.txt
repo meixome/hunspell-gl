@@ -1,29 +1,38 @@
-The source files are organized in modules under the “src/” folder. Each module is lodated at “src/<module name>”.
+Os ficheiros fonte están organizados en módulos, cartafoles dentro do cartafol «src».
 
-Module files define parts that are used to build the .aff and .dic files of the spellchecker (e.g. gl.aff and gl.dic).
-The modular approach makes it possible to define extensions to the main spellchecker, with words and affixes that might
-not be part of the standard Galician language and rules.
+Os ficheiros dos módulos xúntanse durante a construción do corrector para dar lugar a un único ficheiro «.aff» e outro
+«.dic»; por exemplo: «gl.aff» e «gl.dic».
+
+O sistema modular permite definir extensións do corrector principal, con vocabulario e regras que non teñen por que
+formar parte do galego estándar.
 
 
-Module Files
-============
+Contido de cada módulo
+======================
 
-Each module might contain any combination of the following files:
+Cada módulo poderá conter calquera combinación dos seguintes ficheiros:
 
 
 header.txt
 ----------
 
-Text to be added to the header of the resulting .aff file.
+Texto para engadir na cabeceira do ficheiro «.aff».
 
 
 main.aff
 --------
 
-Text to be added to the body of the resulting .aff file.
+Texto para engadir no corpo do ficheiro «.aff».
 
 
 main.dic
 --------
 
-Text to be added to the body of the resulting .dic file.
+Texto para engadir no corpo do ficheiro «.dic».
+
+
+Códigos de regras reservados
+============================
+
+- norma:       0 → 1000
+- unidades: 1001 → 1010
