@@ -13,7 +13,7 @@ FLAG num
 # do dicionario que se utiliza precisa necesariamente dunha regra de afixación
 NEEDAFFIX 666
 
-# Cadeas de teclas próximas no teclado que poden ser
+# As seguintes son cadeas de teclas que, dada a súa proximidade, poden ser
 # facilmente confundidas á hora de teclear unha palabra. En cada serie de
 # teclas ─separadas por unha barra vertical, «|»─ terase en conta as teclas
 # á esquerda e dereita de cada unha.
