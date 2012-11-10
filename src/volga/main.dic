@@ -40501,6 +40501,7 @@ Au/999 po:símbolo
 B/999 po:símbolo
 Ba/999 po:símbolo
 Be/999 po:símbolo
+Bh/999 po:símbolo
 Bi/999 po:símbolo
 Bk/999 po:símbolo
 Br/999 po:símbolo
@@ -40514,18 +40515,21 @@ Cf/999 po:símbolo
 Ci/999 po:símbolo
 Cl/999 po:símbolo
 Cm/999 po:símbolo
+Cn/999 po:símbolo
 Co/999 po:símbolo
 Cr/999 po:símbolo
 Cs/999 po:símbolo
 Cu/999 po:símbolo
 D/999 po:símbolo
 dB/999 po:símbolo
+Db/999 po:símbolo
 Dy/999 po:símbolo
 Er/999 po:símbolo
 Es/999 po:símbolo
 Eu/999 po:símbolo
 F/999 po:símbolo
 Fe/999 po:símbolo
+Fl/999 po:símbolo
 Fm/999 po:símbolo
 Fr/999 po:símbolo
 Ga/999 po:símbolo
@@ -40552,7 +40556,9 @@ L/999 po:símbolo
 l/999 po:símbolo
 La/999 po:símbolo
 Li/999 po:símbolo
+Lr/999 po:símbolo
 Lu/999 po:símbolo
+Lv/999 po:símbolo
 Lw/999 po:símbolo
 lx/999 po:símbolo
 Md/999 po:símbolo
@@ -40561,6 +40567,7 @@ mg/999 po:símbolo
 Mhz/999 po:símbolo
 Mn/999 po:símbolo
 Mo/999 po:símbolo
+Mt/999 po:símbolo
 Mv/999 po:símbolo
 N/999 po:símbolo
 N/999 po:símbolo
@@ -40589,6 +40596,7 @@ Ra/999 po:símbolo
 Rb/999 po:símbolo
 rd/999 po:símbolo
 Re/999 po:símbolo
+Rf/999 po:símbolo
 Rg/999 po:símbolo
 Rh/999 po:símbolo
 Rh/999 po:símbolo
@@ -40599,6 +40607,7 @@ S/999 po:símbolo
 Sb/999 po:símbolo
 Sc/999 po:símbolo
 Se/999 po:símbolo
+Sg/999 po:símbolo
 Si/999 po:símbolo
 Sm/999 po:símbolo
 Sn/999 po:símbolo
@@ -40612,6 +40621,10 @@ Ti/999 po:símbolo
 Tl/999 po:símbolo
 Tm/999 po:símbolo
 U/999 po:símbolo
+Uuo/999 po:símbolo
+Uup/999 po:símbolo
+Uus/999 po:símbolo
+Uut/999 po:símbolo
 V/999 po:símbolo
 V/999 po:símbolo
 W/999 po:símbolo
