@@ -1,0 +1,49 @@
+A/1001,1002,1003    # Amperio.
+b/1001,1004         # Bit.
+B/1001,1004         # Byte.
+Bq/1001,1002,1003
+C/1001,1002,1003    # Coulomb.
+°C                  # Grao centígrado.
+cd                  # Candela.
+F/1001,1002,1003    # Farad.
+g/1001,1002,1003    # Gramo.
+Gy/1001,1002,1003
+H/1001,1002,1003    # Henry.
+Hz/1001,1002,1003   # Hercio.
+I                   # Corrente eléctrica (símbolo de cantidade e da dimensión).
+Iᵥ                  # Intersidade luminosa (símbolo de cantidade).
+J                   # Intersidade luminosa (símbolo da dimensión).
+J/1001,1002,1003    # Xulio.
+K/1001,1002,1003    # Kelvin.
+kat/1001,1002,1003
+l                   # Lonxitude (símbolo de cantidade).
+L                   # Lonxitude (símbolo da dimensión).
+lm/1001,1002,1003   # Lumen.
+lx/1001,1002,1003   # Lux.
+m/1001,1002,1003    # Metro.
+m                   # Masa (símbolo de cantidade).
+M                   # Masa (símbolo da dimensión).
+mag                 # Miriagramo (10 000).
+mol                 # Mol.
+n                   # Cantidade de substancia (símbolo de cantidade).
+N                   # Cantidade de substancia (símbolo da dimensión).
+N/1001,1002,1003    # Newton.
+Θ                   # Temperatura termodinámica (símbolo da dimensión).
+Pa/1001,1002,1003   # Pascal.
+q                   # Quintal métrico (100 000).
+r                   # Lonxitude (símbolo de cantidade).
+rad                 # Radián.
+s/1001,1002,1003    # Segundo.
+S/1001,1002,1003    # Siemens.
+sr/1001,1002,1003
+Sv/1001,1002,1003   # Sievert.
+t                   # Tempo (símbolo de cantidade).
+t                   # Tonelada.
+T                   # Tempo (símbolo da dimensión).
+T                   # Temperatura termodinámica (símbolo de cantidade).
+T/1001,1002,1003    # Tesla.
+V/1001,1002,1003    # Voltio.
+W/1001,1002,1003    # Watt.
+Wb/1001,1002,1003   # Wéber.
+x                   # Lonxitude (símbolo de cantidade).
+Ω/1001,1002,1003    # Ohm.
