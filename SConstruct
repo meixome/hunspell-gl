@@ -5,7 +5,7 @@ import mmap, os
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma,unidades'
-defaultDic  = u'iso639,unidades,volga'
+defaultDic  = u'iso639,iso4217,unidades,volga'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -40,7 +40,10 @@ Módulos dispoñíbeis:
     DICIONARIO
             
     iso639          Códigos de linguas (ISO 639).
-                    http://en.wikipedia.org/wiki/ISO_639
+                    http://gl.wikipedia.org/wiki/ISO_639
+            
+    iso4217         Códigos de moedas (ISO 4217).
+                    http://gl.wikipedia.org/wiki/ISO_4217
             
     unidades        Símbolos de unidades.
                     http://en.wikipedia.org/wiki/International_System_of_Units
