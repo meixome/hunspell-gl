@@ -5,7 +5,7 @@ import mmap, os
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma,unidades'
-defaultDic  = u'unidades,volga'
+defaultDic  = u'iso639,unidades,volga'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -28,25 +28,28 @@ Módulos dispoñíbeis:
 
     REGRAS
 
-    norma    Normas ortográficas e morfolóxicas do idioma galego
-             Real Academia Galega / Instituto da Lingua Galega, 2003.
-             http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+    norma           Normas ortográficas e morfolóxicas do idioma galego
+                    Real Academia Galega / Instituto da Lingua Galega, 2003.
+                    http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
             
-    unidades Prefixos e sufixos para símbolos de unidades.
-             http://en.wikipedia.org/wiki/International_System_of_Units
-             Nota: inclúense prefixos para unidades binarias.
+    unidades        Prefixos e sufixos para símbolos de unidades.
+                    http://en.wikipedia.org/wiki/International_System_of_Units
+                    Nota: inclúense prefixos para unidades binarias.
 
 
     DICIONARIO
             
-    unidades Símbolos de unidades.
-             http://en.wikipedia.org/wiki/International_System_of_Units
-             Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
+    iso639          Códigos de linguas (ISO 639).
+                    http://en.wikipedia.org/wiki/ISO_639
+            
+    unidades        Símbolos de unidades.
+                    http://en.wikipedia.org/wiki/International_System_of_Units
+                    Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
 
-    volga    Vocabulario ortográfico da lingua galega
-             Santamarina Fernández, Antón e González González, Manuel (coord.)
-             Real Academia Galega / Instituto da Lingua Galega, 2004.
-             http://www.realacademiagalega.org/volga/
+    volga           Vocabulario ortográfico da lingua galega
+                    Santamarina Fernández, Antón e González González, Manuel (coord.)
+                    Real Academia Galega / Instituto da Lingua Galega, 2004.
+                    http://www.realacademiagalega.org/volga/
     
 """.format(aff=defaultAff, dic=defaultDic, code=defaultCode))
 
