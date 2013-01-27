@@ -47308,6 +47308,8 @@ escanciar/200,201 po:verbo ts:transitiva VOLG: t al:escánciar
 escánciar/666,202 st:escanciar ts:alomorfo escanciar transitiva
 escandalizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:escandalízar
 escandalízar/666,202,232 st:escandalizar ts:alomorfo escandalizar transitiva / pronominal
+escanear/200,201 po:verbo ts:transitiva VOLG: t al:patronéar
+escanéar/666,202 st:escanear ts:alomorfo escanear transitiva
 escangallar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:escangállar
 escangállar/666,202,232 st:escangallar ts:alomorfo escangallar transitiva / pronominal
 escantrelar/200,201 po:verbo ts:transitiva VOLG: t al:escantrélar
