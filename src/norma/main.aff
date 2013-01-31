@@ -408,6 +408,10 @@ REP grab grav      # grabar → gravar.
 REP gráb gráv      # grabar → gravar.
 REP gran engrai      # granar → engraiar.
 REP grán engrái      # granar → engraiar.
+REP ^gravitatorio$ gravitacional    # gravitatorio → gravitacional
+REP ^gravitatoria$ gravitacional    # gravitatorio → gravitacional
+REP ^gravitatorios$ gravitacionais  # gravitatorio → gravitacional
+REP ^gravitatorias$ gravitacionais  # gravitatorio → gravitacional
 REP ie e     # Exemplo: miel → mel.
 REP ié é     # Exemplo: piénsao → pénsao.
 REP ig igu      # igar → iguar.
