@@ -1311,7 +1311,8 @@ REP polrón porlón # polrón -> porlón
 REP porche soportal # porche -> soportal
 REP postema apostema # postema -> apostema
 REP postre sobremesa # postre -> sobremesa
-REP preacordo acordo_previo # preacordo -> acordo previo
+REP ^preacordo$ acordo_previo # preacordo -> acordo previo
+REP ^preacordos$ acordos_previos # preacordo -> acordo previo
 REP preaviso aviso_previo # preaviso -> aviso previo
 REP precio prezo # precio -> prezo
 REP pro prol # pro2 -> prol
