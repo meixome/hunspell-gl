@@ -544,6 +544,12 @@ REP promedio termo     # Erro común.
 REP peldaño banzo           # peldaño → banzo, chanzo, paso.
 REP peldaño chanzo          # peldaño → banzo, chanzo, paso.
 REP peldaño paso            # peldaño → banzo, chanzo, paso.
+REP ^perrucaría$ salón_de_peiteado    # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+REP ^perrucarías$ salóns_de_peiteado  # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+REP ^perruquería$ salón_de_peiteado   # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+REP ^perruquerías$ salóns_de_peiteado # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+REP perrucaría barbaría               # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+REP perruquería barbería              # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
 REP perxudiqu prexudic      # perxudicar → prexudicar.
 REP perxudíqu prexudíc      # perxudicar → prexudicar.
 REP perxudic dan      # perxudicar → danar.
