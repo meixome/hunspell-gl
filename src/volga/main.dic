@@ -42881,8 +42881,8 @@ autosuxestionar/230,231 po:verbo ts:pronominal VOLG: pr al:autosuxestiónar
 autosuxestiónar/666,232 st:autosuxestionar ts:alomorfo autosuxestionar pronominal
 auxiliar/200,201 po:verbo ts:transitiva VOLG: t / [ks] al:auxíliar
 auxíliar/666,202 st:auxiliar ts:alomorfo auxiliar transitiva
-avagar/220,221 po:verbo ts:intransitiva VOLG: i al:avágar
-avágar/666,222 st:avagar ts:alomorfo avagar intransitiva
+avagar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:avágar
+avágar/666,202,222 st:avagar ts:alomorfo avagar transitiva / intransitiva
 avaiñar/201 po:verbo ts:transitiva VOLG: t al:avaíñar
 avaíñar/666,200,202 st:avaiñar ts:alomorfo avaiñar transitiva
 avalar/200,201 po:verbo ts:transitiva VOLG: t al:aválar
