@@ -50156,8 +50156,8 @@ pregar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / lat pra
 prégar/666,202,222 st:pregar st:pregartransitiva / intransitiva pregar st: is:
 pregoar/200,201 po:verbo ts:transitiva VOLG: t al:pregóar
 pregóar/666,202 st:pregoar ts:alomorfo pregoar transitiva
-preguntar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:pregúntar
-pregúntar/666,202,222 st:preguntar ts:alomorfo preguntar transitiva / intransitiva
+preguntar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t pr i al:pregúntar
+pregúntar/666,202,222,232 st:preguntar ts:alomorfo preguntar transitiva / intransitiva / pronominal
 pregustar/200,201 po:verbo ts:transitiva VOLG: t al:pregústar
 pregústar/666,202 st:pregustar ts:alomorfo pregustar transitiva
 preitear/220,221 po:verbo ts:intransitiva VOLG: i al:preitéar
