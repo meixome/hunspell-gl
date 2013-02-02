@@ -5254,7 +5254,7 @@ SFX 315     er     io/666,100,110,111     [áó]er . is:presente P1 + enclítico
 SFX 315     r     s/666,100,112,113     er . is:presente P2 + enclítico
 SFX 315     er     e/666,100,114,115     er . is:presente P3 + enclítico
 SFX 315     r     n/666,100,114,115     er . is:presente P6 + enclítico
-SFX 315     er     a/666,100,110,111     [^cuáó]er . is:subxuntivo presente P1 / P3 + enclítico
+SFX 315     er     a/666,100,110,111,114,115     [^cuáó]er . is:subxuntivo presente P1 / P3 + enclítico
 SFX 315     cer     za/666,100,110,111,114,115     cer . is:subxuntivo presente P1 / P3 + enclítico
 SFX 315     guer     ga/666,100,110,111,114,115     guer . is:subxuntivo presente P1 / P3 + enclítico
 SFX 315     quer     ca/666,100,110,111,114,115     quer . is:subxuntivo presente P1 / P3 + enclítico
