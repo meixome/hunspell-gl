@@ -240,6 +240,8 @@ REP descubill desacubill      # descubillar → desacubillar.
 REP descubíll desacubíll      # descubillar → desacubillar.
 REP desembrull desenvurull      # desembrullar → desenvurullar.
 REP desembrúll desenvurúll      # desembrullar → desenvurullar.
+REP desemple desempreg          # desemplear → desempregar.
+REP desemple desempregu         # desemplear → desempregar.
 REP desliz escorr      # deslizar → escorrer.
 REP deslíz escórr      # deslizar → escorrer.
 REP desliza escorre      # deslizar → escorrer.
