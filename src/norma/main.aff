@@ -210,6 +210,7 @@ REP conqueriu conquistou     # conquerer → conquistar.
 REP conqueríu conquistóu     # conquerer → conquistar.
 REP cost cust      # costar → custar.
 REP cóst cúst      # costar → custar.
+REP coste custo    # coste → custo.
 REP ct t     # Exemplo: conflicto → conflito.
 REP cuall call      # cuallar → callar.
 REP cuáll cáll      # cuallar → callar.
