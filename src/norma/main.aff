@@ -162,6 +162,7 @@ REP bucear mergullarse      # bucear → mergullarse.
 REP bull debull      # bullar → debullar.
 REP búll debúll      # bullar → debullar.
 REP bursátil bolsista     # Erro común.
+REP buzón caixa_do_correo # buzón → caixa do correo.
 REP caí cae      # caír → caer.
 REP caí caé      # caír → caer.
 REP cai cae      # caír → caer.
@@ -1142,7 +1143,6 @@ REP burdel bordel # burdel -> bordel
 REP burladero abeiro # burladero -> abeiro
 REP burmeiro brumeiro # burmeiro -> brumeiro
 REP burullo vurullo # burullo -> vurullo
-REP buzón caixa_de_correos # buzón -> caixa de correos
 REP cabestrillo estribeira # cabestrillo -> estribeira
 REP cabildo cabido # cabildo -> cabido
 REP caborco cavorco # caborco -> cavorco
