@@ -97,6 +97,12 @@ REP aig ai
 REP áig ái
 REP alambr aram      # alambrar → aramar.
 REP alámbr arám      # alambrar → aramar.
+REP ^aluguer$ alugamento    # aluguer → alugamento, alugueiro, renda.
+REP ^aluguer$ alugueiro     # aluguer → alugamento, alugueiro, renda.
+REP ^aluguer$ renda         # aluguer → alugamento, alugueiro, renda.
+REP ^alugueres$ alugamentos # aluguer → alugamento, alugueiro, renda.
+REP ^alugueres$ alugueiros  # aluguer → alugamento, alugueiro, renda.
+REP ^alugueres$ rendas      # aluguer → alugamento, alugueiro, renda.
 REP andamio estada     # Erro común.
 REP andén plataforma     # Erro común.
 REP anicr anic      # anicrar → anicar.
