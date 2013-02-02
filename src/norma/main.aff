@@ -712,13 +712,15 @@ REP ué ó     # Exemplo: cuéntallo → cóntallo.
 REP uniformiz uniform     # uniformizar → uniformar.
 REP uniformíz unifórm     # uniformizar → uniformar.
 REP uniformic uniform     # uniformizar → uniformar.
-REP uniformíc unifórm      # uniformizar → uniformar.
+REP uniformíc unifórm     # uniformizar → uniformar.
 REP ^vial$ viaria   # vial → viario.
 REP ^vial$ viario   # vial → viario.
 REP ^viais$ viarias # vial → viario.
 REP ^viais$ viarios # vial → viario.
-REP x ll     # Exemplo: parexa → parella.
+REP x ll                  # Exemplo: parexa → parella.
 REP xener xer             # xenerar → xerar.
+REP xeralic xeneralic     # xeralizar → xeneralizar.
+REP xeraliz xeneraliz     # xeralizar → xeneralizar.
 REP y ll     # Na maioría dos casos tratarase dun castelanismo.
 REP z ci     # Exemplo: silenzo → silencio.
 REP zamp chap      # zampar → chapar.
