@@ -741,6 +741,11 @@ REP valeroso valoroso # valeroso -> valoroso
 REP valerosa valorosa # valeroso -> valoroso
 REP veriño albeiro # veriño2 -> albeiro
 REP veriña albeira # veriño2 -> albeiro
+REP ^xóvenes$ mocidade  # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+REP ^xóvenes$ mozos     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+REP ^xóvenes$ novos     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+REP ^xóvenes$ xoves     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+REP ^xóvenes$ xuventude # xóvenes → mocidade, mozos, novos, xoves, xuventude.
 REP ábrego ávrego # ábrego -> ávrego
 REP ábrega ávrega # ábrego -> ávrego
 REP realengo reguengo # realengo -> reguengo
