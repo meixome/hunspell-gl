@@ -426,7 +426,8 @@ REP inxért enxért      # inxertar → enxertar.
 REP is les     # Exemplo: cais → cales.
 REP laric latric      # laricar → latricar.
 REP laríc latríc      # laricar → latricar.
-REP les is     # Exemplo: casuales → casuais.
+REP les is            # Exemplo: casuales → casuais.
+REP línea liña        # línea → liña.
 REP ll x
 REP lonxan afastad     # lonxano → afastado.
 REP lonxano distante     # lonxano → distante.
