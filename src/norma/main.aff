@@ -447,6 +447,8 @@ REP merm mingü      # mermar → minguar.
 REP mérm míngü      # mermar → minguar.
 REP mez mex      # mecer → mexer.
 REP méz méx     # mecer → mexer.
+REP ^mirador$ miradoiro    # mirador → miradoiro.
+REP ^miradores$ miradoiros # mirador → miradoiro.
 REP mixiric mexeric      # mixiricar → mexericar.
 REP mixiríc mexeríc      # mixiricar → mexericar.
 REP mordisc adent      # mordiscar → adentar.
