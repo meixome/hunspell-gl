@@ -417,6 +417,7 @@ REP íg ígü      # igar → iguar.
 REP imb envi      # imbar → enviar.
 REP imb enví      # imbar → enviar.
 REP ímb enví      # imbar → enviar.
+REP ^infantiles$ infantís   # infantiles → infantís.
 REP intrinc intric      # intrincar → intricar.
 REP intrínc intríc      # intrincar → intricar.
 REP inxer enxer      # inxerir → enxerir.
