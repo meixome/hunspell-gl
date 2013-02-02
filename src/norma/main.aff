@@ -171,6 +171,8 @@ REP calamares luras     # calamar → lura.
 REP calaveira caveira     # Erro común.
 REP calific cualific      # calificar → cualificar.
 REP califíc cualifíc      # calificar → cualificar.
+REP ^callejón$ rúa        # callejón → rúa.
+REP ^callejones^ rúas     # callejón → rúa.
 REP cañ can      # cañonear → canonear.
 REP carbunco carbuncho     # Erro común.
 REP carbunco carafuncho     # Erro común.
