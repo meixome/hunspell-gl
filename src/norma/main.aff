@@ -492,6 +492,9 @@ REP prexudicios daniñ     # prexudiciosa → daniña.
 REP promedio media     # Erro común.
 REP promedio medio     # Erro común.
 REP promedio termo     # Erro común.
+REP peldaño banzo           # peldaño → banzo, chanzo, paso.
+REP peldaño chanzo          # peldaño → banzo, chanzo, paso.
+REP peldaño paso            # peldaño → banzo, chanzo, paso.
 REP perxudiqu prexudic      # perxudicar → prexudicar.
 REP perxudíqu prexudíc      # perxudicar → prexudicar.
 REP perxudic dan      # perxudicar → danar.
