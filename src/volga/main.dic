@@ -54241,8 +54241,8 @@ sobrescribir/600,601 po:verbo ts:transitiva VOLG t al:sobrescríbir
 sobrescríbir/666,602 st:sobrescribir ts:alomorfo sobrescribir transitiva
 sobrevir/740,741,745 po:verbo ts:intransitiva VOLG i al:sobreviñer
 sobreviñer/666,741,743,744 st:sobrevir ts:alomorfo sobrevir intransitiva
-sobrevivir/750,751 po:verbo ts:defectivo intransitiva VOLG i al:sobrevívir
-sobrevívir/666,752 st:sobrevivir ts:alomorfo sobrevivir defectivo intransitiva
+sobrevivir/700,701 po:verbo ts:intransitiva VOLG i al:sobrevívir
+sobrevívir/666,702 st:sobrevivir ts:alomorfo sobrevivir intransitiva
 sofritir/600,601 po:verbo ts:transitiva VOLG t al:sofrítir
 sofrítir/666,602 st:sofritir ts:alomorfo sofritir transitiva
 sofrixir/600,601 po:verbo ts:transitiva VOLG t al:sofríxir
