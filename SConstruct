@@ -1,6 +1,6 @@
 # coding=utf-8
 
-import mmap, os
+import mmap, os, re
 
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
@@ -41,10 +41,10 @@ Módulos dispoñíbeis:
 
 
     DICIONARIO
-            
+
     iso639          Códigos de linguas (ISO 639).
                     http://gl.wikipedia.org/wiki/ISO_639
-            
+
     iso4217         Códigos de moedas (ISO 4217).
                     http://gl.wikipedia.org/wiki/ISO_4217
 
@@ -82,15 +82,54 @@ def isModule(directory):
         return True
 
 
-def extendHeader(target, source, env):
-    """ Inclúe os datos para a cabeceira do módulo de orixe no ficheiro de destino.
+def isNotUseless(line):
+    """ Determina se a liña indicada ten algunha utilidade para o corrector, ou se pola contra se trata dunha liña que
+        ten unicamente un comentario, ou se trata duña liña baleira.
     """
-    with open(target, 'a') as targetFile:
-        try:
-            with open(os.path.join(source, 'header.txt')) as sourceFile:
-                targetFile.write(sourceFile.read())
-        except IOError:
-            pass
+    if line[0] == "#":
+        return False
+    elif line.strip() == "":
+        return False
+    else:
+        return True
+
+
+def removeAnyCommentFrom(line):
+    """ Se a liña ten un comentario, elimínao.
+
+        Nota: se a liña acababa en salto de liña, este tamén se eliminará xunto co comentario.
+    """
+    index = line.find('#')
+    if index < 0:
+        return line
+    else:
+        return line[0:index]
+
+
+def removeMultipleSpacesOrTabsFrom(line):
+    """ Converte as tabulacións da liña en espazos, e reduce estes ao mínimo necesario. É dicir, toda tabulación ou
+        grupo de tabulacións e grupo de espazos quedarán reducidos a un único espazo cada un.
+
+        Por exemplo, se a liña é:
+
+            "\t\t\t1\tasdfasdf    2  \t\t  \t 3"
+
+        Devolverase:
+
+            " 1 2 3"
+    """
+    line = line.replace('\t', ' ')
+    line = re.sub(' +', ' ', line)
+    return line
+
+
+
+def stripLine(line):
+    line = removeAnyCommentFrom(line)
+    line = line.rstrip() + '\n'
+    line = removeMultipleSpacesOrTabsFrom(line)
+    return line
+
 
 
 def extendAff(target, source, env):
@@ -98,10 +137,24 @@ def extendAff(target, source, env):
     """
     with open(target, 'a') as targetFile:
         try:
+            parsedContent = ""
             with open(os.path.join(source, 'main.aff')) as sourceFile:
-                targetFile.write(sourceFile.read())
+                for line in sourceFile:
+                    if isNotUseless(line):
+                        parsedContent += stripLine(line)
+            targetFile.write(parsedContent)
         except IOError:
             pass
+
+
+def createAff(target, source, env):
+    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
+    """
+    target = unicode(target[0])
+    initialize(target)
+    for directory in source:
+        if isModule(directory):
+            extendAff(target, unicode(directory), env)
 
 
 def extendDic(target, source):
@@ -112,19 +165,6 @@ def extendDic(target, source):
             return sourceFile.read()
     except IOError:
         return ''
-
-
-def createAff(target, source, env):
-    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
-    """
-    target = unicode(target[0])
-    initialize(target)
-    for directory in source:
-        if isModule(directory):
-            extendHeader(target, unicode(directory), env)
-    for directory in source:
-        if isModule(directory):
-            extendAff(target, unicode(directory), env)
 
 
 def createDic(target, source, env):
@@ -138,8 +178,8 @@ def createDic(target, source, env):
     contentLines = content.count('\n')
     with open(target, 'w') as targetFile:
         targetFile.write('{}\n{}'.format(contentLines, content))
-        
-        
+
+
 def parseModuleList(string):
     if ',' in string:
         return [Dir('src/{}'.format(module)) for module in string.split(',')]
