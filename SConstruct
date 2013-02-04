@@ -161,8 +161,12 @@ def extendDic(target, source):
     """ Inclúe datos do módulo de orixe nun ficheiro .dic, o de destino, que pode que exista ou que non.
     """
     try:
+        parsedContent = ""
         with open(os.path.join(source, 'main.dic')) as sourceFile:
-            return sourceFile.read()
+            for line in sourceFile:
+                if isNotUseless(line):
+                    parsedContent += stripLine(line)
+        return parsedContent
     except IOError:
         return ''
 
@@ -175,9 +179,18 @@ def createDic(target, source, env):
     for directory in source:
         if isModule(directory):
             content += extendDic(target, unicode(directory))
-    contentLines = content.count('\n')
+
+    linesSeen = set()
+    for line in iter(content.splitlines()):
+        if line not in linesSeen:
+            linesSeen.add(line)
+
+    contentWithoutDuplicates = ""
+    for line in sorted(linesSeen):
+        contentWithoutDuplicates += line + '\n'
+
     with open(target, 'w') as targetFile:
-        targetFile.write('{}\n{}'.format(contentLines, content))
+        targetFile.write('{}\n{}'.format(len(linesSeen), contentWithoutDuplicates))
 
 
 def parseModuleList(string):
