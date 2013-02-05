@@ -1,0 +1,26 @@
+Este ficheiro explica como construír e instalar o correcto ortográfico.
+
+Dependencias
+============
+
+* SCons
+
+
+Construír
+=========
+
+Para construír o corrector ortográfico cos módulos predeterminados, execute:
+
+    scons
+    
+Para construír a edición especial para tradución ao galego, cos acordos terminolóxicos do Proxecto Trasno, execute:
+
+    scons aff=norma,trasno,unidades dic=iso639,iso4217,trasno,unidades,volga
+    
+Para volver construír o corrector ortográfico despois de cambiar algún ficheiro:
+
+    scons -c && scons
+
+Para obter información detallada sobre como construír un corrector ortográfico personalizado, con vocabulario non normativo e extensións, execute:
+
+    scons -h
