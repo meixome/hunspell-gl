@@ -36,3 +36,4 @@ Códigos de regras reservados
 
 - norma:       0 → 1000
 - unidades: 1001 → 1010
+- transo:   1011 → 1020

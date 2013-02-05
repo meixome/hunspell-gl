@@ -1,0 +1,75 @@
+and po:locución substantiva masculina # «look and feel»
+anovación/10 po:substantivo feminino
+aplicativo/10 po:substantivo masculino
+blogue/10 po:substantivo masculino
+búfer/10 po:substantivo masculino
+caché po:substantivo feminino
+claveiro/10 po:substantivo masculino
+debug/1011 po:substantivo masculino
+deseleccionar/200,201 po:verbo ts:transitiva VOLG: t al:deselecciónar
+deselecciónar/666,202 st:deseleccionar ts:alomorfo deseleccionar transitiva
+desenvolvedor/10,14 po:substantivo
+desinstalar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desinstálar
+desinstálar/666,202,232 st:desinstalar ts:alomorfo desinstalar transitiva / pronominal
+dilacerador/10 po:substantivo masculino
+display/10 po:substantivo masculino
+doca/10 po:substantivo feminino
+e-mail/1011 po:substantivo masculino
+encamiñador/10 po:substantivo masculino
+expr.reg. po:substantivo feminino
+feel po:locución substantiva masculina # «look and feel»
+flag/1011 po:substantivo masculino
+formatar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:formátar
+formátar/666,202,232 st:formatar ts:alomorfo formatar transitiva / pronominal
+iconificar/200,201 po:verbo ts:transitiva VOLG: t al:iconifícar
+iconifícar/666,202 st:iconificar ts:alomorfo iconificar transitiva
+indexador/10 po:substantivo masculino
+inicialización/10 po:substantivo feminino
+inicializar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:inicialízar
+inicialízar/666,202,232 st:inicializar ts:alomorfo inicializar transitiva / pronominal
+inode/1011 po:substantivo masculino
+inodo/10 po:substantivo masculino
+kernel/1011 po:substantivo masculino
+log/1011 po:substantivo masculino
+look po:locución substantiva masculina # «look and feel»
+manexador/10 po:substantivo masculino
+miniaplicativo/10 po:substantivo masculino
+monitorizar/200,201 po:verbo ts:transitiva VOLG: t al:monitorízar
+monitorízar/666,202 st:monitorizar ts:alomorfo monitorizar transitiva
+multimedia po:adxectivo
+navegador/10 po:substantivo masculino
+nick/1011 po:substantivo masculino
+ok po:interxección
+overscan/1011 po:substantivo masculino
+palpebrexar/220,221 po:verbo ts:intransitiva VOLG: i al:palpebréxar
+palpebréxar/666,222 st:palpebrexar ts:alomorfo palpebrexar intransitiva
+particionar/200,201 po:verbo ts:transitiva VOLG: t al:particiónar
+particiónar/666,202 st:particionar ts:alomorfo particionar transitiva
+picotador/10 po:substantivo masculino
+picotar/200,201 po:verbo ts:transitiva VOLG: t al:picótar
+picótar/666,202 st:picotar ts:alomorfo picotar transitiva
+portapapeis po:substantivo masculino
+predefinido/10,15 po:adxectivo
+predefinición/10 po:substantivo feminino
+previsualizar/200,201 po:verbo ts:transitiva VOLG: t al:previsualízar
+previsualízar/666,202 st:previsualizar ts:alomorfo previsualizar transitiva
+proxy/1011 po:substantivo masculino
+rearrancar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rearráncar
+rearráncar/666,202,222 st:rearrancar ts:alomorfo rearrancar transitiva / intransitiva
+router/1011 po:substantivo masculino
+salvapantallas po:substantivo masculino
+script/1011 po:substantivo masculino
+sinalador/10 po:substantivo masculino
+sobrescaneo/10 po:substantivo masculino
+socket/1011 po:substantivo masculino
+subfiestra/10 po:substantivo feminino
+subxanela/10 po:substantivo feminino
+swap/1011 po:substantivo masculino
+Tab
+tableta/10 po:substantivo feminino
+tabulación/10 po:substantivo feminino
+timeout/1011 po:substantivo masculino
+tooltip/1011 po:substantivo masculino
+vectorizar/200,201 po:verbo ts:transitiva VOLG: t al:vectorízar
+vectorízar/666,202 st:vectorizar ts:alomorfo vectorizar transitiva
+visualizador/10 po:substantivo masculino
