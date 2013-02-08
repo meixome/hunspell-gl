@@ -1502,17 +1502,19 @@ SFX 12     l     is     [^íi]l . is:plural
 SFX 12     il     ís     il . is:plural
 SFX 12     l     s     íl . is:plural
 
-# Plurais iregulares e atípicos
+# Plurais irregulares e atípicos
 # carácter - caracteres, gnomon - gnómones, leu - lei, lev - leva,
 # lied - lieder
-# troll - trolls 
-SFX 13     Y     6
+# troll - trolls
+# quilohertz - quilohertzs
+SFX 13     Y     7
 SFX 13     ácter     acteres     carácter . is:plural
 SFX 13     omon     ómones     gnomon . is:plural
 SFX 13     eu     ei     leu . is:plural
 SFX 13     0     a     lev . is:plural
 SFX 13     0     er     lied . is:plural
 SFX 13     0     s     troll . is:plural
+SFX 13     0     s     quilohertz . is:plural
 
 # Regras da flexión en feminino (singular e plural)
 
