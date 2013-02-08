@@ -1418,17 +1418,17 @@ REP zen cen # zen -> cen3
 REP exacoraliarios hexacoraliarios # exacoraliarios -> hexacoraliarios
 REP maitíns matíns # maitíns -> matíns
 REP maitíns matinas # maitíns -> matinas
-REP vintecatro vinte_e_catro # vintecatro -> vinte e catro
-REP vintecinco vinte_e_cinco # vintecinco -> vinte e cinco
-REP vintedous vinte_e_dous # vintedous -> vinte e dous
-REP vintedúas vinte_e_dúas vintedous -> vinte e dous
-REP vintenove vinte_e_nove # vintenove -> vinte e nove
-REP vinteoito vinte_e_oito # vinteoito -> vinte e oito
-REP vinteseis vinte_e_seis # vinteseis -> vinte e seis
-REP vintesete vinte_e_sete # vintesete -> vinte e sete
-REP vintetrés vinte_e_tres # vintetrés -> vinte e tres
-REP vinteún vinte_e_un # vinteún -> vinte e un
-REP vinteúnha vinte_e_unha # vinteún -> vinte e un
+REP ^vintecatro$ vinte_e_catro # vintecatro -> vinte e catro
+REP ^vintecinco$ vinte_e_cinco # vintecinco -> vinte e cinco
+REP ^vintedous$ vinte_e_dous # vintedous -> vinte e dous
+REP ^vintedúas$ vinte_e_dúas vintedous -> vinte e dous
+REP ^vintenove$ vinte_e_nove # vintenove -> vinte e nove
+REP ^vinteoito$ vinte_e_oito # vinteoito -> vinte e oito
+REP ^vinteseis$ vinte_e_seis # vinteseis -> vinte e seis
+REP ^vintesete$ vinte_e_sete # vintesete -> vinte e sete
+REP ^vintetrés$ vinte_e_tres # vintetrés -> vinte e tres
+REP ^vinteún$ vinte_e_un # vinteún -> vinte e un
+REP ^vinteunha$ vinte_e_unha # vinteún -> vinte e un
 REP aquelo aquilo # aquelo -> aquilo
 REP cadaseu cadanseu # cadaseu -> cadanseu
 REP cadasúa cadansúa # cadaseu -> cadanseu
