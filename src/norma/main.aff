@@ -624,6 +624,11 @@ REP terci terz      # terciar → terzar.
 REP térci térz      # terciar → terzar.
 REP terci terce      # terciar → terzar.
 REP térci térce      # terciar → terzar.
+REP tilde acento                        # tilde → acento, acento gráfico, acento ortográfico.
+REP ^tilde$ acento_gráfico              # tilde → acento, acento gráfico, acento ortográfico.
+REP ^tildes$ acentos_gráficos           # tilde → acento, acento gráfico, acento ortográfico.
+REP ^tilde$ acento_ortográfico          # tilde → acento, acento gráfico, acento ortográfico.
+REP ^tildes$ acentos_ortográficos       # tilde → acento, acento gráfico, acento ortográfico.
 REP tim estaf      # timar → estafar.
 REP tím estáf     # timar → estafar.
 REP tiz atiz      # tizar → atizar.
