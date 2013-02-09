@@ -91,6 +91,7 @@ REP aballó avelló     # aballoar → avelloar.
 REP accesar acceder     # accesar → acceder (o feito de que sexan conxugacións distintas é un problema).
 REP acobard acovard     # acobardar → acovardar.
 REP acobárd acovárd     # acobardar → acovardar.
+REP adosad contigu      # adosado, encostado → contiguo.
 REP afosc afusc     # afoscar → afuscar.
 REP afósc afúsc     # afoscar → afuscar.
 REP aig ai
@@ -318,6 +319,7 @@ REP embuz emboz      # embuzar → embozar.
 REP embúz embóz      # embuzar → embozar.
 REP empol ampol      # empolar → ampolar.
 REP empól ampól      # empolar → ampolar.
+REP encostad contigu       # adosado, encostado → contiguo.
 REP enemig agoni      # enemigar → agoniar.
 REP enemig agoní      # enemigar → agoniar.
 REP enemíg agoní      # enemigar → agoniar.
