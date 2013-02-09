@@ -500,6 +500,7 @@ REP olvidein esquecin      # olvidar → esquecer.
 REP olvidéi esquecín      # olvidar → esquecer.
 REP olvidou esqueceu      # olvidar → esquecer.
 REP olvidóu esquecéu      # olvidar → esquecer.
+REP ^órdenes$ ordes       # órdenes → ordes.
 REP pale padex      # palear → padexar.
 REP palé padéx      # palear → padexar.
 REP per pre
