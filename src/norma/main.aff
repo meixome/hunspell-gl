@@ -443,7 +443,8 @@ REP inxer enxer      # inxerir → enxerir.
 REP inxér enxér      # inxerir → enxerir.
 REP inxert enxert      # inxertar → enxertar.
 REP inxért enxért      # inxertar → enxertar.
-REP is les     # Exemplo: cais → cales.
+REP is les             # Exemplo: cais → cales.
+REP K k                # Exemplos: Kg → kg, Km → km.
 REP laric latric      # laricar → latricar.
 REP laríc latríc      # laricar → latricar.
 REP les is            # Exemplo: casuales → casuais.
