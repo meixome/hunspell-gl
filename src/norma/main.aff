@@ -664,6 +664,11 @@ REP triz trinz      # trizar → trinzar.
 REP tríz trínz      # trizar → trinzar.
 REP tric trinc      # trizar → trinzar.
 REP tríc trínc      # trizar → trinzar.
+REP turno quenda    # turno → quenda, rolda, ronda, vez.
+REP turno rolda     # turno → quenda, rolda, ronda, vez.
+REP turno ronda     # turno → quenda, rolda, ronda, vez.
+REP ^turno$ vez     # turno → quenda, rolda, ronda, vez.
+REP ^turnos$ veces  # turno → quenda, rolda, ronda, vez.
 REP u oi
 REP ú ói
 REP ua a                    # Exemplo: guarda → garda.
