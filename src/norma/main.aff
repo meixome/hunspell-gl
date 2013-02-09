@@ -9522,7 +9522,7 @@ SFX 730     0     iamos     r . is:pospretérito P4
 SFX 730     0     iámos/666,126,127     r . is:pospretérito P4 + enclítico
 SFX 730     0     iades     r . is:pospretérito P5
 SFX 730     0     iádes/666,128,129     r . is:pospretérito P5 + enclítico
-SFX 730     0     an/124,125     ír . is:pospretérito P6 [ + enclítico]
+SFX 730     0     ían/124,125     r . is:pospretérito P6 [ + enclítico]
 SFX 730     r     de     ir . is:imperativo P5
 SFX 730     r     de/666,128,129     ír . is:imperativo P5 + enclítico
 
