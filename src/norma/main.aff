@@ -89,8 +89,11 @@ REP abág avág      # abagar → avagar.
 REP aballo avello     # aballoar → avelloar.
 REP aballó avelló     # aballoar → avelloar.
 REP accesar acceder     # accesar → acceder (o feito de que sexan conxugacións distintas é un problema).
-REP acobard acovard     # acobardar → acovardar.
-REP acobárd acovárd     # acobardar → acovardar.
+REP acobard acovard      # acobardar → acovardar.
+REP acobárd acovárd      # acobardar → acovardar.
+REP acuciante perentoria # acuciante → perentorio, urxente.
+REP acuciante perentorio # acuciante → perentorio, urxente.
+REP acuciante urxente    # acuciante → perentorio, urxente.
 REP adosad contigu      # adosado, encostado → contiguo.
 REP afosc afusc     # afoscar → afuscar.
 REP afósc afúsc     # afoscar → afuscar.
