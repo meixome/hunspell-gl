@@ -122,6 +122,10 @@ REP arrous rous      # arrousar → rousar.
 REP arróus róus      # arrousar → rousar.
 REP arrumb arromb      # arrumbar → arrombar.
 REP arrúmb arrómb      # arrumbar → arrombar.
+REP asequíbe accesíbe    # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+REP asequíbe alcanzábe   # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+REP asequible accesible  # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+REP asequible alcanzable # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
 REP asopr sopr      # asoprar → soprar.
 REP asópr sópr      # asoprar → soprar.
 REP asoseg soseg      # asosegar → sosegar.
