@@ -623,6 +623,8 @@ REP siglo século      # Castelanismo.
 REP silla cadeira     # Castelanismo.
 REP soborn suborn      # sobornar → subornar.
 REP sobórn subórn      # sobornar → subornar.
+REP ^sobretodo$ por_enriba_de_todo # sobretodo → por enriba de todo, por riba de todo.
+REP ^sobretodo$ por_riba_de_todo   # sobretodo → por enriba de todo, por riba de todo.
 REP sofoc sufoc      # sofocar → sufocar.
 REP sofóc sufóc      # sofocar → sufocar.
 REP subast pox      # subastar → poxar.
