@@ -148,6 +148,9 @@ REP azaball azafall      # azaballar → azafallar.
 REP azabáll azafáll      # azaballar → azafallar.
 REP azarapall zarapall      # azarapallar → zarapallar.
 REP azarapáll zarapáll      # azarapallar → zarapallar.
+REP bache focha             # bache → focha, fochanca, foxo.
+REP bache fochanca          # bache → focha, fochanca, foxo.
+REP bache foxo              # bache → focha, fochanca, foxo.
 REP badexo abadexo     # Erro común.
 REP barr varr      # barrer → varrer.
 REP bárr várr      # barrer → varrer.
