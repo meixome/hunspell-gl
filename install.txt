@@ -9,9 +9,13 @@ Dependencies
 Build
 =====
 
-To build the spellchecker, run:
+To build the spellchecker with the default modules, run:
 
     scons
+    
+To build the special version for Galician translators, with the terminological agreements by the Trasno Project, run:
+
+    scons aff=norma,trasno,unidades dic=iso639,iso4217,trasno,unidades,volga
     
 To rebuild after changing some files:
 

@@ -31,6 +31,9 @@ Módulos dispoñíbeis:
     norma           Normas ortográficas e morfolóxicas do idioma galego
                     Real Academia Galega / Instituto da Lingua Galega, 2003.
                     http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+
+    trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno.
+                    http://trasno.net/content/resultados-das-trasnadas
             
     unidades        Prefixos e sufixos para símbolos de unidades.
                     http://en.wikipedia.org/wiki/International_System_of_Units
@@ -44,6 +47,9 @@ Módulos dispoñíbeis:
             
     iso4217         Códigos de moedas (ISO 4217).
                     http://gl.wikipedia.org/wiki/ISO_4217
+
+    trasno          Acordos terminolóxicos do Proxecto Trasno.
+                    http://trasno.net/content/resultados-das-trasnadas
             
     unidades        Símbolos de unidades.
                     http://en.wikipedia.org/wiki/International_System_of_Units

@@ -1,0 +1,8 @@
+# Plurais simples, acabados en «s», para estranxeirismos non adaptados.
+# Exemplos:
+#   debug → debugs
+#   e-mail → e-mails
+#   flag → flags
+
+SFX 1011  Y   1
+SFX 1011  0   s   0   .   is:plural
