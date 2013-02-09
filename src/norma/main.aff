@@ -663,7 +663,15 @@ REP tric trinc      # trizar → trinzar.
 REP tríc trínc      # trizar → trinzar.
 REP u oi
 REP ú ói
-REP ua a     # Exemplo: guarda → garda.
+REP ua a                    # Exemplo: guarda → garda.
+REP ubic localiz            # ubicar → localizar, situar.
+REP ubíc localíz            # ubicar → localizar, situar.
+REP ubiqu localic           # ubicar → localizar, situar.
+REP ubíqu localíc           # ubicar → localizar, situar.
+REP ubic situ               # ubicar → localizar, situar.
+REP ubíc sitú               # ubicar → localizar, situar.
+REP ubiqu situ              # ubicar → localizar, situar.
+REP ubíqu sitú              # ubicar → localizar, situar.
 REP uch oit
 REP úch óit
 REP ue o     # Exemplo: puesto → posto.
