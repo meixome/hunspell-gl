@@ -515,6 +515,13 @@ REP perxudic dan      # perxudicar → danar.
 REP perxudíc dán      # perxudicar → danar.
 REP perxudiqu dan      # perxudicar → danar.
 REP perxudíqu dán      # perxudicar → danar.
+REP ^plantilla$ cadro_de_persoal            # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP ^plantillas$ cadros_de_persoal          # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP plantilla deseño                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP plantilla modelo                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP plantilla padrón                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP ^plantilla$ persoal                     # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+REP plantilla soleta                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
 REP postr prostr      # postrar → prostrar.
 REP póstr próstr      # postrar → prostrar.
 REP postre sobremesa     # Erro común.
