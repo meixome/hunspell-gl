@@ -42499,6 +42499,8 @@ arredondar/200,201 po:verbo ts:transitiva VOLG: t al:arredóndar
 arredóndar/666,202 st:arredondar ts:alomorfo arredondar transitiva
 arrefriar/201,221,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrefríar
 arrefríar/666,200,202,220,222,230,232 st:arrefriar ts:alomorfo arrefriar transitiva / intransitiva / pronominal
+arregalar/200,201 po:verbo ts:transitiva VOLG: t al:arregálar
+arregálar/666,202 st:arregalar ts:alomorfo arregalar transitiva
 arregañar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / regañar=> al:arrégar
 arregar/200,201 po:verbo ts:transitiva VOLG: t al:arrégar
 arrégar/666,202 st:arregar st:arregañartransitiva arregar st: is:
