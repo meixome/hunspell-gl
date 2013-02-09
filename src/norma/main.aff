@@ -263,6 +263,7 @@ REP desnude ispa      # desnudar → espir.
 REP desnúde íspa      # desnudar → espir.
 REP desnud denud      # desnudar → denudar.
 REP desnúd denúd      # desnudar → denudar.
+REP desperfecto dano      # desperfecto → dano.
 REP destroz esnaquiz      # destrozar → esnaquizar.
 REP destróz esnaquíz      # destrozar → esnaquizar.
 REP destroc esnaquic      # destrozar → esnaquizar.
