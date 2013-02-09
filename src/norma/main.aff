@@ -323,6 +323,9 @@ REP disculp desculp      # disculpar → desculpar.
 REP discúlp descúlp      # disculpar → desculpar.
 REP discurr discorr      # discurrir → discorrer.
 REP discurri discorre    # discurrirá → discorrerá.
+REP disfrut goc          # disfrutar → desfrutar, gozar.
+REP disfrut goz          # disfrutar → desfrutar, gozar.
+REP disfrut desfrut      # disfrutar → desfrutar, gozar.
 REP dismin dimin         # disminuír → diminuír.
 REP donación doazón      # donación → doazón.
 REP dosier cartafol      # Erro común.
