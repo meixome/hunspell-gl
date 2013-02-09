@@ -521,10 +521,14 @@ REP ^órdenes$ ordes       # órdenes → ordes.
 REP pale padex      # palear → padexar.
 REP palé padéx      # palear → padexar.
 REP per pre
-REP perxudic prexudic      # perxudicar → prexudicar.
-REP perxudíc prexudíc      # perxudicar → prexudicar.
-REP prexudicios danos     # prexudiciosa → danosa.
-REP prexudicios daniñ     # prexudiciosa → daniña.
+REP ^perxudic prexudic              # perxudicar → prexudicar.
+REP ^perxudíc prexudíc              # perxudicar → prexudicar.
+REP ^perxuízo dano                  # perxuízo → dano.
+REP ^prexudicios daniñ              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+REP ^prexudicios danos              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+REP ^prexudicios lesiv              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+REP ^prexudicios nociv              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+REP ^prexudicios pernicios          # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
 REP promedio media     # Erro común.
 REP promedio medio     # Erro común.
 REP promedio termo     # Erro común.
