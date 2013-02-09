@@ -540,6 +540,9 @@ REP prorrate rate      # prorratear → ratear.
 REP prorraté raté      # prorratear → ratear.
 REP quep caib
 REP quép cáib
+REP recadatoria recadadora          # recadatorio → recadador.
+REP ^recadatorio$ recadador         # recadatorio → recadador.
+REP ^recadatorios$ recadadores      # recadatorio → recadador.
 REP reche reench      # rechear → reencher.
 REP reché reénch     # rechear → reencher.
 REP rechea reenche      # rechear → reencher.
