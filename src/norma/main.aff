@@ -1706,7 +1706,8 @@ SFX 17     0     has     un . is:feminino plural
 SFX 17     ún     unhas     ún . is:feminino plural
 SFX 17     eu     úas     seu . is:feminino plural
 SFX 17     os     as     [^l]os . is:feminino plural
-SFX 17     olos     alas     los . is:feminino
+SFX 17     os     as     llos . is:feminino plural
+SFX 17     olos     alas     olos . is:feminino
 SFX 17     ous     úas     dous . is:feminino
 
 
