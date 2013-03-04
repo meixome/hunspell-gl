@@ -1,6 +1,6 @@
 # coding=utf-8
 
-import mmap, os
+import mmap, os, re, subprocess
 
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
@@ -41,10 +41,10 @@ Módulos dispoñíbeis:
 
 
     DICIONARIO
-            
+
     iso639          Códigos de linguas (ISO 639).
                     http://gl.wikipedia.org/wiki/ISO_639
-            
+
     iso4217         Códigos de moedas (ISO 4217).
                     http://gl.wikipedia.org/wiki/ISO_4217
 
@@ -73,84 +73,173 @@ def initialize(target):
         file.write('')
 
 
-def isModule(directory):
-    """ Determina se o directorio indicado é un módulo.
+def isNotUseless(line):
+    """ Determina se a liña indicada ten algunha utilidade para o corrector, ou se pola contra se trata dunha liña que
+        ten unicamente un comentario, ou se trata duña liña baleira.
     """
-    if unicode(directory) == 'src':
+    if line[0] == "#":
+        return False
+    elif line.strip() == "":
         return False
     else:
         return True
 
 
-def extendHeader(target, source, env):
-    """ Inclúe os datos para a cabeceira do módulo de orixe no ficheiro de destino.
+def removeAnyCommentFrom(line):
+    """ Se a liña ten un comentario, elimínao.
+
+        Nota: se a liña acababa en salto de liña, este tamén se eliminará xunto co comentario.
     """
-    with open(target, 'a') as targetFile:
-        try:
-            with open(os.path.join(source, 'header.txt')) as sourceFile:
-                targetFile.write(sourceFile.read())
-        except IOError:
-            pass
+    index = line.find('#')
+    if index < 0:
+        return line
+    else:
+        return line[0:index]
 
 
-def extendAff(target, source, env):
+def removeMultipleSpacesOrTabsFrom(line):
+    """ Converte as tabulacións da liña en espazos, e reduce estes ao mínimo necesario. É dicir, toda tabulación ou
+        grupo de tabulacións e grupo de espazos quedarán reducidos a un único espazo cada un.
+
+        Por exemplo, se a liña é:
+
+            "\t\t\t1\tasdfasdf    2  \t\t  \t 3"
+
+        Devolverase:
+
+            " 1 2 3"
+    """
+    line = line.replace('\t', ' ')
+    line = re.sub(' +', ' ', line)
+    return line
+
+
+
+def stripLine(line):
+    line = removeAnyCommentFrom(line)
+    line = line.rstrip() + '\n'
+    line = removeMultipleSpacesOrTabsFrom(line)
+    return line
+
+
+
+def extendAff(targetFilename, sourceFilename):
     """ Inclúe datos do módulo de orixe nun ficheiro .aff, o de destino, que pode que exista ou que non.
     """
-    with open(target, 'a') as targetFile:
+    with open(targetFilename, 'a') as targetFile:
         try:
-            with open(os.path.join(source, 'main.aff')) as sourceFile:
-                targetFile.write(sourceFile.read())
+            parsedContent = ""
+            with open(sourceFilename) as sourceFile:
+                for line in sourceFile:
+                    if isNotUseless(line):
+                        parsedContent += stripLine(line)
+            targetFile.write(parsedContent)
         except IOError:
             pass
 
 
-def extendDic(target, source):
+def createAff(targetFilename, sourceFilenames):
+    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
+    """
+    initialize(targetFilename)
+    for sourceFilename in sourceFilenames:
+        extendAff(targetFilename, sourceFilename)
+
+
+def getParsedDicContent(sourceFilename):
     """ Inclúe datos do módulo de orixe nun ficheiro .dic, o de destino, que pode que exista ou que non.
     """
     try:
-        with open(os.path.join(source, 'main.dic')) as sourceFile:
-            return sourceFile.read()
+        parsedContent = ""
+        with open(sourceFilename) as sourceFile:
+            for line in sourceFile:
+                if isNotUseless(line):
+                    parsedContent += stripLine(line)
+        return parsedContent
     except IOError:
         return ''
 
 
-def createAff(target, source, env):
-    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
-    """
-    target = unicode(target[0])
-    initialize(target)
-    for directory in source:
-        if isModule(directory):
-            extendHeader(target, unicode(directory), env)
-    for directory in source:
-        if isModule(directory):
-            extendAff(target, unicode(directory), env)
-
-
-def createDic(target, source, env):
+def createDic(targetFilename, sourceFilenames):
     """ Constrúe o ficheiro .dic a partir dos módulos indicados.
     """
-    target = unicode(target[0])
     content = ''
-    for directory in source:
-        if isModule(directory):
-            content += extendDic(target, unicode(directory))
-    contentLines = content.count('\n')
-    with open(target, 'w') as targetFile:
-        targetFile.write('{}\n{}'.format(contentLines, content))
-        
-        
-def parseModuleList(string):
-    if ',' in string:
-        return [Dir('src/{}'.format(module)) for module in string.split(',')]
+    for sourceFilename in sourceFilenames:
+        content += getParsedDicContent(sourceFilename)
+
+    linesSeen = set()
+    for line in iter(content.splitlines()):
+        if line not in linesSeen:
+            linesSeen.add(line)
+
+    contentWithoutDuplicates = ""
+    for line in sorted(linesSeen):
+        contentWithoutDuplicates += line + '\n'
+
+    with open(targetFilename, 'w') as targetFile:
+        targetFile.write('{}\n{}'.format(len(linesSeen), contentWithoutDuplicates))
+
+
+def getAliasFilepathFor(filepath):
+    return filepath[:-4] + '_alias' + filepath[-4:]
+
+
+def applyMakealias(aff, dic):
+    """ Executa a orde «makealias», de Hunspell, para reducir o tamaño final dos ficheiros considerablemente.
+    """
+    affAlias = getAliasFilepathFor(aff)
+    dicAlias = getAliasFilepathFor(dic)
+    command = 'makealias {dic} {aff}'.format(aff=aff[6:], dic=dic[6:])
+    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True, cwd=os.path.join(os.getcwd(), 'build'))
+    out, err = p.communicate()
+    for filepath in [aff, dic]:
+        os.remove(filepath)
+        os.rename(getAliasFilepathFor(filepath), filepath)
+
+
+def getModuleListFromModulesString(modulesString):
+    modules = []
+    if ',' in modulesString:
+        modules = ['src/{}'.format(module) for module in modulesString.split(',')]
     else:
-        return [Dir('src/{}'.format(string))]
+        modules = ['src/{}'.format(modulesString)]
+    return modules
 
 
-# Construtores para os ficheiros de Hunspell.
-env = Environment()
-env['BUILDERS']['rules'] = Builder(action = createAff)
-env['BUILDERS']['dictionary'] = Builder(action = createDic)
+def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
+    sourceFiles = []
+    modules = getModuleListFromModulesString(modulesString)
+    for module in modules:
+        filepath = os.path.join(module, 'main{extension}'.format(extension=extension))
+        if os.path.isfile(filepath):
+            sourceFiles.append(File(filepath))
+    return sourceFiles
+
+
+def getSourceFiles(dictionary, rules):
+    sourceFiles = []
+    sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.aff'))
+    sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(dictionary, '.dic'))
+    return sourceFiles
+
+
+def getFilenamesFromFileEntriesWithMatchingExtensions(fileEntries, extensionList):
+    """ Note: Only supports three-letter extensions. For example: '.aff', '.dic', '.rep'.
+    """
+    filenames = []
+    for fileEntry in fileEntries:
+        filename = unicode(fileEntry)
+        if filename[-4:] in extensionList:
+            filenames.append(filename)
+    return filenames
+
+
+def createSpellchecker(target, source, env):
+    aff = unicode(target[0])
+    dic = unicode(target[1])
+    createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
+    createDic(dic, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.dic']))
+    applyMakealias(aff, dic)
 
 
 #---# Análise dos argumentos da chamada #------------------------------------------------------------------------------#
@@ -160,7 +249,15 @@ rules = ARGUMENTS.get('aff', defaultAff)
 dictionary = ARGUMENTS.get('dic', defaultDic)
 
 
+# Construtor para os ficheiros de Hunspell.
+env = Environment()
+env['BUILDERS']['spellchecker'] = Builder(action = createSpellchecker)
+
+
 #---# Construción #----------------------------------------------------------------------------------------------------#
 
-env.rules('build/{}.aff'.format(languageCode), parseModuleList(rules))
-env.dictionary('build/{}.dic'.format(languageCode), parseModuleList(dictionary))
+env.spellchecker(
+    ['build/{}.aff'.format(languageCode), 'build/{}.dic'.format(languageCode)],
+    getSourceFiles(dictionary=dictionary, rules=rules)
+)
+
