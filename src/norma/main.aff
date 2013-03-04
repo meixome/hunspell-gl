@@ -653,7 +653,8 @@ REP resfrí arrefrí     # refriar → arrefriar.
 REP retras atras      # retrasar → atrasar.
 REP retrás atrás      # retrasar → atrasar.
 REP sea sexa
-REP sendero carreiro     # Erro común.
+REP ^según$ segundo   # según → segundo.
+REP sendero carreiro  # Erro común.
 REP sep saib
 REP sép sáib
 REP siglo século      # Castelanismo.
