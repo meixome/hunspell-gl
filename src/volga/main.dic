@@ -53368,6 +53368,8 @@ subtraer/310,311,312,510,511,512 po:verbo ts:transitiva / pronominal VOLG t pr a
 subtráer/666,315,515 st:subtraer ts:alomorfo subtraer transitiva / pronominal
 subverter/310,311,312 po:verbo ts:transitiva VOLG t al:subvérter
 subvérter/666,315 st:subverter ts:alomorfo subverter transitiva
+subxacer/410,411,412 po:verbo ts:intransitiva VOLG i al:subxácer
+subxácer/666,415 st:subxacer ts:alomorfo xacer intransitiva
 suceder/360,460,560 po:verbo ts:defectivo transitiva / intransitiva / pronominal VOLG t i pr al:sucéder
 sucéder/666,361,461,561 st:suceder ts:alomorfo suceder defectivo transitiva / intransitiva / pronominal
 superpoñer/320,321,332,326,327,328,329 po:verbo ts:transitiva VOLG t al:superpuxer al:superpóñer al:superpúxer
