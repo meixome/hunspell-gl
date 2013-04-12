@@ -6,12 +6,19 @@ import mmap, os, re, subprocess
 
 defaultAff  = u'norma,unidades'
 defaultDic  = u'iso639,iso4217,unidades,volga'
+defaultRep  = u'norma'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
 
 Help("""
-Execute «scons aff=<módulos de regras> dic=<módulos de dicionario> code=<código de lingua>» para construír o corrector cos módulos indicados para as regras e o dicionario, empregando o código de lingua indicado para o nome dos ficheiros.
+Execute:
+    
+    «scons aff=<módulos de regras> dic=<módulos de dicionario> rep=<módulos de substitucións> code=<código de lingua>»
+    
+Esta orde permite construír o corrector cos módulos indicados para cada unha das categorías (regras de construción de
+palabras, dicionarios de núcleos de palabras e regras de substitución), empregando o código de lingua indicado para o
+nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
@@ -21,12 +28,13 @@ Os valores por omisión son:
 
     Regras: {aff}.
     Dicionario: {dic}.
+    Substitucións: {rep}.
     Código de lingua: {code} (dá lugar a «{code}.aff» e «{code}.dic»).
 
 Módulos dispoñíbeis:
 
 
-    REGRAS
+    FAMILIAS DE REGRAS DE CONSTRUCIÓN DE PALABRAS
 
     norma           Normas ortográficas e morfolóxicas do idioma galego
                     Real Academia Galega / Instituto da Lingua Galega, 2003.
@@ -40,7 +48,7 @@ Módulos dispoñíbeis:
                     Nota: inclúense prefixos para unidades binarias.
 
 
-    DICIONARIO
+    DICIONARIOS DE NÚCLEOS DE PALABRAS
 
     iso639          Códigos de linguas (ISO 639).
                     http://gl.wikipedia.org/wiki/ISO_639
@@ -59,8 +67,14 @@ Módulos dispoñíbeis:
                     Santamarina Fernández, Antón e González González, Manuel (coord.)
                     Real Academia Galega / Instituto da Lingua Galega, 2004.
                     http://www.realacademiagalega.org/volga/
+                    
+                    
+    REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
+
+    norma           Regras xerais de substitución.
+                    Pendentes de cambiar de módulo nun futuro próximo.
     
-""".format(aff=defaultAff, dic=defaultDic, code=defaultCode))
+""".format(aff=defaultAff, dic=defaultDic, rep=defaultRep, code=defaultCode))
 
 
 #---# Builders #-------------------------------------------------------------------------------------------------------#
@@ -122,18 +136,12 @@ def stripLine(line):
     return line
 
 
-
-def extendAff(targetFilename, sourceFilename):
-    """ Inclúe datos do módulo de orixe nun ficheiro .aff, o de destino, que pode que exista ou que non.
+def extendAffFromString(targetFilename, sourceString):
+    """ Inclúe datos do módulo de orixe, fornecidos mediante unha cadea de texto, nun ficheiro .aff.
     """
     with open(targetFilename, 'a') as targetFile:
         try:
-            parsedContent = ""
-            with open(sourceFilename) as sourceFile:
-                for line in sourceFile:
-                    if isNotUseless(line):
-                        parsedContent += stripLine(line)
-            targetFile.write(parsedContent)
+            targetFile.write(sourceString)
         except IOError:
             pass
 
@@ -143,10 +151,30 @@ def createAff(targetFilename, sourceFilenames):
     """
     initialize(targetFilename)
     for sourceFilename in sourceFilenames:
-        extendAff(targetFilename, sourceFilename)
+        parsedContent = getParsedContent(sourceFilename)
+        extendAffFromString(targetFilename, parsedContent)
 
 
-def getParsedDicContent(sourceFilename):
+def addReplacementsToAff(targetFilename, sourceFilenames):
+    """ Completa o ficheiro .aff a partir dos ficheiros de substitucións dos módulos indicados.
+    """
+    content = ''
+    for sourceFilename in sourceFilenames:
+        content += getParsedContent(sourceFilename)
+
+    linesSeen = set()
+    for line in iter(content.splitlines()):
+        if line not in linesSeen:
+            linesSeen.add(line)
+
+    formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
+    for line in sorted(linesSeen):
+        formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
+    
+    extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
+
+
+def getParsedContent(sourceFilename):
     """ Inclúe datos do módulo de orixe nun ficheiro .dic, o de destino, que pode que exista ou que non.
     """
     try:
@@ -165,7 +193,7 @@ def createDic(targetFilename, sourceFilenames):
     """
     content = ''
     for sourceFilename in sourceFilenames:
-        content += getParsedDicContent(sourceFilename)
+        content += getParsedContent(sourceFilename)
 
     linesSeen = set()
     for line in iter(content.splitlines()):
@@ -216,10 +244,11 @@ def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
     return sourceFiles
 
 
-def getSourceFiles(dictionary, rules):
+def getSourceFiles(dictionary, rules, replacements):
     sourceFiles = []
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.aff'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(dictionary, '.dic'))
+    sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(replacements, '.rep'))
     return sourceFiles
 
 
@@ -238,6 +267,7 @@ def createSpellchecker(target, source, env):
     aff = unicode(target[0])
     dic = unicode(target[1])
     createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
+    addReplacementsToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.rep']))
     createDic(dic, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.dic']))
     applyMakealias(aff, dic)
 
@@ -247,6 +277,7 @@ def createSpellchecker(target, source, env):
 languageCode = ARGUMENTS.get('code', defaultCode)
 rules = ARGUMENTS.get('aff', defaultAff)
 dictionary = ARGUMENTS.get('dic', defaultDic)
+replacements = ARGUMENTS.get('rep', defaultRep)
 
 
 # Construtor para os ficheiros de Hunspell.
@@ -258,6 +289,6 @@ env['BUILDERS']['spellchecker'] = Builder(action = createSpellchecker)
 
 env.spellchecker(
     ['build/{}.aff'.format(languageCode), 'build/{}.dic'.format(languageCode)],
-    getSourceFiles(dictionary=dictionary, rules=rules)
+    getSourceFiles(dictionary=dictionary, rules=rules, replacements=replacements)
 )
 

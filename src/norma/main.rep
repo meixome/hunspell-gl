@@ -1,0 +1,1516 @@
+# A continuación amósanse unha serie de combinacións de letras que a miúdo
+# se confunden, e que o corrector utilizará para atopar as correccións máis
+# axeitadas para aquelas palabras que o usuario escriba mal. A primeira
+# liña destas “confusións habituais” indica a cantidade delas que hai, e é
+# necesario que estea aí. As seguintes liñas corresponden a ditas confusións.
+# Están ordenadas segundo os caracteres errados, principalmente para
+# facilitar a súa modificación e evitar as repeticións.
+#
+# Cómpre completar todas as liñas seguintes, pois unha liña que non se explique
+# e non se entenda será susceptible de ser borrada posteriormente. Asemade,
+# cómpre engadir un comentario ás liñas evidentes, como «silla cadeira»,
+# para facilitar a busca de liñas sen unha explicación.
+
+abag avag     # abagar → avagar.
+abág avág      # abagar → avagar.
+aballo avello     # aballoar → avelloar.
+aballó avelló     # aballoar → avelloar.
+accesar acceder     # accesar → acceder (o feito de que sexan conxugacións distintas é un problema).
+acobard acovard      # acobardar → acovardar.
+acobárd acovárd      # acobardar → acovardar.
+acuciante perentoria # acuciante → perentorio, urxente.
+acuciante perentorio # acuciante → perentorio, urxente.
+acuciante urxente    # acuciante → perentorio, urxente.
+adosad contigu      # adosado, encostado → contiguo.
+afosc afusc     # afoscar → afuscar.
+afósc afúsc     # afoscar → afuscar.
+aig ai
+áig ái
+alambr aram      # alambrar → aramar.
+alámbr arám      # alambrar → aramar.
+^aluguer$ alugamento    # aluguer → alugamento, alugueiro, renda.
+^aluguer$ alugueiro     # aluguer → alugamento, alugueiro, renda.
+^aluguer$ renda         # aluguer → alugamento, alugueiro, renda.
+^alugueres$ alugamentos # aluguer → alugamento, alugueiro, renda.
+^alugueres$ alugueiros  # aluguer → alugamento, alugueiro, renda.
+^alugueres$ rendas      # aluguer → alugamento, alugueiro, renda.
+andamio estada     # Erro común.
+andén plataforma     # Erro común.
+anicr anic      # anicrar → anicar.
+anícr aníc      # anicrar → anicar.
+antefaz anteface     # Erro común.
+antifaz anteface     # Erro común.
+antox antoll      # antoxar → antollar.
+antóx antóll      # antoxar → antollar.
+aparcel parcel      # aparcelar → parcelar.
+aparcél parcél      # aparcelar → parcelar.
+aportación achega     # Erro moi común.
+apret apert      # apretar → apertar.
+aprét apért      # apretar → apertar.
+aprom achumb      # apromar → achumbar.
+apróm achúmb      # apromar → achumbar.
+arregal regal      # arregalar → regalar.
+arregál regál      # arregalar → regalar.
+arreigo arraigo     # Erro común.
+arrincon acanto      # arrinconar → acantoar.
+arrincón acantó      # arrinconar → acantoar.
+arrous rous      # arrousar → rousar.
+arróus róus      # arrousar → rousar.
+arrumb arromb      # arrumbar → arrombar.
+arrúmb arrómb      # arrumbar → arrombar.
+asequíbe accesíbe    # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+asequíbe alcanzábe   # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+asequible accesible  # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+asequible alcanzable # asequíbel, asequible → accesíbel, accesible, alcanzábel, alcanzable.
+asopr sopr      # asoprar → soprar.
+asópr sópr      # asoprar → soprar.
+asoseg soseg      # asosegar → sosegar.
+asoség soség     # asosegar → sosegar.
+atal ental      # atalar → entalar.
+atál entál     # atalar → entalar.
+atarrax tarrax      # atarraxar → tarraxar.
+atarráx tárrax      # atarraxar → tarraxar.
+atemper temper      # atemperar → temperar.
+atempér tempér      # atemperar → temperar.
+atent tent      # atentar → tentar.
+atént tént      # atentar → tentar.
+atoll atroll      # atollar → atrollar.
+atóll atróll      # atollar → atrollar.
+atu ato      # atuar → atoar.
+atú ato      # atuar → atoar.
+atú ató      # atuar → atoar.
+aturdi atorda     # aturdir → atordar..
+atúrdi atórda     # aturdir → atordar.
+aturde atorda     # aturdir → atordar.
+atúrde atórda     # aturdir → atordar.
+aturda atorde     # aturdir → atordar.
+atúrda atórde     # aturdir → atordar.
+azaball azafall      # azaballar → azafallar.
+azabáll azafáll      # azaballar → azafallar.
+azarapall zarapall      # azarapallar → zarapallar.
+azarapáll zarapáll      # azarapallar → zarapallar.
+bache focha             # bache → focha, fochanca, foxo.
+bache fochanca          # bache → focha, fochanca, foxo.
+bache foxo              # bache → focha, fochanca, foxo.
+badexo abadexo     # Erro común.
+barr varr      # barrer → varrer.
+bárr várr      # barrer → varrer.
+bog vog      # bogar → vogar.
+bóg vóg      # bogar → vogar.
+broa boroa     # Erro común.
+broc envorc      # brocar → envorcar.
+bróc envórc      # brocar → envorcar.
+buce mergull      # bucear → mergullarse.
+bucé mergúll      # bucear → mergullarse.
+bucear mergullarse      # bucear → mergullarse.
+bull debull      # bullar → debullar.
+búll debúll      # bullar → debullar.
+bursátil bolsista     # Erro común.
+buzón caixa_do_correo # buzón → caixa do correo.
+caí cae      # caír → caer.
+caí caé      # caír → caer.
+cai cae      # caír → caer.
+caladeiro caladoiro     # Erro común.
+calamar lura     # calamar → lura.
+calamares luras     # calamar → lura.
+calaveira caveira     # Erro común.
+calific cualific      # calificar → cualificar.
+califíc cualifíc      # calificar → cualificar.
+^callejón$      calella     # callejón → calella, calello, canella, canellón, quella.
+^callejones^    calellas    # callejón → calella, calello, canella, canellón, quella.
+^callejón$      calello     # callejón → calella, calello, canella, canellón, quella.
+^callejones^    calellos    # callejón → calella, calello, canella, canellón, quella.
+^callejón$      canella     # callejón → calella, calello, canella, canellón, quella.
+^callejones^    canellas    # callejón → calella, calello, canella, canellón, quella.
+^callejón$      canellón    # callejón → calella, calello, canella, canellón, quella.
+^callejones^    canellóns   # callejón → calella, calello, canella, canellón, quella.
+^callejón$      quella      # callejón → calella, calello, canella, canellón, quella.
+^callejones^    quellas     # callejón → calella, calello, canella, canellón, quella.
+cañ can      # cañonear → canonear.
+carbunco carbuncho     # Erro común.
+carbunco carafuncho     # Erro común.
+carbunco nacida     # Erro común.
+carcoma caruncho     # Erro común.
+carcoma couza     # Erro común.
+cc c     # Exemplo: construcción → construción.
+champú xampú     # Erro común.
+champurr chapuz     # champurrar → chapuzar.
+champúrr chapúz     # champurrar → chapuzar.
+cerrollo ferrollo     # Erro común.
+choll                 # chollar → choiar
+ci ce      # ciar → cear.
+cí ce      # ciar → cear.
+cí cé      # ciar → cear.
+ci z     # Exemplo: espaciar → espazar.
+coall call      # coallar → callar.
+coáll cáll      # coallar → callar.
+coiñ cuiñ      # coiñar → cuiñar.
+coíñ cuíñ      # coiñar → cuiñar.
+coinc cuinc      # coincar → cuincar.
+coínc cuínc      # coincar → cuincar.
+comulg comung      # comulgar → comungar.
+comúlg comúng      # comulgar → comungar.
+conceb concib      # concebir → concibir.
+conquere conquista     # conquerer → conquistar.
+conquére conquísta     # conquerer → conquistar.
+conquer conquist     # conquerer → conquistar.
+conquér conquíst     # conquerer → conquistar.
+conquera conquiste     # conquerer → conquistar.
+conquéra conquíste      # conquerer → conquistar.
+conquería conquistaba     # conquerer → conquistar.
+conqueria conquistaba     # conquerer → conquistar.
+conquerín conquistei     # conquerer → conquistar.
+conquerín conquistéi     # conquerer → conquistar.
+conquerín conquistein     # conquerer → conquistar.
+conqueriu conquistou     # conquerer → conquistar.
+conqueríu conquistóu     # conquerer → conquistar.
+convinte conveniente     # convinte → conveniente.
+cost cust      # costar → custar.
+cóst cúst      # costar → custar.
+coste custo    # coste → custo.
+ct t     # Exemplo: conflicto → conflito.
+cuall call      # cuallar → callar.
+cuáll cáll      # cuallar → callar.
+cuall coall      # cuallar → coallar.
+cuáll coáll      # cuallar → coallar.
+customiz personaliz # customizar → personalizar.
+customic personalic     # customizar → personalizar.
+deb dev      # debecer → devecer
+deborc debroc      # deborcar → debrocar.
+debórc debróc      # deborcar → debrocar.
+debouc demouc      # deboucar → demoucar.
+debóuc demóuc      # deboucar → demoucar.
+dec dic      # decir → dicir.
+decomis comis      # decomisar → comisar.
+decomís comís      # decomisar → comisar.
+demit dimit      # demitir → dimitir.
+derrab desrab      # derrabar → desrabar.
+derráb desráb      # derrabar → desrabar.
+desaprom desachumb      # desapromar → desachumbar.
+desapróm desachúmb      # desapromar → desachumbar.
+descalific descualific      # descalificar → descualificar.
+descalifíc descualifíc      # descalificar → descualificar.
+desconxur esconxur     # desconxurar → esconxurar.
+desconxúr esconxúr      # desconxurar → esconxurar.
+descorn escorn      # descornar → escornar.
+descórn escórn      # descornar → escornar.
+descubill desacubill      # descubillar → desacubillar.
+descubíll desacubíll      # descubillar → desacubillar.
+desembrull desenvurull      # desembrullar → desenvurullar.
+desembrúll desenvurúll      # desembrullar → desenvurullar.
+desemple desempreg          # desemplear → desempregar.
+desemple desempregu         # desemplear → desempregar.
+desliz escorr      # deslizar → escorrer.
+deslíz escórr      # deslizar → escorrer.
+desliza escorre      # deslizar → escorrer.
+deslíza escórre      # deslizar → escorrer.
+deslice escorra      # deslizar → escorrer.
+deslíce escórra      # deslizar → escorrer.
+desliza esvara      # deslizar → esvarar.
+deslíza esvára      # deslizar → esvarar.
+deslice esvare      # deslizar → esvarar.
+deslíce esváre      # deslizar → esvarar.
+deslumbr ceg      # deslumbrar → cegar.
+deslúmbr ceg      # deslumbrar → cegar.
+deslumbr cegu      # deslumbrar → cegar.
+deslúmbr cégu      # deslumbrar → cegar.
+desnuda espi      # desnudar → espir.
+desnudá espí      # desnudar → espir.
+desnud isp      # desnudar → espir.
+desnúd ísp      # desnudar → espir.
+desnude ispa      # desnudar → espir.
+desnúde íspa      # desnudar → espir.
+desnud denud      # desnudar → denudar.
+desnúd denúd      # desnudar → denudar.
+desperfecto dano      # desperfecto → dano.
+destroz esnaquiz      # destrozar → esnaquizar.
+destróz esnaquíz      # destrozar → esnaquizar.
+destroc esnaquic      # destrozar → esnaquizar.
+destróc esnaquíc      # destrozar → esnaquizar.
+desvae esvaece      # desvaer → esvaecer.
+desvaé esvaéce      # desvaer → esvaecer.
+desvai esvaez      # desvaer → esvaecer.
+desvái esvaéz      # desvaer → esvaecer.
+detenta dete      # detentar → deter.
+deténta déte      # detentar → deter.
+detente deteña      # detentar → deter.
+deténte detéña      # detentar → deter.
+detento deteño      # detentar → deter.
+deténto detéño      # detentar → deter.
+detentei detiven      # detentar → deter.
+detentéi detíven      # detentar → deter.
+detenta detive      # detentar → deter.
+detentá detivé      # detentar → deter.
+detentou detivo      # detentar → deter.
+detentóu detívo      # detentar → deter.
+detentab detiñ      # detentar → deter.
+detentáb detíñ      # detentar → deter.
+dice di      # decir → dicir.
+disculp desculp      # disculpar → desculpar.
+discúlp descúlp      # disculpar → desculpar.
+discurr discorr      # discurrir → discorrer.
+discurri discorre    # discurrirá → discorrerá.
+disfrut goc          # disfrutar → desfrutar, gozar.
+disfrut goz          # disfrutar → desfrutar, gozar.
+disfrut desfrut      # disfrutar → desfrutar, gozar.
+dismin dimin         # disminuír → diminuír.
+donación doazón      # donación → doazón.
+dosier cartafol      # Erro común.
+dosier compilación   # Erro común.
+dosier informe       # Erro común («informe escrito» sería máis axeitado).
+e ei
+é ei
+é éi
+ec ei
+éc éi
+elixícheme elixíchesme     # Erro común.
+embe enve      # embear → envear.
+embé envé      # embear → envear.
+emborcall envorcall      # emborcallar → envorcallar.
+emborcáll envorcáll      # emborcallar → envorcallar.
+emborc envorc      # emborcar → envorcar.
+embórc envórc      # emborcar → envorcar.
+embrull envurull      # embrullar → envurullar.
+embrúll envurúll      # embrullar → envurullar.
+emburull envurull      # emburullar → envurullar.
+emburúll envurúll      # emburullar → envurullar.
+embuz emboz      # embuzar → embozar.
+embúz embóz      # embuzar → embozar.
+empol ampol      # empolar → ampolar.
+empól ampól      # empolar → ampolar.
+encostad contigu       # adosado, encostado → contiguo.
+enemig agoni      # enemigar → agoniar.
+enemig agoní      # enemigar → agoniar.
+enemíg agoní      # enemigar → agoniar.
+enemigu agoni      # enemigar → agoniar.
+enemigu agoní      # enemigar → agoniar.
+enemígu agoní      # enemigar → agoniar.
+enfosc enfusc      # enfoscar → enfuscar.
+enfósc enfúsc      # enfoscar → enfuscar.
+enfrent enfront      # enfrentar → enfrontar.
+enfrént enfrónt      # enfrentar → enfrontar.
+enfr arrefr      # enfriar → arrefriar.
+enfria arrefece      # enfriar → arrefecer.
+enfriá arrefecé      # enfriar → arrefecer.
+enfrí arrefez      # enfriar → arrefecer.
+enfrí arreféz      # enfriar → arrefecer.
+enfría arrefece      # enfriar → arrefecer.
+enfría arreféce      # enfriar → arrefecer.
+enfríe arrefeza      # enfriar → arrefecer.
+enfríe arreféza      # enfriar → arrefecer.
+engade engadi      # engader → engadir.
+engadé engadí      # engader → engadir.
+engran engren      # engranar → engrenar.
+engrán engrén      # engranar → engrenar.
+enox anox      # enoxar → anoxar.
+enóx anóx      # enoxar → anoxar.
+ensuxar lixar     # ensuxar → lixar.
+ensúx líx      # ensuxar → lixar.
+ensux ensuci     # ensuxar → ensuciar.
+ensúx ensúci     # ensuxar → ensuciar.
+ensuxar luxar      # ensuxar → luxar.
+ensúx lúx      # ensuxar → luxar.
+entren adestr      # entrenar → adestrar.
+entrén adéstr      # entrenar → adestrar.
+enxabro enxabo      # enxabroar → enxaboar.
+enxábro enxábo      # enxabroar → enxaboar.
+erog errog      # erogar → errogar.
+eróg erróg      # erogar → errogar.
+escalon gradu      # escalonar → graduar.
+escalón gradú      # escalonar → graduar.
+escalon gradú      # escalonar → graduar.
+espaci espaz      # espaciar → espazar.
+espáci espaz      # espaciar → espazar.
+espacie espace      # espaciar → espazar.
+espácie espace      # espaciar → espazar.
+esperre espirr      # esperrear → espirrar.
+espérre espírr      # esperrear → espirrar.
+espulg esburg      # espulgar → esburgar.
+espúlg esbúrg      # espulgar → esburgar.
+esté estea         # esté/s → estea/s.
+estonio estoniano  # estonio → estoniano.
+financiación financiamento # financiación → financiamento.
+forne enforn      # fornear → enfornar.
+forné enfórn      # fornear → enfornar.
+frunce pregar     # fruncir → pregar.
+frunce engurra     # fruncir → engurrar.
+frúnce engúrra     # fruncir → engurrar.
+frunci engurra     # fruncir → engurrar.
+fruncí engurrab     # fruncir → engurrar.
+frunci engurraba     # fruncir → engurrar.
+fruncín engurrei     # fruncir → engurrar.
+fruncín engurréi     # fruncir → engurrar.
+fruncin engurrei     # fruncir → engurrar.
+fruncin engurrein      # fruncir → engurrar.
+frunciu engurrou      # fruncir → engurrar.
+frunciu engurróu      # fruncir → engurrar.
+fruncíu engurróu     # fruncir → engurrar.
+frunz preg      # fruncir → pregar.
+frúnz prég      # fruncir → pregar.
+frunz engurr     # fruncir → engurrar.
+frúnz engúrr     # fruncir → engurrar.
+frunza pregue      # fruncir → pregar.
+frúnza prégue      # fruncir → pregar.
+frunza engurre      # fruncir → engurrar.
+frúnza engúrre      # fruncir → engurrar.
+frunzá engurré      # fruncir → engurrar.
+fug fux      # fugar → fuxir.
+fúg fóx      # fugar → fuxir.
+fug fox      # fugar → fuxir.
+fúg fóx      # fugar → fuxir.
+fugue fuxa      # fugar → fuxir.
+fúgue fúxa      # fugar → fuxir.
+fugué fuxá      # fugar → fuxir.
+fuga fuxi      # fugar → fuxir.
+fugá fuxí      # fugar → fuxir.
+fúga fúxe      # fugar → fuxir.
+fuguei fuxín      # fugar → fuxir.
+fuguei fuxin      # fugar → fuxir.
+fuguéi fuxín      # fugar → fuxir.
+fugou fuxiu      # fugar → fuxir.
+fugóu fuxíu      # fugar → fuxir.
+gave gabe      # gavear → gabear.
+gavé gabé      # gavear → gabear.
+Gerona Xirona  # Gerona → Xirona.
+Girona Xirona  # Girona → Xirona.
+gomit vomit      # gomitar → vomitar.
+gomít vomít      # gomitar → vomitar.
+gorgúll gurgúll      # gorgullar → gurgullar.
+grab grav      # grabar → gravar.
+gráb gráv      # grabar → gravar.
+gran engrai      # granar → engraiar.
+grán engrái      # granar → engraiar.
+^gravitatorio$ gravitacional    # gravitatorio → gravitacional
+^gravitatoria$ gravitacional    # gravitatorio → gravitacional
+^gravitatorios$ gravitacionais  # gravitatorio → gravitacional
+^gravitatorias$ gravitacionais  # gravitatorio → gravitacional
+ie e     # Exemplo: miel → mel.
+ié é     # Exemplo: piénsao → pénsao.
+ig igu      # igar → iguar.
+íg ígu      # igar → iguar.
+ig igü      # igar → iguar.
+íg ígü      # igar → iguar.
+imb envi      # imbar → enviar.
+imb enví      # imbar → enviar.
+ímb enví      # imbar → enviar.
+^infantiles$ infantís   # infantiles → infantís.
+intrinc intric      # intrincar → intricar.
+intrínc intríc      # intrincar → intricar.
+inxer enxer      # inxerir → enxerir.
+inxér enxér      # inxerir → enxerir.
+inxert enxert      # inxertar → enxertar.
+inxért enxért      # inxertar → enxertar.
+is les             # Exemplo: cais → cales.
+K k                # Exemplos: Kg → kg, Km → km.
+laric latric      # laricar → latricar.
+laríc latríc      # laricar → latricar.
+les is            # Exemplo: casuales → casuais.
+línea liña        # línea → liña.
+ll x
+lonxan afastad     # lonxano → afastado.
+lonxano distante     # lonxano → distante.
+lonxanos distantes     # lonxano → distante.
+lonxana distante     # lonxano → distante.
+lonxanas distantes     # lonxano → distante.
+manose sob     # manosear → sobar.
+manosé sób      # manosear → sobar.
+manose apalp      # manosear → apalpar.
+manosé apálp      # manosear → apalpar.
+mec mex      # mecer → mexer.
+méc méx      # mecer → mexer.
+ment ament      # mentar → amentar.
+mént amént      # mentar → amentar.
+merm mingu      # mermar → minguar.
+mérm míngu      # mermar → minguar.
+merm mingü      # mermar → minguar.
+mérm míngü      # mermar → minguar.
+mez mex      # mecer → mexer.
+méz méx     # mecer → mexer.
+^mirador$ miradoiro    # mirador → miradoiro.
+^miradores$ miradoiros # mirador → miradoiro.
+mixiric mexeric      # mixiricar → mexericar.
+mixiríc mexeríc      # mixiricar → mexericar.
+mordisc adent      # mordiscar → adentar.
+mordísc adént      # mordiscar → adentar.
+n nh
+nb mb     # Exemplo: anbiguo → ambiguo.
+noraboa parabén     # Erro común.
+np mp     # Exemplo: inportante → importante.
+o ou
+ó óu
+oc ou
+óc óu
+ol ul      # oler → ulir.
+ól úl      # oler → ulir.
+ole uli      # oler → ulir.
+olé ulí      # oler → ulir.
+olvida esquece      # olvidar → esquecer.
+olvída esquéce      # olvidar → esquecer.
+olvidá esquecé      # olvidar → esquecer.
+olvidá esquecí      # olvidar → esquecer.
+olvidab esquecí      # olvidar → esquecer.
+olvidáb esquecí      # olvidar → esquecer.
+olvidab esqueci      # olvidar → esquecer.
+olvida esqueci      # olvidar → esquecer.
+olvída esquéci      # olvidar → esquecer.
+olvid esquez      # olvidar → esquecer.
+olvíd esquéz      # olvidar → esquecer.
+olvide esqueza      # olvidar → esquecer.
+olvíde esquéza      # olvidar → esquecer.
+olvidei esquecín      # olvidar → esquecer.
+olvidei esquecín      # olvidar → esquecer.
+olvidein esquecin      # olvidar → esquecer.
+olvidéi esquecín      # olvidar → esquecer.
+olvidou esqueceu      # olvidar → esquecer.
+olvidóu esquecéu      # olvidar → esquecer.
+^órdenes$ ordes       # órdenes → ordes.
+pale padex      # palear → padexar.
+palé padéx      # palear → padexar.
+per pre
+^perxudic prexudic              # perxudicar → prexudicar.
+^perxudíc prexudíc              # perxudicar → prexudicar.
+^perxuízo dano                  # perxuízo → dano.
+^prexudicios daniñ              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+^prexudicios danos              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+^prexudicios lesiv              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+^prexudicios nociv              # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+^prexudicios pernicios          # prexudicioso → daniño, danoso, lesivo, nocivo, pernicioso.
+promedio media     # Erro común.
+promedio medio     # Erro común.
+promedio termo     # Erro común.
+peldaño banzo           # peldaño → banzo, chanzo, paso.
+peldaño chanzo          # peldaño → banzo, chanzo, paso.
+peldaño paso            # peldaño → banzo, chanzo, paso.
+^perrucaría$ salón_de_peiteado    # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+^perrucarías$ salóns_de_peiteado  # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+^perruquería$ salón_de_peiteado   # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+^perruquerías$ salóns_de_peiteado # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+perrucaría barbaría               # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+perruquería barbería              # perrucaría, perruquería → salón de peiteado, barbaría, barbería.
+perxudiqu prexudic      # perxudicar → prexudicar.
+perxudíqu prexudíc      # perxudicar → prexudicar.
+perxudic dan      # perxudicar → danar.
+perxudíc dán      # perxudicar → danar.
+perxudiqu dan      # perxudicar → danar.
+perxudíqu dán      # perxudicar → danar.
+^plantilla$ cadro_de_persoal            # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+^plantillas$ cadros_de_persoal          # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+plantilla deseño                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+plantilla modelo                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+plantilla padrón                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+^plantilla$ persoal                     # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+plantilla soleta                        # plantilla → cadro de persoal, deseño, modelo, padrón, persoal, soleta.
+postr prostr      # postrar → prostrar.
+póstr próstr      # postrar → prostrar.
+postre sobremesa     # Erro común.
+pre per
+prend peñor      # prendar → peñorar.
+prénd peñór      # prendar → peñorar.
+presion prem      # presionar → premer.
+presión prém      # presionar → premer.
+presiona preme      # presionar → premer.
+presióna préme      # presionar → premer.
+presioná premé      # presionar → premer.
+presionei premín      # presionar → premer.
+presionei premin     # presionar → premer.
+presionéi premín     # presionar → premer.
+presionein premin     # presionar → premer.
+presiona premi     # presionar → premer.
+presióná prémí      # presionar → premer.
+presionou premeu     # presionar → premer.
+presionóu preméu      # presionar → premer.
+presione prema     # presionar → premer.
+presióne préma      # presionar → premer.
+prorrate rate      # prorratear → ratear.
+prorraté raté      # prorratear → ratear.
+quep caib
+quép cáib
+recadatoria recadadora          # recadatorio → recadador.
+^recadatorio$ recadador         # recadatorio → recadador.
+^recadatorios$ recadadores      # recadatorio → recadador.
+reche reench      # rechear → reencher.
+reché reénch     # rechear → reencher.
+rechea reenche      # rechear → reencher.
+rechéa reénche      # rechear → reencher.
+recheá reenché      # rechear → reencher.
+recheei reenchín      # rechear → reencher.
+recheei reenchin      # rechear → reencher.
+recheei reenchín      # rechear → reencher.
+recheein reenchin      # rechear → reencher.
+rechea reenchi      # rechear → reencher.
+recheá reenchí      # rechear → reencher.
+recheou reencheu      # rechear → reencher.
+recheóu reenchéu      # rechear → reencher.
+rechee reencha     # rechear → reencher.
+rechée reéncha      # rechear → reencher.
+recrudesce recrua     # recrudescer → recruar.
+recrudésce recrúa     # recrudescer → recruar.
+recrudesc recru     # recrudescer → recruar.
+recrudésc recrú     # recrudescer → recruar.
+recrudesza recrúe     # recrudescer → recruar.
+recrudésza recrúe      # recrudescer → recruar.
+reempraz substitú     # reemprazar → substituír.
+reempráz substitú      # reemprazar → substituír.
+reempraza substitúe     # reemprazar → substituír.
+reempráza substitúe     # reemprazar → substituír.
+reempráza substituí     # reemprazar → substituír.
+reemprace substitúa     # reemprazar → substituír.
+reempráce substitúa     # reemprazar → substituír.
+reemprace substitua     # reemprazar → substituír.
+reempracé substituá     # reemprazar → substituír.
+reempracei substituín     # reemprazar → substituír.
+reempracéi substitúa     # reemprazar → substituír.
+reempracein substituín     # reemprazar → substituír.
+reemprazou substituíu     # reemprazar → substituír.
+reemprazóu substituíu     # reemprazar → substituír.
+reflexa reflicte      # reflexar → reflectir.
+refléxa reflícte     # reflexar → reflectir.
+reflex reflict     # reflexar → reflectir.
+refléx reflíct      # reflexar → reflectir.
+reflexe reflicta      # reflexar → reflectir.
+refléxe reflícta      # reflexar → reflectir.
+reflexei refllectín     # reflexar → reflectir.
+reflexei refllectin     # reflexar → reflectir.
+reflexéi refllectín     # reflexar → reflectir.
+reflexein refllectin     # reflexar → reflectir.
+reflexa refllecti     # reflexar → reflectir.
+reflexá refllectí     # reflexar → reflectir.
+reflexou refllectiu     # reflexar → reflectir.
+reflexóu refllectíu     # reflexar → reflectir.
+refri arrefri      # refriar → arrefriar.
+refrí arrefrí     # refriar → arrefriar.
+resfri arrefri     # refriar → arrefriar.
+resfrí arrefrí     # refriar → arrefriar.
+retras atras      # retrasar → atrasar.
+retrás atrás      # retrasar → atrasar.
+sea sexa
+^según$ segundo   # según → segundo.
+sendero carreiro  # Erro común.
+sep saib
+sép sáib
+siglo século      # Castelanismo.
+silla cadeira     # Castelanismo.
+soborn suborn      # sobornar → subornar.
+sobórn subórn      # sobornar → subornar.
+^sobretodo$ por_enriba_de_todo # sobretodo → por enriba de todo, por riba de todo.
+^sobretodo$ por_riba_de_todo   # sobretodo → por enriba de todo, por riba de todo.
+sofoc sufoc      # sofocar → sufocar.
+sofóc sufóc      # sofocar → sufocar.
+subast pox      # subastar → poxar.
+subást póx      # subastar → poxar.
+substr subtr      # substraer → subtraer.
+sumerx somerx      # sumerxir → somerxer.
+sumérx somérx     # sumerxir → somerxer.
+sumerxi somerxe      # sumerxir → somerxer.
+sumerxí somerxé     # sumerxir → somerxer.
+suministr subministr     # suministrar → subministrar.
+suminístr subminístr      # suministrar → subministrar.
+tachon chatol      # tachonar → chatolar.
+tachón chatól      # tachonar → chatolar.
+tambale cambale      # tambalear → cambalear.
+tambalé cambalé      # tambalear → cambalear.
+tante tente      # tantear → tentear.
+tanté tenté      # tantear → tentear.
+taquilla portelo # taquilla → portelo.
+terci terz      # terciar → terzar.
+térci térz      # terciar → terzar.
+terci terce      # terciar → terzar.
+térci térce      # terciar → terzar.
+tilde acento                        # tilde → acento, acento gráfico, acento ortográfico.
+^tilde$ acento_gráfico              # tilde → acento, acento gráfico, acento ortográfico.
+^tildes$ acentos_gráficos           # tilde → acento, acento gráfico, acento ortográfico.
+^tilde$ acento_ortográfico          # tilde → acento, acento gráfico, acento ortográfico.
+^tildes$ acentos_ortográficos       # tilde → acento, acento gráfico, acento ortográfico.
+tim estaf      # timar → estafar.
+tím estáf     # timar → estafar.
+tiz atiz      # tizar → atizar.
+tíz atíz      # tizar → atizar.
+tiz atic      # tizar → atizar.
+tíz atíc      # tizar → atizar.
+transtorn trastorn      # transtornar → trastornar.
+transtórn trastórn      # transtornar → trastornar.
+triz trinz      # trizar → trinzar.
+tríz trínz      # trizar → trinzar.
+tric trinc      # trizar → trinzar.
+tríc trínc      # trizar → trinzar.
+turno quenda    # turno → quenda, rolda, ronda, vez.
+turno rolda     # turno → quenda, rolda, ronda, vez.
+turno ronda     # turno → quenda, rolda, ronda, vez.
+^turno$ vez     # turno → quenda, rolda, ronda, vez.
+^turnos$ veces  # turno → quenda, rolda, ronda, vez.
+u oi
+ú ói
+ua a                    # Exemplo: guarda → garda.
+ubic localiz            # ubicar → localizar, situar.
+ubíc localíz            # ubicar → localizar, situar.
+ubiqu localic           # ubicar → localizar, situar.
+ubíqu localíc           # ubicar → localizar, situar.
+ubic situ               # ubicar → localizar, situar.
+ubíc sitú               # ubicar → localizar, situar.
+ubiqu situ              # ubicar → localizar, situar.
+ubíqu sitú              # ubicar → localizar, situar.
+uch oit
+úch óit
+ue o     # Exemplo: puesto → posto.
+ué ó     # Exemplo: cuéntallo → cóntallo.
+uniformiz uniform     # uniformizar → uniformar.
+uniformíz unifórm     # uniformizar → uniformar.
+uniformic uniform     # uniformizar → uniformar.
+uniformíc unifórm     # uniformizar → uniformar.
+^vial$ viaria   # vial → viario.
+^vial$ viario   # vial → viario.
+^viais$ viarias # vial → viario.
+^viais$ viarios # vial → viario.
+x ll                  # Exemplo: parexa → parella.
+xener xer             # xenerar → xerar.
+xeralic xeneralic     # xeralizar → xeneralizar.
+xeraliz xeneraliz     # xeralizar → xeneralizar.
+y ll     # Na maioría dos casos tratarase dun castelanismo.
+z ci     # Exemplo: silenzo → silencio.
+zamp chap      # zampar → chapar.
+zámp cháp      # zampar → chapar.
+zamp chimp      # zampar → chimpar.
+zámp chímp      # zampar → chimpar.
+airado irado # airado2 -> irado
+airada irada # airado2 -> irado
+anexo anello # anexo2 -> anello
+anexa anella # anexo2 -> anello
+anodino anódino # anodino -> anódino
+anodina anódina # anodino -> anódino
+asequible alcanzable # asequible -> alcanzable
+asequible accesible # asequible -> accesible
+astrinxente adstrinxente # astrinxente -> adstrinxente
+avantaxoso vantaxoso # avantaxoso -> vantaxoso
+avantaxosa vantaxosa # avantaxoso -> vantaxoso
+barudo varudo # barudo -> varudo
+baruda varuda # barudo -> varudo
+besgo vesgo # besgo -> vesgo
+besga vesga # besgo -> vesgo
+borno morno # borno -> morno
+borna morna # borno -> morno
+bucio mucio # bucio3 -> mucio
+bucia mucia # bucio3 -> mucio
+bursátil bolsista # bursátil -> bolsista
+cachoeiro cacheiro # cachoeiro -> cacheiro2
+cachoeira cacheira # cachoeiro -> cacheiro2
+cachondo cacheiro # cachondo -> cacheiro2
+cachonda cacheira # cachondo -> cacheiro2
+calificable cualificable # calificable -> cualificable
+calificativo cualificativo # calificativo -> cualificativo
+calificativa cualificativa # calificativo -> cualificativo
+cuádruple cuádruplo # cuádruple -> cuádruplo
+demisionario dimisionario # demisionario -> dimisionario
+demisionaria dimisionaria # demisionario -> dimisionario
+desapacible desapracible # desapacible -> desapracible
+desavogoso desavegoso # desavogoso -> desavegoso
+desavogosa desavegosa # desavogoso -> desavegoso
+descalificador descualificador # descalificador -> descualificador
+descalificadora descualificadora # descalificador -> descualificador
+despiadado desapiadado # despiadado -> desapiadado
+despiadada desapiadada # despiadado -> desapiadado
+desprevenido desprevido # desprevenido -> desprevido
+desprevenida desprevida # desprevenido -> desprevido
+disconforme desconforme # disconforme -> desconforme
+discontinuo descontinuo # discontinuo -> descontinuo
+discontinua descontinua # discontinuo -> descontinuo
+esbelto esvelto # esbelto -> esvelto
+esbelta esvelta # esbelto -> esvelto
+espacioso espazoso # espacioso -> espazoso
+espaciosa espazosa # espacioso -> espazoso
+filarmónico filharmónico # filarmónico -> filharmónico
+filarmónica filharmónica # filarmónico -> filharmónico
+fosco fusco # fosco -> fusco
+fosca fusca # fosco -> fusco
+grisáceo agrisado # grisáceo -> agrisado
+grisácea agrisada # grisáceo -> agrisado
+guelfo belfo # guelfo -> belfo
+guelfa belfa # guelfo -> belfo
+hirto irto # hirto -> irto
+hirta irta # hirto -> irto
+imponente impoñente # imponente -> impoñente
+inasequible inaccesible # inasequible -> inaccesible
+inasequible inalcanzable # inasequible -> inalcanzable
+insobornable insubornable # insobornable -> insubornable
+insumiso insubmiso # insumiso -> insubmiso
+insumisa insubmisa # insumiso -> insubmiso
+inxel sinxelo # inxel -> sinxelo
+irremprazable insubstituíble # irremprazable -> insubstituíble
+larmeiro solermeiro # larmeiro -> solermeiro
+larmeira solermeira # larmeiro -> solermeiro
+maravilloso marabilloso # maravilloso -> marabilloso
+maravillosa marabillosa # maravilloso -> marabilloso
+merino meiriño # merino2 -> meiriño2
+merina meiriña # merino2 -> meiriño2
+mezquiño mesquiño # mezquiño -> mesquiño
+mezquiña mesquiña # mezquiño -> mesquiño
+mole mol # mole2 -> mol1
+obscuro escuro # obscuro -> escuro
+obscura escura # obscuro -> escuro
+ourilucente aurilucente # ourilucente -> aurilucente
+preconcebido preconcibido # preconcebido -> preconcibido
+preconcebida preconcibida # preconcebido -> preconcibido
+quirúrxico cirúrxico # quirúrxico -> cirúrxico
+quirúrxica cirúrxica # quirúrxico -> cirúrxico
+reacio remiso # reacio -> remiso
+reacia remisa # reacio -> remiso
+receso reseso # receso1 -> reseso
+recesa resesa # receso1 -> reseso
+ronco rouco # ronco2 -> rouco
+ronca rouca # ronco2 -> rouco
+rutinario rutineiro # rutinario -> rutineiro
+rutinaria rutineira # rutinario -> rutineiro
+servicial servizal # servicial -> servizal
+soso eslamiado # soso -> eslamiado
+sosa eslamiada # soso -> eslamiado
+terciado terzado # terciado -> terzado
+terciada terzada # terciado -> terzado
+terno tenro # terno2 -> tenro
+terna tenra # terno2 -> tenro
+tonto parvo # tonto -> parvo
+tonta parva # tonto -> parvo
+triple triplo # triple -> triplo
+troxo trocho # troxo2 -> trocho2
+troxa trocha # troxo2 -> trocho2
+ufano oufano # ufano -> oufano
+ufana oufana # ufano -> oufano
+valeroso valoroso # valeroso -> valoroso
+valerosa valorosa # valeroso -> valoroso
+veriño albeiro # veriño2 -> albeiro
+veriña albeira # veriño2 -> albeiro
+^xóvenes$ mocidade  # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+^xóvenes$ mozos     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+^xóvenes$ novos     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+^xóvenes$ xoves     # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+^xóvenes$ xuventude # xóvenes → mocidade, mozos, novos, xoves, xuventude.
+ábrego ávrego # ábrego -> ávrego
+ábrega ávrega # ábrego -> ávrego
+realengo reguengo # realengo -> reguengo
+realenga reguenga # realengo -> reguengo
+vacío baleiro # vacío -> baleiro
+vacía baleira # vacío -> baleiro
+almorávide almorábide # almorávide -> almorábide
+ampurdanés empordanés # ampurdanés -> empordanés
+ampurdanesa empordanesa # ampurdanés -> empordanés
+arriano ariano # arriano -> ariano
+arriana ariana # arriano -> ariano
+bagdalí bagdadí # bagdalí -> bagdadí
+barrendero varredor # barrendero -> varredor
+barrendera varredora # barrendero -> varredor
+bergallán vergallán # bergallán -> vergallán
+bergallana vergallana # bergallán -> vergallán
+bolchevique bolxevique # bolchevique -> bolxevique
+calificador cualificador # calificador -> cualificador
+calificadora cualificadora # calificador -> cualificador
+campeón campión # campeón -> campión
+campeoa campioa # campeón -> campión
+cañoneiro canoneiro # cañoneiro -> canoneiro
+cañoneira canoneira # cañoneiro -> canoneiro
+cirineo cireneo # cirineo -> cireneo
+cirinea cirenea # cirineo -> cireneo
+cobarde covarde # cobarde -> covarde
+cochino cocho # cochino -> cocho1
+cochina cocha # cochino -> cocho1
+enemigo inimigo # enemigo -> inimigo
+enemiga inimiga # enemigo -> inimigo
+fanfarrón fanfurriñeiro # fanfarrón -> fanfurriñeiro
+fanfarrona fanfurriñeira # fanfarrón -> fanfurriñeiro
+gabacho gavacho # gabacho2 -> gavacho
+gabacha gavacha # gabacho2 -> gavacho
+lapón saami # lapón2 -> saami
+lapoa saami # lapón2 -> saami
+larchán lerchán # larchán -> lerchán
+larchana lerchana # larchán -> lerchán
+menchevique menxevique # menchevique -> menxevique
+pecoreador carrexador # pecoreador -> carrexador
+pecoreadora carrexadora # pecoreador -> carrexador
+ponente relator # ponente -> relator
+seglar segrar # seglar -> segrar
+sonámbula somnámbula # sonámbulo -> somnámbulo
+subastador poxador # subastador -> poxador
+subastadora poxadora # subastador -> poxador
+tercio terzo # tercio -> terzo
+tercia terza # tercio -> terzo
+terco testalán # terco -> testalán
+terco testán # terco -> testán
+terco testudo # terco -> testudo
+terca testalana # terco -> testalán
+terca testana # terco -> testán
+terca testuda # terco -> testudo
+zíngaro cíngaro # zíngaro -> cíngaro
+zíngara cíngara # zíngaro -> cíngaro
+millor mellor # millor -> mellor
+berroeira verroeira # berroeira -> verroeira
+reboldá rebordá # reboldá -> rebordá
+cuartana cuartá # cuartana -> cuartá
+terciá terzá # terciá -> terzá
+golo goro # golo -> goro
+airadamente iradamente # airadamente -> iradamente
+alomenos polo_menos # alomenos -> polo menos
+aparte á_parte # aparte2 -> parte, á
+cobardemente covardemente # cobardemente -> covardemente
+demais de_máis # demais2 -> de máis
+desprevenidamente desprevidamente # desprevenidamente -> desprevidamente
+eis velaí # eis -> velaí
+espaciadamente espazadamente # espaciadamente -> espazadamente
+maravillosamente marabillosamente # maravillosamente -> marabillosamente
+entonces entón # entonces -> entón
+ca coa # ca3 -> coa
+daquelo daquilo # daquelo -> daquilo
+deso diso # deso -> diso
+desto disto # desto -> disto
+naquelo naquilo # naquelo -> naquilo
+neso niso # neso -> niso
+nesto nisto # nesto -> nisto
+abedueira bidueiro # abedueira -> bidueiro
+alambrada aramado # alambrada -> aramado
+almorta pedrelo # almorta -> pedrelo
+armonía harmonía # armonía -> harmonía
+arpía harpía # arpía -> harpía
+asén sen # asén -> sen2
+asinatura sinatura # asinatura -> sinatura
+asta hasta # asta -> hasta
+aurela orela # aurela -> orela
+aurela ourela # aurela -> ourela
+autopista autoestrada # autopista -> autoestrada
+avantaxe vantaxe # avantaxe -> vantaxe
+bacaladilla lirio # bacaladilla -> lirio3
+baira vaira # baira -> vaira
+bandolina mandolina # bandolina -> mandolina
+barcia varcia # barcia -> varcia
+bareixa vareixa # bareixa -> vareixa
+barga varga # barga -> varga
+barxa varxa # barxa1 -> varxa1
+barxa vaxa # barxa2 -> vaxa
+basca vasca # basca -> vasca
+basoira vasoira # basoira -> vasoira
+basquiña vasquiña # basquiña -> vasquiña
+batalada badalada # batalada -> badalada
+béboda bébeda # béboda -> bébeda
+benquerencia benquerenza # benquerencia -> benquerenza
+berza verza # berza -> verza
+beta veta # beta2 -> veta
+boda voda # boda -> voda
+boga voga # boga2 -> voga
+boíña voíña # boíña -> voíña
+boulla broulla # boulla -> broulla
+brea verea # brea3 -> verea
+breixa freixa # breixa -> freixa
+breva bévera # breva -> bévera
+brixeira virxe # brixeira -> virxe
+broa boroa # broa -> boroa
+bróchega bocha # bróchega -> bocha
+bróchega bóchega # bróchega -> bóchega
+bróchega boza # bróchega -> boza1
+brúxula compás # brúxula -> compás
+cabilla cavilla # cabilla -> cavilla1
+cabofa cagofo # cabofa -> cagofo
+caboza cavoza # caboza -> cavoza
+caella quella # caella1 -> quella
+caella quenlla # caella2 -> quenlla1
+caella quenlla # caella3 -> quenlla2
+caiada caxata # caiada2 -> caxata
+calaveira caveira # calaveira -> caveira
+calificación cualificación # calificación -> cualificación
+caña augardente # caña -> augardente
+canadiña quenlla # canadiña -> quenlla1
+canaleta quenlla # canaleta -> quenlla1
+cangrena gangrena # cangrena -> gangrena
+canilla canela # canilla -> canela1
+carcoma caruncho # carcoma -> carunchoa
+carcoma couza # carcoma -> couza
+carepa carapa # carepa -> carapa
+carepa paraza # carepa -> paraza
+casoupa casopa # casoupa -> casopa
+cen sen # cen2 -> sen1
+chilaba xilaba # chilaba -> xilaba
+chimenea cheminea # chimenea -> cheminea
+cibela fibela # cibela -> fibela
+cinxa cinsa # cinxa -> cinsa
+cipela erisipela # cipela -> erisipela
+cizaña discordia> xoio # cizaña -> discordia> xoio
+cobardía covardía # cobardía -> covardía
+cochinada cochada # cochinada -> cochada
+cofradía confraría # cofradía -> confraría
+coletilla apostila # coletilla -> apostila
+coletilla engadido # coletilla -> engadido
+comunión comuñón # comunión -> comuñón
+contraseña contrasinal # contraseña -> contrasinal
+conxa coxa # conxa -> coxa
+corbata gravata # corbata -> gravata
+corbeta corveta # corbeta -> corveta
+corrada currada # corrada -> currada
+coruxa curuxa # coruxa -> curuxa
+cresta crista # cresta -> crista
+cuaderna caderna # cuaderna -> caderna
+cuantía contía # cuantía -> contía
+cutuluvía cotovía # cutuluvía -> cotovía
+demisión dimisión # demisión -> dimisión
+depositaría caixa _de_depósitos # depositaría -> caixa de depósitos> tesourería
+depositaría tesourería # depositaría -> tesourería
+depositaría tesouraría # depositaría -> tesourería
+descalificación descualificación # descalificación -> descualificación
+desgracia desgraza # desgracia -> desgraza
+diferencia diferenza # diferencia -> diferenza
+discontinuidade descontinuidade # discontinuidade -> descontinuidade
+emborcadura envorcadura # emborcadura -> envorcadura
+embrullada envurullada # embrullada -> envurullada
+emburullada envurullada # emburullada -> envurullada
+empola ampola # empola -> ampola
+enmenda emenda # enmenda -> emenda
+erogación errogación # erogación -> errogación
+espaldeira espaleira # espaldeira -> espaleira
+esquela necrolóxica # esquela -> necrolóxica
+farra troula # farra -> troula
+faterna fraterna # faterna -> fraterna
+finca leira # finca -> leira
+flota frota # flota -> frota
+fragancia fragrancia # fragancia -> fragrancia
+franela flanela # franela -> flanela
+frente fronte # frente -> fronte
+furruxe ferruxe # furruxe -> ferruxe
+gábea gabia # gábea -> gabia
+gabela gavela # gabela2 -> gavela
+gandra gándara # gandra -> gándara
+gávea gabia # gávea -> gabia
+gaveta gabeta # gaveta -> gabeta
+goldra bóldrega # goldra2 -> bóldrega
+gracia graza # gracia -> graza
+grada chanzo # grada -> chanzo
+granicela gradicela # granicela -> gradicela
+grasa graxa # grasa -> graxa
+grei grea # grei -> grea
+grinalda grilanda # grinalda -> grilanda
+grulla grou # grulla -> grou
+gubernabilidade gobernabilidade # gubernabilidade -> gobernabilidade
+guirnalda grilanda # guirnalda -> grilanda
+harpa arpa # harpa -> arpa
+horchata orchata # horchata -> orchata
+iguala avinza # iguala -> avinza
+inchenta enchente # inchenta -> enchente
+indiferencia indiferenza # indiferencia -> indiferenza
+insumisión insubmisión # insumisión -> insubmisión
+interlínea entreliña # interlínea -> entreliña
+kermesse quermese # kermesse -> quermese
+ladilla piollo pato # ladilla -> piollo pato
+lexía lixivia # lexía -> lixivia
+libreta caderno # libreta -> caderno
+licencia licenza # licencia -> licenza
+limonada limoada # limonada -> limoada
+linterna lanterna # linterna -> lanterna
+llerga legra # llerga -> legra
+madastra madrasta # madastra -> madrasta
+malquerencia malquerenza # malquerencia -> malquerenza
+manada manda # manada -> manda2
+maniobra manobra # maniobra -> manobra
+marafallada marfallada # marafallada -> marfallada
+maravilla marabilla # maravilla -> marabilla
+mariguana marihuana # mariguana -> marihuana
+mariposa bolboreta # mariposa -> bolboreta
+mazmorra alxube # mazmorra -> alxube
+médula medula # médula -> medula
+melée loita # melée -> loita
+menestra minestra # menestra -> minestra
+meruxa muruxa # meruxa -> muruxa
+mezquita mesquita # mezquita -> mesquita
+miligacha limacha # miligacha -> limacha
+milpéndora ouriolo # milpéndora -> ouriolo
+mirilla míllara # mirilla -> míllara
+miruxa muruxa # miruxa -> muruxa
+mitade metade # mitade -> metade
+mota mouta # mota -> mouta
+murriñada morriñada # murriñada -> morriñada
+nacencia nacenza # nacencia -> nacenza
+natilla crema # natilla -> crema
+negrita grosa # negrita -> grosa
+neumonía pneumonía # neumonía -> pneumonía
+néveda nébeda # néveda -> nébeda
+noraboa parabén # noraboa -> parabén
+obertura abertura # obertura -> abertura
+oca ganso # oca1 -> ganso
+odometría hodometría # odometría -> hodometría
+orina ouriños # orina -> ouriños
+orquesta orquestra # orquesta -> orquestra
+palanca panca # palanca -> panca
+palangana almofía # palangana -> almofía
+palanqueta panquiña # palanqueta -> panquiña
+pechina pendente # pechina -> pendente
+pérola perla # pérola -> perla
+piada peada # piada -> peada
+píldora pílula # píldora2 -> pílula
+pizarra lousa # pizarra -> lousa
+plaga praga # plaga -> praga
+poa poia # poa -> poia1
+pócima apócema # pócima -> apócema
+poia poxa # poia2 -> poxa
+ponencia relatorio # ponencia -> relatorio
+prenda peñor # prenda -> peñor
+presencia presenza # presencia -> presenza
+queila queira # queila -> queira
+querencia querenza # querencia -> querenza
+racha refacho # racha2 -> refacho
+ranura rañura # ranura -> rañura
+raquis raque # raquis -> raque
+regandixa fenda> regaña # regandixa -> fenda> regaña
+reigada raigada # reigada -> raigada
+reigaña raigaña # reigaña -> raigaña
+renacencia renacenza # renacencia -> renacenza
+revancha desquite # revancha -> desquite
+revoldaina rebuldaina # revoldaina -> rebuldaina
+ronqueira rouquén # ronqueira -> rouquén
+savia zume # savia -> zume
+seba ceba # seba -> ceba2
+secta seita # secta -> seita2
+seiva zume # seiva -> zume
+sentencia sentenza # sentencia -> sentenza
+servilleta pano_de_mesa # servilleta -> pano de mesa
+silla cadeira # silla -> cadeira
+sillaría cadeirado # sillaría -> cadeirado
+sillería cadeirado # sillería -> cadeirado
+sipela erisipela # sipela -> erisipela
+socarronaría retranca # socarronaría -> retranca
+socarronería retranca # socarronería -> retranca
+subasta poxa # subasta -> poxa
+suxerencia suxestión # suxerencia -> suxestión
+taba chuca # taba -> chuca
+tachola chatola # tachola -> chatola
+tanda quendaz # tanda -> quenda
+tanda serie # tanda -> serie
+tanda vez # tanda -> vez
+tarta torta # tarta -> torta
+tasa taxa # tasa -> taxa
+taza cunca # taza -> cunca
+tina talla # tina -> talla2
+tiza xiz # tiza -> xiz
+toca touca # toca -> touca
+tortícolis cabaleiro # tortícolis -> cabaleiro2
+traición traizón # traición -> traizón
+tramoia tremoia # tramoia -> tremoia
+vacuna vacina # vacuna -> vacina
+vela candea # vela3 -> candea
+veleta catavento # veleta -> catavento
+ventanilla portelo # ventanilla -> portelo
+ventisca cifra # ventisca -> cifra2
+vereda verea # vereda -> verea
+vertedeira veso # vertedeira -> veso
+verxa enreixado # verxa -> enreixado
+vicaría vigairía # vicaría -> vigairía
+viruta labra # viruta -> labra
+vitola bitola # vitola -> bitola
+xabalina xavelina # xabalina -> xavelina
+xábega xávega # xábega -> xávega
+xalea xelea # xalea -> xelea
+xaula gaiola # xaula -> gaiola
+xoroba carrumba # xoroba -> carrumba
+xoroba chepa # xoroba -> chepa
+xudía feixón # xudía -> feixón
+xunca engra # xunca2 -> engra
+zanxa gabia # zanxa -> gabia
+zeolita ceolita # zeolita -> ceolita
+zinxiberáceas cinxiberáceas # zinxiberáceas -> cinxiberáceas
+hola ola # hola -> ola
+a_baravento a_balavento # baravento, a -> balavento, a
+ás_borcalladas ás_vorcalladas # borcalladas, ás -> vorcalladas, ás
+de_contino decontino # contino, de -> decontino
+de_cote decote # cote, de -> decote
+a_cotío acotío # cotío, a -> acotío
+de_cotío decotío # cotío, de -> decotío
+á_emborca, á_envorca # emborca, á -> envorca, á
+ás_emborcalladas ás_envorcalladas # emborcalladas, ás -> envorcalladas, ás
+modo, a amodo # modo, a -> amodo
+reollo, de esguello, de # reollo, de -> esguello, de
+de_seguida deseguida # seguida, de -> deseguida
+en_seguida enseguida # seguida, en -> enseguida
+de_seguido deseguido # seguido, de -> deseguido
+tal_vez talvez # tal vez -> talvez
+vagar, de devagar # vagar, de -> devagar
+acobardamento acovardamento # acobardamento -> acovardamento
+afialápices afialapis # afialápices -> afialapis
+albugo albuxe # albugo -> albuxe
+almeiro armeiro # almeiro -> armeiro
+almíbar caldo_de_azucre # almíbar -> caldo de azucre
+almidón amidón # almidón -> amidón
+altavoz altofalante # altavoz -> altofalante
+andamio estada # andamio -> estada1
+andén plataforma # andén -> plataforma
+antidóping antidopaxe # antidóping -> antidopaxe
+antifaz anteface # antifaz -> anteface
+aparcelamento parcelamento # aparcelamento -> parcelamento
+arbotante arcobotante # arbotante -> arcobotante
+arcén beiravía # arcén -> beiravía
+arrabaldo arrabalde # arrabaldo -> arrabalde
+aspavento espavento # aspavento -> espavento
+atagallido alarido # atagallido -> alarido
+atallarido alarido # atallarido -> alarido
+autoservicio autoservizo # autoservicio -> autoservizo
+bacalao bacallau # bacalao -> bacallau
+bacarrá bacará # bacarrá -> bacará1
+badexo abadexo # badexo -> abadexo
+baffle pantalla_acústica # baffle -> pantalla acústica
+baínzo maínzo # baínzo -> maínzo1
+bargado vargado # bargado -> vargado
+bargo vargo # bargo -> vargo
+barniz verniz # barniz -> verniz
+bascallo vascallo # bascallo -> vascallo
+bascullo vascullo # bascullo -> vascullo
+belorizo velorizo # belorizo -> velorizo
+beo veo # beo -> veo1
+berbiquí berbequí # berbiquí -> berbequí
+bérrago vérrago # bérrago -> vérrago
+bérrago verro # bérrago -> verro
+berroallo verroallo # berroallo -> verroallo
+berroallo verrún # berroallo -> verrún
+berrón verrón # berrón1 -> verrón
+betillo vetillo # betillo -> vetillo
+billó bulló # billó -> bulló
+bío vío # bío-2 -> vío-
+biturón viturón # biturón -> viturón
+boitirón voitirón # boitirón -> voitirón
+bolchevismo bolxevismo # bolchevismo -> bolxevismo
+bolo birlo # bolo4 -> birlo
+borde bordo # borde -> bordo
+bormo mormo # bormo -> mormo
+borroallo verroallo # borroallo -> verroallo
+borrón verrón # borrón2 -> verrón
+botón motón # botón2 -> motón
+brelo varelo # brelo -> varelo
+brión vío # brión -> vío
+broo bruño # broo -> bruño1
+bruño abruño # bruño2 -> abruño
+buitre voitre # buitre -> voitre
+bulmeiro brumeiro # bulmeiro -> brumeiro
+bulto vulto # bulto -> vulto
+burdel bordel # burdel -> bordel
+burladero abeiro # burladero -> abeiro
+burmeiro brumeiro # burmeiro -> brumeiro
+burullo vurullo # burullo -> vurullo
+cabestrillo estribeira # cabestrillo -> estribeira
+cabildo cabido # cabildo -> cabido
+caborco cavorco # caborco -> cavorco
+cachifo cacifo # cachifo -> cacifo
+cachifro cacifo # cachifro -> cacifo
+caladeiro caladoiro # caladeiro -> caladoiro
+calamar lura # calamar -> lura
+camilleiro padioleiro # camilleiro -> padioleiro
+campeonato campionato # campeonato -> campionato
+canalón cal # canalón -> cal2
+canalón canlón # canalón -> canlón
+candado cadeado # candado -> cadeado
+candión candeón # candión -> candeón
+cañón canón # cañón -> canón
+cañonazo canonazo # cañonazo -> canonazo
+cañoneo canoneo # cañoneo -> canoneo
+canuto canudo # canuto -> canudo
+carbunco carbuncho # carbunco -> carbuncho
+carbunco carafuncho # carbunco ->  carafuncho
+carbunco nacida # carbunco -> nacida
+cartílago cartilaxe # cartílago -> cartilaxe
+cercelo sarcelo # cercelo -> sarcelo
+cerne cerna # cerne -> cerna
+cerrollo ferrollo # cerrollo -> ferrollo
+chambrico chambaril # chambrico -> chambaril
+champán champaña # champán -> champaña
+chaparrón ballón # chaparrón -> ballón
+che ce hache # che2 -> ce hache
+chelín xilin # chelín -> xilin
+chicle goma de mascar # chicle -> goma de mascar
+chombo chumbo # chombo -> chumbo1
+choupo chopo # choupo1 -> chopo2
+choupo chopo4 # choupo2 -> chopo4
+churume chorume # churume -> chorume
+cimborrio ciborio # cimborrio -> ciborio
+cincel cicel # cincel -> cicel
+cipaio sipaio # cipaio -> sipaio
+cocodrilo crocodilo # cocodrilo -> crocodilo
+cogote cocote # cogote -> cocote
+colchete corchete # colchete -> corchete
+coletazo rabexada # coletazo -> rabexada
+collarín colariño # collarín -> colariño
+confite confeito # confite -> confeito
+corcho cortiza # corcho -> cortiza
+corondollo colondrollo # corondollo -> colondrollo
+corral curral # corral -> curral
+coruto curuto # coruto -> curuto
+croquis esbozo # croquis -> esbozo
+cru crup # cru2 -> crup
+cruce cruzamento # cruce -> cruzamento
+cu que u # cu2 -> que u
+cuaño caño> coaño # cuaño -> caño> coaño
+cubilete gobelete # cubilete -> gobelete
+cucurucho cornete # cucurucho -> cornete
+culeiro coleiro # culeiro -> coleiro
+cupo cota # cupo -> cota3
+curricán corricán # curricán -> corricán
+cutrillón cotellón # cutrillón -> cotellón
+cuxillo coxillo # cuxillo -> coxillo
+decomiso comiso # decomiso -> comiso
+descalabro desfeita # descalabro -> desfeita
+desembrullo desenvurullo # desembrullo -> desenvurullo
+disgusto desgusto # disgusto -> desgusto
+dóping dopaxe # dóping -> dopaxe
+elle ele dobre # elle -> ele dobre
+elmo helmo # elmo -> helmo
+emborco envorco # emborco -> envorco
+embrullo envurullo # embrullo -> envurullo
+emburullo envurullo # emburullo -> envurullo
+embuzo embozo # embuzo -> embozo
+enfrentamento enfrontamento # enfrentamento -> enfrontamento
+equis xe # equis -> xe
+escalón chanzo # escalón -> chanzo
+espaciador espazador # espaciador -> espazador
+espacio espazo # espacio -> espazo
+farrago fargallada # farrago -> fargallada
+farún ferún # farún -> ferún
+feed-back retroacción # feed-back -> retroacción
+fogoneiro fogueiro # fogoneiro -> fogueiro
+fornillo fornelo # fornillo -> fornelo
+foulard fular # foulard -> fular
+fuciño fociño # fuciño -> fociño
+fumo fume # fumo -> fume
+gallope galope # gallope -> galope
+galpón pendello # galpón* -> pendello
+ganchillo gancho # ganchillo -> gancho
+gañote garneato # gañote -> garneato
+garabanzo garavanzo # garabanzo -> garavanzo
+gazapo cazapo # gazapo -> cazapo
+graderío bancada # graderío -> bancada
+grao gran # grao1 -> gran1
+grial graal # grial -> graal
+grifo billa # grifo1 -> billa
+grifo grifón # grifo2 -> grifón
+guarismo algarismo # guarismo -> algarismo
+hematí hemacia # hematí -> hemacia
+hierarca xerarca # hierarca -> xerarca
+hieróglifo xeróglifo # hieróglifo -> xeróglifo
+hombro ombro # hombro -> ombro
+húmero úmero # húmero -> úmero
+icono icona # icono -> icona
+idoiro doiro # idoiro -> doiro
+impetigo impetixe # impetigo -> impetixe
+incordio encordio # incordio -> encordio
+inglete bispel # inglete -> bispel
+intertrigo intertrixe # intertrigo -> intertrixe
+inxenio enxeño # inxenio -> enxeño
+laberinto labirinto # laberinto -> labirinto
+lápiz lapis # lápiz -> lapis
+lío lea # lío -> lea
+loro papagaio # loro2 -> papagaio
+mango manga # mango2 -> manga2
+manillar guiador # manillar -> guiador
+maravedí marabedí # maravedí -> marabedí
+martín_pescador picapeixe # martín pescador -> picapeixe
+mástil mastro # mástil -> mastro
+meixarigo neixarigo # meixarigo -> neixarigo
+merino meiriño # merino1 -> meiriño1
+micra micron # micra -> micron
+milano miñato # milano -> miñato
+mildeu mera # mildeu -> mera1
+mimo meco # mimo2 -> meco
+minguilete binguelete # minguilete -> binguelete
+minuteiro agulla_dos_minutos # minuteiro -> agulla dos minutos
+misil mísil # misil -> mísil
+mocarte bocarte # mocarte -> bocarte
+modelado modelaxe # modelado -> modelaxe
+moíño muíño # moíño -> muíño
+morango amorodo # morango -> amorodo
+mordisco dentada # mordisco -> dentada
+morillo trasfogueiro # morillo -> trasfogueiro
+mote alcume # mote -> alcume
+mulo macho # mulo -> macho2
+musgo mofo # musgo2 -> mofo
+naxarigo neixarigo # naxarigo -> neixarigo
+negrillo chopo negro # negrillo -> chopo negro
+neumático pneumático # neumático -> pneumático
+niqui camisa de punto # niqui -> camisa de punto
+obispo bispo # obispo -> bispo
+odómetro hodómetro # odómetro -> hodómetro
+padastro padrasto # padastro -> padrasto
+pao pau # pao -> pau
+paolo paiolo # paolo -> paiolo
+párrafo parágrafo # párrafo -> parágrafo
+patronato padroado # patronato -> padroado
+peatón peón # peatón -> peón
+pepino cogombro # pepino -> cogombro
+percutor percusor # percutor -> percusor
+petrucio patrucio # petrucio -> patrucio
+pichón pombiño # pichón -> pombiño
+pilar piar # pilar -> piar2
+pilón pío # pilón -> pío2
+pimento pemento # pimento -> pemento
+pinzón pimpín # pinzón -> pimpín
+pirlón porlón # pirlón2 -> porlón
+pisapapeis calcapapeis # pisapapeis -> calcapapeis
+pitorro biquela # pitorro -> biquela
+pitorro biquelo # pitorro -> biquelo
+playback son_pregravado # playback -> son pregravado
+pleistoceno plistoceno # pleistoceno -> plistoceno
+pleito preito # pleito -> preito
+plumón penuxe # plumón -> penuxe
+polichinela pulchinelo # polichinela -> pulchinelo
+polizón polisón # polizón -> polisón
+polrón porlón # polrón -> porlón
+porche soportal # porche -> soportal
+postema apostema # postema -> apostema
+postre sobremesa # postre -> sobremesa
+^preacordo$ acordo_previo # preacordo -> acordo previo
+^preacordos$ acordos_previos # preacordo -> acordo previo
+preaviso aviso_previo # preaviso -> aviso previo
+precio prezo # precio -> prezo
+pro prol # pro2 -> prol
+proel proeiro # proel -> proeiro
+prohome home_de_prol # prohome -> home de prol
+promedio media # promedio -> media
+promedio termo_medio # promedio -> termo medio
+pronóstico prognóstico # pronóstico -> prognóstico
+pulpo polbo # pulpo -> polbo
+purín xurroo # purín -> xurro
+purín zurro # purín -> zurro
+queixoto coxote # queixoto -> coxote
+rábano ravo # rábano -> ravo
+racimo acio # racimo -> acio
+rape peixe sapo # rape2 -> peixe sapo
+rapé repé # rapé2 -> repé
+rapsoda rapsodo # rapsoda -> rapsodo
+raseiro rapadoira # raseiro -> rapadoira
+rasgo risco # rasgo -> risco1
+rasgo trazo # rasgo -> trazo
+rebaño rabaño # rebaño -> rabaño
+recelo roxelo # recelo -> roxelo
+recluta recruta # recluta -> recruta
+refol redefol # refol -> redefol
+refriado arrefriado # refriado -> arrefriado
+regaliz regalicia # regaliz -> regalicia
+reptil réptil # reptil -> réptil
+resfriado arrefriado # resfriado -> arrefriado
+ribete reberete # ribete -> reberete
+ricino rícino # ricino -> rícino
+rincón canto # rincón -> canto3
+rincón recuncho # rincón -> recuncho
+rocío rosada # rocío -> rosada
+sabañón frieira # sabañón -> frieira
+sable sabre # sable1 -> sabre
+secano secaño # secano -> secaño
+serrín serraduras # serrín -> serraduras
+serro cerro # serro -> cerro
+servicio servizo # servicio -> servizo
+sillón cadeira_de_brazos # sillón -> cadeira de brazos
+sintoísmo xintoísmo # sintoísmo -> xintoísmo
+solar soar # solar1 -> soar2
+solar terreo_edificable # solar1 -> soar2
+sonido son # sonido -> son
+sostenido díese # sostenido -> díese
+stress tensión> estrés # stress -> tensión> estrés
+taburete meso> tallo # taburete -> meso> tallo
+tamiz baruto # tamiz -> baruto
+tanto punto # tanto3 -> punto
+tartrato tartarato # tartrato -> tartarato
+tenedor garfo # tenedor -> garfo
+tinte tinguidura # tinte -> tinguidura
+tiovivo carrusel # tiovivo -> carrusel
+tocado toucado # tocado2 -> toucado
+tocador toucador # tocador2 -> toucador
+toisón vélaro # toisón -> vélaro
+tornillo parafuso # tornillo -> parafuso
+torrón terrón # torrón -> terrón
+tragaluz bufarda # tragaluz -> bufarda
+trance transo # trance -> transo
+trébol trevo # trébol -> trevo
+trineo zorra # trineo -> zorra
+trino trilo # trino -> trilo
+trisquel tríscele # trisquel -> tríscele
+trogallo torgallo # trogallo -> torgallo
+troquel cuño # troquel -> cuño
+troquisco trocisco # troquisco -> trocisco
+troxo trocho # troxo1 -> trocho1
+trozo anaco # trozo -> anaco
+tupé topete # tupé -> topete
+turno quenda # turno -> quenda
+turno vez # turno -> vez
+turón tourón # turón -> tourón
+turreiro torreiro # turreiro -> torreiro
+ungüis ungüe # ungüis -> ungüe
+urizo orizo # urizo -> orizo
+varón home # varón1 -> home
+velro vérrago # velro -> vérrago
+vencello birrio # vencello2 -> birrio
+vencello cirrio # vencello2 -> cirrio
+verlo vérrago # verlo1 -> vérrago
+verlo vélaro # verlo2 -> vélaro
+vestuario vestiario # vestuario -> vestiario
+virrei vicerrei # virrei -> vicerrei
+vivaque bivaque # vivaque -> bivaque
+voladizo beiril # voladizo -> beiril
+wáter váter # wáter -> váter
+xargón xergón # xargón -> xergón
+xarrón floreiro> vaso # xarrón -> floreiro> vaso
+xenízaro xanízaro # xenízaro -> xanízaro
+zángano abázcaro # zángano -> abázcaro
+zar tsar # zar -> tsar
+zarrapo farrapo # zarrapo -> farrapo
+zendo cendo # zendo -> cendo
+zepelín cepelín # zepelín -> cepelín
+zeugma ceugma # zeugma -> ceugma
+zigurat cigurat # zigurat -> cigurat
+zócalo zócolo # zócalo -> zócolo
+zuleiro celeiro # zuleiro -> celeiro
+zen cen # zen -> cen3
+exacoraliarios hexacoraliarios # exacoraliarios -> hexacoraliarios
+maitíns matíns # maitíns -> matíns
+maitíns matinas # maitíns -> matinas
+^vintecatro$ vinte_e_catro # vintecatro -> vinte e catro
+^vintecinco$ vinte_e_cinco # vintecinco -> vinte e cinco
+^vintedous$ vinte_e_dous # vintedous -> vinte e dous
+^vintedúas$ vinte_e_dúas vintedous -> vinte e dous
+^vintenove$ vinte_e_nove # vintenove -> vinte e nove
+^vinteoito$ vinte_e_oito # vinteoito -> vinte e oito
+^vinteseis$ vinte_e_seis # vinteseis -> vinte e seis
+^vintesete$ vinte_e_sete # vintesete -> vinte e sete
+^vintetrés$ vinte_e_tres # vintetrés -> vinte e tres
+^vinteún$ vinte_e_un # vinteún -> vinte e un
+^vinteunha$ vinte_e_unha # vinteún -> vinte e un
+aquelo aquilo # aquelo -> aquilo
+cadaseu cadanseu # cadaseu -> cadanseu
+cadasúa cadansúa # cadaseu -> cadanseu
+eso iso # eso -> iso
+esto isto # esto -> isto
+il el # il -> el2
+archi arqui # archi- -> arqui-
+cuatri cuadri # cuatri- -> cuadri-
+neumo pneumo # neumo- -> pneumo-
+acobardado acovardado # acobardado -> acovardado
+acobardada acovardada # acobardado -> acovardado
+calificado cualificado # calificado -> cualificado
+calificada cualificada # calificado -> cualificado
+desentrenado desadestrado # desentrenado -> desadestrado
+desentrenada desadestrada # desentrenado -> desadestrado
+prevenido prevido # prevenido -> prevido
+prevenida previda # prevenido -> prevido
+desnudo espido # desnudo -> espido
+desnuda espida # desnudo -> espido
+desnudo nu # desnudo -> nu
+desnuda núa # desnudo -> nu
+barragán barregán # barragán2 -> barregán
+barragá barregá # barragán2 -> barregán
+careo acareo # careo -> acareo
+centinela sentinela # centinela -> sentinela
+cofrade confrade # cofrade -> confrade
+cofrada confrada # cofrade -> confrade
+corresponsal correspondente # corresponsal -> correspondente
+gusma usma # gusma -> usma
+maiorazo morgado # maiorazo -> morgado
+maioraza morgada # maiorazo -> morgado
+novicio novizo # novicio -> novizo
+novicia noviza # novicio -> novizo
+postor ofertante # postor -> ofertante
+postora ofertante # postor -> ofertante
+pranchador pasador # pranchador -> pasador
+pranchadora pasadora # pranchador -> pasador
+remite remitente # remite -> remitente
+
+# As seguintes substitucións non están presentes, á espera de poder aplicalas de maneira doada unha vez Hunspell teña a
+# funcionalidade solicitada en:
+# http://sourceforge.net/tracker/index.php?func=detail&aid=3603088&group_id=143754&atid=756398
+#
+# bucear nadar ao somorgullo
+# pór a mal
+# pranchar pasar o ferro
+# zarpar levantar áncora
