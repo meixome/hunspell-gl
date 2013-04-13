@@ -1,0 +1,85 @@
+Esta páxina explica como colaborar no desenvolvemento do corrector de Hunspell para galego.
+
+Este documento céntrase nos aspectos de Hunspell que afectan directamente ao corrector para galego. Se busca información
+máis xeral sobre Hunspell, como por exemplo para facer uso de funcionalidades que actualmente non están a ser usadas no
+corrector de galego, pode botarlle un ollo á documentación xeral de Hunspell, que atopará en formato PDF na páxina de
+descargas do proxecto en SourceForge:
+
+    http://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/ 
+
+
+Ficheiro de regras de formación de palabras («.aff»)
+==================================================
+
+O ficheiro AFF define:
+- Opcións e parámetros de Hunspell para este corrector.
+- Regras para fornecer suxestións para palabras incorrectas.
+- Regras de formación de palabras a partir dos núcleos de palabras definidos no ficheiro «.dic».
+
+
+Ficheiro de núcleos de palabras («.dic»)
+========================================
+
+O ficheiro «.dic» contén as palabras correctas, que define asociándoas mediante códigos (definidos no ficheiro «.aff») a
+regras de formación de sufixos e prefixos.
+
+
+Ficheiro de suxestións para palabras incorrectas
+================================================
+
+Para detalles sobre a sintaxe das regras de substitución, véxase na documentación oficial de Hunspell o uso da palabra
+clave «REP».
+
+Téñase en conta que mentres que no ficheiro final de Hunspell as substitucións colócanse no ficheiro .aff co seguinte
+formato:
+    
+    REP <número de liñas de regras de substitución>
+    REP ^regla regra
+    REP ^sustitución substitución
+    
+Nas fontes do corrector Hunspell para galego, as suxestións defínense en ficheiros «.rep», e non é necesario —nin se
+debe— incluír nin unha liña co número de liñas, nin «REP » ao comezo de cada liña. É dicir, nas fontes do corrector o
+contido anterior escribiríase do seguinte xeito nun ficheiro «.rep»:
+
+    ^regla regra
+    ^sustitución substitución
+    
+    
+Conxugacións
+============
+
+As regras de substitucións de verbos poden chegar ser bastante complicadas. Ás veces non abonda con fornecer o lexema
+do verbo incorrecto e mailo lexema do verbo correcto, senón que hai que considerar todas as posíbeis conxugacións que
+pode ter o verbo incorrecto, e comparalas coa forma correcta.
+
+Para comparalas, é recomendable o uso dunha ferramenta de conxugación, como pode ser http://conxugador.cilenis.com/.
+Esta ferramenta permite obter a conxugación que correspondería ao verbo incorrecto se en realidade fose correcto, e por
+suposto a conxugación do verbo correcto. Poñendo cada conxugación nunha xanela do navegador web, unha en cada lado da
+pantalla, poden comprobarse as diferencias entre combinacións de tempo e persoa para as dúas conxugacións, e observar a
+diferencia real que hai entre elas.
+
+
+Limitacións
+-----------
+
+Cómpre ter en conta que certas substitucións, debido ás limitacións de Hunspell, non poden fornecerse neste ficheiro.
+
+Concretamente, Hunspell non pode detectar como incorrectas —e por tanto tampouco fornecer suxestións— combinacións
+incorrectas de palabras, xa que Hunspell funciona palabra por palabra.
+
+Porén, esta limitación de Hunspell afecta unicamente á detección de combinacións de palabras incorrectas. Si que é
+posíbel, ante unha palabra incorrecta, fornecer suxestións que inclúen varias palabras. Para representar os espazos no
+texto de substitución, empréganse guións baixos.
+
+Por exemplo:
+
+    ^vinteún$ vinte_e_un
+    
+Esta regra de substitución suxire «vinte e un» para corrixir a palabra «vinteún».
+
+    Nota: os símbolos ^ e $ na cadea de substitución indican o «principio da palabra» e mailo «final da palabra»
+    respectivamente.
+
+Por suposto, Hunspell tampouco pode saber se unha palabra é correcta ou non segundo o contexto. Por exemplo, se ben o
+uso de «abate» como substantivo é incorrecto, de nada serve fornecer unha regra de suxestión «abate → abade» xa que
+«abate» é unha forma correcta do verbo «abater», e Hunspell considerará sempre como correcta a palabra.
