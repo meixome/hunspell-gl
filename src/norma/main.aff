@@ -172,7 +172,7 @@ SFX 16     ao     ás     ao . is:feminino plural
 # ámbolos - ámbalas, entrámbolos - entrámbalas, tódolos - tódalas
 # dous - dúas
 
-SFX 17 Y 31
+SFX 17 Y 32
 SFX 17     ao     á     mao . is:feminino
 SFX 17     an     a     [sv]an . is:feminino
 SFX 17     ó     oa     [sv]ó . is:feminino

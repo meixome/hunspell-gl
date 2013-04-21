@@ -214,15 +214,19 @@ def getAliasFilepathFor(filepath):
 
 def applyMakealias(aff, dic):
     """ Executa a orde «makealias», de Hunspell, para reducir o tamaño final dos ficheiros considerablemente.
+    
+            Nota: Desactivado de maneira temporal. Véxase:
+            
+                http://sourceforge.net/tracker/?func=detail&aid=3610768&group_id=143754&atid=756395
     """
-    affAlias = getAliasFilepathFor(aff)
-    dicAlias = getAliasFilepathFor(dic)
-    command = 'makealias {dic} {aff}'.format(aff=aff[6:], dic=dic[6:])
-    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True, cwd=os.path.join(os.getcwd(), 'build'))
-    out, err = p.communicate()
-    for filepath in [aff, dic]:
-        os.remove(filepath)
-        os.rename(getAliasFilepathFor(filepath), filepath)
+    #affAlias = getAliasFilepathFor(aff)
+    #dicAlias = getAliasFilepathFor(dic)
+    #command = 'makealias {dic} {aff}'.format(aff=aff[6:], dic=dic[6:])
+    #p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True, cwd=os.path.join(os.getcwd(), 'build'))
+    #out, err = p.communicate()
+    #for filepath in [aff, dic]:
+        #os.remove(filepath)
+        #os.rename(getAliasFilepathFor(filepath), filepath)
 
 
 def getModuleListFromModulesString(modulesString):
