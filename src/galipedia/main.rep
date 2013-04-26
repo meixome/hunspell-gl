@@ -1,0 +1,4399 @@
+#
+# Contido
+# =======
+#
+# As seguintes substitucións están apoiadas pola Galipedia, concretamente pola seguinte páxina:
+# 
+#   http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
+#
+# Calquera substitución desa páxina ten cabida na lista de substitucións deste ficheiro.
+#
+# Para axudar a manter sincronizado o ficheiro coa páxina da Galipedia, a continuación indícase a última data de
+# sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
+# páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
+#
+#   2013-04-14
+#
+#
+# Limitacións
+# ===========
+#
+# Véxase en «doc/desenvolvemento.txt» o apartado de «Limitacións» dentro da sección «Ficheiro de suxestións para
+# palabras incorrectas».
+#
+# Neste ficheiro lístanse todas as suxestións da Galipedia. Aquelas que non poden definirse por mor das limitacións
+# de Hunspell márcanse do seguinte xeito:
+#
+# * LOCUCIÓN. O termo incorrecto está formado por máis dunha palabra, e Hunspell non pode corrixilo.
+# * CORRECTA. O termo incorrecto non o é sempre, senón que en certos contextos (con certas funcións) pode ser correcto.
+#   Por exemplo, «abate» non é un substantivo correcto (a forma correcta é «abade»), pero si que é unha forma correcta
+#   do verbo «abater». Sería inútil fornecer «abade» como suxestión para «abate» porque Hunspell sempre vai considerar
+#   «abate» unha palabra correcta.
+#       Nota: Hai termos que na Galipedia están marcados como incorrectos, independentemente do contexto, que nalgúns
+#       módulos deste corrector están marcados como correctos. Dado que é posible construír o corrector cunha
+#       combinación personalizada de módulos, forneceranse regras de substitución para esas palabras aquí, para que quen
+#       constrúa un corrector sen esas palabras teña suxestións axeitadas. Por exemplo, «anque» está contemplada no
+#       Volga, pero non no DRAG, e na Galipedia aparece como incorrecta (sendo «aínda que» a forma axeitada
+#       recomendada).
+# * COMPLICADA. A suxestión é unha locución verbal, complicada de asociar facilmente á palabra incorrecta ata que en
+#   Hunspell se engada a funcionalidade solicitada en:
+#   http://sourceforge.net/tracker/?func=detail&aid=3603088&group_id=143754&atid=756398
+#   Tamén están marcadas con esta etiqueta as entradas nas que a palabra incorrecta é un verbo pronominal e a substituta
+#   é un verbo intransitivo (ou viceversa).
+#   As regras para estas suxestións non se escribirán de momento. Pero no futuro procederase a escribilas
+#   independentemente de que os desenvolvedores de Hunspell fornecesen a funcionalidade solicitada ou non.
+
+# a partires de → a partir de
+# LOCUCIÓN
+
+# a grandes rasgos → a grandes trazos
+# LOCUCIÓN
+
+# a veces → ás veces
+# LOCUCIÓN
+
+# ao por maior → por xunto
+# LOCUCIÓN
+
+# ao por menor → polo miúdo
+# LOCUCIÓN
+
+# abagar → avagar
+^abag avag
+^abág avág
+
+# abandoar → abandonar
+^abando abandon
+^abandó abandón
+
+# abañón → frieira
+^abañón frieira
+
+# abasoirada → vasoirada
+^abasoirada vasoirada
+
+# abate → abade
+# CORRECTA
+
+# abatimento → abatemento
+^abatimento abatemento
+
+# abatir → abater
+^abati abate
+^abatí abaté
+
+# abdomen → abdome
+^abdomen abdome
+
+# abeado/a → arroutado/a
+^abead arroutad
+
+# abecer → avecer
+^abec avec
+^abez avez
+
+# abechornar → abafar, avergoñar
+^abechorn abaf
+^abechórn abáf
+^abechorn avergoñ
+^abechórn avergóñ
+
+# abegar → avegar
+^abeg aveg
+^abég avég
+
+# abelencia → habelencia
+^abelencia habelencia
+
+# abellaruxo → abellaruco
+^abellaruxo abellaruco
+
+# abellizcar → beliscar
+^abelliz belís
+^abellíz belís
+
+# abellota → belota
+^abellota belota
+
+# abermellado → avermellado
+^abermellad avermellad
+
+# abexorro → abellón
+^abexorro abellón
+
+# abichornar → abafar, avergoñar
+^abichorn abaf
+^abichórn abáf
+^abichorn avergoñ
+^abichórn avergóñ
+
+# abinza → avinza
+^abinza avinza
+
+# abiñanza → avinza
+^abiñanza avinza
+
+# abiñanzar → avinzar
+^abiñan avin
+^abiñán avín
+
+# ablancazado → abrancuzado
+^ablancazad abrancuzad
+
+# ablancuzado → abrancuzado
+^ablancuzad abrancuzad
+
+# ablandar → abrandar
+^abland abrand
+^ablánd abránd
+
+# abó → avó
+^abó avó
+
+# aboa → avoa
+# CORRECTA
+
+# aboengo → avoengo
+^aboengo avoengo
+
+# aboenza → avoengo
+^aboenza avoengo
+
+# abofetear → losquear
+^abofete losque
+^abofeté losqué
+
+# abofetear → dar unha losqueada, dar un lapote
+# COMPLICADA
+
+# abogacía → avogacía
+^abogacía avogacía
+
+# abogado → avogado
+^abogad avogad
+
+# aboitre → voitre
+^aboitre voitre
+
+# abolencia → avoengo
+^abolencia avoengo
+
+# abolengo → avoengo
+^abolengo avoengo
+
+# abolladura → aboladura
+^abolladura aboladura
+
+# abollar → abolar
+^aboll abol
+^abóll aból
+
+# abono → fertilizante
+# CORRECTA
+
+# aborcallar → envorcallar
+^aborcall envorcall
+^aborcáll envorcáll
+
+# aborixen → aborixe
+^aborixen aborixe
+
+# aborrescer → aborrecer
+^aborres aborre
+^aborrés aborré
+
+# abotonar → abotoar
+^aboton aboto
+^abotón abotó
+
+# ábrego → ávrego
+^ábreg ávreg
+
+# abrevar → abeberar
+^abrev abeber
+^abrév abebér
+
+# abrilantar → abrillantar
+^abrilant abrillant
+^abrilánt abrillánt
+
+# abrocallar → envorcallar
+^abrocall envorcall
+^abrocáll envorcáll
+
+# abrumar → abafar
+^abrum abaf
+^abrúm abáf
+
+# ábside → ábsida
+^ábside ábsida
+
+# abuchear → apupar
+^abuche apup
+^abuché apúp
+
+# aceituna → oliva
+^aceituna oliva
+
+# acera → beirarrúa
+^acera beirarrúa
+
+# achádego → achado
+^achádeg achad
+
+# acibache → acibeche
+^acibache acibeche
+
+# acné → acne
+^acné acne
+
+# acostar → deitar
+^acost deit
+^acóst déit
+
+# acreedor → acredor
+^acreedor acredor
+
+# acueducto → acueduto
+^acueducto acueduto
+
+# acuñar → cuñar (no referente á moeda)
+# CORRECTA
+
+# ademáis → ademais, amais
+^ademáis$ ademais
+^ademáis$ amais
+
+# adoitar → adoptar (pero adoitar vale co significado de ter por costume, ser habitual)
+# CORRECTA
+
+# adxuntar → achegar
+^adxunt acheg
+^adxunt achegu
+^adxúnt achég
+^adxúnt achégu
+
+# agotar → esgotar
+^agot esgot
+^agót esgót
+
+# aguxeiro → burato, buraco, furado
+^aguxeiro burato
+^aguxeiro buraco
+^aguxeiro furado
+
+# aguxetas → maniotas
+^aguxeta maniota
+
+# ahí → aí
+^ahí$ aí
+
+# ainda que → aínda que
+^ainda$ aínda
+
+# aislamento → illamento
+^aislamento ^illamento
+
+# aislante → illante
+^aislante illante
+
+# alambrada → aramado
+^alambrada aramado
+
+# alambre → arame
+^alambre arame
+
+# albacea → testamenteiro
+^albacea testamenteiro
+
+# albarán → albará
+^albarán albará
+
+# albóndiga → albóndega
+^albóndiga albóndega
+
+# album → álbum
+^album álbum
+
+# álbumes → álbums
+^álbumes$ álbums
+
+# albúmina → albumina
+^albúmina → albumina
+
+# aleación → aliaxe
+^aleación aliaxe
+
+# alegato → alegación
+^alegato alegación
+
+# alemana → alemá
+^alemana alemá
+
+# alemanes → alemáns
+^alemanes$ alemáns
+
+# alevosía → aleivosía
+^alevosía aleivosía
+
+# algibe → alxibe
+^algibe alxibe
+
+# alinear → aliñar
+^aline aliñ
+^aliné alíñ
+
+# allanar → achaiar, achandar, achanzar
+^allan achai
+^allán achái
+^allan achand
+^allán achánd
+^allan achanc
+^allán achánc
+^allan achanz
+^allán achánz
+
+# almexa → ameixa
+^almexa ameixa
+
+# almíbar → xarope
+^almíbar xarope
+
+# almorávide → almorábide
+^almorávide almorábide
+
+# alonxar → afastar
+^alonx afast
+^alónx afást
+
+# alquitrán → alcatrán
+^alquitrán alcatrán
+
+# aluguer → alugueiro
+^aluguer$ alugueiro
+^alugueres$ alugueiros
+
+# amonestación → amoestación
+^amonestación amoestación
+
+# amonestar → amoestar
+^amonest amoest
+^amonést amoést
+
+# amortiguador → amortecedor
+^amortiguador amortecedor
+
+# amortiguar → amortecer
+
+^amortigua amortece     # infinitivo
+^amortiguá amortecé     # xerundio
+^amortígua amortéce     # indicativo/presente/2P-6P
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^amortiguad amortecid   # participio
+
+^amortigu amortez       # indicativo/presente/1P
+^amortígu amortéz
+
+^amortigüei amortecín   # indicativo/pretérito/1P
+^amortigüei amortecin
+^amortigüéi amortecín
+
+^amortigua amorteci     # indicativo/pretérito/2P
+^amortiguá amortecí
+
+^amortiguo amortece     # indicativo/pretérito/3P
+^amortiguó amortecé
+
+^amortiguab amortecí    # indicativo/copretérito/1P-3P,6P
+^amortiguáb amortecí
+
+^amortiguab amorteci    # indicativo/copretérito/4P-5P
+
+^amortigüe amorteza     # subxuntivo/presente
+^amortigüé amortezá     # imperativo afirmativo/2PR,4P,5PR
+^amortígüe amortéza     # imperativo negativo
+
+
+# análisis → análise
+^análisis análise
+
+# ancla → áncora
+^ancla áncora
+
+# anclaxe → ancoraxe
+^anclaxe ancoraxe
+
+# andamio → estada
+^andamio estada
+
+# andén → plataforma
+^andén plataforma
+
+# anduriña → andoriña
+^anduriña andoriña
+
+# anodino → anódino
+^anodino anódino
+
+# anque → aínda que
+^anque$ aínda_que
+
+# antigüedade → antigüidade
+^antigüedade antigüidade
+
+# aparcamento → aparcadoiro (aparcamento só equivale á acción e efecto de aparcar).
+# CORRECTA
+
+# apariencia → aparencia
+^apariencia aparencia
+
+# aparte → á parte
+^aparte$ á_parte
+
+# apostilla → apostila
+^apostilla apostila
+
+# aportación → contribución, colaboración, achega
+^aportación contribución
+^aportación colaboración
+^aportación achega
+
+# aportar → achegar, contribuír (aportar só equivale a chegar a porto).
+# CORRECTA
+
+# apremiar → apremar
+^apremi aprem
+^aprémi aprém
+
+# apreta → aperta
+^apreta aperta
+
+# apretar → apertar
+^apret apert
+^aprét apért
+
+# apunte → apuntamento
+# CORRECTA
+
+# aquelo → aquilo
+# CORRECTA
+
+# aramio → arame
+^aramio arame
+
+# arándano → arando
+^arándano arando
+
+# arcén → beiravía
+^arcén beiravía
+
+# ardilla → esquío
+^ardilla esquío
+
+# arista → aresta
+^arista aresta
+
+# armonía → harmonía
+^armonía harmonía
+
+# arpía → harpía
+^arpía harpía
+
+# arrabaldo → arrabalde
+^arrabaldo arrabalde
+
+# arraigo → arraigamento
+# CORRECTA
+
+# arreglar → amañar, arranxar
+^arregl amañ
+^arrégl amáñ
+^arregl arranx
+^arrégl arránx
+
+# arreglo → amaño, arranxo
+^arreglo amaño
+^arreglo arranxo
+
+# arrinconar → acantoar, acurrunchar, arrecunchar
+^arrincon acanto
+^arrincón acantó
+^arrincon acurrunch
+^arrincón acurrúnch
+^arrincon arrecunch
+^arrincón arrecúnch
+
+# arroxar → arrebolar, ceibar, guindar, lanzar, mandar, rebolar (ora ben: existe arroxar = "adquirir ou facer que algo adquira cor roxa").
+# CORRECTA
+
+# arroxo (subst.) → afouteza, coraxe, denodo, ousadía.
+# CORRECTA
+
+# arrugar → engurrar
+^arrug engurr
+^arrugu engurr
+^arrúg engúrr
+^arrúgu engúrr
+
+# arzobispo → arcebispo
+^arzobispo arcebispo
+
+# asamblea → asemblea; xunta, xuntanza, reunión
+^asamblea asemblea
+^asamblea xunta
+^asamblea xuntanza
+^asamblea reunión
+
+# asco → noxo
+^asco noxo
+
+# asesinar → asasinar
+^asesin asasin
+^asesín asasín
+
+# asesino → asasino
+^asesin asasin
+
+# asignatura → materia, disciplina
+^asignatura materia
+^asignatura disciplina
+
+# asimesmo → así mesmo
+^asimesmo$ así_mesmo
+
+# aspavento → espavento
+^aspavento espavento
+
+# asqueroso → noxento
+^asqueros noxent
+
+# astilleiro → estaleiro
+^astilleiro estaleiro
+
+# aterrizaxe → aterraxe
+^aterrizaxe aterraxe
+
+# (des)atornillar → (des)aparafusar
+atornill aparafus
+atorníll aparafús
+
+# atrio → adro
+^atrio adro
+
+# atuar → actuar (pero ollo: existe atuar = "tratar de ti").
+# CORRECTA
+
+# aunar → unificar
+^aun unific
+^aun unifiqu
+^aún unifíc
+^aún unifíqu
+
+# automóvil → automóbil
+^automóvil automóbil
+
+# autopista → autoestrada
+^autopista autoestrada
+
+# aventaxar → avantaxar
+^aventax avantax
+^aventáx avantáx
+
+# aver → a ver
+^aver$ a_ver
+
+# avería → avaría
+^avería avaría
+
+# averiguar → descubrir
+
+^averigua descubri      # infinitivo
+^averiguá descubrí      # xerundio
+                        # participio regular
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/5P
+                            
+^averiguad descubert    # participio irregular
+
+^averigu descubr        # indicativo/presente/1P
+^averígu descúbr
+
+^averigua descobre      # indicativo/presente/2P-3P,6P
+^averígua descóbre
+
+^averigüei descubrín    # indicativo/pretérito/1P
+^averigüei descubrin
+^averigüéi descubrín
+
+^averiguo descubri      # indicativo/pretérito/3P
+^averiguó descubrí
+
+^averiguab descubrí     # indicativo/copretérito/1P-3P,6P
+^averiguáb descubrí
+
+^averiguab descubri     # indicativo/copretérito/4P-5P
+
+^averigüe descubra      # subxuntivo/presente
+^averigüé descubrá      # imperativo afirmativo/2PR,4P,5PR
+^averígüe descúbra      # imperativo negativo
+
+^averigua descubre      # imperativo afirmativo/2P
+^averígua descúbre
+
+
+# axuntamento → concello
+# CORRECTA
+
+# azabache → acibeche
+^azabache acibeche
+
+# babosa → lesma, limacha, limaco
+# CORRECTA
+
+# bacallao → bacallau
+^bacallao bacallau
+
+# bache → focha, fochanca, foxo
+^bache focha
+^bache fochanca
+^bache foxo
+
+# badén → lomba (elevación en camiños ou estradas)
+^badén lomba
+
+# bahía → baía
+^bahía baía
+
+# baia → baga
+# CORRECTA
+
+# balaguste → balaústre
+^balaguste balaústre
+
+# balagustro → balaústre
+^balagustro balaústre
+
+# balanza de pagos → balanza de pagamentos
+# LOCUCIÓN
+
+# barandilla → varanda
+^barandilla varanda
+
+# barniz → verniz
+^barniz$ verniz
+^barnices$ vernices
+
+# barrendeiro/a → varredor/a.
+^barrendeiro$ varredor
+^barrendeiros$ varredores
+^barrendeira varredora
+
+# barrer → varrer
+^barr varr
+^bárr várr
+
+# basa → base
+^basa base
+
+# basar → basear
+^bas base
+^bás basé
+
+# basura → lixo
+^basura$ lixo
+^basuras$ lixo
+
+# basureiro → vertedoiro (lugar onde se depositan os residuos), recolledor do lixo (persoa que ten por oficio recoller o lixo)
+^basureiro vertedoiro
+^basureiro$ recolledor_do_lixo
+^basureiros$ recolledores_do_lixo
+
+
+# batir → bater
+
+^bati bate          # infinitivo
+^batí baté          # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# subxuntivo/futuro
+# infinitivo conxugado
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# beca → bolsa de estudos
+# CORRECTA
+
+# becario → bolseiro
+^becari bolseir
+
+# bellota → landra, belota
+^bellota landra
+^bellota belota
+
+# bereber → bérber
+^bereber bérber
+
+# bilis → bile
+^bilis$ bile
+
+# bistec → bisté
+^bistec bisté
+
+# bó → bo
+^bó bo
+
+# boda → voda
+^boda voda
+
+# boquerón → bocareo, bocarte
+^boquerón bocareo
+^boquerón bocarte
+
+# borde → beira, marxe, bordo, canto, esquina
+# CORRECTA
+
+# bostezo → bocexo
+^bostezo bocexo
+
+# brilar → brillar
+^bril brill
+^bríl bríll
+
+# brilo → brillo
+^brilo brillo
+
+# brocheta → espetada
+^brocheta espetada
+
+# brúxula → compás
+^brúxula$ compás
+^brúxulas$ compases
+
+# bucear → mergullar, nadar ao somorgullo
+^buce mergull
+^bucé mergúll
+
+# bucear → nadar ao somorgullo
+# COMPLICADA
+
+# buhardilla → faiado, faio.
+^buhardilla faiado
+^buhardilla faio
+
+# bursátil → bolsista
+^bursátil$ bolsista
+^bursátiles$ bolsistas
+
+# búsqueda → busca
+^búsqueda busca
+
+# buzo → mergullador (a non ser o sinónimo de bozo).
+# CORRECTA
+
+# buzón → caixa do correo
+^buzón$ caixa_do_correo
+^buzóns$ caixas_do_correo
+
+# cabecilla → líder
+^cabecilla$ líder
+^cabecillas$ líderes
+
+# cabestrillo → estribeira
+^cabestrillo estribeira
+
+# cabildo → cabido
+^cabildo cabido
+
+# calabacín → cabazo
+^calabacín cabazo
+
+# calabaza → cabaza
+^calabaza cabaza
+
+# calamar → lura
+^calamar$ lura
+^calamares$ luras
+
+# calambre → cambra
+^calambre cambra
+
+# caluroso/a → caloroso/a.
+^caluros caloros
+
+# calexón → ruela, corredoira, canella (canella sen saída), canellón, vieiro choído (canella sen saída).
+^calexón ruela
+^calexón corredoira
+^calexón canella
+^calexón canellón
+^calexón$ vieiro_choído
+^calexóns$ vieiros_choídos
+
+# caliza → calcaria
+^caliza calcaria
+
+# calle → rúa
+# CORRECTA
+
+# callexeiro/a → da(s) rúa, na(s) rúa (protesta da rúa, violencia das rúas, festa na rúa).
+^callexeiro$ da_rúa
+^callexeiros$ da_rúa
+^callexeira$ da_rúa
+^callexeiras$ da_rúa
+^callexeiro$ na_rúa
+^callexeiros$ na_rúa
+^callexeira$ na_rúa
+^callexeiras$ na_rúa
+
+# calqueira, calquer → calquera
+^calqueira$ calquera
+^calquer$ calquera
+
+# camilla → padiola, angarellas, cama
+^camilla padiola
+^camilla$ angarellas
+^camillas$ angarellas
+^camilla cama
+
+# camilleiro → padioleiro
+^camilleiro padioleiro
+
+# campanada → badalada
+^campanada badalada
+
+# canaleta, canalón → caleiro, calexa, canlón
+^canaleta caleiro
+^canaleta calexa
+^canaleta canlón
+^canalón caleiro
+^canalón calexa
+^canalón canlón
+
+# canciller → chanceler
+^canciller chanceler
+
+# cannabis → cánnabis
+^cannabis$ cánnabis
+
+# candado → cadeado
+^candado cadeado
+
+# canteiría → cantaría
+^canteiría cantaría
+
+# canxe → troco, intercambio
+^canxe troco
+^canxe intercambio
+
+# cañón > canón
+^cañón canón
+
+# capilla → capela
+^capilla capela
+
+# carreteira → estrada
+# CORRECTA
+
+# cartílago → cartilaxe (fem.)
+^cartílago cartilaxe
+
+# casco (vello, urbano) → núcleo, zona
+# LOCUCIÓN
+
+# caserío → casarío
+^caserío casarío
+
+# cauce → leito (do río)
+^cauce leito
+
+# cautivo/a → cativo/a
+^cautiv cativ
+
+# cautiverio → cativerio
+^cautiverio cativerio
+
+# cautividade → catividade
+^cautividade catividade
+
+# caxetilla → paquete
+^caxetilla paquete
+
+# cecina → chacina
+^cecina chacina
+
+# celda → cela
+^celda cela
+
+# cercano → próximo
+^cercano próximo
+
+# cerilla → misto
+^cerilla misto
+
+# cerre → cerramento, peche
+# CORRECTA
+
+# cese → cesamento
+# CORRECTA
+
+# chalet → chalé
+^chalet chalé
+
+# chequeo → recoñecemento, exame
+^chequeo recoñecemento
+^chequeo exame
+
+# chiflado → tolo, chalado
+^chiflad tol
+^chiflad chalad
+
+# cimborrio → ciborio
+^cimborrio ciborio
+
+# cincel → cicel
+^cince cice
+
+# cirurxán → cirurxián
+^cirurxá → cirurxiá
+
+# ciumes → celos
+^ciume celo
+
+# ciúmes → celos
+^ciúme celo
+
+# cobarde → covarde
+^cobarde covarde
+
+# coengo → cóengo
+^coengo cóengo
+
+# cohecho → suborno
+^cohecho suborno
+
+# colilla → cabicha
+^colilla cabicha
+
+# colina → outeiro
+^colina outeiro
+
+# colindante → lindeiro/a, estremeiro/a.
+^colindante lindeira
+^colindante lindeiro
+^colindante estremeira
+^colindante estremeiro
+
+# colisionar → colidir
+
+^colisiona colidi       # infinitivo
+^colisioná colidí       # xerundio
+                        # participio regular
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/5P
+                            
+^colision colid         # indicativo/presente/1P
+^colisión colíd
+
+^colisiona colide       # indicativo/presente/2P-3P,6P
+^colisióna colíde
+
+^colisionei colidín     # indicativo/pretérito/1P
+^colisionei colidin
+^colisionéi colidín
+
+^colisiono colidi       # indicativo/pretérito/3P
+^colisionó colidí
+
+^colisionab colidí      # indicativo/copretérito/1P-3P,6P
+^colisionáb colidí
+
+^colisionab colidi      # indicativo/copretérito/4P-5P
+
+^colisione colida       # subxuntivo/presente
+^colisioné colidá       # imperativo afirmativo/2PR,4P,5PR
+^colisióne colída       # imperativo negativo
+
+^colisiona colida      # imperativo afirmativo/2P
+^colisióna colída
+
+# columpio → bambán, carrandiola, carriola, dindán, randeeira
+^columpio bambán
+^columpio carrandiola
+^columpio carriola
+^columpio dindán
+^columpio randeeira
+
+
+# combatir → combater
+
+^combati combate    # infinitivo
+^combatí combaté    # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# subxuntivo/futuro
+# infinitivo conxugado
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# comilona (comida abundante) → enchente, enchedela, chea, farta, lupanda, atracada
+^comilona enchente
+^comilona enchedela
+^comilona chea
+^comilona farta
+^comilona lupanda
+^comilona atracada
+
+# comunión → comuñón
+^comunión comuñón
+
+# conceito → concepto
+^conceito concepto
+
+# condear → condenar (e condena)
+^conde conden
+^condé condén
+
+# conducción → condución
+^conducción condución
+
+# conductor → condutor
+^conductor condutor
+
+# confitería → confeitaría
+^confitería confeitaría
+
+# conflicto → conflito
+^conflicto conflito
+
+# confucionismo → confucianismo
+^confucionismo confucianismo
+
+
+# conlevar → implicar, supoñer, significar
+
+^conlev implic
+^conlev impliqu
+^conlév implíc
+^conlév implíqu
+
+^conleva supoñe     # infinitivo
+^conlevá supoñé     # xerundio
+                    # indicativo/presente/4P-6P
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+
+^conlevad supost    # participio
+
+^conlev supoñ       # indicativo/presente/1P
+^conlév supóñ
+
+^conleva supó       # indicativo/presente/2P
+^conléva supo
+^conléva supó
+
+^conleva supón      # indicativo/presente/3P
+^conléva supon      # imperativo afirmativo/2P
+^conléva supón
+
+^conlevei supuxen   # indicativo/pretérito/1P
+^conlevei supúxen
+^conlevéi supúxen
+
+^conleva supuxe     # indicativo/pretérito/2P,4P-6P
+^conlevá supuxé     # indicativo/antepretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+
+^conlevou supuxo    # indicativo/pretérito/3P
+^conlevou supúxo
+^conlevóu supúxo
+
+^conlevab supoñí    # indicativo/copretérito/1P-3P,6P
+^conleváb supoñí
+
+^conlevab supoñi    # indicativo/copretérito/4P-5P
+
+^conleve supoña     # subxuntivo/presente
+^conléve supóña     # imperativo afirmativo/2PR,4P,5PR
+                    # imperativo negativo
+
+^conlev signific
+^conlev signifiqu
+^conlév signifíc
+^conlév signifíqu
+
+
+# contradicción → contradición
+^contradicción contradición
+
+# contraseña → contrasinal
+^contraseña$ contrasinal
+^contraseñas$ contrasinais
+
+# conmigo → comigo
+^conmigo$ comigo
+
+# conquerir → conseguir
+^conquer consegu
+^conquér conségu
+^conquer consig
+^conquér consíg
+^conquer consigu
+^conquér consígu
+
+# construcción → construción
+^construcción construción
+
+
+# convertir → converter
+
+^converti converte  # infinitivo
+^convertí converté  # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# subxuntivo/futuro
+# infinitivo conxugado
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# corbata → gravata
+^corbata gravata
+
+# cornisa → cornixa
+^cornisa cornixa
+
+# corral → curral
+^corral$ curral
+^corrais$ currais
+
+# correción → corrección
+^correción corrección
+
+# correxir → corrixir
+^correx corrix
+^corréx corríx
+
+# cortafogos → devasa
+^cortafogos$ devasa
+^cortafogos$ devasas
+
+# corteza → codia
+^corteza codia
+
+# corto → curto
+^corto curto
+
+# costarricense → costarriqueño
+^costarricense costarriqueña
+^costarricense costarriqueño
+
+# coste → custo
+^coste custo
+
+# crave → clave
+# CORRECTA
+
+# cráneo, cránio → cranio
+^cráneo cranio
+^cránio cranio
+
+
+# creer → crer
+
+^cre cr         # infinitivo
+^cré cr         # xerundio
+                # indicativo/presente/4P-5P
+                # indicativo/pretérito/3P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+
+^creí cri       # participio
+^crei cri       # indicativo/pretérito/1P,2P
+^creí crí       # indicativo/copretérito
+
+^crée cré       # indicativo/presente/2P-3P,6P
+                # imperativo afirmativo/2P,5P
+
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# indicativo/presente/1P
+# subxuntivo/presente
+# imperativo afirmativo/2PR,4P,5PR
+# imperativo negativo
+
+
+# cresta → crista
+^cresta crista
+
+# cruce → cruzamento.
+# CORRECTA
+
+# crucigrama → encrucillado
+^crucigrama encrucillado
+
+# cruda, crudo → crúa, cru
+^cruda crúa
+^crudo cru
+
+# cualquera → calquera
+^cualquera$ calquera
+
+# cucaracha → cascuda
+^cucaracha cascuda
+
+# cuchara → culler
+^cuchara$ culler
+^cucharas$ culleres
+
+# cucharilla → culleriña
+^cucharilla culleriña
+
+# cuclillas, en → en crequenas, de crequenas, anicado.
+# LOCUCIÓN
+
+# cucharón → garfelo, cazo, cullerón
+^cucharón garfelo
+^cucharón cazo
+^cucharón cullerón
+
+# cuia/o/as/os → cuxa/o/as/os
+^cui cux
+
+# cumplir → cumprir
+^cumpl cumpr
+^cúmpl cúmpr
+
+# cumpreanos → aniversario
+^cumpreanos$ aniversario
+^cumpreanos$ aniversarios
+
+# cuna → berce
+^cuna berce
+
+# cupo → cota
+^cupo cota
+
+# danos e prexuízos → danos e perdas
+# LOCUCIÓN
+
+# dañino → daniño
+^dañin daniñ
+
+# de todas maneiras → de todas as maneiras
+# LOCUCIÓN
+
+
+# debatir → debater
+
+^debati debate      # infinitivo
+^debatí debaté      # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# subxuntivo/futuro
+# infinitivo conxugado
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# decatlón, decatlon → décatlon
+^decatlón décatlon
+^decatlon décatlon
+
+# decimoprimeiro/segundo/etc. → décimo primeiro/segundo/etc.
+^decimoprimeir décimo_primeir
+^decimosegund décimo_segund
+^decimoterceir décimo_terceir
+^decimocuart décimo_cuart
+^decimoquint décimo_quint
+^decimosext décimo_sext
+^decimosétim décimo_sétim
+^decimoséptim décimo_sétim
+^decimoctav décimo_octav
+^decimooctav décimo_octav
+^decimonoven décimo_noven
+
+
+# decir → dicir
+
+^dec dic        # infinitivo
+                # xerundio
+                # indicativo/copretérito
+                # infinitivo conxugado
+
+^decid dit      # participio
+
+# Formas idénticas nas dúas conxugacións ou que, sendo distintas para «decir» segundo a información
+# fornecida por http://conxugador.cilenis.com/index.php?verb=decir , enténdese que serían escritas
+# correctamente polos usuarios:
+# indicativo/presente
+# indicativo/pretérito
+# indicativo/antepretérito
+# indicativo/futuro
+# indicativo/pospretérito
+# subxuntivo
+# imperativo afirmativo (coa excepción de 5P, «dicide», pero «decide» é unha forma correcta de «decidir»).
+# imperativo negativo
+
+
+# decomisar → comisar
+^decomis ^comis
+^decomís ^comís
+
+# denada → de nada
+^denada$ de_nada
+
+# delicto → delito
+^delicto delito
+
+
+# derretir → derreter
+
+^derreti derrete    # infinitivo
+^derretí derreté    # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# subxuntivo/futuro
+# infinitivo conxugado
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# derribo (subst.) → derrubamento
+# CORRECTA
+
+# desahucio → desafiuzamento
+^desahucio desafiuzamento
+
+# desalar → desalgar
+^desal desalg
+^desal desalgu
+^desál desálg
+^desál desálgu
+
+# desarrollo → desenvolvemento
+^desarrollo desenvolvemento
+
+# desaugue (subst.) → desaugadoiro
+# CORRECTA
+
+# descripción → descrición
+^descripción descrición
+
+# desglose → detalle, reparto, especificación
+^desglose detalle
+^desglose reparto
+^desglose especificación
+
+
+# desnudar(se) → espir(se), denudar(se), desvestir(se).
+
+^desnuda espi   # infinitivo
+^desnudá espí   # xerundio
+                # participio
+                # indicativo/presente/4P-5P
+                # indicativo/pretérito/2P,4P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/5P
+                
+^desnud isp     # indicativo/presente/1P
+^desnúd ísp
+
+^desnuda ispe   # indicativo/presente/2P-3P,6P
+^desnúda íspe   # imperativo afirmativo/2P
+
+^desnudei espín # indicativo/pretérito/1P
+^desnudei espin
+^desnudéi espín
+
+^desnudo espi   # indicativo/pretérito/3P
+^desnudó espí
+
+^desnudab espí  # indicativo/copretérito
+^desnudab espi
+^desnudáb espí
+
+^desnude ispa   # subxuntivo/presente
+^desnudé ispá   # imperativo afirmativo/2PR,4P,5PR
+^desnúde íspa
+
+^desnud denud
+^desnúd denúd
+
+^desnuda desvesti   # infinitivo
+                    # xerundio
+                    # participio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/2P,4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^desnud desvist     # indicativo/presente/1P
+^desnúd desvíst
+
+^desnuda desviste   # indicativo/presente/2P-3P,6P
+^desnúda desvíste
+
+^desnudei desvestín # indicativo/pretérito/1P
+^desnudei desvestin
+^desnudéi desvestín
+
+^desnudo desvesti   # indicativo/pretérito/3P
+^desnudó desvestí
+
+^desnudab desvestí  # indicativo/copretérito
+^desnudab desvesti
+^desnudáb desvestí
+
+^desnude desvista   # subxuntivo/presente
+^desnudé desvistá   # imperativo afirmativo/2PR,4P,5PR
+^desnúde desvísta
+
+
+# despacio → amodo, paseniño, devagar
+^despacio$ amodo
+^despacio$ paseniño
+^despacio$ devagar
+
+# despegar (un avión) → engalar
+# CORRECTA
+
+# despido → despedimento
+# CORRECTA
+
+# desputar, desputa (subst.) → disputar, disputa.
+^desput disput
+^despút dispút
+
+# destiño → destino
+^destiño destino
+
+# desmo → décimo (imposto)
+^desmo décimo
+
+# destellar (en castelán)→ escintilar. Para destellar (galego) é destejar (en castelán)
+# CORRECTA
+
+# destello → escintileo.
+# CORRECTA
+
+# desván → faio, faiado.
+^desván faio
+^desván faiado
+
+# deterioro → deterioramento
+# CORRECTA
+
+# devaluación → desvalorización, depreciación
+^devaluación desvalorización
+^devaluación depreciación
+
+# devaluar → desvalorizar, depreciar
+^devalu desvaloriz
+^devalú desvaloriz
+^devalú desvaloríz
+^devalu depreci
+^devalú depreci
+^devalú depréci
+
+# dezmo → décimo (imposto)
+^dezmo décimo
+
+# diccionario → dicionario
+^diccionario dicionario
+
+# dictar → ditar
+^dict dit
+^díct dít
+
+# dictadura → ditadura
+^dictadura ditadura
+
+# diferencia (subst.) → diferenza (pero o verbo é diferenciar).
+# CORRECTA
+
+
+# difuminar → esvaer
+
+^difumina esvae     # infinitivo
+^difuminá esvaé     # xerundio
+^difumína esváe     # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^difumina esvaí     # participio
+^difuminá esvaí     # indicativo/pretérito/2P
+
+^difumin esvai      # indicativo/presente/P1
+
+^difuminei esvaín   # indicativo/pretérito/1P
+
+^difumino esvae     # indicativo/pretérito/3P
+^difuminó esvaé
+
+^difuminab esvaí    # indicativo/copretérito
+^difumináb esvaí
+^difuminab esvaï
+
+^difumine esvaia    # subxuntivo/presente
+^difuminé esvaiá    # imperativo afirmativo/2PR,4P,5PR
+^difumíne esváia    # imperativo negativo
+
+
+# din→ É correcto como 6ª persoa de presente do indicativo de dicir, pero non para a 1ª persoa pretérito perfecto do indicativo do verbo dar (dei).
+# CORRECTA
+
+# diócese → diocese
+^diócese diocese
+
+# disculpar → desculpar
+^disculp desculp
+^discúlp descúlp
+
+# disfraz → disfrace
+^disfraz$ disfrace
+
+# disfrutar → gozar
+^disfrut goc
+^disfrut goz
+^disfrút góc
+^disfrút góz
+
+# disminuír, disminuir → diminuír
+^disminu diminu
+^disminú diminú
+^disminui disminuí
+
+# distición → distinción
+^distición distinción
+
+# diurno → diúrno
+^diurno diúrno
+
+# doctrina, dotrina → doutrina
+^doctrina doutrina
+^dotrina doutrina
+
+# donante → doador
+^donante$ doador
+^donantes$ doadores
+
+# donde → onde
+^donde$ onde
+^dónde$ onde
+^ónde$ onde
+
+# duda → dúbida
+^duda dúbida
+
+# dum, duma → dun, dunha (pero ollo: existe Duma, parlamento ruso).
+^dum dun
+^duma dunha
+
+# ebook, e-book → libro electrónico
+^ebook$ libro_electrónico
+^ebooks$ libros_electrónicos
+
+# eiquí → aquí
+^eiquí$ aquí
+
+# electrodo → eléctrodo
+^electrodo eléctrodo
+
+# eleición, eleito → elección, electo
+^eleición elección
+^eleito electo
+
+
+# elexir → elixir
+
+^elex elix
+^eléx elíx                
+
+^elexid elixid  # participio
+^elexid elect
+
+
+# élite → elite
+^élite elite
+
+# elo → iso (é un pronome neutro do galego medieval que só se conserva na expresión estar a elo, pero ollo: tamén existe o substantivo elo co significado de cada un dos aros que forman unha cadea)
+# CORRECTA
+
+# email → correo electrónico
+^email$ correo_electrónico
+^emails$ correos_electrónicos
+
+# e-mail → correo electrónico
+# LOCUCIÓN
+
+# en aras de → co fin de
+# LOCUCIÓN
+
+
+# enfriar → arrefriar ou arrefecer
+
+^enfri arrefri
+^enfrí arrefrí
+
+^enfria arrefece    # infinitivo
+^enfría arrefece    # xerundio
+^enfría arreféce    # indicativo/presente/2P-6P
+^enfriá arrefecé    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^enfria arrefeci    # participio
+^enfriá arrefecí    # indicativo/pretérito/2P
+
+^enfrí arrefez      # indicativo/presente/1P
+^enfrí arreféz
+
+^enfriei arrefecín  # indicativo/pretérito/1P
+^enfriei arrefecin
+^enfriéi arrefecín
+
+^enfrio arrefece    # indicativo/pretérito/3P
+^enfrió arrefecé
+
+^enfriab arrefecí   # indicativo/copretérito
+^enfriáb arrefecí
+^enfriab arrefeci
+
+^enfríe arrefeza    # subxuntivo/presente
+^enfríe arreféza    # imperativo afirmativo/2PR,4P,5PR
+^enfrie arrefeza    # imperativo negativo
+^enfrié arrefezá
+
+
+# enmendar, enmenda (subst.) → emendar, emenda
+^enmend emend
+^enménd eménd
+
+# entablamento → entaboamento
+^entablamento entaboamento
+
+# enteirarse → decatarse
+^enteir decat
+^entéir decát
+
+# enteirarse → saber de
+# COMPLICADA
+
+# enteirarse de → coñecer
+# LOCUCIÓN
+
+# enteirarse → informarse
+^enteir inform
+^entéir infórm
+
+# enteirarse → darse de conta
+# COMPLICADA
+
+# enteirarse → ter coñecemento
+# COMPLICADA
+
+# enterarse → decatarse
+^enter decat
+^entér decát
+
+# enterarse → saber de
+# COMPLICADA
+
+# enterarse de → coñecer
+# LOCUCIÓN
+
+# enterarse → informarse
+^enter inform
+^entér infórm
+
+# enterarse → darse de conta
+# COMPLICADA
+
+# enterarse → ter coñecemento
+# COMPLICADA
+
+# entorno → contorno, contorna
+# CORRECTA
+
+# epaper → papel electrónico
+^epaper$ papel_electrónico
+^epapers$ papeis_electrónicos
+
+# e-paper → papel electrónico
+# LOCUCIÓN
+
+
+# envexecer → avellentar
+
+^envexece avellenta     # infinitivo
+^envexecé avellentá     # xerundio
+^envexéce avellénta     # indicativo/presente/P2-P6
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^envexeci avellenta     # participio
+^envexecí avellentá     # indicativo/pretérito/2P
+
+^envexez avellent       # indicativo/presente/P1
+^envexéz avellént
+
+^envexecín avellentei   # indicativo/pretérito/1P
+^envexecin avellentei
+^envexecín avellentéi
+
+^envexece avellento     # indicativo/pretérito/3P
+^envexecé avellentó
+
+^envexecí avellentab    # indicativo/copretérito
+^envexecí avellentáb
+^envexeci avellentab
+
+^envexeza avellente     # subxuntivo/presente
+^envexezá avellenté     # imperativo afirmativo/2PR,4P,5PR
+^envexéza avellénte
+
+
+# envexecer → envellecer
+^envexec envellec
+^envexéc envelléc
+^envexez envellez
+^envexéz envelléz
+
+
+# envexecer → avellar
+
+^envexece avella        # infinitivo
+^envexecé avellá        # xerundio
+^envexéce avélla        # indicativo/presente/P2-P6
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^envexeci avella        # participio
+^envexecí avellá        # indicativo/pretérito/2P
+
+^envexez avell          # indicativo/presente/P1
+^envexéz avéll
+
+^envexecín avellei   # indicativo/pretérito/1P
+^envexecin avellei
+^envexecín avelléi
+
+^envexece avello     # indicativo/pretérito/3P
+^envexecé avelló
+
+^envexecí avellab    # indicativo/copretérito
+^envexecí avelláb
+^envexeci avellab
+
+^envexeza avelle     # subxuntivo/presente
+^envexezá avellé     # imperativo afirmativo/2PR,4P,5PR
+^envexéza avélle
+
+# error → erro
+^error$ erro
+^errores$ erros
+
+# escalón → banzo, chanzo
+^escalón banzo
+^escalón chanzo
+
+# escea → escena
+^escea escena
+
+# escoba → vasoira (existe o substantivo escoba, xogo de cartas).
+# CORRECTA
+
+# escombro → cascallo, cascote, entullo.
+^escombro cascallo
+^escombro cascote
+^escombro entullo
+
+# eslabón → elo
+^eslabón elo
+
+# eslálom → slálom (con acento)
+^eslálom slálom
+
+# eslógan → slogan (sen acento)
+^eslógan slogan
+
+# espaciar → espazar
+^espaci espaz
+^espáci espáz
+^espaci espac
+^espáci espác
+
+# espacio → espazo
+^espacio espazo
+
+# espalda → lombo, costas
+^espalda lombo
+^espalda$ costas
+^espaldas$ costas
+
+
+# esparcir → esparexer
+
+^esparci esparexe   # infinitivo
+^esparcí esparexé   # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^esparc esparex     # participio
+^espárc esparéx     # indicativo/presente/2P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # imperativo afirmativo/2P
+
+^esparz esparex     # indicativo/presente/1P
+^espárz esparéx     # subxuntivo/presente
+                    # imperativo afirmativo/2PR,4P,5PR
+                    
+
+
+# espirar, espiración → expirar, expiración
+^espir expir
+^espír expír
+
+# espíritu → espírito
+^espíritu espírito
+
+# esquela → necrolóxica
+^esquela necrolóxica
+
+# esquelete → esqueleto
+^esquelete esqueleto
+
+# esquisto → xisto
+^esquisto xisto
+
+# estantería → estante
+^estantería estante
+
+# éste, ésta → este, esta.
+^ést est
+
+# este (punto cardinal) → leste
+# CORRECTA
+
+# esto → isto
+^esto$ isto
+
+# estos → estes
+^estos$ estes
+
+# estricto → estrito
+^estricto estrito
+
+# estructura → estrutura
+^estructura estrutura
+
+# estudiar → estudar («estudio», cun i, é o lugar onde se realizan actividades intelectuais ou profesionais. Agás neste caso, os demais son sen i, é dicir, estudo(s))
+^estudi estud
+^estúdi estúd
+
+# estuche → estoxo
+^estuche estoxo
+
+# eúscaro → éuscaro ou vasco
+^eúscaro éuscaro
+^eúscaro vasco
+
+# evaluación, evaluar → avaliación, avaliar
+^evalu avali
+^evalú avalí
+
+# excavar → escavar
+^excav escav
+^excáv escáv
+
+# excomulgar → excomungar
+^excomulg excomung
+^excomúlg excomúng
+
+# explotar → estoupar, estourar, esbourar
+^explot estoup
+^explót estóup
+^explot estour
+^explót estóur
+^explot esbour
+^explót esbóur
+
+# expoliar, expolio → espoliar, espolio
+^expoli espoli
+^expóli espóli
+
+
+# exprimir → espremer
+
+^exprimi espreme    # infinitivo
+^exprimí espremé    # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^expri espre        # participio
+^exprí espré        # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+
+
+
+# exprimir → premer
+
+^exprimi preme      # infinitivo
+^exprimí premé      # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^expri pre          # participio
+^exprí pré          # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+
+
+# extender → estender (pero extenso, extensión)
+^extend estend
+^exténd esténd
+
+# extraño → estraño
+^extrañ estrañ
+
+# facer [tempo meteorolóxico] → ir (*Fai sol → Vai sol)
+# CORRECTA
+
+# facsímil → facsímile
+^facsímil$ facsímile$
+
+# fai [tempo] → hai [tempo]
+# CORRECTA
+
+# falda [vestiario] → saia ou faldra
+^falda saia
+^falda faldra
+
+# falda [monte] → aba, faldra ou pé
+^falda aba
+^falda faldra
+^falda pé
+
+# fallido → errado
+^fallid errad
+
+# fecha → data
+# CORRECTA
+
+# ferry → transbordador
+^ferry$ transbordador
+^ferrys$ transbordadores
+^ferries$ transbordadores
+
+# financiero/a → financeiro/a.
+^financier financeir
+
+# financiación → financiamento.
+^financiación financiamento
+
+# finca → herdade, propiedade rústica, terreo, leira.
+# CORRECTA
+
+# finiquito → liquidación
+^finiquito liquidación
+
+# firma (subst.), firmar → sinatura, asinar.
+^firm asin
+^fírm asín
+
+# floristería → floraría
+^floristería floraría
+
+# fogoneiro → fogueiro
+^fogoneiro fogueiro
+
+# folklore → folclore (pero folk, ó ser un anglicismo)
+^floklore folclore
+
+# forcexear, forcexeo (subst.) → forcexar, forcexo.
+^forcexe forcex
+^forcexé forcéx
+
+# fornear → enfornar
+^forne enforn
+^forné enfórn
+
+# fotografiar → fotografar
+^fotografi fotograf
+^fotografí fotograf
+^fotografí fotográf
+
+# fragancia → fragrancia
+^fragancia fragrancia
+
+# frambuesa → framboesa
+^frambuesa framboesa
+
+# frambueso → framboeseiro
+^frambueso framboeseiro
+
+# franela → flanela
+^franela flanela
+
+# franquicia → franquía
+^franquicia franquía
+
+# Franza → Francia (pero ollo: existe a parroquia Franza, en Mugardos)
+^Franza$ Francia
+
+# fregadeiro → vertedoiro
+^fregadeiro vertedoiro
+
+# frenazo → freada
+^frenazo freada
+
+# fuciño → fociño
+^fuciño fociño
+
+# gafas → lentes
+# CORRECTA
+
+
+# garantizar → garantir
+
+^garantiza garanti      # infinitivo
+^garantizá garantí      # xerundio
+                        # participio
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/copretérito
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                    
+^garantiz garant        # indicativo/presente/1P
+^garantíz garánt
+
+^garantiza garante      # indicativo/presente/2P-3P,6P
+^garantíza garánte      # imperativo afirmativo/2P,5P
+
+^garanticei garantín    # indicativo/pretérito/1P
+^garanticei garantin
+^garanticéi garantín
+
+^garantizo garanti      # indicativo/pretérito/3P
+^garantizó garantí
+
+^garantice garanta      # subxuntivo/presente
+^garanticé garantá      # imperativo afirmativo/2PR,4P,5PR
+^garantíce garánta      # imperativo negativo
+
+
+# garbanzo → garavanzo
+^garbanzo garavanzo
+
+# gardaespaldas → gardacostas
+^gardaespaldas$ gardacostas
+
+# gazapo → cazapo
+^gazapo cazapo
+
+# gladiolo → gladíolo
+^gladiolo gladíolo
+
+# golondrina → andoriña
+^golondrina andoriña
+
+# governo → goberno
+^governo goberno
+
+# grabar → gravar
+^grab grav
+^gráb gráv
+
+# gracia/s → graza/s.
+^gracia graza
+
+# grial → graal
+^grial graal
+
+# grifo → billa
+^grifo billa
+
+# gubernamental/is → gobernamental/is
+^gubernamenta gobernamenta
+
+# guisante → chícharo, ervella
+^guisante chícharo
+^guisante ervella
+
+# gusano → verme
+^gusano verme
+
+# habaneira → habanera (existe habaneira como habitante da Habana).
+# CORRECTA
+
+# hacea → cara a.
+^hacea$ cara_a
+
+# hachádego → achado
+^hachádeg achad
+
+# hachemí → haxemita
+^hachemí haxemita
+
+# hachemita → haxemita
+^hachemita haxemita
+
+# hachís → haxix
+^hachís haxix
+
+# hachuela → desaparafusador
+^hachuela$ desaparafusador
+^hachuelas$ desaparafusadores
+
+# hacia → cara a
+^hacia$ cara_a
+
+# hada → fada
+^hada fada
+
+# haia → faia.
+# CORRECTA
+
+# halago → afago
+^halago afago
+
+# hall → vestíbulo
+^hall vestíbulo
+
+# hallazgo → achado
+^hallazgo achado
+
+# hánster → hámster
+^hánster hámster
+
+# harakiri → haraquiri
+^harakiri haraquiri
+
+# harem → harén
+^harem harén
+
+# harmuñía → harmonía
+^harmuñía harmonía
+
+# hasta (prep.) → ata ou até (prep.) (ollo: unha hasta pode ser un corno ou un pau longo).
+# CORRECTA
+
+# heptathlón → héptathlon
+^heptathlón héptathlon
+
+# héroe → heroe
+^héroe heroe
+
+# hioides → hioide
+# CORRECTA
+
+# hipocresía → hipocrisía
+^hipocresía hipocrisía
+
+# hola → ola
+^hola ola
+
+# hongo → fungo
+^hongo fungo
+
+# horchata → orchata
+^horchata orchata
+
+# humán → humano
+^humán humana
+^humán humano
+
+# húmero → úmero
+^húmero úmero
+
+# icono → icona
+^icono icona
+
+# implementar → poñer en funcionamento
+# COMPLICADA
+
+# incertidume → incerteza
+^incertidume incerteza
+
+# incluir → incluír
+^inclui incluí
+^inclua inclúa
+^inclue inclúe
+^incluo inclúo
+^inclui incluï
+
+# inconvinte → inconveniente
+^inconvinte inconveniente
+
+# inerva → innerva
+^inerva innerva
+
+# inervación → innervación
+^inervación innervación
+
+# inervada/o → innervada/o
+^inervad innervad
+
+# inervar → innervar
+^inerv innerv
+^inérv innérv
+
+# ingredente → ingrediente
+^ingredente ingrediente
+
+# inscripción → inscrición
+^inscripción inscrición
+
+# instrucción → instrución
+^instrucción instrución
+
+
+# insertar → inserir
+
+^inserta inseri         # infinitivo
+^insertá inserí         # xerundio
+                        # participio regular
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                            
+^insert insir           # indicativo/presente/1P
+^insért insír
+
+^inserta insire         # indicativo/presente/2P-3P,6P
+^insérta insíre
+
+^insertei inserín       # indicativo/pretérito/1P
+^insertei inserin
+^insertéi inserín
+
+^inserto inseri         # indicativo/pretérito/3P
+^insertó inserí
+
+^insertab inserí        # indicativo/copretérito/1P-3P,6P
+^insertáb inserí
+
+^insertab inseri        # indicativo/copretérito/4P-5P
+
+^inserte insira         # subxuntivo/presente
+^inserté insirá         # imperativo afirmativo/2PR,4P,5PR
+^insérte insíra         # imperativo negativo
+
+
+# introducción → introdución
+^introducción introdución
+
+# inversión → investimento (pero ollo: existe inversión = acción ou efecto de inverter ou dar a volta)
+# CORRECTA
+
+# inversor → investidor (que fai investimentos)
+# CORRECTA
+
+# inverter → investir (facer un investimento)
+# CORRECTA
+
+
+# invertir → inverter (dar a volta a unha cousa)
+
+^inverti inverte    # infinitivo
+^intertí inverté    # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+
+# O resto de formas son idénticas entre as dúas conxugacións.
+
+# ir + infinitivo incoativo (non leva a preposición a). Ía cantar =ía comezar a cantar, ía a cantar pola rúa= ía cantando pola rúa.
+# LOCUCIÓN
+
+# irmanar → irmandar
+^irman irmand
+^irmán irmánd
+
+# irrevocable → irrevogable
+^irrevocable irrevogable
+
+# iste → este
+^ist est
+
+# iunque, xunque → engra, incre, zafra (son todas femininas).
+^iunque engra
+^iunque incre
+^iunque zafra
+^xunque engra
+^xunque incre
+^xunque zafra
+
+# IVA → IVE (Imposto sobre o Valor Engadido)
+^IVA$ IVE
+
+# jajaja (risada) → hahaha
+ja ha
+
+# jarcha → kharxa
+^jarcha kharxa
+
+# kilómetro → quilómetro
+^kilómetro quilómetro
+
+# kitsch → charramangueiro
+^kitsch charramangueiro
+
+# laberinto → labirinto
+^laberinto labirinto
+
+# labor, a → o labor (labor feito non corre présa)
+# LOCUCIÓN
+
+# latido → latexo.
+^latido latexo
+
+# lagartixa → lagarta
+^lagartixa lagarta
+
+# lavadero → lavadoiro
+^lavadero lavadoiro
+
+# leer → ler
+^lee le
+^leé lé
+
+# lentilla → lentes de contacto
+^lentilla$ lente de contacto
+^lentillas$ lentes de contacto
+
+# lexendario → lendario
+^lexendari lendari
+
+# lexía → lixivia
+^lexía lixivia
+
+# lexos → lonxe
+^lexos$ lonxe
+
+# libertade → liberdade
+^libertade liberdade
+
+# licencia (subst.) → licenza (pero o verbo é licenciar).
+# CORRECTA
+
+# ligatura → ligadura
+^ligatura ligadura
+
+# língua, lingoaxe → lingua
+^língua lingua
+^lingoaxe linguaxe
+
+# lingüísta → lingüista.
+^lingüísta lingüista
+
+# línea → liña
+^línea liña
+
+# listado → listaxe, lista
+# CORRECTA
+
+# lonxano → distante, arredado, afastado, apartado ou remoto.
+^lonxana distante
+^lonxano distante
+^lonxana arredada
+^lonxano arredado
+^lonxana afastada
+^lonxano afastado
+^lonxana apartada
+^lonxano apartado
+^lonxana remota
+^lonxano remoto
+
+# madrugón (subst.) → madruga
+^madrugón madruga
+
+# mail → correo
+^mail correo
+
+# maioria → maioría
+^maioria maioría
+
+# maiorista → almacenista, comerciante por xunto
+^maiorista almacenista
+^maiorista$ comerciante_por_xunto
+^maioristas$ comerciantes_por_xunto
+
+# mampostería → cachotería
+^mampostería cachotería
+
+# manillar → guiador
+^manillar guiador
+
+# manzanilla → macela
+^manzanilla macela
+
+# mañán → mañá
+^mañán mañá
+
+# maravedí → marabedí
+^maravedí marabedí
+
+# maravilla → marabilla
+^maravilla marabilla
+
+# mariposa → bolboreta
+^mariposa bolboreta
+
+# mariquita → xoaniña, reirrei
+^mariquita xoaniña
+^mariquita reirrei
+
+# mástil → mastro
+^mástil$ mastro
+^mástiles$ mastros
+
+# maxestuoso/a → maxestoso/a
+^maxestuos maxestos
+
+# médula → medula
+^médula medula
+
+# menguar → minguar
+^meng ming
+^méng míng
+
+# -mente → Os adverbios en -mente non levan til.
+á a
+é e
+í i
+ó o
+ú u
+
+# mentras → mentres, namentres, entrementres.
+^mentras$ mentres
+^mentras$ namentres
+^mentras$ entrementres
+
+# merindad → meiriñado
+^merindad meiriñado
+
+# mermar → minguar
+^merm mingu
+^mérm míngu
+
+# mesa camilla → mesa de braseiro
+# LOCUCIÓN
+
+# metereoloxía → meteoroloxía.
+^metereoloxía meteoroloxía
+
+# mezcla, mistura → mestura
+^mezcla mestura
+^mistura mestura
+
+# mín → min
+^mín$ min
+
+# minorista → retallista, comerciante/vendedor polo miúdo.
+^minorista retallista
+^minorista$ comerciante_polo_miúdo
+^minoristas$ comerciantes_polo_miúdo
+^minorista$ vendedor_polo_miúdo
+^minoristas$ vendedores_polo_miúdo
+
+# modais → modos
+# CORRECTA
+
+# mono (peza de roupa) → funda
+# CORRECTA
+
+# monolito → monólito
+^monolito monólito
+
+# Moscú → Moscova
+^Moscú$ Moscova
+
+# mote → alcume, alcuño
+^mote alcume
+^mote alcuño
+
+# móvil → móbil (e inmóbil, pero mover e inamovible)
+móvil móbil
+
+# muelle → peirao (lugar de atraque de barcos) ou resorte (peza metálica elástica). En galego mol non é peirao, senón brando (entre outras acepcións).
+^muelle peirao
+^muelle resorte
+
+# murmullo → murmurio
+^murmullo murmurio
+
+# musgo → brión, mofo, carriza. Musgo é válido aplicado a alguén que ten os ollos semipechados.
+# CORRECTA
+
+# naranxa → laranxa
+^naranxa laranxa
+
+# naranxal → laranxeira
+^naranxal$ laranxeira
+^naranxais$ laranxeiras
+
+# naranxeiro → laranxeira
+^naranxeiro laranxeira
+
+# naranxo → laranxeira
+^naranxo laranxeira
+
+# Navidade → Nadal
+^Navidade$ Nadal
+^Navidades$ Nadal
+
+# nembargante/s → a pesar diso, así e todo, con todo, mais, no entanto, non obstante, pero, porén
+^nembargante$ a_pesar_diso
+^nembargantes$ a_pesar_diso
+^nembargante$ así_e_todo
+^nembargantes$ así_e_todo
+^nembargante$ con_todo
+^nembargantes$ con_todo
+^nembargante$ mais
+^nembargantes$ mais
+^nembargante$ no_entanto
+^nembargantes$ no_entanto
+^nembargante$ non_obstante
+^nembargantes$ non_obstante
+^nembargante$ pero
+^nembargantes$ pero
+^nembargante$ porén
+^nembargantes$ porén
+
+# nen → nin
+^nen$ nin
+
+# nengún → ningún
+^nengún$ ningún
+
+# nengunha → ningunha
+^nengunha$ ningunha
+
+# neón → neon
+^neón neon
+
+# neumo- → pneumo- (pneumonía, pneumotórax, pneumático).
+^neumo pneumo
+
+# nicaragüense → nicaraguano
+^nicaragüense nicaraguana
+^nicaragüense nicaraguano
+
+# nómada → nómade
+^nómada nómade
+
+# nomeadamente → principalmente, maiormente, mormente
+^nomeadamente principalmente
+^nomeadamente maiormente
+^nomeadamente mormente
+
+# nominación/s → nomeamento/s.
+^nominación nomeamento
+
+# nominado/a → nomeado/a
+^nominad nomead
+
+# noraboa → parabéns
+^noraboa$ parabéns
+^noraboas$ parabéns
+
+# num → nun
+^num nun
+
+# numa, numas → nunha, nunhas
+^numa nunha
+
+# nutrinte → nutriente
+# CORRECTA
+
+# ola (do mar) → onda (pero ollo: existe ola de saúdo)
+# CORRECTA
+
+# omóplato, omoplato → omoplata
+^omóplato omoplata
+^omoplato omoplata
+
+# orca → candorca
+^orca candorca
+
+# ordear → ordenar
+^orde orden
+^ordé ordén
+
+# oso → óso (peza do esqueleto); oso (animal).
+# CORRECTA
+
+# otorgar → outorgar
+^otorg outorg
+^otórg outórg
+
+# pabellón → pavillón
+^pabellón pavillón
+
+# pagaré → obriga de pagamento
+^pagaré$ obriga_de_pagamento
+^pagarés$ obrigas_de_pagamento
+
+# paiaso → pallaso
+^paias pallas
+
+# palanca → panca
+^palanca panca
+
+# panteira → pantera
+^panteira pantera
+
+# pañal → cueiro
+^pañal$ cueiro
+^pañais$ cueiros
+
+# paradoxa → paradoxo (masc.)
+^paradoxa paradoxo
+
+# parásito → parasito
+^parásito parasito
+
+# parexa → parella
+^parexa parella
+
+# parking → aparcadoiro
+^parking aparcadoiro
+
+# párpado → pálpebra
+^pàrpado pálpebra
+
+# parrilla → grella
+^parrilla grella
+
+# pasillo → corredor
+^pasillo$ corredor
+^pasillos$ corredores
+
+# páxaro → paxaro
+^páxaro paxaro
+
+# peatonal → peonil
+^peatonal$ peonil
+^peatonais$ peonís
+
+# pega (traba) → pexa
+# CORRECTA
+
+# peldaño → banzo, chanzo
+^peldaño banzo
+^peldaño chanzo
+
+# pentatlón → péntatlon
+^pentatlón péntatlon
+
+# pepita → pebida, caruña, carabuña
+^pepita pebida
+^pepita caruña
+^pepita carabuña
+
+# pérdida → perda
+^pérdida perda
+
+# peregrinaxe → peregrinación
+^peregrinaxe peregrinación
+
+# periostio → periósteo
+^periostio periósteo
+
+# periodo → período
+^periodo período
+
+# perseverancia → perseveranza
+^perseverancia perseveranza
+
+# persoarse → comparecer
+# COMPLICADA
+
+# persoarse → presentarse
+^perso present
+^persó presént
+
+# pertenecer → pertencer
+^pertene perten
+^pertené pertén
+
+# perto → preto
+^perto$ preto
+
+# perxudicial → prexudicial
+^perxudicia prexudicia
+
+# perxuízo → prexuízo
+^perxuízo prexuízo
+
+# petroglifo → petróglifo
+^petroglifo petróglifo
+
+# pilar (elemento arquitectónico) → piar
+^pilar piar
+
+# pizarra → lousa
+^pizarra lousa
+
+# plancton → plancto
+^plancton plancto
+
+# plantear → presentar
+^plante present
+^planté presént
+
+# plantear → formular
+^plante formul
+^planté formúl
+
+# plantear → expresar
+^plante expres
+^planté exprés
+
+# plantear → realizar
+^plante realiz
+^planté realíz
+^plante realic
+^planté realíc
+
+
+# plantear → propor
+
+^plantea propo      # infinitivo
+^plantea propó      # xerundio
+^planteá propó      # indicativo/presente/2P,4P-5P
+^plantéa propo      # indicativo/futuro
+^plantéa propó      # indicativo/pospretérito
+                    # infinitivo conxugado
+                    
+
+^plantead propost   # participio
+
+^plante propoñ      # indicativo/presente/1P
+^planté propóñ
+
+^plantea propón     # indicativo/presente/3P,6P
+^plantéa propon     # imperativo afirmativo/2P,5P
+^plantéa propón
+
+^planteei propuxen  # indicativo/pretérito/1P
+^planteei propúxen
+^planteéi propúxen
+
+^plantea propuxe    # indicativo/pretérito/2P,4P-6P
+^planteá propuxé    # indicativo/antepretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+
+^planteou propuxo   # indicativo/pretérito/3P
+^planteou propúxo
+^planteóu propúxo
+
+^planteab propuñ    # indicativo/copretérito
+^planteáb propúñ
+
+^plantee propoña    # subxuntivo/presente
+^planteé propoñá    # imperativo afirmativo/2PR,4P,5PR
+^plantée propóña    # imperativo negativo
+
+
+# plantear → preguntar
+^plante pregunt
+^planté pregúnt
+
+# plantear → planificar
+^plante planific
+^planté planifíc
+^plante planifiqu
+^planté planifíqu
+
+# plantear → idear
+^plante ide
+^planté idé
+
+# plantexar → presentar
+^plantex present
+^plantéx presént
+
+# plantexar → formular
+^plantex formul
+^plantéx formúl
+
+# plantexar → expresar
+^plantex expres
+^plantéx exprés
+
+# plantexar → realizar
+^plantex realiz
+^plantéx realíz
+^plantex realic
+^plantéx realíc
+
+
+# plantexar → propor
+
+^plantexa propo     # infinitivo
+^plantexa propó     # xerundio
+^plantexá propó     # indicativo/presente/2P,4P-5P
+^plantéxa propo     # indicativo/futuro
+^plantéxa propó     # indicativo/pospretérito
+                    # infinitivo conxugado
+                    
+
+^plantexad propost  # participio
+
+^plantex propoñ     # indicativo/presente/1P
+^plantéx propóñ
+
+^plantexa propón    # indicativo/presente/3P,6P
+^plantéxa propon    # imperativo afirmativo/2P,5P
+^plantéxa propón
+
+^plantexei propuxen # indicativo/pretérito/1P
+^plantexei propúxen
+^plantexéi propúxen
+
+^plantexa propuxe   # indicativo/pretérito/2P,4P-6P
+^plantexá propuxé   # indicativo/antepretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+
+^plantexou propuxo  # indicativo/pretérito/3P
+^plantexou propúxo
+^plantexóu propúxo
+
+^plantexab propuñ   # indicativo/copretérito
+^plantexáb propúñ
+
+^plantexe propoña   # subxuntivo/presente
+^plantexé propoñá   # imperativo afirmativo/2PR,4P,5PR
+^plantéxe propóña   # imperativo negativo
+
+
+# plantexar → preguntar
+^plantex pregunt
+^plantéx pregúnt
+
+# plantexar → planificar
+^plantex planific
+^plantéx planifíc
+^plantex planifiqu
+^plantéx planifíqu
+
+# plantexar → idear
+^plantex ide
+^plantéx idé
+
+# plantilla → 1) soleta (do calzado) 2) modelo, patrón 3) cadro de persoal.
+^plantilla soleta
+^plantilla modelo
+^plantilla patrón
+^plantilla$ cadro_de_persoal
+^plantillas$ cadros_de_persoal
+
+# plaza → praza
+^plaza praza
+
+# pó → po (Ex: unha nube de po).
+^pó po
+
+# poeta (f) → poetisa (f) [Alberti foi un poeta; Rosalía de Castro foi unha poetisa]
+# CORRECTA
+
+# polilla → traza ou couza
+^polilla traza
+^polilla couza
+
+# ponto → punto
+^ponto punto
+
+
+# poseer → posuír
+
+^posee posuí        # infinitivo
+^poseé posuí        # xerundio
+^posee posui        # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+
+^poseíd poses       # participio irregular
+
+^pose posú          # participio regular
+^posé posú          # indicativo/presente/1P-3P,6P
+^pose posu          # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+                    # imperativo negativo
+                    
+
+# postguerra → posguerra
+^postguerra posguerra
+
+# postre → sobremesa
+^postre sobremesa
+
+# pranta → planta
+^pranta planta
+
+# precio → prezo
+^precio prezo
+
+# prensil → prénsil
+^prensil$ prénsil
+^prensís$ prénsiles
+
+# presencia → presenza
+# CORRECTA
+
+
+# presionar → premer
+
+^presiona preme     # infinitivo
+^presioná premé     # xerundio
+^presióna préme     # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^presiona premi     # participio
+^presioná premí     # indicativo/pretérito/2P
+
+^presion prem       # indicativo/presente/1P
+^presión prém
+
+^presionei premín   # indicativo/pretérito/1P
+^presionei premin
+^presionéi premín
+
+^presiono premeu    # indicativo/pretérito/3P
+^presionó preméu
+
+^presionab premí    # indicativo/copretérito
+^presionáb premí
+^presionab premi
+
+^presione prema     # subxuntivo/presente
+^presioné premá     # imperativo afirmativo/2PR,4P,5PR
+^presióne préma     # imperativo negativo
+
+
+# prexuicio, prexuício, prexuizo; perxuicio, perxuício, perxuizo → prexuízo
+^prexuicio prexuízo
+^prexuício prexuízo
+^prexuizo prexuízo
+^perxuicio prexuízo
+^perxuício prexuízo
+^perxuizo prexuízo
+
+# priorizar → dar prioridade
+# COMPLICADA
+
+# primaveira → primavera
+^primaveira primavera
+
+# productor → produtor
+^productor produtor
+
+# promedio → media
+^promedio media
+
+# proprio/a/os/as → propio/a/os/as.
+^propri propi
+
+# prorratear, prorrateo → ratear, rateo.
+^prorrate rate
+^prorraté raté
+
+# proveedor → provedor
+^proveedor provedor
+
+# psicoanálise → psicanálise
+^psicoanálise psicanálise
+
+# quenes → quen
+^quenes$ quen
+
+# querellarse, querella (subst.) → querelarse, querela.
+^querell querel
+^queréll querél
+
+# rábano → ravo
+^rábano ravo
+
+# racimo → acio
+^racimo acio
+
+# rampa → rampla
+^rampa rampla
+
+# rasgo → trazo
+^rasgo trazo
+
+# rebaño → rabaño
+^rebaño rabaño
+
+# recargo (subst.) → recarga
+# CORRECTA
+
+# recaudar → recadar
+^recaud recad
+^recáud recád
+
+# recén → acabado de
+^recén$ acabada_de
+^recén$ acabadas_de
+^recén$ acabado_de
+^recén$ acabados_de
+
+
+# rechear → reencher (volver a encher) ou encher (por exemplo, encher un impreso).
+
+^rechea reenche     # infinitivo
+^recheá reenché     # xerundio
+^rechéa reénche     # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^rechea reenchi     # participio
+^recheá reenchí     # indicativo/pretérito/2P
+
+^reche reench       # indicativo/presente/1P
+^reché reénch
+
+^recheei reenchín   # indicativo/pretérito/1P
+^recheei reenchin
+^recheéi reenchín
+
+^recheo reenche     # indicativo/pretérito/3P
+^recheó reenché
+
+^recheab reenchí    # indicativo/copretérito
+^recheáb reenchí
+^recheab reenchi
+
+^rechee reencha     # subxuntivo/presente
+^recheé reenchá     # imperativo afirmativo/2PR,4P,5PR
+^rechée reéncha
+
+^rechea enche       # infinitivo
+^recheá enché       # xerundio
+^rechéa énche       # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^rechea enchi       # participio
+^recheá enchí       # indicativo/pretérito/2P
+
+^reche ench         # indicativo/presente/1P
+^reché énch
+
+^recheei enchín     # indicativo/pretérito/1P
+^recheei enchin
+^recheéi enchín
+
+^recheo enche       # indicativo/pretérito/3P
+^recheó enché
+
+^recheab enchí      # indicativo/copretérito
+^recheáb enchí
+^recheab enchi
+
+^rechee encha       # subxuntivo/presente
+^recheé enchá       # imperativo afirmativo/2PR,4P,5PR
+^rechée éncha
+
+
+# recopilar → recompilar
+^recopil recompil
+^recopíl recompíl
+
+# recorrer → percorrer (distancias)
+# CORRECTA
+
+# rector → reitor
+^rector reitor
+
+
+# recurrir → recorrer (a alguén, presentar recurso)
+
+^recurri recorre    # infinitivo
+^recurrí recorré    # xerundio
+^recúrri recórre    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^recu reco          # participio
+^recú recó          # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+                    # imperativo negativo
+
+
+# reducción → redución
+^reducción redución
+
+
+# reemprazar → substituír
+
+^reempraza substituí    # infinitivo
+^reemprazá substituí    # xerundio
+^reempraza substitui    # participio
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/5P
+                        
+^reempraz substitú      # indicativo/presente/1P
+^reempráz substitú
+
+^reempraza substitúe    # indicativo/presente/2P-3P,6P
+^reempráza substitúe    # imperativo afirmativo/2P
+
+^reempracei substituín  # indicativo/pretérito/1P
+^reempracei substituín
+^reempracéi substituín
+
+^reemprazou substituíu  # indicativo/pretérito/3P
+^reemprazóu substituíu
+
+^reemprazab substituí   # indicativo/copretérito
+^reemprazáb substituí
+^reemprazab substituï
+
+^reemprace substitúa    # subxuntivo/presente
+^reempráce substitúa    # imperativo afirmativo/2PR,4P,5PR
+^reemprace substitua
+^reempracé substituá
+
+
+# reflexar → reflectir
+
+^reflexa reflecti   # infinitivo
+^reflexá reflectí   # xerundio
+                    # participio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/2P,4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+                    
+^reflex reflic      # indicativo/presente/1P
+^refléx reflíc
+
+^reflexa reflicte   # indicativo/presente/2P-3P,6P
+^refléxa reflícte   # imperativo afirmativo/2P
+
+^reflexei reflectín # indicativo/pretérito/1P
+^reflexei reflectin
+^reflexéi reflectín
+
+^reflexo reflecti   # indicativo/pretérito/3P
+^reflexó reflectí
+
+^reflexab reflectí  # indicativo/copretérito
+^reflexáb reflectí
+^reflexab reflecti
+
+^reflexe reflicta   # subxuntivo/presente
+^reflexé reflictá   # imperativo afirmativo/2PR,4P,5PR
+^refléxe reflícta   # imperativo negativo
+
+
+# regandixa → fenda, regaña
+^regandixa fenda
+^regandixa regaña
+
+# reglamentar, reglamento → regulamentar, regulamento
+^reglament regulament
+^reglamént regulamént
+
+
+# reír → rir
+
+^reí ri     # infinitivo
+^reí rí     # xerundio
+^rei ri     # participio
+            # indicativo/presente/4P-5P
+            # indicativo/pretérito
+            # indicativo/copretérito
+            # indicativo/antepretérito
+            # indicativo/futuro
+            # indicativo/pospretérito
+            # subxuntivo/pretérito
+            # subxuntivo/futuro
+            # infinitivo conxugado
+            # imperativo afirmativo/5P
+            
+^re rí      # subxuntivo/presente
+^re ri      # imperativo afirmativo/2PR,4P,5PR
+^ré rí
+
+^ríe ri     # imperativo afirmativo/2P
+^ríe rí
+          
+# Formas idénticas nas dúas conxugacións ou que, sendo distintas para «reír» (tal e como imaxinou o autor destas regras que se conxugaría «reír»), enténdese que serían escritas
+# correctamente polos usuarios:
+# indicativo/presente/1P-3P,6P
+
+# rentable, rentabilidade → rendible, rendibilidade
+^rentable rendible
+^rentábe rendíbe
+^rentabilidade rendibilidade
+
+# reptil → réptil (pl. réptiles)
+^reptil$ réptil
+^reptís$ réptiles
+
+# requerir → requirir
+^requer requir
+^requér requír
+
+# respaldar → apoiar
+^respald apoi
+^respáld apói
+
+
+# respaldar → protexer
+
+^respalda protexe   # infinitivo
+^respaldá protexé   # xerundio
+^respálda protéxe   # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+
+^respalda protexi   # participio
+^respaldá protexí
+
+^respald protex     # indicativo/presente/1P
+^respáld protéx
+
+^respaldei protexín # indicativo/pretérito/1P
+^respaldei protexin
+^respaldéi protexín
+
+^respaldo protexe   # indicativo/pretérito/3P
+^respaldó protexé
+
+^respaldab protexí  # indicativo/copretérito
+^respaldáb protexí
+^respaldab protexi
+
+^respalde protexa   # subxuntivo/presente
+^respaldé protexá   # imperativo afirmativo/2PR,4P,5PR
+^respálde protéxa   # imperativo negativo
+
+
+# respaldar → amparar
+^respald ampar
+^respáld ampár
+
+# respeto, respetar, respetuoso → respecto, respectar, respectuoso
+^respet respect
+^respét respéct
+
+# resume (s.) → resumo (subst.)
+# CORRECTA
+
+# retortixón → retorzón
+^retortixón retorzón
+
+# reventar → rebentar
+^revent rebent
+^revént rebént
+
+# revocar, revocable, revocación → revogar, revogable, revogación (pero ollo: existe revocar = revestir a parte exterior dun edificio).
+^revoc revog
+
+# rexeite (s.) → rexeitamento
+# CORRECTA
+
+# rexime → réxime
+^rexime réxime
+
+
+# rexir → rexer
+
+^rexi rexe      # infinitivo
+^rexí rexé      # xerundio
+                # indicativo/pretérito/3P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/5P
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito/1P-2P
+# indicativo/copretérito
+# subxuntivo/presente
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo              
+
+
+# rixir → rexer
+
+^rixi rexe      # infinitivo
+^rixí rexé      # xerundio
+                # indicativo/presente/4P-5P
+                # indicativo/pretérito/3P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/5P
+
+^rixi rexi      # participio
+
+^rix rex        # indicativo/presente/1P-3P,6P
+^ríx réx        # indicativo/pretérito/1P-2P
+                # indicativo/copretérito
+                # subxuntivo/presente
+                # imperativo afirmativo/2P,2PR,4P,5PR
+                # imperativo negativo
+
+                
+# rixer → rexer
+^rix rex
+^ríx réx
+
+# roble → carballo
+^roble carballo
+
+# rodilla → xeonllo
+^rodilla xeonllo
+
+# román → romano, -a
+^román romano
+^romá romana
+
+# romero, romeo → romeu
+^romero romeu
+^romeo romeu
+
+# rompecabezas → crebacabezas, quebracabezas
+^rompecabezas$ crebacabezas
+^rompecabezas$ quebracabezas
+
+# ruina → ruína
+^ruina ruína
+
+# rumiante → ruminante
+^rumiante ruminante
+
+# Rumanía → Romanía
+^Rumanía$ Romanía
+
+# rumano → romanés(a)
+^rumana romanesa
+^rumano$ romanés
+^rumanos$ romaneses
+
+# sabañón → frieira
+^sabañón frieira
+
+# sabotear → sabotar
+^sabote sabot
+^saboté sabót
+
+# sabroso/a → saboroso/a.
+^sabros saboros
+
+# saltamontes → saltón
+^saltamontes$ saltón
+^saltamontes$ saltóns
+
+# sartén → tixola, tixela
+^sartén tixola
+^sartén tixela
+
+# se (2º persoa de imperativo do verbo ser) → sé
+# CORRECTA
+
+# secano → secaño
+^secano secaño
+
+# secta → seita (pero ollo: "sectario/a, sectarismo").
+^secta seita
+
+# según → segundo
+^según$ segundo
+
+# semán → semana
+^semán semana
+
+# sencillez → sinxeleza
+^sencillez$ sinxeleza
+^sencilleces$ sinxelezas
+
+# sen embargo → a pesar diso, así e todo, con todo, mais, non obstante, pero, porén
+# LOCUCIÓN
+
+# séptimo/a → sétimo/a
+^séptim sétim
+
+# serrería → serradoiro, serra
+^serrería serradoiro
+^serrería serra
+
+# serrín → serraduras
+^serrín$ serraduras
+^serríns$ serraduras
+
+# servicio → servizo
+^servicio servizo
+
+# servilleta → pano de mesa
+^servilleta$ pano_de_mesa
+^servilletas$ panos_de_mesa
+
+# seta (fungo)→ cogomelo
+# CORRECTA
+
+# setuaxésimo/a → septuaxésimo/a
+^setuaxésim septuaxésim
+
+# smart → intelixente
+^smart$ intelixente
+^smart$ intelixentes
+
+# smartphone → teléfono intelixente
+^smartphone$ teléfono_intelixente
+^smartphones$ teléfonos_intelixentes
+
+# si (condicional) → se
+# CORRECTA
+
+# sí (afirmación) → si
+^sí$ si
+
+# siglo → século
+^siglo século
+
+# silbato → asubío, chifre, subiote
+^silbato asubío
+^silbato chifre
+^silbato subiote
+
+# silla → cadeira
+^silla cadeira
+
+# sillar, sillarejo → perpiaño
+^sillar$ perpiaño
+^sillares$ perpiaños
+^sillarejo perpiaño
+
+# sillería → cantería ou cantaría
+^sillaría cantaría
+^sillaría cantería
+^sillería cantaría
+^sillería cantería
+
+# sillín → sela, asento
+^sillín sela
+^sillín asento
+
+# sillón → cadeira de brazos
+^sillón$ cadeira_de_brazos
+^sillóns$ cadeiras_de_brazos
+
+# sin → sen
+^sin$ sen
+
+# sinal, sinais (fem.) → sinal, sinais (masc.).
+# CORRECTA
+
+# sinceiro → sincero
+^sinceir sincer
+
+# sobornar, soborno (subst.) → subornar, suborno
+^soborn suborn
+^sobórn subórn
+
+# sobreseer → sobreser
+^sobrese sobres
+^sobresé sobrés
+
+# sobreseído → sobresido
+^sobreseíd sobresid
+
+# sobreseimento → sobresemento
+^sobreseimento sobresemento
+
+
+# soer → adoitar
+
+^soe adoita     # infinitivo
+^soé adoitá     # xerundio
+^sóe adóita     # indicativo/presente/2P-6P
+                # indicativo/pretérito/4P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/2P,5P
+
+^soi adoita     # participio
+^soí adoita     # indicativo/pretérito/2P
+^soí adoitá
+
+^so adoit       # indicativo/presente/1P
+^só adóit
+
+^soín adoitei   # indicativo/pretérito/1P
+^soin adoitei
+^soín adoitéi
+
+^soe adoito     # indicativo/pretérito/3P
+^soé adoitó
+
+^soí adoitab    # indicativo/copretérito
+^soí adoitáb
+^soi adoitab
+
+^soa adoite     # subxuntivo/presente
+^soá adoité     # imperativo afirmativo/2PR,4P,5PR
+^sóa adóite     # imperativo negativo
+
+
+# soer → acostumar
+
+^soe acostuma   # infinitivo
+^soé acostumá   # xerundio
+^sóe acostúma   # indicativo/presente/2P-6P
+                # indicativo/pretérito/4P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/2P,5P
+
+^soi acostuma   # participio
+^soí acostuma   # indicativo/pretérito/2P
+^soí acostumá
+
+^so acostum     # indicativo/presente/1P
+^só acostúm
+
+^soín acostumei # indicativo/pretérito/1P
+^soin acostumei
+^soín acostuméi
+
+^soe acostumo   # indicativo/pretérito/3P
+^soé acostumó
+
+^soí acostumab  # indicativo/copretérito
+^soí acostumáb
+^soi acostumab
+
+^soa acostume   # subxuntivo/presente
+^soá acostumé   # imperativo afirmativo/2PR,4P,5PR
+^sóa acostúme   # imperativo negativo
+
+
+# soler → adoitar
+
+^sole adoita    # infinitivo
+^solé adoitá    # xerundio
+^sóle adóita    # indicativo/presente/2P-6P
+                # indicativo/pretérito/4P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/2P,5P
+
+^soli adoita    # participio
+^solí adoitá    # indicativo/pretérito/2P
+
+^sol adoit      # indicativo/presente/1P
+^sól adóit
+
+^solín adoitei  # indicativo/pretérito/1P
+^solin adoitei
+^solín adoitéi
+
+^sole adoito    # indicativo/pretérito/3P
+^solé adoitó
+
+^solí adoitab   # indicativo/copretérito
+^solí adoitáb
+^soli adoitab
+
+^sola adoite    # subxuntivo/presente
+^solá adoité    # imperativo afirmativo/2PR,4P,5PR
+^sóla adóite    # imperativo negativo
+
+
+# soler → acostumar
+
+^sole acostuma    # infinitivo
+^solé acostumá    # xerundio
+^sóle acostúma    # indicativo/presente/2P-6P
+                # indicativo/pretérito/4P-6P
+                # indicativo/antepretérito
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # subxuntivo/pretérito
+                # subxuntivo/futuro
+                # infinitivo conxugado
+                # imperativo afirmativo/2P,5P
+
+^soli acostuma    # participio
+^solí acostumá    # indicativo/pretérito/2P
+
+^sol acostum      # indicativo/presente/1P
+^sól acostúm
+
+^solín acostumei  # indicativo/pretérito/1P
+^solin acostumei
+^solín acostuméi
+
+^sole acostumo    # indicativo/pretérito/3P
+^solé acostumó
+
+^solí acostumab   # indicativo/copretérito
+^solí acostumáb
+^soli acostumab
+
+^sola acostume    # subxuntivo/presente
+^solá acostumé    # imperativo afirmativo/2PR,4P,5PR
+^sóla acostúme    # imperativo negativo
+
+
+# solar (subst.) → soar (terreo edificable).
+# CORRECTA
+
+# soledade → soidade
+^soledade soidade
+
+# solidaridade → solidariedade
+^solidaridade solidariedade
+
+# solomillo → solombo
+^solomillo solombo
+
+# sombrilla → parasol, catasol, antuca
+^sombrilla$ parasol
+^sombrillas$ parasois
+^sombrilla$ catasol
+^sombrillas$ catasois
+^sombrilla antuca
+
+# somente, somentes, soamentes → soamente, só
+^somente$ soamente
+^somente$ só
+^somentes$ soamente
+^somentes$ só
+^soamentes$ soamente
+^soamentes$ só
+
+# sondeo → sondaxe
+^sondeo sondaxe
+
+# sonido → son
+^sonido son
+
+# soso/a → eslamiado/a, insulso
+^sos eslamiad
+^sos insuls
+
+# soupa → sopa
+^soupa sopa
+
+# stress → estrés, tensión
+^stress$ estrés
+^stress$ tensión
+
+# subasta → poxa
+^subasta poxa
+
+# submariño → submarino
+^submariñ submarin
+
+# suministrar → subministrar
+^suministr subministr
+^suminístr subminístr
+
+# subministro → subministración
+# CORRECTA
+
+# substraer, substracción → subtraer, subtracción
+^substra subtra
+^substrá subtrá
+
+# suciedade → sucidade
+^suciedade sucidade
+
+# sudafricano → surafricano
+^sudafrican surafrican
+
+# supervivinte → supervivente
+^supervivinte supervivente
+
+# sureste → sueste
+^sureste sueste
+
+# surleste → sueste
+^surleste sueste
+
+# surxir → xurdir
+^surx xurd
+^súrx xúrd
+
+# sustantivo → substantivo
+^sustantivo substantivo
+
+# sustituír → substituír
+^sustitu substitu
+^sustitú substitú
+
+# taburete → banqueta, tallo
+^taburete banqueta
+^taburete tallo
+
+# tal vez → talvez
+# LOCUCIÓN
+
+# taladro → trade
+^taladro trade
+
+# talar, tala (subst.) → tallar, cortar, pinchar (A talla de árbores ou A corta de árbores).
+^tal tall
+^tál táll
+
+# talla → talle (pero ollo: existe talla = "representación escultórica, especialmente en madeira").
+# CORRECTA
+
+# talude → ribazo, noiro, cemba
+^talude ribazo
+^talude noiro
+^talude cemba
+
+# também → tamén
+^também$ tamén
+
+# tambén → tamén
+^tambén$ tamén
+
+# tasa → taxa
+^tasa taxa
+
+# taza → cunca
+^taza cunca
+
+# transvase → transvasamento
+# CORRECTA
+
+
+# temblar → tremer
+
+^tembla treme   # infinitivo
+^temblá tremé   # xerundio
+^témbla tréme   # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+
+^tembla tremi   # participio
+^temblá tremí
+
+^tembl trem     # indicativo/presente/1P
+^témbl trém
+
+^temblei tremín # indicativo/pretérito/1P
+^temblei tremin
+^tembléi tremín
+
+^temblo treme   # indicativo/pretérito/3P
+^tembló tremé
+
+^temblab tremí  # indicativo/copretérito
+^tembláb tremí
+^temblab tremi
+
+^temble trema   # subxuntivo/presente
+^temblé tremá   # imperativo afirmativo/2PR,4P,5PR
+^témble tréma   # imperativo negativo
+
+
+# templado → temperado, morno, tépedo
+^templad temperad
+^templad morn
+^templad téped
+
+# temprano → cedo
+^tempran ced
+
+# tenedor → garfo
+^tenedor$ garfo
+^tenedores$ garfos
+
+# teñir → tinguir, tinxir
+^teñ tingu
+^teñ ting
+^téñ tingu
+^téñ ting
+^teñ tinx
+^téñ tínx
+
+# ter + participio: en galego, esta perífrase só é correcta cando se refire a un feito reiterativo, repetido: teño feitas mil correccións na Galipedia, non con valor perfectivo equivalente ó castelán haber + participio (*Téñense censado 2.141 exiliados galegos).
+# CORRECTA
+
+# terciopelo → veludo
+^terciopelo veludo
+
+# término → termo
+^término termo
+
+# terramoto → terremoto
+^terramoto terremoto
+
+# tesina → tesiña ou tese de doutoramento.
+^tesina tesiña
+^tesina$ tese_de_doutoramento
+^tesinas$ teses_de_doutoramento
+
+# textil → téxtil
+^textil téxtil
+
+# tiburón → quenlla
+^tiburón quenlla
+
+# tirita → tira adhesiva, apósito adhesivo
+^tirita$ tira_adhesiva
+^tiritas$ tiras_adhesivas
+^tirita$ apósito_adhesivo
+^tiritas$ apósitos_adhesivos
+
+# tiroides → tiroide
+# CORRECTA
+
+# tixeiras → tesoiras
+^tixeira tesoira
+
+# tixolo → ladrillo
+^tixolo ladrillo
+
+# tiza → xiz
+^tiza$ xiz
+^tizas$ xices
+
+# tobillo → nocello, noelo, nortello
+^tobillo nocello
+^tobillo noelo
+^tobillo nortello
+
+# todavía → aínda
+^todavía$ aínda
+
+# tornillo → parafuso
+^tornillo parafuso
+
+# torrezno → torresmo
+^torrezno torresmo
+
+# tracería → trazaría
+^tracería trazaría
+
+# traducción, traductor → tradución, tradutor
+^traduc tradu
+
+# traición → traizón
+^traición traizón
+
+# tranxénico → transxénico (tódolos cultismos que empregan o prefixo trans- manteñen o grupo -ns agás os ligados a palabras que empezan por s-, que perden o -s)
+^tranxénic transxénic
+
+# tráquea → traquea
+^tráquea traquea
+
+# trascendencia → transcendencia
+^trascendencia transcendencia
+
+# travesaño → traveseiro
+^travesaño traveseiro
+
+# trébol → trevo
+^trébol$ trevo
+^tréboles$ trevos
+
+# triatlón → tríatlon
+^triatlón tríatlon
+
+# tribu → tribo
+^tribu tribo
+
+# triple → triplo/a
+^triple tripla
+^triple triplo
+
+# Trinidade → Trindade
+^Trinidade$ Trindade
+
+# triúnfo → triunfo
+^triúnfo triunfo
+
+# trovador/ora → trobador/ora.
+^trovador trobador
+
+# trozo → anaco, pedazo
+^trozo anaco
+^trozo pedazo
+
+# tubería → tubo, cano
+^tubería tubo
+^tubería cano
+
+# tuerca → porca (tamén torca)
+^tuerca porca
+^tuerca torca
+
+# tullido → fanado
+^tullido fanado
+
+# tupé → topete
+^tupé topete
+
+# turnarse → aquendarse, arroldarse
+^turn aquend
+^túrn aquénd
+^turn arrold
+^túrn arróld
+
+# turno → quenda, vez, rolda, orde, serie
+^turno quenda
+^turno$ vez
+^turnos$ veces
+^turno rolda
+^turno orde
+^turno serie
+
+# Os verbos rematados en -uír sempre levan til no seu infinitivo: ex. construír.
+uir$ uír
+
+# A terminación verbal -iu non se acentúa (agás en tritongos como en saíu): Ex: partiu, pediu...
+íu iu
+
+# ubicación → localización, situación
+^ubicación localización
+^ubicación situación
+
+# ultimatum, ultimátum → ultimato
+^ultimatum ultimato
+^ultimátum ultimato
+
+# ultrapasar → sobrepasar, superar
+^ultrapas sobrepas
+^ultrapás sobrepás
+^ultrapas super
+^ultrapás supér
+
+# umbral → limiar, límite
+^umbral$ limiar
+^umbrais$ limiares
+^umbral$ límite
+^umbrais$ límites
+
+# uniformizar → uniformar
+^uniformiz uniform
+^uniformic uniform
+^uniformíz unifórm
+^uniformíc unifórm
+
+# urbán → urbano
+^urbá urbana
+^urbán urbano
+
+# valeirar, valeiro, valdeirar, valdeiro → baleirar, baleiro, baldeirar, baldeiro
+^valeir baleir
+^valéir baléir
+^valeir baldeir
+^valéir baldéir
+^valdeir baleir
+^valdéir baléir
+^valdeir baldeir
+^valdéir baldéir
+
+# vasallo → vasalo
+# CORRECTA
+
+# vasixa → vasilla
+^vasixa vasilla
+
+# vaxilla (conxunto de pratos) → vaixela
+^vaxilla vaixela
+
+# vela → cirio, candea (en galego, vela só ten o significado da peza dos barcos, o deporte e a acción de velar).
+# CORRECTA
+
+# veleta → catavento, viraventos
+^veleta catavento
+^veleta$ viraventos
+^veletas$ viraventos
+
+# vena → vea
+# CORRECTA
+
+# venada → arroutada
+^venada arroutada
+
+# veneno → veleno
+^veneno veleno
+
+# venta → venda (do verbo vender)
+# CORRECTA
+
+# ventaxa → vantaxe
+^ventaxa vantaxe
+
+# vértigo → vertixe
+^vértigo vertixe
+
+# víctima → vítima
+^víctima vítima
+
+# victoria → vitoria
+^victoria vitoria
+
+# vidrio → vidro
+^vidrio vidro
+
+# vilancico → panxoliña
+^vilancico panxoliña
+
+# vinteún → vinte e un
+# vintedous → vinte e dous
+# vintetres → vinte e tres
+# vintecatro → vinte e catro
+# vintecinco → vinte e cinco
+# vinteseis → vinte e seis
+# vintesete → vinte e sete
+# vinteoito → vinte e oito
+# vintenove → vinte e nove
+^vinteún$ vinte_e_un
+^vinteúnha$ vinte_e_unha
+^vintedous$ vinte_e_dous
+^vintedúas$ vinte_e_dúas
+^vintetrés$ vinte_e_tres
+^vintecatro$ vinte_e_catro
+^vintecinco$ vinte_e_cinco
+^vinteseis$ vinte_e_seis
+^vintesete$ vinte_e_sete
+^vinteoito$ vinte_e_oito
+^vintenove$ vinte_e_nove
+
+# viruela → varíola
+^viruela varíola
+
+# vistazo → ollada
+^vistazo ollada
+
+# visto bo → visto e prace
+# LOCUCIÓN
+
+# volcar, vuelco (subst.) → envorcar, envorcadura.
+^volc envorc
+^volqu envorqu
+^vólc envórc
+^vólqu envórqu
+^vuelco envorcadura
+
+# volver + infinitivo (non leva a preposición a).
+# LOCUCIÓN
+
+# volvoreta → bolboreta
+^volvoreta bolboreta
+
+# xabalina → xavelina
+^xabalina xavelina
+
+# xalea → xelea (xelea real)
+^xalea xelea
+
+# xarabe → xarope
+^xarabe xarope
+
+# xardiñeiro/a → xardineiro/a
+^xardiñeir xardineir
+
+# xaula → gaiola
+^xaula gaiola
+
+# xeneral, xeneralmente → xeral, xeralmente mais xeneral (militar) e xeneralizar.
+^xeneralmente xeralmente
+
+# xenerar → xerar
+^xener xer
+^xenér xér
+
+# xeneración → xeración
+^xeneración xeración
+
+# xeralizar → xeneralizar
+^xeraliz xeneraliz
+^xeralic xeneralic
+^xeralíz xeneralíz
+^xeralíc xeneralíc
+
+# xudeo → xudeu
+^xudeo xudeu
+
+# xuicio, xuício, xuizo → xuízo (con acento)
+^xuicio xuízo
+^xuício xuízo
+^xuizo xuízo
+
+# zancadilla → cambadela
+^zancadilla cambadela
+
+# zar → tsar
+^zar tsar
+
+# zepelín → cepelín
+^zepelín cepelín
+
+# zodiaco → zodíaco
+^zodiaco zodíaco
+
+# zoa → zona (subst., pero ollo: o vento zoa)
+# CORRECTA
+
+# zócalo → zócolo
+# CORRECTA
+
+# zorro → raposo
+# CORRECTA
+
+# zucre → azucre
+^zucre azucre

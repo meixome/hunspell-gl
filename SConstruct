@@ -6,7 +6,7 @@ import mmap, os, re, subprocess
 
 defaultAff  = u'norma,unidades'
 defaultDic  = u'iso639,iso4217,unidades,volga'
-defaultRep  = u'norma'
+defaultRep  = u'norma,galipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -37,29 +37,29 @@ Módulos dispoñíbeis:
     FAMILIAS DE REGRAS DE CONSTRUCIÓN DE PALABRAS
 
     norma           Normas ortográficas e morfolóxicas do idioma galego
-                    Real Academia Galega / Instituto da Lingua Galega, 2003.
+                    Real Academia Galega / Instituto da Lingua Galega, 2003
                     http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
 
-    trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno.
+    trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
                     http://trasno.net/content/resultados-das-trasnadas
             
-    unidades        Prefixos e sufixos para símbolos de unidades.
+    unidades        Prefixos e sufixos para símbolos de unidades
                     http://en.wikipedia.org/wiki/International_System_of_Units
                     Nota: inclúense prefixos para unidades binarias.
 
 
     DICIONARIOS DE NÚCLEOS DE PALABRAS
 
-    iso639          Códigos de linguas (ISO 639).
+    iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
 
-    iso4217         Códigos de moedas (ISO 4217).
+    iso4217         Códigos de moedas (ISO 4217)
                     http://gl.wikipedia.org/wiki/ISO_4217
 
-    trasno          Acordos terminolóxicos do Proxecto Trasno.
+    trasno          Acordos terminolóxicos do Proxecto Trasno
                     http://trasno.net/content/resultados-das-trasnadas
             
-    unidades        Símbolos de unidades.
+    unidades        Símbolos de unidades
                     http://en.wikipedia.org/wiki/International_System_of_Units
                     Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
 
@@ -71,8 +71,11 @@ Módulos dispoñíbeis:
                     
     REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
 
-    norma           Regras xerais de substitución.
+    norma           Regras xerais de substitución
                     Pendentes de cambiar de módulo nun futuro próximo.
+
+    galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
+                    http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
     
 """.format(aff=defaultAff, dic=defaultDic, rep=defaultRep, code=defaultCode))
 
