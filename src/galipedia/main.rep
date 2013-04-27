@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-04-14
+#   2013-04-27
 #
 #
 # Limitacións
@@ -232,6 +232,17 @@
 ^abuche apup
 ^abuché apúp
 
+# acarrear → carrexar
+^acarre carrex
+^acarré carréx
+
+# acarretar → carretar
+^acarret carret
+^acarrét carrét
+
+# acarreto → carretada
+^acarreto carretada
+
 # aceituna → oliva
 ^aceituna oliva
 
@@ -243,6 +254,10 @@
 
 # acibache → acibeche
 ^acibache acibeche
+
+# aclimar → aclimatar
+^aclim aclimat
+^aclím aclimát
 
 # acné → acne
 ^acné acne
@@ -267,11 +282,85 @@
 # adoitar → adoptar (pero adoitar vale co significado de ter por costume, ser habitual)
 # CORRECTA
 
+
+# adormiñar → adormecer
+
+^adormiña adormece      # infinitivo
+^adormiñá adormecé      # xerundio
+^adormíña adorméce      # indicativo/presente/2P-6P
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^adormiñad adormecid    # participio
+
+^adormiñ adormez        # indicativo/presente/1P
+^adormíñ adorméz
+
+^adormiñei adormecín    # indicativo/pretérito/1P
+^adormiñei adormecin
+^adormiñéi adormecín
+
+^adormiña adormeci      # indicativo/pretérito/2P
+^adormiñá adormecí
+
+^adormiño adormece      # indicativo/pretérito/3P
+^adormiñó adormecé
+
+^adormiñab adormecí     # indicativo/copretérito/1P-3P,6P
+^adormiñáb adormecí
+
+^adormiñab adormeci     # indicativo/copretérito/4P-5P
+
+^adormiñe adormeza      # subxuntivo/presente
+^adormiñé adormezá      # imperativo afirmativo/2PR,4P,5PR
+^adormíñe adorméza      # imperativo negativo
+
+
+# adormiñar → adurmiñar
+^adormiñ adurmiñ
+^adormíñ adurmíñ
+
 # adxuntar → achegar
 ^adxunt acheg
 ^adxunt achegu
 ^adxúnt achég
 ^adxúnt achégu
+
+# afadigar → fatigar
+^afadig fatig
+^afadíg fatíg
+
+# afeizoado, afeizoar → afeccionado, afeccionar
+^afeizo afeccion
+^afeizó afección
+
+# afición, afeción -> afección
+^afición afección
+^afeción afección
+
+# afixar → fixar
+^afix fix
+^afíx fíx
+
+# afrentar → afrontar
+^afrent afront
+^afrént afrónt
+
+# agá → agás
+^agá$ agás
+
+# agarimeiro → agarimoso
+^agarimeir agarimos
+
+# agavear → gabear
+^agave gabe
+^agavé gabé
 
 # agotar → esgotar
 ^agot esgot
@@ -290,6 +379,9 @@
 
 # ainda que → aínda que
 ^ainda$ aínda
+
+# aislado → illado
+^aislad illad
 
 # aislamento → illamento
 ^aislamento ^illamento
@@ -353,6 +445,9 @@
 ^allan achanz
 ^allán achánz
 
+# almea → amea
+^almea amea
+
 # almexa → ameixa
 ^almexa ameixa
 
@@ -366,6 +461,20 @@
 ^alonx afast
 ^alónx afást
 
+# alquilar → alugar
+^alguil alug
+^alquil alugu
+^alquíl alúg
+^alquíl alúgu
+
+# alquiler → alugamento, alugueiro, renda
+^alquiler$ alugamento
+^alquileres$ alugamentos
+^alquiler$ alugueiro
+^alquileres$ alugueiros
+^alquiler$ renda
+^alquileres$ rendas
+
 # alquitrán → alcatrán
 ^alquitrán alcatrán
 
@@ -373,12 +482,82 @@
 ^aluguer$ alugueiro
 ^alugueres$ alugueiros
 
+# alxibeira → faltriqueira
+^alxibeira faltriqueira
+
+
+# amaldizoar → maldicir
+
+^amaldizoa maldici      # infinitivo
+^amaldizoá maldicí      # xerundio
+^amaldizóa maldíci      # participio regular
+                        # indicativo/presente/4P-5P
+                        # infinitivo conxugado
+
+^amaldizoad maldit      # participio irregular
+
+^amaldizo maldig        # indicativo/presente/1P
+^amaldizó maldíg
+
+^amaldizoa maldí        # indicativo/presente/2P-3P,6P
+^amaldizóa maldi        # indicativo/futuro
+^amaldizóa maldí        # indicativo/pospretérito
+                        # imperativo afirmativo/2P
+
+^amaldizoei maldixen    # indicativo/pretérito/1P
+^amaldizoei maldíxen
+^amaldizoéi maldíxen
+
+^amaldizoa maldixe      # indicativo/pretérito/2P,4P-6P
+^amaldizoá maldixé      # indicativo/antepretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+
+^amaldizoou maldixo     # indicativo/pretérito/3P
+^amaldizoou maldíxo
+^amaldizoóu maldíxo
+
+^amaldizoab maldicí     # indicativo/copretérito
+^amaldizoáb maldicí     # imperativo afirmativo/5P
+^amaldizoab maldici
+
+^amaldizoe maldiga      # subxuntivo/presente
+^amaldizoé maldigá      # imperativo afirmativo/2PR,4P,5PR
+^amaldizóe maldíga      # imperativo negativo
+
+
+# amargurar → amargar
+^amargur amarg
+^amargur amargu
+^amargúr amárg
+^amargúr amárgu
+
+# amenal → ameneiral
+^amena ameneira
+
+# amenedo → ameneiral
+^amenedo$ ameneiral
+^amenedos$ ameneirais
+
+# amial → ameneiral
+^amia ameneira
+
+# amigallar → esmigallar
+^amigall esmigall
+^amigáll esmigáll
+
+# amiúde → a miúdo
+^amiúde$ a_miúdo
+
 # amonestación → amoestación
 ^amonestación amoestación
 
 # amonestar → amoestar
 ^amonest amoest
 ^amonést amoést
+
+# amoreira → moreira
+^amoreira moreira
 
 # amortiguador → amortecedor
 ^amortiguador amortecedor
@@ -428,6 +607,15 @@
 # ancla → áncora
 ^ancla áncora
 
+# anceio → arela
+^anceio arela
+
+# anchor → ancho, anchura
+^anchor$ ancho
+^anchores$ anchos
+^anchor$ anchura
+^anchores$ anchuras
+
 # anclaxe → ancoraxe
 ^anclaxe ancoraxe
 
@@ -446,6 +634,9 @@
 # anque → aínda que
 ^anque$ aínda_que
 
+# anseio → arela
+^anseio arela
+
 # antigüedade → antigüidade
 ^antigüedade antigüidade
 
@@ -458,6 +649,25 @@
 # aparte → á parte
 ^aparte$ á_parte
 
+# apiedar → apiadar
+^apied apiad
+^apiéd apiád
+
+# apito → asubío, chifre, subiote
+^apito asubío
+^apito chifre
+^apito subiote
+
+# aplastamento, aplastar → esmagamento, esmagar
+^aplast esmag
+^aplast esmagu
+^aplást esmág
+^aplást esmágu
+
+# apodar, apodo → alcumar, alcume
+^apod alcum
+^apód alcúm
+
 # apostilla → apostila
 ^apostilla apostila
 
@@ -469,6 +679,10 @@
 # aportar → achegar, contribuír (aportar só equivale a chegar a porto).
 # CORRECTA
 
+# apousar → apouso → repousar, repouso
+^apous repous
+^apóus repóus
+
 # apremiar → apremar
 ^apremi aprem
 ^aprémi aprém
@@ -479,6 +693,10 @@
 # apretar → apertar
 ^apret apert
 ^aprét apért
+
+# apreto → aperto, apuro
+^apreto aperto
+^apreto apuro
 
 # apunte → apuntamento
 # CORRECTA
@@ -513,6 +731,20 @@
 # arraigo → arraigamento
 # CORRECTA
 
+# arraizar → enraizar
+^arraic enraic
+^arraiz enraiz
+^arráic enráic
+^arráiz enráiz
+
+# arrañar → rañar
+^arrañ rañ
+^arráñ ráñ
+
+# arrapiñar → rapinar
+^arrapiñ rapin
+^arrapíñ rapín
+
 # arreglar → amañar, arranxar
 ^arregl amañ
 ^arrégl amáñ
@@ -522,6 +754,19 @@
 # arreglo → amaño, arranxo
 ^arreglo amaño
 ^arreglo arranxo
+
+# arreigar → arraigar
+^arreig arraig
+^arreigu arraigu
+^arréig arráig
+^arréigu arráigu
+
+# arrempuxón → empuxón
+^arrempuxón empuxón
+
+# arrente, arrentes → a rentes
+^arrente$ a_rentes
+^arrentes$ a_rentes
 
 # arrinconar → acantoar, acurrunchar, arrecunchar
 ^arrincon acanto
@@ -542,6 +787,10 @@
 ^arrugu engurr
 ^arrúg engúrr
 ^arrúgu engúrr
+
+# arrumar → arrombar
+^arrum arromb
+^arrúm arrómb
 
 # arzobispo → arcebispo
 ^arzobispo arcebispo
@@ -569,6 +818,10 @@
 # asimesmo → así mesmo
 ^asimesmo$ así_mesmo
 
+# asinalar → sinalar
+^asinal sinal
+^asinál sinál
+
 # aspavento → espavento
 ^aspavento espavento
 
@@ -578,8 +831,20 @@
 # astilleiro → estaleiro
 ^astilleiro estaleiro
 
+# ateitiñar → atoutiñar
+^ateitiñ atoutiñ
+^ateitíñ atoutíñ
+
 # aterrizaxe → aterraxe
 ^aterrizaxe aterraxe
+
+# atirar → tirar
+^atir tir
+^atír tír
+
+# atorado, atorar → atoado, atoar
+^ator ato
+^atór ató
 
 # (des)atornillar → (des)aparafusar
 atornill aparafus
@@ -602,6 +867,15 @@ atorníll aparafús
 
 # autopista → autoestrada
 ^autopista autoestrada
+
+# avanear → abalar, abanear
+^avane abal
+^avané abál
+^avane abane
+^avané abané
+
+# avantaxe → vantaxe
+# CORRECTA
 
 # aventaxar → avantaxar
 ^aventax avantax
@@ -656,11 +930,18 @@ atorníll aparafús
 ^averígua descúbre
 
 
+# avóvada → bóveda
+^avóvada bóveda
+
 # axuntamento → concello
 # CORRECTA
 
 # azabache → acibeche
 ^azabache acibeche
+
+# azúcar → azucre
+^azúcar$ azucre
+^azúcares$ azucres
 
 # babosa → lesma, limacha, limaco
 # CORRECTA
@@ -690,6 +971,10 @@ atorníll aparafús
 
 # balanza de pagos → balanza de pagamentos
 # LOCUCIÓN
+
+# balbor → balbordo
+^balbor$ balbordo
+^balbores$ balbordos
 
 # barandilla → varanda
 ^barandilla varanda
@@ -761,11 +1046,20 @@ atorníll aparafús
 # bereber → bérber
 ^bereber bérber
 
+# berisca → brisca
+^berisca brisca
+
 # bilis → bile
 ^bilis$ bile
 
+# bimbán → bambán
+^bimbán bambán
+
 # bistec → bisté
 ^bistec bisté
+
+# bloco → bloque
+^bloco bloque
 
 # bó → bo
 ^bó bo
@@ -773,15 +1067,31 @@ atorníll aparafús
 # boda → voda
 ^boda voda
 
+# boiar → aboiar
+^boi aboi
+^bói abói
+
 # boquerón → bocareo, bocarte
 ^boquerón bocareo
 ^boquerón bocarte
 
+# borcar → envorcar
+^borc envorc
+^borqu envorqu
+^bórc envórc
+^bórqu envórqu
+
 # borde → beira, marxe, bordo, canto, esquina
 # CORRECTA
 
+# bosnia/o → bosníaca/o
+^bosni bosníac
+
 # bostezo → bocexo
 ^bostezo bocexo
+
+# breu → brea
+^breu brea
 
 # brilar → brillar
 ^bril brill
@@ -804,9 +1114,16 @@ atorníll aparafús
 # bucear → nadar ao somorgullo
 # COMPLICADA
 
+# buchelo → botelo
+^buchelo botelo
+
 # buhardilla → faiado, faio.
 ^buhardilla faiado
 ^buhardilla faio
+
+# burrumbiada, burrumbio → rebumbio
+^burrumbiada rebumbio
+^burrumbio rebumbio
 
 # bursátil → bolsista
 ^bursátil$ bolsista
@@ -856,8 +1173,15 @@ atorníll aparafús
 ^calexón$ vieiro_choído
 ^calexóns$ vieiros_choídos
 
+# cálice → cáliz
+^cálice$ cáliz
+
+# calivera → caveira
+^calivera caveira
+
 # caliza → calcaria
 ^caliza calcaria
+^caliza calcario
 
 # calle → rúa
 # CORRECTA
@@ -924,6 +1248,9 @@ atorníll aparafús
 # cartílago → cartilaxe (fem.)
 ^cartílago cartilaxe
 
+# casaco → casaca
+^casaco casaca
+
 # casco (vello, urbano) → núcleo, zona
 # LOCUCIÓN
 
@@ -951,14 +1278,19 @@ atorníll aparafús
 # celda → cela
 ^celda cela
 
-# cercano → próximo
-^cercano próximo
+# cercano → próximo, achegado
+^cercan próxim
+^cercan achegad
 
 # cerilla → misto
 ^cerilla misto
 
 # cerre → cerramento, peche
 # CORRECTA
+
+# certar → acertar
+^cert acert
+^cért acért
 
 # cese → cesamento
 # CORRECTA
@@ -974,14 +1306,23 @@ atorníll aparafús
 ^chiflad tol
 ^chiflad chalad
 
+# ciapio → sipaio
+^ciapio sipaio
+
 # cimborrio → ciborio
 ^cimborrio ciborio
 
 # cincel → cicel
 ^cince cice
 
+# cipaio → sipaio
+^cipaio sipaio
+
 # cirurxán → cirurxián
 ^cirurxá → cirurxiá
+
+# ciste → quiste
+^ciste quiste
 
 # ciumes → celos
 ^ciume celo
@@ -1096,6 +1437,20 @@ atorníll aparafús
 # conceito → concepto
 ^conceito concepto
 
+# concexal → concelleiro
+^concexal$ concelleiro
+^concexais$ concelleiros
+^concexala concelleira
+
+# concluente → concluínte
+^concluente concluínte
+
+# concretizar → concretar
+^concretic concret
+^concretiz concret
+^concretíc concrét
+^concretíz concrét
+
 # condear → condenar (e condena)
 ^conde conden
 ^condé condén
@@ -1111,6 +1466,9 @@ atorníll aparafús
 
 # conflicto → conflito
 ^conflicto conflito
+
+# confradía → confraría
+^confradía confraría
 
 # confucionismo → confucianismo
 ^confucionismo confucianismo
@@ -1172,6 +1530,9 @@ atorníll aparafús
 ^conlév signifíqu
 
 
+# conocido → coñecido
+^conocid coñecid
+
 # contradicción → contradición
 ^contradicción contradición
 
@@ -1194,6 +1555,33 @@ atorníll aparafús
 ^construcción construción
 
 
+# contener → conter
+
+^conten cont    # infinitivo
+^contén cont    # xerundio
+                # participio
+                # indicativo/presente/4P-5P(reg)
+                # indicativo/futuro
+                # indicativo/pospretérito
+                # infinitivo conxugado
+                # imperativo afirmativo/5P(reg)
+                
+^contene conten # indicativo/presente/5P(irreg)
+^contené contén # imperativo afirmativo/5P(irreg)
+               
+# Formas que se escribirían correctamente independentemente do lexema verbal:
+# indicativo/presente/1P-3P,6P
+# indicativo/pretérito
+# indicativo/copretérito
+# indicativo/antepretérito
+# subxuntivo
+# imperativo afirmativo/2P,2PR,4P,5PR
+# imperativo negativo
+
+
+# contributo → contribución
+^contributo contribución
+
 # convertir → converter
 
 ^converti converte  # infinitivo
@@ -1204,7 +1592,9 @@ atorníll aparafús
                     # indicativo/futuro
                     # indicativo/pospretérito
                     # subxuntivo/pretérito
+                    # subxuntivo/futuro
                     # imperativo afirmativo/5P
+                    # infinitivo conxugado
                     
 # Formas idénticas nas dúas conxugacións, e polo tanto correctas:
 # participio
@@ -1212,10 +1602,34 @@ atorníll aparafús
 # indicativo/pretérito/1P-2P
 # indicativo/copretérito
 # subxuntivo/presente
-# subxuntivo/futuro
-# infinitivo conxugado
 # imperativo afirmativo/2P,2PR,4P,5PR
 # imperativo negativo
+
+
+# convirtir → converter
+
+^convirti converte  # infinitivo
+^convirtí converté  # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # imperativo afirmativo/5P
+                    # infinitivo conxugado
+                    
+^convirt convert    # participio regular
+^convírt convért    # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # indicativo/copretérito
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+                    # imperativo negativo
+                    
+# Formas idénticas nas dúas conxugacións, e polo tanto correctas:
+# participio irregular
 
 
 # corbata → gravata
@@ -1235,6 +1649,9 @@ atorníll aparafús
 ^correx corrix
 ^corréx corríx
 
+# corruncho → curruncho
+^corruncho curruncho
+
 # cortafogos → devasa
 ^cortafogos$ devasa
 ^cortafogos$ devasas
@@ -1251,6 +1668,13 @@ atorníll aparafús
 
 # coste → custo
 ^coste custo
+
+# cotidiano → cotián
+^cotidiana cotiá
+^cotidiano cotián
+
+# couve → verza
+^couve verza
 
 # crave → clave
 # CORRECTA
@@ -1335,17 +1759,33 @@ atorníll aparafús
 # cuna → berce
 ^cuna berce
 
+# cuota → cota
+^cuota cota
+
 # cupo → cota
 ^cupo cota
 
+# cutis → cute
+^cutis$ cute
+^cutis$ cutes
+
+# dacordo → de acordo
+^dacordo$ de_acordo
+
 # danos e prexuízos → danos e perdas
 # LOCUCIÓN
+
+# danzal → lanzal
+^danza lanza
 
 # dañino → daniño
 ^dañin daniñ
 
 # de todas maneiras → de todas as maneiras
 # LOCUCIÓN
+
+# debalde → de_balde
+^debalde$ de_balde
 
 
 # debatir → debater
@@ -1371,6 +1811,12 @@ atorníll aparafús
 # imperativo afirmativo/2P,2PR,4P,5PR
 # imperativo negativo
 
+
+# deborcar → envorcar
+^deborc envorc
+^deborqu envorqu
+^debórc envórc
+^debórqu envórqu
 
 # decatlón, decatlon → décatlon
 ^decatlón décatlon
@@ -1422,6 +1868,9 @@ atorníll aparafús
 # delicto → delito
 ^delicto delito
 
+# depresa → a présa
+^depresa$ a_présa
+
 
 # derretir → derreter
 
@@ -1450,6 +1899,10 @@ atorníll aparafús
 # derribo (subst.) → derrubamento
 # CORRECTA
 
+# desaglutinar → separar
+^desaglutin separ
+^desaglutín sepár
+
 # desahucio → desafiuzamento
 ^desahucio desafiuzamento
 
@@ -1465,13 +1918,38 @@ atorníll aparafús
 # desaugue (subst.) → desaugadoiro
 # CORRECTA
 
+# descontra → contra
+^descontra contra
+
 # descripción → descrición
 ^descripción descrición
+
+# desenvocar → desembocar
+^desenvoc desemboc
+^desenvoqu desemboqu
+^desenvóc desembóc
+^desenvóqu desembóqu
 
 # desglose → detalle, reparto, especificación
 ^desglose detalle
 ^desglose reparto
 ^desglose especificación
+
+# desinterés → desinterese
+^desinterés$ desinterese
+
+# desmascarar → desenmascarar
+^desmascar desenmascar
+^desmascár desenmascár
+
+# deteron → detiveron
+^dete detive
+^deté detivé
+
+# detín → detiven
+^detín detiven
+^detin detíven
+^detín detíven
 
 
 # desnudar(se) → espir(se), denudar(se), desvestir(se).
@@ -1600,6 +2078,9 @@ atorníll aparafús
 # diccionario → dicionario
 ^diccionario dicionario
 
+# diciembre → decembro
+^diciembre decembro
+
 # dictar → ditar
 ^dict dit
 ^díct dít
@@ -1678,6 +2159,12 @@ atorníll aparafús
 ^doctrina doutrina
 ^dotrina doutrina
 
+# dolorido → dorido
+^dolorid dorid
+
+# domadura → doma
+^domadura doma
+
 # donante → doador
 ^donante$ doador
 ^donantes$ doadores
@@ -1721,6 +2208,10 @@ atorníll aparafús
 # élite → elite
 ^élite elite
 
+# elle → ele dobre
+^elle$ ele_dobre
+^elles$ eles_dobres
+
 # elo → iso (é un pronome neutro do galego medieval que só se conserva na expresión estar a elo, pero ollo: tamén existe o substantivo elo co significado de cada un dos aros que forman unha cadea)
 # CORRECTA
 
@@ -1731,8 +2222,54 @@ atorníll aparafús
 # e-mail → correo electrónico
 # LOCUCIÓN
 
+# embalde → en balde
+^embalde$ en_balde
+
+# embarallar → barallar
+^embarall barall
+^embaráll baráll
+
+# embigal → umbilical
+^embiga umbilica
+
+# empleado → empregado
+^emplead empregad
+
+# empleo → emprego
+^empleo emprego
+
+# emporrancho → espido
+^emporranch espid
+
+# empréstimo → empréstito
+^empréstimo empréstito
+
 # en aras de → co fin de
 # LOCUCIÓN
+
+# enbalde → en balde
+^enbalde$ en_balde
+
+# encaixonamento → encaixe
+^encaixonamento encaixe
+
+# encender → acender, prender
+^encend acend
+^encénd acénd
+^encend prend
+^encénd prénd
+
+# enchemento → enchedura
+^enchemento enchedura
+
+# encosta → costa
+^encosta costa
+
+# encurtadoiro → atallo
+^encurtadoiro atallo
+
+# enero → xaneiro
+^enero xaneiro
 
 
 # enfriar → arrefriar ou arrefecer
@@ -1775,9 +2312,16 @@ atorníll aparafús
 ^enfrié arrefezá
 
 
+# engrova → engroba
+^engrova engroba
+
 # enmendar, enmenda (subst.) → emendar, emenda
 ^enmend emend
 ^enménd eménd
+
+# ensoso → eslamiado, insulso
+^ensos eslamiad
+^ensos insuls
 
 # entablamento → entaboamento
 ^entablamento entaboamento
@@ -1824,6 +2368,12 @@ atorníll aparafús
 
 # entorno → contorno, contorna
 # CORRECTA
+
+# entretenemento → entretemento
+^entretenemento entretemento
+
+# enxofre → xofre
+^enxofre xofre
 
 # epaper → papel electrónico
 ^epaper$ papel_electrónico
@@ -1915,9 +2465,60 @@ atorníll aparafús
 ^error$ erro
 ^errores$ erros
 
+# esbarballar → esbardallar
+^esbarball esbardall
+^esbarbáll esbardáll
+
+
+# esbranquecer → branquear
+
+^esbranquece branquea   # infinitivo
+^esbranquecé branqueá   # xerundio
+^esbranquéce branquéa   # indicativo/presente/P2-P6
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/pretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^esbranqueci branquea   # participio
+^esbranquecí branqueá   # indicativo/pretérito/2P
+
+^esbranquez branque     # indicativo/presente/P1
+^esbranquéz branqué
+
+^esbranquecín branqueei # indicativo/pretérito/1P
+^esbranquecin branqueei
+^esbranquecín branqueéi
+
+^esbranquece branqueo   # indicativo/pretérito/3P
+^esbranquecé branqueó
+
+^esbranquecí branqueab  # indicativo/copretérito
+^esbranquecí branqueáb
+^esbranqueci branqueab
+
+^esbranqueza branquee   # subxuntivo/presente
+^esbranquezá branqueé   # imperativo afirmativo/2PR,4P,5PR
+^esbranquéza branquée
+
+
+# esbranquizado → esbrancuxado
+^esbranquizado esbrancuxado
+
+# escadería → escalinata
+^escadería escalinata
+
 # escalón → banzo, chanzo
 ^escalón banzo
 ^escalón chanzo
+
+# escasez → escaseza
+^escasez$ escaseza
+^escaseces$ escasezas
 
 # escea → escena
 ^escea escena
@@ -1930,6 +2531,19 @@ atorníll aparafús
 ^escombro cascote
 ^escombro entullo
 
+# escoria → escoura
+^escoria escoura
+
+# esfrega, esfregamento → frega
+^esfrega frega
+^esfregamento frega
+
+# esfregar → fregar
+^esfreg freg
+^esfregu fregu
+^esfrég frég
+^esfrégu frégu
+
 # eslabón → elo
 ^eslabón elo
 
@@ -1938,6 +2552,10 @@ atorníll aparafús
 
 # eslógan → slogan (sen acento)
 ^eslógan slogan
+
+# eso → iso
+^eso$ iso
+^esos$ eses
 
 # espaciar → espazar
 ^espaci espaz
@@ -2024,9 +2642,23 @@ atorníll aparafús
 # estuche → estoxo
 ^estuche estoxo
 
-# eúscaro → éuscaro ou vasco
-^eúscaro éuscaro
-^eúscaro vasco
+# esvaciar → baleirar
+^esvaci baleir
+^esváci baléir
+
+# eúscaro → éuscaro, vasco
+^eúscar éuscar
+^eúscar vasc
+
+# euskera, eusquera → éuscaro, vasco
+^euskera éuscara
+^euskera éuscaro
+^eusquera éuscara
+^eusquera éuscaro
+^euskera vasca
+^euskera vasco
+^eusquera vasca
+^eusquera vasco
 
 # evaluación, evaluar → avaliación, avaliar
 ^evalu avali
@@ -2126,8 +2758,15 @@ atorníll aparafús
 # fallido → errado
 ^fallid errad
 
+# falopear → folerpar
+^falope folerp
+^falopé folérp
+
 # fecha → data
 # CORRECTA
+
+# feria → feira
+^feria feira
 
 # ferry → transbordador
 ^ferry$ transbordador
@@ -2150,6 +2789,12 @@ atorníll aparafús
 ^firm asin
 ^fírm asín
 
+# flema → flegma
+^flema flegma
+
+# floresta → foresta
+^floresta foresta
+
 # floristería → floraría
 ^floristería floraría
 
@@ -2158,6 +2803,9 @@ atorníll aparafús
 
 # folklore → folclore (pero folk, ó ser un anglicismo)
 ^floklore folclore
+
+# follame → follaxe
+^follame follaxe
 
 # forcexear, forcexeo (subst.) → forcexar, forcexo.
 ^forcexe forcex
@@ -2193,14 +2841,31 @@ atorníll aparafús
 # fregadeiro → vertedoiro
 ^fregadeiro vertedoiro
 
+# frenar → frear
+^fren fre
+^frén fré
+
 # frenazo → freada
 ^frenazo freada
 
 # fuciño → fociño
 ^fuciño fociño
 
+# fúlxedo → fúlxido
+^fúlxedo fúlxido
+
+# fumarada → fumareda, fumazo
+^fumarada fumareda
+^fumarada fumazo
+
 # gafas → lentes
 # CORRECTA
+
+# galeira → galera
+^galeira galera
+
+# gandeiría → gandería
+^gandeiría gandería
 
 
 # garantizar → garantir
@@ -2242,8 +2907,24 @@ atorníll aparafús
 # gardaespaldas → gardacostas
 ^gardaespaldas$ gardacostas
 
+# gatuñar → agatuñar
+^gatuñ agatuñ
+^gatúñ agatúñ
+
+# gatuxa → garatuxa
+^gatuxa garatuxa
+
+# gavián → gabián
+^gavián gabián
+
 # gazapo → cazapo
 ^gazapo cazapo
+
+# gazo → garzo
+^gaz garz
+
+# gazúa → ganzúa
+^gazúa ganzúa
 
 # gladiolo → gladíolo
 ^gladiolo gladíolo
@@ -2261,11 +2942,17 @@ atorníll aparafús
 # gracia/s → graza/s.
 ^gracia graza
 
+# grasoso → graxento
+^grasos graxent
+
 # grial → graal
 ^grial graal
 
 # grifo → billa
 ^grifo billa
+
+# grudo → engrudo
+^grud engrud
 
 # gubernamental/is → gobernamental/is
 ^gubernamenta gobernamenta
@@ -2293,7 +2980,7 @@ atorníll aparafús
 ^hachemita haxemita
 
 # hachís → haxix
-^hachís haxix
+^hachís$ haxix
 
 # hachuela → desaparafusador
 ^hachuela$ desaparafusador
@@ -2335,6 +3022,9 @@ atorníll aparafús
 # heptathlón → héptathlon
 ^heptathlón héptathlon
 
+# herencia → herdanza
+^herencia herdanza
+
 # héroe → heroe
 ^héroe heroe
 
@@ -2353,6 +3043,10 @@ atorníll aparafús
 # horchata → orchata
 ^horchata orchata
 
+# hostelería → hostalaría, hostalería
+^hostelería hostalaría
+^hostelería hostalería
+
 # humán → humano
 ^humán humana
 ^humán humano
@@ -2362,6 +3056,9 @@ atorníll aparafús
 
 # icono → icona
 ^icono icona
+
+# iglesia → igrexa
+^iglesia igrexa
 
 # implementar → poñer en funcionamento
 # COMPLICADA
@@ -2394,6 +3091,10 @@ atorníll aparafús
 
 # ingredente → ingrediente
 ^ingredente ingrediente
+
+# inquedar → inquietar
+^inqued inquiet
+^inquéd inquiét
 
 # inscripción → inscrición
 ^inscripción inscrición
@@ -2440,11 +3141,19 @@ atorníll aparafús
 ^insérte insíra         # imperativo negativo
 
 
+# interés → interese
+^interés$ interese
+
 # introducción → introdución
 ^introducción introdución
 
 # inversión → investimento (pero ollo: existe inversión = acción ou efecto de inverter ou dar a volta)
 # CORRECTA
+
+# inversionista → investidor
+^inversionista investidora
+^inversionista$ investidor
+^inversionistas$ investidores
 
 # inversor → investidor (que fai investimentos)
 # CORRECTA
@@ -2479,8 +3188,16 @@ atorníll aparafús
 # irrevocable → irrevogable
 ^irrevocable irrevogable
 
+# isolar, isolado → illar, illado
+^isol ill
+^isól íll
+
 # iste → este
 ^ist est
+
+# italián → italiano
+^italiá italiana
+^italián italiano
 
 # iunque, xunque → engra, incre, zafra (son todas femininas).
 ^iunque engra
@@ -2519,6 +3236,10 @@ ja ha
 
 # lavadero → lavadoiro
 ^lavadero lavadoiro
+
+# lavavaixelas → lavalouza
+^lavavaixelas$ lavalouza
+^lavavaixelas$ lavalouzas
 
 # leer → ler
 ^lee le
@@ -2571,8 +3292,16 @@ ja ha
 ^lonxana remota
 ^lonxano remoto
 
+# loubanza, louvanza → loanza
+^loubanza loanza
+^louvanza loanza
+
 # madrugón (subst.) → madruga
 ^madrugón madruga
+
+# maestro → mestre
+^maestra mestra
+^maestro mestre
 
 # mail → correo
 ^mail correo
@@ -2597,11 +3326,17 @@ ja ha
 # mañán → mañá
 ^mañán mañá
 
+# mapoula → papoula
+^mapoula papoula
+
 # maravedí → marabedí
 ^maravedí marabedí
 
 # maravilla → marabilla
 ^maravilla marabilla
+
+# marfín → margarida
+^marfín margarida
 
 # mariposa → bolboreta
 ^mariposa bolboreta
@@ -2610,12 +3345,19 @@ ja ha
 ^mariquita xoaniña
 ^mariquita reirrei
 
+# marketing → mercadotecnia
+^marketing mercadotecnia
+
 # mástil → mastro
 ^mástil$ mastro
 ^mástiles$ mastros
 
 # maxestuoso/a → maxestoso/a
 ^maxestuos maxestos
+
+# medoñento, medoso → medorento
+^medoñent medorent
+^medos medorent
 
 # médula → medula
 ^médula medula
@@ -2636,6 +3378,9 @@ ja ha
 ^mentras$ namentres
 ^mentras$ entrementres
 
+# menudo → miúdo
+^menud miúd
+
 # merindad → meiriñado
 ^merindad meiriñado
 
@@ -2653,6 +3398,9 @@ ja ha
 ^mezcla mestura
 ^mistura mestura
 
+# miércoles → mércores
+^miércoles$ mércores
+
 # mín → min
 ^mín$ min
 
@@ -2663,6 +3411,9 @@ ja ha
 ^minorista$ vendedor_polo_miúdo
 ^minoristas$ vendedores_polo_miúdo
 
+# minusválido → discapacitado
+^minusválid discapacitad
+
 # modais → modos
 # CORRECTA
 
@@ -2671,6 +3422,12 @@ ja ha
 
 # monolito → monólito
 ^monolito monólito
+
+# morcela → morcilla
+^morcela morcilla
+
+# morralla → borralla
+^morralla borralla
 
 # Moscú → Moscova
 ^Moscú$ Moscova
@@ -2691,6 +3448,13 @@ móvil móbil
 
 # musgo → brión, mofo, carriza. Musgo é válido aplicado a alguén que ten os ollos semipechados.
 # CORRECTA
+
+# musulmano → musulmán
+^musulmana musulmá
+^musulmano musulmán
+
+# muxeriego → mullereiro
+^muxerieg mullereir
 
 # naranxa → laranxa
 ^naranxa laranxa
@@ -2739,6 +3503,9 @@ móvil móbil
 # neón → neon
 ^neón neon
 
+# nervo → nervio
+^nervo nervio
+
 # neumo- → pneumo- (pneumonía, pneumotórax, pneumático).
 ^neumo pneumo
 
@@ -2748,6 +3515,10 @@ móvil móbil
 
 # nómada → nómade
 ^nómada nómade
+
+# nombrar → nomear
+^nombr nome
+^nómbr nomé
 
 # nomeadamente → principalmente, maiormente, mormente
 ^nomeadamente principalmente
@@ -2764,6 +3535,22 @@ móvil móbil
 ^noraboa$ parabéns
 ^noraboas$ parabéns
 
+# norleste → nordeste, nordés
+^norleste nordeste
+^norleste$ nordés
+^norlestes$ nordeses
+
+# noro → xenro
+^noro xenro
+
+# noruego → noruegués
+^noruega norueguesa
+^noruego$ noruegués
+^noruegos$ noruegueses
+
+# nuboso → nubrado
+^nubos nubrad
+
 # num → nun
 ^num nun
 
@@ -2773,8 +3560,54 @@ móvil móbil
 # nutrinte → nutriente
 # CORRECTA
 
+# octubre → outubro
+^octubre outubro
+
 # ola (do mar) → onda (pero ollo: existe ola de saúdo)
 # CORRECTA
+
+
+# olvidar → esquecer
+
+^olvida esquece         # infinitivo
+^olvidá esquecé         # xerundio
+^olvída esquéce         # indicativo/presente/2P-6P
+                        # indicativo/pretérito/4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/2P,5P
+                        
+^olvidad esquecid       # participio
+
+^olvid esquez           # indicativo/presente/1P
+^olvíd esquéz
+
+^olvidei esquecín       # indicativo/pretérito/1P
+^olvidei esquecin
+^olvidéi esquecín
+
+^olvida esqueci         # indicativo/pretérito/2P
+^olvidá esquecí
+
+^olvido esquece         # indicativo/pretérito/3P
+^olvidó esquecé
+
+^olvidab esquecí        # indicativo/copretérito/1P-3P,6P
+^olvidáb esquecí
+
+^olvidab esqueci        # indicativo/copretérito/4P-5P
+
+^olvide esqueza         # subxuntivo/presente
+^olvidé esquezá         # imperativo afirmativo/2PR,4P,5PR
+^olvíde esquéza         # imperativo negativo
+
+
+# olvido → esquecemento
+^olvido esquecemento
 
 # omóplato, omoplato → omoplata
 ^omóplato omoplata
@@ -2786,6 +3619,48 @@ móvil móbil
 # ordear → ordenar
 ^orde orden
 ^ordé ordén
+
+
+# ordeñar → muxir
+
+^ordeña muxi       # infinitivo
+^ordeñá muxí       # xerundio
+                        # participio regular
+                        # indicativo/presente/4P-5P
+                        # indicativo/pretérito/2P,4P-6P
+                        # indicativo/antepretérito
+                        # indicativo/futuro
+                        # indicativo/pospretérito
+                        # subxuntivo/copretérito
+                        # subxuntivo/futuro
+                        # infinitivo conxugado
+                        # imperativo afirmativo/5P
+                            
+^ordeñ mux         # indicativo/presente/1P
+^ordéñ múx
+
+^ordeña muxe       # indicativo/presente/2P-3P,6P
+^ordéña múxe
+
+^ordeñei muxín     # indicativo/pretérito/1P
+^ordeñei muxin
+^ordeñéi muxín
+
+^ordeño muxi       # indicativo/pretérito/3P
+^ordeñó muxí
+
+^ordeñab muxí      # indicativo/copretérito/1P-3P,6P
+^ordeñáb muxí
+
+^ordeñab muxi      # indicativo/copretérito/4P-5P
+
+^ordeñe muxa       # subxuntivo/presente
+^ordeñé muxá       # imperativo afirmativo/2PR,4P,5PR
+^ordéñe múxa       # imperativo negativo
+
+^ordeña muxa      # imperativo afirmativo/2P
+^ordéña múxa
+
 
 # oso → óso (peza do esqueleto); oso (animal).
 # CORRECTA
@@ -2807,6 +3682,9 @@ móvil móbil
 # palanca → panca
 ^palanca panca
 
+# pamplina → parvada
+^pamplina parvada
+
 # panteira → pantera
 ^panteira pantera
 
@@ -2816,6 +3694,9 @@ móvil móbil
 
 # paradoxa → paradoxo (masc.)
 ^paradoxa paradoxo
+
+# paragüeiro → paraugueiro
+^paragüeiro paraugueiro
 
 # parásito → parasito
 ^parásito parasito
@@ -2835,6 +3716,9 @@ móvil móbil
 # pasillo → corredor
 ^pasillo$ corredor
 ^pasillos$ corredores
+
+# pasión → paixón
+^pasión paixón
 
 # páxaro → paxaro
 ^páxaro paxaro
@@ -2873,12 +3757,21 @@ móvil móbil
 # perseverancia → perseveranza
 ^perseverancia perseveranza
 
+# persoalizar → personalizar
+^persoalic personalic
+^persoaliz personaliz
+^persoalíc personalíc
+^persoalíz personalíz
+
 # persoarse → comparecer
 # COMPLICADA
 
 # persoarse → presentarse
 ^perso present
 ^persó presént
+
+# personal → persoal
+^persona persoa
 
 # pertenecer → pertencer
 ^pertene perten
@@ -2896,11 +3789,19 @@ móvil móbil
 # petroglifo → petróglifo
 ^petroglifo petróglifo
 
+# picor → proído
+^picor$ proído
+^picores$ proídos
+
 # pilar (elemento arquitectónico) → piar
 ^pilar piar
 
 # pizarra → lousa
 ^pizarra lousa
+
+# plancha → ferro de pasar, prancha
+^plancha$ ferro_de_pasar
+^planchas$ ferros_de_pasar
 
 # plancton → plancto
 ^plancton plancto
@@ -3110,7 +4011,7 @@ móvil móbil
 ^pranta planta
 
 # precio → prezo
-^precio prezo
+^preci prez
 
 # prensil → prénsil
 ^prensil$ prénsil
@@ -3173,6 +4074,11 @@ móvil móbil
 # productor → produtor
 ^productor produtor
 
+# produxo → produciu
+^produxo produciu
+^prodúxo produciu
+^prodúxo producíu
+
 # promedio → media
 ^promedio media
 
@@ -3207,6 +4113,9 @@ móvil móbil
 
 # rasgo → trazo
 ^rasgo trazo
+
+# ratón → rato
+^ratón rato
 
 # rebaño → rabaño
 ^rebaño rabaño
@@ -3293,6 +4202,9 @@ móvil móbil
 ^recheé enchá       # imperativo afirmativo/2PR,4P,5PR
 ^rechée éncha
 
+
+# refice → arrecife
+^recife arrecife
 
 # recopilar → recompilar
 ^recopil recompil
@@ -3456,6 +4368,9 @@ móvil móbil
 ^requer requir
 ^requér requír
 
+# resgate → rescate
+^resgate rescate
+
 # respaldar → apoiar
 ^respald apoi
 ^respáld apói
@@ -3505,8 +4420,48 @@ móvil móbil
 ^respet respect
 ^respét respéct
 
+
+# respostar → responder
+
+^resposta responde   # infinitivo
+^respostá respondé   # xerundio
+^respósta respóste   # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+
+^resposta respondi   # participio
+^respostá respondí
+
+^respost respond     # indicativo/presente/1P
+^respóst respóst
+
+^respostei respondín # indicativo/pretérito/1P
+^respostei respondin
+^respostéi respondín
+
+^resposto responde   # indicativo/pretérito/3P
+^respostó respondé
+
+^respostab respondí  # indicativo/copretérito
+^respostáb respondí
+^respostab respondi
+
+^resposte responda   # subxuntivo/presente
+^resposté respondá   # imperativo afirmativo/2PR,4P,5PR
+^respóste respósta   # imperativo negativo
+
+
 # resume (s.) → resumo (subst.)
 # CORRECTA
+
+# retábulo → retablo
+^retábulo retablo
 
 # retortixón → retorzón
 ^retortixón retorzón
@@ -3622,6 +4577,9 @@ móvil móbil
 ^saltamontes$ saltón
 ^saltamontes$ saltóns
 
+# sanguesuga → samesuga
+^sanguesuga samesuga
+
 # sartén → tixola, tixela
 ^sartén tixola
 ^sartén tixela
@@ -3638,8 +4596,24 @@ móvil móbil
 # según → segundo
 ^según$ segundo
 
+# seique → seica
+^seique$ seica
+
+# seiturar → segar
+^seitur seg
+^seitur segu
+^seitúr ség
+^seitúr ségu
+
 # semán → semana
 ^semán semana
+
+# semear → sementar
+^seme sement
+^semé semént
+
+# semen → seme
+^semen seme
 
 # sencillez → sinxeleza
 ^sencillez$ sinxeleza
@@ -3647,6 +4621,10 @@ móvil móbil
 
 # sen embargo → a pesar diso, así e todo, con todo, mais, non obstante, pero, porén
 # LOCUCIÓN
+
+# septiembre, setiembre → setembro
+^septiembre setembro
+^setiembre setembro
 
 # séptimo/a → sétimo/a
 ^séptim sétim
@@ -3725,9 +4703,18 @@ móvil móbil
 # sinceiro → sincero
 ^sinceir sincer
 
+# sique → psique
+^sique psique
+
+# sob → so
+^sob$ so
+
 # sobornar, soborno (subst.) → subornar, suborno
 ^soborn suborn
 ^sobórn subórn
+
+# sobreiro → sobreira
+^sobreiro sobreira
 
 # sobreseer → sobreser
 ^sobrese sobres
@@ -3898,6 +4885,12 @@ móvil móbil
 # solomillo → solombo
 ^solomillo solombo
 
+# soluzar, soluzo → saloucar, salouco
+^soluc salouqu
+^soluz salouc
+^solúc salóuqu
+^solúz salóuc
+
 # sombrilla → parasol, catasol, antuca
 ^sombrilla$ parasol
 ^sombrillas$ parasois
@@ -3915,6 +4908,15 @@ móvil móbil
 
 # sondeo → sondaxe
 ^sondeo sondaxe
+
+# soneira → somnolencia
+^soneira somnolencia
+
+# sonicar → adormecerse
+# COMPLICADA
+
+# sonicar → adurmiñarse
+# COMPLICADA
 
 # sonido → son
 ^sonido son
@@ -3936,6 +4938,10 @@ móvil móbil
 # submariño → submarino
 ^submariñ submarin
 
+# subraiar → subliñar
+^subrai subliñ
+^subrái sublíñ
+
 # suministrar → subministrar
 ^suministr subministr
 ^suminístr subminístr
@@ -3950,8 +4956,24 @@ móvil móbil
 # suciedade → sucidade
 ^suciedade sucidade
 
+# sucre → azucre
+^sucre azucre
+
 # sudafricano → surafricano
 ^sudafrican surafrican
+
+# sugar → zugar
+^sug zug
+^súg zúg
+
+# sugo → zume
+^sugo zume
+
+# suíno → porcino
+^suín porcin
+
+# sumiso → submiso
+^sumis submis
 
 # supervivinte → supervivente
 ^supervivinte supervivente
@@ -3961,6 +4983,9 @@ móvil móbil
 
 # surleste → sueste
 ^surleste sueste
+
+# surro → xurro
+^surr xurr
 
 # surxir → xurdir
 ^surx xurd
@@ -3972,6 +4997,12 @@ móvil móbil
 # sustituír → substituír
 ^sustitu substitu
 ^sustitú substitú
+
+# suxo → sucio
+^sux suci
+
+# tabolete → tallo
+^tabolete tallo
 
 # taburete → banqueta, tallo
 ^taburete banqueta
@@ -4000,6 +5031,9 @@ móvil móbil
 
 # tambén → tamén
 ^tambén$ tamén
+
+# también → tamén
+^también$ tamén
 
 # tasa → taxa
 ^tasa taxa
@@ -4052,8 +5086,18 @@ móvil móbil
 ^templad morn
 ^templad téped
 
-# temprano → cedo
+# temprano → cedo, temperán
 ^tempran ced
+^temprana temperá
+^temprano temperán
+
+# tención → intención, intento
+^tención intención
+^tención intento
+
+# tencionar → intentar
+^tencion intent
+^tención intént
 
 # tenedor → garfo
 ^tenedor$ garfo
@@ -4079,6 +5123,9 @@ móvil móbil
 # terramoto → terremoto
 ^terramoto terremoto
 
+# terrapleno → terraplén
+^terrapleno terraplén
+
 # tesina → tesiña ou tese de doutoramento.
 ^tesina tesiña
 ^tesina$ tese_de_doutoramento
@@ -4087,14 +5134,69 @@ móvil móbil
 # textil → téxtil
 ^textil téxtil
 
+# tibio → morno, tépedo
+^tibi morn
+^tibi téped
+
 # tiburón → quenlla
 ^tiburón quenlla
+
+# tifus → tifo
+^tifus$ tifo
+^tifus$ tifos
 
 # tirita → tira adhesiva, apósito adhesivo
 ^tirita$ tira_adhesiva
 ^tiritas$ tiras_adhesivas
 ^tirita$ apósito_adhesivo
 ^tiritas$ apósitos_adhesivos
+
+# tiritar → bracuñar
+^tirit bracuñ
+^tirít bracúñ
+
+# tiritar → tremelicar
+^tirit tremelic
+^tirit tremeliqu
+^tirít tremelíc
+^tirít tremelíqu
+
+
+# tiritar → tremer
+
+^tirita treme       # infinitivo
+^tiritá tremé       # xerundio
+^tiríta tréme       # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^tirita tremi       # participio
+^tiritá tremí       # indicativo/pretérito/2P
+
+^tirit trem         # indicativo/presente/1P
+^tirít trém
+
+^tiritei tremín     # indicativo/pretérito/1P
+^tiritei tremin
+^tiritéi tremín
+
+^tirito tremeu      # indicativo/pretérito/3P
+^tiritó treméu
+
+^tiritab tremí      # indicativo/copretérito
+^tiritáb tremí
+^tiritab tremi
+
+^tirite trema       # subxuntivo/presente
+^tirité tremá       # imperativo afirmativo/2PR,4P,5PR
+^tiríte tréma       # imperativo negativo
+
 
 # tiroides → tiroide
 # CORRECTA
@@ -4123,6 +5225,9 @@ móvil móbil
 # torrezno → torresmo
 ^torrezno torresmo
 
+# tos → tose
+^tos$ tose
+
 # tracería → trazaría
 ^tracería trazaría
 
@@ -4131,6 +5236,13 @@ móvil móbil
 
 # traición → traizón
 ^traición traizón
+
+# traicionar → traizoar
+^traicion traizo
+^traición traizó
+
+# traicioneiro → traizoeiro
+^traicioneir traizoeir
 
 # tranxénico → transxénico (tódolos cultismos que empregan o prefixo trans- manteñen o grupo -ns agás os ligados a palabras que empezan por s-, que perden o -s)
 ^tranxénic transxénic
@@ -4148,6 +5260,9 @@ móvil móbil
 ^trébol$ trevo
 ^tréboles$ trevos
 
+# trecho → treito
+^trecho treito
+
 # triatlón → tríatlon
 ^triatlón tríatlon
 
@@ -4163,6 +5278,9 @@ móvil móbil
 
 # triúnfo → triunfo
 ^triúnfo triunfo
+
+# trombada → trompada
+^trombada trompada
 
 # trovador/ora → trobador/ora.
 ^trovador trobador
@@ -4235,6 +5353,20 @@ uir$ uír
 ^urbá urbana
 ^urbán urbano
 
+# vacía → bacía, baleira
+^vacía bacía
+^vacía baleira
+
+# vaciar → baleirar
+^vaci baleir
+^vací baleir
+^vací baléir
+
+# vacio → vacío, bacío, baleiro
+^vacio vacío
+^vacio bacío
+^vacio baleiro
+
 # valeirar, valeiro, valdeirar, valdeiro → baleirar, baleiro, baldeirar, baldeiro
 ^valeir baleir
 ^valéir baléir
@@ -4280,6 +5412,9 @@ uir$ uír
 # vértigo → vertixe
 ^vértigo vertixe
 
+# verxa → enreixado
+^verxa enreixado
+
 # víctima → vítima
 ^víctima vítima
 
@@ -4288,6 +5423,9 @@ uir$ uír
 
 # vidrio → vidro
 ^vidrio vidro
+
+# viernes → venres
+^viernes$ venres
 
 # vilancico → panxoliña
 ^vilancico panxoliña
@@ -4313,6 +5451,9 @@ uir$ uír
 ^vinteoito$ vinte_e_oito
 ^vintenove$ vinte_e_nove
 
+# virollo → birollo
+^viroll biroll
+
 # viruela → varíola
 ^viruela varíola
 
@@ -4329,11 +5470,55 @@ uir$ uír
 ^vólqu envórqu
 ^vuelco envorcadura
 
+
+# voltar → volver
+
+^volta volve        # infinitivo
+^voltá volvé        # xerundio
+^vólta vólve        # indicativo/presente/2P-6P
+                    # indicativo/pretérito/4P-6P
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/2P,5P
+                    
+^volta volvi        # participio
+^voltá volví        # indicativo/pretérito/2P
+
+^volt volv          # indicativo/presente/1P
+^vólt vólv
+
+^voltei volvín      # indicativo/pretérito/1P
+^voltei volvin
+^voltéi volvín
+
+^volto volveu       # indicativo/pretérito/3P
+^voltó volvéu
+
+^voltab volví       # indicativo/copretérito
+^voltáb volví
+^voltab volvi
+
+^volte volva        # subxuntivo/presente
+^volté volvá        # imperativo afirmativo/2PR,4P,5PR
+^vólte vólva        # imperativo negativo
+
+
 # volver + infinitivo (non leva a preposición a).
 # LOCUCIÓN
 
 # volvoreta → bolboreta
 ^volvoreta bolboreta
+
+# vorcallás → vorcalladas
+^vorcallás$ vorcalladas
+
+# xabalí → xabaril
+^xabalí$ xabaril
+^xabalís$ xabarís
 
 # xabalina → xavelina
 ^xabalina xavelina
@@ -4347,8 +5532,19 @@ uir$ uír
 # xardiñeiro/a → xardineiro/a
 ^xardiñeir xardineir
 
+# xarrón → floreiro, vaso
+^xarrón floreiro
+^xarrón vaso
+
 # xaula → gaiola
 ^xaula gaiola
+
+# xelar → xear
+^xel xe
+^xél xé
+
+# xemeo → xemelgo
+^xeme xemelg
 
 # xeneral, xeneralmente → xeral, xeralmente mais xeneral (militar) e xeneralizar.
 ^xeneralmente xeralmente
@@ -4360,11 +5556,17 @@ uir$ uír
 # xeneración → xeración
 ^xeneración xeración
 
+# xenra → nora
+^xenra nora
+
 # xeralizar → xeneralizar
 ^xeraliz xeneraliz
 ^xeralic xeneralic
 ^xeralíz xeneralíz
 ^xeralíc xeneralíc
+
+# xóvenes → xoves
+^xóvenes$ xoves
 
 # xudeo → xudeu
 ^xudeo xudeu
@@ -4373,6 +5575,9 @@ uir$ uír
 ^xuicio xuízo
 ^xuício xuízo
 ^xuizo xuízo
+
+# xunio → xuño
+^xunio xuño
 
 # zancadilla → cambadela
 ^zancadilla cambadela
@@ -4397,3 +5602,6 @@ uir$ uír
 
 # zucre → azucre
 ^zucre azucre
+
+# zumo → zume
+^zumo zume
