@@ -13,16 +13,21 @@ defaultCode = u'gl'
 
 Help("""
 Execute:
-    
-    «scons aff=<módulos de regras> dic=<módulos de dicionario> rep=<módulos de substitucións> code=<código de lingua>»
-    
+
+    «scons aff=<módulos de regras> dic=<módulos de vocabulario> rep=<módulos de substitucións> code=<código de lingua>»
+
 Esta orde permite construír o corrector cos módulos indicados para cada unha das categorías (regras de construción de
-palabras, dicionarios de núcleos de palabras e regras de substitución), empregando o código de lingua indicado para o
+palabras, listas de núcleos de palabras e regras de substitución), empregando o código de lingua indicado para o
 nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
     scons dic=volga,unidades
+
+Para incluír submódulos, sepáreos do módulo pai cunha barra inclinada. Por exemplo, para incluír o vocabulario do
+submódulo «toponimia» do módulo «galipedia», use:
+
+    scons dic=galipedia/toponimia
 
 Os valores por omisión son:
 
@@ -42,7 +47,7 @@ Módulos dispoñíbeis:
 
     trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
                     http://trasno.net/content/resultados-das-trasnadas
-            
+
     unidades        Prefixos e sufixos para símbolos de unidades
                     http://en.wikipedia.org/wiki/International_System_of_Units
                     Nota: inclúense prefixos para unidades binarias.
@@ -58,7 +63,7 @@ Módulos dispoñíbeis:
 
     trasno          Acordos terminolóxicos do Proxecto Trasno
                     http://trasno.net/content/resultados-das-trasnadas
-            
+
     unidades        Símbolos de unidades
                     http://en.wikipedia.org/wiki/International_System_of_Units
                     Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
@@ -67,8 +72,8 @@ Módulos dispoñíbeis:
                     Santamarina Fernández, Antón e González González, Manuel (coord.)
                     Real Academia Galega / Instituto da Lingua Galega, 2004.
                     http://www.realacademiagalega.org/volga/
-                    
-                    
+
+
     REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
 
     norma           Regras xerais de substitución
@@ -76,7 +81,8 @@ Módulos dispoñíbeis:
 
     galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
                     http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
-    
+
+
 """.format(aff=defaultAff, dic=defaultDic, rep=defaultRep, code=defaultCode))
 
 
@@ -242,13 +248,36 @@ def getModuleListFromModulesString(modulesString):
     return modules
 
 
-def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
+def getSourceFilesFromFolderAndExtension(folder, extension):
+
     sourceFiles = []
+
+    for dirname, dirnames, filenames in os.walk(folder):
+        for filename in filenames:
+            if filename[-len(extension):] == extension:
+                sourceFiles.append(os.path.join(dirname, filename))
+
+    return sourceFiles
+
+
+def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
+
+    sourceFiles = []
+
     modules = getModuleListFromModulesString(modulesString)
     for module in modules:
-        filepath = os.path.join(module, 'main{extension}'.format(extension=extension))
+
+        # If module is a folder, get all .<extension> files inside.
+        if os.path.isdir(module):
+            for filepath in getSourceFilesFromFolderAndExtension(module, extension):
+                sourceFiles.append(File(filepath))
+
+        # If with .<extension> it is a file, include the file.
+        # Note: if both a <module> folder and a <module>.<extension> file exist, both are added.
+        filepath = '{module}{extension}'.format(module=module, extension=extension)
         if os.path.isfile(filepath):
             sourceFiles.append(File(filepath))
+
     return sourceFiles
 
 
