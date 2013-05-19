@@ -399,7 +399,6 @@ amigábel/12 po:adxectivo
 amigable/10 po:adxectivo
 amiláceo/10,15 po:adxectivo
 amílico/10,15 po:adxectivo
-amistoso/10,15 po:adxectivo
 amniótico/10,15 po:adxectivo
 amoestador/10,14 po:adxectivo
 amoniacal/12 po:adxectivo
@@ -501,7 +500,6 @@ antedito/10,15 po:adxectivo
 antemeridiano/10,15 po:adxectivo
 antenado/10,15 po:adxectivo
 antepenúltimo/10,15 po:adxectivo
-antergo/10,15 po:adxectivo
 anterior/10 po:adxectivo
 anteroexterior/10 po:adxectivo
 anteroinferior/10 po:adxectivo
@@ -2000,7 +1998,6 @@ cortable/10 po:adxectivo
 cortante/10 po:adxectivo
 cortés/10 po:adxectivo
 cortical/12 po:adxectivo
-corto/10,15 po:adxectivo
 coruscante/10 po:adxectivo
 cósmico/10,15 po:adxectivo
 cosmogónico/10,15 po:adxectivo
@@ -2207,7 +2204,6 @@ delicado/10,15 po:adxectivo
 delicioso/10,15 po:adxectivo
 delicuescente/10 po:adxectivo
 delirante/10 po:adxectivo
-delitivo/10,15 po:adxectivo
 delituoso/10,15 po:adxectivo
 deltaico/10,15 po:adxectivo
 delusorio/10,15 po:adxectivo
@@ -2253,8 +2249,6 @@ dereito/10,15 po:adxectivo
 derivante/10 po:adxectivo
 derivativo/10,15 po:adxectivo
 dérmico/10,15 po:adxectivo
-derogador/10,14 po:adxectivo
-derogatorio/10,15 po:adxectivo
 derradeiro/10,15 po:adxectivo
 derrogador/10,14 po:adxectivo
 derrogatorio/10,15 po:adxectivo
@@ -2363,7 +2357,6 @@ descritivo/10,15 po:adxectivo
 descualificador/10,14 po:adxectivo
 desculpábel/12 po:adxectivo
 desculpable/10 po:adxectivo
-desdeixado/10,15 po:adxectivo
 desdeñoso/10,15 po:adxectivo
 desdentado/10,15 po:adxectivo
 desdobrábel/12 po:adxectivo
@@ -2457,7 +2450,6 @@ despachado/10,15 po:adxectivo
 despachante/10 po:adxectivo
 desparello/10,15 po:adxectivo
 despectivo/10,15 po:adxectivo
-desperto/10,15 po:adxectivo
 despótico/10,15 po:adxectivo
 desprecavido/10,15 po:adxectivo
 desprendido/10,15 po:adxectivo
@@ -2889,7 +2881,6 @@ enolóxico/10,15 po:adxectivo
 enorme/10 po:adxectivo
 enredante/10 po:adxectivo
 enredoso/10,15 po:adxectivo
-enrevesado/10,15 po:adxectivo
 enriquecedor/10,14 po:adxectivo
 ensaístico/10,15 po:adxectivo
 ensiforme/10 po:adxectivo
@@ -3079,7 +3070,6 @@ esperto/10,15 po:adxectivo
 espeso/10,15 po:adxectivo
 espiciforme/10 po:adxectivo
 espigarzo/10,15 po:adxectivo
-espinal/12 po:adxectivo
 espiñal/12 po:adxectivo
 espiñento/10,15 po:adxectivo
 espiñoso/10,15 po:adxectivo
@@ -3115,7 +3105,6 @@ estábel/12 po:adxectivo
 estable/10 po:adxectivo
 estacional/12 po:adxectivo
 estacionario/10,15 po:adxectivo
-estadístico/10,15 po:adxectivo
 estamental/12 po:adxectivo
 estaminal/12 po:adxectivo
 estaminífero/10,15 po:adxectivo
@@ -3412,7 +3401,6 @@ fasciculado/10,15 po:adxectivo
 fascinante/10 po:adxectivo
 fastixiado/10,15 po:adxectivo
 fastoso/10,15 po:adxectivo
-fastuoso/10,15 po:adxectivo
 fatal/12 po:adxectivo
 fatídico/10,15 po:adxectivo
 fatigante/10 po:adxectivo
@@ -3525,7 +3513,6 @@ fistular/10 po:adxectivo
 fistuloso/10,15 po:adxectivo
 fitófago/10,15 po:adxectivo
 fiucego/10,15 po:adxectivo
-fiuncego/10,15 po:adxectivo
 fixativo/10,15 po:adxectivo
 fixo/10,15 po:adxectivo
 flabelado/10,15 po:adxectivo
@@ -3723,7 +3710,6 @@ galopante/10 po:adxectivo
 galudo/10,15 po:adxectivo
 galvánico/10,15 po:adxectivo
 galvanoplástico/10,15 po:adxectivo
-gamado/10,15 po:adxectivo
 gammado/10,15 po:adxectivo
 gamopétalo/10,15 po:adxectivo
 gamosépalo/10,15 po:adxectivo
@@ -3741,12 +3727,10 @@ garatuxeiro/10,15 po:adxectivo
 garboso/10,15 po:adxectivo
 garceiro/10,15 po:adxectivo
 garelo/10,15 po:adxectivo
-garimoso/10,15 po:adxectivo
 garouto/10,15 po:adxectivo
 garrucho/10,15 po:adxectivo
 garuleiro/10,15 po:adxectivo
 garzo/10,15 po:adxectivo
-gaseoso/10,15 po:adxectivo
 gasiforme/10 po:adxectivo
 gasoso/10,15 po:adxectivo
 gaspalloso/10,15 po:adxectivo
@@ -3804,7 +3788,6 @@ gorlón/10,16 po:adxectivo
 goro/10,15 po:adxectivo
 gorolo/10,15 po:adxectivo
 gorón/10,16 po:adxectivo
-gostoso/10,15 po:adxectivo
 gotoso/10,15 po:adxectivo
 gozoso/10,15 po:adxectivo
 graciábel/12 po:adxectivo
@@ -4703,7 +4686,6 @@ inmanexábel/12 po:adxectivo
 inmanexable/10 po:adxectivo
 inmarcescíbel/12 po:adxectivo
 inmarcescible/10 po:adxectivo
-inmarcesible/10 po:adxectivo
 inmaterial/12 po:adxectivo
 inmaturo/10,15 po:adxectivo
 inmediato/10,15 po:adxectivo
@@ -5570,7 +5552,6 @@ meduloso/10,15 po:adxectivo
 mefistotélico/10,15 po:adxectivo
 mefítico/10,15 po:adxectivo
 megalítico/10,15 po:adxectivo
-meimiño/10,15 po:adxectivo
 meiótico/10,15 po:adxectivo
 meirande/10 po:adxectivo
 meiriño/10,15 po:adxectivo
@@ -6872,7 +6853,6 @@ procedente/10 po:adxectivo
 proceloso/10,15 po:adxectivo
 procesábel/12 po:adxectivo
 procesable/10 po:adxectivo
-procesal/12 po:adxectivo
 procesional/12 po:adxectivo
 procesual/12 po:adxectivo
 proclítico/10,15 po:adxectivo
@@ -7170,7 +7150,6 @@ redivivo/10,15 po:adxectivo
 redondal/12 po:adxectivo
 reducíbel/12 po:adxectivo
 reducible/10 po:adxectivo
-reducionista/10 po:adxectivo
 redundante/10 po:adxectivo
 reduplicativo/10,15 po:adxectivo
 redutíbel/12 po:adxectivo
@@ -7238,7 +7217,6 @@ remunerativo/10,15 po:adxectivo
 remuneratorio/10,15 po:adxectivo
 renacente/10 po:adxectivo
 renal/12 po:adxectivo
-renco/10,15 po:adxectivo
 rendíbel/12 po:adxectivo
 rendible/10 po:adxectivo
 rengo/10,15 po:adxectivo
@@ -7535,7 +7513,6 @@ saturable/10 po:adxectivo
 saturnino/10,15 po:adxectivo
 saudábel/12 po:adxectivo
 saudable/10 po:adxectivo
-saudoso/10,15 po:adxectivo
 saxátil/10 po:adxectivo
 saxícola/10 po:adxectivo
 saxitado/10,15 po:adxectivo
@@ -8581,7 +8558,6 @@ xacobeo/10,15 po:adxectivo
 xacobino/10,15 po:adxectivo
 xactancioso/10,15 po:adxectivo
 xafético/10,15 po:adxectivo
-xagaz/10 po:adxectivo
 xaneirento/10,15 po:adxectivo
 xarado/10,15 po:adxectivo
 xardesco/10,15 po:adxectivo
@@ -8698,7 +8674,6 @@ zoófilo/10,15 po:adxectivo
 zoófobo/10,15 po:adxectivo
 zoomorfo/10,15 po:adxectivo
 zootécnico/10,15 po:adxectivo
-zopo/10,15 po:adxectivo
 zoroño/10,15 po:adxectivo
 zorro/10,15 po:adxectivo
 zoupeiro/10,15 po:adxectivo
@@ -8916,7 +8891,6 @@ céntuplo/10,15 po:adxectivo / substantivo masculino
 cereal/12 po:adxectivo / substantivo masculino
 cerimonial/12 po:adxectivo / substantivo masculino
 chan/10,17 po:adxectivo / substantivo masculino
-chao/10,16 po:adxectivo / substantivo masculino
 chaparro/10,15 po:adxectivo / substantivo masculino
 chato/10,15 po:adxectivo / substantivo masculino
 cicatrizante/10 po:adxectivo / substantivo masculino
@@ -8991,7 +8965,6 @@ desatoador/10,14 po:adxectivo / substantivo masculino
 descontento/10,15 po:adxectivo / substantivo masculino
 deserto/10,15 po:adxectivo / substantivo masculino
 desinfectante/10 po:adxectivo / substantivo masculino
-despertador/10,14 po:adxectivo / substantivo masculino
 despoboado/10 po:adxectivo / substantivo masculino
 despolarizador/10,14 po:adxectivo / substantivo masculino
 destrutor/10,14 po:adxectivo / substantivo masculino
@@ -9327,7 +9300,6 @@ patronímico/10,15 po:adxectivo / substantivo masculino
 pectoral/12 po:adxectivo / substantivo masculino
 penal/12 po:adxectivo / substantivo masculino
 penitencial/12 po:adxectivo / substantivo masculino
-penitenciario/10,15 po:adxectivo / substantivo masculino
 pénsil/10 po:adxectivo / substantivo masculino
 pentasílabo/10,15 po:adxectivo / substantivo masculino
 perceptor/10,14 po:adxectivo / substantivo masculino
@@ -9688,7 +9660,6 @@ afectado/10,15 po:adxectivo / substantivo
 afgán/10,15 po:adxectivo / substantivo
 afiador/10,14 po:adxectivo / substantivo
 afianzador/10,14 po:adxectivo / substantivo
-aficionado/10,15 po:adxectivo / substantivo
 afidalgado/10,15 po:adxectivo / substantivo
 afín/10 po:adxectivo / substantivo
 afinador/10,14 po:adxectivo / substantivo
@@ -9712,7 +9683,6 @@ alamano/10,15 po:adxectivo / substantivo
 alano/10,15 po:adxectivo / substantivo
 alardeador/10,14 po:adxectivo / substantivo
 alarmista/10 po:adxectivo / substantivo
-alavés/10,15 po:adxectivo / substantivo
 albaceteño/10,15 po:adxectivo / substantivo
 albanés/10,15 po:adxectivo / substantivo
 albino/10,15 po:adxectivo / substantivo
@@ -9732,7 +9702,6 @@ alfandegueiro/10,15 po:adxectivo / substantivo
 algareón/10,16 po:adxectivo / substantivo
 algarvío/10,15 po:adxectivo / substantivo
 algodoeiro/10,15 po:adxectivo / substantivo
-alicantino/10,15 po:adxectivo / substantivo
 alienador/10,14 po:adxectivo / substantivo
 alimentador/10,14 po:adxectivo / substantivo
 alindador/10,14 po:adxectivo / substantivo
@@ -10550,7 +10519,6 @@ emisor/10,14 po:adxectivo / substantivo
 empordanés/10,15 po:adxectivo / substantivo
 emprendedor/10,14 po:adxectivo / substantivo
 emulador/10,14 po:adxectivo / substantivo
-enamorado/10,15 po:adxectivo / substantivo
 encadernador/10,14 po:adxectivo / substantivo
 encantador/10,14 po:adxectivo / substantivo
 encerador/10,14 po:adxectivo / substantivo
@@ -10683,7 +10651,6 @@ farfantón/10,16 po:adxectivo / substantivo
 fargallón/10,16 po:adxectivo / substantivo
 farmacéutico/10,15 po:adxectivo / substantivo
 farrapeiro/10,15 po:adxectivo / substantivo
-farroupeiro/10,15 po:adxectivo / substantivo
 farsante/10 po:adxectivo / substantivo
 fascinador/10,14 po:adxectivo / substantivo
 fascista/10 po:adxectivo / substantivo
@@ -10966,7 +10933,6 @@ indíxena/10 po:adxectivo / substantivo
 indixenista/10 po:adxectivo / substantivo
 indixente/10 po:adxectivo / substantivo
 indochinés/10,15 po:adxectivo / substantivo
-indochino/10,15 po:adxectivo / substantivo
 indoeuropeo/10,15 po:adxectivo / substantivo
 indonesio/10,15 po:adxectivo / substantivo
 inepto/10,15 po:adxectivo / substantivo
@@ -11159,7 +11125,6 @@ lituano/10,15 po:adxectivo / substantivo
 loador/10,14 po:adxectivo / substantivo
 localista/10 po:adxectivo / substantivo
 logroñés/10,15 po:adxectivo / substantivo
-loiro/10,15 po:adxectivo / substantivo
 loitador/10,14 po:adxectivo / substantivo
 lombardo/10,15 po:adxectivo / substantivo
 londiniense/10 po:adxectivo / substantivo
@@ -11242,7 +11207,6 @@ manobreiro/10,15 po:adxectivo / substantivo
 mañoso/10,15 po:adxectivo / substantivo
 mantedor/10,14 po:adxectivo / substantivo
 manteigueiro/10,15 po:adxectivo / substantivo
-mantenedor/10,14 po:adxectivo / substantivo
 mantuano/10,15 po:adxectivo / substantivo
 maoísta/10 po:adxectivo / substantivo
 maonés/10,15 po:adxectivo / substantivo
@@ -12242,7 +12206,6 @@ turdetano/10,15 po:adxectivo / substantivo
 túrdulo/10,15 po:adxectivo / substantivo
 turinés/10,15 po:adxectivo / substantivo
 turinxio/10,15 po:adxectivo / substantivo
-turkmeno/10,15 po:adxectivo / substantivo
 turolense/10 po:adxectivo / substantivo
 turonés/10,15 po:adxectivo / substantivo
 turrón/10,16 po:adxectivo / substantivo
@@ -12388,7 +12351,6 @@ xonio/10,15 po:adxectivo / substantivo
 xordano/10,15 po:adxectivo / substantivo
 xordo/10,15 po:adxectivo / substantivo
 xordomudo/10,15 po:adxectivo / substantivo
-xove/10 po:adxectivo / substantivo
 xudaico/10,15 po:adxectivo / substantivo
 xudeu/10,17 po:adxectivo / substantivo
 xuliano/10,15 po:adxectivo / substantivo
@@ -12405,7 +12367,6 @@ zarabeto/10,15 po:adxectivo / substantivo
 zaragozano/10,15 po:adxectivo / substantivo
 zarangalleiro/10,15 po:adxectivo / substantivo
 zarapalleiro/10,15 po:adxectivo / substantivo
-zarapeto/10,15 po:adxectivo / substantivo
 zarzallo/10,15 po:adxectivo / substantivo
 zazamelo/10,15 po:adxectivo / substantivo
 zoupón/10,16 po:adxectivo / substantivo
@@ -12612,7 +12573,6 @@ afanosamente po:adverbio
 afectadamente po:adverbio
 afectivamente po:adverbio
 afectuosamente po:adverbio
-afeminadamente po:adverbio
 afervoadamente po:adverbio
 afinadamente po:adverbio
 afirmativamente po:adverbio
@@ -12659,7 +12619,6 @@ ambiguamente po:adverbio
 ameazadoramente po:adverbio
 amigabelmente po:adverbio
 amigablemente po:adverbio
-amistosamente po:adverbio
 amodo po:adverbio
 amorosamente po:adverbio
 amplamente po:adverbio
@@ -12978,7 +12937,6 @@ curiosamente po:adverbio
 custosamente po:adverbio
 dabondo po:adverbio
 danosamente po:adverbio
-darredor po:adverbio
 debaixo po:adverbio
 debidamente po:adverbio
 debilmente po:adverbio
@@ -12991,7 +12949,6 @@ decontino po:adverbio
 decorosamente po:adverbio
 decote po:adverbio
 decotío po:adverbio
-dediante po:adverbio
 defectuosamente po:adverbio
 deficientemente po:adverbio
 deficitariamente po:adverbio
@@ -13041,7 +12998,6 @@ desconsideradamente po:adverbio
 descortesmente po:adverbio
 descritivamente po:adverbio
 descubertamente po:adverbio
-desdeixadamente po:adverbio
 deseguida po:adverbio
 deseguido po:adverbio
 desembarazadamente po:adverbio
@@ -13368,7 +13324,6 @@ garbosamente po:adverbio
 garridamente po:adverbio
 globalmente po:adverbio
 gloriosamente po:adverbio
-gostosamente po:adverbio
 gozosamente po:adverbio
 gracilmente po:adverbio
 graciosamente po:adverbio
@@ -13466,7 +13421,6 @@ inadecuadamente po:adverbio
 inadvertidamente po:adverbio
 inalterabelmente po:adverbio
 inalterablemente po:adverbio
-inantes po:adverbio
 iñantes po:adverbio
 inapelabelmente po:adverbio
 inapelablemente po:adverbio
@@ -13832,13 +13786,11 @@ morfoloxicamente po:adverbio
 morganaticamente po:adverbio
 mormente po:adverbio
 mortalmente po:adverbio
-muito po:adverbio
 mundanamente po:adverbio
 mundialmente po:adverbio
 musicalmente po:adverbio
 mutuamente po:adverbio
 namoradamente po:adverbio
-nantronte po:adverbio
 naturalmente po:adverbio
 necesariamente po:adverbio
 negativamente po:adverbio
@@ -13854,7 +13806,6 @@ normalmente po:adverbio
 notabelmente po:adverbio
 notablemente po:adverbio
 notoriamente po:adverbio
-noutronte po:adverbio
 noutrora po:adverbio
 novamente po:adverbio
 nuamente po:adverbio
@@ -14464,8 +14415,6 @@ nun/10,17 po:contracción
 ós po:contracción
 pola/10 po:contracción
 polo/10 po:contracción
-prá/10 po:contracción
-pró/10 po:contracción
 tódolos/17 po:contracción
 tralo/10,15 po:contracción
 u-lo/10,15 po:contracción
@@ -14576,7 +14525,6 @@ acomodación/10 po:substantivo feminino
 aconitina/10 po:substantivo feminino
 acordanza/10 po:substantivo feminino
 acracia/10 po:substantivo feminino
-acreditación/10 po:substantivo feminino
 acridade/10 po:substantivo feminino
 acrimonia/10 po:substantivo feminino
 acritude/10 po:substantivo feminino
@@ -14714,7 +14662,6 @@ agrimonia/10 po:substantivo feminino
 agronomía/10 po:substantivo feminino
 agrupación/10 po:substantivo feminino
 agrura/10 po:substantivo feminino
-agua/10 po:substantivo feminino
 agudeza/10 po:substantivo feminino
 aguia/10 po:substantivo feminino
 aguillada/10 po:substantivo feminino
@@ -14908,7 +14855,6 @@ amasadela/10 po:substantivo feminino
 amasadora/10 po:substantivo feminino
 amasadura/10 po:substantivo feminino
 amata/10 po:substantivo feminino
-amatista/10 po:substantivo feminino
 amaurose/10 po:substantivo feminino
 amazona/10 po:substantivo feminino
 amazonita/10 po:substantivo feminino
@@ -14945,7 +14891,6 @@ amigdalite/10 po:substantivo feminino
 amigdalotomía/10 po:substantivo feminino
 amilase/10 po:substantivo feminino
 amina/10 po:substantivo feminino
-amistade/10 po:substantivo feminino
 amizade/10 po:substantivo feminino
 amnesia/10 po:substantivo feminino
 amnistía/10 po:substantivo feminino
@@ -15279,10 +15224,8 @@ arracada/10 po:substantivo feminino
 arranca/10 po:substantivo feminino
 arrancada/10 po:substantivo feminino
 arrancadeira/10 po:substantivo feminino
-arrautada/10 po:substantivo feminino
 arremetida/10 po:substantivo feminino
 arrenda/10 po:substantivo feminino
-arreutada/10 po:substantivo feminino
 arribada/10 po:substantivo feminino
 arribazón/10 po:substantivo feminino
 arriga/10 po:substantivo feminino
@@ -15450,7 +15393,6 @@ autoinmunización/10 po:substantivo feminino
 autointoxicación/10 po:substantivo feminino
 autolatría/10 po:substantivo feminino
 autólise/10 po:substantivo feminino
-automación/10 po:substantivo feminino
 automatización/10 po:substantivo feminino
 automedicación/10 po:substantivo feminino
 automutilación/10 po:substantivo feminino
@@ -15842,7 +15784,6 @@ bisarma/10 po:substantivo feminino
 bisbarra/10 po:substantivo feminino
 bisección/10 po:substantivo feminino
 bisexualidade/10 po:substantivo feminino
-bisma/10 po:substantivo feminino
 bita/10 po:substantivo feminino
 bitácora/10 po:substantivo feminino
 bitola/10 po:substantivo feminino
@@ -15878,7 +15819,6 @@ boeta/10 po:substantivo feminino
 boga/10 po:substantivo feminino
 bogada/10 po:substantivo feminino
 bogueira/10 po:substantivo feminino
-boguina/10 po:substantivo feminino
 boia/10 po:substantivo feminino
 boiada/10 po:substantivo feminino
 boina/10 po:substantivo feminino
@@ -15893,7 +15833,6 @@ bolsa/10 po:substantivo feminino
 bolsada/10 po:substantivo feminino
 bomba/10 po:substantivo feminino
 bombarda/10 po:substantivo feminino
-bombilla/10 po:substantivo feminino
 bombona/10 po:substantivo feminino
 bonanza/10 po:substantivo feminino
 bondade/10 po:substantivo feminino
@@ -15904,7 +15843,6 @@ bonitura/10 po:substantivo feminino
 boqueada/10 po:substantivo feminino
 boqueira/10 po:substantivo feminino
 boquela/10 po:substantivo feminino
-boquilla/10 po:substantivo feminino
 borba/10 po:substantivo feminino
 borda/10 po:substantivo feminino
 bordada/10 po:substantivo feminino
@@ -15979,7 +15917,6 @@ breca/10 po:substantivo feminino
 brecha/10 po:substantivo feminino
 breixeira/10 po:substantivo feminino
 breña/10 po:substantivo feminino
-brenga/10 po:substantivo feminino
 brenza/10 po:substantivo feminino
 brétema/10 po:substantivo feminino
 brevidade/10 po:substantivo feminino
@@ -16285,7 +16222,6 @@ camposa/10 po:substantivo feminino
 camuflaxe/10 po:substantivo feminino
 cana/10 po:substantivo feminino
 canada/10 po:substantivo feminino
-cañada/10 po:substantivo feminino
 canafrecha/10 po:substantivo feminino
 canalización/10 po:substantivo feminino
 canallada/10 po:substantivo feminino
@@ -16298,7 +16234,6 @@ canceira/10 po:substantivo feminino
 cancela/10 po:substantivo feminino
 cancelación/10 po:substantivo feminino
 canceleira/10 po:substantivo feminino
-cancha/10 po:substantivo feminino
 canción/10 po:substantivo feminino
 candea/10 po:substantivo feminino
 candela/10 po:substantivo feminino
@@ -16330,7 +16265,6 @@ canilonga/10 po:substantivo feminino
 caninea/10 po:substantivo feminino
 canivela/10 po:substantivo feminino
 caniza/10 po:substantivo feminino
-cañiza/10 po:substantivo feminino
 canizada/10 po:substantivo feminino
 canle/10 po:substantivo feminino
 canlea/10 po:substantivo feminino
@@ -16438,8 +16372,6 @@ carda/10 po:substantivo feminino
 cardada/10 po:substantivo feminino
 cardadura/10 po:substantivo feminino
 cardamina/10 po:substantivo feminino
-cardea/10 po:substantivo feminino
-cardén/10 po:substantivo feminino
 cardeña/10 po:substantivo feminino
 cardialxia/10 po:substantivo feminino
 cardiñeira/10 po:substantivo feminino
@@ -16483,7 +16415,6 @@ caroca/10 po:substantivo feminino
 carocha/10 po:substantivo feminino
 carola/10 po:substantivo feminino
 caroleira/10 po:substantivo feminino
-carótida/10 po:substantivo feminino
 carótide/10 po:substantivo feminino
 carotina/10 po:substantivo feminino
 caroza/10 po:substantivo feminino
@@ -16738,7 +16669,6 @@ cerceta/10 po:substantivo feminino
 cerdeira/10 po:substantivo feminino
 cerebralidade/10 po:substantivo feminino
 cereixa/10 po:substantivo feminino
-cereixeira/10 po:substantivo feminino
 cerellada/10 po:substantivo feminino
 cerería/10 po:substantivo feminino
 cerimonia/10 po:substantivo feminino
@@ -16800,7 +16730,6 @@ chamariza/10 po:substantivo feminino
 chambonada/10 po:substantivo feminino
 chambra/10 po:substantivo feminino
 chamiceira/10 po:substantivo feminino
-chaminea/10 po:substantivo feminino
 chamiza/10 po:substantivo feminino
 champada/10 po:substantivo feminino
 champola/10 po:substantivo feminino
@@ -16835,7 +16764,6 @@ chapeletada/10 po:substantivo feminino
 chapeta/10 po:substantivo feminino
 chapiza/10 po:substantivo feminino
 chapodadura/10 po:substantivo feminino
-chapra/10 po:substantivo feminino
 chapuza/10 po:substantivo feminino
 chapuzadura/10 po:substantivo feminino
 chaqueta/10 po:substantivo feminino
@@ -16857,14 +16785,12 @@ charra/10 po:substantivo feminino
 charrela/10 po:substantivo feminino
 charrúa/10 po:substantivo feminino
 chasca/10 po:substantivo feminino
-chata/10 po:substantivo feminino
 chatarra/10 po:substantivo feminino
 chatola/10 po:substantivo feminino
 chave/10 po:substantivo feminino
 chavella/10 po:substantivo feminino
 chavelleira/10 po:substantivo feminino
 chaveta/10 po:substantivo feminino
-chavilla/10 po:substantivo feminino
 chaza/10 po:substantivo feminino
 chea/10 po:substantivo feminino
 cheda/10 po:substantivo feminino
@@ -16935,7 +16861,6 @@ chupada/10 po:substantivo feminino
 chupadeira/10 po:substantivo feminino
 chupadela/10 po:substantivo feminino
 chupeta/10 po:substantivo feminino
-churida/10 po:substantivo feminino
 churrascaría/10 po:substantivo feminino
 churrasquería/10 po:substantivo feminino
 churruscada/10 po:substantivo feminino
@@ -16967,7 +16892,6 @@ cidreira/10 po:substantivo feminino
 ciencia/10 po:substantivo feminino
 cifose/10 po:substantivo feminino
 cifra/10 po:substantivo feminino
-cigala/10 po:substantivo feminino
 cigalla/10 po:substantivo feminino
 cigallada/10 po:substantivo feminino
 cigarra/10 po:substantivo feminino
@@ -17015,8 +16939,6 @@ circunspección/10 po:substantivo feminino
 circunstancia/10 po:substantivo feminino
 circunvalación/10 po:substantivo feminino
 circunvolución/10 po:substantivo feminino
-ciridoña/10 po:substantivo feminino
-ciridonia/10 po:substantivo feminino
 cirola/10 po:substantivo feminino
 ciroleira/10 po:substantivo feminino
 cirrose/10 po:substantivo feminino
@@ -17138,8 +17060,6 @@ codeseira/10 po:substantivo feminino
 codia/10 po:substantivo feminino
 codificación/10 po:substantivo feminino
 codobela/10 po:substantivo feminino
-codorna/10 po:substantivo feminino
-codorniz/10 po:substantivo feminino
 coedición/10 po:substantivo feminino
 coeducación/10 po:substantivo feminino
 coella/10 po:substantivo feminino
@@ -17155,7 +17075,6 @@ cofia/10 po:substantivo feminino
 cognación/10 po:substantivo feminino
 cognición/10 po:substantivo feminino
 cogorda/10 po:substantivo feminino
-cogula/10 po:substantivo feminino
 cohabitación/10 po:substantivo feminino
 coherencia/10 po:substantivo feminino
 cohesión/10 po:substantivo feminino
@@ -17257,7 +17176,6 @@ comisura/10 po:substantivo feminino
 comitiva/10 po:substantivo feminino
 cómoda/10 po:substantivo feminino
 comodidade/10 po:substantivo feminino
-compacidade/10 po:substantivo feminino
 compactidade/10 po:substantivo feminino
 compaixón/10 po:substantivo feminino
 compaña/10 po:substantivo feminino
@@ -17400,10 +17318,8 @@ conmoción/10 po:substantivo feminino
 conmutabilidade/10 po:substantivo feminino
 conmutación/10 po:substantivo feminino
 conmutatriz/10 po:substantivo feminino
-connivencia/10 po:substantivo feminino
 connotación/10 po:substantivo feminino
 conquista/10 po:substantivo feminino
-conrobra/10 po:substantivo feminino
 consagración/10 po:substantivo feminino
 consanguinidade/10 po:substantivo feminino
 consciencia/10 po:substantivo feminino
@@ -17778,7 +17694,6 @@ cuadricromía/10 po:substantivo feminino
 cuadrícula/10 po:substantivo feminino
 cuadriga/10 po:substantivo feminino
 cuadrilla/10 po:substantivo feminino
-cualidade/10 po:substantivo feminino
 cualificación/10 po:substantivo feminino
 cuantificación/10 po:substantivo feminino
 cuarcita/10 po:substantivo feminino
@@ -17801,7 +17716,6 @@ cuestión/10 po:substantivo feminino
 cugula/10 po:substantivo feminino
 culata/10 po:substantivo feminino
 culinaria/10 po:substantivo feminino
-cullar/10 po:substantivo feminino
 culler/10 po:substantivo feminino
 cullerada/10 po:substantivo feminino
 culleriña/10 po:substantivo feminino
@@ -17845,7 +17759,6 @@ custodia/10 po:substantivo feminino
 cute/10 po:substantivo feminino
 cutícula/10 po:substantivo feminino
 cutina/10 po:substantivo feminino
-cuxa/10 po:substantivo feminino
 cuza/10 po:substantivo feminino
 dación/10 po:substantivo feminino
 dacriocistite/10 po:substantivo feminino
@@ -17966,7 +17879,6 @@ demouca/10 po:substantivo feminino
 dendrita/10 po:substantivo feminino
 denegación/10 po:substantivo feminino
 denigración/10 po:substantivo feminino
-denociña/10 po:substantivo feminino
 denoiteira/10 po:substantivo feminino
 denominación/10 po:substantivo feminino
 denotación/10 po:substantivo feminino
@@ -18002,7 +17914,6 @@ dermatite/10 po:substantivo feminino
 dermatoloxía/10 po:substantivo feminino
 dermatose/10 po:substantivo feminino
 derme/10 po:substantivo feminino
-derogación/10 po:substantivo feminino
 derrama/10 po:substantivo feminino
 derrapaxe/10 po:substantivo feminino
 derreadura/10 po:substantivo feminino
@@ -18039,11 +17950,8 @@ descastelanización/10 po:substantivo feminino
 descendencia/10 po:substantivo feminino
 descentralización/10 po:substantivo feminino
 descerebración/10 po:substantivo feminino
-descocadura/10 po:substantivo feminino
 descolonización/10 po:substantivo feminino
-descomenencia/10 po:substantivo feminino
 descompensación/10 po:substantivo feminino
-descompoñedura/10 po:substantivo feminino
 descomposición/10 po:substantivo feminino
 descompostura/10 po:substantivo feminino
 descompresión/10 po:substantivo feminino
@@ -18351,7 +18259,6 @@ dixitación/10 po:substantivo feminino
 dixitalina/10 po:substantivo feminino
 doa/10 po:substantivo feminino
 doazón/10 po:substantivo feminino
-dobadoira/10 po:substantivo feminino
 dobra/10 po:substantivo feminino
 dobradura/10 po:substantivo feminino
 dobraxe/10 po:substantivo feminino
@@ -18546,7 +18453,6 @@ empatía/10 po:substantivo feminino
 empavesada/10 po:substantivo feminino
 empedrada/10 po:substantivo feminino
 empeña/10 po:substantivo feminino
-empencha/10 po:substantivo feminino
 emperatriz/10 po:substantivo feminino
 empilladoira/10 po:substantivo feminino
 empincha/10 po:substantivo feminino
@@ -18616,7 +18522,6 @@ enfiteuse/10 po:substantivo feminino
 enfociñadura/10 po:substantivo feminino
 enforcadura/10 po:substantivo feminino
 engadalla/10 po:substantivo feminino
-éngoa/10 po:substantivo feminino
 engomadura/10 po:substantivo feminino
 engorda/10 po:substantivo feminino
 engra/10 po:substantivo feminino
@@ -18823,7 +18728,6 @@ escordadura/10 po:substantivo feminino
 escorredura/10 po:substantivo feminino
 escorregada/10 po:substantivo feminino
 escota/10 po:substantivo feminino
-escotilla/10 po:substantivo feminino
 escoura/10 po:substantivo feminino
 escrava/10 po:substantivo feminino
 escravitude/10 po:substantivo feminino
@@ -18957,7 +18861,6 @@ estación/10 po:substantivo feminino
 estada/10 po:substantivo feminino
 estadea/10 po:substantivo feminino
 estadía/10 po:substantivo feminino
-estadística/10 po:substantivo feminino
 estafa/10 po:substantivo feminino
 estafeta/10 po:substantivo feminino
 estalactita/10 po:substantivo feminino
@@ -19127,7 +19030,6 @@ exclaustración/10 po:substantivo feminino
 exclusión/10 po:substantivo feminino
 exclusiva/10 po:substantivo feminino
 exclusividade/10 po:substantivo feminino
-excomunión/10 po:substantivo feminino
 excomuñón/10 po:substantivo feminino
 excrecencia/10 po:substantivo feminino
 excreción/10 po:substantivo feminino
@@ -19267,7 +19169,6 @@ falopa/10 po:substantivo feminino
 falsidade/10 po:substantivo feminino
 falsificación/10 po:substantivo feminino
 falta/10 po:substantivo feminino
-faltriqueira/10 po:substantivo feminino
 fama/10 po:substantivo feminino
 fame/10 po:substantivo feminino
 familia/10 po:substantivo feminino
@@ -19316,9 +19217,7 @@ fastosidade/10 po:substantivo feminino
 fatalidade/10 po:substantivo feminino
 fatiga/10 po:substantivo feminino
 fatuidade/10 po:substantivo feminino
-faúla/10 po:substantivo feminino
 fauna/10 po:substantivo feminino
-fava/10 po:substantivo feminino
 fazada/10 po:substantivo feminino
 fazaña/10 po:substantivo feminino
 fazula/10 po:substantivo feminino
@@ -19371,7 +19270,6 @@ ferradura/10 po:substantivo feminino
 ferraia/10 po:substantivo feminino
 ferralla/10 po:substantivo feminino
 ferramenta/10 po:substantivo feminino
-ferrán/10 po:substantivo feminino
 ferraña/10 po:substantivo feminino
 ferraría/10 po:substantivo feminino
 ferraxaría/10 po:substantivo feminino
@@ -19379,11 +19277,8 @@ ferraxe/10 po:substantivo feminino
 ferraxería/10 po:substantivo feminino
 ferrería/10 po:substantivo feminino
 ferretada/10 po:substantivo feminino
-ferretaría/10 po:substantivo feminino
-ferretería/10 po:substantivo feminino
 ferrita/10 po:substantivo feminino
 ferroada/10 po:substantivo feminino
-ferroia/10 po:substantivo feminino
 ferrotipia/10 po:substantivo feminino
 ferrovía/10 po:substantivo feminino
 ferrusca/10 po:substantivo feminino
@@ -19402,7 +19297,6 @@ fía/10 po:substantivo feminino
 fiabilidade/10 po:substantivo feminino
 fiada/10 po:substantivo feminino
 fiadeira/10 po:substantivo feminino
-fiala/10 po:substantivo feminino
 fiandeira/10 po:substantivo feminino
 fianza/10 po:substantivo feminino
 fiaxe/10 po:substantivo feminino
@@ -19466,7 +19360,6 @@ fineza/10 po:substantivo feminino
 finta/10 po:substantivo feminino
 finura/10 po:substantivo feminino
 finxideira/10 po:substantivo feminino
-fírgoa/10 po:substantivo feminino
 firma/10 po:substantivo feminino
 firmeza/10 po:substantivo feminino
 fiscalía/10 po:substantivo feminino
@@ -19569,7 +19462,6 @@ folla/10 po:substantivo feminino
 follada/10 po:substantivo feminino
 follaxe/10 po:substantivo feminino
 folosa/10 po:substantivo feminino
-folosiña/10 po:substantivo feminino
 fonación/10 po:substantivo feminino
 fonda/10 po:substantivo feminino
 fondeira/10 po:substantivo feminino
@@ -19685,7 +19577,6 @@ fraude/10 po:substantivo feminino
 frauta/10 po:substantivo feminino
 fraxilidade/10 po:substantivo feminino
 freada/10 po:substantivo feminino
-freba/10 po:substantivo feminino
 frecha/10 po:substantivo feminino
 frecuencia/10 po:substantivo feminino
 frega/10 po:substantivo feminino
@@ -19730,7 +19621,6 @@ fronteira/10 po:substantivo feminino
 fronza/10 po:substantivo feminino
 frota/10 po:substantivo feminino
 frouma/10 po:substantivo feminino
-frousada/10 po:substantivo feminino
 frouxidade/10 po:substantivo feminino
 frugalidade/10 po:substantivo feminino
 fruición/10 po:substantivo feminino
@@ -19800,7 +19690,6 @@ gacela/10 po:substantivo feminino
 gaceta/10 po:substantivo feminino
 gadaña/10 po:substantivo feminino
 gadañada/10 po:substantivo feminino
-gadella/10 po:substantivo feminino
 gadoupa/10 po:substantivo feminino
 gadoupada/10 po:substantivo feminino
 gaduñada/10 po:substantivo feminino
@@ -19820,7 +19709,6 @@ galaxa/10 po:substantivo feminino
 galaxia/10 po:substantivo feminino
 galbana/10 po:substantivo feminino
 gálbula/10 po:substantivo feminino
-galdracha/10 po:substantivo feminino
 galdrapa/10 po:substantivo feminino
 galdrumada/10 po:substantivo feminino
 galeadura/10 po:substantivo feminino
@@ -19854,7 +19742,6 @@ gama/10 po:substantivo feminino
 gamalla/10 po:substantivo feminino
 gamallada/10 po:substantivo feminino
 gamalleira/10 po:substantivo feminino
-gamarza/10 po:substantivo feminino
 gamba/10 po:substantivo feminino
 gambernia/10 po:substantivo feminino
 gamela/10 po:substantivo feminino
@@ -19881,11 +19768,9 @@ garabeta/10 po:substantivo feminino
 garabullada/10 po:substantivo feminino
 garameñada/10 po:substantivo feminino
 garanda/10 po:substantivo feminino
-garañola/10 po:substantivo feminino
 garantía/10 po:substantivo feminino
 garapiñada/10 po:substantivo feminino
 garatuxa/10 po:substantivo feminino
-garavata/10 po:substantivo feminino
 gardaría/10 po:substantivo feminino
 gardenia/10 po:substantivo feminino
 gardería/10 po:substantivo feminino
@@ -19902,7 +19787,6 @@ gárgola/10 po:substantivo feminino
 gargueira/10 po:substantivo feminino
 garita/10 po:substantivo feminino
 garlopa/10 po:substantivo feminino
-garmalleira/10 po:substantivo feminino
 garnacha/10 po:substantivo feminino
 garouba/10 po:substantivo feminino
 garra/10 po:substantivo feminino
@@ -19915,7 +19799,6 @@ garulada/10 po:substantivo feminino
 garxola/10 po:substantivo feminino
 garza/10 po:substantivo feminino
 gasa/10 po:substantivo feminino
-gaseosa/10 po:substantivo feminino
 gasificación/10 po:substantivo feminino
 gasolina/10 po:substantivo feminino
 gasolineira/10 po:substantivo feminino
@@ -19938,7 +19821,6 @@ gatuña/10 po:substantivo feminino
 gavela/10 po:substantivo feminino
 gavia/10 po:substantivo feminino
 gavota/10 po:substantivo feminino
-gaxa/10 po:substantivo feminino
 gaza/10 po:substantivo feminino
 gheada/10 po:substantivo feminino
 glabela/10 po:substantivo feminino
@@ -19972,9 +19854,6 @@ glosografía/10 po:substantivo feminino
 glosotomía/10 po:substantivo feminino
 glote/10 po:substantivo feminino
 gloxinia/10 po:substantivo feminino
-glucemia/10 po:substantivo feminino
-glucosa/10 po:substantivo feminino
-glucosuria/10 po:substantivo feminino
 gluma/10 po:substantivo feminino
 glumela/10 po:substantivo feminino
 gnomónica/10 po:substantivo feminino
@@ -20038,7 +19917,6 @@ graña/10 po:substantivo feminino
 granada/10 po:substantivo feminino
 granadina/10 po:substantivo feminino
 granalla/10 po:substantivo feminino
-granda/10 po:substantivo feminino
 grandeza/10 po:substantivo feminino
 grandilocuencia/10 po:substantivo feminino
 grandiosidade/10 po:substantivo feminino
@@ -20073,7 +19951,6 @@ grellada/10 po:substantivo feminino
 grena/10 po:substantivo feminino
 greña/10 po:substantivo feminino
 greta/10 po:substantivo feminino
-greza/10 po:substantivo feminino
 grila/10 po:substantivo feminino
 grilanda/10 po:substantivo feminino
 grileira/10 po:substantivo feminino
@@ -20098,7 +19975,6 @@ guedella/10 po:substantivo feminino
 guedelleira/10 po:substantivo feminino
 gueifa/10 po:substantivo feminino
 gueixa/10 po:substantivo feminino
-guelra/10 po:substantivo feminino
 guerla/10 po:substantivo feminino
 guerra/10 po:substantivo feminino
 guerrilla/10 po:substantivo feminino
@@ -20263,7 +20139,6 @@ hiperacusia/10 po:substantivo feminino
 hiperalxesia/10 po:substantivo feminino
 hipérbole/10 po:substantivo feminino
 hiperclorhidria/10 po:substantivo feminino
-hipercorrección/10 po:substantivo feminino
 hipercromía/10 po:substantivo feminino
 hiperdulía/10 po:substantivo feminino
 hiperemia/10 po:substantivo feminino
@@ -20967,7 +20842,6 @@ lacinia/10 po:substantivo feminino
 lacoada/10 po:substantivo feminino
 lacrimación/10 po:substantivo feminino
 lactación/10 po:substantivo feminino
-lactancia/10 po:substantivo feminino
 lactase/10 po:substantivo feminino
 lactoflavina/10 po:substantivo feminino
 lactoglobulina/10 po:substantivo feminino
@@ -21022,7 +20896,6 @@ lancha/10 po:substantivo feminino
 landa/10 po:substantivo feminino
 landra/10 po:substantivo feminino
 landreira/10 po:substantivo feminino
-langosta/10 po:substantivo feminino
 languidez/10 po:substantivo feminino
 lanolina/10 po:substantivo feminino
 lantana/10 po:substantivo feminino
@@ -21226,7 +21099,6 @@ ligadura/10 po:substantivo feminino
 ligazón/10 po:substantivo feminino
 lignificación/10 po:substantivo feminino
 lignina/10 po:substantivo feminino
-ligoña/10 po:substantivo feminino
 lígula/10 po:substantivo feminino
 lila/10 po:substantivo feminino
 lilaina/10 po:substantivo feminino
@@ -21348,7 +21220,6 @@ longa/10 po:substantivo feminino
 longaínza/10 po:substantivo feminino
 longametraxe/10 po:substantivo feminino
 longanimidade/10 po:substantivo feminino
-longaniza/10 po:substantivo feminino
 longarina/10 po:substantivo feminino
 longura/10 po:substantivo feminino
 lontra/10 po:substantivo feminino
@@ -21369,7 +21240,6 @@ loucura/10 po:substantivo feminino
 loureira/10 po:substantivo feminino
 lousa/10 po:substantivo feminino
 louseira/10 po:substantivo feminino
-louxa/10 po:substantivo feminino
 louza/10 po:substantivo feminino
 louzanía/10 po:substantivo feminino
 loxa/10 po:substantivo feminino
@@ -21385,7 +21255,6 @@ lucerna/10 po:substantivo feminino
 lucidez/10 po:substantivo feminino
 ludomanía/10 po:substantivo feminino
 lúes po:substantivo feminino
-lula/10 po:substantivo feminino
 lumaquela/10 po:substantivo feminino
 lumarada/10 po:substantivo feminino
 lumbalxia/10 po:substantivo feminino
@@ -21423,8 +21292,6 @@ maceta/10 po:substantivo feminino
 machada/10 po:substantivo feminino
 macheta/10 po:substantivo feminino
 machetada/10 po:substantivo feminino
-maciñeira/10 po:substantivo feminino
-macira/10 po:substantivo feminino
 macla/10 po:substantivo feminino
 macrobiótica/10 po:substantivo feminino
 macrocefalia/10 po:substantivo feminino
@@ -21437,16 +21304,12 @@ macrospora/10 po:substantivo feminino
 mácula/10 po:substantivo feminino
 maculación/10 po:substantivo feminino
 maculatura/10 po:substantivo feminino
-mada/10 po:substantivo feminino
 madama/10 po:substantivo feminino
 madeira/10 po:substantivo feminino
 madeixa/10 po:substantivo feminino
 madona/10 po:substantivo feminino
-madorra/10 po:substantivo feminino
 madrasta/10 po:substantivo feminino
-madrastra/10 po:substantivo feminino
 madre/10 po:substantivo feminino
-madreña/10 po:substantivo feminino
 madreperla/10 po:substantivo feminino
 madrépora/10 po:substantivo feminino
 madreselva/10 po:substantivo feminino
@@ -21595,7 +21458,6 @@ maragota/10 po:substantivo feminino
 maralloca/10 po:substantivo feminino
 maraña/10 po:substantivo feminino
 marañada/10 po:substantivo feminino
-maranfallada/10 po:substantivo feminino
 maraní/10 po:substantivo feminino
 maravalla/10 po:substantivo feminino
 maravallada/10 po:substantivo feminino
@@ -21610,7 +21472,6 @@ marcha/10 po:substantivo feminino
 marcialidade/10 po:substantivo feminino
 márdea/10 po:substantivo feminino
 marea/10 po:substantivo feminino
-maresía/10 po:substantivo feminino
 mareta/10 po:substantivo feminino
 marfallada/10 po:substantivo feminino
 marfolla/10 po:substantivo feminino
@@ -21650,7 +21511,6 @@ marroca/10 po:substantivo feminino
 marroquinaría/10 po:substantivo feminino
 marroquinería/10 po:substantivo feminino
 marrota/10 po:substantivo feminino
-marsopa/10 po:substantivo feminino
 marta/10 po:substantivo feminino
 martabela/10 po:substantivo feminino
 martaraña/10 po:substantivo feminino
@@ -21719,9 +21579,6 @@ mazá/10 po:substantivo feminino
 mazada/10 po:substantivo feminino
 mazadeira/10 po:substantivo feminino
 mazadura/10 po:substantivo feminino
-mazaira/10 po:substantivo feminino
-mazán/10 po:substantivo feminino
-mazanceira/10 po:substantivo feminino
 mazaroca/10 po:substantivo feminino
 mazorga/10 po:substantivo feminino
 mazucada/10 po:substantivo feminino
@@ -21814,7 +21671,6 @@ mercadoría/10 po:substantivo feminino
 mercadotecnia/10 po:substantivo feminino
 mercancía/10 po:substantivo feminino
 mercé/10 po:substantivo feminino
-mercede/10 po:substantivo feminino
 mercería/10 po:substantivo feminino
 mercerización/10 po:substantivo feminino
 mercurial/12 po:substantivo feminino
@@ -21824,7 +21680,6 @@ merenda/10 po:substantivo feminino
 merendada/10 po:substantivo feminino
 merendola/10 po:substantivo feminino
 meretriz/10 po:substantivo feminino
-merluza/10 po:substantivo feminino
 mesa/10 po:substantivo feminino
 mesana/10 po:substantivo feminino
 meseta/10 po:substantivo feminino
@@ -21993,8 +21848,6 @@ mistagoxía/10 po:substantivo feminino
 mistela/10 po:substantivo feminino
 misticidade/10 po:substantivo feminino
 mistificación/10 po:substantivo feminino
-mistura/10 po:substantivo feminino
-misura/10 po:substantivo feminino
 miticultura/10 po:substantivo feminino
 mitificación/10 po:substantivo feminino
 mitigación/10 po:substantivo feminino
@@ -22012,7 +21865,6 @@ mixtión/10 po:substantivo feminino
 mnemónica/10 po:substantivo feminino
 mnemotécnica/10 po:substantivo feminino
 moa/10 po:substantivo feminino
-moaña/10 po:substantivo feminino
 mobilidade/10 po:substantivo feminino
 mobilización/10 po:substantivo feminino
 moblaría/10 po:substantivo feminino
@@ -22055,7 +21907,6 @@ molestia/10 po:substantivo feminino
 moleza/10 po:substantivo feminino
 molibdenita/10 po:substantivo feminino
 molicie/10 po:substantivo feminino
-molida/10 po:substantivo feminino
 molla/10 po:substantivo feminino
 molladura/10 po:substantivo feminino
 molleira/10 po:substantivo feminino
@@ -22067,7 +21918,6 @@ monada/10 po:substantivo feminino
 mónada/10 po:substantivo feminino
 monadoloxía/10 po:substantivo feminino
 monarquía/10 po:substantivo feminino
-monca/10 po:substantivo feminino
 monda/10 po:substantivo feminino
 mondadura/10 po:substantivo feminino
 mondongada/10 po:substantivo feminino
@@ -22132,7 +21982,6 @@ morica/10 po:substantivo feminino
 morixeración/10 po:substantivo feminino
 mormeira/10 po:substantivo feminino
 mormosa/10 po:substantivo feminino
-morodeira/10 po:substantivo feminino
 morosidade/10 po:substantivo feminino
 moroteira/10 po:substantivo feminino
 morra/10 po:substantivo feminino
@@ -22147,11 +21996,9 @@ mortalla/10 po:substantivo feminino
 morte/10 po:substantivo feminino
 mortificación/10 po:substantivo feminino
 mórula/10 po:substantivo feminino
-moruxa/10 po:substantivo feminino
 morzoa/10 po:substantivo feminino
 mosca/10 po:substantivo feminino
 mosexa/10 po:substantivo feminino
-mosquita/10 po:substantivo feminino
 mostaza/10 po:substantivo feminino
 mostea/10 po:substantivo feminino
 mostra/10 po:substantivo feminino
@@ -22181,7 +22028,6 @@ moxega/10 po:substantivo feminino
 moxena/10 po:substantivo feminino
 mozafresca/10 po:substantivo feminino
 muceta/10 po:substantivo feminino
-muchica/10 po:substantivo feminino
 mucilaxe/10 po:substantivo feminino
 mucosa/10 po:substantivo feminino
 mucosidade/10 po:substantivo feminino
@@ -22200,7 +22046,6 @@ multicopista/10 po:substantivo feminino
 multiplicación/10 po:substantivo feminino
 multiplicidade/10 po:substantivo feminino
 multitude/10 po:substantivo feminino
-muña/10 po:substantivo feminino
 mundanidade/10 po:substantivo feminino
 munguidura/10 po:substantivo feminino
 munición/10 po:substantivo feminino
@@ -22231,7 +22076,6 @@ mutaxénese/10 po:substantivo feminino
 mutilación/10 po:substantivo feminino
 mutualidade/10 po:substantivo feminino
 muxa/10 po:substantivo feminino
-muxega/10 po:substantivo feminino
 muxica/10 po:substantivo feminino
 muxideira/10 po:substantivo feminino
 muxidoira/10 po:substantivo feminino
@@ -22294,7 +22138,6 @@ navegación/10 po:substantivo feminino
 naveta/10 po:substantivo feminino
 nébeda/10 po:substantivo feminino
 néboa/10 po:substantivo feminino
-néboda/10 po:substantivo feminino
 neboeira/10 po:substantivo feminino
 nebra/10 po:substantivo feminino
 nebulización/10 po:substantivo feminino
@@ -22366,7 +22209,6 @@ neve/10 po:substantivo feminino
 neveira/10 po:substantivo feminino
 nevisca/10 po:substantivo feminino
 nezcre/10 po:substantivo feminino
-niada/10 po:substantivo feminino
 nicada/10 po:substantivo feminino
 nichela/10 po:substantivo feminino
 nicotina/10 po:substantivo feminino
@@ -22388,10 +22230,8 @@ nitrocelulosa/10 po:substantivo feminino
 nitroglicerina/10 po:substantivo feminino
 nivelación/10 po:substantivo feminino
 niveladora/10 po:substantivo feminino
-noada/10 po:substantivo feminino
 nobreza/10 po:substantivo feminino
 noca/10 po:substantivo feminino
-noceira/10 po:substantivo feminino
 nocella/10 po:substantivo feminino
 noción/10 po:substantivo feminino
 nocividade/10 po:substantivo feminino
@@ -22422,7 +22262,6 @@ nora/10 po:substantivo feminino
 noradrenalina/10 po:substantivo feminino
 nordesía/10 po:substantivo feminino
 nordestada/10 po:substantivo feminino
-noria/10 po:substantivo feminino
 norma/10 po:substantivo feminino
 normalidade/10 po:substantivo feminino
 normalización/10 po:substantivo feminino
@@ -22440,7 +22279,6 @@ noticia/10 po:substantivo feminino
 notificación/10 po:substantivo feminino
 notoriedade/10 po:substantivo feminino
 nótula/10 po:substantivo feminino
-nouca/10 po:substantivo feminino
 nova/10 po:substantivo feminino
 novación/10 po:substantivo feminino
 novatada/10 po:substantivo feminino
@@ -22452,7 +22290,6 @@ novocaína/10 po:substantivo feminino
 noz/10 po:substantivo feminino
 nube/10 po:substantivo feminino
 nubilidade/10 po:substantivo feminino
-nubre/10 po:substantivo feminino
 nuclearización/10 po:substantivo feminino
 nucleónica/10 po:substantivo feminino
 nucleoproteína/10 po:substantivo feminino
@@ -23223,12 +23060,10 @@ peza/10 po:substantivo feminino
 pezoña/10 po:substantivo feminino
 pía/10 po:substantivo feminino
 piamáter/10 po:substantivo feminino
-piaña/10 po:substantivo feminino
 pianola/10 po:substantivo feminino
 piarda/10 po:substantivo feminino
 piardeira/10 po:substantivo feminino
 piastra/10 po:substantivo feminino
-píbeda/10 po:substantivo feminino
 pica/10 po:substantivo feminino
 picada/10 po:substantivo feminino
 picadeira/10 po:substantivo feminino
@@ -23278,7 +23113,6 @@ pinguela/10 po:substantivo feminino
 pínnula/10 po:substantivo feminino
 pinta/10 po:substantivo feminino
 pintada/10 po:substantivo feminino
-pintarroxa/10 po:substantivo feminino
 píntega/10 po:substantivo feminino
 pintura/10 po:substantivo feminino
 piñuca/10 po:substantivo feminino
@@ -23488,7 +23322,6 @@ portaría/10 po:substantivo feminino
 portaxe/10 po:substantivo feminino
 portela/10 po:substantivo feminino
 portería/10 po:substantivo feminino
-poscomunión/10 po:substantivo feminino
 poscomuñón/10 po:substantivo feminino
 posdata/10 po:substantivo feminino
 pose/10 po:substantivo feminino
@@ -23500,7 +23333,6 @@ positividade/10 po:substantivo feminino
 posoloxía/10 po:substantivo feminino
 posposición/10 po:substantivo feminino
 posta/10 po:substantivo feminino
-postela/10 po:substantivo feminino
 posteridade/10 po:substantivo feminino
 posterioridade/10 po:substantivo feminino
 postila/10 po:substantivo feminino
@@ -23536,7 +23368,6 @@ pradería/10 po:substantivo feminino
 praga/10 po:substantivo feminino
 pragmática/10 po:substantivo feminino
 praia/10 po:substantivo feminino
-prana/10 po:substantivo feminino
 prancha/10 po:substantivo feminino
 prancheta/10 po:substantivo feminino
 prata/10 po:substantivo feminino
@@ -23702,7 +23533,6 @@ programación/10 po:substantivo feminino
 progresión/10 po:substantivo feminino
 progresividade/10 po:substantivo feminino
 prohibición/10 po:substantivo feminino
-proia/10 po:substantivo feminino
 proída/10 po:substantivo feminino
 prolactina/10 po:substantivo feminino
 prole/10 po:substantivo feminino
@@ -23786,7 +23616,6 @@ proxenitura/10 po:substantivo feminino
 proxesterona/10 po:substantivo feminino
 proximidade/10 po:substantivo feminino
 prudencia/10 po:substantivo feminino
-pruída/10 po:substantivo feminino
 pruína/10 po:substantivo feminino
 prurixe/10 po:substantivo feminino
 pseudoartrose/10 po:substantivo feminino
@@ -23815,9 +23644,7 @@ psoríase/10 po:substantivo feminino
 ptialina/10 po:substantivo feminino
 ptomaína/10 po:substantivo feminino
 ptose/10 po:substantivo feminino
-púa/10 po:substantivo feminino
 pube/10 po:substantivo feminino
-pubela/10 po:substantivo feminino
 puberdade/10 po:substantivo feminino
 pubescencia/10 po:substantivo feminino
 publicación/10 po:substantivo feminino
@@ -24113,7 +23940,6 @@ reaparición/10 po:substantivo feminino
 reaseguranza/10 po:substantivo feminino
 reasunción/10 po:substantivo feminino
 reata/10 po:substantivo feminino
-rebada/10 po:substantivo feminino
 rebaixa/10 po:substantivo feminino
 rebanda/10 po:substantivo feminino
 rebarba/10 po:substantivo feminino
@@ -24148,7 +23974,6 @@ rechave/10 po:substantivo feminino
 reciclaxe/10 po:substantivo feminino
 recidiva/10 po:substantivo feminino
 réciga/10 po:substantivo feminino
-recina/10 po:substantivo feminino
 reciprocidade/10 po:substantivo feminino
 recitación/10 po:substantivo feminino
 reclamación/10 po:substantivo feminino
@@ -24490,7 +24315,6 @@ ridiculización/10 po:substantivo feminino
 rifa/10 po:substantivo feminino
 rigorosidade/10 po:substantivo feminino
 rilada/10 po:substantivo feminino
-rilleira/10 po:substantivo feminino
 rima/10 po:substantivo feminino
 rincha/10 po:substantivo feminino
 ringleira/10 po:substantivo feminino
@@ -24504,7 +24328,6 @@ riola/10 po:substantivo feminino
 riolita/10 po:substantivo feminino
 riosta/10 po:substantivo feminino
 ripa/10 po:substantivo feminino
-ripia/10 po:substantivo feminino
 riqueza/10 po:substantivo feminino
 risa/10 po:substantivo feminino
 risada/10 po:substantivo feminino
@@ -24554,9 +24377,7 @@ romaxe/10 po:substantivo feminino
 rompedura/10 po:substantivo feminino
 rompente/10 po:substantivo feminino
 rompida/10 po:substantivo feminino
-roña/10 po:substantivo feminino
 roncha/10 po:substantivo feminino
-ronda/10 po:substantivo feminino
 rosada/10 po:substantivo feminino
 rosanilina/10 po:substantivo feminino
 rosca/10 po:substantivo feminino
@@ -24574,7 +24395,6 @@ rouña/10 po:substantivo feminino
 roupa/10 po:substantivo feminino
 roupaxe/10 po:substantivo feminino
 rouquén/10 po:substantivo feminino
-roxa/10 po:substantivo feminino
 roxoada/10 po:substantivo feminino
 roza/10 po:substantivo feminino
 rozada/10 po:substantivo feminino
@@ -24614,8 +24434,6 @@ sabadeira/10 po:substantivo feminino
 sabana/10 po:substantivo feminino
 sabatina/10 po:substantivo feminino
 sabedoría/10 po:substantivo feminino
-sabela/10 po:substantivo feminino
-sabella/10 po:substantivo feminino
 sabenza/10 po:substantivo feminino
 saboga/10 po:substantivo feminino
 sabotaxe/10 po:substantivo feminino
@@ -24636,8 +24454,6 @@ sachega/10 po:substantivo feminino
 sachola/10 po:substantivo feminino
 saciedade/10 po:substantivo feminino
 sacralización/10 po:substantivo feminino
-sacristanía/10 po:substantivo feminino
-sacristía/10 po:substantivo feminino
 sacuda/10 po:substantivo feminino
 sacudida/10 po:substantivo feminino
 sacudidura/10 po:substantivo feminino
@@ -24715,10 +24531,6 @@ saponita/10 po:substantivo feminino
 saqueta/10 po:substantivo feminino
 sarabia/10 po:substantivo feminino
 sarabiada/10 po:substantivo feminino
-saragana/10 po:substantivo feminino
-saraganada/10 po:substantivo feminino
-saraiba/10 po:substantivo feminino
-saraibada/10 po:substantivo feminino
 sardana/10 po:substantivo feminino
 sardiña/10 po:substantivo feminino
 sardiñada/10 po:substantivo feminino
@@ -24735,7 +24547,6 @@ satrapía/10 po:substantivo feminino
 saturabilidade/10 po:substantivo feminino
 saturación/10 po:substantivo feminino
 saudación/10 po:substantivo feminino
-saudade/10 po:substantivo feminino
 saúde/10 po:substantivo feminino
 sauna/10 po:substantivo feminino
 saxitaria/10 po:substantivo feminino
@@ -24838,7 +24649,6 @@ septicemia/10 po:substantivo feminino
 sepultura/10 po:substantivo feminino
 sequidade/10 po:substantivo feminino
 sequoia/10 po:substantivo feminino
-serda/10 po:substantivo feminino
 serea/10 po:substantivo feminino
 serenata/10 po:substantivo feminino
 serenidade/10 po:substantivo feminino
@@ -24895,7 +24705,6 @@ sigla/10 po:substantivo feminino
 significación/10 po:substantivo feminino
 sílaba/10 po:substantivo feminino
 silabación/10 po:substantivo feminino
-silbarda/10 po:substantivo feminino
 silepse/10 po:substantivo feminino
 sílfide/10 po:substantivo feminino
 sílice/10 po:substantivo feminino
@@ -25261,7 +25070,6 @@ talla/10 po:substantivo feminino
 tallada/10 po:substantivo feminino
 talladeira/10 po:substantivo feminino
 talladura/10 po:substantivo feminino
-taloira/10 po:substantivo feminino
 tamanca/10 po:substantivo feminino
 támara/10 po:substantivo feminino
 tamargueira/10 po:substantivo feminino
@@ -25292,7 +25100,6 @@ taquimecanografía/10 po:substantivo feminino
 taquimetría/10 po:substantivo feminino
 tara/10 po:substantivo feminino
 tarabela/10 po:substantivo feminino
-tarandeira/10 po:substantivo feminino
 tarantela/10 po:substantivo feminino
 tarántula/10 po:substantivo feminino
 tarasca/10 po:substantivo feminino
@@ -25339,13 +25146,11 @@ tecla/10 po:substantivo feminino
 técnica/10 po:substantivo feminino
 tecnocracia/10 po:substantivo feminino
 tecnoloxía/10 po:substantivo feminino
-técola/10 po:substantivo feminino
 tectónica/10 po:substantivo feminino
 tega/10 po:substantivo feminino
 teima/10 po:substantivo feminino
 teimosía/10 po:substantivo feminino
 teína/10 po:substantivo feminino
-teipa/10 po:substantivo feminino
 teiroa/10 po:substantivo feminino
 tele/10 po:substantivo feminino
 telecadeira/10 po:substantivo feminino
@@ -25465,7 +25270,6 @@ tetraloxía/10 po:substantivo feminino
 tetraplexía/10 po:substantivo feminino
 tetrarquía/10 po:substantivo feminino
 tetravalencia/10 po:substantivo feminino
-teupa/10 po:substantivo feminino
 teúrxia/10 po:substantivo feminino
 textura/10 po:substantivo feminino
 texturación/10 po:substantivo feminino
@@ -25489,7 +25293,6 @@ tinta/10 po:substantivo feminino
 tintura/10 po:substantivo feminino
 tinturaría/10 po:substantivo feminino
 tinturería/10 po:substantivo feminino
-tiopa/10 po:substantivo feminino
 tiorba/10 po:substantivo feminino
 tiourea/10 po:substantivo feminino
 tipificación/10 po:substantivo feminino
@@ -25503,7 +25306,6 @@ tiradeira/10 po:substantivo feminino
 tiranía/10 po:substantivo feminino
 tirapuxa/10 po:substantivo feminino
 tiraxe/10 po:substantivo feminino
-tiricia/10 po:substantivo feminino
 tiroglobulina/10 po:substantivo feminino
 tiroidectomía/10 po:substantivo feminino
 tiroidite/10 po:substantivo feminino
@@ -25605,10 +25407,8 @@ tortura/10 po:substantivo feminino
 tose/10 po:substantivo feminino
 tosta/10 po:substantivo feminino
 totalidade/10 po:substantivo feminino
-touba/10 po:substantivo feminino
 touca/10 po:substantivo feminino
 touceira/10 po:substantivo feminino
-touliña/10 po:substantivo feminino
 toupa/10 po:substantivo feminino
 toupeira/10 po:substantivo feminino
 toupiñeira/10 po:substantivo feminino
@@ -25638,7 +25438,6 @@ traca/10 po:substantivo feminino
 tracción/10 po:substantivo feminino
 tradición/10 po:substantivo feminino
 tradución/10 po:substantivo feminino
-trafega/10 po:substantivo feminino
 tragadeira/10 po:substantivo feminino
 traída/10 po:substantivo feminino
 traidoría/10 po:substantivo feminino
@@ -25722,7 +25521,6 @@ treixa/10 po:substantivo feminino
 treixada/10 po:substantivo feminino
 treixadura/10 po:substantivo feminino
 trela/10 po:substantivo feminino
-trema/10 po:substantivo feminino
 trémbora/10 po:substantivo feminino
 tremedeira/10 po:substantivo feminino
 trementina/10 po:substantivo feminino
@@ -25838,7 +25636,6 @@ tumefacción/10 po:substantivo feminino
 tumescencia/10 po:substantivo feminino
 tumoración/10 po:substantivo feminino
 tuna/10 po:substantivo feminino
-tuña/10 po:substantivo feminino
 tunda/10 po:substantivo feminino
 tundra/10 po:substantivo feminino
 tungstita/10 po:substantivo feminino
@@ -25874,7 +25671,6 @@ ultracorrección/10 po:substantivo feminino
 ultradereita/10 po:substantivo feminino
 ultrafiltración/10 po:substantivo feminino
 ultratumba/10 po:substantivo feminino
-ultraxe/10 po:substantivo feminino
 ulva/10 po:substantivo feminino
 umbela/10 po:substantivo feminino
 umbélula/10 po:substantivo feminino
@@ -25911,7 +25707,6 @@ urbe/10 po:substantivo feminino
 urce/10 po:substantivo feminino
 urceira/10 po:substantivo feminino
 urda/10 po:substantivo feminino
-urdideira/10 po:substantivo feminino
 urdidoira/10 po:substantivo feminino
 urea/10 po:substantivo feminino
 urease/10 po:substantivo feminino
@@ -26111,7 +25906,6 @@ verza/10 po:substantivo feminino
 vesania/10 po:substantivo feminino
 vesicación/10 po:substantivo feminino
 vesícula/10 po:substantivo feminino
-vespa/10 po:substantivo feminino
 véspera/10 po:substantivo feminino
 vestal/12 po:substantivo feminino
 vestidura/10 po:substantivo feminino
@@ -26284,14 +26078,12 @@ xantofila/10 po:substantivo feminino
 xanzá/10 po:substantivo feminino
 xaqueca/10 po:substantivo feminino
 xara/10 po:substantivo feminino
-xarapada/10 po:substantivo feminino
 xarda/10 po:substantivo feminino
 xardinaría/10 po:substantivo feminino
 xardinaxe/10 po:substantivo feminino
 xardinería/10 po:substantivo feminino
 xareta/10 po:substantivo feminino
 xaropada/10 po:substantivo feminino
-xarra/10 po:substantivo feminino
 xarreteira/10 po:substantivo feminino
 xarxa/10 po:substantivo feminino
 xastraría/10 po:substantivo feminino
@@ -26356,7 +26148,6 @@ xeremiada/10 po:substantivo feminino
 xerencia/10 po:substantivo feminino
 xerga/10 po:substantivo feminino
 xeriatría/10 po:substantivo feminino
-xeringa/10 po:substantivo feminino
 xermanística/10 po:substantivo feminino
 xermanización/10 po:substantivo feminino
 xerminación/10 po:substantivo feminino
@@ -26451,7 +26242,6 @@ xusteza/10 po:substantivo feminino
 xustificación/10 po:substantivo feminino
 xustiza/10 po:substantivo feminino
 xuventude/10 po:substantivo feminino
-zafeira/10 po:substantivo feminino
 zafra/10 po:substantivo feminino
 zafranada/10 po:substantivo feminino
 zaga/10 po:substantivo feminino
@@ -26479,9 +26269,7 @@ zarapata/10 po:substantivo feminino
 zaraza/10 po:substantivo feminino
 zarra/10 po:substantivo feminino
 zarracina/10 po:substantivo feminino
-zarralla/10 po:substantivo feminino
 zarrapicada/10 po:substantivo feminino
-zarreta/10 po:substantivo feminino
 zarzaparrilla/10 po:substantivo feminino
 zoantropía/10 po:substantivo feminino
 zoca/10 po:substantivo feminino
@@ -26653,8 +26441,6 @@ finanzas po:substantivo feminino plural
 fitolacáceas po:substantivo feminino plural
 flacourtiáceas po:substantivo feminino plural
 florídeas po:substantivo feminino plural
-freces po:substantivo feminino plural
-fretes po:substantivo feminino plural
 fucáceas po:substantivo feminino plural
 fumariáceas po:substantivo feminino plural
 globulariáceas po:substantivo feminino plural
@@ -26795,7 +26581,6 @@ taxáceas po:substantivo feminino plural
 teáceas po:substantivo feminino plural
 témporas po:substantivo feminino plural
 tenaces po:substantivo feminino plural
-tenazas po:substantivo feminino plural
 terácidas po:substantivo feminino plural
 terebintáceas po:substantivo feminino plural
 termas po:substantivo feminino plural
@@ -27140,7 +26925,6 @@ afecto/10 po:substantivo masculino
 afeitado/10 po:substantivo masculino
 afeite/10 po:substantivo masculino
 afelio/10 po:substantivo masculino
-afeminamento/10 po:substantivo masculino
 aferidoiro/10 po:substantivo masculino
 aferrollamento/10 po:substantivo masculino
 aferventado/10 po:substantivo masculino
@@ -27162,7 +26946,6 @@ afrancesamento/10 po:substantivo masculino
 africanismo/10 po:substantivo masculino
 afrontamento/10 po:substantivo masculino
 afrouxamento/10 po:substantivo masculino
-afuadoiro/10 po:substantivo masculino
 afumadoiro/10 po:substantivo masculino
 afumador/10 po:substantivo masculino
 afundimento/10 po:substantivo masculino
@@ -27303,7 +27086,6 @@ alférez/10 po:substantivo masculino
 alfil/12 po:substantivo masculino
 alfinete/10 po:substantivo masculino
 alfineteiro/10 po:substantivo masculino
-alforxón/10 po:substantivo masculino
 alfoz/10 po:substantivo masculino
 algareo/10 po:substantivo masculino
 algarismo/10 po:substantivo masculino
@@ -27439,7 +27221,6 @@ amortecemento/10 po:substantivo masculino
 amparo/10 po:substantivo masculino
 ampere/10 po:substantivo masculino
 amperímetro/10 po:substantivo masculino
-amperio/10 po:substantivo masculino
 amuleto/10 po:substantivo masculino
 amúo/10 po:substantivo masculino
 anabaptismo/10 po:substantivo masculino
@@ -27632,7 +27413,6 @@ apoxeo/10 po:substantivo masculino
 aprazamento/10 po:substantivo masculino
 aprecio/10 po:substantivo masculino
 apreixo/10 po:substantivo masculino
-apremio/10 po:substantivo masculino
 apresamento/10 po:substantivo masculino
 apresto/10 po:substantivo masculino
 apresuramento/10 po:substantivo masculino
@@ -27658,7 +27438,6 @@ arador/10 po:substantivo masculino
 aragonesismo/10 po:substantivo masculino
 aramado/10 po:substantivo masculino
 arame/10 po:substantivo masculino
-aramio/10 po:substantivo masculino
 arancel/12 po:substantivo masculino
 arando/10 po:substantivo masculino
 arangaño/10 po:substantivo masculino
@@ -27723,7 +27502,6 @@ armiño/10 po:substantivo masculino
 armisticio/10 po:substantivo masculino
 armón/10 po:substantivo masculino
 arneiro/10 po:substantivo masculino
-arneirón/10 po:substantivo masculino
 arnés/10 po:substantivo masculino
 arneste/10 po:substantivo masculino
 aro/10 po:substantivo masculino
@@ -27762,7 +27540,6 @@ arrastre/10 po:substantivo masculino
 arrastrón/10 po:substantivo masculino
 arrebato/10 po:substantivo masculino
 arrecamento/10 po:substantivo masculino
-arrecendo/10 po:substantivo masculino
 arrecife/10 po:substantivo masculino
 arredamento/10 po:substantivo masculino
 arredismo/10 po:substantivo masculino
@@ -27780,7 +27557,6 @@ arrepentimento/10 po:substantivo masculino
 arrepío/10 po:substantivo masculino
 arrequecemento/10 po:substantivo masculino
 arresto/10 po:substantivo masculino
-arreuto/10 po:substantivo masculino
 arribismo/10 po:substantivo masculino
 arrieiro/10 po:substantivo masculino
 arrimo/10 po:substantivo masculino
@@ -28025,7 +27801,6 @@ babor/10 po:substantivo masculino
 babuíno/10 po:substantivo masculino
 bacallau/10 po:substantivo masculino
 bacará/10 po:substantivo masculino
-bácaro/10 po:substantivo masculino
 bacelar/10 po:substantivo masculino
 bacelo/10 po:substantivo masculino
 bacharelato/10 po:substantivo masculino
@@ -28077,7 +27852,6 @@ balé/10 po:substantivo masculino
 baleato/10 po:substantivo masculino
 balizamento/10 po:substantivo masculino
 ballestrinque/10 po:substantivo masculino
-ballet/10 po:substantivo masculino
 ballo/10 po:substantivo masculino
 ballón/10 po:substantivo masculino
 balo/10 po:substantivo masculino
@@ -28223,8 +27997,6 @@ becho/10 po:substantivo masculino
 bechoco/10 po:substantivo masculino
 becuadro/10 po:substantivo masculino
 bedano/10 po:substantivo masculino
-bedugo/10 po:substantivo masculino
-bedulo/10 po:substantivo masculino
 behaviorismo/10 po:substantivo masculino
 beirado/10 po:substantivo masculino
 beiral/12 po:substantivo masculino
@@ -28239,7 +28011,6 @@ béldrago/10 po:substantivo masculino
 beldro/10 po:substantivo masculino
 belén/10 po:substantivo masculino
 beleño/10 po:substantivo masculino
-belio/10 po:substantivo masculino
 belisco/10 po:substantivo masculino
 bemol/12 po:substantivo masculino
 benceno/10 po:substantivo masculino
@@ -28286,10 +28057,8 @@ bicho/10 po:substantivo masculino
 bichoco/10 po:substantivo masculino
 biciclo/10 po:substantivo masculino
 bico/10 po:substantivo masculino
-bídalo/10 po:substantivo masculino
 bidé/10 po:substantivo masculino
 bidente/10 po:substantivo masculino
-bido/10 po:substantivo masculino
 bidón/10 po:substantivo masculino
 bidueiral/12 po:substantivo masculino
 bidueiro/10 po:substantivo masculino
@@ -28330,7 +28099,6 @@ biplano/10 po:substantivo masculino
 biquelo/10 po:substantivo masculino
 birlo/10 po:substantivo masculino
 birreactor/10 po:substantivo masculino
-birrete/10 po:substantivo masculino
 birrio/10 po:substantivo masculino
 bisballo/10 po:substantivo masculino
 biscallo/10 po:substantivo masculino
@@ -28461,7 +28229,6 @@ boucelo/10 po:substantivo masculino
 bouquelo/10 po:substantivo masculino
 bourel/12 po:substantivo masculino
 boureo/10 po:substantivo masculino
-boxe/10 po:substantivo masculino
 boxeador/10 po:substantivo masculino
 boxeo/10 po:substantivo masculino
 boxo/10 po:substantivo masculino
@@ -28594,7 +28361,6 @@ butil/12 po:substantivo masculino
 butileno/10 po:substantivo masculino
 butirato/10 po:substantivo masculino
 butirómetro/10 po:substantivo masculino
-buxato/10 po:substantivo masculino
 buxeiro/10 po:substantivo masculino
 buxeo/10 po:substantivo masculino
 buxo/10 po:substantivo masculino
@@ -28737,7 +28503,6 @@ calcañar/10 po:substantivo masculino
 calcáneo/10 po:substantivo masculino
 calcaño/10 po:substantivo masculino
 calcapapeis po:substantivo masculino
-calce/10 po:substantivo masculino
 calcés/10 po:substantivo masculino
 calcetín/10 po:substantivo masculino
 calcímetro/10 po:substantivo masculino
@@ -28753,7 +28518,6 @@ caldeiro/10 po:substantivo masculino
 caldeirón/10 po:substantivo masculino
 caldelo/10 po:substantivo masculino
 caldo/10 po:substantivo masculino
-caldulleiro/10 po:substantivo masculino
 calefactor/10 po:substantivo masculino
 caleiro/10 po:substantivo masculino
 calello/10 po:substantivo masculino
@@ -28785,7 +28549,6 @@ calmizo/10 po:substantivo masculino
 calmuzo/10 po:substantivo masculino
 calo/10 po:substantivo masculino
 caló/10 po:substantivo masculino
-calofrío/10 po:substantivo masculino
 calón/10 po:substantivo masculino
 calorímetro/10 po:substantivo masculino
 calote/10 po:substantivo masculino
@@ -28840,7 +28603,6 @@ canadeiro/10 po:substantivo masculino
 canado/10 po:substantivo masculino
 canal/12 po:substantivo masculino
 canalículo/10 po:substantivo masculino
-cáñamo/10 po:substantivo masculino
 canapé/10 po:substantivo masculino
 canario/10 po:substantivo masculino
 canastrel/12 po:substantivo masculino
@@ -28883,7 +28645,6 @@ canibalismo/10 po:substantivo masculino
 canistrel/12 po:substantivo masculino
 canivete/10 po:substantivo masculino
 canizo/10 po:substantivo masculino
-cañizo/10 po:substantivo masculino
 canlón/10 po:substantivo masculino
 cánnabis po:substantivo masculino
 caño/10 po:substantivo masculino
@@ -28923,7 +28684,6 @@ caos po:substantivo masculino
 capacete/10 po:substantivo masculino
 caparucho/10 po:substantivo masculino
 capataz/10 po:substantivo masculino
-capealzo/10 po:substantivo masculino
 capelán/10 po:substantivo masculino
 capelo/10 po:substantivo masculino
 capialzo/10 po:substantivo masculino
@@ -28944,7 +28704,6 @@ capricornio/10 po:substantivo masculino
 capucho/10 po:substantivo masculino
 capuchón/10 po:substantivo masculino
 capuz/10 po:substantivo masculino
-carabel/12 po:substantivo masculino
 carabelo/10 po:substantivo masculino
 carabineiro/10 po:substantivo masculino
 carabullo/10 po:substantivo masculino
@@ -29287,14 +29046,11 @@ chamamento/10 po:substantivo masculino
 chambaril/12 po:substantivo masculino
 chamil/12 po:substantivo masculino
 chamizo/10 po:substantivo masculino
-chamosco/10 po:substantivo masculino
 champaña/10 po:substantivo masculino
 champiñón/10 po:substantivo masculino
-champú/10 po:substantivo masculino
 chamusco/10 po:substantivo masculino
 chanceler/10 po:substantivo masculino
 chancil/12 po:substantivo masculino
-chanclo/10 po:substantivo masculino
 chanco/10 po:substantivo masculino
 chándal/10 po:substantivo masculino
 chandarme/10 po:substantivo masculino
@@ -29326,7 +29082,6 @@ chauvinismo/10 po:substantivo masculino
 chavello/10 po:substantivo masculino
 chavellón/10 po:substantivo masculino
 chavelluco/10 po:substantivo masculino
-chavillón/10 po:substantivo masculino
 chazo/10 po:substantivo masculino
 chedeiro/10 po:substantivo masculino
 cheiro/10 po:substantivo masculino
@@ -29399,7 +29154,6 @@ churro/10 po:substantivo masculino
 chusco/10 po:substantivo masculino
 chusmo/10 po:substantivo masculino
 chuspe/10 po:substantivo masculino
-chute/10 po:substantivo masculino
 chuvasco/10 po:substantivo masculino
 chuvasqueiro/10 po:substantivo masculino
 chuzo/10 po:substantivo masculino
@@ -29525,7 +29279,6 @@ clericalismo/10 po:substantivo masculino
 clericato/10 po:substantivo masculino
 clérigo/10 po:substantivo masculino
 clero/10 po:substantivo masculino
-cliché/10 po:substantivo masculino
 clientelismo/10 po:substantivo masculino
 clima/10 po:substantivo masculino
 climaterio/10 po:substantivo masculino
@@ -29571,7 +29324,6 @@ cochorro/10 po:substantivo masculino
 cocido/10 po:substantivo masculino
 cociente/10 po:substantivo masculino
 coco/10 po:substantivo masculino
-cocorote/10 po:substantivo masculino
 cocote/10 po:substantivo masculino
 cóctel/12 po:substantivo masculino
 codaste/10 po:substantivo masculino
@@ -29676,7 +29428,6 @@ comedimento/10 po:substantivo masculino
 comemerda/10 po:substantivo masculino
 comentario/10 po:substantivo masculino
 comento/10 po:substantivo masculino
-comenzo/10 po:substantivo masculino
 comercio/10 po:substantivo masculino
 cometa/10 po:substantivo masculino
 comezo/10 po:substantivo masculino
@@ -29908,7 +29659,6 @@ correolo/10 po:substantivo masculino
 correón/10 po:substantivo masculino
 corricán/10 po:substantivo masculino
 corricho/10 po:substantivo masculino
-corro/10 po:substantivo masculino
 corrosco/10 po:substantivo masculino
 corrupío/10 po:substantivo masculino
 cortaferro/10 po:substantivo masculino
@@ -29921,7 +29671,6 @@ cortexo/10 po:substantivo masculino
 corticosteroide/10 po:substantivo masculino
 cortizo/10 po:substantivo masculino
 cortón/10 po:substantivo masculino
-corucho/10 po:substantivo masculino
 corvo/10 po:substantivo masculino
 cós/10 po:substantivo masculino
 cosco/10 po:substantivo masculino
@@ -29953,7 +29702,6 @@ coto/10 po:substantivo masculino
 cotobelo/10 po:substantivo masculino
 cotomelo/10 po:substantivo masculino
 cotón/10 po:substantivo masculino
-cotote/10 po:substantivo masculino
 coturno/10 po:substantivo masculino
 couce/10 po:substantivo masculino
 couceiro/10 po:substantivo masculino
@@ -30043,7 +29791,6 @@ cruceiro/10 po:substantivo masculino
 crucel/12 po:substantivo masculino
 cruciferario/10 po:substantivo masculino
 crucifixo/10 po:substantivo masculino
-cruño/10 po:substantivo masculino
 crup/10 po:substantivo masculino
 cruzado/10 po:substantivo masculino
 cruzamento/10 po:substantivo masculino
@@ -30090,7 +29837,6 @@ cullarapo/10 po:substantivo masculino
 cullareto/10 po:substantivo masculino
 cullereiro/10 po:substantivo masculino
 cullerón/10 po:substantivo masculino
-culombio/10 po:substantivo masculino
 culteranismo/10 po:substantivo masculino
 cultismo/10 po:substantivo masculino
 cultivo/10 po:substantivo masculino
@@ -30127,7 +29873,6 @@ cursor/10 po:substantivo masculino
 curtidoiro/10 po:substantivo masculino
 curtocircuíto/10 po:substantivo masculino
 curtume/10 po:substantivo masculino
-curubelo/10 po:substantivo masculino
 curucho/10 po:substantivo masculino
 curupete/10 po:substantivo masculino
 curuto/10 po:substantivo masculino
@@ -30139,7 +29884,6 @@ cuspiñazo/10 po:substantivo masculino
 cuspiñeiro/10 po:substantivo masculino
 custo/10 po:substantivo masculino
 cutín/10 po:substantivo masculino
-cuxote/10 po:substantivo masculino
 cuzo/10 po:substantivo masculino
 d po:substantivo masculino
 dáctilo/10 po:substantivo masculino
@@ -30182,7 +29926,6 @@ decenvirato/10 po:substantivo masculino
 decénviro/10 po:substantivo masculino
 deceso/10 po:substantivo masculino
 decibel/12 po:substantivo masculino
-decibelio/10 po:substantivo masculino
 decigramo/10 po:substantivo masculino
 decilitro/10 po:substantivo masculino
 decímetro/10 po:substantivo masculino
@@ -30323,7 +30066,6 @@ desconxuntamento/10 po:substantivo masculino
 descordo/10 po:substantivo masculino
 descrédito/10 po:substantivo masculino
 descubrimento/10 po:substantivo masculino
-desdeixo/10 po:substantivo masculino
 desdén/10 po:substantivo masculino
 desdobramento/10 po:substantivo masculino
 desdouro/10 po:substantivo masculino
@@ -30376,7 +30118,6 @@ desfechamento/10 po:substantivo masculino
 desfiladeiro/10 po:substantivo masculino
 desfile/10 po:substantivo masculino
 desfloramento/10 po:substantivo masculino
-desfrute/10 po:substantivo masculino
 desgaste/10 po:substantivo masculino
 desgaxo/10 po:substantivo masculino
 desgoberno/10 po:substantivo masculino
@@ -30394,7 +30135,6 @@ desligamento/10 po:substantivo masculino
 deslindamento/10 po:substantivo masculino
 deslinde/10 po:substantivo masculino
 desloor/10 po:substantivo masculino
-deslouvor/10 po:substantivo masculino
 deslucimento/10 po:substantivo masculino
 deslustre/10 po:substantivo masculino
 desmaio/10 po:substantivo masculino
@@ -30404,7 +30144,6 @@ desmembramento/10 po:substantivo masculino
 desmentido/10 po:substantivo masculino
 desmerecemento/10 po:substantivo masculino
 desmoblamento/10 po:substantivo masculino
-desmoche/10 po:substantivo masculino
 desmonte/10 po:substantivo masculino
 desnivel/12 po:substantivo masculino
 desnivelamento/10 po:substantivo masculino
@@ -30413,11 +30152,9 @@ despacho/10 po:substantivo masculino
 despechamento/10 po:substantivo masculino
 despecho/10 po:substantivo masculino
 despedimento/10 po:substantivo masculino
-despego/10 po:substantivo masculino
 despeito/10 po:substantivo masculino
 desperdicio/10 po:substantivo masculino
 despexo/10 po:substantivo masculino
-despido/10 po:substantivo masculino
 desplante/10 po:substantivo masculino
 despoboamento/10 po:substantivo masculino
 desposorio/10 po:substantivo masculino
@@ -30645,7 +30382,6 @@ eirado/10 po:substantivo masculino
 eito/10 po:substantivo masculino
 eixe/10 po:substantivo masculino
 eixido/10 po:substantivo masculino
-eixo/10 po:substantivo masculino
 eldorado/10 po:substantivo masculino
 ele/10 po:substantivo masculino
 electorado/10 po:substantivo masculino
@@ -30771,7 +30507,6 @@ enchedoiro/10 po:substantivo masculino
 enchufe/10 po:substantivo masculino
 enchufismo/10 po:substantivo masculino
 enciclopedismo/10 po:substantivo masculino
-enciño/10 po:substantivo masculino
 encintado/10 po:substantivo masculino
 enclave/10 po:substantivo masculino
 encofrado/10 po:substantivo masculino
@@ -30829,7 +30564,6 @@ engano/10 po:substantivo masculino
 engaraño/10 po:substantivo masculino
 engarzamento/10 po:substantivo masculino
 engaste/10 po:substantivo masculino
-engazo/10 po:substantivo masculino
 engorde/10 po:substantivo masculino
 engradado/10 po:substantivo masculino
 engrandecemento/10 po:substantivo masculino
@@ -30930,7 +30664,6 @@ enxame/10 po:substantivo masculino
 enxebrismo/10 po:substantivo masculino
 enxeño/10 po:substantivo masculino
 enxerto/10 po:substantivo masculino
-enxido/10 po:substantivo masculino
 enxordecemento/10 po:substantivo masculino
 enxoval/12 po:substantivo masculino
 enxugadoiro/10 po:substantivo masculino
@@ -31335,7 +31068,6 @@ evocatorio/10 po:substantivo masculino
 evolucionismo/10 po:substantivo masculino
 exabrupto/10 po:substantivo masculino
 exactor/10 po:substantivo masculino
-exalzamento/10 po:substantivo masculino
 exame/10 po:substantivo masculino
 exantema/10 po:substantivo masculino
 exarca/10 po:substantivo masculino
@@ -31429,7 +31161,6 @@ fantasma/10 po:substantivo masculino
 fantoche/10 po:substantivo masculino
 faquir/10 po:substantivo masculino
 farad/10 po:substantivo masculino
-faradio/10 po:substantivo masculino
 farallón/10 po:substantivo masculino
 faraón/10 po:substantivo masculino
 fardel/12 po:substantivo masculino
@@ -31485,7 +31216,6 @@ fégado/10 po:substantivo masculino
 feitío/10 po:substantivo masculino
 feitizo/10 po:substantivo masculino
 feixe/10 po:substantivo masculino
-feixó/10 po:substantivo masculino
 feixón/10 po:substantivo masculino
 fel/10 po:substantivo masculino
 feldespato/10 po:substantivo masculino
@@ -31530,7 +31260,6 @@ ferromagnetismo/10 po:substantivo masculino
 ferrón/10 po:substantivo masculino
 ferrusco/10 po:substantivo masculino
 ferún/10 po:substantivo masculino
-fervedor/10 po:substantivo masculino
 fervellasverzas po:substantivo masculino
 fervón/10 po:substantivo masculino
 fervor/10 po:substantivo masculino
@@ -31634,7 +31363,6 @@ foie-gras po:substantivo masculino
 foio/10 po:substantivo masculino
 folclore/10 po:substantivo masculino
 folclorismo/10 po:substantivo masculino
-fole/10 po:substantivo masculino
 folecado/10 po:substantivo masculino
 folecho/10 po:substantivo masculino
 foleco/10 po:substantivo masculino
@@ -31652,7 +31380,6 @@ folleto/10 po:substantivo masculino
 follo/10 po:substantivo masculino
 folón/10 po:substantivo masculino
 fomento/10 po:substantivo masculino
-fon/10 po:substantivo masculino
 fondal/12 po:substantivo masculino
 fondant/10 po:substantivo masculino
 fondeadoiro/10 po:substantivo masculino
@@ -31762,7 +31489,6 @@ frufrú/10 po:substantivo masculino
 frundo/10 po:substantivo masculino
 frutidor/10 po:substantivo masculino
 fu/10 po:substantivo masculino
-fueiro/10 po:substantivo masculino
 fuel/10 po:substantivo masculino
 fular/10 po:substantivo masculino
 fulero/10 po:substantivo masculino
@@ -31833,7 +31559,6 @@ gabiocho/10 po:substantivo masculino
 gabuñón/10 po:substantivo masculino
 gachumeiro/10 po:substantivo masculino
 gadaño/10 po:substantivo masculino
-gado/10 po:substantivo masculino
 gadolinio/10 po:substantivo masculino
 gafume/10 po:substantivo masculino
 gag/10 po:substantivo masculino
@@ -31897,7 +31622,6 @@ garavanzo/10 po:substantivo masculino
 garaxe/10 po:substantivo masculino
 garbeo/10 po:substantivo masculino
 garbo/10 po:substantivo masculino
-garcio/10 po:substantivo masculino
 gardabois po:substantivo masculino
 gardabrazo/10 po:substantivo masculino
 gardacabos po:substantivo masculino
@@ -31967,12 +31691,8 @@ glóbulo/10 po:substantivo masculino
 glomérulo/10 po:substantivo masculino
 glosario/10 po:substantivo masculino
 glosema/10 po:substantivo masculino
-glúcido/10 po:substantivo masculino
-glucinio/10 po:substantivo masculino
-glucósido/10 po:substantivo masculino
 glutamato/10 po:substantivo masculino
 glute/10 po:substantivo masculino
-gluten/10 po:substantivo masculino
 gneis/10 po:substantivo masculino
 gnomo/10 po:substantivo masculino
 gnomon/13 po:substantivo masculino
@@ -32016,7 +31736,6 @@ gorro/10 po:substantivo masculino
 gorrobello/10 po:substantivo masculino
 gorrón/10 po:substantivo masculino
 gorxipo/10 po:substantivo masculino
-gosto/10 po:substantivo masculino
 gotarén/10 po:substantivo masculino
 goteo/10 po:substantivo masculino
 goto/10 po:substantivo masculino
@@ -32085,7 +31804,6 @@ guante/10 po:substantivo masculino
 gue/10 po:substantivo masculino
 guecho/10 po:substantivo masculino
 guedello/10 po:substantivo masculino
-gueipo/10 po:substantivo masculino
 gueldo/10 po:substantivo masculino
 gueto/10 po:substantivo masculino
 guiceiro/10 po:substantivo masculino
@@ -32159,7 +31877,6 @@ hemiedro/10 po:substantivo masculino
 hemisferio/10 po:substantivo masculino
 hemistiquio/10 po:substantivo masculino
 hemotórax po:substantivo masculino
-henrio/10 po:substantivo masculino
 henry/10 po:substantivo masculino
 heptacordo/10 po:substantivo masculino
 heptaedro/10 po:substantivo masculino
@@ -32169,7 +31886,6 @@ heraldo/10 po:substantivo masculino
 herbal/12 po:substantivo masculino
 herbario/10 po:substantivo masculino
 herbeiro/10 po:substantivo masculino
-hercio/10 po:substantivo masculino
 hércules po:substantivo masculino
 herdo/10 po:substantivo masculino
 hermafroditismo/10 po:substantivo masculino
@@ -32511,7 +32227,6 @@ khi/10 po:substantivo masculino
 kibbutz/10 po:substantivo masculino
 kirsch/10 po:substantivo masculino
 kiwi/10 po:substantivo masculino
-koala/10 po:substantivo masculino
 kolkhoz/10 po:substantivo masculino
 kopeck/10 po:substantivo masculino
 kremlin/10 po:substantivo masculino
@@ -32588,7 +32303,6 @@ landgrave/10 po:substantivo masculino
 landgraviato/10 po:substantivo masculino
 landó/10 po:substantivo masculino
 langor/10 po:substantivo masculino
-langostino/10 po:substantivo masculino
 laño/10 po:substantivo masculino
 lantano/10 po:substantivo masculino
 lanzacabos po:substantivo masculino
@@ -32668,7 +32382,6 @@ leitmotiv/10 po:substantivo masculino
 leito/10 po:substantivo masculino
 leitón/10 po:substantivo masculino
 leixaprén/10 po:substantivo masculino
-leixarigo/10 po:substantivo masculino
 leixenzo/10 po:substantivo masculino
 lema/10 po:substantivo masculino
 leme/10 po:substantivo masculino
@@ -32723,7 +32436,6 @@ lied/10 po:substantivo masculino
 ligamento/10 po:substantivo masculino
 ligante/10 po:substantivo masculino
 lignito/10 po:substantivo masculino
-ligón/10 po:substantivo masculino
 ligustro/10 po:substantivo masculino
 limaco/10 po:substantivo masculino
 limatón/10 po:substantivo masculino
@@ -32749,7 +32461,6 @@ linfoma/10 po:substantivo masculino
 linga/10 po:substantivo masculino
 lingote/10 po:substantivo masculino
 linguado/10 po:substantivo masculino
-lingueirón/10 po:substantivo masculino
 linimento/10 po:substantivo masculino
 liño/10 po:substantivo masculino
 liñó/10 po:substantivo masculino
@@ -32782,8 +32493,6 @@ lizo/10 po:substantivo masculino
 ll/10 po:substantivo masculino
 lo/10 po:substantivo masculino
 lobado/10 po:substantivo masculino
-lobato/10 po:substantivo masculino
-lobete/10 po:substantivo masculino
 lobeto/10 po:substantivo masculino
 lobicán/10 po:substantivo masculino
 lobiño/10 po:substantivo masculino
@@ -32928,8 +32637,6 @@ malestar/10 po:substantivo masculino
 maleteiro/10 po:substantivo masculino
 maletín/10 po:substantivo masculino
 malfeito/10 po:substantivo masculino
-malhumor/10 po:substantivo masculino
-malladeiro/10 po:substantivo masculino
 malladoiro/10 po:substantivo masculino
 mallante/10 po:substantivo masculino
 malle/10 po:substantivo masculino
@@ -32973,7 +32680,6 @@ manípulo/10 po:substantivo masculino
 maniqueísmo/10 po:substantivo masculino
 manitú/10 po:substantivo masculino
 mañizo/10 po:substantivo masculino
-manle/10 po:substantivo masculino
 manlle/10 po:substantivo masculino
 manómetro/10 po:substantivo masculino
 mansío/10 po:substantivo masculino
@@ -33148,7 +32854,6 @@ melocotón/10 po:substantivo masculino
 melodrama/10 po:substantivo masculino
 meloeiro/10 po:substantivo masculino
 melón/10 po:substantivo masculino
-melro/10 po:substantivo masculino
 membro/10 po:substantivo masculino
 memento/10 po:substantivo masculino
 memorando/10 po:substantivo masculino
@@ -33170,7 +32875,6 @@ mentalismo/10 po:substantivo masculino
 mentol/12 po:substantivo masculino
 mentraste/10 po:substantivo masculino
 menú/10 po:substantivo masculino
-meón/10 po:substantivo masculino
 mequetrefe/10 po:substantivo masculino
 mercado/10 po:substantivo masculino
 mercantilismo/10 po:substantivo masculino
@@ -33277,7 +32981,6 @@ migallo/10 po:substantivo masculino
 mihrab/10 po:substantivo masculino
 mil/10 po:substantivo masculino
 milagre/10 po:substantivo masculino
-milde/10 po:substantivo masculino
 milenarismo/10 po:substantivo masculino
 milenio/10 po:substantivo masculino
 milfollas po:substantivo masculino
@@ -33310,7 +33013,6 @@ minifundismo/10 po:substantivo masculino
 minimalismo/10 po:substantivo masculino
 minio/10 po:substantivo masculino
 ministerio/10 po:substantivo masculino
-minle/10 po:substantivo masculino
 miño/10 po:substantivo masculino
 miñón/10 po:substantivo masculino
 minuendo/10 po:substantivo masculino
@@ -33375,8 +33077,6 @@ molde/10 po:substantivo masculino
 molete/10 po:substantivo masculino
 moletón/10 po:substantivo masculino
 molibdeno/10 po:substantivo masculino
-molido/10 po:substantivo masculino
-molime/10 po:substantivo masculino
 molinete/10 po:substantivo masculino
 molle/10 po:substantivo masculino
 mollo/10 po:substantivo masculino
@@ -33462,12 +33162,9 @@ morfo/10 po:substantivo masculino
 morico/10 po:substantivo masculino
 mormo/10 po:substantivo masculino
 mormonismo/10 po:substantivo masculino
-morodo/10 po:substantivo masculino
-morogo/10 po:substantivo masculino
 morollo/10 po:substantivo masculino
 morote/10 po:substantivo masculino
 morouzo/10 po:substantivo masculino
-morozo/10 po:substantivo masculino
 morrión/10 po:substantivo masculino
 morro/10 po:substantivo masculino
 morrón/10 po:substantivo masculino
@@ -33522,13 +33219,10 @@ municionamento/10 po:substantivo masculino
 municipalismo/10 po:substantivo masculino
 municipio/10 po:substantivo masculino
 muñico/10 po:substantivo masculino
-munxe/10 po:substantivo masculino
 muraño/10 po:substantivo masculino
 muriato/10 po:substantivo masculino
-muricego/10 po:substantivo masculino
 murmurio/10 po:substantivo masculino
 muro/10 po:substantivo masculino
-murrión/10 po:substantivo masculino
 mus/10 po:substantivo masculino
 músculo/10 po:substantivo masculino
 museo/10 po:substantivo masculino
@@ -33536,7 +33230,6 @@ mutacionismo/10 po:substantivo masculino
 mutismo/10 po:substantivo masculino
 mutualismo/10 po:substantivo masculino
 muxe/10 po:substantivo masculino
-muxo/10 po:substantivo masculino
 n po:substantivo masculino
 ñ po:substantivo masculino
 nabab/10 po:substantivo masculino
@@ -33544,7 +33237,6 @@ nabal/12 po:substantivo masculino
 nabegao/10 po:substantivo masculino
 nabiñeiro/10 po:substantivo masculino
 nabo/10 po:substantivo masculino
-nácar/10 po:substantivo masculino
 nacedoiro/10 po:substantivo masculino
 nacemento/10 po:substantivo masculino
 nacionalismo/10 po:substantivo masculino
@@ -33571,8 +33263,6 @@ nardo/10 po:substantivo masculino
 narguilé/10 po:substantivo masculino
 nariz/10 po:substantivo masculino
 narno/10 po:substantivo masculino
-nartello/10 po:substantivo masculino
-nártex po:substantivo masculino
 nártice/10 po:substantivo masculino
 narval/12 po:substantivo masculino
 nasardo/10 po:substantivo masculino
@@ -33658,11 +33348,9 @@ nielo/10 po:substantivo masculino
 nihilismo/10 po:substantivo masculino
 nimbo/10 po:substantivo masculino
 nimbostrato/10 po:substantivo masculino
-niñador/10 po:substantivo masculino
 niñeiro/10 po:substantivo masculino
 ninfeo/10 po:substantivo masculino
 niño/10 po:substantivo masculino
-nío/10 po:substantivo masculino
 niobio/10 po:substantivo masculino
 níquel/12 po:substantivo masculino
 nirvana/10 po:substantivo masculino
@@ -33711,7 +33399,6 @@ nosopai/10 po:substantivo masculino
 notariado/10 po:substantivo masculino
 noticiario/10 po:substantivo masculino
 noto/10 po:substantivo masculino
-noucho/10 po:substantivo masculino
 noucro/10 po:substantivo masculino
 nóumeno/10 po:substantivo masculino
 novecentismo/10 po:substantivo masculino
@@ -33723,9 +33410,7 @@ novío/10 po:substantivo masculino
 noxo/10 po:substantivo masculino
 ñandú/10 po:substantivo masculino
 ñu/10 po:substantivo masculino
-nubarrón/10 po:substantivo masculino
 nubeiro/10 po:substantivo masculino
-nuboeiro/10 po:substantivo masculino
 núcleo/10 po:substantivo masculino
 nucléolo/10 po:substantivo masculino
 nucleón/10 po:substantivo masculino
@@ -33793,7 +33478,6 @@ ofuscamento/10 po:substantivo masculino
 ogro/10 po:substantivo masculino
 ohm/10 po:substantivo masculino
 ohmímetro/10 po:substantivo masculino
-ohmio/10 po:substantivo masculino
 oídio/10 po:substantivo masculino
 oído/10 po:substantivo masculino
 oidor/10 po:substantivo masculino
@@ -33887,7 +33571,6 @@ ortógono/10 po:substantivo masculino
 orxal/12 po:substantivo masculino
 orxo/10 po:substantivo masculino
 orzamento/10 po:substantivo masculino
-orzón/10 po:substantivo masculino
 osario/10 po:substantivo masculino
 óscar/10 po:substantivo masculino
 oscilador/10 po:substantivo masculino
@@ -33962,7 +33645,6 @@ padexo/10 po:substantivo masculino
 padial/12 po:substantivo masculino
 padioleiro/10 po:substantivo masculino
 padrasto/10 po:substantivo masculino
-padrastro/10 po:substantivo masculino
 padre/10 po:substantivo masculino
 padriño/10 po:substantivo masculino
 padroádego/10 po:substantivo masculino
@@ -33975,7 +33657,6 @@ pago/10 po:substantivo masculino
 pagode/10 po:substantivo masculino
 pai/10 po:substantivo masculino
 paíño/10 po:substantivo masculino
-painoso/10 po:substantivo masculino
 paínzo/10 po:substantivo masculino
 paio/10 po:substantivo masculino
 pairo/10 po:substantivo masculino
@@ -34097,7 +33778,6 @@ paracaídas po:substantivo masculino
 paracaidismo/10 po:substantivo masculino
 parachoques po:substantivo masculino
 paracleto/10 po:substantivo masculino
-paradeiro/10 po:substantivo masculino
 paradigma/10 po:substantivo masculino
 paradoiro/10 po:substantivo masculino
 parador/10 po:substantivo masculino
@@ -34135,7 +33815,6 @@ parecer/10 po:substantivo masculino
 paredón/10 po:substantivo masculino
 parénquima/10 po:substantivo masculino
 parentesco/10 po:substantivo masculino
-pargo/10 po:substantivo masculino
 parhelio/10 po:substantivo masculino
 paridoiro/10 po:substantivo masculino
 paristallo/10 po:substantivo masculino
@@ -34301,7 +33980,6 @@ penalti/10 po:substantivo masculino
 pendallo/10 po:substantivo masculino
 pendello/10 po:substantivo masculino
 pendón/10 po:substantivo masculino
-pendullo/10 po:substantivo masculino
 péndulo/10 po:substantivo masculino
 pendulón/10 po:substantivo masculino
 pene/10 po:substantivo masculino
@@ -34331,7 +34009,6 @@ pentámetro/10 po:substantivo masculino
 pentano/10 po:substantivo masculino
 pentateuco/10 po:substantivo masculino
 péntatlon/10 po:substantivo masculino
-pente/10 po:substantivo masculino
 pentello/10 po:substantivo masculino
 pentotal/12 po:substantivo masculino
 peón/10 po:substantivo masculino
@@ -34416,7 +34093,6 @@ pescado/10 po:substantivo masculino
 pescante/10 po:substantivo masculino
 pescozo/10 po:substantivo masculino
 pescuño/10 po:substantivo masculino
-pesebre/10 po:substantivo masculino
 peselo/10 po:substantivo masculino
 pesimismo/10 po:substantivo masculino
 peso/10 po:substantivo masculino
@@ -34473,7 +34149,6 @@ picoto/10 po:substantivo masculino
 picouto/10 po:substantivo masculino
 picrato/10 po:substantivo masculino
 pictograma/10 po:substantivo masculino
-pieite/10 po:substantivo masculino
 pierrot/10 po:substantivo masculino
 pietismo/10 po:substantivo masculino
 piezómetro/10 po:substantivo masculino
@@ -34499,7 +34174,6 @@ pinchón/10 po:substantivo masculino
 piñeiral/12 po:substantivo masculino
 piñeiro/10 po:substantivo masculino
 pínfano/10 po:substantivo masculino
-ping-pong/10 po:substantivo masculino
 pingallo/10 po:substantivo masculino
 pingallón/10 po:substantivo masculino
 pingo/10 po:substantivo masculino
@@ -34664,7 +34338,6 @@ politeísmo/10 po:substantivo masculino
 poliuretano/10 po:substantivo masculino
 polivinilo/10 po:substantivo masculino
 polixenismo/10 po:substantivo masculino
-pollo/10 po:substantivo masculino
 polo/10 po:substantivo masculino
 polonio/10 po:substantivo masculino
 polpizo/10 po:substantivo masculino
@@ -34775,7 +34448,6 @@ prebostado/10 po:substantivo masculino
 preboste/10 po:substantivo masculino
 precapitalismo/10 po:substantivo masculino
 precepto/10 po:substantivo masculino
-preceuto/10 po:substantivo masculino
 precinto/10 po:substantivo masculino
 preciosismo/10 po:substantivo masculino
 precipicio/10 po:substantivo masculino
@@ -34821,7 +34493,6 @@ presoiro/10 po:substantivo masculino
 préstamo/10 po:substantivo masculino
 prestimonio/10 po:substantivo masculino
 prestixio/10 po:substantivo masculino
-presuño/10 po:substantivo masculino
 pretexto/10 po:substantivo masculino
 pretor/10 po:substantivo masculino
 pretorio/10 po:substantivo masculino
@@ -35032,7 +34703,6 @@ quilowatt/10 po:substantivo masculino
 quimismo/10 po:substantivo masculino
 quimo/10 po:substantivo masculino
 quimógrafo/10 po:substantivo masculino
-quimograma/10 po:substantivo masculino
 quimono/10 po:substantivo masculino
 quiñentismo/10 po:substantivo masculino
 quiñón/10 po:substantivo masculino
@@ -35125,7 +34795,6 @@ rancallo/10 po:substantivo masculino
 rancho/10 po:substantivo masculino
 rancor/10 po:substantivo masculino
 rango/10 po:substantivo masculino
-rangueiro/10 po:substantivo masculino
 raño/10 po:substantivo masculino
 rañorte/10 po:substantivo masculino
 ranqueiro/10 po:substantivo masculino
@@ -35153,9 +34822,7 @@ raspallo/10 po:substantivo masculino
 raspón/10 po:substantivo masculino
 rasquiño/10 po:substantivo masculino
 rasquizo/10 po:substantivo masculino
-rastrelo/10 po:substantivo masculino
 rastro/10 po:substantivo masculino
-rastrollo/10 po:substantivo masculino
 ratel/12 po:substantivo masculino
 rateo/10 po:substantivo masculino
 rato/10 po:substantivo masculino
@@ -35213,7 +34880,6 @@ receo/10 po:substantivo masculino
 receptáculo/10 po:substantivo masculino
 receso/10 po:substantivo masculino
 rechán/10 po:substantivo masculino
-rechazo/10 po:substantivo masculino
 recheo/10 po:substantivo masculino
 recho/10 po:substantivo masculino
 rechouchío/10 po:substantivo masculino
@@ -35222,14 +34888,12 @@ recibidor/10 po:substantivo masculino
 recibimento/10 po:substantivo masculino
 recibo/10 po:substantivo masculino
 recinto/10 po:substantivo masculino
-recío/10 po:substantivo masculino
 recipiente/10 po:substantivo masculino
 recitado/10 po:substantivo masculino
 recital/12 po:substantivo masculino
 reclamo/10 po:substantivo masculino
 reclinatorio/10 po:substantivo masculino
 recollemento/10 po:substantivo masculino
-recomenzo/10 po:substantivo masculino
 recomezo/10 po:substantivo masculino
 reconco/10 po:substantivo masculino
 recoñecemento/10 po:substantivo masculino
@@ -35363,7 +35027,6 @@ remuíño/10 po:substantivo masculino
 renacemento/10 po:substantivo masculino
 renacentismo/10 po:substantivo masculino
 renarte/10 po:substantivo masculino
-rencor/10 po:substantivo masculino
 rendemento/10 po:substantivo masculino
 rengue/10 po:substantivo masculino
 rengueiro/10 po:substantivo masculino
@@ -35451,7 +35114,6 @@ restrollo/10 po:substantivo masculino
 resultado/10 po:substantivo masculino
 resultando/10 po:substantivo masculino
 resumo/10 po:substantivo masculino
-resurximento/10 po:substantivo masculino
 retablo/10 po:substantivo masculino
 retallo/10 po:substantivo masculino
 retardo/10 po:substantivo masculino
@@ -35469,7 +35131,6 @@ retorno/10 po:substantivo masculino
 retorzón/10 po:substantivo masculino
 retracto/10 po:substantivo masculino
 retraemento/10 po:substantivo masculino
-retranqueo/10 po:substantivo masculino
 retrato/10 po:substantivo masculino
 retrete/10 po:substantivo masculino
 retrinco/10 po:substantivo masculino
@@ -35491,15 +35152,12 @@ revisteiro/10 po:substantivo masculino
 revocador/10 po:substantivo masculino
 revólver/10 po:substantivo masculino
 rexeitamento/10 po:substantivo masculino
-rexelo/10 po:substantivo masculino
 rexemento/10 po:substantivo masculino
 rexesto/10 po:substantivo masculino
 rexicidio/10 po:substantivo masculino
 réxime/10 po:substantivo masculino
-rexío/10 po:substantivo masculino
 rexionalismo/10 po:substantivo masculino
 rexistro/10 po:substantivo masculino
-rexón/10 po:substantivo masculino
 rexurdimento/10 po:substantivo masculino
 rexuvenecemento/10 po:substantivo masculino
 rezo/10 po:substantivo masculino
@@ -35523,7 +35181,6 @@ rincho/10 po:substantivo masculino
 rinchón/10 po:substantivo masculino
 rinencéfalo/10 po:substantivo masculino
 ring/10 po:substantivo masculino
-rinle/10 po:substantivo masculino
 rinoceronte/10 po:substantivo masculino
 rinoscopio/10 po:substantivo masculino
 río/10 po:substantivo masculino
@@ -35537,7 +35194,6 @@ ritmo/10 po:substantivo masculino
 rito/10 po:substantivo masculino
 ritualismo/10 po:substantivo masculino
 rixo/10 po:substantivo masculino
-rixón/10 po:substantivo masculino
 rizo/10 po:substantivo masculino
 rizobio/10 po:substantivo masculino
 rizoma/10 po:substantivo masculino
@@ -35552,7 +35208,6 @@ rocón/10 po:substantivo masculino
 rodaballo/10 po:substantivo masculino
 rodamento/10 po:substantivo masculino
 rodapé/10 po:substantivo masculino
-rodecio/10 po:substantivo masculino
 rodeiro/10 po:substantivo masculino
 rodeo/10 po:substantivo masculino
 rodete/10 po:substantivo masculino
@@ -35582,7 +35237,6 @@ rompemento/10 po:substantivo masculino
 ron/10 po:substantivo masculino
 ronco/10 po:substantivo masculino
 roncón/10 po:substantivo masculino
-rondador/10 po:substantivo masculino
 rondó/10 po:substantivo masculino
 ronquido/10 po:substantivo masculino
 ronquillo/10 po:substantivo masculino
@@ -35709,7 +35363,6 @@ salvavidas po:substantivo masculino
 salvaxismo/10 po:substantivo masculino
 salvoconduto/10 po:substantivo masculino
 sámago/10 po:substantivo masculino
-samargo/10 po:substantivo masculino
 samario/10 po:substantivo masculino
 sambenito/10 po:substantivo masculino
 sambernardo/10 po:substantivo masculino
@@ -35756,7 +35409,6 @@ sarcoma/10 po:substantivo masculino
 sarcoplasma/10 po:substantivo masculino
 sarcopto/10 po:substantivo masculino
 sardónix po:substantivo masculino
-sarego/10 po:substantivo masculino
 sargo/10 po:substantivo masculino
 sari/10 po:substantivo masculino
 sarillo/10 po:substantivo masculino
@@ -35805,7 +35457,6 @@ segrel/12 po:substantivo masculino
 seguimento/10 po:substantivo masculino
 segundo/10 po:substantivo masculino
 seirón/10 po:substantivo masculino
-seísmo/10 po:substantivo masculino
 seixal/12 po:substantivo masculino
 seixo/10 po:substantivo masculino
 selector/10 po:substantivo masculino
@@ -36136,7 +35787,6 @@ subtraendo/10 po:substantivo masculino
 suburbio/10 po:substantivo masculino
 subxectivismo/10 po:substantivo masculino
 subxénero/10 po:substantivo masculino
-sucalco/10 po:substantivo masculino
 sucedido/10 po:substantivo masculino
 suceso/10 po:substantivo masculino
 suco/10 po:substantivo masculino
@@ -36241,7 +35891,6 @@ talmud/10 po:substantivo masculino
 talo/10 po:substantivo masculino
 talón/10 po:substantivo masculino
 talonario/10 po:substantivo masculino
-talude/10 po:substantivo masculino
 talweg/10 po:substantivo masculino
 tamanco/10 po:substantivo masculino
 tamarindo/10 po:substantivo masculino
@@ -36251,7 +35900,6 @@ tamboril/12 po:substantivo masculino
 tamborileiro/10 po:substantivo masculino
 tambuche/10 po:substantivo masculino
 tambullo/10 po:substantivo masculino
-tamoeiro/10 po:substantivo masculino
 tampo/10 po:substantivo masculino
 tampón/10 po:substantivo masculino
 tanatorio/10 po:substantivo masculino
@@ -36400,7 +36048,6 @@ terebinto/10 po:substantivo masculino
 tergal/12 po:substantivo masculino
 termalismo/10 po:substantivo masculino
 termidor/10 po:substantivo masculino
-término/10 po:substantivo masculino
 termistor/10 po:substantivo masculino
 térmite/10 po:substantivo masculino
 termo/10 po:substantivo masculino
@@ -36466,7 +36113,6 @@ timbal/12 po:substantivo masculino
 timbre/10 po:substantivo masculino
 timo/10 po:substantivo masculino
 timol/12 po:substantivo masculino
-timón/10 po:substantivo masculino
 timpanismo/10 po:substantivo masculino
 tímpano/10 po:substantivo masculino
 tino/10 po:substantivo masculino
@@ -36584,7 +36230,6 @@ toucado/10 po:substantivo masculino
 toucador/10 po:substantivo masculino
 touciño/10 po:substantivo masculino
 toupello/10 po:substantivo masculino
-toupo/10 po:substantivo masculino
 touporroutou/10 po:substantivo masculino
 toural/12 po:substantivo masculino
 toureo/10 po:substantivo masculino
@@ -36608,7 +36253,6 @@ tracto/10 po:substantivo masculino
 tractor/10 po:substantivo masculino
 trade/10 po:substantivo masculino
 tradicionalismo/10 po:substantivo masculino
-trado/10 po:substantivo masculino
 tráfico/10 po:substantivo masculino
 tragacanto/10 po:substantivo masculino
 trago/10 po:substantivo masculino
@@ -36620,7 +36264,6 @@ trallón/10 po:substantivo masculino
 tralo/10 po:substantivo masculino
 tramado/10 po:substantivo masculino
 tramallo/10 po:substantivo masculino
-trambollo/10 po:substantivo masculino
 trámite/10 po:substantivo masculino
 tramo/10 po:substantivo masculino
 trampolín/10 po:substantivo masculino
@@ -36662,7 +36305,6 @@ traspase/10 po:substantivo masculino
 traspaso/10 po:substantivo masculino
 traspé/10 po:substantivo masculino
 traste/10 po:substantivo masculino
-trasto/10 po:substantivo masculino
 trastorno/10 po:substantivo masculino
 tratado/10 po:substantivo masculino
 tratamento/10 po:substantivo masculino
@@ -36709,7 +36351,6 @@ tríceps po:substantivo masculino
 triciclo/10 po:substantivo masculino
 tricio/10 po:substantivo masculino
 triclinio/10 po:substantivo masculino
-tricó/10 po:substantivo masculino
 tricocéfalo/10 po:substantivo masculino
 tricociste/10 po:substantivo masculino
 tricófito/10 po:substantivo masculino
@@ -36757,7 +36398,6 @@ tríscele/10 po:substantivo masculino
 trisco/10 po:substantivo masculino
 trismo/10 po:substantivo masculino
 triteísmo/10 po:substantivo masculino
-tritio/10 po:substantivo masculino
 tritón/10 po:substantivo masculino
 tritongo/10 po:substantivo masculino
 trítono/10 po:substantivo masculino
@@ -36785,7 +36425,6 @@ trombocito/10 po:substantivo masculino
 trombón/10 po:substantivo masculino
 trompazo/10 po:substantivo masculino
 trompeteiro/10 po:substantivo masculino
-trompo/10 po:substantivo masculino
 tronco/10 po:substantivo masculino
 tronido/10 po:substantivo masculino
 trono/10 po:substantivo masculino
@@ -36809,7 +36448,6 @@ truco/10 po:substantivo masculino
 trueiro/10 po:substantivo masculino
 truel/12 po:substantivo masculino
 truísmo/10 po:substantivo masculino
-trullo/10 po:substantivo masculino
 trunfo/10 po:substantivo masculino
 truque/10 po:substantivo masculino
 trust/10 po:substantivo masculino
@@ -36970,7 +36608,6 @@ vate/10 po:substantivo masculino
 váter/10 po:substantivo masculino
 vaticinio/10 po:substantivo masculino
 vatímetro/10 po:substantivo masculino
-vatio/10 po:substantivo masculino
 vaxinismo/10 po:substantivo masculino
 veado/10 po:substantivo masculino
 vector/10 po:substantivo masculino
@@ -37020,7 +36657,6 @@ verdor/10 po:substantivo masculino
 verdugo/10 po:substantivo masculino
 veredicto/10 po:substantivo masculino
 vergallo/10 po:substantivo masculino
-vergo/10 po:substantivo masculino
 veriño/10 po:substantivo masculino
 verismo/10 po:substantivo masculino
 verme/10 po:substantivo masculino
@@ -37036,13 +36672,11 @@ verrún/10 po:substantivo masculino
 versículo/10 po:substantivo masculino
 versilibrismo/10 po:substantivo masculino
 verso/10 po:substantivo masculino
-vertedeiro/10 po:substantivo masculino
 vertedoiro/10 po:substantivo masculino
 verticalismo/10 po:substantivo masculino
 vértice/10 po:substantivo masculino
 verticilastro/10 po:substantivo masculino
 verticilo/10 po:substantivo masculino
-vertido/10 po:substantivo masculino
 verxel/12 po:substantivo masculino
 vesadoiro/10 po:substantivo masculino
 veso/10 po:substantivo masculino
@@ -37149,7 +36783,6 @@ voltámetro/10 po:substantivo masculino
 voltampere/10 po:substantivo masculino
 volterianismo/10 po:substantivo masculino
 voltímetro/10 po:substantivo masculino
-voltio/10 po:substantivo masculino
 volume/10 po:substantivo masculino
 voluntariado/10 po:substantivo masculino
 voluntarismo/10 po:substantivo masculino
@@ -37181,13 +36814,11 @@ x po:substantivo masculino
 xa/10 po:substantivo masculino
 xabardo/10 po:substantivo masculino
 xabaril/12 po:substantivo masculino
-xabarín/10 po:substantivo masculino
 xabón/10 po:substantivo masculino
 xabre/10 po:substantivo masculino
 xabreador/10 po:substantivo masculino
 xabredo/10 po:substantivo masculino
 xabreiro/10 po:substantivo masculino
-xabrón/10 po:substantivo masculino
 xacarandá/10 po:substantivo masculino
 xacemento/10 po:substantivo masculino
 xacer/10 po:substantivo masculino
@@ -37208,7 +36839,6 @@ xantar/10 po:substantivo masculino
 xantoma/10 po:substantivo masculino
 xaque/10 po:substantivo masculino
 xaral/12 po:substantivo masculino
-xaramago/10 po:substantivo masculino
 xarampón/10 po:substantivo masculino
 xardín/10 po:substantivo masculino
 xardolo/10 po:substantivo masculino
@@ -37216,7 +36846,6 @@ xardón/10 po:substantivo masculino
 xario/10 po:substantivo masculino
 xarope/10 po:substantivo masculino
 xarrete/10 po:substantivo masculino
-xarro/10 po:substantivo masculino
 xasmín/10 po:substantivo masculino
 xaspe/10 po:substantivo masculino
 xateiro/10 po:substantivo masculino
@@ -37225,7 +36854,6 @@ xe/10 po:substantivo masculino
 xeado/10 po:substantivo masculino
 xeeiro/10 po:substantivo masculino
 xeito/10 po:substantivo masculino
-xeixo/10 po:substantivo masculino
 xel/10 po:substantivo masculino
 xemido/10 po:substantivo masculino
 xémini/10 po:substantivo masculino
@@ -37278,7 +36906,6 @@ xeso/10 po:substantivo masculino
 xestal/12 po:substantivo masculino
 xesto/10 po:substantivo masculino
 xesuitismo/10 po:substantivo masculino
-xexún/10 po:substantivo masculino
 xexuno/10 po:substantivo masculino
 xi/10 po:substantivo masculino
 xibardo/10 po:substantivo masculino
@@ -37293,7 +36920,6 @@ ximnosofista/10 po:substantivo masculino
 ximnoto/10 po:substantivo masculino
 xineceo/10 po:substantivo masculino
 xintoísmo/10 po:substantivo masculino
-xío/10 po:substantivo masculino
 xirasol/12 po:substantivo masculino
 xirgo/10 po:substantivo masculino
 xirín/10 po:substantivo masculino
@@ -37308,7 +36934,6 @@ xogo/10 po:substantivo masculino
 xograr/10 po:substantivo masculino
 xoguete/10 po:substantivo masculino
 xoio/10 po:substantivo masculino
-xollo/10 po:substantivo masculino
 xornal/12 po:substantivo masculino
 xornalismo/10 po:substantivo masculino
 xoves po:substantivo masculino
@@ -37321,7 +36946,6 @@ xugo/10 po:substantivo masculino
 xuízo/10 po:substantivo masculino
 xulepe/10 po:substantivo masculino
 xulgado/10 po:substantivo masculino
-xulio/10 po:substantivo masculino
 xullo/10 po:substantivo masculino
 xuncal/12 po:substantivo masculino
 xunco/10 po:substantivo masculino
@@ -37359,12 +36983,7 @@ zarapallo/10 po:substantivo masculino
 zarapello/10 po:substantivo masculino
 zarapetelo/10 po:substantivo masculino
 zarapico/10 po:substantivo masculino
-zarcelo/10 po:substantivo masculino
-zarralleiro/10 po:substantivo masculino
 zarro/10 po:substantivo masculino
-zarrote/10 po:substantivo masculino
-zarrulo/10 po:substantivo masculino
-zarrume/10 po:substantivo masculino
 zarzallo/10 po:substantivo masculino
 zátaro/10 po:substantivo masculino
 zeta/10 po:substantivo masculino
@@ -37386,12 +37005,10 @@ zopilote/10 po:substantivo masculino
 zoqueiro/10 po:substantivo masculino
 zoquete/10 po:substantivo masculino
 zoroastrismo/10 po:substantivo masculino
-zorollo/10 po:substantivo masculino
 zoscadoiro/10 po:substantivo masculino
 zóster/10 po:substantivo masculino
 zuavo/10 po:substantivo masculino
 zubón/10 po:substantivo masculino
-zudre/10 po:substantivo masculino
 zulo/10 po:substantivo masculino
 zume/10 po:substantivo masculino
 zuncho/10 po:substantivo masculino
@@ -38177,7 +37794,6 @@ sacando po:preposición
 salvante po:preposición
 sen po:preposición
 so po:preposición
-sobor po:preposición
 sobre po:preposición
 tras po:preposición
 xunta po:preposición
@@ -38254,7 +37870,6 @@ advido/10,15 po:participio / adxectivo
 advindo/10,15 po:participio / adxectivo
 afastado/10,15 po:participio / adxectivo
 afeito/10,15 po:participio / adxectivo
-afeminado/10 po:participio / adxectivo
 afervoado/10,15 po:participio / adxectivo
 afiado/10,15 po:participio / adxectivo
 agarimado/10,15 po:participio / adxectivo
@@ -38590,7 +38205,6 @@ requichado/10,15 po:participio / adxectivo
 resolto/10,15 po:participio / adxectivo
 retardado/10,15 po:participio / adxectivo
 retraído/10,15 po:participio / adxectivo
-retranqueado/10,15 po:participio / adxectivo
 revesgado/10,15 po:participio / adxectivo
 revirado/10,15 po:participio / adxectivo
 reviritado/10,15 po:participio / adxectivo
@@ -38984,7 +38598,6 @@ choqueiro/10,15 po:substantivo
 chouriceiro/10,15 po:substantivo
 chupatinta/10 po:substantivo
 churreiro/10,15 po:substantivo
-chutador/10,14 po:substantivo
 ciclista/10 po:substantivo
 cigarreiro/10,15 po:substantivo
 cineasta/10 po:substantivo
@@ -39209,7 +38822,6 @@ espiritista/10 po:substantivo
 espiritualista/10 po:substantivo
 esposo/10,15 po:substantivo
 esquiador/10,14 po:substantivo
-esquirol/12 po:substantivo
 estadista/10 po:substantivo
 estafador/10,14 po:substantivo
 estanqueiro/10,15 po:substantivo
@@ -39494,7 +39106,6 @@ misántropo/10,15 po:substantivo
 mistagogo/10,15 po:substantivo
 mitógrafo/10,15 po:substantivo
 mitólogo/10,15 po:substantivo
-mixo/10,15 po:substantivo
 modelador/10,14 po:substantivo
 modelista/10 po:substantivo
 modelo/10 po:substantivo
@@ -39765,7 +39376,6 @@ rosquilleiro/10,15 po:substantivo
 rufián/10,15 po:substantivo
 sacamoas po:substantivo
 sacrificador/10,14 po:substantivo
-sacristán/10,15 po:substantivo
 sacudidor/10,14 po:substantivo
 sacumeiro/10,15 po:substantivo
 sainetista/10 po:substantivo
@@ -40405,8 +40015,6 @@ pronto po:locución adverbial [n-grama: pronto, de]
 propósito po:locución adverbial [n-grama: propósito, a]
 propósito po:locución adverbial [n-grama: propósito, de]
 queimarroupa po:locución adverbial [n-grama: queimarroupa, a]
-querquena po:locución adverbial [n-grama: querquena, de]
-querquena po:locución adverbial [n-grama: querquena, en]
 rama po:locución adverbial [n-grama: rama, en]
 rapadas po:locución adverbial [n-grama: rapadas, ás]
 raro po:locución adverbial [n-grama: raro en raro, de]
@@ -40725,8 +40333,6 @@ abotoar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:abot�
 abotóar/666,202,222 st:abotoar ts:alomorfo abotoar transitiva / intransitiva
 aboubar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:abóubar
 abóubar/666,202,232 st:aboubar ts:alomorfo aboubar transitiva / pronominal
-aboucar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / amoucar=> al:abóucar
-abóucar/666,202,222 st:aboucar ts:alomorfo aboucar transitiva / intransitiva
 abouxar/200,201 po:verbo ts:transitiva VOLG: t al:abóuxar
 abóuxar/666,202 st:abouxar ts:alomorfo abouxar transitiva
 abovedar/200,201 po:verbo ts:transitiva VOLG: t al:abovédar
@@ -40767,8 +40373,6 @@ abundar/220,221 po:verbo ts:intransitiva VOLG: i al:abúndar
 abúndar/666,222 st:abundar ts:alomorfo abundar intransitiva
 aburar/200,201 po:verbo ts:transitiva VOLG: t al:abúrar
 abúrar/666,202 st:aburar ts:alomorfo aburar transitiva
-aburbullar/220,221 po:verbo ts:intransitiva VOLG: i / burbullar=> al:aburbúllar
-aburbúllar/666,222 st:aburbullar ts:alomorfo aburbullar intransitiva
 aburguesar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:aburguésar
 aburguésar/666,202,232 st:aburguesar ts:alomorfo aburguesar transitiva / pronominal
 abusar/220,221 po:verbo ts:intransitiva VOLG: i al:abúsar
@@ -40961,8 +40565,6 @@ acomodar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:acom�
 acomódar/666,202,232 st:acomodar ts:alomorfo acomodar transitiva / pronominal
 acompañar/200,201 po:verbo ts:transitiva VOLG: t al:acompáñar
 acompáñar/666,202 st:acompañar ts:alomorfo acompañar transitiva
-acompasar/200,201 po:verbo ts:transitiva VOLG: t / compasar=> al:acompásar
-acompásar/666,202 st:acompasar ts:alomorfo acompasar transitiva
 acomplexar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / [ks] al:acompléxar
 acompléxar/666,202,232 st:acomplexar ts:alomorfo acomplexar transitiva / pronominal
 aconchegar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:aconchégar
@@ -40980,8 +40582,6 @@ acordoar/200,201 po:verbo ts:transitiva VOLG: t al:acordóar
 acordóar/666,202 st:acordoar ts:alomorfo acordoar transitiva
 acornellar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:acornéllar
 acornéllar/666,202,232 st:acornellar ts:alomorfo acornellar transitiva / pronominal
-acortar/200,201 po:verbo ts:transitiva VOLG: t / acurtar=> al:acórtar
-acórtar/666,202 st:acortar ts:alomorfo acortar transitiva
 acortinar/200,201 po:verbo ts:transitiva VOLG: t al:acortínar
 acortínar/666,202 st:acortinar ts:alomorfo acortinar transitiva
 acosar/200,201 po:verbo ts:transitiva VOLG: t al:acósar
@@ -41052,8 +40652,6 @@ adiantar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronomi
 adiántar/666,202,222,232 st:adiantar ts:alomorfo adiantar transitiva / intransitiva / pronominal
 adiar/201 po:verbo ts:transitiva VOLG: t al:adíar
 adíar/666,200,202 st:adiar ts:alomorfo adiar transitiva
-adicar/200,201 po:verbo ts:transitiva VOLG: t / dedicar=> al:adícar
-adícar/666,202 st:adicar ts:alomorfo adicar transitiva
 adiviñar/200,201 po:verbo ts:transitiva VOLG: t al:adivíñar
 adivíñar/666,202 st:adiviñar ts:alomorfo adiviñar transitiva
 administrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:adminístrar
@@ -41110,8 +40708,6 @@ afectar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:aféc
 aféctar/666,202,222 st:afectar ts:alomorfo afectar transitiva / intransitiva
 afeitar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:aféitar
 aféitar/666,202,232 st:afeitar ts:alomorfo afeitar transitiva / pronominal
-afeminar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / efeminar=> al:afemínar
-afemínar/666,202,232 st:afeminar ts:alomorfo afeminar transitiva / pronominal
 aferrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:aférrar
 aférrar/666,202,232 st:aferrar ts:alomorfo aferrar transitiva / pronominal
 aferretar/200,201 po:verbo ts:transitiva VOLG: t al:aferrétar
@@ -41179,8 +40775,6 @@ afrontar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronomi
 afróntar/666,202,222,232 st:afrontar ts:alomorfo afrontar transitiva / intransitiva / pronominal
 afrouxar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:afróuxar
 afróuxar/666,202,222 st:afrouxar ts:alomorfo afrouxar transitiva / intransitiva
-afuar/201 po:verbo ts:transitiva VOLG: t / afungar=> al:afúar
-afúar/666,200,202 st:afuar ts:alomorfo afuar transitiva
 afumar/200,201 po:verbo ts:transitiva VOLG: t / lat 'funis' 'corda' al:afúmar
 afumar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / fume al:afúmar
 afúmar/666,202,232 st:afumar st:afumartransitiva / pronominal afumar st: is:
@@ -41239,8 +40833,6 @@ agráciar/666,202 st:agraciar ts:alomorfo agraciar transitiva
 agradar/200,201 po:verbo ts:transitiva VOLG: t / grade al:agrádar
 agradar/220,221 po:verbo ts:intransitiva VOLG: i / grado al:agrádar
 agrádar/666,202,222 st:agradar st:agradartransitiva / intransitiva agradar st: is:
-agramar/200,201 po:verbo ts:transitiva VOLG: t / gramar=> al:agrámar
-agrámar/666,202 st:agramar ts:alomorfo agramar transitiva
 agramilar/200,201 po:verbo ts:transitiva VOLG: t al:agramílar
 agramílar/666,202 st:agramilar ts:alomorfo agramilar transitiva
 agrandar/200,201 po:verbo ts:transitiva VOLG: t al:agrándar
@@ -41280,8 +40872,6 @@ aguilloar/200,201 po:verbo ts:transitiva VOLG: t al:aguillóar
 aguillóar/666,202 st:aguilloar ts:alomorfo aguilloar transitiva
 agulletar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:agullétar
 agullétar/666,202,232 st:agulletar ts:alomorfo agulletar transitiva / pronominal
-agurgullar/220,221 po:verbo ts:intransitiva VOLG: i / gurgullar=> al:agurgúllar
-agurgúllar/666,222 st:agurgullar ts:alomorfo agurgullar intransitiva
 aguzar/200,201 po:verbo ts:transitiva VOLG: t al:agúzar
 agúzar/666,202 st:aguzar ts:alomorfo aguzar transitiva
 airear/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:airéar
@@ -41390,8 +40980,6 @@ alienar/200,201 po:verbo ts:transitiva VOLG: t al:aliénar
 aliénar/666,202 st:alienar ts:alomorfo alienar transitiva
 alimentar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:aliméntar
 aliméntar/666,202,222,232 st:alimentar ts:alomorfo alimentar transitiva / intransitiva / pronominal
-alimpar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr / limpar=> al:alímpar
-alímpar/666,202,222,232 st:alimpar ts:alomorfo alimpar transitiva / intransitiva / pronominal
 aliñar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:alíñar
 alíñar/666,202,232 st:aliñar ts:alomorfo aliñar transitiva / pronominal
 alindar/200,201 po:verbo ts:transitiva VOLG: t / linde al:alíndar
@@ -41547,16 +41135,10 @@ americanizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:a
 americanízar/666,202,232 st:americanizar ts:alomorfo americanizar transitiva / pronominal
 amestrar/200,201 po:verbo ts:transitiva VOLG: t al:améstrar
 améstrar/666,202 st:amestrar ts:alomorfo amestrar transitiva
-ametrallar/200,201 po:verbo ts:transitiva VOLG: t / metrallar=> al:ametrállar
-ametrállar/666,202 st:ametrallar ts:alomorfo ametrallar transitiva
 amidonar/200,201 po:verbo ts:transitiva VOLG: t al:amidónar
 amidónar/666,202 st:amidonar ts:alomorfo amidonar transitiva
 amigar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:amígar
 amígar/666,202,232 st:amigar ts:alomorfo amigar transitiva / pronominal
-aminorar/200,201 po:verbo ts:transitiva VOLG: t / minorar=> al:aminórar
-aminórar/666,202 st:aminorar ts:alomorfo aminorar transitiva
-amistar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / amigar=> al:amístar
-amístar/666,202,232 st:amistar ts:alomorfo amistar transitiva / pronominal
 amizar/220,221 po:verbo ts:intransitiva VOLG: i / escampar al:amízar
 amízar/666,222 st:amizar ts:alomorfo amizar intransitiva
 amnistiar/201 po:verbo ts:transitiva VOLG: t al:amnistíar
@@ -41995,12 +41577,6 @@ arquivar/200,201 po:verbo ts:transitiva VOLG: t al:arquívar
 arquívar/666,202 st:arquivar ts:alomorfo arquivar transitiva
 arrabar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:arrábar
 arrábar/666,202,222 st:arrabar ts:alomorfo arrabar transitiva / intransitiva
-arrabear/220,221 po:verbo ts:intransitiva VOLG: i / rabiar=> al:arrabéar
-arrabéar/666,222 st:arrabear ts:alomorfo arrabear intransitiva
-arrabuñar/200,201 po:verbo ts:transitiva VOLG: t / rabuñar=> al:arrabúñar
-arrabúñar/666,202 st:arrabuñar ts:alomorfo arrabuñar transitiva
-arraiar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / raiar2=> al:arráiar
-arráiar/666,202,222 st:arraiar ts:alomorfo arraiar transitiva / intransitiva
 arraigar/220,221,230,231 po:verbo ts:intransitiva / pronominal VOLG: i pr al:arráigar
 arráigar/666,222,232 st:arraigar ts:alomorfo arraigar intransitiva / pronominal
 arramplar/220,221 po:verbo ts:intransitiva VOLG: i al:arrámplar
@@ -42013,8 +41589,6 @@ arrandear/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:arra
 arrandéar/666,202,232 st:arrandear ts:alomorfo arrandear transitiva / pronominal
 arranxar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:arránxar
 arránxar/666,202,232 st:arranxar ts:alomorfo arranxar transitiva / pronominal
-arrapañar/200,201 po:verbo ts:transitiva VOLG: t / repañar=> al:arrapáñar
-arrapáñar/666,202 st:arrapañar ts:alomorfo arrapañar transitiva
 arrarar/200,201 po:verbo ts:transitiva VOLG: t al:arrárar
 arrárar/666,202 st:arrarar ts:alomorfo arrarar transitiva
 arrasar/200,201 po:verbo ts:transitiva VOLG: t al:arrásar
@@ -42031,14 +41605,8 @@ arrebátar/666,202 st:arrebatar ts:alomorfo arrebatar transitiva
 arrebolar/200,201 po:verbo ts:transitiva VOLG: t / < rebola al:arrebólar
 arrebolar/200,201 po:verbo ts:transitiva VOLG: t / < rebolo al:arrebólar
 arrebólar/666,202 st:arrebolar st:arrebolartransitiva arrebolar st: is:
-arrecadar/200,201 po:verbo ts:transitiva VOLG: t / recadar=> al:arrecádar
-arrecádar/666,202 st:arrecadar ts:alomorfo arrecadar transitiva
 arrecantar/200,201 po:verbo ts:transitiva VOLG: t al:arrecántar
 arrecántar/666,202 st:arrecantar ts:alomorfo arrecantar transitiva
-arreconchegar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / aconchegar=> al:arreconchégar
-arreconchégar/666,202,232 st:arreconchegar ts:alomorfo arreconchegar transitiva / pronominal
-arrecuar/221 po:verbo ts:intransitiva VOLG: i / recuar=> al:arrecúar
-arrecúar/666,220,222 st:arrecuar ts:alomorfo arrecuar intransitiva
 arrecunchar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:arrecúnchar
 arrecúnchar/666,202,232 st:arrecunchar ts:alomorfo arrecunchar transitiva / pronominal
 arredar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrédar
@@ -42048,8 +41616,6 @@ arredóndar/666,202 st:arredondar ts:alomorfo arredondar transitiva
 arrefriar/201,221,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrefríar
 arrefríar/666,200,202,220,222,230,232 st:arrefriar ts:alomorfo arrefriar transitiva / intransitiva / pronominal
 arregalar/200,201 po:verbo ts:transitiva VOLG: t al:arregálar
-arregálar/666,202 st:arregalar ts:alomorfo arregalar transitiva
-arregañar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / regañar=> al:arrégar
 arregar/200,201 po:verbo ts:transitiva VOLG: t al:arrégar
 arrégar/666,202 st:arregar st:arregañartransitiva arregar st: is:
 arregazar/200,201 po:verbo ts:transitiva VOLG: t al:arregázar
@@ -42079,24 +41645,16 @@ arremuíñar/666,230,232 st:arremuiñar ts:alomorfo arremuiñar pronominal
 arrendar/200,201 po:verbo ts:transitiva VOLG: t al:arréndar
 arrendar/200,201 po:verbo ts:transitiva VOLG: t / < renda al:arréndar
 arréndar/666,202 st:arrendar st:arrendartransitiva arrendar st: is:
-arrenegar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / renegar=> al:arrenégar
-arrenégar/666,202,222 st:arrenegar ts:alomorfo arrenegar transitiva / intransitiva
 arrenlar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrénlar
 arrénlar/666,202,222,232 st:arrenlar ts:alomorfo arrenlar transitiva / intransitiva / pronominal
-arrepañar/200,201 po:verbo ts:transitiva VOLG: t / repañar=> al:arrepáñar
-arrepáñar/666,202 st:arrepañar ts:alomorfo arrepañar transitiva
 arrepiar/201,221,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrepíar
 arrepíar/666,200,202,220,222,230,232 st:arrepiar ts:alomorfo arrepiar transitiva / intransitiva / pronominal
 arrepuiñar/201,221,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:arrepuíñar
 arrepuíñar/666,200,202,220,222,230,232 st:arrepuiñar ts:alomorfo arrepuiñar transitiva / intransitiva / pronominal
 arrequentar/200,201 po:verbo ts:transitiva VOLG: t al:arrequéntar
 arrequéntar/666,202 st:arrequentar ts:alomorfo arrequentar transitiva
-arrequichar/200,201 po:verbo ts:transitiva VOLG: t / requichar=> al:arrequíchar
-arrequíchar/666,202 st:arrequichar ts:alomorfo arrequichar transitiva
 arrestar/200,201 po:verbo ts:transitiva VOLG: t al:arréstar
 arréstar/666,202 st:arrestar ts:alomorfo arrestar transitiva
-arrestrelar/200,201 po:verbo ts:transitiva VOLG: t / restelar2=> al:arrestrélar
-arrestrélar/666,202 st:arrestrelar ts:alomorfo arrestrelar transitiva
 arretar/200,201 po:verbo ts:transitiva VOLG: t al:arrétar
 arrétar/666,202 st:arretar ts:alomorfo arretar transitiva
 arrexuntar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:arrexúntar
@@ -42166,8 +41724,6 @@ arrubiar/221,231 po:verbo ts:intransitiva / pronominal VOLG: i pr al:arrubíar
 arrubíar/666,200,222,230,232 st:arrubiar ts:alomorfo arrubiar intransitiva / pronominal
 arrufar/230,231 po:verbo ts:pronominal VOLG: pr al:arrúfar
 arrúfar/666,232 st:arrufar ts:alomorfo arrufar pronominal
-arrugar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / engurrar=> al:arrúgar
-arrúgar/666,202,232 st:arrugar ts:alomorfo arrugar transitiva / pronominal
 arruinar/201,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:arruínar
 arruínar/666,200,202,230,232 st:arruinar ts:alomorfo arruinar transitiva / pronominal
 arruñar/220,221 po:verbo ts:intransitiva VOLG: i al:arrúñar
@@ -42574,8 +42130,6 @@ azancar/220,221 po:verbo ts:intransitiva VOLG: i al:azarapállar
 azarapállar/666,222 st:azancar ts:alomorfo azancar intransitiva
 azazar/220,221 po:verbo ts:intransitiva VOLG: i al:azázar
 azázar/666,222 st:azazar ts:alomorfo azazar intransitiva
-azoar/200,201 po:verbo ts:transitiva VOLG: t / azuar=> al:azóar
-azóar/666,202 st:azoar ts:alomorfo azoar transitiva
 azorar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:azórar
 azórar/666,202,232 st:azorar ts:alomorfo azorar transitiva / pronominal
 azoroñar/220,221 po:verbo ts:intransitiva VOLG: i al:azoróñar
@@ -42776,8 +42330,6 @@ boquexar/220,221 po:verbo ts:intransitiva VOLG: i al:boquéxar
 boquéxar/666,222 st:boquexar ts:alomorfo boquexar intransitiva
 borboriñar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:borboríñar
 borboríñar/666,202,222 st:borboriñar ts:alomorfo borboriñar transitiva / intransitiva
-borbullar/220,221 po:verbo ts:intransitiva VOLG: i / burbullar=> al:borbúllar
-borbúllar/666,222 st:borbullar ts:alomorfo borbullar intransitiva
 bordar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:bórdar
 bórdar/666,202,222 st:bordar ts:alomorfo bordar transitiva / intransitiva
 bordear/200,201 po:verbo ts:transitiva VOLG: t al:bordéar
@@ -42940,8 +42492,6 @@ caldeirar/200,201 po:verbo ts:transitiva VOLG: t / caldeira2 al:caldéirar
 caldéirar/666,202 st:caldeirar ts:alomorfo caldeirar transitiva
 caldexar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:caldéxar
 caldéxar/666,202,222 st:caldexar ts:alomorfo caldexar transitiva / intransitiva
-caldullar/200,201 po:verbo ts:transitiva VOLG: t / cadullar=> al:caldúllar
-caldúllar/666,202 st:caldullar ts:alomorfo caldullar transitiva
 calear/200,201 po:verbo ts:transitiva VOLG: t / cal1 al:caléar
 calear/200,201 po:verbo ts:transitiva VOLG: t / cal2 al:caléar
 caléar/666,202 st:calear st:caleartransitiva calear st: is:
@@ -43167,10 +42717,6 @@ cerar/220,221 po:verbo ts:intransitiva VOLG: i / só das vacas al:cérar
 cérar/666,222 st:cerar ts:alomorfo cerar intransitiva
 cercar/200,201 po:verbo ts:transitiva VOLG: t al:cércar
 cércar/666,202 st:cercar ts:alomorfo cercar transitiva
-cercear/200,201 po:verbo ts:transitiva VOLG: t / acernar=> al:cercéar
-cercéar/666,202 st:cercear ts:alomorfo cercear transitiva
-cercellar/220,221 po:verbo ts:intransitiva VOLG: i / zarzallar=> al:cercéllar
-cercéllar/666,222 st:cercellar ts:alomorfo cercellar intransitiva
 cernar/200,201 po:verbo ts:transitiva VOLG: t al:cérnar
 cérnar/666,202 st:cernar ts:alomorfo cernar transitiva
 cerrallar/200,201 po:verbo ts:transitiva VOLG: t al:cerrállar
@@ -43199,10 +42745,8 @@ chámar/666,202,222,232 st:chamar ts:alomorfo chamar transitiva / intransitiva /
 chambricar/220,221 po:verbo ts:intransitiva VOLG: i al:chaméar
 chamear/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:chaméar
 chaméar/666,202,222 st:chamear st:chambricartransitiva / intransitiva chamear st: is:
-chamoscar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / chamuscar=> al:chámpar
-chamóscar/666,202,232 po:verbo ts:transitiva/ pronominal alomorfo al:chámparalomorfo al:chámpar
 champar/200,201 po:verbo ts:transitiva VOLG: t al:chámpar
-chámpar/666,202 st:champar st:chamóscar st: is:champar st: chamoscar
+chámpar/666,202 st:champar ts:alomorfo champar transitiva
 chamuscar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:chamúscar
 chamúscar/666,202,232 st:chamuscar ts:alomorfo chamuscar transitiva / pronominal
 chancear/230,231 po:verbo ts:pronominal VOLG: pr al:chancéar
@@ -43224,14 +42768,6 @@ chapinar/220,221 po:verbo ts:intransitiva VOLG: i / chapuzar al:chapínar
 chapínar/666,222 st:chapinar ts:alomorfo chapinar intransitiva
 chapodar/200,201 po:verbo ts:transitiva VOLG: t al:chapódar
 chapódar/666,202 st:chapodar ts:alomorfo chapodar transitiva
-chapozar/220,221 po:verbo ts:intransitiva VOLG: i / chapuzar=> al:chapózar
-chapózar/666,222 st:chapozar ts:alomorfo chapozar intransitiva
-chapucar/220,221 po:verbo ts:intransitiva VOLG: i / chapuzar=> al:chapúcar
-chapúcar/666,222 st:chapucar ts:alomorfo chapucar intransitiva
-chapugar/220,221 po:verbo ts:intransitiva VOLG: i / chapuzar=> al:chapúgar
-chapúgar/666,222 st:chapugar ts:alomorfo chapugar intransitiva
-chapurrar/220,221 po:verbo ts:intransitiva VOLG: i / chapuzar=> al:chapúrrar
-chapúrrar/666,222 st:chapurrar ts:alomorfo chapurrar intrasitivo
 chapurrear/200,201 po:verbo ts:transitiva VOLG: t / falar mal al:chapurréar
 chapurréar/666,202 st:chapurrear ts:alomorfo chapurrear transitiva
 chapuzar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr / salpicar chapinar al:chapúzar
@@ -43242,8 +42778,6 @@ charlar/220,221 po:verbo ts:intransitiva VOLG: i al:chárlar
 chárlar/666,222 st:charlar ts:alomorfo charlar intransitiva
 charlatanear/220,221 po:verbo ts:intransitiva VOLG: i al:charlatanéar
 charlatanéar/666,222 st:charlatanear ts:alomorfo charlatanear intransitiva
-charoar/200,201 po:verbo ts:transitiva VOLG: t / acharoar=> al:charóar
-charóar/666,202 st:charoar ts:alomorfo charoar transitiva
 charruar/201 po:verbo ts:transitiva VOLG: t al:charrúar
 charrúar/666,200,202 st:charruar ts:alomorfo charruar transitiva
 chascar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:cháscar
@@ -43268,8 +42802,6 @@ chicar/200,201 po:verbo ts:transitiva VOLG: t al:chícar
 chícar/666,202 st:chicar ts:alomorfo chicar transitiva
 chifrar/220,221 po:verbo ts:intransitiva VOLG: i al:chífrar
 chífrar/666,222 st:chifrar ts:alomorfo chifrar intransitiva
-chilrar/220,221 po:verbo ts:intransitiva VOLG: i / chirlar=> al:chílrar
-chílrar/666,222 st:chilrar ts:alomorfo chilrar intransitiva
 chimpar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t pr i al:chímpar
 chímpar/666,202,222,232 st:chimpar ts:alomorfo chimpar transitiva / intransitiva / pronominal
 chincar/200,201 po:verbo ts:transitiva VOLG: t al:chíncar
@@ -43321,12 +42853,8 @@ chupar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:chúpar
 chúpar/666,202,232 st:chupar ts:alomorfo chupar transitiva / pronominal
 chuscar/200,201 po:verbo ts:transitiva VOLG: t al:chúscar
 chúscar/666,202 st:chuscar ts:alomorfo chuscar transitiva
-chusgar/200,201 po:verbo ts:transitiva VOLG: t / chuscar=> al:chúsgar
-chúsgar/666,202 st:chusgar ts:alomorfo chusgar transitiva
 chusmigar/220,221 po:verbo ts:intransitiva VOLG: i al:chusmígar
 chusmígar/666,222 st:chusmigar ts:alomorfo chusmigar intransitiva
-chutar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / xutar=> al:chútar
-chútar/666,202,222 st:chutar ts:alomorfo chutar transitiva / intransitiva
 chuviñar/270,271 po:verbo ts:impersoal intransitiva VOLG: i al:chuvíñar
 chuvíñar/666,272 st:chuviñar ts:alomorfo chuviñar impersoal intransitiva
 chuviscar/270,271 po:verbo ts:impersoal intransitiva VOLG: i al:chuvíscar
@@ -43432,8 +42960,6 @@ cocar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:cócar
 cócar/666,202,232 st:cocar ts:alomorfo cocar transitiva / pronominal
 cociñar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:cocíñar
 cocíñar/666,202,222 st:cociñar ts:alomorfo cociñar transitiva / intransitiva
-cocorar/220,221 po:verbo ts:intransitiva VOLG: i / acocorar=> al:cocórar
-cocórar/666,222 st:cocorar ts:alomorfo cocorar intransitiva
 codificar/200,201 po:verbo ts:transitiva VOLG: t al:codifícar
 codifícar/666,202 st:codificar ts:alomorfo codificar transitiva
 cofar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:cófar
@@ -43493,8 +43019,6 @@ combinar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronomi
 combínar/666,202,222,232 st:combinar ts:alomorfo combinar transitiva / intransitiva / pronominal
 comentar/200,201 po:verbo ts:transitiva VOLG: t al:coméntar
 coméntar/666,202 st:comentar ts:alomorfo comentar transitiva
-comenzar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / comezar=> al:coménzar
-coménzar/666,202,222 st:comenzar ts:alomorfo comenzar transitiva / intransitiva
 comercializar/200,201 po:verbo ts:transitiva VOLG: t al:comercialízar
 comercialízar/666,202 st:comercializar ts:alomorfo comercializar transitiva
 comerciar/220,221 po:verbo ts:intransitiva VOLG: i al:comérciar
@@ -43579,8 +43103,6 @@ conculcar/200,201 po:verbo ts:transitiva VOLG: t al:concúlcar
 concúlcar/666,202 st:conculcar ts:alomorfo conculcar transitiva
 concursar/220,221 po:verbo ts:intransitiva VOLG: i al:concúrsar
 concúrsar/666,222 st:concursar ts:alomorfo concursar intransitiva
-condanar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / condenar=> al:condánar
-condánar/666,202,232 st:condanar ts:alomorfo condanar transitiva / pronominal
 condecorar/200,201 po:verbo ts:transitiva VOLG: t al:condecórar
 condecórar/666,202 st:condecorar ts:alomorfo condecorar transitiva
 condenar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:condénar
@@ -43641,8 +43163,6 @@ conmemorar/200,201 po:verbo ts:transitiva VOLG: t al:conmemórar
 conmemórar/666,202 st:conmemorar ts:alomorfo conmemorar transitiva
 conmensurar/200,201 po:verbo ts:transitiva VOLG: t al:conmensúrar
 conmensúrar/666,202 st:conmensurar ts:alomorfo conmensurar transitiva
-conminar/200,201 po:verbo ts:transitiva VOLG: t / cominar=> al:conmínar
-conmínar/666,202 st:conminar ts:alomorfo conminar transitiva
 conmocionar/200,201 po:verbo ts:transitiva VOLG: t al:conmociónar
 conmociónar/666,202 st:conmocionar ts:alomorfo conmocionar transitiva
 conmutar/200,201 po:verbo ts:transitiva VOLG: t al:conmútar
@@ -43872,8 +43392,6 @@ cronometrar/200,201 po:verbo ts:transitiva VOLG: t al:cronométrar
 cronométrar/666,202 st:cronometrar ts:alomorfo cronometrar transitiva
 crucificar/200,201 po:verbo ts:transitiva VOLG: t al:crucifícar
 crucifícar/666,202 st:crucificar ts:alomorfo crucificar transitiva
-cruñar/200,201 po:verbo ts:transitiva VOLG: t / cuñar=> al:crúñar
-crúñar/666,202 st:cruñar ts:alomorfo cruñar transitiva
 cruzar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:crúzar
 crúzar/666,202,232 st:cruzar ts:alomorfo cruzar transitiva / pronominal
 cuadricular/200,201 po:verbo ts:transitiva VOLG: t al:cuadricúlar
@@ -43892,8 +43410,6 @@ cucar/220,221 po:verbo ts:intransitiva VOLG: i al:cúcar
 cúcar/666,222 st:cucar ts:alomorfo cucar intransitiva
 cuestionar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:cuestiónar
 cuestiónar/666,202,232 st:cuestionar ts:alomorfo cuestionar transitiva / pronominal
-cuidar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr / coidar=> al:cuídar
-cuídar/666,202,222,232 st:cuidar ts:alomorfo cuidar transitiva / intransitiva / pronominal
 cuiñar/221 po:verbo ts:intransitiva VOLG: i al:cuíñar
 cuíñar/666,220,222 st:cuiñar ts:alomorfo cuiñar intransitiva
 cuincar/221 po:verbo ts:intransitiva VOLG: i al:cuíncar
@@ -44076,8 +43592,6 @@ delinear/200,201 po:verbo ts:transitiva VOLG: t al:delinéar
 delinéar/666,202 st:delinear ts:alomorfo delinear transitiva
 delirar/220,221 po:verbo ts:intransitiva VOLG: i al:delírar
 delírar/666,222 st:delirar ts:alomorfo delirar intransitiva
-deloirar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / delourar=> al:delóirar
-delóirar/666,202,222 st:deloirar ts:alomorfo deloirar transitiva / intransitiva
 delongar/200,201 po:verbo ts:transitiva VOLG: t al:delóngar
 delóngar/666,202 st:delongar ts:alomorfo delongar transitiva
 delourar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:delóurar
@@ -44150,8 +43664,6 @@ depurar/200,201 po:verbo ts:transitiva VOLG: t al:depúrar
 depúrar/666,202 st:depurar ts:alomorfo depurar transitiva
 derivar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:derívar
 derívar/666,202,222 st:derivar ts:alomorfo derivar transitiva / intransitiva
-derogar/200,201 po:verbo ts:transitiva VOLG: t / derrogar=> al:derógar
-derógar/666,202 st:derogar ts:alomorfo derogar transitiva
 derrafar/200,201 po:verbo ts:transitiva VOLG: t al:derráfar
 derráfar/666,202 st:derrafar ts:alomorfo derrafar transitiva
 derraigar/200,201 po:verbo ts:transitiva VOLG: t al:derráigar
@@ -44452,8 +43964,6 @@ desataviar/201,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desatavíar
 desatavíar/666,200,202,230,232 st:desataviar ts:alomorfo desataviar transitiva / pronominal
 desatoar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desatóar
 desatóar/666,202,232 st:desatoar ts:alomorfo desatoar transitiva / pronominal
-desatollar/200,201 po:verbo ts:transitiva VOLG: t / desatrollar=> al:desatóllar
-desatóllar/666,202 st:desatollar ts:alomorfo desatollar transitiva
 desatrabancar/200,201 po:verbo ts:transitiva VOLG: t al:desatrabáncar
 desatrabáncar/666,202 st:desatrabancar ts:alomorfo desatrabancar transitiva
 desatracar/200,201 po:verbo ts:transitiva VOLG: t al:desatrácar
@@ -44502,8 +44012,6 @@ desbravar/200,201 po:verbo ts:transitiva VOLG: t al:desbrávar
 desbrávar/666,202 st:desbravar ts:alomorfo desbravar transitiva
 desbridar/200,201 po:verbo ts:transitiva VOLG: t al:desbrídar
 desbrídar/666,202 st:desbridar ts:alomorfo desbridar transitiva
-desbullar/200,201 po:verbo ts:transitiva VOLG: t / debullar=> al:desbúllar
-desbúllar/666,202 st:desbullar ts:alomorfo desbullar transitiva
 descabalgar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:descabálgar
 descabálgar/666,202,222 st:descabalgar ts:alomorfo descabalgar transitiva / intransitiva
 descabezar/200,201 po:verbo ts:transitiva VOLG: t al:descabézar
@@ -44584,8 +44092,6 @@ desclasificar/200,201 po:verbo ts:transitiva VOLG: t al:desclasifícar
 desclasifícar/666,202 st:desclasificar ts:alomorfo desclasificar transitiva
 descoagular/200,201 po:verbo ts:transitiva VOLG: t al:descoagúlar
 descoagúlar/666,202 st:descoagular ts:alomorfo descoagular transitiva
-descocar/200,201 po:verbo ts:transitiva VOLG: t / descrocar2=> al:descócar
-descócar/666,202 st:descocar ts:alomorfo descocar transitiva
 descodificar/200,201 po:verbo ts:transitiva VOLG: t al:descodifícar
 descodifícar/666,202 st:descodificar ts:alomorfo descodificar transitiva
 descoidar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:descóidar
@@ -44644,8 +44150,6 @@ desconxuntar/200,201 po:verbo ts:transitiva VOLG: t al:desconxúntar
 desconxúntar/666,202 st:desconxuntar ts:alomorfo desconxuntar transitiva
 descorar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:descórar
 descórar/666,202,222 st:descorar ts:alomorfo descorar transitiva / intransitiva
-descordar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / escordar=> al:descórdar
-descórdar/666,202,232 st:descordar ts:alomorfo descordar transitiva / pronominal
 descoroar/200,201 po:verbo ts:transitiva VOLG: t al:descoróar
 descoróar/666,202 st:descoroar ts:alomorfo descoroar transitiva
 descortizar/200,201 po:verbo ts:transitiva VOLG: t al:descortízar
@@ -44669,8 +44173,6 @@ descualificar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:
 descualifícar/666,202,232 st:descualificar ts:alomorfo descualificar transitiva / pronominal
 desculpar/200,201 po:verbo ts:transitiva VOLG: t al:descúlpar
 descúlpar/666,202 st:desculpar ts:alomorfo desculpar transitiva
-desdeixar/230,231 po:verbo ts:pronominal VOLG: pr / desleixar=> al:desdéixar
-desdéixar/666,232 st:desdeixar ts:alomorfo desdeixar pronominal
 desdeñar/200,201 po:verbo ts:transitiva VOLG: t al:desdéñar
 desdéñar/666,202 st:desdeñar ts:alomorfo desdeñar transitiva
 desdentar/220,221 po:verbo ts:intransitiva VOLG: i al:desdéntar
@@ -45091,16 +44593,12 @@ desfillar/200,201 po:verbo ts:transitiva VOLG: t al:desfíllar
 desfíllar/666,202 st:desfillar ts:alomorfo desfillar transitiva
 desflorar/200,201 po:verbo ts:transitiva VOLG: t al:desflórar
 desflórar/666,202 st:desflorar ts:alomorfo desflorar transitiva
-desfollar/200,201 po:verbo ts:transitiva VOLG: t / esfollar=> al:desfóllar
-desfóllar/666,202 st:desfollar ts:alomorfo desfollar transitiva
 desfondar/200,201 po:verbo ts:transitiva VOLG: t al:desfóndar
 desfóndar/666,202 st:desfondar ts:alomorfo desfondar transitiva
 desforrar/200,201 po:verbo ts:transitiva VOLG: t al:desfórrar
 desfórrar/666,202 st:desforrar ts:alomorfo desforrar transitiva
 desfrear/200,201 po:verbo ts:transitiva VOLG: t al:desfréar
 desfréar/666,202 st:desfrear ts:alomorfo desfrear transitiva
-desfrutar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:desfrútar
-desfrútar/666,202,222 st:desfrutar ts:alomorfo desfrutar transitiva / intransitiva
 desgaleguizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desgaleguízar
 desgaleguízar/666,202,232 st:desgaleguizar ts:alomorfo desgaleguizar transitiva / pronominal
 desganar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desgánar
@@ -45202,8 +44700,6 @@ deslendiar/200,201 po:verbo ts:transitiva VOLG: t al:desléndiar
 desléndiar/666,202 st:deslendiar ts:alomorfo deslendiar transitiva
 deslexitimar/200,201 po:verbo ts:transitiva VOLG: t al:deslexitímar
 deslexitímar/666,202 st:deslexitimar ts:alomorfo deslexitimar transitiva
-desliar/201 po:verbo ts:transitiva VOLG: t / deslear=> al:deslíar
-deslíar/666,200,202 st:desliar ts:alomorfo desliar transitiva
 desligar/200,201 po:verbo ts:transitiva VOLG: t al:deslígar
 deslígar/666,202 st:desligar ts:alomorfo desligar transitiva
 deslindar/200,201 po:verbo ts:transitiva VOLG: t al:deslíndar
@@ -45218,8 +44714,6 @@ deslombar/200,201 po:verbo ts:transitiva VOLG: t al:deslómbar
 deslómbar/666,202 st:deslombar ts:alomorfo deslombar transitiva
 deslousar/200,201 po:verbo ts:transitiva VOLG: t al:deslóusar
 deslóusar/666,202 st:deslousar ts:alomorfo deslousar transitiva
-deslouvar/200,201 po:verbo ts:transitiva VOLG: t al:deslóuvar
-deslóuvar/666,202 st:deslouvar ts:alomorfo deslouvar transitiva
 deslustrar/200,201 po:verbo ts:transitiva VOLG: t al:deslústrar
 deslústrar/666,202 st:deslustrar ts:alomorfo deslustrar transitiva
 desmadeirar/200,201 po:verbo ts:transitiva VOLG: t al:desmadéirar
@@ -45260,14 +44754,10 @@ desmitificar/200,201 po:verbo ts:transitiva VOLG: t al:desmitifícar
 desmitifícar/666,202 st:desmitificar ts:alomorfo desmitificar transitiva
 desmiudar/201 po:verbo ts:transitiva VOLG: t al:desmiúdar
 desmiúdar/666,200,202 st:desmiudar ts:alomorfo desmiudar transitiva
-desmiuzar/201 po:verbo ts:transitiva VOLG: t / esmiuzar=> al:desmiúzar
-desmiúzar/666,200,202 st:desmiuzar ts:alomorfo desmiuzar transitiva
 desmobilizar/200,201 po:verbo ts:transitiva VOLG: t al:desmobilízar
 desmobilízar/666,202 st:desmobilizar ts:alomorfo desmobilizar transitiva
 desmoblar/200,201 po:verbo ts:transitiva VOLG: t al:desmóblar
 desmóblar/666,202 st:desmoblar ts:alomorfo desmoblar transitiva
-desmochar/200,201 po:verbo ts:transitiva VOLG: t / esmoucar=> al:desmóchar
-desmóchar/666,202 st:desmochar ts:alomorfo desmochar transitiva
 desmonetizar/200,201 po:verbo ts:transitiva VOLG: t al:desmonetízar
 desmonetízar/666,202 st:desmonetizar ts:alomorfo desmonetizar transitiva
 desmontar/200,201 po:verbo ts:transitiva VOLG: t / monte al:desmóntar
@@ -45275,8 +44765,6 @@ desmontar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronom
 desmóntar/666,202,222,232 st:desmontar st:desmontartransitiva / intransitiva / pronominal desmontar st: is:
 desmoralizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:desmoralízar
 desmoralízar/666,202,232 st:desmoralizar ts:alomorfo desmoralizar transitiva / pronominal
-desmoronar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / esborrallar=> al:desmorónar
-desmorónar/666,202,232 st:desmoronar ts:alomorfo desmoronar transitiva / pronominal
 desmouchar/200,201 po:verbo ts:transitiva VOLG: t al:desmóuchar
 desmóuchar/666,202 st:desmouchar ts:alomorfo desmouchar transitiva
 desnacionalizar/200,201 po:verbo ts:transitiva VOLG: t al:desnacionalízar
@@ -45367,24 +44855,16 @@ despenar/200,201 po:verbo ts:transitiva VOLG: t / as plumas al:despénar
 despénar/666,202 st:despenar ts:alomorfo despenar transitiva
 despendurar/200,201 po:verbo ts:transitiva VOLG: t al:despendúrar
 despendúrar/666,202 st:despendurar ts:alomorfo despendurar transitiva
-despentear/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / despeitear=> al:despentéar
-despentéar/666,202,232 st:despentear ts:alomorfo despentear transitiva / pronominal
 desperdiciar/200,201 po:verbo ts:transitiva VOLG: t al:desperdíciar
 desperdíciar/666,202 st:desperdiciar ts:alomorfo desperdiciar transitiva
 despersonalizar/200,201 po:verbo ts:transitiva VOLG: t al:despersonalízar
 despersonalízar/666,202 st:despersonalizar ts:alomorfo despersonalizar transitiva
-despertar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / espertar=> al:despértar
-despértar/666,202,222 st:despertar ts:alomorfo despertar transitiva / intransitiva
 despexar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:despéxar
 despéxar/666,202,222 st:despexar ts:alomorfo despexar transitiva / intransitiva
 despezar/200,201 po:verbo ts:transitiva VOLG: t al:despézar
 despézar/666,202 st:despezar ts:alomorfo despezar transitiva
-despieitar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / despeitear=> al:despiéitar
-despiéitar/666,202,232 st:despieitar ts:alomorfo despieitar transitiva / pronominal
 despintar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:despíntar
 despíntar/666,202,232 st:despintar ts:alomorfo despintar transitiva / pronominal
-despiollar/200,201 po:verbo ts:transitiva VOLG: t / espiollar=> al:despióllar
-despióllar/666,202 st:despiollar ts:alomorfo despiollar transitiva
 despistar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:despístar
 despístar/666,202,232 st:despistar ts:alomorfo despistar transitiva / pronominal
 desplumar/200,201 po:verbo ts:transitiva VOLG: t al:desplúmar
@@ -45828,8 +45308,6 @@ embriagar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:embr
 embriágar/666,202,232 st:embriagar ts:alomorfo embriagar transitiva / pronominal
 embridar/200,201 po:verbo ts:transitiva VOLG: t al:embrídar
 embrídar/666,202 st:embridar ts:alomorfo embridar transitiva
-embrocar/200,201 po:verbo ts:transitiva VOLG: t / envorcar=> al:embrócar
-embrócar/666,202 st:embrocar ts:alomorfo embrocar transititivo
 embrollar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:embróllar
 embróllar/666,202,232 st:embrollar ts:alomorfo embrollar transitiva / pronominal
 embruxar/200,201 po:verbo ts:transitiva VOLG: t al:embrúxar
@@ -45987,8 +45465,6 @@ emular/200,201 po:verbo ts:transitiva VOLG: t al:emúlar
 emúlar/666,202 st:emular ts:alomorfo emular transitiva
 emulsionar/200,201 po:verbo ts:transitiva VOLG: t al:emulsiónar
 emulsiónar/666,202 st:emulsionar ts:alomorfo emulsionar transitiva
-enamorar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / namorar=> al:enamórar
-enamórar/666,202,232 st:enamorar ts:alomorfo enamorar transitiva / pronominal
 enarar/200,201 po:verbo ts:transitiva VOLG: t al:enárar
 enárar/666,202 st:enarar ts:alomorfo enarar transitiva
 enarborar/200,201 po:verbo ts:transitiva VOLG: t al:enarbórar
@@ -46131,8 +45607,6 @@ enchourizar/200,201 po:verbo ts:transitiva VOLG: t al:enchourízar
 enchourízar/666,202 st:enchourizar ts:alomorfo enchourizar transitiva
 enchufar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:enchúfar
 enchúfar/666,202,232 st:enchufar ts:alomorfo enchufar transitiva / pronominal
-enciñar/200,201 po:verbo ts:transitiva VOLG: t / anciñar=> al:encíñar
-encíñar/666,202 st:enciñar ts:alomorfo enciñar transitiva
 encinchar/200,201 po:verbo ts:transitiva VOLG: t al:encínchar
 encínchar/666,202 st:encinchar ts:alomorfo encinchar transitiva
 encinsar/200,201 po:verbo ts:transitiva VOLG: t al:encínsar
@@ -46367,8 +45841,6 @@ engatillar/200,201 po:verbo ts:transitiva VOLG: t al:engatíllar
 engatíllar/666,202 st:engatillar ts:alomorfo engatillar transitiva
 engavelar/200,201 po:verbo ts:transitiva VOLG: t al:engavélar
 engavélar/666,202 st:engavelar ts:alomorfo engavelar transitiva
-engazar/200,201 po:verbo ts:transitiva VOLG: t / angazar=> al:engázar
-engázar/666,202 st:engazar ts:alomorfo engazar transitiva
 englobar/200,201 po:verbo ts:transitiva VOLG: t al:englóbar
 englóbar/666,202 st:englobar ts:alomorfo englobar transitiva
 engoldrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:engóldrar
@@ -46714,8 +46186,6 @@ enxordar/200,201 po:verbo ts:transitiva VOLG: t al:enxórdar
 enxórdar/666,202 st:enxordar ts:alomorfo enxordar transitiva
 enxugar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:enxúgar
 enxúgar/666,202,222 st:enxugar ts:alomorfo enxugar transitiva / intransitiva
-enxuizar/201 po:verbo ts:transitiva VOLG: t / axuizar=> al:enxuízar
-enxuízar/666,200,202 st:enxuizar ts:alomorfo enxuizar transitiva
 enzafallar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:enzafállar
 enzafállar/666,202,232 st:enzafallar ts:alomorfo enzafallar transitiva / pronominal
 enzafañar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:enzafáñar
@@ -47469,8 +46939,6 @@ exacular/200,201 po:verbo ts:transitiva VOLG: t al:exacúlar
 exacúlar/666,202 st:exacular ts:alomorfo exacular transitiva
 exaltar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / [ks] al:exáltar
 exáltar/666,202,232 st:exaltar ts:alomorfo exaltar transitiva / pronominal
-exalzar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / enxalzar=> al:exálzar
-exálzar/666,202,232 st:exalzar ts:alomorfo exalzar transitiva / pronominal
 examinar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / [ks] al:examínar
 examínar/666,202,232 st:examinar ts:alomorfo examinar transitiva / pronominal
 exasperar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / [ks] al:exaspérar
@@ -47645,8 +47113,6 @@ fartar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:fártar
 fártar/666,202,232 st:fartar ts:alomorfo fartar transitiva / pronominal
 fascinar/200,201 po:verbo ts:transitiva VOLG: t al:fascínar
 fascínar/666,202 st:fascinar ts:alomorfo fascinar transitiva
-fastidiar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / enfastiar=> al:fastídiar
-fastídiar/666,202,232 st:fastidiar ts:alomorfo fastidiar transitiva / pronominal
 fatigar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:fatígar
 fatígar/666,202,232 st:fatigar ts:alomorfo fatigar transitiva / pronominal
 fazar/230,231 po:verbo ts:pronominal VOLG: pr al:fázar
@@ -47756,8 +47222,6 @@ foguear/220,221 po:verbo ts:intransitiva VOLG: i / só i al:foguéar
 foguéar/666,222 st:foguear ts:alomorfo foguear intransitiva
 folear/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:foléar
 foléar/666,202,232 st:folear ts:alomorfo folear transitiva / pronominal
-folepar/270,271 po:verbo ts:impersoal intransitiva VOLG: i / folerpar=> al:folépar
-folépar/666,272 st:folepar ts:alomorfo folepar impersoal intransitiva
 folerpar/220,221 po:verbo ts:intransitiva VOLG: i al:folérpar
 folérpar/666,222 st:folerpar ts:alomorfo folerpar intransitiva
 folgar/220,221 po:verbo ts:intransitiva VOLG: i al:fólgar
@@ -47953,8 +47417,6 @@ garular/220,221 po:verbo ts:intransitiva VOLG: i al:garúlar
 garúlar/666,222 st:garular ts:alomorfo garular intransitiva
 gasear/200,201 po:verbo ts:transitiva VOLG: t al:gaséar
 gaséar/666,202 st:gasear ts:alomorfo gasear transitiva
-gaseificar/200,201 po:verbo ts:transitiva VOLG: t / gasificar=> al:gaseifícar
-gaseifícar/666,202 st:gaseificar ts:alomorfo gaseificar transitiva
 gasificar/200,201 po:verbo ts:transitiva VOLG: t al:gasifícar
 gasifícar/666,202 st:gasificar ts:alomorfo gasificar transitiva
 gastar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:gástar
@@ -47986,8 +47448,6 @@ golpear/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronomin
 golpéar/666,202,222,232 st:golpear ts:alomorfo golpear transitiva / intransitiva / pronominal
 golsar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:gólsar
 gólsar/666,202,222 st:golsar ts:alomorfo golsar transitiva / intransitiva
-gomar/220,221 po:verbo ts:intransitiva VOLG: i / agomar=> al:gómar
-gómar/666,222 st:gomar ts:alomorfo gomar intransitiva
 gorar/220,221 po:verbo ts:intransitiva VOLG: i al:górar
 górar/666,222 st:gorar st:gorarintransitiva gorar st: is:
 gorentar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:goréntar
@@ -47996,8 +47456,6 @@ gorgolexar/220,221 po:verbo ts:intransitiva VOLG: i al:gorgoléxar
 gorgoléxar/666,222 st:gorgolexar ts:alomorfo gorgolexar intransitiva
 gorlar/220,221 po:verbo ts:intransitiva VOLG: i al:górlar
 górlar/666,222 st:gorlar ts:alomorfo gorlar intransitiva
-gostar/220,221 po:verbo ts:intransitiva VOLG: i / gustar=> al:góstar
-góstar/666,222 st:gostar ts:alomorfo gostar intransitiva
 gotear/220,221 po:verbo ts:intransitiva VOLG: i al:gotéar
 gotéar/666,222 st:gotear ts:alomorfo gotear intransitiva
 gotexar/220,221 po:verbo ts:intransitiva VOLG: i al:gotéxar
@@ -48050,8 +47508,6 @@ gritar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: i t al:gríta
 grítar/666,202,222 st:gritar ts:alomorfo gritar transitiva / intransitiva
 grixar/220,221 po:verbo ts:intransitiva VOLG: i al:gríxar
 gríxar/666,222 st:grixar ts:alomorfo grixar intransitiva
-gruar/221 po:verbo ts:intransitiva VOLG: i / agruar=> al:grúar
-grúar/666,220,222 st:gruar ts:alomorfo gruar intransitiva
 guerrear/220,221 po:verbo ts:intransitiva VOLG: i al:guerréar
 guerréar/666,222 st:guerrear ts:alomorfo guerrear intransitiva
 guiar/201,221,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t pr i al:guíar
@@ -48591,8 +48047,6 @@ legar/200,201 po:verbo ts:transitiva VOLG: t al:légar
 légar/666,202 st:legar ts:alomorfo legar transitiva
 legrar/200,201 po:verbo ts:transitiva VOLG: t al:légrar
 légrar/666,202 st:legrar ts:alomorfo legrar transitiva
-leidar/220,221 po:verbo ts:intransitiva VOLG: i / levedar=> al:léidar
-léidar/666,222 st:leidar ts:alomorfo leidar intransitiva
 leirar/220,221 po:verbo ts:intransitiva VOLG: i al:léirar
 léirar/666,222 st:leirar ts:alomorfo leirar intransitiva
 lembrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:lémbrar
@@ -48619,8 +48073,6 @@ lexislar/220,221 po:verbo ts:intransitiva VOLG: i al:lexíslar
 lexíslar/666,222 st:lexislar ts:alomorfo lexislar intransitiva
 lexitimar/200,201 po:verbo ts:transitiva VOLG: t al:lexitímar
 lexitímar/666,202 st:lexitimar ts:alomorfo lexitimar transitiva
-liar/201,231 po:verbo ts:transitiva / pronominal VOLG: t pr / lear=> al:líar
-líar/666,200,202,230,232 st:liar ts:alomorfo liar transitiva / pronominal
 libar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:líbar
 líbar/666,202,222 st:libar ts:alomorfo libar transitiva / intransitiva
 liberalizar/200,201 po:verbo ts:transitiva VOLG: t al:liberalízar
@@ -48697,8 +48149,6 @@ lourear/220,221 po:verbo ts:intransitiva VOLG: i / louro al:louréar
 louréar/666,222 st:lourear ts:alomorfo lourear intransitiva
 lousar/200,201 po:verbo ts:transitiva VOLG: t al:lóusar
 lóusar/666,202 st:lousar ts:alomorfo lousar transitiva
-louvar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / loar=> al:lóuvar
-lóuvar/666,202,232 st:louvar ts:alomorfo louvar transitiva / pronominal
 lubricar/200,201 po:verbo ts:transitiva VOLG: t al:lubrícar
 lubrícar/666,202 st:lubricar ts:alomorfo lubricar transitiva
 lubrificar/200,201 po:verbo ts:transitiva VOLG: t al:lubrifícar
@@ -48719,8 +48169,6 @@ macelar/200,201 po:verbo ts:transitiva VOLG: t al:macélar
 macélar/666,202 st:macelar ts:alomorfo macelar transitiva
 macerar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:macérar
 macérar/666,202,222 st:macerar ts:alomorfo macerar transitiva / intransitiva
-machacar/200,201 po:verbo ts:transitiva VOLG: t / machucar=> al:machácar
-machácar/666,202 st:machacar ts:alomorfo machacar transitiva
 machicar/200,201 po:verbo ts:transitiva VOLG: t / mastigar al:machícar
 machícar/666,202 st:machicar ts:alomorfo machicar transitiva
 machucar/200,201 po:verbo ts:transitiva VOLG: t al:machúcar
@@ -48827,8 +48275,6 @@ marmexar/200,201 po:verbo ts:transitiva VOLG: t al:marméxar
 marméxar/666,202 st:marmexar ts:alomorfo marmexar transitiva
 marmorizar/200,201 po:verbo ts:transitiva VOLG: t al:marmorízar
 marmorízar/666,202 st:marmorizar ts:alomorfo marmorizar transitiva
-marmular/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / murmurar=> al:marmúlar
-marmúlar/666,202,222 transitiva / intransitiva alomorfo st:marmularalomorfoalomorfo st: is:
 marrar/200,201 po:verbo ts:transitiva VOLG: t al:márrar
 márrar/666,202 st:marrar ts:alomorfo marrar transitiva
 marrear/220,221 po:verbo ts:intransitiva VOLG: i al:marréar
@@ -49043,8 +48489,6 @@ mortificar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:mor
 mortifícar/666,202,232 st:mortificar ts:alomorfo mortificar transitiva / pronominal
 moscar/220,221 po:verbo ts:intransitiva VOLG: i al:móscar
 móscar/666,222 st:moscar ts:alomorfo moscar intransitiva
-mosquitar/200,201 po:verbo ts:transitiva VOLG: t / esmuxicar=> al:mosquítar
-mosquítar/666,202 st:mosquitar ts:alomorfo mosquitar transitiva
 mostrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:móstrar
 móstrar/666,202,232 st:mostrar ts:alomorfo mostrar transitiva / pronominal
 motivar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:motívar
@@ -49069,8 +48513,6 @@ multar/200,201 po:verbo ts:transitiva VOLG: t al:múltar
 múltar/666,202 st:multar ts:alomorfo multar transitiva
 multiplicar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:multiplícar
 multiplícar/666,202,232 st:multiplicar ts:alomorfo multiplicar transitiva / pronominal
-muñar/220,221 po:verbo ts:intransitiva VOLG: i / muar=> muíñar2=> al:múñar
-múñar/666,222 st:muñar ts:alomorfo muñar intransitiva
 municipalizar/200,201 po:verbo ts:transitiva VOLG: t al:municipalízar
 municipalízar/666,202 st:municipalizar ts:alomorfo municipalizar transitiva
 murar/200,201 po:verbo ts:transitiva VOLG: t / muro al:múrar
@@ -49142,10 +48584,6 @@ nifrar/220,221 po:verbo ts:intransitiva VOLG: i al:nífrar
 nífrar/666,222 st:nifrar ts:alomorfo nifrar intransitiva
 nimbar/200,201 po:verbo ts:transitiva VOLG: t al:nímbar
 nímbar/666,202 st:nimbar ts:alomorfo nimbar transitiva
-niñar/220,221 po:verbo ts:intransitiva VOLG: i / aniñar=> al:níñar
-níñar/666,222 st:niñar ts:alomorfo niñar intransitiva
-ninfrar/220,221 po:verbo ts:intransitiva VOLG: i / nifrar=> al:nínfrar
-nínfrar/666,222 st:ninfrar ts:alomorfo ninfrar intransitiva
 niquelar/200,201 po:verbo ts:transitiva VOLG: t al:niquélar
 niquélar/666,202 st:niquelar ts:alomorfo niquelar transitiva
 nivelar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:nivélar
@@ -49494,8 +48932,6 @@ peñorar/200,201 po:verbo ts:transitiva VOLG: t al:peñórar
 peñórar/666,202 st:peñorar ts:alomorfo peñorar transitiva
 pensar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:pénsar
 pénsar/666,202,222 st:pensar ts:alomorfo pensar transitiva / intransitiva
-pentear/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / peitear=> al:pentéar
-pentéar/666,202,232 st:pentear ts:alomorfo pentear transitiva / pronominal
 peonalizar/200,201 po:verbo ts:transitiva VOLG: t al:peonalízar
 peonalízar/666,202 st:peonalizar ts:alomorfo peonalizar transitiva
 peraltar/200,201 po:verbo ts:transitiva VOLG: t al:peráltar
@@ -49574,8 +49010,6 @@ piar/221 po:verbo ts:intransitiva VOLG: i al:píar
 píar/666,220,222 st:piar ts:alomorfo piar intransitiva
 picar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:pícar
 pícar/666,202,222,232 st:picar ts:alomorfo picar transitiva / intransitiva / pronominal
-pieitar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:piéitar
-piéitar/666,202,232 st:pieitar ts:alomorfo pieitar transitiva / pronominal
 pigmentar/200,201 po:verbo ts:transitiva VOLG: t al:pigméntar
 pigméntar/666,202 st:pigmentar ts:alomorfo pigmentar transitiva
 pillar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:píllar
@@ -49693,8 +49127,6 @@ practicar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:pra
 practícar/666,202,222 st:practicar ts:alomorfo practicar transitiva / intransitiva
 praguear/200,201 po:verbo ts:transitiva VOLG: t al:praguéar
 praguéar/666,202 st:praguear ts:alomorfo praguear transitiva
-pranar/200,201 po:verbo ts:transitiva VOLG: t / planar=> al:pránar
-pránar/666,202 st:pranar ts:alomorfo pranar transitiva
 pratear/200,201 po:verbo ts:transitiva VOLG: t al:pratéar
 pratéar/666,202 st:pratear ts:alomorfo pratear transitiva
 prear/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:préar
@@ -49993,8 +49425,6 @@ raspuñar/200,201 po:verbo ts:transitiva VOLG: t al:raspúñar
 raspúñar/666,202 st:raspuñar ts:alomorfo raspuñar transitiva
 rastrear/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rastréar
 rastréar/666,202,222 st:rastrear ts:alomorfo rastrear transitiva / intransitiva
-rastrelar/200,201 po:verbo ts:transitiva VOLG: t / restrelar=> al:rastrélar
-rastrélar/666,202 st:rastrelar ts:alomorfo rastrelar transitiva
 rastrexar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rastréxar
 rastréxar/666,202,222 st:rastrexar ts:alomorfo rastrexar transitiva / intransitiva
 rasurar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:rasúrar
@@ -50112,8 +49542,6 @@ receptar/200,201 po:verbo ts:transitiva VOLG: t al:recéptar
 recéptar/666,202 st:receptar ts:alomorfo receptar transitiva
 rechamar/220,221 po:verbo ts:intransitiva VOLG: i al:rechámar
 rechámar/666,222 st:rechamar ts:alomorfo rechamar intransitiva
-rechazar/200,201 po:verbo ts:transitiva VOLG: t / rexeitar=> al:recházar
-recházar/666,202 st:rechazar ts:alomorfo rechazar transitiva
 rechiar/221 po:verbo ts:intransitiva VOLG: i al:rechíar
 rechíar/666,220,222 st:rechiar ts:alomorfo rechiar intransitiva
 reciclar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:recíclar
@@ -50132,8 +49560,6 @@ recolocar/200,201 po:verbo ts:transitiva VOLG: t al:recolócar
 recolócar/666,202 st:recolocar ts:alomorfo recolocar transitiva
 recomendar/200,201 po:verbo ts:transitiva VOLG: t al:recoméndar
 recoméndar/666,202 st:recomendar ts:alomorfo recomendar transitiva
-recomenzar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / recomezar=> al:recoménzar
-recoménzar/666,202,222 st:recomenzar ts:alomorfo recomenzar transitiva / intransitiva
 recomezar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:recomézar
 recomézar/666,202,222 st:recomezar ts:alomorfo recomezar transitiva / intransitiva
 recompensar/200,201 po:verbo ts:transitiva VOLG: t al:recompénsar
@@ -50156,8 +49582,6 @@ recontar/200,201 po:verbo ts:transitiva VOLG: t al:recóntar
 recóntar/666,202 st:recontar ts:alomorfo recontar transitiva
 recopiar/200,201 po:verbo ts:transitiva VOLG: t al:recópiar
 recópiar/666,202 st:recopiar ts:alomorfo recopiar transitiva
-recopilar/200,201 po:verbo ts:transitiva VOLG: t / recompilar=> al:recópilar
-recópilar/666,202 st:recopilar ts:alomorfo recopilar transitiva
 recordar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:recórdar
 recórdar/666,202,222,232 st:recordar ts:alomorfo recordar transitiva / intransitiva / pronominal
 recortar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:recórtar
@@ -50368,8 +49792,6 @@ remarcar/200,201 po:verbo ts:transitiva VOLG: t al:remárcar
 remárcar/666,202 st:remarcar ts:alomorfo remarcar transitiva
 rematar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / auxiliar VOLG: t i al:remátar
 remátar/666,202,222,232 st:rematar ts:alomorfo rematar transitiva / intransitiva / auxiliar
-remedar/200,201 po:verbo ts:transitiva VOLG: t / arremedar=> al:remédar
-remédar/666,202 st:remedar ts:alomorfo remedar transitiva
 remediar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:remédiar
 remédiar/666,202,232 st:remediar ts:alomorfo remediar transitiva / pronominal
 remelar/200,201 po:verbo ts:transitiva VOLG: t al:remélar
@@ -50396,8 +49818,6 @@ remudar/200,201 po:verbo ts:transitiva VOLG: t al:remúdar
 remúdar/666,202 st:remudar ts:alomorfo remudar transitiva
 remunerar/200,201 po:verbo ts:transitiva VOLG: t al:remunérar
 remunérar/666,202 st:remunerar ts:alomorfo remunerar transitiva
-rendar/200,201 po:verbo ts:transitiva VOLG: t / arrendar2=> al:réndar
-réndar/666,202 st:rendar ts:alomorfo rendar transitiva
 renegar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:renégar
 renégar/666,202,222 st:renegar ts:alomorfo renegar transitiva / intransitiva
 renomear/200,201 po:verbo ts:transitiva VOLG: t al:renoméar
@@ -50556,8 +49976,6 @@ retornear/200,201 po:verbo ts:transitiva VOLG: t al:retornéar
 retornéar/666,202 st:retornear ts:alomorfo retornear transitiva
 retractar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:retráctar
 retráctar/666,202,232 st:retractar ts:alomorfo retractar transitiva / pronominal
-retranquear/200,201 po:verbo ts:transitiva VOLG: t / recuar=> al:retranquéar
-retranquéar/666,202 st:retranquear ts:alomorfo retranquear transitiva
 retratar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:retrátar
 retrátar/666,202,232 st:retratar ts:alomorfo retratar transitiva / pronominal
 retrincar/200,201 po:verbo ts:transitiva VOLG: t al:retríncar
@@ -50617,12 +50035,8 @@ rexistrar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:rex�
 rexístrar/666,202,232 st:rexistrar ts:alomorfo rexistrar transitiva / pronominal
 rexoubar/220,221 po:verbo ts:intransitiva VOLG: i al:rexóubar
 rexóubar/666,222 st:rexoubar ts:alomorfo rexoubar intransitiva
-rexuntar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr / arrexuntar=> al:rexúntar
-rexúntar/666,202,232 st:rexuntar ts:alomorfo rexuntar transitiva / pronominal
 rezar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rézar
 rézar/666,202,222 st:rezar ts:alomorfo rezar transitiva / intransitiva
-rezumar/220,221 po:verbo ts:intransitiva VOLG: i / zumegar=> al:rezúmar
-rezúmar/666,222 st:rezumar ts:alomorfo rezumar intransitiva
 ridiculizar/200,201 po:verbo ts:transitiva VOLG: t al:ridiculízar
 ridiculízar/666,202 st:ridiculizar ts:alomorfo ridiculizar transitiva
 rifar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: i t al:rífar
@@ -50653,12 +50067,8 @@ rodrigar/200,201 po:verbo ts:transitiva VOLG: t al:rodrígar
 rodrígar/666,202 st:rodrigar ts:alomorfo rodrigar transitiva
 rogar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:rógar
 rógar/666,202,222,232 st:rogar ts:alomorfo rogar transitiva / intransitiva / pronominal
-rolar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i / arrolar2=> al:rólar
-rólar/666,202,222 st:rolar ts:alomorfo rolar transitiva / intransitiva
 roldar/200,201 po:verbo ts:transitiva VOLG: t al:róldar
 róldar/666,202 st:roldar ts:alomorfo roldar transitiva
-rollar/200,201 po:verbo ts:transitiva VOLG: t / arrollar=> al:róllar
-róllar/666,201 st:rollar ts:alomorfo rollar transitiva
 romancear/200,201 po:verbo ts:transitiva VOLG: t al:romancéar
 romancéar/666,202 st:romancear ts:alomorfo romancear transitiva
 romanizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:romanízar
@@ -50673,8 +50083,6 @@ roncear/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:ronc�
 roncéar/666,202,222 st:roncear ts:alomorfo roncear transitiva / intransitiva
 roncexar/220,221 po:verbo ts:intransitiva VOLG: i al:roncéxar
 roncéxar/666,222 st:roncexar ts:alomorfo roncexar intransitiva
-rondar/200,201 po:verbo ts:transitiva VOLG: t / roldar=> al:róndar
-róndar/666,202 st:rondar ts:alomorfo rondar transitiva
 rosar/220,221 po:verbo ts:intransitiva VOLG: i / orballar al:rósar
 rósar/666,222 st:rosar ts:alomorfo rosar intransitiva
 roscar/200,201 po:verbo ts:transitiva VOLG: t al:róscar
@@ -50794,8 +50202,6 @@ saquear/200,201 po:verbo ts:transitiva VOLG: t al:saquéar
 saquéar/666,202 st:saquear ts:alomorfo saquear transitiva
 sarabiar/270,271 po:verbo ts:impersoal intransitiva VOLG: i al:sarábiar
 sarábiar/666,272 st:sarabiar ts:alomorfo sarabiar impersoal intransitiva
-saraibar/270,271 po:verbo ts:impersoal intransitiva VOLG: i / sarabiar=> al:saráibar
-saráibar/666,272 st:saraibar ts:alomorfo saraibar impersoal intransitiva
 satelizar/200,201 po:verbo ts:transitiva VOLG: t al:satelízar
 satelízar/666,202 st:satelizar ts:alomorfo satelizar transitiva
 satinar/200,201 po:verbo ts:transitiva VOLG: t al:satínar
@@ -50896,8 +50302,6 @@ sintonizar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:si
 sintonízar/666,202,222 st:sintonizar ts:alomorfo sintonizar transitiva / intransitiva
 sistematizar/200,201 po:verbo ts:transitiva VOLG: t al:sistematízar
 sistematízar/666,202 st:sistematizar ts:alomorfo sistematizar transitiva
-sitiar/200,201 po:verbo ts:transitiva VOLG: t / asediar=> cercar=> al:sítiar
-sítiar/666,202 st:sitiar ts:alomorfo sitiar transitiva
 situar/201,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:sitúar
 sitúar/666,200,202,230,232 st:situar ts:alomorfo situar transitiva / pronominal
 soar/220,221 po:verbo ts:intransitiva VOLG: i al:sóar
@@ -51068,8 +50472,6 @@ sulfitar/200,201 po:verbo ts:transitiva VOLG: t al:sulfítar
 sulfítar/666,202 st:sulfitar ts:alomorfo sulfitar transitiva
 sulfurar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:sulfúrar
 sulfúrar/666,202,232 st:sulfurar ts:alomorfo sulfurar transitiva / pronominal
-suliñar/200,201 po:verbo ts:transitiva VOLG: t / subliñar=> al:sulíñar
-sulíñar/666,202 st:suliñar ts:alomorfo suliñar transitiva
 sumar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:súmar
 súmar/666,202,232 st:sumar ts:alomorfo sumar transitiva / pronominal
 supeditar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:supedítar
@@ -51293,8 +50695,6 @@ trabucar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:trab�
 trabúcar/666,202,232 st:trabucar ts:alomorfo trabucar transitiva / pronominal
 tradear/200,201 po:verbo ts:transitiva VOLG: t al:tradéar
 tradéar/666,202 st:tradear ts:alomorfo tradear transitiva
-trafegar/200,201 po:verbo ts:transitiva VOLG: t / trasfegar=> al:trafégar
-trafégar/666,202 st:trafegar ts:alomorfo trafegar transitiva
 traficar/220,221 po:verbo ts:intransitiva VOLG: i al:trafícar
 trafícar/666,222 st:traficar ts:alomorfo traficar intransitiva
 trafulcar/220,221 po:verbo ts:intransitiva VOLG: i al:trafúlcar
@@ -51380,8 +50780,6 @@ trebellar/220,221 po:verbo ts:intransitiva VOLG: i al:trebéllar
 trebéllar/666,222 st:trebellar ts:alomorfo trebellar intransitiva
 trecolear/220,221 po:verbo ts:intransitiva VOLG: i al:trecoléar
 trecoléar/666,222 st:trecolear ts:alomorfo trecolear intransitiva
-tremar/220,221 po:verbo ts:intransitiva VOLG: i / tremer=> al:trémar
-trémar/666,222 st:tremar ts:alomorfo tremar intransitiva
 tremelar/220,221 po:verbo ts:intransitiva VOLG: i al:tremélar
 tremélar/666,222 st:tremelar ts:alomorfo tremelar intransitiva
 tremelicar/220,221 po:verbo ts:intransitiva VOLG: i al:tremelícar
@@ -51456,8 +50854,6 @@ trucidar/200,201 po:verbo ts:transitiva VOLG: t al:trucídar
 trucídar/666,202 st:trucidar ts:alomorfo trucidar transitiva
 trufar/200,201 po:verbo ts:transitiva VOLG: t al:trúfar
 trúfar/666,202 st:trufar ts:alomorfo trufar transitiva
-trullar/200,201 po:verbo ts:transitiva VOLG: t / trollar=> al:trúllar
-trúllar/666,202 st:trullar ts:alomorfo trullar transitiva
 truncar/200,201 po:verbo ts:transitiva VOLG: t al:trúncar
 trúncar/666,202 st:truncar ts:alomorfo truncar transitiva
 trunfar/220,221 po:verbo ts:intransitiva VOLG: i / xogo al:trúnfar
@@ -51466,8 +50862,6 @@ trusgar/200,201 po:verbo ts:transitiva VOLG: t / cf choscar al:trúsgar
 trúsgar/666,202 st:trusgar ts:alomorfo trusgar transitiva
 tuberculizar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:tuberculízar
 tuberculízar/666,202,232 st:tuberculizar ts:alomorfo tuberculizar transitiva / pronominal
-tumbar/200,201,220,221,2iñer30,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr / tombar=> al:túmbar
-túmbar/666,202,222,232 st:tumbar ts:alomorfo tumbar transitiva / intransitiva / pronominal
 turbar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:túrbar
 túrbar/666,202,232 st:turbar ts:alomorfo turbar transitiva / pronominal
 turbiar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:túrbiar
@@ -51488,8 +50882,6 @@ uliscar/200,201 po:verbo ts:transitiva VOLG: t al:ulíscar
 ulíscar/666,202 st:uliscar ts:alomorfo uliscar transitiva
 ultimar/200,201 po:verbo ts:transitiva VOLG: t al:ultímar
 ultímar/666,202 st:ultimar ts:alomorfo ultimar transitiva
-ultraxar/200,201 po:verbo ts:transitiva VOLG: t / aldraxar=> al:ultráxar
-ultráxar/666,202 st:ultraxar ts:alomorfo ultraxar transitiva
 uñar/220,221 po:verbo ts:intransitiva VOLG: i al:úñar
 úñar/666,222 st:uñar ts:alomorfo uñar intransitiva
 unificar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:unifícar
@@ -51769,14 +51161,8 @@ zarandear/200,201 po:verbo ts:transitiva VOLG: t al:zarandéar
 zarandéar/666,202 st:zarandear ts:alomorfo zarandear transitiva
 zarapallar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:zarapállar
 zarapállar/666,202,232 st:zarapallar ts:alomorfo zarapallar transitiva / pronominal
-zarcear/220,221 po:verbo ts:intransitiva VOLG: i / zarzallar=> al:zarcéar
-zarcéar/666,222 st:zarcear ts:alomorfo zarcear transitiva
-zarrallar/220,221 po:verbo ts:intransitiva VOLG: i / cerrallar=> al:zarrállar
-zarrállar/666,222 st:zarrallar ts:alomorfo zarrallar intransitiva
 zarrapicar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:zarrapícar
 zarrapícar/666,202,222,232 st:zarrapicar ts:alomorfo zarrapicar transitiva / intransitiva / pronominal
-zarrar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr / cerrar=> al:zárrar
-zárrar/666,202,222,232 st:zarrar ts:alomorfo zarrar transitiva / intransitiva / pronominal
 zarzallar/270,271 po:verbo ts:impersoal intransitiva VOLG: i al:zarzállar
 zarzállar/666,272 st:zarzallar ts:alomorfo zarzallar impersoal intransitiva
 zazamelear/220,221 po:verbo ts:intransitiva VOLG: i al:zazameléar
@@ -51905,8 +51291,6 @@ arborecer/410,411,412 po:verbo ts:intransitiva VOLG i al:arborécer
 arborécer/666,415 st:arborecer ts:alomorfo arborecer intransitiva
 arder/410,411,412 po:verbo ts:intransitiva VOLG i al:árder
 árder/666,415 st:arder ts:alomorfo arder intransitiva
-arrecender/410,411,412 po:verbo ts:intransitiva VOLG i recender=> al:arrecénder
-arrecénder/666,415 st:arrecender ts:alomorfo arrecender intransitiva
 arrecer/410,411,412 po:verbo ts:intransitiva VOLG i al:arrécer
 arrécer/666,415 st:arrecer ts:alomorfo arrecer intransitiva
 arrefecer/310,311,312,410,411,412 po:verbo ts:transitiva / intransitiva VOLG t i al:arrefécer
@@ -52071,7 +51455,6 @@ deber/310,311,312,410,411,412,510,511,512 po:verbo ts:transitiva / auxiliar VOLG
 déber/666,315,415,515 st:deber ts:alomorfo deber transitiva / auxiliar
 decaer/410,411,412 po:verbo ts:intransitiva VOLG i al:decáer
 decáer/666,415 st:decaer ts:alomorfo decaer intransitiva
-decer/368,468 po:verbo ts:defectivo transitiva / intransitiva VOLG t i dicir=>
 decorrer/410,411,412 po:verbo ts:intransitiva VOLG i al:decórrer
 decórrer/666,415 st:decorrer ts:alomorfo decorrer intransitiva
 decrecer/410,411,412 po:verbo ts:intransitiva VOLG i al:decrécer
@@ -52697,8 +52080,6 @@ provexer/666,326,526 st:prover ts:alomorfo prover transitiva / pronominal
 provéxer/666,342,542 st:prover ts:alomorfo prover transitiva / pronominal
 quecer/410,411,412 po:verbo ts:intransitiva VOLG i al:quécer
 quécer/666,415 st:quecer ts:alomorfo quecer intransitiva
-quencer/410,411,412 po:verbo ts:intransitiva VOLG i quecer=> al:quéncer
-quéncer/666,415 st:quencer ts:alomorfo quencer intransitiva
 querer/10,320,321,322,327,328,329,420,421,422,427,428,429 po:verbo ts:transitiva / intransitiva VOLG t i m al:quixer al:queirer al:quérer al:quíxer al:quéirer
 quixer/666,323,324,325,423,424,425 st:querer ts:alomorfo querer transitiva / intransitiva
 queirer/666,326,426 st:querer ts:alomorfo querer transitiva / intransitiva
@@ -52881,8 +52262,6 @@ socorrer/310,311,312 po:verbo ts:transitiva VOLG t al:socórrer
 socórrer/666,315 st:socorrer ts:alomorfo socorrer transitiva
 soerguer/310,311,312,510,511,512 po:verbo ts:transitiva / pronominal VOLG t pr al:soérguer
 soérguer/666,315,515 st:soerguer ts:alomorfo soerguer transitiva / pronominal
-sofrer/310,311,312,410,411,412 po:verbo ts:transitiva / intransitiva VOLG t i sufrir=> al:sófrer
-sófrer/666,315,415 st:sofrer ts:alomorfo sofrer transitiva / intransitiva
 somerxer/310,311,312,510,511,512 po:verbo ts:transitiva / pronominal VOLG t pr al:somérxer
 somérxer/666,315,515 st:somerxer ts:alomorfo somerxer transitiva / pronominal
 someter/310,311,312,510,511,512 po:verbo ts:transitiva / pronominal VOLG t pr al:sométer
@@ -52990,8 +52369,6 @@ xemer/410,411,412 po:verbo ts:intransitiva VOLG i al:xémer
 xémer/666,415 st:xemer ts:alomorfo xemer intransitiva
 xoecer/410,411,412 po:verbo ts:intransitiva VOLG i al:xoécer
 xoécer/666,415 st:xoecer ts:alomorfo xoecer intransitiva
-xoncer/310,311,312 po:verbo ts:transitiva VOLG t xunguir=> al:xóncer
-xóncer/666,315 st:xoncer ts:alomorfo xoncer transitiva
 xustapoñer/320,321,332,326,327,328,329 po:verbo ts:transitiva VOLG t al:xustapuxer al:xustapóñer al:xustapúxer
 xustapuxer/666,323,324,325 st:xustapoñer ts:alomorfo xustapoñer transitiva
 xustapóñer/666,342 st:xustapoñer ts:alomorfo xustapoñer transitiva
@@ -53252,9 +52629,6 @@ desóuvir/666,607 st:desouvir ts:alomorfo desouvir transitiva
 despedir/600,620,800,820 po:verbo ts:transitiva / pronominal VOLG t pr al:despidir al:despídir
 despidir/666,621,623,821,823 st:despedir ts:alomorfo despedir transitiva / pronominal
 despídir/666,622,624,822,824 st:despedir ts:alomorfo despedir transitiva / pronominal
-despir/600,620,800,820 po:verbo ts:transitiva / pronominal VOLG t pr espir=> al:dispir al:díspir
-dispir/666,621,623,821,823 st:despir ts:alomorfo despir transitiva / pronominal
-díspir/666,622,624,822,824 st:despir ts:alomorfo despir transitiva / pronominal
 desposuír/613 po:verbo ts:transitiva VOLG t
 despulir/600,614 po:verbo ts:transitiva VOLG t al:despúlir al:despolir al:despólir
 despúlir/666,615 st:despulir ts:alomorfo despulir transitiva
@@ -53273,9 +52647,6 @@ desunir/600,601,800,801 po:verbo ts:transitiva / pronominal VOLG t pr al:desúni
 desúnir/666,602,802 st:desunir ts:alomorfo desunir transitiva / pronominal
 desurdir/600,614 po:verbo ts:transitiva VOLG t al:desúrdir
 desúrdir/666,615 st:desurdir ts:alomorfo desurdir transitiva
-desvestir/600,620,800,820 po:verbo ts:transitiva / pronominal VOLG t pr espir=> al:desvistir al:desvístir
-desvistir/666,621,623,821,823 st:desvestir ts:alomorfo desvestir transitiva / pronominal
-desvístir/666,622,624,822,824 st:desvestir ts:alomorfo desvestir transitiva / pronominal
 desxunguir/600,614 po:verbo ts:transitiva VOLG t al:desxúnguir al:desxonguir al:desxónguir
 desxúnguir/666,615 st:desxunguir ts:alomorfo desxunguir transitiva
 desxonguir/666,616 st:desxunguir ts:alomorfo desxunguir transitiva
@@ -53481,7 +52852,6 @@ inhibir/600,601,800,801 po:verbo ts:transitiva / pronominal VOLG t pr al:inhíbi
 inhíbir/666,602,802 st:inhibir ts:alomorfo inhibir transitiva / pronominal
 inmiscir/600,601,800,801 po:verbo ts:transitiva / pronominal VOLG t pr al:inmíscir
 inmíscir/666,602,802 st:inmiscir ts:alomorfo inmiscir transitiva / pronominal
-inmiscuír/613,813 po:verbo ts:transitiva / pronominal VOLG t pr inmiscir=>
 inquirir/600,601 po:verbo ts:transitiva VOLG t al:inquírir
 inquírir/666,602 st:inquirir ts:alomorfo inquirir transitiva
 inscribir/600,601,800,801 po:verbo ts:transitiva / pronominal VOLG t pr al:inscríbir
@@ -53521,8 +52891,6 @@ lanxir/700,701 po:verbo ts:intransitiva VOLG i al:lánxir
 lánxir/666,702 st:lanxir ts:alomorfo lanxir intransitiva
 latir/700,701 po:verbo ts:intransitiva VOLG i ladrar e afín al:látir
 látir/666,702 st:latir ts:alomorfo latir intransitiva
-londrir/700,701 po:verbo ts:intransitiva VOLG i ludrir=> al:lóndrir
-lóndrir/666,702 st:londrir ts:alomorfo londrir intransitiva
 lucir/600,614,700,714,800,814 po:verbo ts:transitiva / intransitiva / pronominal VOLG t i pr al:lúcir al:locir al:lócir
 lúcir/666,615,715,815 st:lucir ts:alomorfo lucir transitiva / intransitiva / pronominal
 locir/666,616,716,816 st:lucir ts:alomorfo lucir transitiva / intransitiva / pronominal
@@ -53640,7 +53008,6 @@ prosíguir/666,624,724 st:proseguir ts:alomorfo proseguir transitiva / intransit
 prostituír/613,813 po:verbo ts:transitiva / pronominal VOLG t pr
 provir/740,741 po:verbo ts:intransitiva VOLG i al:proviñer
 proviñer/666,741,743,744 st:provir ts:alomorfo provir intransitiva
-pruír/713 po:verbo ts:intransitiva VOLG i proer=>
 puír/613 po:verbo ts:transitiva VOLG t
 pulir/600,614 po:verbo ts:transitiva VOLG t al:púlir al:polir al:pólir
 púlir/666,615 st:pulir ts:alomorfo pulir transitiva
@@ -53759,8 +53126,6 @@ restrinxir/600,601 po:verbo ts:transitiva VOLG t al:restrínxir
 restrínxir/666,602 st:restrinxir ts:alomorfo restrinxir transitiva
 resumir/600,601 po:verbo ts:transitiva VOLG t al:resúmir
 resúmir/666,602 st:resumir ts:alomorfo resumir transitiva
-resurxir/700,701 po:verbo ts:intransitiva VOLG i rexurdir=> al:rexúrdir
-rexúrdir/666,702 st:resurxir ts:alomorfo resurxir intransitiva
 retinguir/600,601 po:verbo ts:transitiva VOLG t al:retínguir
 retínguir/666,602 st:retinguir ts:alomorfo retinguir transitiva
 retinxir/600,601 po:verbo ts:transitiva VOLG t al:retínxir

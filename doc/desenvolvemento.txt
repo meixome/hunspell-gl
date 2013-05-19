@@ -1,52 +1,126 @@
-Esta páxina explica como colaborar no desenvolvemento do corrector de Hunspell para galego.
+Esta páxina explica como colaborar no desenvolvemento do corrector Hunspell para galego.
 
 Este documento céntrase nos aspectos de Hunspell que afectan directamente ao corrector para galego. Se busca información
 máis xeral sobre Hunspell, como por exemplo para facer uso de funcionalidades que actualmente non están a ser usadas no
-corrector de galego, pode botarlle un ollo á documentación xeral de Hunspell, que atopará en formato PDF na páxina de
-descargas do proxecto en SourceForge:
+corrector de galego, ou calquera funcionalidade que non estea explicada debidamente nesta documentación, pode botarlle
+un ollo á documentación xeral de Hunspell, que atopará en formato PDF na páxina de descargas do proxecto en SourceForge:
 
-    http://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/ 
-
-
-Ficheiro de regras de formación de palabras («.aff»)
-==================================================
-
-O ficheiro AFF define:
-- Opcións e parámetros de Hunspell para este corrector.
-- Regras para fornecer suxestións para palabras incorrectas.
-- Regras de formación de palabras a partir dos núcleos de palabras definidos no ficheiro «.dic».
+    http://sourceforge.net/projects/hunspell/files/Hunspell/Documentation/
 
 
-Ficheiro de núcleos de palabras («.dic»)
-========================================
-
-O ficheiro «.dic» contén as palabras correctas, que define asociándoas mediante códigos (definidos no ficheiro «.aff») a
-regras de formación de sufixos e prefixos.
 
 
-Ficheiro de suxestións para palabras incorrectas
-================================================
+Tipos de ficheiros
+==================
 
-Para detalles sobre a sintaxe das regras de substitución, véxase na documentación oficial de Hunspell o uso da palabra
-clave «REP».
+No código fonte do corrector Hunspell para galego existen tres tipos de ficheiro distintos:
 
-Téñase en conta que mentres que no ficheiro final de Hunspell as substitucións colócanse no ficheiro .aff co seguinte
-formato:
-    
-    REP <número de liñas de regras de substitución>
-    REP ^regla regra
-    REP ^sustitución substitución
-    
-Nas fontes do corrector Hunspell para galego, as suxestións defínense en ficheiros «.rep», e non é necesario —nin se
-debe— incluír nin unha liña co número de liñas, nin «REP » ao comezo de cada liña. É dicir, nas fontes do corrector o
-contido anterior escribiríase do seguinte xeito nun ficheiro «.rep»:
+    • Ficheiros de regras («.aff»).
+    • Ficheiros de vocabulario («.dic»).
+    • Ficheiros de suxestións («.rep»).
 
-    ^regla regra
-    ^sustitución substitución
-    
-    
-Conxugacións
-============
+        Nota: Aqueles familiarizados con Hunspell decataranse de que no corrector para galego temos un tipo de ficheiro
+        «de máis». Os ficheiros «.rep» conteñen as expresións «REP» que en Hunspell van no ficheiro «.aff».
+
+        Esta separación evítanos a necesidade de actualizar o número de regras de formación de suxestións (a primeira
+        orde «REP») cada vez que engadimos e eliminamos suxestións. Isto facilita o traballo distribuído no código fonte
+        do corrector, e ao mesmo tempo facilita a optimización dos ficheiros do corrector (fai doado evitar liñas
+        repetidas).
+
+        Unha vez construído, o corrector é un corrector Hunspell puro, cun ficheiro «.aff» e outro «.dic» (ningún
+        «.rep»).
+
+
+Ficheiros de regras de formación de palabras
+--------------------------------------------
+
+Os ficheiros «.aff» definen regras de formación de palabras mediante sufixos (principalmente) e prefixos. Para
+información sobre como funcionan ditas regras, é recomenable botarlle unha ollada a algún ficheiro «.aff» (por exemplo,
+«src/norma/regras.aff») e ir consultando a documentación oficial de Hunspell ao tempo que se estuda o ficheiro fonte.
+
+O ficheiro «src/norma/regras.aff», concretamente, contén ao principio unha serie de opcións e parámetros xerais de
+Hunspell que non teñen que ver coa formación de palabras. Porén, son opcións que, en principio, non debería facer falta
+modificar.
+
+No corrector Hunspell para galego, cada grupo de regras de sufixos (ou prefixos) leva asignado un código numérico. A
+continuación vai unha lista de intervalos de números reservados para os distintos módulos que fornecen regras de
+formación de palabras:
+
+    • norma:       0 → 1000
+    • unidades: 1001 → 1010
+    • transo:   1011 → 1020
+
+
+Ficheiros de vocabulario
+------------------------
+
+Os ficheiros «.dic» fornecen unha lista de núcleos de palabras, e asócianos a códigos de regras de formación de palabras
+(definidas en ficheiros «.aff»), e a información sobre a palabra. A sintaxe que se emprega é a seguinte:
+
+    <palabra>/<regra1>,<regra2>,<regra3> <información>
+
+Por exemplo, no caso de «palabra/s», a entrada no ficheiro de vocabulario sería a seguinte:
+
+    palabra/10 po:substantivo feminino
+
+Onde:
+
+    • «palabra» é o núcleo da palabra. Nótese que o concepto de núcleo de Hunspell («palabra») non ten nada que ver co
+    concepto lingüístico de lexema («palabr»).
+    • «10» é unha regra de formación de palabra. Concretamente, esta regra está definida en «src/norma/regras.aff», e
+    úsase para a formación do plural na meirande parte dos casos, aínda que existen máis regras para a formación do
+    plural noutro tipo de palabras (11, 12, 13). Para saber que regra usar, léanse os comentarios sobre a definición de
+    cada regra, nos ficheiros fonte das regras.
+    • «po:substantivo feminino» indica que a categoría gramatical da palabra e mailas palabras derivadas é «substantivo
+    feminino».
+
+Para máis información sobre os ficheiros de vocabulario, consúltese a documentación oficial de Hunspell.
+
+
+Ficheiros de suxestións
+-----------------------
+
+Os ficheiros «.rep» conteñen regras de formación de suxestións a partir de palabras incorrectas.
+
+Cando Hunspell se atopa cunha palabra incorrecta, e o usuario solicita suxestións para corrixila, Hunspell aplícalle á
+palabra incorrecta unha serie de regras de substitución que resultan en novas palabras. Se esas novas palabras son
+correctas, fornécense como suxestións.
+
+Por exemplo, unha regra de substitución pode ser:
+
+    y i
+
+Cando Hunspell se atopase coa palabra incorrecta «mayo», probaría a substituír o «y» por un «i», e como a palabra «maio»
+é correcta, forneceríaa como suxestión para substituír «mayo». Pero se Hunspell atopase a palabra incorrecta «myself»,
+como «miself» tampouco é correcta, a regra anterior non tería ningún efecto.
+
+Á hora de escribir regras de substitución, cómpre ter claro os seguintes puntos:
+
+    • As regras de substitución só poden ter dúas cadeas de caracteres, separadas por un espazo en branco. É dicir,
+    «<cadea> <cadea>». Máis cadeas supoñen unha regra incorrecta.
+
+    • A cadea orixinal (a parte incorrecta) só pode conter unha palabra, dado que Hunspell é un corrector ortográfico
+    (palabra por palabra) e non é capaz de analizar palabras en grupos. Por exemplo, non é posible definir unha regra
+    para suxerir «quid pro quo» como corrección para «cuid pro cúo». Aínda que sí poderían definirse unha regra para
+    suxerir «quid» como corrección para «cuid», e «quo» como corrección para «cúo».
+
+        Nota: Tamén hai que ter en conta que, para que o corrector considere correcta a expresión «quid pro quo», ten
+        que considerar correctas as tres palabras por separado: «quid», «pro» e «quo».
+
+    • Na cadea orixinal poden empregarse os símbolos ^ e $ para indicar o principio e o final dunha palabra
+    respectivamente. Por exemplo, «^im in» suxeriría «intocable» para substituír «imtocable», pero non suxeriría «sin»
+    para substituír «sim».
+
+    • Na cadea de substitución (a suxestión) si que é posible indicar espazos, pero debe usarse o guión baixo para tal
+    fin. Por exemplo, a regra pàra suxerir «vinte e cinco» como substitución para «vintecinco» sería «^vintecinco$
+    vinte_e_cinco».
+
+    • Por suposto, Hunspell non pode saber se unha palabra é correcta ou non segundo o contexto. Por exemplo, se ben o
+    uso de «abate» como substantivo é incorrecto, de nada serve fornecer unha regra de suxestión «abate → abade» xa que
+    «abate» é unha forma correcta do verbo «abater», e Hunspell considerará sempre como correcta a palabra.
+
+
+# Conxugacións verbais
 
 As regras de substitucións de verbos poden chegar ser bastante complicadas. Ás veces non abonda con fornecer o lexema
 do verbo incorrecto e mailo lexema do verbo correcto, senón que hai que considerar todas as posíbeis conxugacións que
@@ -59,27 +133,41 @@ pantalla, poden comprobarse as diferencias entre combinacións de tempo e persoa
 diferencia real que hai entre elas.
 
 
-Limitacións
------------
+Módulos
+=======
 
-Cómpre ter en conta que certas substitucións, debido ás limitacións de Hunspell, non poden fornecerse neste ficheiro.
+O código fonte do corrector divídese en «módulos». Ao construír o corrector con SCons, indícanselle a SCons os módulos
+que se quere incluír no corrector, e SCons encárgase de mesturar o contido dos módulos e xerar un corrector.
 
-Concretamente, Hunspell non pode detectar como incorrectas —e por tanto tampouco fornecer suxestións— combinacións
-incorrectas de palabras, xa que Hunspell funciona palabra por palabra.
+Un módulo é ou ben un cartafol que contén un número calquera de ficheiros de calquera dos tres tipos definidos na
+sección anterior, ou ben un deses ficheiros (considerado sen a extensión). Por exemplo: «norma» (cartafol «src/norma»)
+é un módulo que contén á súa vez outro módulo, «regras» («src/norma/regras.aff»). En calquera dos casos, o ficheiro ou
+cartafol que é o módulo debe estar contido no cartafol «src» para que SCons poida recoñecelo.
 
-Porén, esta limitación de Hunspell afecta unicamente á detección de combinacións de palabras incorrectas. Si que é
-posíbel, ante unha palabra incorrecta, fornecer suxestións que inclúen varias palabras. Para representar os espazos no
-texto de substitución, empréganse guións baixos.
+    Nota: Non abonda con que o módulo estea en «src» para que o corrector se constrúa con el, ademais hai que indicarlle
+    a SCons que se quere incluír o módulo no corrector ao construílo. Véxase a axuda da instalación para máis
+    información.
 
-Por exemplo:
+Para referirnos a un módulo que está dentro doutro, xeralmente incluímos os nomes dos módulos pai separados por unha
+barra inclinada («/»). Por exemplo, para referirnos ao submódulo «regras» do módulo «norma» falaremos xeralmente de
+«norma/regras».
 
-    ^vinteún$ vinte_e_un
-    
-Esta regra de substitución suxire «vinte e un» para corrixir a palabra «vinteún».
+Á hora de crear módulos, pódese actuar con total liberdade, sempre que os ficheiros dos tres tipos descritos na sección
+anterior («.aff», «.dic» e «.rep») utilicen sempre esas extensións no seu nome de ficheiro.
 
-    Nota: os símbolos ^ e $ na cadea de substitución indican o «principio da palabra» e mailo «final da palabra»
-    respectivamente.
+Cando un módulo “cartafol” só contén un ficheiro dun certo tipo de ficheiro, o costume é chamarlle a ese ficheiro:
 
-Por suposto, Hunspell tampouco pode saber se unha palabra é correcta ou non segundo o contexto. Por exemplo, se ben o
-uso de «abate» como substantivo é incorrecto, de nada serve fornecer unha regra de suxestión «abate → abade» xa que
-«abate» é unha forma correcta do verbo «abater», e Hunspell considerará sempre como correcta a palabra.
+    • «regras.aff» se é un ficheiro de regras de formación de palabras.
+    • «vocabulario.dic» se é un ficheiro de vocabulario.
+    • «suxestións.rep» se é un ficheiro de suxestións.
+
+Así que se por exemplo creásemos un cartafol no directorio de ficheiros fontes que contivese unicamente un ficheiro de
+cada tipo, o recomendable sería que o seu contido fose:
+
+    • <nome do cartafol>
+        • regras.aff
+        • vocabulario.dic
+        • suxestións.rep
+
+Pero por suposto, isto non é máis que unha recomendación, e sempre que se respecten as extensións de ficheiro calquera
+nome debería de funcionar correctamente.
