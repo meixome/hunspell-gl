@@ -72,6 +72,12 @@ Módulos dispoñíbeis:
                     Santamarina Fernández, Antón e González González, Manuel (coord.)
                     Real Academia Galega / Instituto da Lingua Galega, 2004.
                     http://www.realacademiagalega.org/volga/
+                    
+                    Submódulos:
+                        
+                    correcto    Vocabulario correcto.
+                    
+                    tolerado    Vocabulario tolerado.
 
 
     REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
