@@ -94,9 +94,10 @@ def isNotUseless(line):
     """ Determina se a liña indicada ten algunha utilidade para o corrector, ou se pola contra se trata dunha liña que
         ten unicamente un comentario, ou se trata duña liña baleira.
     """
-    if line[0] == "#":
+    strippedLine = line.strip()
+    if strippedLine == "":
         return False
-    elif line.strip() == "":
+    elif strippedLine[0] == "#":
         return False
     else:
         return True
