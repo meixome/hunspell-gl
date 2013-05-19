@@ -48,7 +48,7 @@ formación de palabras:
 
     • norma:       0 → 1000
     • unidades: 1001 → 1010
-    • transo:   1011 → 1020
+    • trasno:   1011 → 1020
 
 
 Ficheiros de vocabulario
