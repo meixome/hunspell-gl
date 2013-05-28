@@ -58,6 +58,15 @@ Módulos dispoñíbeis:
     comunidade      Vocabulario da comunidade do corrector de galego Hunspell
                     Termos engadidos ao corrector sen indicar unha fonte que os apoie.
                     Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
+                    
+    galipedia       Galipedia
+                    http://gl.wikipedia.org/wiki/Portada
+                    
+                    Submódulos:
+                        
+                    • toponimia. Topónimos.
+                        • concellos. Nomes de concellos.
+                            • españa. Nomes de concellos de España.
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
@@ -79,9 +88,8 @@ Módulos dispoñíbeis:
                     
                     Submódulos:
                         
-                    correcto    Vocabulario correcto.
-                    
-                    tolerado    Vocabulario tolerado.
+                    • correcto. Vocabulario correcto.
+                    • tolerado. Vocabulario tolerado.
 
 
     REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
