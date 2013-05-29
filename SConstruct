@@ -5,8 +5,8 @@ import mmap, os, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma,unidades'
-defaultDic  = u'iso639,iso4217,unidades,volga'
-defaultRep  = u'norma,galipedia'
+defaultDic  = u'comunidade,iso639,iso4217,unidades,volga'
+defaultRep  = u'comunidade,norma,galipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -54,6 +54,10 @@ Módulos dispoñíbeis:
 
 
     DICIONARIOS DE NÚCLEOS DE PALABRAS
+    
+    comunidade      Vocabulario da comunidade do corrector de galego Hunspell
+                    Termos engadidos ao corrector sen indicar unha fonte que os apoie.
+                    Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
@@ -70,7 +74,7 @@ Módulos dispoñíbeis:
 
     volga           Vocabulario ortográfico da lingua galega
                     Santamarina Fernández, Antón e González González, Manuel (coord.)
-                    Real Academia Galega / Instituto da Lingua Galega, 2004.
+                    Real Academia Galega / Instituto da Lingua Galega, 2004
                     http://www.realacademiagalega.org/volga/
                     
                     Submódulos:
@@ -81,6 +85,10 @@ Módulos dispoñíbeis:
 
 
     REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
+    
+    comunidade      Suxestións da comunidade do corrector de galego Hunspell
+                    Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
+                    Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
 
     norma           Regras xerais de substitución
                     Pendentes de cambiar de módulo nun futuro próximo.
