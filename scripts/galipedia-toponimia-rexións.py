@@ -1,7 +1,22 @@
 # -*- coding:utf-8 -*-
 
-import codecs, pywikibot, re
+import codecs, pywikibot, re, sys
 
+
+
+def parseCountryName(name):
+
+    # Valores predeterminados.
+    categoryNames = set()
+    outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
+
+    if name in (u"Italia"):
+        categoryNames = (
+            u"Rexións de {name}".format(name=name),
+            u"Provincias de {name}".format(name=name)
+        )
+
+    return categoryNames, outputFileName
 
 
 def loadLocationsFromCategoryAndSubcategories(category):
@@ -31,16 +46,50 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
 # Lóxica principal:
 
-ngramasToIgnore = (u"A", u"Campo", u"Campos", u"de", u"do", u"Río", u"Ríos", u"San", u"Torre", u"Torres")
+if len(sys.argv) != 2:
+    print "A forma correcta de executar o script é:"
+    print "    galipedia-toponimia-rexións.py <estado>"
+    print
+    print "O estados que se saben compatíbeis son:"
+    print "    Italia."
+    sys.exit()
+
+categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
+
+ngramasToIgnore = (
+    # Nexos comúns.
+    u"A", u"As", u"O", u"Os", u"da", u"das", u"de", u"do", u"dos", u"e",
+
+    # Substantivos comúns correctos en galego.
+    u"Castelo", u"Castelos",
+    u"Costa", u"Costas",
+    u"Faro", u"Faros",
+    u"Nova", u"Novas", u"Novo", u"Novos",
+    u"Ponte", u"Pontes",
+    u"Porto", u"Portos",
+    u"Ribeira", u"Ribeiras",
+    u"San", u"Santa", u"Santas", u"Santo", u"Santos",
+    u"Torre", u"Torres",
+    u"Val", u"Vales",
+    u"Vila", u"Vilas"
+)
+
+namePrefixes = re.compile(u"Provincia( autónoma)? d(a|as|e|o|os) ")
+
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-category = pywikibot.Category(galipedia, u"Categoría:Concellos de España")
-invalidPagePattern = re.compile(u"^(Modelo:|Lista de (concellos|municipios)|Galería de escudos|Concellos )")
-validCategoryPattern = re.compile(u"^Categoría:Concellos ")
-loadLocationsFromCategoryAndSubcategories(category)
+invalidPagePattern = re.compile(u"^(Modelo:|Provincias d)")
+validCategoryPattern = re.compile(u"^Categoría:(Provincias) ")
+
+for categoryName in categoryNames:
+    loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
+
 
 dicFileContent = ""
 for name in sorted(locationNames):
+    match = namePrefixes.match(name)
+    if match:
+        name = name[len(match.group(0)):]
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
             if ngrama not in ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
@@ -48,5 +97,5 @@ for name in sorted(locationNames):
     else:
         dicFileContent += u"{name} po:topónimo\n".format(name=name)
 
-with codecs.open(u"españa.dic", u"w", u"utf-8") as fileObject:
+with codecs.open(outputFileName, u"w", u"utf-8") as fileObject:
     fileObject.write(dicFileContent)
