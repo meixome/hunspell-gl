@@ -65,8 +65,16 @@ Módulos dispoñíbeis:
                     Submódulos:
                         
                     • toponimia. Topónimos.
-                        • concellos. Nomes de concellos.
-                            • españa. Nomes de concellos de España.
+                        • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                            • españa
+                            • estados-unidos-de-américa
+                            • etiopía
+                            • méxico
+                            • portugal
+                            • reino-unido
+                        • lugares. Nomes de lugares. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                            • galicia.
+                        • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
