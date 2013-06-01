@@ -321,7 +321,7 @@ def getFilenamesFromFileEntriesWithMatchingExtensions(fileEntries, extensionList
     """
     filenames = []
     for fileEntry in fileEntries:
-        filename = unicode(fileEntry)
+        filename = str(fileEntry)
         if filename[-4:] in extensionList:
             filenames.append(filename)
     return filenames
