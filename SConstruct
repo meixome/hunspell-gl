@@ -6,7 +6,7 @@ import mmap, os, re, subprocess
 
 defaultAff  = u'norma,unidades'
 defaultDic  = u'comunidade,iso639,iso4217,unidades,volga'
-defaultRep  = u'comunidade,norma,galipedia'
+defaultRep  = u'comunidade,galipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -105,9 +105,6 @@ Módulos dispoñíbeis:
     comunidade      Suxestións da comunidade do corrector de galego Hunspell
                     Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
                     Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
-
-    norma           Regras xerais de substitución
-                    Pendentes de cambiar de módulo nun futuro próximo.
 
     galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
                     http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
