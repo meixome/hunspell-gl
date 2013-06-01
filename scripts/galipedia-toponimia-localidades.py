@@ -7,27 +7,27 @@ import codecs, pywikibot, re, sys
 def parseCountryName(name):
 
     # Valores predeterminados, correctos polo menos para «España».
-    categoryNames = (u"Concellos de {name}".format(name=name))
+    categoryNames = [u"Concellos de {name}".format(name=name)]
     outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
 
-    if name in (u"Estados Unidos de América"):
-        categoryNames = (u"Cidades dos {name}".format(name=name))
-    elif name in (u"Etiopía"):
-        categoryNames = (u"Cidades de {name}".format(name=name))
-    elif name in (u"México"):
-        categoryNames = (
+    if name in [u"Estados Unidos de América"]:
+        categoryNames = [u"Cidades dos {name}".format(name=name)]
+    elif name in [u"Etiopía"]:
+        categoryNames = [u"Cidades de {name}".format(name=name)]
+    elif name in [u"México"]:
+        categoryNames = [
             u"Cidades de {name}".format(name=name),
             u"Cidades prehispánicas de {name}".format(name=name),
             u"Concellos de {name}".format(name=name)
-        )
-    elif name in (u"Portugal"):
-        categoryNames = (
+        ]
+    elif name in [u"Portugal"]:
+        categoryNames = [
             u"Cidades de {name}".format(name=name),
             u"Municipios de {name}".format(name=name),
             u"Vilas de {name}".format(name=name)
-        )
-    elif name in (u"Reino Unido"):
-        categoryNames = (u"Cidades do {name}".format(name=name))
+        ]
+    elif name in [u"Reino Unido"]:
+        categoryNames = [u"Cidades do {name}".format(name=name)]
 
     return categoryNames, outputFileName
 
