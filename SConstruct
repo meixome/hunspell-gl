@@ -74,6 +74,7 @@ Módulos dispoñíbeis:
                             • reino-unido
                         • lugares. Nomes de lugares. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
                             • galicia.
+                        • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
 
     iso639          Códigos de linguas (ISO 639)

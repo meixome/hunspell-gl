@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import codecs, pywikibot, re, sys
-
+import galipedia as common
 
 
 def parseCountryName(name):
@@ -69,27 +69,6 @@ if len(sys.argv) != 2:
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
 
-ngramasToIgnore = (
-    # Nexos comúns.
-    u"A", u"As", u"O", u"Os", u"da", u"das", u"de", u"do", u"dos", u"e",
-
-    # Substantivos comúns correctos en galego.
-    u"Campo", u"Campos",
-    u"Castelo", u"Castelos",
-    u"Cidade", u"Cidades",
-    u"Costa", u"Costas",
-    u"Faro", u"Faros",
-    u"Nova", u"Novas", u"Novo", u"Novos",
-    u"Ponte", u"Pontes",
-    u"Porto", u"Portos",
-    u"Ribeira", u"Ribeiras",
-    u"Río", u"Ríos",
-    u"San", u"Santa", u"Santas", u"Santo", u"Santos",
-    u"Torre", u"Torres",
-    u"Val", u"Vales",
-    u"Vila", u"Vilas"
-)
-
 nameSuffixes = re.compile(" \([^)]+\)$")
 
 locationNames = set()
@@ -108,7 +87,7 @@ for name in sorted(locationNames):
         name = name[:-len(match.group(0))]
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
-            if ngrama not in ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
+            if ngrama not in common.ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
                 dicFileContent += u"{ngrama} po:topónimo [n-grama: {name}]\n".format(ngrama=ngrama, name=name)
     else:
         dicFileContent += u"{name} po:topónimo\n".format(name=name)
