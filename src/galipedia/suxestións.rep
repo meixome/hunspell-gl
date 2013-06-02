@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-04-27
+#   2013-06-01
 #
 #
 # Limitacións
@@ -236,6 +236,10 @@
 ^acarre carrex
 ^acarré carréx
 
+# acarrear → carrear
+^acarre carre
+^acarré carré
+
 # acarretar → carretar
 ^acarret carret
 ^acarrét carrét
@@ -275,13 +279,16 @@
 # acuñar → cuñar (no referente á moeda)
 # CORRECTA
 
+# adelantar → adiantar
+^adelant adiant
+^adelánt adiánt
+
 # ademáis → ademais, amais
 ^ademáis$ ademais
 ^ademáis$ amais
 
 # adoitar → adoptar (pero adoitar vale co significado de ter por costume, ser habitual)
 # CORRECTA
-
 
 # adormiñar → adormecer
 
@@ -477,6 +484,9 @@
 
 # alquitrán → alcatrán
 ^alquitrán alcatrán
+
+# alrededor → arredor
+^alrededor arredor
 
 # aluguer → alugueiro
 ^aluguer$ alugueiro
@@ -2970,6 +2980,10 @@ atorníll aparafús
 # hacea → cara a.
 ^hacea$ cara_a
 
+# hacinar → amorear
+^hacin amore
+^hacín amoré
+
 # hachádego → achado
 ^hachádeg achad
 
@@ -3233,6 +3247,9 @@ ja ha
 
 # lagartixa → lagarta
 ^lagartixa lagarta
+
+# lástima → pena
+^lástima pena
 
 # lavadero → lavadoiro
 ^lavadero lavadoiro
@@ -3795,6 +3812,9 @@ móvil móbil
 
 # pilar (elemento arquitectónico) → piar
 ^pilar piar
+
+# pinchazo → picada
+^pinchazo picada
 
 # pizarra → lousa
 ^pizarra lousa
@@ -4527,6 +4547,10 @@ móvil móbil
                 # imperativo negativo
 
                 
+# riñón → ril
+^riñón$ ril
+^riñóns$ riles
+
 # rixer → rexer
 ^rix rex
 ^ríx réx
