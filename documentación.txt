@@ -1,0 +1,7 @@
+A documentación sobre o corrector Hunspell de galego está aloxada no sitio web do Proxecto Trasno.
+
+• Información xeral: http://www.trasno.net/corrector-de-galego-hunspell/
+• Documentación para usuarios: http://wiki.trasno.net/Corrector_Hunspell_de_galego
+• Documentación para contribuidores:
+    • http://wiki.trasno.net/Coordinación_do_desenvolvemento_do_corrector_Hunspell_de_galego
+    • http://wiki.trasno.net/Guía_de_desenvolvemento_do_corrector_Hunspell_de_galego
