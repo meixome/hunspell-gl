@@ -71,6 +71,7 @@ Módulos dispoñíbeis:
                             • etiopía
                             • israel
                             • méxico
+                            • oceanía
                             • portugal
                             • reino-unido
                         • lugares. Nomes de lugares. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
