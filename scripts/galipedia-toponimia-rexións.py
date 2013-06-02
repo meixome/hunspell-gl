@@ -7,14 +7,14 @@ import codecs, pywikibot, re, sys
 def parseCountryName(name):
 
     # Valores predeterminados.
-    categoryNames = set()
+    categoryNames = []
     outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
 
-    if name in (u"Italia"):
-        categoryNames = (
+    if name in [u"Italia"]:
+        categoryNames = [
             u"Rexións de {name}".format(name=name),
             u"Provincias de {name}".format(name=name)
-        )
+        ]
 
     return categoryNames, outputFileName
 
