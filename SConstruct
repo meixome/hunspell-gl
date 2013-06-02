@@ -69,12 +69,17 @@ Módulos dispoñíbeis:
                             • españa
                             • estados-unidos-de-américa
                             • etiopía
+                            • israel
                             • méxico
+                            • oceanía
                             • portugal
                             • reino-unido
-                        • lugares. Nomes de lugares. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
-                            • galicia.
+                        • lugares. Nomes de lugares e parroquias.
+                            • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                        • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                            • brasil
+                            • italia
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
