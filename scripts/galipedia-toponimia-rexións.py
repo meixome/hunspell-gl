@@ -10,6 +10,10 @@ def parseCountryName(name):
     categoryNames = []
     outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
 
+    if name in [u"Brasil"]:
+        categoryNames = [
+            u"Estados do {name}".format(name=name)
+        ]
     if name in [u"Italia"]:
         categoryNames = [
             u"Rexións de {name}".format(name=name),
@@ -51,7 +55,7 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-rexións.py <estado>"
     print
     print "O estados que se saben compatíbeis son:"
-    print "    Italia."
+    print "    Brasil, Italia."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))

@@ -69,6 +69,7 @@ Módulos dispoñíbeis:
                             • españa
                             • estados-unidos-de-américa
                             • etiopía
+                            • israel
                             • méxico
                             • portugal
                             • reino-unido
@@ -76,6 +77,8 @@ Módulos dispoñíbeis:
                             • galicia.
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                            • brasil
+                            • italia
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
