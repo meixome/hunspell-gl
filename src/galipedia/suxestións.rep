@@ -18,8 +18,9 @@
 # Limitacións
 # ===========
 #
-# Véxase en «doc/desenvolvemento.txt» o apartado de «Limitacións» dentro da sección «Ficheiro de suxestións para
-# palabras incorrectas».
+# Para máis información, véxase a documentación sobre os ficheiros de suxestións:
+#
+#   http://wiki.trasno.net/Guía_de_desenvolvemento_do_corrector_Hunspell_de_galego#Ficheiros_de_suxesti.C3.B3ns
 #
 # Neste ficheiro lístanse todas as suxestións da Galipedia. Aquelas que non poden definirse por mor das limitacións
 # de Hunspell márcanse do seguinte xeito:
