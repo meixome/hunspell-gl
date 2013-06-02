@@ -12,7 +12,7 @@ def parseCountryName(name):
 
     if name in [u"Estados Unidos de América"]:
         categoryNames = [u"Cidades dos {name}".format(name=name)]
-    elif name in [u"Etiopía"]:
+    elif name in [u"Etiopía", u"Israel"]:
         categoryNames = [u"Cidades de {name}".format(name=name)]
     elif name in [u"México"]:
         categoryNames = [
@@ -64,7 +64,7 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-localidades.py <estado>"
     print
     print "O estados que se saben compatíbeis son:"
-    print "    España, Estados Unidos de América, Etiopía, México, Portugal, Reino Unido."
+    print "    España, Estados Unidos de América, Etiopía, Israel, México, Portugal, Reino Unido."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
