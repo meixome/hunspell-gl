@@ -21,16 +21,16 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-category = pywikibot.Category(galipedia, u"Categoría:{}".format("Lugares de Galicia"))
-invalidPagePattern = re.compile(u"^Lugares de")
-validCategoryPattern = re.compile(u"^Categoría:Lugares de")
-loadLocationsFromCategoryAndSubcategories(category)
+invalidPagePattern = re.compile(u"^(Lugares d|Parroquias d)")
+validCategoryPattern = re.compile(u"^Categoría:(Lugares d|Parroquias d)")
+for categoryName in [u"Lugares de Galicia", u"Parroquias de Galicia"]:
+    loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
 
 dicFileContent = ""
 for name in sorted(locationNames):
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
-            if ngrama not in common.ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
+            if ngrama not in common.ngramasToIgnore and ngrama != "-":
                 dicFileContent += u"{ngrama} po:topónimo [n-grama: {name}]\n".format(ngrama=ngrama, name=name)
     else:
         dicFileContent += u"{name} po:topónimo\n".format(name=name)

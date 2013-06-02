@@ -74,8 +74,8 @@ Módulos dispoñíbeis:
                             • oceanía
                             • portugal
                             • reino-unido
-                        • lugares. Nomes de lugares. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
-                            • galicia.
+                        • lugares. Nomes de lugares e parroquias.
+                            • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
                             • brasil
