@@ -4,7 +4,6 @@ Bola po:topónimo [n-grama: A Bola]
 Capela po:topónimo [n-grama: A Capela]
 Cañiza po:topónimo [n-grama: A Cañiza]
 Coruña po:topónimo [n-grama: A Coruña]
-Enfesta po:topónimo [n-grama: A Enfesta]
 Estrada po:topónimo [n-grama: A Estrada]
 Fonsagrada po:topónimo [n-grama: A Fonsagrada]
 Guarda po:topónimo [n-grama: A Guarda]
@@ -85,6 +84,7 @@ Agüimes po:topónimo
 Aiguamúrcia po:topónimo
 Ajalvir po:topónimo
 Ajangiz po:topónimo
+Alacant po:topónimo
 Alagón po:topónimo
 Alaior po:topónimo
 Alajeró po:topónimo
@@ -137,6 +137,7 @@ Alcañiz po:topónimo
 Alcobendas po:topónimo
 Alcocero po:topónimo [n-grama: Alcocero de Mola]
 Mola po:topónimo [n-grama: Alcocero de Mola]
+Alcoi po:topónimo
 Alcolea po:topónimo [n-grama: Alcolea del Río]
 del po:topónimo [n-grama: Alcolea del Río]
 Alconaba po:topónimo
@@ -209,6 +210,7 @@ Aller po:topónimo
 Allueva po:topónimo
 Almacelles po:topónimo
 Almadén po:topónimo
+Almagro po:topónimo
 Almajano po:topónimo
 Almaluez po:topónimo
 Almansa po:topónimo
@@ -238,6 +240,7 @@ Alonsotegi po:topónimo
 Alpanseque po:topónimo
 Alquézar po:topónimo
 Altable po:topónimo
+Altea po:topónimo
 Altsasu po:topónimo
 Alzira po:topónimo
 Amayuelas po:topónimo [n-grama: Amayuelas de Arriba]
@@ -513,6 +516,7 @@ Benegiles po:topónimo
 Benetússer po:topónimo
 Benicarló po:topónimo
 Benicasim po:topónimo
+Benidorm po:topónimo
 Beniparrell po:topónimo
 Benuza po:topónimo
 Benás po:topónimo
@@ -592,6 +596,7 @@ Borobia po:topónimo
 Borriana po:topónimo
 Borrés po:topónimo
 Botorrita po:topónimo
+Bouzas po:topónimo
 Bozoó po:topónimo
 Boñar po:topónimo
 Brazacorta po:topónimo
@@ -639,6 +644,7 @@ Pie po:topónimo [n-grama: Bárcena de Pie de Concha]
 Concha po:topónimo [n-grama: Bárcena de Pie de Concha]
 Báscones po:topónimo [n-grama: Báscones de Ojeda]
 Ojeda po:topónimo [n-grama: Báscones de Ojeda]
+Béjar po:topónimo
 Bétera po:topónimo
 Bóveda po:topónimo
 Búger po:topónimo
@@ -692,6 +698,7 @@ Montbui po:topónimo [n-grama: Caldes de Montbui]
 Calella po:topónimo
 Caleruega po:topónimo
 Calomarde po:topónimo
+Calp po:topónimo
 Caltojar po:topónimo
 Calvià po:topónimo
 Calvos po:topónimo [n-grama: Calvos de Randín]
@@ -956,6 +963,7 @@ del po:topónimo [n-grama: Cervera del Río Alhama]
 Alhama po:topónimo [n-grama: Cervera del Río Alhama]
 Cervo po:topónimo
 Cesuras po:topónimo
+Ceuta po:topónimo
 Cevico po:topónimo [n-grama: Cevico Navero]
 Navero po:topónimo [n-grama: Cevico Navero]
 Cevico po:topónimo [n-grama: Cevico de la Torre]
@@ -1018,6 +1026,10 @@ Colmenar po:topónimo [n-grama: Colmenar Viejo]
 Viejo po:topónimo [n-grama: Colmenar Viejo]
 Colunga po:topónimo
 Comares po:topónimo
+Concello po:topónimo [n-grama: Concello da Enfesta]
+Enfesta po:topónimo [n-grama: Concello da Enfesta]
+Concello po:topónimo [n-grama: Concello de Canedo]
+Canedo po:topónimo [n-grama: Concello de Canedo]
 Concello po:topónimo [n-grama: Concello de Lavadores]
 Lavadores po:topónimo [n-grama: Concello de Lavadores]
 Condado po:topónimo [n-grama: Condado de Treviño]
@@ -1064,6 +1076,7 @@ Covarrubias po:topónimo
 Covelo po:topónimo
 Coín po:topónimo
 Crecente po:topónimo
+Crevillent po:topónimo
 Crémenes po:topónimo
 Cuadros po:topónimo
 Cualedro po:topónimo
@@ -1139,6 +1152,7 @@ Durango po:topónimo
 Duruelo po:topónimo [n-grama: Duruelo de la Sierra]
 la po:topónimo [n-grama: Duruelo de la Sierra]
 Sierra po:topónimo [n-grama: Duruelo de la Sierra]
+Dénia po:topónimo
 Dévanos po:topónimo
 Ea po:topónimo
 Egüés po:topónimo
@@ -1161,6 +1175,8 @@ Ranero po:topónimo [n-grama: El Burgo Ranero]
 El po:topónimo [n-grama: El Burgo de Osma]
 Burgo po:topónimo [n-grama: El Burgo de Osma]
 Osma po:topónimo [n-grama: El Burgo de Osma]
+El po:topónimo [n-grama: El Campello]
+Campello po:topónimo [n-grama: El Campello]
 El po:topónimo [n-grama: El Carpio]
 Carpio po:topónimo [n-grama: El Carpio]
 El po:topónimo [n-grama: El Coronil]
@@ -1230,7 +1246,9 @@ Viso po:topónimo [n-grama: El Viso del Alcor]
 del po:topónimo [n-grama: El Viso del Alcor]
 Alcor po:topónimo [n-grama: El Viso del Alcor]
 Elantxobe po:topónimo
+Elda po:topónimo
 Elorrio po:topónimo
+Elx po:topónimo
 Encinas po:topónimo [n-grama: Encinas Reales]
 Reales po:topónimo [n-grama: Encinas Reales]
 Encinedo po:topónimo
@@ -1315,6 +1333,7 @@ Folgoso po:topónimo [n-grama: Folgoso do Courel]
 Courel po:topónimo [n-grama: Folgoso do Courel]
 Folgueroles po:topónimo
 Fontanar po:topónimo
+Fontanosas po:topónimo
 Fontihoyuelo po:topónimo
 Fontioso po:topónimo
 Fonzaleche po:topónimo
@@ -1540,12 +1559,14 @@ Ibarra po:topónimo
 Ibarrangelu po:topónimo
 Ibeas po:topónimo [n-grama: Ibeas de Juarros]
 Juarros po:topónimo [n-grama: Ibeas de Juarros]
+Ibi po:topónimo
 Ibias po:topónimo
 Ibrillos po:topónimo
 Icod po:topónimo [n-grama: Icod de los Vinos]
 los po:topónimo [n-grama: Icod de los Vinos]
 Vinos po:topónimo [n-grama: Icod de los Vinos]
 Idiazabal po:topónimo
+Idozin po:topónimo
 Iglesiarrubia po:topónimo
 Iglesias po:topónimo
 Igorre po:topónimo
@@ -1554,6 +1575,7 @@ Igüeña po:topónimo
 Ikaztegieta po:topónimo
 Ilche po:topónimo
 Illas po:topónimo
+Illescas po:topónimo
 Illueca po:topónimo
 Inca po:topónimo
 Ingenio po:topónimo
@@ -1754,6 +1776,8 @@ La po:topónimo [n-grama: La Vid y Barrios]
 Vid po:topónimo [n-grama: La Vid y Barrios]
 y po:topónimo [n-grama: La Vid y Barrios]
 Barrios po:topónimo [n-grama: La Vid y Barrios]
+La po:topónimo [n-grama: La Vila Joiosa]
+Joiosa po:topónimo [n-grama: La Vila Joiosa]
 La po:topónimo [n-grama: La Zoma]
 Zoma po:topónimo [n-grama: La Zoma]
 Labastida po:topónimo
@@ -1862,6 +1886,7 @@ Lobeira po:topónimo
 Lobios po:topónimo
 Logroño po:topónimo
 Loiu po:topónimo
+Loja po:topónimo
 Loma po:topónimo [n-grama: Loma de Ucieza]
 Ucieza po:topónimo [n-grama: Loma de Ucieza]
 Lomas po:topónimo
@@ -2032,6 +2057,7 @@ Fernamental po:topónimo [n-grama: Melgar de Fernamental]
 Melgar po:topónimo [n-grama: Melgar de Yuso]
 Yuso po:topónimo [n-grama: Melgar de Yuso]
 Melide po:topónimo
+Melilla po:topónimo
 Melón po:topónimo
 Mendaro po:topónimo
 Mendata po:topónimo
@@ -2142,6 +2168,7 @@ Monturque po:topónimo
 Montuïri po:topónimo
 Monzón po:topónimo
 Monzón po:topónimo [n-grama: Monzón de Campos]
+Monòver po:topónimo
 Moradillo po:topónimo [n-grama: Moradillo de Roa]
 Roa po:topónimo [n-grama: Moradillo de Roa]
 Moraleja po:topónimo
@@ -2190,6 +2217,7 @@ Murueta po:topónimo
 Muskiz po:topónimo
 Mutiloa po:topónimo
 Mutriku po:topónimo
+Mutxamel po:topónimo
 Muxika po:topónimo
 Muxía po:topónimo
 Muíños po:topónimo
@@ -2245,6 +2273,7 @@ Noia po:topónimo
 Noja po:topónimo
 Nolay po:topónimo
 Noreña po:topónimo
+Novelda po:topónimo
 Noviercas po:topónimo
 Noáin po:topónimo
 Nueno po:topónimo
@@ -2305,6 +2334,7 @@ Riopico po:topónimo [n-grama: Orbaneja Riopico]
 Ordes po:topónimo
 Ordizia po:topónimo
 Orduña po:topónimo
+Orihuela po:topónimo
 Oropesa po:topónimo [n-grama: Oropesa del Mar]
 del po:topónimo [n-grama: Oropesa del Mar]
 Mar po:topónimo [n-grama: Oropesa del Mar]
@@ -2435,6 +2465,7 @@ Príncipe po:topónimo [n-grama: Pedrosa del Príncipe]
 Pedrosa po:topónimo [n-grama: Pedrosa del Páramo]
 del po:topónimo [n-grama: Pedrosa del Páramo]
 Páramo po:topónimo [n-grama: Pedrosa del Páramo]
+Pego po:topónimo
 Peleas po:topónimo [n-grama: Peleas de Abajo]
 Abajo po:topónimo [n-grama: Peleas de Abajo]
 Peligros po:topónimo
@@ -2450,6 +2481,7 @@ Peralta po:topónimo
 Peranzais po:topónimo
 Periana po:topónimo
 Petra po:topónimo
+Petrer po:topónimo
 Petín po:topónimo
 Pezós po:topónimo
 Peñafiel po:topónimo
@@ -2487,6 +2519,7 @@ Piélagos po:topónimo
 Piérnigas po:topónimo
 Piña po:topónimo [n-grama: Piña de Campos]
 Piñor po:topónimo
+Plasencia po:topónimo
 Plentzia po:topónimo
 Población po:topónimo [n-grama: Población de Arroyo]
 Arroyo po:topónimo [n-grama: Población de Arroyo]
@@ -3006,6 +3039,10 @@ Vallès po:topónimo [n-grama: Sant Quirze del Vallès]
 Sant po:topónimo [n-grama: Sant Sadurní d'Anoia]
 Sadurní po:topónimo [n-grama: Sant Sadurní d'Anoia]
 d'Anoia po:topónimo [n-grama: Sant Sadurní d'Anoia]
+Sant po:topónimo [n-grama: Sant Vicent del Raspeig]
+Vicent po:topónimo [n-grama: Sant Vicent del Raspeig]
+del po:topónimo [n-grama: Sant Vicent del Raspeig]
+Raspeig po:topónimo [n-grama: Sant Vicent del Raspeig]
 Sant po:topónimo [n-grama: Sant Vicenç dels Horts]
 Vicenç po:topónimo [n-grama: Sant Vicenç dels Horts]
 dels po:topónimo [n-grama: Sant Vicenç dels Horts]
@@ -3106,6 +3143,7 @@ Olalla po:topónimo [n-grama: Santa Olalla de Bureba]
 Bureba po:topónimo [n-grama: Santa Olalla de Bureba]
 Perpètua po:topónimo [n-grama: Santa Perpètua de Mogoda]
 Mogoda po:topónimo [n-grama: Santa Perpètua de Mogoda]
+Pola po:topónimo [n-grama: Santa Pola]
 Santaella po:topónimo
 Santalla po:topónimo [n-grama: Santalla de Ozcos]
 Ozcos po:topónimo [n-grama: Santalla de Ozcos]
@@ -3241,6 +3279,9 @@ Taboadela po:topónimo
 Tacoronte po:topónimo
 Tafalla po:topónimo
 Talarrubias po:topónimo
+Talavera po:topónimo [n-grama: Talavera de la Reina]
+la po:topónimo [n-grama: Talavera de la Reina]
+Reina po:topónimo [n-grama: Talavera de la Reina]
 Talayuela po:topónimo
 Tamarite po:topónimo [n-grama: Tamarite de Litera]
 Litera po:topónimo [n-grama: Tamarite de Litera]
@@ -3278,6 +3319,7 @@ la po:topónimo [n-grama: Tinieblas de la Sierra]
 Sierra po:topónimo [n-grama: Tinieblas de la Sierra]
 Tobar po:topónimo
 Tocina po:topónimo
+Toledo po:topónimo
 Tolosa po:topónimo
 Tomares po:topónimo
 Tomelloso po:topónimo
@@ -3318,6 +3360,7 @@ Torrenueva po:topónimo
 Torrepadre po:topónimo
 Berrellén po:topónimo [n-grama: Torres de Berrellén]
 Torresandino po:topónimo
+Torrevieja po:topónimo
 Torrox po:topónimo
 Tortosa po:topónimo
 Tosantos po:topónimo
@@ -3781,6 +3824,7 @@ Villazanzo po:topónimo [n-grama: Villazanzo de Valderaduey]
 Valderaduey po:topónimo [n-grama: Villazanzo de Valderaduey]
 Villazopeque po:topónimo
 Villegas po:topónimo
+Villena po:topónimo
 Villerías po:topónimo [n-grama: Villerías de Campos]
 Villodre po:topónimo
 Villodrigo po:topónimo
@@ -3807,6 +3851,7 @@ Vizcaínos po:topónimo
 Viñas po:topónimo
 Voto po:topónimo
 Vélez po:topónimo
+Vícar po:topónimo
 Xaén po:topónimo
 Xemein po:topónimo
 Xermade po:topónimo
@@ -3817,12 +3862,14 @@ Limia po:topónimo [n-grama: Xinzo de Limia]
 Xirivella po:topónimo
 Xirona po:topónimo
 Xiva po:topónimo
+Xixona po:topónimo
 Xixón po:topónimo
 Xove po:topónimo
 Xunqueira po:topónimo [n-grama: Xunqueira de Ambía]
 Ambía po:topónimo [n-grama: Xunqueira de Ambía]
 Xunqueira po:topónimo [n-grama: Xunqueira de Espadanedo]
 Espadanedo po:topónimo [n-grama: Xunqueira de Espadanedo]
+Xàbia po:topónimo
 Xátiva po:topónimo
 Yaiza po:topónimo
 Yecla po:topónimo
@@ -3872,6 +3919,7 @@ seca po:topónimo
 Ágreda po:topónimo
 Águilas po:topónimo
 Ávila po:topónimo
+Écija po:topónimo
 Íscar po:topónimo
 Òrrius po:topónimo
 Ólvega po:topónimo
