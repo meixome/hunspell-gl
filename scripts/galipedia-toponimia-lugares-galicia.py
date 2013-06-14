@@ -30,10 +30,11 @@ dicFileContent = ""
 for name in sorted(locationNames):
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
-            if ngrama not in common.ngramasToIgnore and ngrama != "-":
+            if ngrama not in common.wordsToIgnore and ngrama != "-":
                 dicFileContent += u"{ngrama} po:topónimo [n-grama: {name}]\n".format(ngrama=ngrama, name=name)
     else:
-        dicFileContent += u"{name} po:topónimo\n".format(name=name)
+        if name not in common.wordsToIgnore:
+            dicFileContent += u"{name} po:topónimo\n".format(name=name)
 
 with codecs.open("galicia.dic", u"w", u"utf-8") as fileObject:
     fileObject.write(dicFileContent)

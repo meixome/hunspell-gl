@@ -82,6 +82,7 @@ Módulos dispoñíbeis:
                             • brasil
                             • estados-unidos-de-américa
                             • italia
+                            • portugal
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
 

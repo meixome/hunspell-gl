@@ -90,10 +90,11 @@ for name in sorted(locationNames):
         name = name[:-len(match.group(0))]
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
-            if ngrama not in common.ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
+            if ngrama not in common.wordsToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
                 dicFileContent += u"{ngrama} po:topónimo [n-grama: {name}]\n".format(ngrama=ngrama, name=name)
     else:
-        dicFileContent += u"{name} po:topónimo\n".format(name=name)
+        if name not in common.wordsToIgnore:
+            dicFileContent += u"{name} po:topónimo\n".format(name=name)
 
 with codecs.open(outputFileName, u"w", u"utf-8") as fileObject:
     fileObject.write(dicFileContent)
