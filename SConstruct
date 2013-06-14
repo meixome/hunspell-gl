@@ -65,6 +65,8 @@ Módulos dispoñíbeis:
                     Submódulos:
                         
                     • toponimia. Topónimos.
+                        • accidentes. Nomes de accidentes xeográficos.
+                            • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                             • españa
                             • estados-unidos-de-américa
