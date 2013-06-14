@@ -14,14 +14,23 @@ def parseCountryName(name):
         categoryNames = [
             u"Estados do {name}".format(name=name)
         ]
-    if name in [u"Estados Unidos de América"]:
+    elif name in [u"Estados Unidos de América"]:
         categoryNames = [
             u"Estados dos {name}".format(name=name)
         ]
-    if name in [u"Italia"]:
+    elif name in [u"Italia"]:
         categoryNames = [
             u"Rexións de {name}".format(name=name),
             u"Provincias de {name}".format(name=name)
+        ]
+    elif name in [u"Portugal"]:
+        categoryNames = [
+            u"Antigas provincias portuguesas",
+            u"Distritos e rexións autónomas de Portugal",
+            u"NUTS I portuguesas",
+            u"NUTS II portuguesas",
+            u"NUTS III portuguesas",
+            u"Rexións autónomas de Portugal"
         ]
 
     return categoryNames, outputFileName
@@ -29,15 +38,16 @@ def parseCountryName(name):
 
 def parsePageName(pageName):
     if not invalidPagePattern.match(pageName):
-        if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-            parts = pageName.split(" - ")
+        pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
+        if u" - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+            parts = pageName.split(u" - ")
             locationNames.add(parts[0])
-        elif "-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+        elif u"-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
             parts = pageName.split("-")
             locationNames.add(parts[0])
             locationNames.add(parts[1])
-        elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
-            parts = pageName.split(",")
+        elif u"," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+            parts = pageName.split(u",")
             locationNames.add(parts[0])
         else:
             locationNames.add(pageName)
@@ -65,18 +75,19 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-rexións.py <estado>"
     print
     print "O estados que se saben compatíbeis son:"
-    print "    Brasil, Estados Unidos de América, Italia."
+    print "    Brasil, Estados Unidos de América, Italia, Portugal."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
 
 namePrefixes = re.compile(u"Provincia( autónoma)? d(a|as|e|o|os) ")
+parenthesis = re.compile(u" *\([^)]*\)")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Batalla d|Estados d|Lista d|Provincias d)")
+invalidPagePattern = re.compile(u"^(Modelo:|Batalla d|Estados d|Lista d|Provincias d|Subrexións)")
 validCategoryPattern = re.compile(u"^Categoría:(Provincias) ")
-invalidCategoryPattern = re.compile(u"^(Estados d|Provincias d)")
+invalidCategoryPattern = re.compile(u"^(Estados d|Provincias d|Subrexións)")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
@@ -89,10 +100,11 @@ for name in sorted(locationNames):
         name = name[len(match.group(0)):]
     if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
         for ngrama in name.split(u" "):
-            if ngrama not in common.ngramasToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
+            if ngrama not in common.wordsToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
                 dicFileContent += u"{ngrama} po:topónimo [n-grama: {name}]\n".format(ngrama=ngrama, name=name)
     else:
-        dicFileContent += u"{name} po:topónimo\n".format(name=name)
+        if name not in common.wordsToIgnore:
+            dicFileContent += u"{name} po:topónimo\n".format(name=name)
 
 with codecs.open(outputFileName, u"w", u"utf-8") as fileObject:
     fileObject.write(dicFileContent)

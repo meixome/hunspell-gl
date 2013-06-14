@@ -7,30 +7,27 @@ import galipedia as common
 def parseCountryName(name):
 
     # Valores predeterminados, correctos polo menos para «España».
-    categoryNames = [
-        u"Concellos de {name}".format(name=name),
-        u"Cidades de {name}".format(name=name)
-    ]
+    categoryNames = [name]
     outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
 
-    if name in [u"Estados Unidos de América"]:
-        categoryNames = [u"Cidades dos {name}".format(name=name)]
-    elif name in [u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía"]:
-        categoryNames = [u"Cidades de {name}".format(name=name)]
-    elif name in [u"México"]:
-        categoryNames = [
-            u"Cidades de {name}".format(name=name),
-            u"Cidades prehispánicas de {name}".format(name=name),
-            u"Concellos de {name}".format(name=name)
-        ]
-    elif name in [u"Portugal"]:
-        categoryNames = [
-            u"Cidades de {name}".format(name=name),
-            u"Municipios de {name}".format(name=name),
-            u"Vilas de {name}".format(name=name)
-        ]
-    elif name in [u"Reino Unido"]:
-        categoryNames = [u"Cidades do {name}".format(name=name)]
+    #if name in [u"Estados Unidos de América"]:
+        #categoryNames = [u"Cidades dos {name}".format(name=name)]
+    #elif name in [u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía"]:
+        #categoryNames = [u"Cidades de {name}".format(name=name)]
+    #elif name in [u"México"]:
+        #categoryNames = [
+            #u"Cidades de {name}".format(name=name),
+            #u"Cidades prehispánicas de {name}".format(name=name),
+            #u"Concellos de {name}".format(name=name)
+        #]
+    #elif name in [u"Portugal"]:
+        #categoryNames = [
+            #u"Cidades de {name}".format(name=name),
+            #u"Municipios de {name}".format(name=name),
+            #u"Vilas de {name}".format(name=name)
+        #]
+    #elif name in [u"Reino Unido"]:
+        #categoryNames = [u"Cidades do {name}".format(name=name)]
 
     return categoryNames, outputFileName
 
@@ -45,6 +42,7 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
     for page in category.articles():
         pageName = page.title()
+        pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
         if not invalidPagePattern.match(pageName):
             if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 parts = pageName.split(" - ")
@@ -64,21 +62,21 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
 if len(sys.argv) != 2:
     print "A forma correcta de executar o script é:"
-    print "    galipedia-toponimia-localidades.py <estado>"
+    print "    galipedia-xeografía-accidentes.py <accidente>"
     print
-    print "O estados e continentes que se saben compatíbeis son:"
-    print "    España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, México, Oceanía, Portugal,"
-    print "    Reino Unido."
+    print "Os accidentes que se saben compatíbeis son:"
+    print "    Montañas."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
 
 nameSuffixes = re.compile(" \([^)]+\)$")
+parenthesis = re.compile(u" *\([^)]*\)")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )")
-validCategoryPattern = re.compile(u"^Categoría:(Cidades|Comunas|Concellos|Vilas) ")
+invalidPagePattern = re.compile(u"^(Modelo:)")
+validCategoryPattern = re.compile(u"^Categoría:(Cordilleiras|Montañas|Montes)")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))

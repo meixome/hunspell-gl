@@ -65,10 +65,13 @@ Módulos dispoñíbeis:
                     Submódulos:
                         
                     • toponimia. Topónimos.
+                        • accidentes. Nomes de accidentes xeográficos.
+                            • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                             • españa
                             • estados-unidos-de-américa
                             • etiopía
+                            • exipto
                             • iemen
                             • israel
                             • méxico
@@ -82,6 +85,9 @@ Módulos dispoñíbeis:
                             • brasil
                             • estados-unidos-de-américa
                             • italia
+                            • portugal
+                    • xeografía. Xeografía.
+                        • accidentes. Accidentes xeográficos.
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
