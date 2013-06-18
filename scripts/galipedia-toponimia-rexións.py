@@ -14,6 +14,12 @@ def parseCountryName(name):
         categoryNames = [
             u"Estados do {name}".format(name=name)
         ]
+    elif name in [u"España"]:
+        categoryNames = [
+            u"Comarcas de {name}".format(name=name),
+            u"Comunidades autónomas de {name}".format(name=name),
+            u"Provincias de {name}".format(name=name)
+        ]
     elif name in [u"Estados Unidos de América"]:
         categoryNames = [
             u"Estados dos {name}".format(name=name)
@@ -76,7 +82,7 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-rexións.py <estado>"
     print
     print "O estados que se saben compatíbeis son:"
-    print "    Brasil, Estados Unidos de América, Francia, Italia, Portugal."
+    print "    Brasil, España, Estados Unidos de América, Francia, Italia, Portugal."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
@@ -86,9 +92,9 @@ parenthesis = re.compile(u" *\([^)]*\)")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) )")
-validCategoryPattern = re.compile(u"^Categoría:(Provincias) ")
-invalidCategoryPattern = re.compile(u"^(Estados d|Provincias d|Subrexións)")
+invalidPagePattern = re.compile(u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)")
+validCategoryPattern = re.compile(u"^Categoría:(Comarcas|Provincias) ")
+invalidCategoryPattern = re.compile(u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Provincias|Subrexións) ")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))

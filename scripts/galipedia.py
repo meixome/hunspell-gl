@@ -30,6 +30,7 @@ wordsToIgnore = (
     u"Centro", u"Centros",
     u"Cidade", u"Cidades",
     u"Cima", u"Cimas",
+    u"Comarca", u"Comarcas",
     u"Concello", u"Concellos",
     u"Confederación", u"Confederacións",
     u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
