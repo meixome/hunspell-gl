@@ -80,6 +80,7 @@ Módulos dispoñíbeis:
                             • méxico
                             • oceanía
                             • países-baixos
+                            • perú
                             • portugal
                             • reino-unido
                             • turquía

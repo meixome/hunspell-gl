@@ -15,7 +15,7 @@ def parseCountryName(name):
 
     if name in [u"Estados Unidos de América", u"Países Baixos"]:
         categoryNames = [u"Cidades dos {name}".format(name=name)]
-    elif name in [u"Alxeria", u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía", u"Turquía", u"Xordania"]:
+    elif name in [u"Alxeria", u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía", u"Perú", u"Turquía", u"Xordania"]:
         categoryNames = [u"Cidades de {name}".format(name=name)]
     elif name in [u"Italia"]:
         categoryNames = [
@@ -75,7 +75,7 @@ if len(sys.argv) != 2:
     print
     print "O estados e continentes que se saben compatíbeis son:"
     print "    Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, Italia, México, Oceanía,"
-    print "    Países Baixos, Portugal, Reino Unido, Turquía, Xordania."
+    print "    Países Baixos, Perú, Portugal, Reino Unido, Turquía, Xordania."
     sys.exit()
 
 countryName = sys.argv[1].decode('UTF-8')
