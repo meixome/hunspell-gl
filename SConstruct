@@ -67,6 +67,7 @@ Módulos dispoñíbeis:
                     • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
                             • continentes
+                            • illas
                             • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                             • alxeria
