@@ -84,6 +84,7 @@ Módulos dispoñíbeis:
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
                             • brasil
                             • estados-unidos-de-américa
+                            • francia
                             • italia
                             • portugal
                     • xeografía. Xeografía.
