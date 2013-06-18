@@ -88,6 +88,7 @@ Módulos dispoñíbeis:
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
                             • brasil
+                            • chile
                             • colombia
                             • españa
                             • estados-unidos-de-américa

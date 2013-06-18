@@ -14,6 +14,10 @@ def parseCountryName(name):
         categoryNames = [
             u"Estados do {name}".format(name=name)
         ]
+    elif name in [u"Chile"]:
+        categoryNames = [
+            u"Rexións de {name}".format(name=name)
+        ]
     elif name in [u"Colombia"]:
         categoryNames = [
             u"Departamentos de {name}".format(name=name),
