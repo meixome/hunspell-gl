@@ -79,6 +79,7 @@ Módulos dispoñíbeis:
                             • oceanía
                             • portugal
                             • reino-unido
+                            • xordania
                         • lugares. Nomes de lugares e parroquias.
                             • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
