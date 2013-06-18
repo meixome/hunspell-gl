@@ -35,29 +35,32 @@ def parseCountryName(name):
     return categoryNames, outputFileName
 
 
+def parsePageName(pageName):
+    if not invalidPagePattern.match(pageName):
+        if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+            parts = pageName.split(" - ")
+            locationNames.add(parts[0])
+        elif "-" in pageName and countryName is "España": # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+            parts = pageName.split("-")
+            locationNames.add(parts[0])
+            locationNames.add(parts[1])
+        elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+            parts = pageName.split(",")
+            locationNames.add(parts[0])
+        else:
+            locationNames.add(pageName)
+
+
 def loadLocationsFromCategoryAndSubcategories(category):
-
     print u"Cargando {name}…".format(name=category.title())
-
     for subcategory in category.subcategories():
         if validCategoryPattern.match(subcategory.title()):
             loadLocationsFromCategoryAndSubcategories(subcategory)
-
+        elif not invalidCategoryPattern.match(subcategory.title()):
+            parsePageName(subcategory.title().split(":")[1])
     for page in category.articles():
         pageName = page.title()
-        if not invalidPagePattern.match(pageName):
-            if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-                parts = pageName.split(" - ")
-                locationNames.add(parts[0])
-            elif "-" in pageName and countryName is "España": # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
-                parts = pageName.split("-")
-                locationNames.add(parts[0])
-                locationNames.add(parts[1])
-            elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
-                parts = pageName.split(",")
-                locationNames.add(parts[0])
-            else:
-                locationNames.add(pageName)
+        parsePageName(pageName)
 
 
 # Lóxica principal:
@@ -80,6 +83,7 @@ locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
 invalidPagePattern = re.compile(u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )")
 validCategoryPattern = re.compile(u"^Categoría:(Cidades|Comunas|Concellos|Vilas) ")
+invalidCategoryPattern = re.compile(u"^(Cidades d)")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
