@@ -68,6 +68,7 @@ Módulos dispoñíbeis:
                         • accidentes. Nomes de accidentes xeográficos.
                             • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                            • alxeria
                             • españa
                             • estados-unidos-de-américa
                             • etiopía

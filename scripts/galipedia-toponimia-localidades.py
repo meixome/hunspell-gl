@@ -15,7 +15,7 @@ def parseCountryName(name):
 
     if name in [u"Estados Unidos de América"]:
         categoryNames = [u"Cidades dos {name}".format(name=name)]
-    elif name in [u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía"]:
+    elif name in [u"Alxeria", u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía"]:
         categoryNames = [u"Cidades de {name}".format(name=name)]
     elif name in [u"México"]:
         categoryNames = [
@@ -49,7 +49,7 @@ def loadLocationsFromCategoryAndSubcategories(category):
             if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 parts = pageName.split(" - ")
                 locationNames.add(parts[0])
-            elif "-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+            elif "-" in pageName and countryName is "España": # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
                 parts = pageName.split("-")
                 locationNames.add(parts[0])
                 locationNames.add(parts[1])
@@ -67,11 +67,12 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-localidades.py <estado>"
     print
     print "O estados e continentes que se saben compatíbeis son:"
-    print "    España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, México, Oceanía, Portugal,"
+    print "    Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, México, Oceanía, Portugal,"
     print "    Reino Unido."
     sys.exit()
 
-categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
+countryName = sys.argv[1].decode('UTF-8')
+categoryNames, outputFileName = parseCountryName(countryName)
 
 nameSuffixes = re.compile(" \([^)]+\)$")
 
