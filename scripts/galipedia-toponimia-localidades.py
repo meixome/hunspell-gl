@@ -17,6 +17,10 @@ def parseCountryName(name):
         categoryNames = [u"Cidades dos {name}".format(name=name)]
     elif name in [u"Alxeria", u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía", u"Turquía", u"Xordania"]:
         categoryNames = [u"Cidades de {name}".format(name=name)]
+    elif name in [u"Italia"]:
+        categoryNames = [
+            u"Comunas de {name}".format(name=name)
+        ]
     elif name in [u"México"]:
         categoryNames = [
             u"Cidades de {name}".format(name=name),
@@ -70,7 +74,7 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-localidades.py <estado>"
     print
     print "O estados e continentes que se saben compatíbeis son:"
-    print "    Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, México, Oceanía,"
+    print "    Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, Italia, México, Oceanía,"
     print "    Países Baixos, Portugal, Reino Unido, Turquía, Xordania."
     sys.exit()
 
@@ -81,9 +85,9 @@ nameSuffixes = re.compile(" \([^)]+\)$")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )")
+invalidPagePattern = re.compile(u"^(Modelo:|Comunas |Concellos |Galería d|Historia d|Lista d|Principais cidades )")
 validCategoryPattern = re.compile(u"^Categoría:(Cidades|Comunas|Concellos|Vilas) ")
-invalidCategoryPattern = re.compile(u"^(Cidades d)")
+invalidCategoryPattern = re.compile(u"^(Cidades d|Comunas )")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
