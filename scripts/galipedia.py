@@ -5,6 +5,7 @@ wordsToIgnore = (
     u"a", u"A", u"as", u"As", u"o", u"O", u"os", u"Os",
     u"da", u"Da", u"das", u"Das", u"de", u"De", u"do", u"Do", u"dos", u"Dos",
     u"e", u"E",
+    u"en", u"En",
     u"entre", u"Entre",
     u"tras", u"Tras",
 
