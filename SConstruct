@@ -80,6 +80,7 @@ Módulos dispoñíbeis:
                             • países-baixos
                             • portugal
                             • reino-unido
+                            • turquía
                             • xordania
                         • lugares. Nomes de lugares e parroquias.
                             • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
