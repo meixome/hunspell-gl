@@ -14,9 +14,29 @@ def parseCountryName(name):
         categoryNames = [
             u"Estados do {name}".format(name=name)
         ]
+    elif name in [u"Chile"]:
+        categoryNames = [
+            u"Rexións de {name}".format(name=name)
+        ]
+    elif name in [u"Colombia"]:
+        categoryNames = [
+            u"Departamentos de {name}".format(name=name),
+            u"Provincias de {name}".format(name=name)
+        ]
+    elif name in [u"España"]:
+        categoryNames = [
+            u"Comarcas de {name}".format(name=name),
+            u"Comunidades autónomas de {name}".format(name=name),
+            u"Provincias de {name}".format(name=name)
+        ]
     elif name in [u"Estados Unidos de América"]:
         categoryNames = [
             u"Estados dos {name}".format(name=name)
+        ]
+    elif name in [u"Francia"]:
+        categoryNames = [
+            u"Departamentos de {name}".format(name=name),
+            u"Rexións de {name}".format(name=name)
         ]
     elif name in [u"Italia"]:
         categoryNames = [
@@ -42,10 +62,6 @@ def parsePageName(pageName):
         if u" - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
             parts = pageName.split(u" - ")
             locationNames.add(parts[0])
-        elif u"-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
-            parts = pageName.split("-")
-            locationNames.add(parts[0])
-            locationNames.add(parts[1])
         elif u"," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
             parts = pageName.split(u",")
             locationNames.add(parts[0])
@@ -75,7 +91,7 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-rexións.py <estado>"
     print
     print "O estados que se saben compatíbeis son:"
-    print "    Brasil, Estados Unidos de América, Italia, Portugal."
+    print "    Brasil, Colombia, España, Estados Unidos de América, Francia, Italia, Portugal."
     sys.exit()
 
 categoryNames, outputFileName = parseCountryName(sys.argv[1].decode('UTF-8'))
@@ -85,9 +101,9 @@ parenthesis = re.compile(u" *\([^)]*\)")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Batalla d|Estados d|Lista d|Provincias d|Subrexións)")
-validCategoryPattern = re.compile(u"^Categoría:(Provincias) ")
-invalidCategoryPattern = re.compile(u"^(Estados d|Provincias d|Subrexións)")
+invalidPagePattern = re.compile(u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)")
+validCategoryPattern = re.compile(u"^Categoría:(Comarcas|Provincias) ")
+invalidCategoryPattern = re.compile(u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Provincias|Subrexións) ")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))

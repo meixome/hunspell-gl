@@ -66,24 +66,36 @@ Módulos dispoñíbeis:
                         
                     • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
+                            • continentes
+                            • illas
                             • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                            • alxeria
                             • españa
                             • estados-unidos-de-américa
                             • etiopía
                             • exipto
                             • iemen
                             • israel
+                            • italia
                             • méxico
                             • oceanía
+                            • países-baixos
+                            • perú
                             • portugal
                             • reino-unido
+                            • turquía
+                            • xordania
                         • lugares. Nomes de lugares e parroquias.
                             • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
                             • brasil
+                            • chile
+                            • colombia
+                            • españa
                             • estados-unidos-de-américa
+                            • francia
                             • italia
                             • portugal
                     • xeografía. Xeografía.

@@ -5,6 +5,7 @@ wordsToIgnore = (
     u"a", u"A", u"as", u"As", u"o", u"O", u"os", u"Os",
     u"da", u"Da", u"das", u"Das", u"de", u"De", u"do", u"Do", u"dos", u"Dos",
     u"e", u"E",
+    u"en", u"En",
     u"entre", u"Entre",
     u"tras", u"Tras",
 
@@ -29,6 +30,7 @@ wordsToIgnore = (
     u"Centro", u"Centros",
     u"Cidade", u"Cidades",
     u"Cima", u"Cimas",
+    u"Comarca", u"Comarcas",
     u"Concello", u"Concellos",
     u"Confederación", u"Confederacións",
     u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
