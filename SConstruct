@@ -70,6 +70,7 @@ Módulos dispoñíbeis:
                             • illas
                             • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                            • alemaña
                             • alxeria
                             • españa
                             • estados-unidos-de-américa
@@ -106,7 +107,7 @@ Módulos dispoñíbeis:
                             • francia
                             • italia
                             • portugal
-                        • zonas. Nomes de barrios e distritos.
+                        • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                             • españa
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
