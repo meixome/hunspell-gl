@@ -103,6 +103,8 @@ Módulos dispoñíbeis:
                             • francia
                             • italia
                             • portugal
+                        • zonas. Nomes de barrios e distritos.
+                            • españa
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
 
