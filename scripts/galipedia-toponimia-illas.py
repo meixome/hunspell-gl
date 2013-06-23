@@ -32,7 +32,8 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
 # Lóxica principal:
 
-categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos", "Illas por mar"]
+categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos"]
+categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"]
 outputFileName = u"illas.dic"
 
 parenthesis = re.compile(u" *\([^)]*\)")
@@ -40,11 +41,16 @@ parenthesis = re.compile(u" *\([^)]*\)")
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
 invalidPagePattern = re.compile(u"^(Modelo:|(Batalla|Lista) )")
-invalidCategoryPattern = re.compile(u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas por mar)$")
+invalidCategoryPattern = re.compile(u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
 
+for categoryName in categoryOfSubcategoriesNames:
+    category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
+    print u"Cargando {name}…".format(name=category.title())
+    for subcategory in category.subcategories():
+        loadLocationsFromCategoryAndSubcategories(subcategory)
 
 dicFileContent = ""
 for name in sorted(locationNames):

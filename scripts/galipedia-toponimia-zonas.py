@@ -4,11 +4,23 @@ import codecs, pywikibot, re, sys
 import galipedia as common
 
 
+def parseCountryName(name):
+
+    # Valores predeterminados, correctos polo menos para «España».
+    categoryNames = [
+        u"Barrios de {name}".format(name=name),
+        u"Distritos de {name}".format(name=name)
+    ]
+    outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
+
+    return categoryNames, outputFileName
+
+
 def parsePageName(pageName):
     if not invalidPagePattern.match(pageName):
-        if "-" in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-            parts = pageName.split("-")
-            locationNames.add(parts[0].strip())
+        if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+            parts = pageName.split(" - ")
+            locationNames.add(parts[0])
         elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
             parts = pageName.split(",")
             locationNames.add(parts[0])
@@ -30,24 +42,24 @@ def loadLocationsFromCategoryAndSubcategories(category):
 
 # Lóxica principal:
 
-nameSuffixes = re.compile(" \([^)]+\)$")
+if len(sys.argv) != 2:
+    print "A forma correcta de executar o script é:"
+    print "    galipedia-toponimia-zonas.py <estado>"
+    print
+    print "O estados e continentes que se saben compatíbeis son:"
+    print "    España."
+    sys.exit()
 
-categoryNames = [
-    u"Estados desaparecidos",
-    u"Países con recoñecemento limitado",
-    u"Países de América",
-    u"Países de Asia",
-    u"Países de Europa",
-    u"Países de Oceanía",
-    u"Países de África"
-]
-outputFileName = u"países.dic"
+countryName = sys.argv[1].decode('UTF-8')
+categoryNames, outputFileName = parseCountryName(countryName)
+
+nameSuffixes = re.compile(" \([^)]+\)$")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )")
-validCategoryPattern = re.compile(u"^Categoría:(Estados desaparecidos d|Imperios|Países d)")
-invalidCategoryPattern = re.compile(u"^Categoría:(Capitais d|Emperadores$)")
+invalidPagePattern = re.compile(u"^(Modelo:|Barrios |Distritos )")
+validCategoryPattern = re.compile(u"^Categoría:(Barrios|Distritos) ")
+invalidCategoryPattern = re.compile(u"^(Barrios|Distritos) ")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))

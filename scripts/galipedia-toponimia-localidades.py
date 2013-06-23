@@ -6,17 +6,28 @@ import galipedia as common
 
 def parseCountryName(name):
 
-    # Valores predeterminados, correctos polo menos para «España».
-    categoryNames = [
-        u"Concellos de {name}".format(name=name),
-        u"Cidades de {name}".format(name=name)
-    ]
+    # Valores predeterminados.
+    categoryNames = []
     outputFileName = u"{filename}.dic".format(filename=name.lower().replace(" ", "-"))
 
-    if name in [u"Estados Unidos de América", u"Países Baixos"]:
+    if name in [u"España"]:
+        categoryNames = [
+            u"Concellos de {name}".format(name=name),
+            u"Cidades de {name}".format(name=name),
+            u"Parroquias de Galicia"
+        ]
+    elif name in [u"Estados Unidos de América", u"Países Baixos"]:
         categoryNames = [u"Cidades dos {name}".format(name=name)]
-    elif name in [u"Alxeria", u"Etiopía", u"Exipto", u"Iemen", u"Israel", u"Oceanía", u"Perú", u"Turquía", u"Xordania"]:
+    elif name in [u"Alemaña", u"Alxeria", u"Etiopía", u"Exipto", u"Grecia", u"Iemen", u"Indonesia", u"Iraq", u"Israel", u"Malí",
+                  u"Oceanía", u"Perú", u"Serbia", u"Suíza", u"Turquía", u"Xordania"]:
         categoryNames = [u"Cidades de {name}".format(name=name)]
+    elif name in [u"Líbano"]:
+        categoryNames = [u"Cidades do {name}".format(name=name)]
+    elif name in [u"Francia"]:
+        categoryNames = [
+            u"Cidades de {name}".format(name=name),
+            u"Comunas de {name}".format(name=name)
+        ]
     elif name in [u"Italia"]:
         categoryNames = [
             u"Comunas de {name}".format(name=name)
@@ -41,16 +52,17 @@ def parseCountryName(name):
 
 def parsePageName(pageName):
     if not invalidPagePattern.match(pageName):
-        if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-            parts = pageName.split(" - ")
-            locationNames.add(parts[0])
-        elif "-" in pageName and countryName is "España": # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
-            parts = pageName.split("-")
+
+        if u"," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+            pageName = pageName.split(",")[0]
+
+        if u" - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+            pageName = pageName.split(" - ")[0]
+
+        if u"-" in pageName and countryName == u"España": # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+            parts = pageName.split(u"-")
             locationNames.add(parts[0])
             locationNames.add(parts[1])
-        elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
-            parts = pageName.split(",")
-            locationNames.add(parts[0])
         else:
             locationNames.add(pageName)
 
@@ -74,8 +86,9 @@ if len(sys.argv) != 2:
     print "    galipedia-toponimia-localidades.py <estado>"
     print
     print "O estados e continentes que se saben compatíbeis son:"
-    print "    Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Iemen, Israel, Italia, México, Oceanía,"
-    print "    Países Baixos, Perú, Portugal, Reino Unido, Turquía, Xordania."
+    print "    Alemaña, Alxeria, España, Estados Unidos de América, Etiopía, Exipto, Francia, Grecia, Iemen, Indonesia, Iraq,"
+    print "    Israel, Italia, Líbano, Malí, México, Oceanía, Países Baixos, Perú, Portugal, Reino Unido, Serbia,"
+    print "    Suíza, Turquía, Xordania."
     sys.exit()
 
 countryName = sys.argv[1].decode('UTF-8')
@@ -85,9 +98,9 @@ nameSuffixes = re.compile(" \([^)]+\)$")
 
 locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
-invalidPagePattern = re.compile(u"^(Modelo:|Comunas |Concellos |Galería d|Historia d|Lista d|Principais cidades )")
-validCategoryPattern = re.compile(u"^Categoría:(Cidades|Comunas|Concellos|Vilas) ")
-invalidCategoryPattern = re.compile(u"^(Cidades d|Comunas )")
+invalidPagePattern = re.compile(u"^(Modelo:|Wikipedia:|(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z])")
+validCategoryPattern = re.compile(u"^Categoría:(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ")
+invalidCategoryPattern = re.compile(u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z]|.+sen imaxes$")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
