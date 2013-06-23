@@ -4,25 +4,28 @@ import codecs, pywikibot, re, sys
 import galipedia as common
 
 
+def parsePageName(pageName):
+    if not invalidPagePattern.match(pageName):
+        if "-" in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+            parts = pageName.split("-")
+            locationNames.add(parts[0].strip())
+        elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+            parts = pageName.split(",")
+            locationNames.add(parts[0])
+        else:
+            locationNames.add(pageName)
+
+
 def loadLocationsFromCategoryAndSubcategories(category):
-
     print u"Cargando {name}…".format(name=category.title())
-
     for subcategory in category.subcategories():
         if validCategoryPattern.match(subcategory.title()):
             loadLocationsFromCategoryAndSubcategories(subcategory)
-
+        elif not invalidCategoryPattern.match(subcategory.title()):
+            parsePageName(subcategory.title().split(":")[1])
     for page in category.articles():
         pageName = page.title()
-        if not invalidPagePattern.match(pageName):
-            if "-" in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-                parts = pageName.split("-")
-                locationNames.add(parts[0].strip())
-            elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
-                parts = pageName.split(",")
-                locationNames.add(parts[0])
-            else:
-                locationNames.add(pageName)
+        parsePageName(pageName)
 
 
 # Lóxica principal:
@@ -44,6 +47,7 @@ locationNames = set()
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
 invalidPagePattern = re.compile(u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )")
 validCategoryPattern = re.compile(u"^Categoría:(Estados desaparecidos d|Imperios|Países d)")
+invalidCategoryPattern = re.compile(u"^Categoría:(Capitais d|Emperadores$)")
 
 for categoryName in categoryNames:
     loadLocationsFromCategoryAndSubcategories(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))

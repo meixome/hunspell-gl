@@ -30,8 +30,10 @@ wordsToIgnore = (
     u"Centro", u"Centros",
     u"Cidade", u"Cidades",
     u"Cima", u"Cimas",
+    u"Colonia", u"Colonias",
     u"Comarca", u"Comarcas",
     u"Concello", u"Concellos",
+    u"Condado", u"Condados",
     u"Confederación", u"Confederacións",
     u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
     u"Coroa", u"Coroas",
@@ -43,6 +45,7 @@ wordsToIgnore = (
     u"Distrito", u"Distritos",
     u"Ducado", u"Ducados",
     u"Estado", u"Estados",
+    u"Estreito", u"Estreitos",
     u"Estrela", u"Estrelas",
     u"Exterior", u"Exteriores",
     u"Faro", u"Faros",
