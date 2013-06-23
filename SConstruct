@@ -89,6 +89,7 @@ Módulos dispoñíbeis:
                             • perú
                             • portugal
                             • reino-unido
+                            • suíza
                             • turquía
                             • xordania
                         • lugares. Nomes de lugares e parroquias.
