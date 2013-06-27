@@ -14,6 +14,10 @@ packageName="hunspell-gl-$(date -u +"%Y%m%d")"
 mkdir ${packageName}
 mv gl.aff ${packageName}/gl.aff
 mv gl.dic ${packageName}/gl.dic
+for filename in $(find .. -name "*.txt")
+do
+  cp "$filename" "${packageName}/"
+done
 tar -cavf ${packageName}.tar.xz ${packageName} &> /dev/null
 mv ${packageName}.tar.xz ../${packageName}.tar.xz
 popd &> /dev/null
