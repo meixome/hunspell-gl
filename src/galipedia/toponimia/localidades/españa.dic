@@ -1202,10 +1202,6 @@ Caldas po:topónimo [n-grama: Caldas de Luna]
 Luna po:topónimo [n-grama: Caldas de Luna]
 Caldas po:topónimo [n-grama: Caldas de Reis]
 Reis po:topónimo [n-grama: Caldas de Reis]
-Caldas po:topónimo [n-grama: Caldas de Reis]
-Reis po:topónimo [n-grama: Caldas de Reis]
-Caldas po:topónimo [n-grama: Caldas de Reis]
-Reis po:topónimo [n-grama: Caldas de Reis]
 Calde po:topónimo
 Caldelas po:topónimo [n-grama: Caldelas de Tui]
 Tui po:topónimo [n-grama: Caldelas de Tui]
@@ -3270,8 +3266,6 @@ Marzá po:topónimo
 Marzán po:topónimo
 Marzás po:topónimo
 Marín po:topónimo
-Marín po:topónimo
-Marín po:topónimo
 Maside po:topónimo
 Masma po:topónimo
 Masoucos po:topónimo
@@ -3421,8 +3415,6 @@ Miñotos po:topónimo
 Moalde po:topónimo
 Moar po:topónimo
 Moaña po:topónimo
-Moaña po:topónimo
-Moaña po:topónimo
 Mociños po:topónimo
 Modúbar po:topónimo [n-grama: Modúbar de la Emparedada]
 la po:topónimo [n-grama: Modúbar de la Emparedada]
@@ -3509,6 +3501,9 @@ Montilla po:topónimo
 Montmeló po:topónimo
 Montoedo po:topónimo
 Montorio po:topónimo
+Montornès po:topónimo [n-grama: Montornès del Vallès]
+del po:topónimo [n-grama: Montornès del Vallès]
+Vallès po:topónimo [n-grama: Montornès del Vallès]
 Montoro po:topónimo
 Montouto po:topónimo
 Montoxo po:topónimo
@@ -4006,6 +4001,8 @@ Palenciana po:topónimo
 Palenzuela po:topónimo
 Paleo po:topónimo
 Palma po:topónimo
+Palma po:topónimo [n-grama: Palma de Mallorca]
+Mallorca po:topónimo [n-grama: Palma de Mallorca]
 Palmeira po:topónimo
 Palmou po:topónimo
 Palmés po:topónimo
@@ -4584,8 +4581,6 @@ Rianxo po:topónimo
 Riaño po:topónimo
 Riba po:topónimo [n-grama: Riba de Neira]
 Neira po:topónimo [n-grama: Riba de Neira]
-Ribadavia po:topónimo
-Ribadavia po:topónimo
 Ribadavia po:topónimo
 Ribadelouro po:topónimo
 Ribadeo po:topónimo
@@ -5876,7 +5871,6 @@ Sobreda po:topónimo
 Sobreganade po:topónimo
 Sobreira po:topónimo
 Sobrán po:topónimo
-Sobrán po:topónimo
 Socuéllamos po:topónimo
 Soengas po:topónimo
 Soexo po:topónimo
@@ -6851,7 +6845,6 @@ Viós po:topónimo
 Voto po:topónimo
 Vélez po:topónimo
 Vícar po:topónimo
-Wikipedia po:topónimo
 Xacebáns po:topónimo
 Xagoaza po:topónimo
 Xallas po:topónimo
