@@ -77,6 +77,7 @@ Módulos dispoñíbeis:
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                             • alemaña
                             • alxeria
+                            • colombia
                             • españa
                             • estados-unidos-de-américa
                             • etiopía
