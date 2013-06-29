@@ -58,6 +58,11 @@ Módulos dispoñíbeis:
     comunidade      Vocabulario da comunidade do corrector de galego Hunspell
                     Termos engadidos ao corrector sen indicar unha fonte que os apoie.
                     Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
+
+                    Submódulos:
+
+                    • toponimia.dic
+                    • vocabulario.dic
                     
     galipedia       Galipedia
                     http://gl.wikipedia.org/wiki/Portada
