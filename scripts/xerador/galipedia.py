@@ -107,9 +107,8 @@ class GalipediaGenerator(generator.Generator):
                 self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
 
         content = ""
-        #collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-        #for name in sorted(self.pageNames, cmp=collator.compare):
-        for name in sorted(self.pageNames):
+        collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+        for name in sorted(self.pageNames, cmp=collator.compare):
             if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
                 for ngrama in name.split(u" "):
                     if ngrama not in generator.wordsToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.

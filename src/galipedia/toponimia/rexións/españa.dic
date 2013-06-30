@@ -18,9 +18,11 @@ Andalucía po:topónimo
 Andorra-Sierra po:topónimo [n-grama: Andorra-Sierra de Arcos]
 Arcos po:topónimo [n-grama: Andorra-Sierra de Arcos]
 Anoia po:topónimo
+Áraba po:topónimo
 Aragón po:topónimo
 Aranda po:topónimo
 Asturias po:topónimo
+Ávila po:topónimo
 Badaxoz po:topónimo
 Bages po:topónimo
 Baix po:topónimo [n-grama: Baix Camp]
@@ -48,6 +50,8 @@ Barcelonès po:topónimo
 Berguedà po:topónimo
 Biscaia po:topónimo
 Burgos po:topónimo
+Cáceres po:topónimo
+Cádiz po:topónimo
 Calatayud po:topónimo
 Camp po:topónimo [n-grama: Camp de Tarragona]
 Tarragona po:topónimo [n-grama: Camp de Tarragona]
@@ -157,16 +161,17 @@ Biscaia po:topónimo [n-grama: Comarcas de Biscaia]
 Cantabria po:topónimo [n-grama: Comarcas de Cantabria]
 Cataluña po:topónimo [n-grama: Comarcas de Cataluña]
 Galicia po:topónimo [n-grama: Comarcas de Galicia]
-Comunidade po:topónimo [n-grama: Comunidade Valenciana]
-Valenciana po:topónimo [n-grama: Comunidade Valenciana]
 Comunidade po:topónimo [n-grama: Comunidade de Calatayud]
 Calatayud po:topónimo [n-grama: Comunidade de Calatayud]
 Comunidade po:topónimo [n-grama: Comunidade de Madrid]
 Madrid po:topónimo [n-grama: Comunidade de Madrid]
 Comunidade po:topónimo [n-grama: Comunidade de Teruel]
 Teruel po:topónimo [n-grama: Comunidade de Teruel]
+Comunidade po:topónimo [n-grama: Comunidade Valenciana]
+Valenciana po:topónimo [n-grama: Comunidade Valenciana]
 Conca po:topónimo [n-grama: Conca de Barberà]
 Barberà po:topónimo [n-grama: Conca de Barberà]
+Córdoba po:topónimo
 Coruña po:topónimo
 occidental po:topónimo [n-grama: Costa occidental de Cantabria]
 Cantabria po:topónimo [n-grama: Costa occidental de Cantabria]
@@ -176,9 +181,6 @@ Costera po:topónimo
 Cuadrillas po:topónimo [n-grama: Cuadrillas de Áraba]
 Áraba po:topónimo [n-grama: Cuadrillas de Áraba]
 Cuenca po:topónimo
-Cáceres po:topónimo
-Cádiz po:topónimo
-Córdoba po:topónimo
 Duranguesado po:topónimo
 Empordà po:topónimo
 Estremadura po:topónimo
@@ -220,6 +222,7 @@ Lleida po:topónimo
 Los po:topónimo [n-grama: Los Monegros]
 Monegros po:topónimo [n-grama: Los Monegros]
 Lugo po:topónimo
+Málaga po:topónimo
 Maresme po:topónimo
 Marina po:topónimo [n-grama: Marina Alta]
 Marina po:topónimo [n-grama: Marina Baixa]
@@ -227,13 +230,13 @@ Mariña po:topónimo [n-grama: Mariña de Lugo]
 Lugo po:topónimo [n-grama: Mariña de Lugo]
 Melilla po:topónimo
 Montsià po:topónimo
-Málaga po:topónimo
 Navarra po:topónimo
 Noguera po:topónimo
 Bierzo po:topónimo [n-grama: O Bierzo]
 Miñor po:topónimo [n-grama: O Val Miñor]
 Osona po:topónimo
 Ourense po:topónimo
+Vasco po:topónimo [n-grama: País Vasco]
 Palencia po:topónimo
 Pallars po:topónimo
 Pallars po:topónimo [n-grama: Pallars Jussà]
@@ -241,7 +244,6 @@ Jussà po:topónimo [n-grama: Pallars Jussà]
 Pallars po:topónimo [n-grama: Pallars Sobirà]
 Sobirà po:topónimo [n-grama: Pallars Sobirà]
 Palmas po:topónimo
-Vasco po:topónimo [n-grama: País Vasco]
 Penedès po:topónimo
 Pla po:topónimo [n-grama: Pla d'Urgell]
 d'Urgell po:topónimo [n-grama: Pla d'Urgell]
@@ -293,5 +295,3 @@ Xaén po:topónimo
 Xirona po:topónimo
 Zamora po:topónimo
 Zaragoza po:topónimo
-Áraba po:topónimo
-Ávila po:topónimo
