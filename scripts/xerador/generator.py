@@ -1,8 +1,26 @@
 # -*- coding:utf-8 -*-
 
+import codecs, os
+import common
+
+class Generator(object):
+
+    def generateFileContent(self):
+        print "Reimplement this method in your subclass!"
+        return ""
+
+    def writeToResource(self, content):
+        with codecs.open(os.path.join(common.getModulesSourcePath(), self.resource), u"w", u"utf-8") as fileObject:
+            fileObject.write(content)
+
+    def run(self):
+        self.writeToResource(self.generateFileContent())
+
+
 wordsToIgnore = (
     # Nexos comúns.
     u"a", u"A", u"as", u"As", u"o", u"O", u"os", u"Os",
+    u"á", u"Á", u"ás", u"Ás", u"ao", u"Ao", u"aos", u"Aos", u"ó", u"Ó", u"ós", u"Ós",
     u"da", u"Da", u"das", u"Das", u"de", u"De", u"do", u"Do", u"dos", u"Dos",
     u"e", u"E",
     u"en", u"En",

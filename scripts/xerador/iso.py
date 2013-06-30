@@ -1,10 +1,73 @@
 # -*- coding:utf-8 -*-
 
-import codecs, urllib2
+import re, urllib2
+from xml.etree.ElementTree import XML
 from bs4 import BeautifulSoup
+import PyICU
+import generator
 
 
-class CodeList(object):
+class Iso4217CodeList(object):
+
+    """ Formato do dicionario:
+        * Código da moeda.
+        * Datos da moeda. (dicionario)
+            * Nome da moeda en inglés.
+            * Lista de rexións nas que se usa a moeda, en inglés.
+
+        Exemplo:
+        {
+            'EUR',
+            [
+                'Euro',
+                ['ÅLAND ISLANDS', 'ANDORRA', 'AUSTRIA', …]
+            ]
+        }
+    """
+    codes = {}
+
+    def __init__(self):
+        pass
+
+    def addEntry(self, currencyCode, currencyName, currencyCountry):
+        if currencyCode not in self.codes:
+            self.codes[currencyCode] = { currencyName: [currencyCountry] }
+        else:
+            if currencyName not in self.codes[currencyCode]:
+                self.codes[currencyCode][currencyName] = [currencyCountry]
+            else:
+                if currencyCountry not in self.codes[currencyCode][currencyName]:
+                    self.codes[currencyCode][currencyName].append(currencyCountry)
+
+    def loadFromXml(self, xmlContent):
+        root = XML(xmlContent)
+        for entry in root.findall("ISO_CURRENCY"):
+            fields = list(entry)
+            if fields[2].text is not None:
+                self.addEntry(fields[2].text, fields[1].text, fields[0].text)
+
+    def toDicFormat(self):
+        result = ""
+        for currencyCode in sorted(self.codes.iterkeys()):
+            result += currencyCode + ( ' '*(10-len(currencyCode)) ) + '# '
+            result += ', '.join([currencyName + ' (' + ', '.join(sorted(self.codes[currencyCode][currencyName])) + ')' for currencyName in sorted(self.codes[currencyCode].iterkeys())])
+            result += '.\n'
+        return result
+
+
+class Iso4217Generator(generator.Generator):
+
+    def __init__(self):
+        self.resource = "iso4217/vocabulario.dic"
+
+    def generateFileContent(self):
+        codeList = Iso4217CodeList()
+        codeList.loadFromXml(urllib2.urlopen("http://www.currency-iso.org/dam/isocy/downloads/dl_iso_table_a1.xml").read())
+        return codeList.toDicFormat()
+
+
+
+class Iso639CodeList(object):
 
     """ Format of the dictionary:
         * Language code.
@@ -85,25 +148,26 @@ class CodeList(object):
         return result
 
 
-def getSilOrgPageForLetter(letter):
-    return urllib2.urlopen("http://www.sil.org/iso639-3/codes.asp?order=639_3&letter={letter}".format(letter=letter)).read()
+class Iso639Generator(generator.Generator):
+
+    def __init__(self):
+        self.resource = "iso639/vocabulario.dic"
 
 
-def getLatinAlphabet():
-    return ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    def generateFileContent(self):
+
+        def getSilOrgPageForLetter(letter):
+            return urllib2.urlopen("http://www.sil.org/iso639-3/codes.asp?order=639_3&letter={letter}".format(letter=letter)).read()
+
+        codeList = Iso639CodeList()
+        for letter in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']:
+            codeList.mergeFromSilOrgPage(getSilOrgPageForLetter(letter))
+        return codeList.toDicFormat()
 
 
-def getLanguageCodesDictionary():
-    codeList = CodeList()
-    for letter in getLatinAlphabet():
-        codeList.mergeFromSilOrgPage(getSilOrgPageForLetter(letter))
-    return codeList
 
-
-def main():
-    codeList = getLanguageCodesDictionary()
-    dic = codeList.toDicFormat()
-    with codecs.open('iso639.dic', 'w', 'utf-8') as f:
-        f.write(dic)
-
-main()
+def loadGeneratorList():
+    generators = []
+    generators.append(Iso4217Generator())
+    generators.append(Iso639Generator())
+    return generators

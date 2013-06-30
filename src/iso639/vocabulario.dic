@@ -1602,7 +1602,7 @@ dgn       # Dagoman (639-3).
 dgo       # Dogri (individual language) (639-3).
 dgr       # Dogrib (639-2/639-5, 639-3).
 dgs       # Dogoso (639-3).
-dgt       # Ndrag'ngith (639-3).
+dgt       # Ndra'ngith (639-3).
 dgu       # Degaru (639-3).
 dgw       # Daungwurrung (639-3).
 dgx       # Doghoro (639-3).
@@ -1938,7 +1938,7 @@ eza       # Ezaa (639-3).
 eze       # Uzekwe (639-3).
 fa        # Persian (639-1).
 faa       # Fasu (639-3).
-fab       # Fa D'ambu (639-3).
+fab       # Fa d'Ambu (639-3).
 fad       # Wagi (639-3).
 faf       # Fagani (639-3).
 fag       # Finongan (639-3).
@@ -5452,6 +5452,7 @@ pnh       # Penrhyn (639-3).
 pni       # Aoheng (639-3).
 pnj       # Pinjarup (639-3).
 pnk       # Paunaka (639-3).
+pnl       # Paleni (639-3).
 pnm       # Punan Batu 1 (639-3).
 pnn       # Pinai-Hagahai (639-3).
 pno       # Panobo (639-3).
@@ -6264,6 +6265,7 @@ stt       # Budeh Stieng (639-3).
 stu       # Samtao (639-3).
 stv       # Silt'e (639-3).
 stw       # Satawalese (639-3).
+sty       # Siberian Tatar (639-3).
 su        # Sundanese (639-1).
 sua       # Sulka (639-3).
 sub       # Suku (639-3).
@@ -7431,7 +7433,6 @@ xhr       # Hernican (639-3).
 xht       # Hattic (639-3).
 xhu       # Hurrian (639-3).
 xhv       # Khua (639-3).
-xia       # Xiandao (639-3).
 xib       # Iberian (639-3).
 xii       # Xiri (639-3).
 xil       # Illyrian (639-3).
@@ -7441,7 +7442,7 @@ xir       # Xiriâna (639-3).
 xiv       # Indus Valley Language (639-3).
 xiy       # Xipaya (639-3).
 xjb       # Minjungbal (639-3).
-xjt       # Jaimatang (639-3).
+xjt       # Jaitmatang (639-3).
 xka       # Kalkoti (639-3).
 xkb       # Northern Nago (639-3).
 xkc       # Kho'ini (639-3).
@@ -7611,7 +7612,7 @@ xug       # Kunigami (639-3).
 xuj       # Jennu Kurumba (639-3).
 xul       # Ngunawal (639-3).
 xum       # Umbrian (639-3).
-xun       # Unggarranggu (639-3).
+xun       # Unggaranggu (639-3).
 xuo       # Kuo (639-3).
 xup       # Upper Umpqua (639-3).
 xur       # Urartian (639-3).

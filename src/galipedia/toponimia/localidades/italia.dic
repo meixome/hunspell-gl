@@ -3,11 +3,11 @@ Terme po:topónimo [n-grama: Abano Terme]
 Abbiategrasso po:topónimo
 Acerra po:topónimo
 Acireale po:topónimo
-Acquaviva po:topónimo [n-grama: Acquaviva Platani]
-Platani po:topónimo [n-grama: Acquaviva Platani]
 Acquaviva po:topónimo [n-grama: Acquaviva delle Fonti]
 delle po:topónimo [n-grama: Acquaviva delle Fonti]
 Fonti po:topónimo [n-grama: Acquaviva delle Fonti]
+Acquaviva po:topónimo [n-grama: Acquaviva Platani]
+Platani po:topónimo [n-grama: Acquaviva Platani]
 Acqui po:topónimo [n-grama: Acqui Terme]
 Terme po:topónimo [n-grama: Acqui Terme]
 Acri po:topónimo
@@ -41,8 +41,8 @@ Arzachena po:topónimo
 Ascoli po:topónimo [n-grama: Ascoli Piceno]
 Piceno po:topónimo [n-grama: Ascoli Piceno]
 Asiago po:topónimo
-Asti po:topónimo
 Asís po:topónimo
+Asti po:topónimo
 Atri po:topónimo
 Avellino po:topónimo
 Aversa po:topónimo
@@ -59,6 +59,7 @@ Bellante po:topónimo
 Bellaria-Igea po:topónimo [n-grama: Bellaria-Igea Marina]
 Marina po:topónimo [n-grama: Bellaria-Igea Marina]
 Benevento po:topónimo
+Bérgamo po:topónimo
 Bibbiano po:topónimo
 Biella po:topónimo
 Bisenti po:topónimo
@@ -69,7 +70,6 @@ Bonorva po:topónimo
 Bosa po:topónimo
 Brescia po:topónimo
 Brindisi po:topónimo
-Bérgamo po:topónimo
 Cabras po:topónimo
 Cagliari po:topónimo
 Campli po:topónimo
@@ -79,14 +79,15 @@ Giovanni po:topónimo [n-grama: Campora San Giovanni]
 Campotosto po:topónimo
 Canzano po:topónimo
 Carbonia po:topónimo
+Caserta po:topónimo
 Casorezzo po:topónimo
 Castel po:topónimo [n-grama: Castel Castagna]
 Castagna po:topónimo [n-grama: Castel Castagna]
-Castel po:topónimo [n-grama: Castel Goffredo]
-Goffredo po:topónimo [n-grama: Castel Goffredo]
 Castel po:topónimo [n-grama: Castel di Sangro]
 di po:topónimo [n-grama: Castel di Sangro]
 Sangro po:topónimo [n-grama: Castel di Sangro]
+Castel po:topónimo [n-grama: Castel Goffredo]
+Goffredo po:topónimo [n-grama: Castel Goffredo]
 Castellalto po:topónimo
 Castelli po:topónimo
 Castelsardo po:topónimo
@@ -145,6 +146,7 @@ con po:topónimo [n-grama: Giacciano con Baruchella]
 Baruchella po:topónimo [n-grama: Giacciano con Baruchella]
 Giulianova po:topónimo
 Gonnosfanadiga po:topónimo
+Gorizia po:topónimo
 Grumes po:topónimo
 Iglesias po:topónimo
 Isola po:topónimo [n-grama: Isola del Gran Sasso d'Italia]
@@ -183,6 +185,7 @@ Matera po:topónimo
 Merate po:topónimo
 Messina po:topónimo
 Milán po:topónimo
+Módena po:topónimo
 Mogoro po:topónimo
 Montefino po:topónimo
 Montorio po:topónimo [n-grama: Montorio al Vomano]
@@ -193,7 +196,7 @@ Morro po:topónimo [n-grama: Morro d'Oro]
 d'Oro po:topónimo [n-grama: Morro d'Oro]
 Mosciano po:topónimo [n-grama: Mosciano Sant'Angelo]
 Sant'Angelo po:topónimo [n-grama: Mosciano Sant'Angelo]
-Módena po:topónimo
+Nápoles po:topónimo
 Nereto po:topónimo
 Notaresco po:topónimo
 Novara po:topónimo
@@ -211,6 +214,7 @@ Pavía po:topónimo
 Penna po:topónimo [n-grama: Penna Sant'Andrea]
 Sant'Andrea po:topónimo [n-grama: Penna Sant'Andrea]
 Perfugas po:topónimo
+Perugia po:topónimo
 Pescara po:topónimo
 Piadena po:topónimo
 Piancastagnaio po:topónimo
@@ -231,10 +235,12 @@ Reggio po:topónimo [n-grama: Reggio Emilia]
 Emilia po:topónimo [n-grama: Reggio Emilia]
 Riccione po:topónimo
 Rieti po:topónimo
+Rimini po:topónimo
 Robbiate po:topónimo
 Rocca po:topónimo [n-grama: Rocca Santa Maria]
 Maria po:topónimo [n-grama: Rocca Santa Maria]
 Roccalbegna po:topónimo
+Roma po:topónimo
 Romans po:topónimo [n-grama: Romans d'Isonzo]
 d'Isonzo po:topónimo [n-grama: Romans d'Isonzo]
 Roseto po:topónimo [n-grama: Roseto degli Abruzzi]
@@ -266,7 +272,9 @@ Tambre po:topónimo
 Taranta po:topónimo [n-grama: Taranta Peligna]
 Peligna po:topónimo [n-grama: Taranta Peligna]
 Taranto po:topónimo
+Téramo po:topónimo
 Terni po:topónimo
+Tívoli po:topónimo
 Tollo po:topónimo
 Torano po:topónimo [n-grama: Torano Nuovo]
 Nuovo po:topónimo [n-grama: Torano Nuovo]
@@ -279,11 +287,10 @@ Torricella po:topónimo [n-grama: Torricella Sicura]
 Sicura po:topónimo [n-grama: Torricella Sicura]
 Tortoreto po:topónimo
 Tossicia po:topónimo
+Trento po:topónimo
 Treviso po:topónimo
 Trieste po:topónimo
 Turín po:topónimo
-Téramo po:topónimo
-Tívoli po:topónimo
 Udine po:topónimo
 Urbino po:topónimo
 Urzulei po:topónimo
@@ -293,6 +300,7 @@ Varese po:topónimo
 Venecia po:topónimo
 Vercelli po:topónimo
 Vercurago po:topónimo
+Verona po:topónimo
 Villa po:topónimo [n-grama: Villa d'Adda]
 d'Adda po:topónimo [n-grama: Villa d'Adda]
 Villafalletto po:topónimo

@@ -1,6 +1,6 @@
 # coding=utf-8
 
-import mmap, os, re, subprocess
+import mmap, os, PyICU, re, subprocess
 
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
@@ -248,9 +248,10 @@ def addReplacementsToAff(targetFilename, sourceFilenames):
             linesSeen.add(line)
 
     formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
-    for line in sorted(linesSeen):
+    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+    for line in sorted(linesSeen, cmp=collator.compare):
         formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
-    
+
     extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
 
 
@@ -281,7 +282,8 @@ def createDic(targetFilename, sourceFilenames):
             linesSeen.add(line)
 
     contentWithoutDuplicates = ""
-    for line in sorted(linesSeen):
+    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+    for line in sorted(linesSeen, cmp=collator.compare):
         contentWithoutDuplicates += line + '\n'
 
     with open(targetFilename, 'w') as targetFile:

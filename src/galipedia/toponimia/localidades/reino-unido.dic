@@ -39,6 +39,7 @@ Durham po:topónimo
 Edimburgo po:topónimo
 Exeter po:topónimo
 Glasgow po:topónimo
+Londres po:topónimo [n-grama: Gran Londres]
 Greenwich po:topónimo
 Hammersmith po:topónimo [n-grama: Hammersmith e Fulham]
 Fulham po:topónimo [n-grama: Hammersmith e Fulham]
@@ -53,6 +54,7 @@ Liverpool po:topónimo
 Londres po:topónimo
 Manchester po:topónimo
 Monmouth po:topónimo
+Newcastle po:topónimo
 Newcastle po:topónimo [n-grama: Newcastle upon Tyne]
 upon po:topónimo [n-grama: Newcastle upon Tyne]
 Tyne po:topónimo [n-grama: Newcastle upon Tyne]
@@ -62,13 +64,15 @@ Oldham po:topónimo
 Omagh po:topónimo
 Oxford po:topónimo
 Plymouth po:topónimo
+Portsmouth po:topónimo
 Ramsgate po:topónimo
+Reading po:topónimo
 Sheffield po:topónimo
 Silverstone po:topónimo
 Southampton po:topónimo
 Stirling po:topónimo
 Stonehaven po:topónimo
-Stratford po:topónimo
+Stratford-upon-Avon po:topónimo
 Sunderland po:topónimo
 Tintagel po:topónimo
 Tower po:topónimo [n-grama: Tower Hamlets]
@@ -79,4 +83,3 @@ Waltham po:topónimo [n-grama: Waltham Forest]
 Forest po:topónimo [n-grama: Waltham Forest]
 Westminster po:topónimo
 York po:topónimo
-upon po:topónimo

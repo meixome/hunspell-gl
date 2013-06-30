@@ -3,7 +3,7 @@ Alentejo po:topónimo [n-grama: Alentejo Litoral]
 Alentexo po:topónimo
 Algarve po:topónimo
 Alentejo po:topónimo [n-grama: Alto Alentejo]
-Trás po:topónimo [n-grama: Alto Trás]
+Trás-os-Montes po:topónimo [n-grama: Alto Trás-os-Montes]
 Ave po:topónimo
 Azores po:topónimo
 Alentejo po:topónimo [n-grama: Baixo Alentejo]
@@ -11,12 +11,14 @@ Mondego po:topónimo [n-grama: Baixo Mondego]
 Vouga po:topónimo [n-grama: Baixo Vouga]
 Transmontana po:topónimo [n-grama: Beira Transmontana]
 Cávado po:topónimo
+Dão-Lafões po:topónimo
 Guarda po:topónimo [n-grama: Distrito da Guarda]
 Aveiro po:topónimo [n-grama: Distrito de Aveiro]
 Beja po:topónimo [n-grama: Distrito de Beja]
 Braga po:topónimo [n-grama: Distrito de Braga]
 Braganza po:topónimo [n-grama: Distrito de Braganza]
 Coimbra po:topónimo [n-grama: Distrito de Coimbra]
+Évora po:topónimo [n-grama: Distrito de Évora]
 Leiria po:topónimo [n-grama: Distrito de Leiria]
 Lisboa po:topónimo [n-grama: Distrito de Lisboa]
 Portalegre po:topónimo [n-grama: Distrito de Portalegre]
@@ -24,21 +26,19 @@ Santarém po:topónimo [n-grama: Distrito de Santarém]
 Setúbal po:topónimo [n-grama: Distrito de Setúbal]
 Viana po:topónimo [n-grama: Distrito de Viana do Castelo]
 Viseu po:topónimo [n-grama: Distrito de Viseu]
-Évora po:topónimo [n-grama: Distrito de Évora]
+Douro po:topónimo
 Douro po:topónimo [n-grama: Douro Litoral]
-Dão po:topónimo
 Douro po:topónimo [n-grama: Entre Douro e Vouga]
 Vouga po:topónimo [n-grama: Entre Douro e Vouga]
 Entre-Douro-e-Minho po:topónimo
 Estremadura po:topónimo
 Lisboa po:topónimo [n-grama: Grande Lisboa]
-Lafões po:topónimo
 Lezíria po:topónimo [n-grama: Lezíria do Tejo]
 Tejo po:topónimo [n-grama: Lezíria do Tejo]
-Lima po:topónimo
-Minho po:topónimo
 Médio po:topónimo [n-grama: Médio Tejo]
 Tejo po:topónimo [n-grama: Médio Tejo]
+Minho-Lima po:topónimo
+Miño po:topónimo
 Setúbal po:topónimo [n-grama: Península de Setúbal]
 Pinhal po:topónimo [n-grama: Pinhal Interior Norte]
 Pinhal po:topónimo [n-grama: Pinhal Interior Sul]
@@ -48,11 +48,8 @@ Portugal po:topónimo [n-grama: Portugal continental]
 Azores po:topónimo [n-grama: Provincia Central dos Azores]
 Azores po:topónimo [n-grama: Provincia Occidental dos Azores]
 Azores po:topónimo [n-grama: Provincia Oriental dos Azores]
-Miño po:topónimo
-Douro po:topónimo
-Azores po:topónimo
 Lisboa po:topónimo [n-grama: Rexión de Lisboa]
 Ribatexo po:topónimo
 Douro po:topónimo [n-grama: Subrexión de Douro]
-Douro po:topónimo [n-grama: Tras os Montes e Alto Douro]
 Támega po:topónimo
+Douro po:topónimo [n-grama: Tras os Montes e Alto Douro]
