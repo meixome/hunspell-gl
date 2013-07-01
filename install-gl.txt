@@ -24,3 +24,19 @@ Para volver construír o corrector ortográfico despois de cambiar algún fichei
 Para obter información detallada sobre como construír un corrector ortográfico personalizado, con vocabulario non normativo e extensións, execute:
 
     scons -h
+
+
+Problemas coñecidos
+===================
+
+- Pode darse un erro que se debe a que os ficheiros fonte de palabras non todos teñen a mesma codificación
+
+Mensase de erro:
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 3: ordinal not in range(128)
+
++ solución: Engadir estas liñas 
+
+    import sys
+    sys.setdefaultencoding("utf-8")
+    
+no ficheiro «sitecustomize.py» da súa instalación de python. Pode estar en etc/python2.7
