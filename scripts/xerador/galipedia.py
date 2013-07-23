@@ -246,6 +246,7 @@ def loadGeneratorList():
         invalidCategoryPattern = u"^(Capitais d|Emperadores$)"
     ))
 
+    generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Brasil", [u"Estados do {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Chile"))
     generators.append(GalipediaRexionsGenerator(u"Colombia", [u"Departamentos de {name}", u"Provincias de {name}"]))
