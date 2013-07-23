@@ -77,6 +77,7 @@ Módulos dispoñíbeis:
                           • continentes
                           • illas
                           • montañas
+                          • praias
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                           • alemaña
                           • alxeria

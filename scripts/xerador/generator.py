@@ -125,6 +125,7 @@ wordsToIgnore = (
     u"Pórtico", u"Pórticos",
     u"Porto", u"Portos",
     u"Prado", u"Prados",
+    u"Praia", u"Praias",
     u"Principado", u"Principados",
     u"Provincia", u"Provincias",
     u"Real", u"Reais",

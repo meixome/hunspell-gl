@@ -175,15 +175,7 @@ def loadGeneratorList():
         invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
         invalidCategoryPattern = u"^(Imaxes) "
-        ))
-
-    generators.append(GalipediaGenerator(
-        resource = u"onomástica/toponimia/accidentes/montañas.dic",
-        partOfSpeech = u"topónimo",
-        categoryNames = [u"Montañas"],
-        invalidPagePattern = u"^(Modelo:)",
-        validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
-        ))
+    ))
 
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
@@ -192,6 +184,24 @@ def loadGeneratorList():
         categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
         invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$"
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/montañas.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Montañas"],
+        invalidPagePattern = u"^(Modelo:)",
+        validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
+    ))
+
+    pattern = u"(Praias) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/praias.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Praias"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Bandeira Azul$|Galería de imaxes|Praia$|Praia nudista$)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) "
     ))
 
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
