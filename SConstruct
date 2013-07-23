@@ -86,6 +86,7 @@ Módulos dispoñíbeis:
                           • brasil
                           • colombia
                           • congo
+                          • desaparecidas. Localidades desaparecidas, que xa non existen.
                           • eslovaquia
                           • españa
                           • estados-unidos-de-américa
