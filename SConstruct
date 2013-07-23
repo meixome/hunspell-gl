@@ -79,6 +79,7 @@ Módulos dispoñíbeis:
                           • montañas
                           • praias
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                          • desaparecidas. Localidades desaparecidas, que xa non existen.
                           • alemaña
                           • alxeria
                           • barbados
@@ -86,7 +87,7 @@ Módulos dispoñíbeis:
                           • brasil
                           • colombia
                           • congo
-                          • desaparecidas. Localidades desaparecidas, que xa non existen.
+                          • cuba
                           • eslovaquia
                           • españa
                           • estados-unidos-de-américa

@@ -37,10 +37,9 @@ Cartaxo po:topónimo         # http://gl.wikipedia.org/wiki/Distrito_de_Santaré
 Caxaraville po:topónimo     # http://gl.wikipedia.org/wiki/Modelo:Lp_San_Miguel_de_Sarandón
 Ceilán po:topónimo          # http://gl.wikipedia.org/wiki/Ceilán
 Chapada po:topónimo         # http://gl.wikipedia.org/wiki/Chapada_Diamantina
-Chunchura
-Chuvaquia
-Ciamis
-Cienfuegos
+Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
+Chuvaquia po:topónimo       # http://www.xunta.es/linguagalega/cursoxuridica/documentacion/_6_relaciondetoponimosmaishabiuaisdeforadoestadoespanol.pdf
+Ciamis po:topónimo          # http://en.wikipedia.org/wiki/Ciamis
 Cilacap
 Cisxordania
 Cochabamba
@@ -99,10 +98,8 @@ Grenada
 Grosso
 Guadalquivir
 Guadiana
-Guantánamo
 Guarico
 Gunungkidoli
-Habana
 Hannover
 Haora
 Harlem
