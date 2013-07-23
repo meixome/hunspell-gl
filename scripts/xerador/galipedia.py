@@ -131,13 +131,14 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
         if countryName == u"España":
             basqueFilter = True
 
+        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) "
         super(GalipediaLocalidadesGenerator, self).__init__(
             resource = u"onomástica/toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|Wikipedia:|(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z])",
+            invalidPagePattern = u"^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
             validCategoryPattern = u"^(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
-            invalidCategoryPattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z]|.+sen imaxes$",
+            invalidCategoryPattern = u"{pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
             basqueFilter = basqueFilter
         )
 
@@ -195,6 +196,7 @@ def loadGeneratorList():
 
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))
+    generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
