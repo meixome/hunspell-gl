@@ -166,13 +166,23 @@ def loadGeneratorList():
 
     generators = []
 
+    pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/arquitectura/relixión.dic",
+        partOfSpeech = u"nome propio",
+        categoryNames = [u"Arquitectura relixiosa por países"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) "
+        ))
+
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/montañas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Montañas"],
         invalidPagePattern = u"^(Modelo:)",
         validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
-    ))
+        ))
 
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",

@@ -70,6 +70,8 @@ Módulos dispoñíbeis:
                     Submódulos:
                         
                     • onomástica. Nomes propios.
+                      • arquitectura.
+                        • relixión. Pezas de arquitectura relixiosa.
                       • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
                           • continentes
