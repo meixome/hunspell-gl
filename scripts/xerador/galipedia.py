@@ -131,7 +131,7 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
         if countryName == u"España":
             basqueFilter = True
 
-        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) "
+        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Municipios|Parroquias|Principais cidades) "
         super(GalipediaLocalidadesGenerator, self).__init__(
             resource = u"onomástica/toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
@@ -220,6 +220,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Finlandia"))
     generators.append(GalipediaLocalidadesGenerator(u"Francia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia"))
+    generators.append(GalipediaLocalidadesGenerator(u"Guatemala", [u"Cidades de {name}", u"Municipios de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Guinea-Bisau"))
     generators.append(GalipediaLocalidadesGenerator(u"Hungría"))
     generators.append(GalipediaLocalidadesGenerator(u"Iemen"))
