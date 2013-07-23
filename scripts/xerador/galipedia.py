@@ -277,6 +277,7 @@ def loadGeneratorList():
     generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Países Baixos", [u"Provincias dos {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Portugal", [
         u"Antigas provincias portuguesas", u"Distritos e rexións autónomas de Portugal", u"NUTS I portuguesas",
