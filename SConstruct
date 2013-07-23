@@ -90,6 +90,7 @@ Módulos dispoñíbeis:
                           • estados-unidos-de-américa
                           • etiopía
                           • exipto
+                          • finlandia
                           • francia
                           • grecia
                           • guinea-bisau
