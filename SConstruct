@@ -93,6 +93,7 @@ Módulos dispoñíbeis:
                           • francia
                           • grecia
                           • guinea-bisau
+                          • hungría
                           • iemen
                           • indonesia
                           • iraq

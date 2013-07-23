@@ -209,6 +209,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Francia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia"))
     generators.append(GalipediaLocalidadesGenerator(u"Guinea-Bisau"))
+    generators.append(GalipediaLocalidadesGenerator(u"Hungría"))
     generators.append(GalipediaLocalidadesGenerator(u"Iemen"))
     generators.append(GalipediaLocalidadesGenerator(u"Indonesia"))
     generators.append(GalipediaLocalidadesGenerator(u"Iraq"))
