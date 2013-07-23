@@ -112,6 +112,7 @@ Módulos dispoñíbeis:
                           • serbia
                           • suíza
                           • turquía
+                          • venezuela
                           • xordania
                         • lugares. Nomes de lugares e parroquias.
                           • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
