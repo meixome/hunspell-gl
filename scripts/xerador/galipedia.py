@@ -282,6 +282,7 @@ def loadGeneratorList():
         u"Antigas provincias portuguesas", u"Distritos e rexións autónomas de Portugal", u"NUTS I portuguesas",
         u"NUTS II portuguesas", u"NUTS III portuguesas", u"Rexións autónomas de Portugal"
     ]))
+    generators.append(GalipediaRexionsGenerator(u"Rusia", [u"Repúblicas de {name}"]))
 
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/zonas/españa.dic",
