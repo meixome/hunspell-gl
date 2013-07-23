@@ -132,7 +132,7 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
             basqueFilter = True
 
         super(GalipediaLocalidadesGenerator, self).__init__(
-            resource = u"toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
+            resource = u"onomástica/toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
             invalidPagePattern = u"^(Modelo:|Wikipedia:|(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z])",
@@ -151,7 +151,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             parsedCategoryNames.append(categoryName.format(name=countryName))
 
         super(GalipediaRexionsGenerator, self).__init__(
-            resource = u"toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
+            resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
             invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
@@ -167,7 +167,7 @@ def loadGeneratorList():
     generators = []
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/accidentes/montañas.dic",
+        resource = u"onomástica/toponimia/accidentes/montañas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Montañas"],
         invalidPagePattern = u"^(Modelo:)",
@@ -175,7 +175,7 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/accidentes/illas.dic",
+        resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos"],
         categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
@@ -212,7 +212,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Xordania"))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/lugares/galicia.dic",
+        resource = u"onomástica/toponimia/lugares/galicia.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Lugares de Galicia", u"Parroquias de Galicia"],
         invalidPagePattern = u"^(Lugares d|Parroquias d)",
@@ -220,7 +220,7 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/países.dic",
+        resource = u"onomástica/toponimia/países.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [
             u"Estados desaparecidos",
@@ -249,7 +249,7 @@ def loadGeneratorList():
     ]))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/zonas/españa.dic",
+        resource = u"onomástica/toponimia/zonas/españa.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Barrios de España", u"Distritos de España"],
         invalidPagePattern = u"^Modelo:|(Barrios|Distritos) ",

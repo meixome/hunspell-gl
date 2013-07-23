@@ -69,55 +69,56 @@ Módulos dispoñíbeis:
                     
                     Submódulos:
                         
-                    • toponimia. Topónimos.
+                    • onomástica. Nomes propios.
+                      • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
-                            • continentes
-                            • illas
-                            • montañas
+                          • continentes
+                          • illas
+                          • montañas
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
-                            • alemaña
-                            • alxeria
-                            • colombia
-                            • españa
-                            • estados-unidos-de-américa
-                            • etiopía
-                            • exipto
-                            • francia
-                            • grecia
-                            • guinea-bisau
-                            • iemen
-                            • indonesia
-                            • iraq
-                            • israel
-                            • italia
-                            • líbano
-                            • malí
-                            • méxico
-                            • oceanía
-                            • países-baixos
-                            • perú
-                            • portugal
-                            • reino-unido
-                            • serbia
-                            • suíza
-                            • turquía
-                            • xordania
+                          • alemaña
+                          • alxeria
+                          • colombia
+                          • españa
+                          • estados-unidos-de-américa
+                          • etiopía
+                          • exipto
+                          • francia
+                          • grecia
+                          • guinea-bisau
+                          • iemen
+                          • indonesia
+                          • iraq
+                          • israel
+                          • italia
+                          • líbano
+                          • malí
+                          • méxico
+                          • oceanía
+                          • países-baixos
+                          • perú
+                          • portugal
+                          • reino-unido
+                          • serbia
+                          • suíza
+                          • turquía
+                          • xordania
                         • lugares. Nomes de lugares e parroquias.
-                            • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                          • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
                         • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
                         • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
-                            • brasil
-                            • chile
-                            • colombia
-                            • españa
-                            • estados-unidos-de-américa
-                            • francia
-                            • italia
-                            • portugal
+                          • brasil
+                          • chile
+                          • colombia
+                          • españa
+                          • estados-unidos-de-américa
+                          • francia
+                          • italia
+                          • portugal
                         • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
-                            • españa
+                          • españa
                     • xeografía. Xeografía.
-                        • accidentes. Accidentes xeográficos.
+                      • accidentes. Accidentes xeográficos.
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
