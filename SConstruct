@@ -82,6 +82,7 @@ Módulos dispoñíbeis:
                           • alxeria
                           • brasil
                           • colombia
+                          • eslovaquia
                           • españa
                           • estados-unidos-de-américa
                           • etiopía
