@@ -80,6 +80,7 @@ Módulos dispoñíbeis:
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                           • alemaña
                           • alxeria
+                          • barbados
                           • brasil
                           • colombia
                           • congo
