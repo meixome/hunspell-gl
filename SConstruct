@@ -106,6 +106,7 @@ Módulos dispoñíbeis:
                           • perú
                           • portugal
                           • reino-unido
+                          • romanía
                           • serbia
                           • suíza
                           • turquía
