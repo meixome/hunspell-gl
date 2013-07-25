@@ -131,13 +131,14 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
         if countryName == u"España":
             basqueFilter = True
 
+        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Municipios|Parroquias|Principais cidades) "
         super(GalipediaLocalidadesGenerator, self).__init__(
-            resource = u"toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
+            resource = u"onomástica/toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|Wikipedia:|(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z])",
+            invalidPagePattern = u"^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
             validCategoryPattern = u"^(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
-            invalidCategoryPattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Parroquias|Principais cidades) [a-z]|.+sen imaxes$",
+            invalidCategoryPattern = u"{pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
             basqueFilter = basqueFilter
         )
 
@@ -151,7 +152,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             parsedCategoryNames.append(categoryName.format(name=countryName))
 
         super(GalipediaRexionsGenerator, self).__init__(
-            resource = u"toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
+            resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
             invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
@@ -166,16 +167,18 @@ def loadGeneratorList():
 
     generators = []
 
+    pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/accidentes/montañas.dic",
-        partOfSpeech = u"topónimo",
-        categoryNames = [u"Montañas"],
-        invalidPagePattern = u"^(Modelo:)",
-        validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
+        resource = u"onomástica/arquitectura/relixión.dic",
+        partOfSpeech = u"nome propio",
+        categoryNames = [u"Arquitectura relixiosa por países"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) "
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/accidentes/illas.dic",
+        resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos"],
         categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
@@ -183,17 +186,46 @@ def loadGeneratorList():
         invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$"
     ))
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/montañas.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Montañas"],
+        invalidPagePattern = u"^(Modelo:)",
+        validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
+    ))
+
+    pattern = u"(Praias) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/praias.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Praias"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Bandeira Azul$|Galería de imaxes|Praia$|Praia nudista$)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) "
+    ))
+
+    generators.append(GalipediaLocalidadesGenerator(u"Desaparecidas", [u"Cidades desaparecidas"])) # Localidades desaparecidas.
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))
+    generators.append(GalipediaLocalidadesGenerator(u"Barbados"))
+    generators.append(GalipediaLocalidadesGenerator(u"Bélxica"))
+    generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades do {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
+    generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
     generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Etiopía"))
     generators.append(GalipediaLocalidadesGenerator(u"Exipto"))
+    generators.append(GalipediaLocalidadesGenerator(u"Finlandia"))
     generators.append(GalipediaLocalidadesGenerator(u"Francia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia"))
+    generators.append(GalipediaLocalidadesGenerator(u"Guatemala", [u"Cidades de {name}", u"Municipios de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Guinea-Bisau"))
+    generators.append(GalipediaLocalidadesGenerator(u"Hungría"))
     generators.append(GalipediaLocalidadesGenerator(u"Iemen"))
+    generators.append(GalipediaLocalidadesGenerator(u"India", [u"Cidades da {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Indonesia"))
     generators.append(GalipediaLocalidadesGenerator(u"Iraq"))
     generators.append(GalipediaLocalidadesGenerator(u"Israel"))
@@ -206,13 +238,16 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Perú"))
     generators.append(GalipediaLocalidadesGenerator(u"Portugal", [u"Cidades de {name}", u"Municipios de {name}", u"Vilas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Reino Unido", [u"Cidades do {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Romanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Serbia"))
     generators.append(GalipediaLocalidadesGenerator(u"Suíza"))
     generators.append(GalipediaLocalidadesGenerator(u"Turquía"))
+    generators.append(GalipediaLocalidadesGenerator(u"Venezuela"))
+    generators.append(GalipediaLocalidadesGenerator(u"Xapón", [u"Concellos do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Xordania"))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/lugares/galicia.dic",
+        resource = u"onomástica/toponimia/lugares/galicia.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Lugares de Galicia", u"Parroquias de Galicia"],
         invalidPagePattern = u"^(Lugares d|Parroquias d)",
@@ -220,7 +255,7 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/países.dic",
+        resource = u"onomástica/toponimia/países.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [
             u"Estados desaparecidos",
@@ -236,20 +271,25 @@ def loadGeneratorList():
         invalidCategoryPattern = u"^(Capitais d|Emperadores$)"
     ))
 
+    generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Brasil", [u"Estados do {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Chile"))
     generators.append(GalipediaRexionsGenerator(u"Colombia", [u"Departamentos de {name}", u"Provincias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"España", [u"Comarcas de {name}", u"Comunidades autónomas de {name}", u"Provincias de {name}"]))
-    generators.append(GalipediaRexionsGenerator(u"Estados Unidos de América", [u"Estados dos {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Estados Unidos de América", [u"Estados dos {name}", u"Distritos de Nova York"]))
+    generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Países Baixos", [u"Provincias dos {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Portugal", [
         u"Antigas provincias portuguesas", u"Distritos e rexións autónomas de Portugal", u"NUTS I portuguesas",
         u"NUTS II portuguesas", u"NUTS III portuguesas", u"Rexións autónomas de Portugal"
     ]))
+    generators.append(GalipediaRexionsGenerator(u"Rusia", [u"Repúblicas de {name}"]))
 
     generators.append(GalipediaGenerator(
-        resource = u"toponimia/zonas/españa.dic",
+        resource = u"onomástica/toponimia/zonas/españa.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Barrios de España", u"Distritos de España"],
         invalidPagePattern = u"^Modelo:|(Barrios|Distritos) ",

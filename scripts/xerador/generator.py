@@ -3,6 +3,13 @@
 import codecs, os
 import common
 
+
+def createFoldersIfNeeded(path):
+    try:
+        os.makedirs(path)
+    except:
+        pass
+
 class Generator(object):
 
     def generateFileContent(self):
@@ -10,7 +17,9 @@ class Generator(object):
         return ""
 
     def writeToResource(self, content):
-        with codecs.open(os.path.join(common.getModulesSourcePath(), self.resource), u"w", u"utf-8") as fileObject:
+        targetPath = os.path.join(common.getModulesSourcePath(), self.resource)
+        createFoldersIfNeeded(os.path.dirname(targetPath))
+        with codecs.open(targetPath, u"w", u"utf-8") as fileObject:
             fileObject.write(content)
 
     def run(self):
@@ -37,25 +46,30 @@ wordsToIgnore = (
     u"Atol", u"Atois",
     u"Baixa", u"Baixas", u"Baixo", u"Baixos",
     u"Barrio", u"Barrios",
+    u"Basílica", u"Basílicas",
     u"Branca", u"Brancas", u"Branco", u"Brancos",
     u"Beira", u"Beiras",
     u"Cabo",
     u"Camiño", u"Camiños",
     u"Campo", u"Campos",
+    u"Capela", u"Capelas",
     u"Casa", u"Casas",
     u"Castelo", u"Castelos",
     u"Castiñeiro", u"Castiñeiros",
     u"Castro", u"Castros",
+    u"Catedral", u"Catedrais",
     u"Central", u"Centrais",
     u"Centro", u"Centros",
     u"Cidade", u"Cidades",
     u"Cima", u"Cimas",
+    u"Colexiata", u"Colexiatas",
     u"Colonia", u"Colonias",
     u"Comarca", u"Comarcas",
     u"Concello", u"Concellos",
     u"Condado", u"Condados",
     u"Confederación", u"Confederacións",
     u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
+    u"Convento", u"Conventos",
     u"Coroa", u"Coroas",
     u"Costa", u"Costas",
     u"Cova", u"Covas",
@@ -64,6 +78,7 @@ wordsToIgnore = (
     u"Democrática", u"Democráticas", u"Democrático", u"Democráticos",
     u"Distrito", u"Distritos",
     u"Ducado", u"Ducados",
+    u"Ermida", u"Ermidas",
     u"Estado", u"Estados",
     u"Estreito", u"Estreitos",
     u"Estrela", u"Estrelas",
@@ -89,6 +104,7 @@ wordsToIgnore = (
     u"Maior", u"Maiores",
     u"Menor", u"Menores",
     u"Monte", u"Montes",
+    u"Mosteiro", u"Mosteiros",
     u"Nova", u"Novas", u"Novo", u"Novos",
     u"Norte",
     u"Occidental", u"Occidentais",
@@ -106,8 +122,10 @@ wordsToIgnore = (
     u"Ponte", u"Pontes",
     u"Popular", u"Populares",
     u"Porta", u"Portas",
+    u"Pórtico", u"Pórticos",
     u"Porto", u"Portos",
     u"Prado", u"Prados",
+    u"Praia", u"Praias",
     u"Principado", u"Principados",
     u"Provincia", u"Provincias",
     u"Real", u"Reais",
@@ -118,7 +136,9 @@ wordsToIgnore = (
     u"Ribeira", u"Ribeiras",
     u"Río", u"Ríos",
     u"Rúa", u"Rúas",
+    u"Ruína", u"Ruínas",
     u"San", u"Santa", u"Santas", u"Santo", u"Santos",
+    u"Santuario", u"Santuarios",
     u"Señorío", u"Señoríos",
     u"Serra", u"Serras",
     u"Silva", u"Silvas",
@@ -127,6 +147,7 @@ wordsToIgnore = (
     u"Souto", u"Soutos",
     u"Subrexión", u"Subrexións",
     u"Sur",
+    u"Templo", u"Templos",
     u"Torre", u"Torres",
     u"Unida", u"Unidas", u"Unido", u"Unidos",
     u"Unión", u"Unións",
