@@ -1,7 +1,11 @@
 # -*- coding:utf-8 -*-
 
 import os, sys
+import codecs, locale
 import common, galipedia, iso
+
+# See http://stackoverflow.com/a/4546129/939364
+sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
 
 def getFirstPathRelativeToSecondPathIfWithin(childPath, parentPath):
