@@ -41,10 +41,9 @@ class Iso4217CodeList(object):
 
     def loadFromXml(self, xmlContent):
         root = XML(xmlContent)
-        for entry in root.findall("ISO_CURRENCY"):
-            fields = list(entry)
-            if fields[2].text is not None:
-                self.addEntry(fields[2].text, fields[1].text, fields[0].text)
+        for entry in root.find("CcyTbl").findall("CcyNtry"):
+            if entry.find("Ccy") is not None:
+                self.addEntry(entry.find("Ccy").text, entry.find("CcyNm").text, entry.find("CtryNm").text)
 
     def toDicFormat(self):
         result = ""
@@ -62,7 +61,7 @@ class Iso4217Generator(generator.Generator):
 
     def generateFileContent(self):
         codeList = Iso4217CodeList()
-        codeList.loadFromXml(urllib2.urlopen("http://www.currency-iso.org/dam/isocy/downloads/dl_iso_table_a1.xml").read())
+        codeList.loadFromXml(urllib2.urlopen("http://www.currency-iso.org/dam/downloads/table_a1.xml").read())
         return codeList.toDicFormat()
 
 
