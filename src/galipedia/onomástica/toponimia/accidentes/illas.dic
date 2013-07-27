@@ -78,6 +78,8 @@ Aves po:topónimo [n-grama: Arquipélago de Las Aves]
 Los po:topónimo [n-grama: Arquipélago de Los Roques]
 Roques po:topónimo [n-grama: Arquipélago de Los Roques]
 Andrés po:topónimo [n-grama: Arquipélago de San Andrés]
+Pedro po:topónimo [n-grama: Arquipélago de San Pedro e San Paulo]
+Paulo po:topónimo [n-grama: Arquipélago de San Pedro e San Paulo]
 Upernavik po:topónimo [n-grama: Arquipélago de Upernavik]
 Zanzíbar po:topónimo [n-grama: Arquipélago de Zanzíbar]
 Chonos po:topónimo [n-grama: Arquipélago dos Chonos]
@@ -191,6 +193,7 @@ Bougainville po:topónimo
 Brecqhou po:topónimo
 Buru po:topónimo
 Buton po:topónimo
+Cabrera po:topónimo
 Caicos po:topónimo [n-grama: Caicos Central]
 Caicos po:topónimo [n-grama: Caicos do Leste]
 Caicos po:topónimo [n-grama: Caicos do Norte]
@@ -267,6 +270,7 @@ Dokos po:topónimo
 Dominica po:topónimo
 Donauinsel po:topónimo
 Donoussa po:topónimo
+Dragonera po:topónimo
 Drakonera po:topónimo
 Edgeøya po:topónimo
 Efaté po:topónimo
@@ -279,7 +283,6 @@ Ereikoussa po:topónimo
 Erinia po:topónimo
 Erromango po:topónimo
 Esciro po:topónimo
-Espalmador po:topónimo
 Espóradas po:topónimo
 Micronesia po:topónimo [n-grama: Estados Federados de Micronesia]
 Eubea po:topónimo
@@ -303,11 +306,14 @@ Fidxi po:topónimo
 Filicudi po:topónimo
 Fionia po:topónimo
 Flamia po:topónimo
+Foa po:topónimo
 Folégandros po:topónimo
 Fonuafo'ou po:topónimo
 Fonualei po:topónimo
+Formentera po:topónimo
 Formigas po:topónimo
 Formigues po:topónimo
+Fotuha'a po:topónimo
 Frégate po:topónimo
 French po:topónimo [n-grama: French Frigate Shoals]
 Frigate po:topónimo [n-grama: French Frigate Shoals]
@@ -352,6 +358,7 @@ Guam po:topónimo
 Guernsey po:topónimo
 Guguan po:topónimo
 Gyali po:topónimo
+Ha'ano po:topónimo
 Ha'apai po:topónimo
 Haida po:topónimo [n-grama: Haida Gwaii]
 Gwaii po:topónimo [n-grama: Haida Gwaii]
@@ -474,6 +481,7 @@ Bela po:topónimo [n-grama: Illa de Insua Bela]
 Iwo po:topónimo [n-grama: Illa de Iwo To]
 To po:topónimo [n-grama: Illa de Iwo To]
 Jersey po:topónimo [n-grama: Illa de Jersey]
+l'Aire po:topónimo [n-grama: Illa de l'Aire]
 La po:topónimo [n-grama: Illa de La Torre]
 Las po:topónimo [n-grama: Illa de Las Palomas]
 Palomas po:topónimo [n-grama: Illa de Las Palomas]
@@ -533,6 +541,7 @@ Tabarca po:topónimo [n-grama: Illa de Tabarca]
 Taiwán po:topónimo [n-grama: Illa de Taiwán]
 Tambo po:topónimo [n-grama: Illa de Tambo]
 Toralla po:topónimo [n-grama: Illa de Toralla]
+Tosqueta po:topónimo [n-grama: Illa de Tosqueta]
 Tourís po:topónimo [n-grama: Illa de Tourís Novo]
 Trindade po:topónimo [n-grama: Illa de Trindade]
 Vancouver po:topónimo [n-grama: Illa de Vancouver]
@@ -552,6 +561,7 @@ Corvo po:topónimo [n-grama: Illa do Corvo]
 Descubridor po:topónimo [n-grama: Illa do Descubridor]
 Diaño po:topónimo [n-grama: Illa do Diaño]
 Faial po:topónimo [n-grama: Illa do Faial]
+Lazareto po:topónimo [n-grama: Illa do Lazareto]
 Penedo po:topónimo [n-grama: Illa do Penedo da Insua]
 Pico po:topónimo [n-grama: Illa do Pico]
 Portichol po:topónimo [n-grama: Illa do Portichol]
@@ -564,6 +574,7 @@ Faisáns po:topónimo [n-grama: Illa dos Faisáns]
 Forcados po:topónimo [n-grama: Illa dos Forcados]
 Piñeiros po:topónimo [n-grama: Illa dos Piñeiros]
 Dougherty po:topónimo [n-grama: Illa Dougherty]
+Dragonera po:topónimo [n-grama: Illa Dragonera]
 Duke po:topónimo [n-grama: Illa Duke of York]
 of po:topónimo [n-grama: Illa Duke of York]
 York po:topónimo [n-grama: Illa Duke of York]
@@ -878,6 +889,8 @@ Forvik po:topónimo [n-grama: Illiña de Forvik]
 Illote po:topónimo
 Illote po:topónimo [n-grama: Illote Chão]
 Chão po:topónimo [n-grama: Illote Chão]
+Illote po:topónimo [n-grama: Illote de Binicodrell]
+Binicodrell po:topónimo [n-grama: Illote de Binicodrell]
 Illote po:topónimo [n-grama: Illote Faiava Lasi]
 Faiava po:topónimo [n-grama: Illote Faiava Lasi]
 Lasi po:topónimo [n-grama: Illote Faiava Lasi]
@@ -1097,6 +1110,7 @@ Xeorxia po:topónimo [n-grama: Nova Xeorxia]
 Zelandia po:topónimo [n-grama: Nova Zelandia]
 Nuku po:topónimo [n-grama: Nuku Hiva]
 Hiva po:topónimo [n-grama: Nuku Hiva]
+Nukupule po:topónimo
 Oahu po:topónimo
 Obira po:topónimo
 Ofu po:topónimo
@@ -1186,6 +1200,8 @@ Cay po:topónimo [n-grama: Rum Cay]
 Run po:topónimo
 Rurutu po:topónimo
 S'Arenella po:topónimo
+S'Espalmador po:topónimo
+S'Espardell po:topónimo
 Saba po:topónimo
 Sado po:topónimo
 Saint po:topónimo [n-grama: Saint Kitts]
@@ -1298,6 +1314,9 @@ Toquelau po:topónimo
 Torba po:topónimo
 Tórtola po:topónimo
 Traill po:topónimo
+Trindade po:topónimo [n-grama: Trindade e Martim Vaz]
+Martim po:topónimo [n-grama: Trindade e Martim Vaz]
+Vaz po:topónimo [n-grama: Trindade e Martim Vaz]
 Trindade po:topónimo [n-grama: Trindade e Tobago]
 Tobago po:topónimo [n-grama: Trindade e Tobago]
 Tristan po:topónimo [n-grama: Tristan da Cunha]
