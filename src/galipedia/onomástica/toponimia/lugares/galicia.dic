@@ -267,7 +267,6 @@ Cañoteira po:topónimo [n-grama: A Cañoteira]
 Canteira po:topónimo [n-grama: A Canteira]
 Canteirada po:topónimo [n-grama: A Canteirada]
 Capa po:topónimo [n-grama: A Capa]
-Capela po:topónimo [n-grama: A Capela]
 Capelada po:topónimo [n-grama: A Capelada]
 Capeleira po:topónimo [n-grama: A Capeleira]
 Carabuxeira po:topónimo [n-grama: A Carabuxeira]
@@ -450,7 +449,6 @@ Encoutada po:topónimo [n-grama: A Encoutada]
 Encrucillada po:topónimo [n-grama: A Encrucillada]
 Enfesta po:topónimo [n-grama: A Enfesta]
 Enfestela po:topónimo [n-grama: A Enfestela]
-Ermida po:topónimo [n-grama: A Ermida]
 Ervella po:topónimo [n-grama: A Ervella]
 Escabia po:topónimo [n-grama: A Escabia]
 Escada po:topónimo [n-grama: A Escada]
@@ -952,7 +950,6 @@ Beluso po:topónimo [n-grama: A Ponte Beluso]
 Boado po:topónimo [n-grama: A Ponte Boado]
 Borela po:topónimo [n-grama: A Ponte Borela]
 Carral po:topónimo [n-grama: A Ponte Carral]
-Ermida po:topónimo [n-grama: A Ponte da Ermida]
 Pedra po:topónimo [n-grama: A Ponte da Pedra]
 Mera po:topónimo [n-grama: A Ponte de Mera]
 Neira po:topónimo [n-grama: A Ponte de Neira]
@@ -1216,7 +1213,6 @@ Veigalonga po:topónimo [n-grama: A Veigalonga]
 Veiguiña po:topónimo [n-grama: A Veiguiña]
 Venda po:topónimo [n-grama: A Venda]
 Venda po:topónimo [n-grama: A Venda da Capela]
-Capela po:topónimo [n-grama: A Venda da Capela]
 Venda po:topónimo [n-grama: A Venda da Teresa]
 Teresa po:topónimo [n-grama: A Venda da Teresa]
 Venda po:topónimo [n-grama: A Venda de Cruzul]
@@ -1825,7 +1821,6 @@ Enchousas po:topónimo [n-grama: As Enchousas]
 Encrobas po:topónimo [n-grama: As Encrobas]
 Encrucilladas po:topónimo [n-grama: As Encrucilladas]
 Entreviñas po:topónimo [n-grama: As Entreviñas]
-Ermidas po:topónimo [n-grama: As Ermidas]
 Escabanas po:topónimo [n-grama: As Escabanas]
 Escadas po:topónimo [n-grama: As Escadas]
 Estacas po:topónimo [n-grama: As Estacas]
@@ -3231,7 +3226,6 @@ Celemín po:topónimo
 Cellán po:topónimo [n-grama: Cellán de Calvos]
 Calvos po:topónimo [n-grama: Cellán de Calvos]
 Cellán po:topónimo [n-grama: Cellán de Mosteiro]
-Mosteiro po:topónimo [n-grama: Cellán de Mosteiro]
 Cello po:topónimo
 Celme po:topónimo
 Céltigos po:topónimo
@@ -3869,7 +3863,6 @@ Erboedo po:topónimo [n-grama: Erboedo de Abaixo]
 Erbón po:topónimo
 Ermedelo po:topónimo
 Ermelo po:topónimo
-Ermida po:topónimo
 Ermide po:topónimo
 Ermille po:topónimo
 Ernes po:topónimo
@@ -5449,10 +5442,7 @@ Mosende po:topónimo [n-grama: Mosende de Arriba]
 Mosquete po:topónimo
 Mostás po:topónimo
 Mostaz po:topónimo
-Mosteiro po:topónimo
-Mosteiro po:topónimo [n-grama: Mosteiro de Devesa]
 Devesa po:topónimo [n-grama: Mosteiro de Devesa]
-Mosteiro po:topónimo [n-grama: Mosteiro de Ribeira]
 Mosteirón po:topónimo
 Mota po:topónimo
 Moucho po:topónimo
@@ -5946,7 +5936,6 @@ Castiñeiriño po:topónimo [n-grama: O Castiñeiriño]
 Castrado po:topónimo [n-grama: O Castrado]
 Castrillón po:topónimo [n-grama: O Castrillón]
 Castriño po:topónimo [n-grama: O Castriño]
-Ermida po:topónimo [n-grama: O Castro da Ermida]
 Beiro po:topónimo [n-grama: O Castro de Beiro]
 Breixa po:topónimo [n-grama: O Castro de Breixa]
 Caldelas po:topónimo [n-grama: O Castro de Caldelas]
@@ -6025,7 +6014,6 @@ Con po:topónimo [n-grama: O Con]
 Confurco po:topónimo [n-grama: O Confurco]
 Consistorio po:topónimo [n-grama: O Consistorio]
 Control po:topónimo [n-grama: O Control]
-Convento po:topónimo [n-grama: O Convento]
 Coque po:topónimo [n-grama: O Coque]
 Cordal po:topónimo [n-grama: O Cordal]
 Corgo po:topónimo [n-grama: O Corgo]
@@ -6308,7 +6296,6 @@ Moredo po:topónimo [n-grama: O Moredo]
 Morgullón po:topónimo [n-grama: O Morgullón]
 Morteiro po:topónimo [n-grama: O Morteiro]
 Mosqueiro po:topónimo [n-grama: O Mosqueiro]
-Mosteiro po:topónimo [n-grama: O Mosteiro]
 Moucho po:topónimo [n-grama: O Moucho]
 Moullón po:topónimo [n-grama: O Moullón]
 Mouriscal po:topónimo [n-grama: O Mouriscal]
@@ -7251,6 +7238,7 @@ Pao po:topónimo [n-grama: Paredes do Pao]
 Pareisás po:topónimo
 Pareizo po:topónimo
 Parga po:topónimo
+Parteme po:topónimo
 Partovia po:topónimo
 Pasacondía po:topónimo
 Pasaído po:topónimo
@@ -10188,7 +10176,6 @@ Batán po:topónimo [n-grama: Vilariño de Batán]
 Vilariño po:topónimo [n-grama: Vilariño de Conso]
 Conso po:topónimo [n-grama: Vilariño de Conso]
 Vilariño po:topónimo [n-grama: Vilariño de Tras do Convento]
-Convento po:topónimo [n-grama: Vilariño de Tras do Convento]
 Vilariño po:topónimo [n-grama: Vilariño Frío]
 Frío po:topónimo [n-grama: Vilariño Frío]
 Vilariz po:topónimo

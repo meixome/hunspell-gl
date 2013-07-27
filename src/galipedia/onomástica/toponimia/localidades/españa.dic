@@ -27,7 +27,6 @@ Cabana po:topónimo [n-grama: A Cabana]
 Canda po:topónimo [n-grama: A Canda]
 Canicouva po:topónimo [n-grama: A Canicouva]
 Cañiza po:topónimo [n-grama: A Cañiza]
-Capela po:topónimo [n-grama: A Capela]
 Carballeira po:topónimo [n-grama: A Carballeira]
 Castañeda po:topónimo [n-grama: A Castañeda]
 Cela po:topónimo [n-grama: A Cela]
@@ -43,7 +42,6 @@ Devesa po:topónimo [n-grama: A Devesa]
 Enciñeira po:topónimo [n-grama: A Enciñeira]
 Encomenda po:topónimo [n-grama: A Encomenda]
 Enfesta po:topónimo [n-grama: A Enfesta]
-Ermida po:topónimo [n-grama: A Ermida]
 Esculqueira po:topónimo [n-grama: A Esculqueira]
 Esperela po:topónimo [n-grama: A Esperela]
 Estrada po:topónimo [n-grama: A Estrada]
@@ -647,7 +645,6 @@ Eiras po:topónimo [n-grama: As Eiras]
 Ellas po:topónimo [n-grama: As Ellas]
 Enchousas po:topónimo [n-grama: As Enchousas]
 Encrobas po:topónimo [n-grama: As Encrobas]
-Ermidas po:topónimo [n-grama: As Ermidas]
 Estacas po:topónimo [n-grama: As Estacas]
 Goás po:topónimo [n-grama: As Goás]
 Grañas po:topónimo [n-grama: As Grañas do Sor]
@@ -1449,6 +1446,7 @@ Castellar po:topónimo [n-grama: Castellar del Vallès]
 del po:topónimo [n-grama: Castellar del Vallès]
 Vallès po:topónimo [n-grama: Castellar del Vallès]
 Castelldefels po:topónimo
+Castelló po:topónimo
 Castelló po:topónimo [n-grama: Castelló de la Plana]
 la po:topónimo [n-grama: Castelló de la Plana]
 Plana po:topónimo [n-grama: Castelló de la Plana]
@@ -1578,7 +1576,6 @@ Celeiros po:topónimo
 Cellán po:topónimo [n-grama: Cellán de Calvos]
 Calvos po:topónimo [n-grama: Cellán de Calvos]
 Cellán po:topónimo [n-grama: Cellán de Mosteiro]
-Mosteiro po:topónimo [n-grama: Cellán de Mosteiro]
 Céltigos po:topónimo
 Cenicero po:topónimo
 Cenlle po:topónimo
@@ -1751,6 +1748,7 @@ Combarro po:topónimo
 Enfesta po:topónimo [n-grama: Concello da Enfesta]
 Canedo po:topónimo [n-grama: Concello de Canedo]
 Lavadores po:topónimo [n-grama: Concello de Lavadores]
+Trasparga po:topónimo [n-grama: Concello de Trasparga]
 Treviño po:topónimo [n-grama: Condado de Treviño]
 Condemios po:topónimo [n-grama: Condemios de Arriba]
 Conforto po:topónimo
@@ -3566,10 +3564,7 @@ Mos po:topónimo
 Moscán po:topónimo
 Moscoso po:topónimo
 Mosende po:topónimo
-Mosteiro po:topónimo
-Mosteiro po:topónimo [n-grama: Mosteiro de Devesa]
 Devesa po:topónimo [n-grama: Mosteiro de Devesa]
-Mosteiro po:topónimo [n-grama: Mosteiro de Ribeira]
 Mosteirón po:topónimo
 Móstoles po:topónimo
 Mota po:topónimo [n-grama: Mota del Cuervo]
@@ -3604,8 +3599,6 @@ Muíños po:topónimo
 Mula po:topónimo
 Mundaka po:topónimo
 Mungia po:topónimo
-Municipios po:topónimo [n-grama: Municipios de Cataluña]
-Cataluña po:topónimo [n-grama: Municipios de Cataluña]
 Muniferral po:topónimo
 Muñís po:topónimo
 Munitibar po:topónimo
@@ -3792,7 +3785,6 @@ Mazo po:topónimo [n-grama: O Mazo]
 Meire po:topónimo [n-grama: O Meire]
 Mesón po:topónimo [n-grama: O Mesón de Calvos]
 Calvos po:topónimo [n-grama: O Mesón de Calvos]
-Mosteiro po:topónimo [n-grama: O Mosteiro]
 Mundil po:topónimo [n-grama: O Mundil]
 Navallo po:topónimo [n-grama: O Navallo]
 Obre po:topónimo [n-grama: O Obre]
@@ -6225,6 +6217,7 @@ Uriz po:topónimo
 Urnieta po:topónimo
 Urretxu po:topónimo
 Urria po:topónimo
+Urueña po:topónimo
 Usurbil po:topónimo
 Utebo po:topónimo
 Utiel po:topónimo
