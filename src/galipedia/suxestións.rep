@@ -3,7 +3,7 @@
 # =======
 #
 # As seguintes substitucións están apoiadas pola Galipedia, concretamente pola seguinte páxina:
-# 
+#
 #   http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
 #
 # Calquera substitución desa páxina ten cabida na lista de substitucións deste ficheiro.
@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-06-01
+#   2013-07-27
 #
 #
 # Limitacións
@@ -3740,6 +3740,10 @@ móvil móbil
 
 # páxaro → paxaro
 ^páxaro paxaro
+
+# peatonal → peonal
+^peatonal$ peonal
+^peatonais$ peonais
 
 # peatonal → peonil
 ^peatonal$ peonil
