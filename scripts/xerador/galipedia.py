@@ -180,7 +180,7 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares"],
         categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
         invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$"
