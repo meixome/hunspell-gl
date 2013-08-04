@@ -92,6 +92,7 @@ Módulos dispoñíbeis:
                           • congo
                           • cuba
                           • dinamarca
+                          • emiratos-árabes-unidos
                           • eslovaquia
                           • españa
                           • estados-unidos-de-américa

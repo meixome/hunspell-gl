@@ -19,12 +19,13 @@ def getFirstSencenteFromPageContent(pageContent):
     withinTemplate = False
     for line in lines:
         if len(line) > 0:
-            if line[0] not in [' ', '{', '}', '|', '[', ':'] and withinTemplate is False:
+            if line[0] not in [' ', '{', '}', '|', '[', ':', '!'] and withinTemplate is False:
                 line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
                 line = re.sub(reference, u"", line) # Eliminar contido de referencia.
                 return line.split(". ")[0]
             elif line[:2] == u"{{":
-                withinTemplate = True
+                if line[-2:] != u"}}":
+                    withinTemplate = True
             elif line[:2] == u"}}":
                 withinTemplate = False
     return None
@@ -187,7 +188,7 @@ class GalipediaGenerator(generator.Generator):
 
 class GalipediaLocalidadesGenerator(GalipediaGenerator):
 
-    def __init__(self, countryName, categoryNames = [u"Cidades de {name}"]):
+    def __init__(self, countryName, categoryNames = [u"Cidades de {name}"], parsingMode = "Title"):
 
         parsedCategoryNames = []
         for categoryName in categoryNames:
@@ -205,7 +206,8 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
             invalidPagePattern = u"^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
             validCategoryPattern = u"^(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
             invalidCategoryPattern = u"{pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
-            basqueFilter = basqueFilter
+            basqueFilter = basqueFilter,
+            parsingMode = parsingMode
         )
 
 
@@ -292,6 +294,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
     generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
+    generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSencente"))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
     generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
