@@ -365,6 +365,7 @@ def loadGeneratorList():
         pageNames = [
             u"Cisxordania",
             u"Cochinchina",
+            u"Dalmacia",
             u"Faixa de Gaza"
         ],
         parsingMode = "FirstSencente"
