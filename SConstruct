@@ -119,6 +119,7 @@ Módulos dispoñíbeis:
                           • reino-unido
                           • romanía
                           • serbia
+                          • siria
                           • suíza
                           • turquía
                           • venezuela
