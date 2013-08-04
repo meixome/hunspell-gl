@@ -82,6 +82,7 @@ Módulos dispoñíbeis:
                           • desaparecidas. Localidades desaparecidas, que xa non existen.
                           • alemaña
                           • alxeria
+                          • bangladesh
                           • barbados
                           • bélxica
                           • bolivia

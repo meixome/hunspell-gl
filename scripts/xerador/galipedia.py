@@ -273,6 +273,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Desaparecidas", [u"Cidades desaparecidas"])) # Localidades desaparecidas.
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))
+    generators.append(GalipediaLocalidadesGenerator(u"Bangladesh"))
     generators.append(GalipediaLocalidadesGenerator(u"Barbados"))
     generators.append(GalipediaLocalidadesGenerator(u"Bélxica"))
     generators.append(GalipediaLocalidadesGenerator(u"Bolivia"))
