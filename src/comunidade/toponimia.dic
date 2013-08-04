@@ -40,11 +40,9 @@ Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sa
 Chuvaquia po:topónimo       # http://www.xunta.es/linguagalega/cursoxuridica/documentacion/_6_relaciondetoponimosmaishabiuaisdeforadoestadoespanol.pdf
 Ciamis po:topónimo          # http://en.wikipedia.org/wiki/Ciamis
 Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
-Corinto
-Corleone
-Couceiro
-Covilhã
-Cracovia
+Corinto po:topónimo         # http://en.wikipedia.org/wiki/Corinth
+Corleone po:topónimo        # http://en.wikipedia.org/wiki/Corleone
+Covilhã po:topónimo         # http://en.wikipedia.org/wiki/Covilhã
 Daca
 Dalmacia
 Damasco
@@ -296,7 +294,6 @@ Valdévez
 Valley
 Valmaseda
 Valonia
-Varsovia
 Vegadeo
 Verdugo
 Viaño
