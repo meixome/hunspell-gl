@@ -125,6 +125,7 @@ Módulos dispoñíbeis:
                           • romanía
                           • serbia
                           • siria
+                          • sudáfrica
                           • suíza
                           • timor-leste
                           • turquía
