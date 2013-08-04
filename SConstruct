@@ -78,6 +78,7 @@ Módulos dispoñíbeis:
                           • illas
                           • montañas
                           • praias
+                          • rexións
                           • ríos
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                           • desaparecidas. Localidades desaparecidas, que xa non existen.
@@ -144,12 +145,12 @@ Módulos dispoñíbeis:
                           • estados-unidos-de-américa
                           • finlandia
                           • francia
+                          • grecia
                           • italia
                           • méxico
                           • países-baixos
                           • portugal
                           • rusia
-                        • territorios. Nomes de territorios.
                         • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                           • españa
                     • xeografía. Xeografía.

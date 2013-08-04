@@ -223,9 +223,9 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
-            validCategoryPattern = u"^(Comarcas|Provincias) ",
-            invalidCategoryPattern = u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Provincias|Subrexións) ",
+            invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Periferias|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
+            validCategoryPattern = u"^(Comarcas|Periferias|Provincias) ",
+            invalidCategoryPattern = u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Subrexións) ",
             stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
@@ -270,6 +270,23 @@ def loadGeneratorList():
         invalidPagePattern = u"^(Modelo:|{pattern}|Bandeira Azul$|Galería de imaxes|Praia$|Praia nudista$)".format(pattern=pattern),
         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
         invalidCategoryPattern = u"^(Imaxes) "
+    ))
+
+    pattern = u"(Rexións) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/rexións.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Rexións de Europa"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) ",
+        pageNames = [
+            u"Cisxordania",
+            u"Cochinchina",
+            u"Dalmacia",
+            u"Faixa de Gaza"
+        ],
+        parsingMode = "FirstSencente"
     ))
 
     pattern = u"(Afluentes|Regatos|Ríos) "
@@ -369,6 +386,7 @@ def loadGeneratorList():
     generators.append(GalipediaRexionsGenerator(u"Estados Unidos de América", [u"Estados dos {name}", u"Distritos de Nova York"]))
     generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Grecia", [u"Periferias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Países Baixos", [u"Provincias dos {name}"]))
@@ -377,18 +395,6 @@ def loadGeneratorList():
         u"NUTS II portuguesas", u"NUTS III portuguesas", u"Rexións autónomas de Portugal"
     ]))
     generators.append(GalipediaRexionsGenerator(u"Rusia", [u"Repúblicas de {name}"]))
-
-    generators.append(GalipediaGenerator(
-        resource = u"onomástica/toponimia/territorios.dic",
-        partOfSpeech = u"topónimo",
-        pageNames = [
-            u"Cisxordania",
-            u"Cochinchina",
-            u"Dalmacia",
-            u"Faixa de Gaza"
-        ],
-        parsingMode = "FirstSencente"
-    ))
 
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/zonas/españa.dic",
