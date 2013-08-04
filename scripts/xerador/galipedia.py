@@ -270,6 +270,16 @@ def loadGeneratorList():
         invalidCategoryPattern = u"^(Imaxes) "
     ))
 
+    pattern = u"(Afluentes|Regatos|Ríos) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/ríos.dic",
+        partOfSpeech = u"topónimo",
+        categoryOfSubcategoriesNames = [u"Ríos"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|(Galería de imaxes|Hidrografía|Lista) )".format(pattern=pattern),
+        invalidCategoryPattern = u"^({pattern}|Imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern)
+    ))
+
     generators.append(GalipediaLocalidadesGenerator(u"Desaparecidas", [u"Cidades desaparecidas"])) # Localidades desaparecidas.
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))

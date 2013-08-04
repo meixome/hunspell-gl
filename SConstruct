@@ -78,6 +78,7 @@ Módulos dispoñíbeis:
                           • illas
                           • montañas
                           • praias
+                          • ríos
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                           • desaparecidas. Localidades desaparecidas, que xa non existen.
                           • alemaña
