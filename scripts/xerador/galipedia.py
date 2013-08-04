@@ -361,6 +361,7 @@ def loadGeneratorList():
         partOfSpeech = u"topónimo",
         pageNames = [
             u"Cisxordania",
+            u"Cochinchina",
             u"Faixa de Gaza"
         ],
         parsingMode = "FirstSencente"
