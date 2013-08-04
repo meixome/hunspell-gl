@@ -137,6 +137,7 @@ Módulos dispoñíbeis:
                           • países-baixos
                           • portugal
                           • rusia
+                        • territorios. Nomes de territorios.
                         • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                           • españa
                     • xeografía. Xeografía.

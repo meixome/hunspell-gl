@@ -38,17 +38,22 @@ def getPageName(page):
 
 class GalipediaGenerator(generator.Generator):
 
-    def __init__(self, resource, partOfSpeech, categoryNames, invalidPagePattern, validCategoryPattern = None,
+    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
                  invalidCategoryPattern = None, stripPrefixPattern = None, basqueFilter = False,
-                 categoryOfSubcategoriesNames = [], parsingMode = "Title"):
+                 categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
 
         self.resource = "galipedia/" + resource
         self.partOfSpeech = partOfSpeech
+        self.pageNames = pageNames
         self.categoryNames = categoryNames
-        self.invalidPagePattern = re.compile(invalidPagePattern)
         self.parsingMode = parsingMode
         if parsingMode not in ["FirstSencente", "Title"]:
             print "Warning: Unsupported parsing mode: {mode}".format(mode=parsingMode)
+
+        if invalidPagePattern is None:
+            self.invalidPagePattern = invalidPagePattern
+        else:
+            self.invalidPagePattern = re.compile(invalidPagePattern)
 
         # Patrón que deben seguir as subcategorías para que se cargue o seu contido ao atopalas dentro dunha categoría.
         if validCategoryPattern is None:
@@ -88,7 +93,7 @@ class GalipediaGenerator(generator.Generator):
 
         pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
 
-        if self.invalidPagePattern.match(pageName):
+        if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
             return
 
         if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
@@ -152,6 +157,9 @@ class GalipediaGenerator(generator.Generator):
 
 
     def generateFileContent(self):
+
+        for pageName in self.pageNames:
+            self.parsePage(pywikibot.Page(galipedia, pageName))
 
         for categoryName in self.categoryOfSubcategoriesNames:
             category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
@@ -346,6 +354,16 @@ def loadGeneratorList():
         u"NUTS II portuguesas", u"NUTS III portuguesas", u"Rexións autónomas de Portugal"
     ]))
     generators.append(GalipediaRexionsGenerator(u"Rusia", [u"Repúblicas de {name}"]))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/territorios.dic",
+        partOfSpeech = u"topónimo",
+        pageNames = [
+            u"Cisxordania",
+            u"Faixa de Gaza"
+        ],
+        parsingMode = "FirstSencente"
+    ))
 
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/zonas/españa.dic",
