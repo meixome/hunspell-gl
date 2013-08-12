@@ -78,16 +78,22 @@ Módulos dispoñíbeis:
                           • illas
                           • montañas
                           • praias
+                          • rexións
+                          • ríos
                         • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
                           • desaparecidas. Localidades desaparecidas, que xa non existen.
                           • alemaña
                           • alxeria
+                          • bangladesh
                           • barbados
                           • bélxica
+                          • bolivia
                           • brasil
                           • colombia
                           • congo
                           • cuba
+                          • dinamarca
+                          • emiratos-árabes-unidos
                           • eslovaquia
                           • españa
                           • estados-unidos-de-américa
@@ -96,6 +102,7 @@ Módulos dispoñíbeis:
                           • finlandia
                           • francia
                           • grecia
+                          • grecia-antiga
                           • guatemala
                           • guinea-bisau
                           • hungría
@@ -103,6 +110,7 @@ Módulos dispoñíbeis:
                           • india
                           • indonesia
                           • iraq
+                          • irlanda
                           • israel
                           • italia
                           • líbano
@@ -111,11 +119,16 @@ Módulos dispoñíbeis:
                           • oceanía
                           • países-baixos
                           • perú
+                          • polonia
                           • portugal
+                          • qatar
                           • reino-unido
                           • romanía
                           • serbia
+                          • siria
+                          • sudáfrica
                           • suíza
+                          • timor-leste
                           • turquía
                           • venezuela
                           • xapón
@@ -132,6 +145,7 @@ Módulos dispoñíbeis:
                           • estados-unidos-de-américa
                           • finlandia
                           • francia
+                          • grecia
                           • italia
                           • méxico
                           • países-baixos

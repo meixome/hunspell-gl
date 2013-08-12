@@ -8,20 +8,53 @@ import generator
 
 galipedia = pywikibot.Site(u"gl", u"wikipedia")
 parenthesis = re.compile(u" *\([^)]*\)")
+reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
+wikiTags = re.compile(u"\[\[|\]\]")
 
 def getCategoryName(category):
     return category.title()[10:]
 
+def getFirstSencenteFromPageContent(pageContent):
+    lines = pageContent.split('\n')
+    withinTemplate = False
+    for line in lines:
+        if len(line) > 0:
+            if line[0] not in [' ', '{', '}', '|', '[', ':', '!'] and withinTemplate is False:
+                line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
+                line = re.sub(reference, u"", line) # Eliminar contido de referencia.
+                return line.split(". ")[0]
+            elif line[:2] == u"{{":
+                if line[-2:] != u"}}":
+                    withinTemplate = True
+            elif line[:2] == u"}}":
+                withinTemplate = False
+    return None
+
+def getPageName(page):
+    if page.isCategory():
+        return getCategoryName(page)
+    else:
+        return page.title()
+
 
 class GalipediaGenerator(generator.Generator):
 
-    def __init__(self, resource, partOfSpeech, categoryNames, invalidPagePattern, validCategoryPattern = None,
-                 invalidCategoryPattern = None, stripPrefixPattern = None, basqueFilter = False, categoryOfSubcategoriesNames = []):
+    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
+                 invalidCategoryPattern = None, stripPrefixPattern = None, basqueFilter = False,
+                 categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
 
         self.resource = "galipedia/" + resource
         self.partOfSpeech = partOfSpeech
+        self.pageNames = pageNames
         self.categoryNames = categoryNames
-        self.invalidPagePattern = re.compile(invalidPagePattern)
+        self.parsingMode = parsingMode
+        if parsingMode not in ["FirstSencente", "Title"]:
+            print "Warning: Unsupported parsing mode: {mode}".format(mode=parsingMode)
+
+        if invalidPagePattern is None:
+            self.invalidPagePattern = invalidPagePattern
+        else:
+            self.invalidPagePattern = re.compile(invalidPagePattern)
 
         # Patrón que deben seguir as subcategorías para que se cargue o seu contido ao atopalas dentro dunha categoría.
         if validCategoryPattern is None:
@@ -45,37 +78,68 @@ class GalipediaGenerator(generator.Generator):
         self.basqueFilter = basqueFilter # Os nomes (de topónimos éuscaras) como «Valle de Trápaga-Trapagaran» dan lugar a dúas entradas, «Valle de Trápaga» e «Trapagaran».
         self.categoryOfSubcategoriesNames = categoryOfSubcategoriesNames # Lista de categorías das que cargar subcategorías directamente, sen filtrar o nome das subcategorías con «validCategoryPattern».
 
-        self.pageNames = set()
+        self.entries = set()
         self.visitedCategories = set()
 
 
-    def addPageName(self, pageName):
+    def addEntry(self, entry):
         if self.stripPrefixPattern is not None:
-            match = self.stripPrefixPattern.match(pageName)
+            match = self.stripPrefixPattern.match(entry)
             if match:
-                pageName = pageName[len(match.group(0)):]
-        self.pageNames.add(pageName)
+                entry = entry[len(match.group(0)):]
+        self.entries.add(entry)
 
 
     def parsePageName(self, pageName):
 
         pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
 
-        if self.invalidPagePattern.match(pageName):
+        if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
             return
 
         if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
             parts = pageName.split(" - ")
-            self.addPageName(parts[0])
+            self.addEntry(parts[0])
         elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
             parts = pageName.split(",")
-            self.addPageName(parts[0])
+            self.addEntry(parts[0])
         elif self.basqueFilter is True and "-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
             parts = pageName.split("-")
-            self.addPageName(parts[0])
-            self.addPageName(parts[1])
+            self.addEntry(parts[0])
+            self.addEntry(parts[1])
         else:
-            self.addPageName(pageName)
+            self.addEntry(pageName)
+
+
+    def parseFirstSencente(self, pageContent):
+        firstSentence = getFirstSencenteFromPageContent(pageContent)
+        if firstSentence is None:
+            raise Exception
+        boldEntry = re.compile(u"\'\'\'([^\']+)\'\'\'")
+        matches = boldEntry.findall(firstSentence)
+        if len(matches) == 0:
+            raise Exception
+        for match in matches:
+            match = re.sub(wikiTags, u"", match) # Eliminar etiquetas MediaWiki, como [[ ou ]].
+            self.addEntry(match)
+
+
+    def parsePage(self, page):
+        if self.parsingMode == "FirstSencente":
+            if page.isCategory():
+                categoryName = getCategoryName(page)
+                page = pywikibot.Page(galipedia, categoryName)
+                try:
+                    self.parseFirstSencente(page.get())
+                except:
+                    self.parsePageName(categoryName)
+            else:
+                try:
+                    self.parseFirstSencente(page.get())
+                except: # Páxina sen contido, como [[Imperio do Xapón]] o día 27/07/2013.
+                    self.parsePageName(page.title())
+        else:
+            self.parsePageName(getPageName(page))
 
 
     def loadPageNamesFromCategory(self, category):
@@ -87,14 +151,16 @@ class GalipediaGenerator(generator.Generator):
                 if self.validCategoryPattern is not None and self.validCategoryPattern.match(subcategoryName):
                     self.loadPageNamesFromCategory(subcategory)
                 elif self.invalidCategoryPattern is not None and not self.invalidCategoryPattern.match(subcategoryName):
-                    self.parsePageName(subcategoryName)
+                    self.parsePage(subcategory)
 
-        for page in category.articles():
-            pageName = page.title()
-            self.parsePageName(pageName)
+        for page in category.articles(namespaces=0):
+            self.parsePage(page)
 
 
     def generateFileContent(self):
+
+        for pageName in self.pageNames:
+            self.parsePage(pywikibot.Page(galipedia, pageName))
 
         for categoryName in self.categoryOfSubcategoriesNames:
             category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
@@ -108,9 +174,10 @@ class GalipediaGenerator(generator.Generator):
 
         content = ""
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-        for name in sorted(self.pageNames, cmp=collator.compare):
+        for name in sorted(self.entries, cmp=collator.compare):
             if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
                 for ngrama in name.split(u" "):
+                    ngrama = ngrama.replace(u",", u"")
                     if ngrama not in generator.wordsToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
                         content += u"{ngrama} po:{partOfSpeech} [n-grama: {name}]\n".format(ngrama=ngrama, name=name, partOfSpeech=self.partOfSpeech)
             else:
@@ -121,7 +188,7 @@ class GalipediaGenerator(generator.Generator):
 
 class GalipediaLocalidadesGenerator(GalipediaGenerator):
 
-    def __init__(self, countryName, categoryNames = [u"Cidades de {name}"]):
+    def __init__(self, countryName, categoryNames = [u"Cidades de {name}"], parsingMode = "Title"):
 
         parsedCategoryNames = []
         for categoryName in categoryNames:
@@ -139,7 +206,8 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
             invalidPagePattern = u"^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
             validCategoryPattern = u"^(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
             invalidCategoryPattern = u"{pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
-            basqueFilter = basqueFilter
+            basqueFilter = basqueFilter,
+            parsingMode = parsingMode
         )
 
 
@@ -155,9 +223,9 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
-            validCategoryPattern = u"^(Comarcas|Provincias) ",
-            invalidCategoryPattern = u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Provincias|Subrexións) ",
+            invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Periferias|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
+            validCategoryPattern = u"^(Comarcas|Periferias|Provincias) ",
+            invalidCategoryPattern = u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Subrexións) ",
             stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
@@ -180,7 +248,7 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares"],
         categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
         invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$"
@@ -204,15 +272,46 @@ def loadGeneratorList():
         invalidCategoryPattern = u"^(Imaxes) "
     ))
 
+    pattern = u"(Rexións) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/rexións.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Rexións de Europa"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        invalidCategoryPattern = u"^(Imaxes) ",
+        pageNames = [
+            u"Cisxordania",
+            u"Cochinchina",
+            u"Dalmacia",
+            u"Faixa de Gaza"
+        ],
+        parsingMode = "FirstSencente"
+    ))
+
+    pattern = u"(Afluentes|Regatos|Ríos) "
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/ríos.dic",
+        partOfSpeech = u"topónimo",
+        categoryOfSubcategoriesNames = [u"Ríos"],
+        invalidPagePattern = u"^(Modelo:|{pattern}|(Galería de imaxes|Hidrografía|Lista) )".format(pattern=pattern),
+        invalidCategoryPattern = u"^({pattern}|Imaxes)".format(pattern=pattern),
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern)
+    ))
+
     generators.append(GalipediaLocalidadesGenerator(u"Desaparecidas", [u"Cidades desaparecidas"])) # Localidades desaparecidas.
     generators.append(GalipediaLocalidadesGenerator(u"Alemaña"))
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))
+    generators.append(GalipediaLocalidadesGenerator(u"Bangladesh"))
     generators.append(GalipediaLocalidadesGenerator(u"Barbados"))
     generators.append(GalipediaLocalidadesGenerator(u"Bélxica"))
+    generators.append(GalipediaLocalidadesGenerator(u"Bolivia"))
     generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
+    generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
+    generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSencente"))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
     generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
@@ -221,6 +320,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Finlandia"))
     generators.append(GalipediaLocalidadesGenerator(u"Francia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia"))
+    generators.append(GalipediaLocalidadesGenerator(u"Grecia antiga", [u"Antigas cidades gregas"]))
     generators.append(GalipediaLocalidadesGenerator(u"Guatemala", [u"Cidades de {name}", u"Municipios de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Guinea-Bisau"))
     generators.append(GalipediaLocalidadesGenerator(u"Hungría"))
@@ -228,6 +328,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"India", [u"Cidades da {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Indonesia"))
     generators.append(GalipediaLocalidadesGenerator(u"Iraq"))
+    generators.append(GalipediaLocalidadesGenerator(u"Irlanda"))
     generators.append(GalipediaLocalidadesGenerator(u"Israel"))
     generators.append(GalipediaLocalidadesGenerator(u"Italia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Líbano", [u"Cidades do {name}"]))
@@ -236,11 +337,16 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Oceanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Países Baixos", [u"Cidades dos {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Perú"))
+    generators.append(GalipediaLocalidadesGenerator(u"Polonia"))
     generators.append(GalipediaLocalidadesGenerator(u"Portugal", [u"Cidades de {name}", u"Municipios de {name}", u"Vilas de {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Qatar"))
     generators.append(GalipediaLocalidadesGenerator(u"Reino Unido", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Romanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Serbia"))
+    generators.append(GalipediaLocalidadesGenerator(u"Siria"))
+    generators.append(GalipediaLocalidadesGenerator(u"Sudáfrica"))
     generators.append(GalipediaLocalidadesGenerator(u"Suíza"))
+    generators.append(GalipediaLocalidadesGenerator(u"Timor Leste"))
     generators.append(GalipediaLocalidadesGenerator(u"Turquía"))
     generators.append(GalipediaLocalidadesGenerator(u"Venezuela"))
     generators.append(GalipediaLocalidadesGenerator(u"Xapón", [u"Concellos do {name}"]))
@@ -268,7 +374,8 @@ def loadGeneratorList():
         ],
         invalidPagePattern = u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )",
         validCategoryPattern = u"^(Estados desaparecidos d|Imperios|Países d)",
-        invalidCategoryPattern = u"^(Capitais d|Emperadores$)"
+        invalidCategoryPattern = u"^(Capitais d|Emperadores$)",
+        parsingMode = "FirstSencente"
     ))
 
     generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))
@@ -279,6 +386,7 @@ def loadGeneratorList():
     generators.append(GalipediaRexionsGenerator(u"Estados Unidos de América", [u"Estados dos {name}", u"Distritos de Nova York"]))
     generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Grecia", [u"Periferias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Países Baixos", [u"Provincias dos {name}"]))

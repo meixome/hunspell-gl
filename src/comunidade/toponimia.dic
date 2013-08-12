@@ -35,40 +35,15 @@ capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Bras
 Cariñena po:topónimo        # http://gl.wikipedia.org/wiki/Comarcas_de_Aragón
 Cartaxo po:topónimo         # http://gl.wikipedia.org/wiki/Distrito_de_Santarém
 Caxaraville po:topónimo     # http://gl.wikipedia.org/wiki/Modelo:Lp_San_Miguel_de_Sarandón
-Ceilán po:topónimo          # http://gl.wikipedia.org/wiki/Ceilán
 Chapada po:topónimo         # http://gl.wikipedia.org/wiki/Chapada_Diamantina
 Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
 Chuvaquia po:topónimo       # http://www.xunta.es/linguagalega/cursoxuridica/documentacion/_6_relaciondetoponimosmaishabiuaisdeforadoestadoespanol.pdf
 Ciamis po:topónimo          # http://en.wikipedia.org/wiki/Ciamis
-Cilacap
-Cisxordania
-Cochabamba
-Cochinchina
-Cochón
-Copenhague
-Corinto
-Corleone
-Couceiro
-Covilhã
-Cracovia
-Daca
-Dahomei
-Dalmacia
-Damasco
-Danubio
-Depok
-Dhaka
-Dili
-Djibuti
-Doha
-Dubay
-Dublín
-Efeso
-Eire
-Elizabeth
-Empordán
-Epiro
-Escandinavia
+Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
+Corinto po:topónimo         # http://en.wikipedia.org/wiki/Corinth
+Corleone po:topónimo        # http://en.wikipedia.org/wiki/Corleone
+Covilhã po:topónimo         # http://en.wikipedia.org/wiki/Covilhã
+Depok po:topónimo           # http://gl.wikipedia.org/wiki/Iabotabek
 Eslavonia
 Espadañedo
 Estocolmo
@@ -86,7 +61,6 @@ Galiana
 Galiza
 Gandía
 Gascuña
-Gaza
 Gerais
 Ghana
 Goa
@@ -96,8 +70,6 @@ Goyang
 Gramanet
 Grenada
 Grosso
-Guadalquivir
-Guadiana
 Guarico
 Gunungkidoli
 Hannover
@@ -121,7 +93,6 @@ Kenya
 Kiev
 Kinabalu
 Kings
-Kinshasa
 Kobe
 Kuala
 Labacolla
@@ -165,7 +136,6 @@ Masías
 Maón
 Maúnzo
 Mediterráneo
-Mendo
 Mesopotamia
 Minsk
 Mogadouro
@@ -196,7 +166,6 @@ Onteniente
 Oranxe
 Orgaz
 Orleáns
-Osaka
 Oshawa
 Oslo
 Ottawa
@@ -229,7 +198,6 @@ Pradela
 Praga
 Praia
 Preston
-Pretoria
 Preveza
 Prusia
 Puigcerdá
@@ -244,7 +212,6 @@ Riad
 Riga
 Rinca
 Riveside
-Rocío
 Romandía
 Roseau
 Rosellón
@@ -255,11 +222,9 @@ Salónica
 Santarén
 Santomé
 Sarmiento
-Segre
 Seicheles
 Seongnam
 Señorans
-Siam
 Sigüeiro
 Silgar
 Silicon
@@ -267,23 +232,18 @@ Sipadan
 Stanford
 Sttutgart
 Suazilandia
-Sucre
 Surimam
 Surinam
 Suráfrica
 Swansea
 Sáhel
 Taipei
-Tamuxe
 Tangerang
 Tapacari
 Tarantos
 Tasikmalaya
-Te
-Tea
 Tegucigalpa
 Teherán
-Texo
 Thane
 Tirana
 Tlalnepantla
@@ -295,12 +255,9 @@ Tourada
 Touticiera
 Transkei
 Transxordania
-Trinidad
 Tripolitania
-Turkmenistán
 Turquestán
 Tánxer
-Tíber
 Tíbet
 Uagadugu
 Umbria
@@ -311,9 +268,7 @@ Valdévez
 Valley
 Valmaseda
 Valonia
-Varsovia
 Vegadeo
-Verdugo
 Viaño
 Vichona
 Viena

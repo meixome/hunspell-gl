@@ -129,6 +129,7 @@ wordsToIgnore = (
     u"Principado", u"Principados",
     u"Provincia", u"Provincias",
     u"Real", u"Reais",
+    u"Regato", u"Regatos",
     u"Regueiro", u"Regueiros",
     u"Reino", u"Reinos",
     u"República", u"Repúblicas",
