@@ -4,8 +4,8 @@ import mmap, os, PyICU, re, subprocess
 
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
-defaultAff  = u'norma,unidades'
-defaultDic  = u'comunidade,iso639,iso4217,unidades,volga'
+defaultAff  = u'norma'
+defaultDic  = u'volga'
 defaultRep  = u'comunidade,galipedia'
 defaultCode = u'gl'
 
