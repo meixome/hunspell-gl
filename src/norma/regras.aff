@@ -2601,7 +2601,7 @@ SFX 202     ar     es/666,100,112,113     [^g]uar . is:subxuntivo presente P2 + 
 SFX 202     ar     en/666,100,114,115     [^cgzu]ar . is:subxuntivo presente P6 + enclítico
 SFX 202     car     quen/666,100,114,115     car . is:subxuntivo presente P6 + enclítico
 SFX 202     ar     uen/666,100,114,115     gar . is:subxuntivo presente P6 + enclítico
-SFX 202     zar     cen/666,100,114,1155     zar . is:subxuntivo presente P6 + enclítico
+SFX 202     zar     cen/666,100,114,115     zar . is:subxuntivo presente P6 + enclítico
 SFX 202     uar     üen/666,100,114,115     guar . is:subxuntivo presente P6 + enclítico
 SFX 202     ar     en/666,100,114,115     [^g]uar . is:subxuntivo presente P6 + enclítico
 
@@ -2928,7 +2928,7 @@ SFX 222     ar     es/666,122,123     [^g]uar . is:subxuntivo presente P2 + encl
 SFX 222     ar     en/666,124,125     [^cgzu]ar . is:subxuntivo presente P6 + enclítico
 SFX 222     car     quen/666,124,125     car . is:subxuntivo presente P6 + enclítico
 SFX 222     ar     uen/666,124,125     gar . is:subxuntivo presente P6 + enclítico
-SFX 222     zar     cen/666,124,1255     zar . is:subxuntivo presente P6 + enclítico
+SFX 222     zar     cen/666,124,125     zar . is:subxuntivo presente P6 + enclítico
 SFX 222     uar     üen/666,124,125     guar . is:subxuntivo presente P6 + enclítico
 SFX 222     ar     en/666,124,125     [^g]uar . is:subxuntivo presente P6 + enclítico
 
@@ -3126,10 +3126,10 @@ SFX 230     ar     en     [^g]uar . is:subxuntivo presente P6
 # C-I     pronominal con alomorfo con acento gráfico na raíz
 SFX 231     Y     110     # C-I     pronominal con alomorfo con acento gráfico na raíz
 SFX 231     r     ndo     ar . is:xerundio
-SFX 231     ar     ándo/666,134,135     ar . is:xerundio + enclítico
+SFX 231     ar    ándo/666,130,131,132,133,134,135,136,137,138,139  ar is:xerundio + enclítico
 SFX 231     r     do/10,15     ar . is:participio
-SFX 231     r     r/134     ar . is:infinitivo / subxuntivo futuro P1 / P3     + enclítico monosílabo
-SFX 231     ar     ár/666,135     ar . is:infinitivo / subxuntivo futuro P1 / P3     + enclítico polisíIabo
+SFX 231     r     r/130,132,134,136,138                             ar is:infinitivo / subxuntivo futuro P1 / P3 + enclítico monosílabo
+SFX 231     ar    ár/666,131,133,135,137,139                        ar is:infinitivo / subxuntivo futuro P1 / P3 + enclítico polisílabo
 SFX 231     r     mos     ar . is:presente P4 / pretérito P4
 SFX 231     ar     ámos/666,136,137     ar . is:presente P4 / pretérito P4 + enclítico
 SFX 231     r     des     ar . is:presente P5
@@ -3237,7 +3237,7 @@ SFX 231     r     de     ar . is:imperativo P5
 SFX 231     ar     áde/666,138,139     ar . is:imperativo P5 + enclítico
 
 # C-I     pronominal con alomorfo con acento gráfico na raíz
-SFX 232     Y     22     # C-I     pronominal con alomorfo con acento gráfico na raíz     [P1, P2, P3, P6 presente e P1 / P3, P2, P6 subxuntivo presente]
+SFX 232     Y     23     # C-I     pronominal con alomorfo con acento gráfico na raíz     [P1, P2, P3, P6, P1 / P3, P2, P6 subxuntivo presente e P2 imperativo]
 SFX 232     ar     o/666,130,131     ar . is:presente P1 + enclítico
 SFX 232     r     s/666,132,133     ar . is:presente P2 + enclítico
 SFX 232     ar     a/666,134,135     ar . is:presente P3 + enclítico
@@ -3257,9 +3257,10 @@ SFX 232     ar     es/666,132,133     [^g]uar . is:subxuntivo presente P2 + encl
 SFX 232     ar     en/666,134,135     [^cgzu]ar . is:subxuntivo presente P6 + enclítico
 SFX 232     car     quen/666,134,135     car . is:subxuntivo presente P6 + enclítico
 SFX 232     ar     uen/666,134,135     gar . is:subxuntivo presente P6 + enclítico
-SFX 232     zar     cen/666,134,1355     zar . is:subxuntivo presente P6 + enclítico
+SFX 232     zar   cen/666,134,135               zar is:subxuntivo presente P6 + enclítico
 SFX 232     uar     üen/666,134,135     guar . is:subxuntivo presente P6 + enclítico
 SFX 232     ar     en/666,134,135     [^g]uar . is:subxuntivo presente P6 + enclítico
+SFX 232     ar    a/666,132,133                 ar is:imperativo P2 + enclítico
 
 #Conxugación irregular pronominal de dar e estar
 SFX 235     Y     148     #Conxugación irregular pronominal de estar e dar
@@ -3645,7 +3646,7 @@ SFX 282     car     que/666,134,135     car . is:subxuntivo presente P3 + reflex
 SFX 282     ar     ue/666,134,135     gar . is:subxuntivo presente P3 + reflexivo P3 / P6 [ + dativo] [ + dativo]
 SFX 282     zar     ce/666,134,135     zar . is:subxuntivo presente P3 + reflexivo P3 / P6 [ + dativo] [ + dativo]
 SFX 282     uar     üe/666,134,135     guar . is:subxuntivo presente P3 + reflexivo P3 / P6 [ + dativo] [ + dativo]
-SFX 282     ar     e/6666,134,135     [^g]uar . is:subxuntivo presente P3 + reflexivo P3 / P6 [ + dativo] [ + dativo]
+SFX 282     ar     e/666,134,135     [^g]uar . is:subxuntivo presente P3 + reflexivo P3 / P6 [ + dativo] [ + dativo]
 SFX 282     ar     en/666,134,135     [^cgzu]ar . is:subxuntivo presente P6 + reflexivo P3 / P6 [ + dativo] [ + dativo]
 SFX 282     car     quen/666,134,135     car . is:subxuntivo presente P6 + reflexivo P3 / P6 [ + dativo] [ + dativo]
 SFX 282     ar     uen/666,134,135     gar . is:subxuntivo presente P6 + reflexivo P3 / P6 [ + dativo] [ + dativo]
@@ -3663,7 +3664,7 @@ SFX 282     ar     en/666,134,135     [^g]uar . is:subxuntivo presente P6 + refl
 #     varrer/210,211,212 e várrer/666,215
 # Os verbos ler e crer son parcialmente irregulares na 1ª, 2ª e 3ª PS 
 # e 3ª PP do Presente de Indicativo e na 1ª PS do Pretérito de Indicativo
-# Os compostos de ler e crer e o sobreser presentan a mesma iregularidade
+# Os compostos de ler e crer e o sobreser presentan a mesma irregularidade
 # aínda que varía a acentuación por ser os primeiros monosílabo.
 #     ler/210,211,213 e lér/666,215
 #     reler/210,211,214 e relér/666,215
@@ -4563,7 +4564,7 @@ SFX 368     er     édes/666,100,118,119     decer . is:presente P5 + enclítico
 #     varrer/210,212,212 e várrer/666,215
 # Os verbos ler e crer son parcialmente irregulares na 1ª, 2ª e 3ª PS 
 # e 3ª PP do Presente de Indicativo e na 1ª PS do Pretérito de Indicativo
-# Os compostos de ler e crer e o sobreser presentan a mesma iregularidade
+# Os compostos de ler e crer e o sobreser presentan a mesma irregularidade
 # aínda que varía a acentuación por ser os primeiros monosílabo.
 #     ler/210,212,213 e lér/666,215
 #     reler/210,212,214 e relér/666,215
@@ -5521,7 +5522,7 @@ SFX 471     er     ian/666,104,105     [áó]er . is:subxuntivo presente P6 + en
 #     varrer/210,212,212 e várrer/666,215
 # Os verbos ler e crer son parcialmente irregulares na 1ª, 2ª e 3ª PS 
 # e 3ª PP do Presente de Indicativo e na 1ª PS do Pretérito de Indicativo
-# Os compostos de ler e crer e o sobreser presentan a mesma iregularidade
+# Os compostos de ler e crer e o sobreser presentan a mesma irregularidade
 # aínda que varía a acentuación por ser os primeiros monosílabo.
 #     ler/210,212,213 e lér/666,215
 #     reler/210,212,214 e relér/666,215
@@ -6441,7 +6442,7 @@ SFX 568     er     édes/666,138,139     decer . is:presente P5 + enclítico
 #     viñer/666,341,342,344
 
 # e 3ª PP do Presente de Indicativo e na 1ª PS do Pretérito de Indicativo
-# Os compostos de ler e crer e o sobreser presentan a mesma iregularidade
+# Os compostos de ler e crer e o sobreser presentan a mesma irregularidade
 # aínda que varía a acentuación por ser os primeiros monosílabo.
 #     ler/210,211,213 e lér/666,215
 #     reler/210,211,214 e relér/666,215
@@ -7034,7 +7035,7 @@ SFX 632     or     óses/666,100,112,113     r . is:subxuntivo pretérito P2 + e
 SFX 632     or     ósemos/100,116,117     r . is:subxuntivo pretérito P4 [ + enclítico]
 SFX 632     or     ósedes/100,118,119     r . is:subxuntivo pretérito P5 [ + enclítico]
 SFX 632     r     sen     r . is:subxuntivo pretérito P6
-SFX 632     or     ósen/666,100,1114,115     r . is:subxuntivo pretérito P6 + enclítico
+SFX 632     or     ósen/666,100,114,115     r . is:subxuntivo pretérito P6 + enclítico
 
 
 SFX 633     Y     20     #Verbo ir (Raíz vair)
@@ -8159,7 +8160,7 @@ SFX 732     or     óses/666,122,123     r . is:subxuntivo pretérito P2 + encl�
 SFX 732     or     ósemos/126,127     r . is:subxuntivo pretérito P4 [ + enclítico]
 SFX 732     or     ósedes/128,129     r . is:subxuntivo pretérito P5 [ + enclítico]
 SFX 732     r     sen     r . is:subxuntivo pretérito P6
-SFX 732     or     ósen/666,1214,125     r . is:subxuntivo pretérito P6 + enclítico
+SFX 732     or     ósen/666,124,125     r . is:subxuntivo pretérito P6 + enclítico
 
 
 SFX 733     Y     20     #Verbo ir (Raíz vair)
@@ -9285,7 +9286,7 @@ SFX 832     or     óses/666,132,133     r . is:subxuntivo pretérito P2 + encl�
 SFX 832     or     ósemos/136,137     r . is:subxuntivo pretérito P4 [ + enclítico]
 SFX 832     or     ósedes/138,139     r . is:subxuntivo pretérito P5 [ + enclítico]
 SFX 832     r     sen     r . is:subxuntivo pretérito P6
-SFX 832     or     ósen/666,1314,135     r . is:subxuntivo pretérito P6 + enclítico
+SFX 832     or     ósen/666,134,135     r . is:subxuntivo pretérito P6 + enclítico
 
 
 SFX 833     Y     20     #Verbo ir (Raíz vair)
