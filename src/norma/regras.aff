@@ -344,11 +344,9 @@ SFX 105     0     llesvos . pa:pronome persoal enclítico polisílabo P3 / P6 in
 # <enclítico monosílabo> en construción transitiva e en concorrencia con forma verbal P3 / infinitivo / xerundio
 
 # <enclítico monosílabo> en construción transitiva e en concorrencia con forma verbal P1
-# SFX 110     0     me     ds:dativo / acusativo P1
-# SFX 110     0     ma     ds:dativo P1 + acusativo P3
-# SFX 110     0     mas     ds:dativo P1 + acusativo P3
-# SFX 110     0     mo     ds:dativo P1 + acusativo P3
-# SFX 110     0     mos     ds:dativo P1 + acusativo P3
+#
+# Notas:
+# • Os enclíticos P1 fornéceos SFX 140.
 SFX 110     Y     16
 SFX 110     0     te . pa:pronome persoal enclítico monosílabo P1 transitiva acusativo P2
 SFX 110     0     che . pa:pronome persoal enclítico monosílabo P1 transitiva dativo P2
@@ -1301,9 +1299,9 @@ SFX 115     0     llesvolos . pa:pronome persoal enclítico polisílabo P3 / P6 
 
 
 # <enclítico monosílabo> en construción transitiva e en concorrencia con forma verbal P4
-# SFX 116     s     nos     mos     ds:dativo / acusativo P4
-# SFX 116     0     nos     [^o]s     ds:dativo / acusativo P4
-# SFX 116     0     nos     [^s]     ds:dativo / acusativo P4
+#
+# Notas:
+# • SFX 136 fornece os sufixos reflexivos P4, úsese en combinación con SFX 116 para fornecer todos os casos.
 
 SFX 116     Y     18
 SFX 116     0     me . pa:pronome persoal enclítico monosílabo P4 transitiva dativo / acusativo P1
@@ -1325,8 +1323,13 @@ SFX 116     0     llos . pa:pronome persoal enclítico monosílabo P4 transitiva
 SFX 116     0     vos . pa:pronome persoal enclítico monosílabo P4 transitiva dativo / acusativo P5
 SFX 116     0     lles . pa:pronome persoal enclítico monosílabo P4 transitiva dativo P6
 
+
 # <enclítico polisílabo>     dativo [ + dativo] [ + dativo] [ + acusativo]
 # Omítense as secuencias reflexivo P3 / reflexivo P4 + dativo [ + dativo] / dativo + reflexivo P4 [ + dativo] / dativo [ + dativo] + reflexivo P4
+#
+# Notas:
+# • SFX 137 fornece os sufixos reflexivos P4, úsese en combinación con SFX 136 para fornecer todos os casos.
+
 SFX 117     Y     226
 SFX 117     0     melle . pa:pronome persoal enclítico polisílabo P4 transitiva dativo / acusativo P1 + dativo P3
 SFX 117     0     mella . pa:pronome persoal enclítico polisílabo P4 transitiva dativo P1 + dativo P3 + acusativo P3 feminino
@@ -2412,6 +2415,15 @@ SFX 139     0     vosnoslles . pa:pronome persoal enclítico polisílabo P5 pron
 SFX 139     0     voslles . pa:pronome persoal enclítico polisílabo P5 pronominal reflexivo P5 + dativo P3
 SFX 139     0     vosllesnos . pa:pronome persoal enclítico polisílabo P5 pronominal reflexivo P5 + dativo P6 + dativo P4
 SFX 139     0     llesvos . pa:pronome persoal enclítico polisílabo P5 pronominal dativo P6 + reflexivo P5
+
+
+# <enclítico monosílabo> P1 en construción transitiva P1
+SFX 140 Y 5
+SFX 140 0 me  . ds:dativo / acusativo P1
+SFX 140 0 ma  . ds:dativo P1 + acusativo P3
+SFX 140 0 mas . ds:dativo P1 + acusativo P3
+SFX 140 0 mo  . ds:dativo P1 + acusativo P3
+SFX 140 0 mos . ds:dativo P1 + acusativo P3
 
 
 # C-I 
@@ -7078,9 +7090,9 @@ SFX 635     icir     in/666,100,114     cir . is:presente P3 + enclítico monos�
 
 SFX 636     Y     16     #Verbo dicir
 SFX 636     cir     go     cir . is:presente P1
-SFX 636     icir     ígo/666,100,110,111     cir . is:presente P1 + enclítico
+SFX 636     icir  ígo/666,100,110,111,140           cir is:presente P1 + enclítico
 SFX 636     r     mos     ir . is:presente P4
-SFX 636     ir     ímos/666,100,116,117     ir . is:presente P4 + enclítico
+SFX 636     ir    ímos/666,100,116,117,136,137      ir  is:presente P4 + enclítico
 SFX 636     r     des     ir . is:presente P5
 SFX 636     ir     ídes/666,100,118,119     ir . is:presente P5 + enclítico
 SFX 636     cir     ga     cir . is:subxuntivo presente P1 / P3
