@@ -1,4 +1,3 @@
-
 Hunspell Spellchecker for Galician
 ==================================
 
@@ -13,7 +12,8 @@ Among those, we must highlight the contributions of:
 
 - Imaxin Software, for Mancomún (first version, dictionary and rules). 2006
 - Mancomún (Mar Castro, rules). 2006-2007
-- Proxecto Trasno. (Miguel Solla, rules). 2009
+- Proxecto Trasno (Miguel Solla, rules). 2009
+- Proxecto Trasno (Adrián Chaves, rules and revamp source code). 2012-2013 
 
 
 License
