@@ -1,5 +1,10 @@
 Este ficheiro explica como construír e instalar o correcto ortográfico.
 
+Instalar Python
+===============
+
+
+
 Dependencias
 ============
 

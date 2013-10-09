@@ -48556,8 +48556,8 @@ navegar/220,221 po:verbo ts:intransitiva VOLG: i al:navégar
 navégar/666,222 st:navegar ts:alomorfo navegar intransitiva
 nebulizar/200,201 po:verbo ts:transitiva VOLG: t al:nebulízar
 nebulízar/666,202 st:nebulizar ts:alomorfo nebulizar transitiva
-necesitar/200,201 po:verbo ts:transitiva VOLG: t al:necesítar
-necesítar/666,202 st:necesitar ts:alomorfo necesitar transitiva
+necesitar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:necesítar
+necesítar/666,202,232 st:necesitar ts:alomorfo necesitarr transitiva / pronominal
 necrosar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:necrósar
 necrósar/666,202,232 st:necrosar ts:alomorfo necrosar transitiva / pronominal
 negar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:négar
@@ -50912,8 +50912,8 @@ vacilar/220,221 po:verbo ts:intransitiva VOLG: i al:vacílar
 vacílar/666,222 st:vacilar ts:alomorfo vacilar intransitiva
 vacinar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:vacínar
 vacínar/666,202,232 st:vacinar ts:alomorfo vacinar transitiva / pronominal
-vadear/220,221 po:verbo ts:intransitiva VOLG: i / cast 'vadear' al:vadéar
-vadéar/666,222 st:vadear ts:alomorfo vadear intransitiva
+vadear/200,201 po:verbo ts:transitiva VOLG (erro): t / cast 'vadear' al:vadéar
+vadéar/666,202 st:vadear ts:alomorfo vadear transitiva
 vadiar/221 po:verbo ts:intransitiva VOLG: i al:vadíar
 vadíar/666,220,222 st:vadiar ts:alomorfo vadiar intransitiva
 vagabundear/220,221 po:verbo ts:intransitiva VOLG: i al:vagabundéar
