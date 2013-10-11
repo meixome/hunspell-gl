@@ -3,7 +3,7 @@ Este ficheiro explica como construír e instalar o correcto ortográfico.
 Instalar Python
 ===============
 
-
+https://wiki.python.org/moin/BeginnersGuide/Download
 
 Dependencias
 ============
