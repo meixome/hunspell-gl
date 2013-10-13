@@ -1,3 +1,4 @@
+
 Corrector ortográfico Hunspell para o galego
 ============================================
 ©Copyright, 2006 - 2009, Mancomún-CESGA

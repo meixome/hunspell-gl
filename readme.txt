@@ -1,3 +1,4 @@
+
 Hunspell Spellchecker for Galician
 ==================================
 ©Copyright, 2006 - 2009, Mancomún-CESGA
