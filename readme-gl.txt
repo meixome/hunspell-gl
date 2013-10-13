@@ -1,6 +1,8 @@
 Corrector ortográfico Hunspell para o galego
 ============================================
-
+©Copyright, 2006 - 2009, Mancomún-CESGA
+©Copyright, 2009 - 2011, Fundación para o Fomento da Calidade Industrial e Desenvolvemento Tecnolóxico de Galicia, Xunta de Galicia - Consellería de Economía e Industria
+©Copyright, 2011 - 2013, Proxecto Trasno
 Mantido por Proxecto Trasno (http://trasno.net) baixo a coordinación de Antón Méixome (desde marzo de 2011).
 
 Sobre a normativa lingüística
@@ -30,4 +32,33 @@ Unha descrición técnica sobre o comportamento morfolóxico e sintáctico escri
 
 Licenza
 -------
+Este ficheiro é parte de Hunspell-gl.
+
+    Hunspell-gl is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Hunspell-gl is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
 O corrector está publicado nos termos da licenca GPLv3 (desde 2010, antes GPLv2 e GPLv1). Achégase o ficheiro «license-gl.txt», ou «license.txt» para consultar o texto completo da versión orixinal da licenza.
+
+Hunspell-gl contén
+--------------------
+	gl_ES.aff
+	gl_ES.dic
+	install.txt
+	install-gl.txt
+	license.txt
+	license-gl.txt
+	readme.txt
+	readme-gl.txt
+	documentación.txt
+	changelog.txt
+
