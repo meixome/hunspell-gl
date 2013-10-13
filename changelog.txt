@@ -1,5 +1,8 @@
 Datos a partir dos rexistros de Github (https://github.com/meixome/hunspell-gl)
 
+Versión 13.10.1
+===============
+Limpeza
 
 Versión 13.10 (11 de outubro do 2013)
 =====================================
