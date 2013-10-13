@@ -1459,7 +1459,7 @@ maitíns matinas # maitíns -> matinas
 ^vintecatro$ vinte_e_catro # vintecatro -> vinte e catro
 ^vintecinco$ vinte_e_cinco # vintecinco -> vinte e cinco
 ^vintedous$ vinte_e_dous # vintedous -> vinte e dous
-^vintedúas$ vinte_e_dúas vintedous -> vinte e dous
+^vintedúas$ vinte_e_dúas # vintedúas -> vinte e dúas
 ^vintenove$ vinte_e_nove # vintenove -> vinte e nove
 ^vinteoito$ vinte_e_oito # vinteoito -> vinte e oito
 ^vinteseis$ vinte_e_seis # vinteseis -> vinte e seis
