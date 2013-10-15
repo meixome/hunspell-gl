@@ -1,0 +1,100 @@
+Este dicionário segue a normativa de mínimos ortográficos, baseando-se nas
+seguintes duas fontes:
+
+   · NOVA GRAMÁTICA para a aprendizaxe da língua de Xoán Xosé Costa Casas, 
+     Mª dos Anxos González Refoxo, César Carlos Morán Fraga e Xoán Carlos
+	Rábade Castiñeira, editada por Vía Láctea en 1988.
+	
+   · DICIONÁRIO DA LÍNGUA GALEGA de Isaac Alonso Estravís, editado por
+     Sotelo Blanco en 1995.
+
+
+Pode-se achar información en liña sobre esta normativa no site de "La 
+questione de la lingua":
+	http://www.multimania.com/questione/documentos/documentos.html
+	
+e no site da CIG	
+	http://www.galizacig.com/ficheiros/html/normaliza/normaliza.htm
+	
+A normativa de mínimos ten un espírito conciliador, e admite distintas 
+variantes para unha mesma palabra. Con todo a NOVA GRAMÁTICA da como 
+preferentes algunhas delas, asi na apresentación di:
+
+	En certas terminacións e ditongos admiten-se como plenamente válidas
+	as duas variantes por seren amabas lexítimas, estimadas, como  
+	preferentes por parte da APLL (Asociación de Profesores de Língua e
+	Literatura) aquelas que indicamos en primeiro lugar:
+	
+		-eo   / -eio  (freo/freio, creo/creio, etc.)
+		-ea   / -eia  (frea/freia, idea/ideia, etc.)
+		-an   / -ao   (chan/chao, irmán/irmao, etc.)
+		-e    / -en   (marxe/marxen, viaxe/viaxen, etc.)
+		-oa   / -o    (avoa/avó, moa/mó, etc.; máis só)
+		oi(t) / ui(t) (loita/luita, moito/muito, roibo/ruibo[1], etc)
+
+	O mesmo poderíamos dicer de formas xa gramaticais como ti/tu e
+	imos/vamos.
+	
+	A respeito de outros casos como as terminacións -zón/-ción 
+	(nazón/nación), -són/-sión (concisón/concisión), -tón/-tión
+	(dixestón/dixestión) e -xón/-xión (reflexón/reflexión), consideran-se
+	noutro plano diferente aos anteriores, por se tratar agora de escoller
+	entre as formas lexítimas pero social e institucionalmente menos
+	implantadas (-zón, -són, -tón, -xón), e formas propriamente
+	castellanizadas ainda que social e institucionalmente máis empregadas
+	(-ción, -sión, -tión, -xión). Aqui adopta-se como critério o das
+	Normas de 80 aludidas[2]: "recomenda-se a potenciación das formas
+	primeiras [as lexitimas], coas limitacións ou ritmo que aconselle o
+	proceso gradual do ensino e da sensibilidade social".
+	
+	Seguindo estas pautas, decidimo-nos a utilizar as terminacións xenuínas
+	en certas palabras que apresentan unha particular evolución fonética
+	que as afasta da estrutura latina e as aproxima da sua forma romance
+	histórica: eleizón, entoazón, lizón, perfeizón, -uizón (constituizón,
+	contribuizón, distribuizón, etc.) xerazón, etc.; confisón, procisón,
+	profisón. Vexa-se sobre todo isto, o Apéndice 2 do libro, no primeiro
+	apartado das terminacións.[3]
+		
+	[1] Nós seguindo o dicionário antes citado damos por válida: roivo.
+	[2] Fai alusión as "Normas ortográficas do idioma galego", normas 
+	    ortográficas aprobadas pola consellaria de cultura da xunta 
+	    preautonómica en 1980. Poden-se consultar en:
+	    http://www.multimania.com/questione/documentos/normas_xunta_preautonomica.html
+	[3] Este apéndice pode-se achar tamén no site de "La questione de la
+	    lingua":
+	    http://www.multimania.com/questione/documentos/cuadro_comparativo.html
+	
+	
+A flexibilidade da normativa de mínimos non lle acai ben a un corrector
+ortográfico, e asi non parece coerente que nun mesmo texto o corrector dé 
+por válidas duas, ou mesmo tres, variantes distintas da mesma palabra,
+por ex. idea e ideia. Por iso nós no noso dicionário só damos por válida 
+unha das posíbeis variantes, seguindo os seguintes critérios:
+
+	1) Nas terminacións antes citadas seguimos o critério da APLL, i.e.
+	   -eo, -ea, -an, -e, -oa, oi(t)
+ 	2) Tamén para as terminacións -zón/-ción, -són/-sión, -tón/-tión  e 
+	   -xón/-xión, pretendemos seguir o critério da APLL. Mais dado que 
+	   resulta un tanto ambigüo, o critério real que seguimos foi dar por
+	   válida a primeira forma que inclui o DICIONÁRIO DA LÍNGUA GALEGA,
+	   cando inclui duas, e a forma única cando só inclui unha. Pois
+	   cuidamos que os critérios da APLL e do dito dicionário coinciden
+	   basicamente, dos exemplos citados anteriormente só dous diferen.
+	   Seguindo o DICIONÁRIO demos como válidas as formas procisión e
+	   profisión.
+	3) No caso dos comezos de palabra ca-/cua- e ga-/gua-, seguindo o
+	   critério implícito no DICIONÁRIO DA LÍNGUA GALEGA demos por 
+	   válidas as formas en -ca, -gua.
+	4) A hora de conxugar os verbos, e cando a NOVA GRAMÁTICA considera
+	   válidas duas formas, escollemos a que escreben en primeiro lugar,
+	   ex. copio=cópio -> copio, agás no caso da 2ª persoa do plural do
+	   presente de imperativo, onde escollemos a segunda fora, ex.
+	   xogade=xogai -> xogai
+	5) Caso de xurdir unha ambigüidade non contemplada nos pontos
+	   anteriores escollemos a forma recomendada polo DICIONÁRIO DA LÍNGUA
+	   GALEGA
+	   
+
+Se ben neste dicionário privilexian-se certas formas, @ usuári@ pode
+modificá-lo para que se axeite aos seus gostos, tal e como se descrebe no
+ficheiro leme.txt.	   
