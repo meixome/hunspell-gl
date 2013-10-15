@@ -1,6 +1,8 @@
-
 Obtido de: http://openoffice.org.mirrors.irontec.com/contrib/dictionaries/README_gl_ES.txt
 
+    Size: 51K (52044 bytes)
+    Last modified: Sun, 07 Sep 2003 18:25:51 GMT (Unix time: 1062959151)
+=================================0========================================
 Galician dictionary for the spell checker MySpell, that is used in
 OpenOffice.org.
 
