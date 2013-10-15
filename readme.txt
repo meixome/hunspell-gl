@@ -1,4 +1,3 @@
-
 Hunspell Spellchecker for Galician
 ==================================
 ©Copyright, 2006 - 2009, Mancomún-CESGA
@@ -53,7 +52,7 @@ The spellchecker is under the terms of the GPLv3 license (from 2010, before GPLv
 Hunspell-gl contains
 --------------------
 	gl_ES.aff
-	gl_ES.dic
+	gl_ES.dic (85974 lemmas in «comunidade» and 53932 lemmas in «volga»)
 	install.txt
 	install-gl.txt
 	license.txt
@@ -62,4 +61,3 @@ Hunspell-gl contains
 	readme-gl.txt
 	documentación.txt
 	changelog.txt
-
