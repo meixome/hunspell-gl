@@ -1,0 +1,1411 @@
+#        Affix table for Galician (mínimos)
+#           For ISpell (3.1...)
+#
+# Copyright 2001 by André Ventas & Ramón Flores, 
+#
+# Permission for non-profit use is hereby granted.
+# All other rights reserved.
+#
+# This affix file uses both upper- and lower-case affix flags, so you
+# must              #define MASKBITS 64 in your local.h file.
+#
+# 8 bits used (latin1) (please remove the #define NO8BIT line)
+#
+#
+#    available modes:
+#        -T lat               (latin1)
+#        -T tex			(\'a \'e \~n ...)
+#        -T pre               ('a 'e ~n ...)
+#
+# 
+# Flags used:
+#
+#            ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+# Used:      ****    * * *    ** *  *** **** * **   ** *  ** *****                 
+#            ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+# Available:     ++++ + + ++++  + ++        + +  +++  + ++  +
+#
+#
+#
+#    Any comments, important new words, and errors should be mailed to
+#                 Ramon Flores (fa2ramon@usc.es)
+#
+#                      Last update: 30 de Maio de 2001
+
+
+allaffixes on
+
+defstringtype "lat" "nroff" ".list"
+
+wordchars         a            A
+stringchar        á            Á
+wordchars        [b-e]       [B-E]
+stringchar        é            É
+wordchars        [f-i]        [F-I]
+stringchar        í            Í
+wordchars        [j-n]        [J-N]
+stringchar	   ñ            Ñ
+wordchars		   o			 O
+stringchar        ó            Ó
+wordchars        [p-u]        [P-U]
+stringchar        ú            Ú
+stringchar        ü            Ü
+wordchars        [v-z]        [V-Z]
+
+#
+#
+altstringtype "pre" "nroff" ".pre"
+
+altstringchar \'a á
+altstringchar \'e é
+altstringchar \'i í
+altstringchar \'o ó
+altstringchar \'u ú
+altstringchar \"u ü
+altstringchar \~n ñ
+
+altstringchar \'A Á
+altstringchar \'E É
+altstringchar \'I Í
+altstringchar \'O Ó
+altstringchar \'U Ú
+altstringchar \"U Ü
+altstringchar \~N Ñ
+
+
+#
+# Plain TeX
+#
+altstringtype "tex" "nroff" ".tex"
+
+altstringchar \\\'a á
+altstringchar \\\'e é
+altstringchar \\\'{\\i} í
+altstringchar \\\'o ó
+altstringchar \\\'u ú
+altstringchar \\\"u ü
+altstringchar \\\~n ñ
+
+altstringchar \\\'A Á
+altstringchar \\\'E É
+altstringchar \\\'I Í
+altstringchar \\\'O Ó
+altstringchar \\\'U Ú
+altstringchar \\\"U Ü
+altstringchar \\\~N Ñ  
+
+prefixes
+
+flag *A:		    # anti
+ .        > ANTI           # "FSEM=anti"   # ex. venenoso -> antivenenoso
+
+flag *B:           # anti-
+ .        > ANTI\-         # "FSEM=anti"   # ex. semita -> anti-semita
+
+flag *S:           # des
+[^HS]     > DES            # "FSEM=non"    # ex. amarrar->desamarrar
+H         > -H,DES         # "FSEM=non"    # ex. habitar->desabitar
+S         > DE			  # "FSEM=non"    # ex. salgar->desalgar
+
+flag *I:           #in
+[^PLMR]   > IN             # "FSEM=non"    # ex. finito -> infinito
+P         > IM             # "FSEM=non"    # ex. paciente->impaciente
+[LM]      > I              # "FSEM=non"    # ex. material->imaterial
+R         > IR             # "FSEM=non"    # ex. real->irreal
+
+flag *R:           #re
+ .        > RE             # "FSEM=outra"  # ex. encontrar -> reencontrar
+
+flag *U:           #sub
+[^BHR]	> SUB  		  # "FSEM=sub"    # ex. comandante->subcomandante
+
+
+suffixes
+
+#-------------------------------------------
+# plurais
+
+flag *p:          # "CAT=a_nc,N=s"      #plurais
+[^LSMRZ]      >  S       # "N=p"    # pato->patos
+A L           > -L,IS    # "N=p"    # animal->animais
+[^B] E L      > -EL,ÉIS  # "N=p"    # papel->papéis
+O L           > -OL,ÓIS  # "N=p"    # anzol->anzóis
+[IU] L        > -L,S     # "N=p"    # funil->funis       # terminación -il tónica
+[ÁÉÍÓÚ] B E L > -L,IS    # "N=p"    # afábel->afábeis
+[^ÁÉ] S       >  ES      # "N=p"    # deus->deuses
+Á S           > -ÁS,ASES # "N=p"    # gás->gases
+É S           > -ÉS,ESES # "N=p"    # lugués->lugueses
+M             > -M,NS    # "N=p"    # album->albuns
+R             >  ES      # "N=p"    # mar->mares
+Z             > -Z,CES   # "N=p"    # vez->veces
+
+flag *a:           # "CAT=a_nc,N=s"      #plurais
+I L           > -IL,EIS  # "N=p"    # áxil->áxeis        # terminación -il átona
+
+
+#-----------------------------------------
+# femininos - os mais habituais
+
+flag *f:        # "CAT=a_nc,G=m,N=s"     #femininos
+O      > -O,A      # "G=f"            # pato->pata
+O      > -O,AS     # "G=f,N=p"        # pato->patas
+O R	  > A         # "G=f"		   # profesor->profesora
+O R    > AS        # "G=f,N=p"	   # profesor->profesoras
+[^É] S > A         # "G=f"            # deus -> deusa
+[^É] S > AS        # "G=f,N=p"        # deus -> deusas
+É S	  > -ÉS,ESA   # "G=f" 		   # lugués->luguesa
+É S	  > -ÉS,ESAS  # "G=f,N=p" 	   # lugués->luguesas
+Ó N    > -ÓN,OA    # "G=f"		   # león->leoa
+Ó N    > -ÓN,OAS   # "G=f,N=p"	   # león->leoas
+Á N    > -N,-      # "G=f"		   # irmán->irmá
+Á N    > -N,S      # "G=f,N=p"	   # irmán->irmás
+A O    > -AO,Á     # "G=f"		   # limiao->limiá
+A O    > -AO,ÁS    # "G=f,N=p"	   # limiao->limiás
+
+flag *b:         # "CAT=a_nc,G=m,N=s"  #femininos
+Ó N    > -ÓN,ONA      # "G=f"         # pobretón -> pobretona
+Ó N    > -ÓN,ONAS     # "G=f,N=p"     # pobretón -> pobretonas
+Á N    > -ÁN,ANA      # "G=f"         # sultán -> sultana
+Á N    > -ÁN,ANAS     # "G=f,N=p"     # sultán -> sultanas
+T O R  > -TOR,TRIZ    # "G=f"		   # actor->actriz
+T O R  > -TOR,TRICES  # "G=f,N=p"     # actor->actrices
+D O R  > -DOR,TRIZ    # "G=f"		   # imperador->imperatriz
+D O R  > -DOR,TRICES  # "G=f,N=p"     # imperador->imperatrices
+
+
+#----------------------------------------
+# mente
+
+flag *m:         # "CAT=adj,N=s"       #mente
+O             > -O,AMENTE       # "CAT=adv"    # aberto->abertamente
+[^B][^N~][^O] >  MENTE          # "CAT=adv"    # anterior->anteriormente  
+Á B E L       > -ÁBEL,ABELMENTE # "CAT=adv"    # amábel->amabelmente
+Í B E L       > -ÍBEL,IBELMENTE # "CAT=adv"    # horríbel->horribelmente
+
+#----------------------------------------
+# ísimo
+flag *s:         # "CAT=adj,N=s"       #isimo
+[^CZG]O     > -O,ÍSIMO     # "GR=sup"           # alto->altísimo
+C O         > -CO,QUÍSIMO  # "GR=sup"           # pouco->pouquísimo
+Z O         > -ZO,CÍSIMO   # "GR=sup"           # macizo->macicísimo
+G O         > -O,UÍSIMO    # "GR=sup"           # meigo->meiguísimo
+E           > -E,ÍSIMO     # "GR=sup"           # leve->levísimo
+[LR]        >  ÍSIMO       # "GR=sup"           # normal->normalísimo
+É S         > -ÉS,ESÍSIMO  # "GR=sup"           # coruñés->coruñesísimo
+Z           > -Z,CÍSIMO    # "GR=sup"           # feliz->felicísimo
+
+[^CZG]O     > -O,ÍSIMA     # "GR=sup,G=f"       # alto->altísima
+C O         > -CO,QUÍSIMA  # "GR=sup,G=f"       # pouco->pouquísima
+Z O         > -ZO,CÍSIMA   # "GR=sup,G=f"       # macizo->macicísima
+G O         > -O,UÍSIMA    # "GR=sup,G=f"       # meigo->meiguísima
+E           > -E,ÍSIMA     # "GR=sup,G=f"       # leve->levísima
+[LR]        >  ÍSIMA       # "GR=sup,G=f"       # normal->normalísima
+É S         > -ÉS,ESÍSIMA  # "GR=sup,G=f"       # coruñés->coruñesísima
+Z           > -Z,CÍSIMA    # "GR=sup,G=f"       # feliz->felicísima
+
+[^CZG]O     > -O,ÍSIMOS    # "GR=sup,N=p"       # alto->altísimos
+C O         > -CO,QUÍSIMOS # "GR=sup,N=p"       # pouco->pouquísimos
+Z O         > -ZO,CÍSIMOS  # "GR=sup,N=p"       # macizo->macicísimos
+G O         > -O,UÍSIMOS   # "GR=sup,N=p"       # meigo->meiguísimos
+E           > -E,ÍSIMOS    # "GR=sup,N=p"       # leve->levísimos
+[LR]        > ÍSIMOS       # "GR=sup,N=p"       # normal->normalísimos
+É S         > -ÉS,ESÍSIMOS # "GR=sup,N=p"       # coruñés->coruñesísimos
+Z           > -Z,CÍSIMOS   # "GR=sup,N=p"       # feliz->felicísimos
+
+[^CZG]O     > -O,ÍSIMAS    # "GR=sup,G=f,N=p"   # alto->altísimas
+C O         > -CO,QUÍSIMAS # "GR=sup,G=f,N=p"   # pouco->pouquísimas
+Z O         > -ZO,CÍSIMAS  # "GR=sup,G=f,N=p"   # macizo->macicísimas
+G O         > -O,UÍSIMAS   # "GR=sup,G=f,N=p"   # meigo->meiguísimas
+E           > -E,ÍSIMAS    # "GR=sup,G=f,N=p"   # leve->levísimas
+[LR]        >  ÍSIMAS      # "GR=sup,G=f,N=p"   # normal->normalísimas
+É S         > -ÉS,ESÍSIMAS # "GR=sup,G=f,N=p"   # coruñés->coruñesísimas
+Z           > -Z,CÍSIMAS   # "GR=sup,G=f,N=p"   # feliz->felicísimas
+
+#-----------------------------------------
+# idade
+flag *d:         # "CAT=adj,N=s"       #idade
+[^ZG]O      > -O,IDADE         # "CAT=nc,G=f,FSEM=dd" # activo->actividade
+Z O         > -ZO,CIDADE       # "CAT=nc,G=f,FSEM=dd" # castizo->casticidade
+G O         > -O,ÜIDADE        # "CAT=nc,G=f,FSEM=dd" # antigo->antiguidade
+E           > -E,IDADE         # "CAT=nc,G=f,FSEM=dd" # breve->brevidade
+R           >  IDADE           # "CAT=nc,G=f,FSEM=dd" # angular->angularidade
+[^B][^N~] L >  IDADE           # "CAT=nc,G=f,FSEM=dd" # amoral->amoralidade
+Á B E L     > -ÁBEL,ABILIDADE  # "CAT=nc,G=f,FSEM=dd" # amábel->amabilidade
+Í B E L     > -ÍBEL,IBILIDADE  # "CAT=nc,G=f,FSEM=dd" # sensíbel->sensibilidade
+Z           > -Z,CIDADE        # "CAT=nc,G=f,FSEM=dd" # feroz->ferocidade
+
+[^ZG]O      > -O,IDADE         # "CAT=nc,G=f,N=p,FSEM=dd" # activo->actividades
+G O         > -O,ÜIDADES       # "CAT=nc,G=f,N=p,FSEM=dd" # antigo->antigüidades
+[^B][^N~] L > IDADES           # "CAT=nc,G=f,N=p,FSEM=dd" # funcional->funcionalidades
+
+#-----------------------------------------
+# ismo
+flag *i:         # "CAT=nc,N=s"   #ismo
+[^CZ]O      >  -O,ISMO        # "FSEM=ismo"   	# activo->activismo
+C O         >  -CO,QUISMO     # "FSEM=ismo"   	# barroco->barroquismo
+Z O         >  -ZO,CISMO      # "FSEM=ismo"   	# castizo->casticismo
+[^ICG]A     >  -A,ISMO        # "FSEM=ismo"   	# buda->budismo
+I A         >  -A,SMO         # "FSEM=ismo"   	# academia->academismo
+C A         >  -CA,QUISMO     # "FSEM=ismo"   	# benfica->benfiquismo
+G A         >  -GA,GUISMO     # "FSEM=ismo"   	# colega->coleguismo
+E           >  -E,ISMO        # "FSEM=ismo"   	# enxebre->enxebrismo
+[LR]        >   ISMO          # "FSEM=ismo"   	# actual->actualismo
+É S         >  -ÉS,ESISMO     # "FSEM=ismo"   	# chinés->chinesismo
+
+#-----------------------------------------
+# ista
+flag *t:          # "CAT=nc,N=s"  #ista
+[^CZ]O      >  -O,ISTA        # "FSEM=ista"  	# folleto->folletista
+C O         >  -CO,QUISTA     # "FSEM=ista"  	# barroco->barroquista
+Z O         >  -ZO,CISTA      # "FSEM=ista"  	# castizo->casticista
+[^IZG] A    >  -A,ISTA        # "FSEM=ista"  	# bomba->bombista
+I A         >  -A,STA         # "FSEM=ista"  	# anarquia->anarquista
+Z A         >  -ZA,CISTA      # "FSEM=ista"  	# cobranza->cobrancista
+G A         >  -A,UISTA       # "FSEM=ista"  	# droga->droguista
+E           >  -E,ISTA        # "FSEM=ista"  	# arte->artista
+[LR]        >  ISTA           # "FSEM=ista"  	# flor->florista
+
+[^CZ]O      > -O,ISTAS        # "N=p,FSEM=ista"   # folleto->folletistas
+C O         > -CO,QUISTAS     # "N=p,FSEM=ista"   # barroco->barroquistas
+Z O         > -ZO,CISTAS      # "N=p,FSEM=ista"   # casticista->casticistas
+[^IZG] A    > -A,ISTAS        # "N=p,FSEM=ista"   # bomba->bombistas
+I A         > -A,STAS         # "N=p,FSEM=ista"   # anarquia->anarquistas
+Z A         > -ZA,CISTAS      # "N=p,FSEM=ista"   # cobranza->cobrancistas
+G A         > -A,UISTAS       # "N=p,FSEM=ista"   # droga->droguistas
+E           > -E,ISTAS        # "N=p,FSEM=ista"   # arte->artistas
+[LR]        >  ISTAS          # "N=p,FSEM=ista"   # flor->floristas
+
+#-----------------------------------------
+# iño
+flag *h:                # "CAT=a_nc,N=s"         #iño
+[^CGZI]O    > -O,IÑO      # "GR=dim"  		# fillo->filliño
+C O         > -CO,QUIÑO   # "GR=dim"  		# porco->porquiño
+Z O         > -ZO,CIÑO    # "GR=dim"  		# mazo->maciño
+G O         > -O,UIÑO     # "GR=dim"  		# antigo->antiguiño
+E           > -E,IÑO      # "GR=dim"  		# bigode->bigodiño
+[^É][S]     > IÑO         # "GR=dim"  		# deus->deusiño
+É S         > -ÉS,ESIÑO   # "GR=dim"  		# marqués->marquesiño
+[IRUN]      > CIÑO        # "GR=dim"  		# can->canciños
+Z           > -Z,CIÑO     # "GR=dim"  		# arroz->arrociño
+Ó           > -Ó,OIÑO     # "GR=dim"  		# pó->poiño
+É           > -É,EIÑO     # "GR=dim"  		# pé->peiño
+Ú           > -Ú,UCIÑO    # "GR=dim"  		# baú->bauciño
+L           > IÑO         # "GR=dim"  		# anel->aneliño
+
+[^CGZI]O    > -O,IÑOS     # "N=p,GR=dim"     # fillo->filliños
+C O         > -CO,QUIÑOS  # "N=p,GR=dim"     # porco->porquiños
+Z O         > -ZO,CIÑOS   # "N=p,GR=dim"     # mazo->maciños
+G O         > -O,UIÑOS    # "N=p,GR=dim"     # antigo->antiguiños
+[^É][S]     >  IÑOS       # "N=p,GR=dim"     # deus->deusiños
+É S         > -ÉS,ESIÑOS  # "N=p,GR=dim"     # marqués->marquesiños
+[IRUN]      >  CIÑOS      # "N=p,GR=dim"     # can->canciños
+Z           > -Z,CIÑOS    # "N=p,GR=dim"     # arroz->arrociños
+Ó           > -Ó,IÑOS     # "N=p,GR=dim"     # pó->poiños
+É           > -É,IÑOS     # "N=p,GR=dim"     # pé->peiños
+Ú           > -Ú,UCIÑOS   # "N=p,GR=dim"     # baú->bauciños
+L           > IÑOS        # "N=p,GR=dim"     # anel->aneliños
+
+[^ZG]A      > -A,IÑA      # "GR=dim"  		# presa->presiña
+C A         > -CA,QUIÑA   # "GR=dim"  		# vaca->vaquiña
+Z A         > -ZA,CIÑA    # "GR=dim"  		# cabeza->cabeciña
+G A         > -A,UIÑA     # "GR=dim"  		# carga->carguiña
+Á           > -Á,AIÑA     # "GR=dim"  		# pá->paiña
+
+[^ZG]A      > -A,IÑAS     # "N=p,GR=dim"  	# presa->presiñas
+C A         > -CA,QUIÑAS  # "GR=dim"      	# vaca->vaquiñas
+Z A         > -ZA,CIÑAS   # "N=p,GR=dim"  	# cabeza->cabeciñas
+G A         > -A,UIÑAS    # "N=p,GR=dim"  	# carga->carguiñas
+Á           > -Á,AIÑAS    # "N=p,GR=dim"  	# pá->paiñas
+
+flag z:                               #iño
+E           > -E,IÑO      # "GR=dim"  		# pobre->pobriño
+O           > -O,IÑO      # "GR=dim"  		# limpo->limpiño
+L           > IÑO         # "GR=dim"  		# coral->coraliño
+
+E           > -E,IÑOS     # "GR=dim"  		# pobre->pobriños
+O           > -O,IÑOS     # "GR=dim"  		# limpo->limpiños
+L           > IÑOS        # "GR=dim"  		# coral->coraliños
+
+E           > -E,IÑA      # "GR=dim"  		# pobre->pobriña
+O           > -O,IÑA      # "GR=dim"  		# limpo->limpiño
+
+E           >  -E,IÑAS    # "GR=dim"  		# pobre->pobriñas
+O           >  -O,IÑAS    # "GR=dim"  		# limpo->limpiñas
+
+
+#---------------------------------------
+# ción
+flag *c:                 # "CAT=v,T=inf"      # ción
+[AE] R      > -R,CIÓN      # "CAT=nc,G=f,N=s"   # inalar->inalación
+[^X] I R    > -R,CIÓN      # "CAT=nc,G=f,N=s"   # abolir->abolición
+P O R       > -R,SICIÓN    # "CAT=nc,G=f,N=s"   # expor->exposición
+
+[AE] R      > -R,CIÓNS     # "CAT=nc,G=f,N=p"   # inalar->inalacións
+[^X] I R    > -R,CIÓNS     # "CAT=nc,G=f,N=p"   # abolir->abolicións
+P O R       > -R,CIÓNS     # "CAT=nc,G=f,N=p"   # expor->exposicións
+
+flag *C:                 # "CAT=v,T=inf" #ción
+T A R       > -TAR,CIÓN    # "CAT=nc,G=f,N=s"   # cantar->canción
+C I O N A R > -IONAR,CIÓN  # "CAT=nc,G=f,N=s"   # adicionar->adición
+A I R       > -IR,CCIÓN    # "CAT=nc,G=f,N=s"   # atrair->atracción
+U I R       > -IR,CIÓN     # "CAT=nc,G=f,N=s"   # evoluir->evolución
+
+T A R       > -TAR,CIÓNS   # "CAT=nc,G=f,N=p"   # cantar->cancións
+C I O N A R > -IONAR,CIÓNS # "CAT=nc,G=f,N=p"   # adicionar->adicións
+A I R       > -IR,CCIÓNS   # "CAT=nc,G=f,N=p"   # atrair->atraccións
+U I R       > -IR,CIÓNS    # "CAT=nc,G=f,N=p"   # evoluir->evolucións
+
+#---------------------------------------
+# mento
+flag *M:                    # "CAT=v,T=inf"          #mento
+[AI] R      > -R,MENTO     #"CAT=nc,G=m,N=s"    # acumular->acumulamento
+E R         > -ER,IMENTO   #"CAT=nc,G=m,N=s"    # sofrer->sofrimento
+
+[AI] R      > -R,MENTOS    #"CAT=nc,G=m,N=p"    # acumular->acumulamentos
+E R         > -ER,IMENTOS  #"CAT=nc,G=m,N=p"    # sofrer->sofrimentos
+
+#---------------------------------------
+# nte
+flag *n:                 # "CAT=v,T=inf"              #ente
+[AE] R      > -R,NTE       # "CAT=adj,N=s"      # lavar->lavante
+I R         > -IR,ENTE     # "CAT=adj,N=s"      # aderir->aderente
+O R         > -R,NENTE     # "CAT=adj,N=s"      # opor->oponente
+
+[AE] R      > -R,NTES      # "CAT=adj,N=p"      # lavar->lavantes
+I R         > -IR,ENTES    # "CAT=adj,N=p"      # aderir->aderentes
+O R         > -R,NENTES    # "CAT=adj,N=p"      # opor->oponentes
+
+#---------------------------------------
+# dor
+flag *D:                 # "CAT=v,T=inf"              #dor
+[AEI] R     > -R,DOR       # "CAT=a_nc,G=m,N=s" # lavar->lavador
+[AEI] R     > -R,DORA      # "CAT=a_nc,G=f,N=s" # lavar->lavadora
+[AEI] R     > -R,DORES     # "CAT=a_nc,G=m,N=p" # lavar->lavadores
+[AEI] R     > -R,DORAS     # "CAT=a_nc,G=f,N=p" # lavar->lavadoras
+
+#---------------------------------------
+# íbel, ábel           verb2adj
+flag *v:                  # "CAT=v,T=inf"            #ável
+A R         > -AR,ÁBEL    # "CAT=adj,N=s"  	   # lavar->lavábel
+E R         > -ER,ÍBEL    # "CAT=adj,N=s"       # beber->bebíbel
+I R         > -IR,ÍBEL    # "CAT=adj,N=s"       # ouvir->ouvíbel
+
+A R         > -AR,ÁBEIS   # "CAT=adj,N=p"       # lavar->lavábeis
+E R         > -ER,ÍBEIS   # "CAT=adj,N=p"       # beber->bebíbeis
+I R         > -IR,ÍBEIS   # "CAT=adj,N=p"       # ouvir->ouvíbeis
+
+#---------------------------------------
+# dela
+flag *x:                    # "CAT=v,T=inf"          # dela
+[AI] R > -R,DELA          # "CAT=nc,G=F,N=S"	   # apalpar->apalpadela
+[AI] R > -R,DELAS         # "CAT=nc,G=F,N=P"	   # apalpar->apalpadelas
+E R    > -ER,IDELA        # "CAT=nc,G=F,N=S"	   # lamber->lambidela
+E R    > -ER,IDELAS       # "CAT=nc,G=F,N=P"	   # lamber->labidelas
+
+#----------------------------------------
+# eira
+flag *y: # "CAT=nc"            # eira
+O > -O,EIRO   # "FSEM=eiro"     # marmelo->marmeleiro
+O > -O,EIROS  # "FSEM=eiro"     # marmelo->marmeleiros
+A > -A,EIRA   # "FSEM=eiro"     # banana->bananeira
+A > -A,EIRAS  # "FSEM=eiro"     # banana->bananeiras
+
+#----------------------------------------
+# oso
+flag *w: # "CAT=nc"          # oso
+O > OSO      # "FSEM=oso"     # engano->enganoso
+O > OSA      # "FSEM=oso"     # engano->enganosa
+O > OSOS     # "FSEM=oso"     # engano->enganosos
+O > OSAS     # "FSEM=oso"     # engano->enganosas
+A > -A,OSO   # "FSEM=oso"     # leña->leñoso
+A > -A,OSA   # "FSEM=oso"     # leña->leñosa
+A > -A,OSOS  # "FSEM=oso"     # leña->leñosos
+A > -A,OSAS  # "FSEM=oso"     # leña->leñosas
+
+
+
+#---------------------------------------------
+# Presente de indicativo e de subxuntivo dos verbos regulares e alguns semiregulares
+
+flag *X:                # "CAT=v,T=inf" # deve ser posta nos verbos regulares
+
+A R         >  -AR,O       # "P=1,N=s,T=p"    #andar->ando
+A R         >  -R,S        # "P=2,N=s,T=p"    #andar->andas
+A R         >  -AR,A       # "P=3,N=s,T=p"    #andar->anda
+A R         >  -R,MOS      # "P=1,N=p,T=p"    #andar->andamos
+A R         >  -R,DES      # "P=2,N=p,T=p"    #andar->andades
+A R         >  -R,N        # "P=3,N=p,T=p"    #andar->andan
+
+[^CGUZ] A R >  -AR,E       # "P=1_3,N=s,T=ps"  #andar->ande
+C A R       >  -CAR,QUE    # "P=1_3,N=s,T=ps"  #ficar->fique
+G A R       >  -AR,UE      # "P=1_3,N=s,T=ps"  #xogar->xogue
+[^G] U A R  >  -AR,E       # "P=1_3,N=s,T=ps"  #suar->sue
+G U A R     >  -UAR,ÜE     # "P=1_3,N=s,T=ps"  #minguar->mingüe
+Z A R       >  -ZAR,CE     # "P=1_3,N=s,T=ps"  #utilizar->utilice
+[^CGUZ] A R >  -AR,ES      # "P=2,N=s,T=ps"    #andar->andes
+C A R       >  -CAR,QUES   # "P=2,N=s,T=ps"    #ficar->fiques
+G A R       >  -AR,UES     # "P=2,N=s,T=ps"    #xogar->xogues
+[^G] U A R  >  -AR,ES      # "P=2,N=s,T=ps"    #suar->sues
+G U A R     >  -UAR,ÜES    # "P=2,N=s,T=ps"    #minguar->mingües
+Z A R       >  -ZAR,CES    # "P=2,N=s,T=ps"    #utilizar->utilices
+[^CGUZ] A R >  -AR,EMOS    # "P=1,N=p,T=ps"	  #andar->andemos
+C A R       >  -CAR,QUEMOS # "P=1,N=p,T=ps"    #ficar->fiquemos
+G A R       >  -AR,UEMOS   # "P=1,N=p,T=ps"    #xogar->xoguemos
+[^G] U A R  >  -AR,EMOS    # "P=1,N=p,T=ps"    #suar->suemos
+G U A R     >  -UAR,ÜEMOS  # "P=1,N=p,T=ps"    #minguar->mingüemos
+Z A R       >  -ZAR,CEMOS  # "P=1,N=p,T=ps"    #utilizar->utilizemos
+[^CGUZ] A R >  -AR,EDES    # "P=2,N=p,T=ps"	  #andar->andedes
+C A R       >  -CAR,QUEDES # "P=2,N=p,T=ps"    #ficar->fiquedes
+G A R       >  -AR,UEDES   # "P=2,N=p,T=ps"    #xogar->xoguedes
+[^G] U A R  >  -AR,EDES    # "P=1,N=p,T=ps"    #suar->suedes
+G U A R     >  -UAR,ÜEDES  # "P=1,N=p,T=ps"    #minguar->mingüedes
+Z A R       >  -ZAR,CEDES  # "P=2,N=p,T=ps"    #utilizar->utilicedes
+[^CGUZ] A R >  -AR,EN      # "P=3,N=p,T=ps"    #andar->anden
+C A R       >  -CAR,QUEN   # "P=3,N=p,T=ps"    #ficar->fiquen
+G A R       >  -AR,UEN     # "P=3,N=p,T=ps"	  #xogar->xoguen
+[^G] U A R  >  -AR,EN      # "P=3,N=p,T=ps"    #suar->suen
+G U A R     >  -UAR,ÜEN    # "P=3,N=p,T=ps"    #minguar->mingüen
+Z A R       >  -ZAR,CEN    # "P=3,N=p,T=pc"    #utilizar->utilicen
+
+[^CU] E R    >  -ER,O      # "P=1,N=s,T=p"     #viver->vivo
+C E R        >  -CER,ZO    # "P=1,N=s,T=p"     #crecer->crezo
+G U E R      >  -UER,O     # "P=1,N=s,T=p"     #erguer->ergo
+[^O] E R     >  -R,S       # "P=2,N=s,T=p"     #viver->vives
+O E R        >  -OER,ÓIS   # "P=2,N=s,T=p"     #roer->róis
+[^O] E R     >  -ER,E      # "P=3,N=s,T=p"     #viver->vive
+O E R        >  -OER,ÓI    # "P=3,N=s,T=p"     #roer->rói
+E R          >  -R,MOS     # "P=1,N=p,T=p"     #viver->vivemos
+E R          >  -R,DES     # "P=2,N=p,T=p"     #viver->vivedes
+E R          >  -R,N       # "P=3,N=p,T=p"     #viver->viven
+
+[^CU] E R   >  -ER,A       # "P=1_3,N=s,T=ps"  #viver->viva
+C E R       >  -CER,ZA     # "P=1_3,N=s,T=ps"  #crecer->creza
+G U E R     >  -UER,A      # "P=1_3,N=s,T=ps"  #erguer->erga
+[^CU] E R   >  -ER,AS      # "P=2,N=s,T=ps"    #viver->vivas
+C E R       >  -CER,ZAS    # "P=2,N=s,T=ps"    #crecer->crezas
+G U E R     >  -UER,AS     # "P=2,N=s,T=ps"    #erguer->ergas
+[^CU] E R   >  -ER,AMOS    # "P=1,N=p,T=ps"    #viver->vivamos
+C E R       >  -CER,ZAMOS  # "P=1,N=p,T=ps"    #crecer->crezamos
+G U E R     >  -UER,AMOS   # "P=1,N=p,T=ps"    #erguer->ergamos
+[^CU] E R   >  -ER,ADES    # "P=2,N=p,T=ps"    #viver->vivades
+C E R       >  -CER,ZADES  # "P=2,N=p,T=ps"    #crecer->crezades 
+G U E R     >  -UER,ADES   # "P=2,N=p,T=ps"    #erguer->ergades
+[^CU] E R   >  -ER,AN      # "P=3,N=p,T=ps"    #viver->vivan
+C E R       >  -CER,ZAN    # "P=3,N=p,T=ps"    #crecer->crezan
+G U E R     >  -UER,AN     # "P=3,N=p,T=ps"    #erguer->ergan
+
+[^ACUÜ] I R  >  -IR,O      # "P=1,N=s,T=p"     #partir->parto
+A I R        >  -R,O       # "P=1,N=s,T=p"     #cair->caio
+C I R        >  -CIR,ZO    # "P=1,N=s,T=p"     #producir->produzo
+Ü I R        >  -ÜIR,UO    # "P=1,N=s,T=p"     #argüir->arguo
+[^G] U I R   >  -IR,O      # "P=1,N=s,T=p"     #posuir->posuo
+G U I R      >  -UIR,O     # "P=1,N=s,T=p"     #distinguir->distingo
+[^AÜU] I R   >  -IR,ES     # "P=2,N=s,T=p"     #partir->partes
+[AÜ] I R     >  -R,S       # "P=2,N=s,T=p"     #cair->cais
+[^G] U I R   >  -R,S       # "P=2,N=s,T=p"     #posuir->posuis
+G U I R      >  -IR,ES     # "P=2,N=s,T=p"     #distinguir->distingues
+[^AÜU] I R   >  -IR,E      # "P=3,N=s,T=p"     #partir->parte
+[AÜ] I R     >  -R,-       # "P=3,N=s,T=p"     #cair->cai
+[^G] U I R   >  -R,-       # "P=3,N=s,T=p"     #posuir->posui
+G U I R      >  -IR,E      # "P=3,N=s,T=p"     #distinguir->distingue
+[^AUÜ] I R   >  -R,MOS     # "P=1,N=p,T=p"     #partir->partimos
+[AÜ] I R     >  -IR,ÍMOS   # "P=1,N=p,T=p"     #cair->caímos
+[^G] U I R   >  -IR,ÍMOS   # "P=1,N=p,T=p"     #posuir->posuímos
+G U I R      >  -R,MOS     # "P=1,N=p,T=p"     #distinguir->distingimos
+[^AUÜ] I R   >  -R,DES     # "P=2,N=p,T=p"     #partir->partides
+[AÜ] I R     >  -IR,ÍDES   # "P=2,N=p,T=p"     #cair->caídes
+[^G] U I R   >  -IR,ÍDES   # "P=2,N=p,T=p"     #posuir->posuídes
+G U I R      >  -R,DES     # "P=2,N=p,T=p"     #distinguir->distinguides
+I R          >  -IR,EN     # "P=3,N=p,T=p"     #partir->parten
+
+[^ACUÜ] I R  >  -IR,A      # "P=1_3,N=s,T=ps"  #partir->parta
+A I R        >  -R,A	  # "P=1_3,N=s,T=ps"  #cair->caia
+C I R        >  -CIR,ZA    # "P=1_3,N=s,T=ps"  #producir->produza
+Ü I R        >  -ÜIR,UA    # "P=1_3,N=s,T=ps"  #argüir->argua
+[^G] U I R   >  -IR,A      # "P=1_3,N=s,T=ps"  #posuir->posua
+G U I R	   >  -UIR,A     # "P=1_3,N=s,T=ps"  #distinguir->distinga
+[^ACUÜ] I R  >  -IR,AS     # "P=2,N=s,T=ps"    #partir->partas
+A I R        >  -R,AS      # "P=2,N=s,T=ps"    #cair->caias
+C I R        >  -CIR,ZAS   # "P=2,N=s,T=ps"    #producir->produzas
+Ü I R        >  -ÜIR,UAS   # "P=2,N=s,T=ps"	  #argüir->arguas
+[^G] U I R   >  -IR,AS     # "P=2,N=s,T=ps"	  #posuir->posuas
+G U I R      >  -UIR,AS    # "P=2,N=s,T=ps"	  #distinguir->distingas
+
+[^ACUÜ] I R  >  -IR,AMOS   # "P=1,N=p,T=ps"    #partir->partamos
+A I R        >  -R,AMOS    # "P=1,N=p,T=ps"    #cair->caiamos
+C I R        >  -CIR,ZAMOS # "P=1,N=p,T=ps"    #producir->produzamos
+Ü I R        >  -ÜIR,UAMOS # "P=1,N=p,T=ps"    #argüir->arguamos
+[^G] U I R   >  -IR,AMOS   # "P=1,N=p,T=ps"    #posuir->posuamos
+G U I R      >  -UIR,AMOS  # "P=1,N=p,T=ps"    #distinguir->distingamos
+[^ACUÜ] I R  >  -IR,ADES   # "P=2,N=p,T=ps"    #partir->partades
+A I R        >  -R,ADES    # "P=2,N=p,T=ps"    #cair->caiades
+C I R        >  -CIR,ZADES # "P=2,N=p,T=ps"    #producir->produzades
+Ü I R        >  -ÜIR,UADES # "P=2,N=p,T=ps"    #argüir->arguades
+[^G] U I R   >  -IR,ADES   # "P=2,N=p,T=ps"    #posuir->posuades
+G U I R      >  -UIR,ADES  # "P=2,N=p,T=ps"    #distinguir->distingades
+[^ACUÜ] I R  >  -IR,AN     # "P=3,N=p,T=ps"    #partir->partan
+A I R        >  -R,AN      # "P=3,N=p,T=ps"    #cair->caian
+C I R        >  -CIR,ZAN   # "P=3,N=p,T=ps"    #producir->produzan
+Ü I R        >  -ÜIR,UAN   # "P=3,N=p,T=ps"    #argüir->arguan
+[^G] U I R   >  -IR,AN     # "P=3,N=p,T=ps"    #posuir->posuan
+G U I R      >  -UIR,AN    # "P=3,N=p,T=ps"    #distinguir->distingan
+
+A R 		   > -AR,Á	  # amar->ama-(lo,la, etc.)
+E R          > -ER,É	  # comer->come-(lo,la, etc.)
+
+#---------------------------------------------
+# Resto de tempos verbais dos verbos regulares e alguns semirregulares
+
+flag *Y:              # "CAT=v,T=inf"  # Deve ser posta nos verbos regulares
+
+A R         >  -R,BA       # "P=1_3,N=s,T=pi"		#andar->andaba
+A R         >  -R,BAS      # "P=2,N=s,T=pi"		#andar->andabas
+A R         >  -AR,ÁBAMOS  # "P=1,N=p,T=pi"		#andar->andábamos
+A R         >  -AR,ÁBADES  # "P=2,N=p,T=pi"		#andar->andábades
+A R         >  -R,BAN      # "P=3,N=p,T=pi"		#andar->andaban
+[^CGUZ] A R >  -AR,EI      # "P=1,N=s,T=pp"		#andar->andei
+C A R       >  -CAR,QUEI   # "P=1,N=s,T=pp"		#ficar->fiquei
+G A R       >  -AR,UEI     # "P=1,N=s,T=pp"		#xogar->xoguei
+[^G] U A R  >  -AR,EI      # "P=1,N=s,T=pp" 		#suar->suei
+G U A R     >  -UAR,ÜEI    # "P=1,N=s,T=pp"		#minguar->mingüei
+Z A R       >  -ZAR,CEI    # "P=1,N=s,T=pp"		#utilizar->utilicei
+A R         >  -R,CHE      # "P=2,N=s,T=pp"  	#andar->andache
+A R         >  -AR,OU      # "P=3,N=s,T=pp"		#andar->andou
+A R         >  -R,STES     # "P=2,N=p,T=pp"		#andar->andastes
+A R         >  ON          # "P=3,N=p,T=pp"		#andar->andaron
+A R         >  A           # "P=1_3,N=s,T=pmp"	#andar->andara
+A R         >  AS          # "P=2,N=s,T=pmp"		#andar->andaras
+A R         >  -AR,ÁRAMOS  # "P=1,N=p,T=pmp"		#andar->andáramos
+A R         >  -AR,ÁREDES  # "P=2,N=p,T=pmp"		#andar->andárades
+A R         >  AN          # "P=3,N=p,T=pmp"      #andar->andaran
+A R         >  EI          # "P=1,N=s,T=fp"		#andar->andarei
+A R         >  ÁS          # "P=2,N=s,T=fp"		#andar->andarás
+A R         >  Á           # "P=3,N=s,T=fp"		#andar->andará
+A R         >  EMOS        # "P=1,N=p,T=fp"		#andar->andaremos
+A R         >  EDES        # "P=2,N=p,T=fp"		#andar->andaredes
+A R         >  ÁN          # "P=3,N=p,T=fp"		#andar->andarán
+A R         >  -R,SE       # "P=1_3,N=s,T=ps"	#andar->andase
+A R         >  -R,SES      # "P=2,N=s,T=ps"		#andar->andases
+A R         >  -AR,ÁSEMOS  # "P=1,N=p,T=ps"		#andar->andásemos
+A R         >  -AR,ÁSEDES  # "P=2,N=p,T=ps"		#andar->andásedes
+A R         >  -R,SEN      # "P=3,N=p,T=ps"		#andar->andasen
+A R         >  IA          # "P=1_3,N=s,T=c"		#andar->andaria
+A R         >  IAS         # "P=2,N=s,T=c"		#andar->andarias
+A R         >  ÍAMOS       # "P=1,N=p,T=c"		#andar->andaríamos
+A R         >  ÍADES       # "P=2,N=p,T=c"		#andar->andaríades
+A R         >  IAN         # "P=3,N=p,T=c"		#andar->andarian
+A R         >  ES          # "P=2,N=s,T=ic"		#andar->andares
+A R         >  MOS         # "P=1,N=p,T=ic"		#andar->andarmos
+A R         >  DES         # "P=2,N=p,T=ic"		#andar->andardes
+A R         >  EN          # "P=3,N=p,T=ic"		#andar->andarem
+A R         >  -R,NDO      # "T=g"			     #andar->andando
+A R         >  -R,DO       # "G=m,N=s,T=ppa"	     #andar->andado
+A R         >  -R,DA       # "G=f,N=s,T=ppa"	     #andar->andada
+A R         >  -R,DOS      # "G=m,N=p,T=ppa"	     #andar->andados
+A R         >  -R,DAS      # "G=f,N=p,T=ppa" 	#andar->andadas
+A R         >  -R,I        # "P=2,N=p,T=i"        #andar->andai
+
+[^O] E R >  -ER,IA       # "P=1_3,N=s,T=pi"		#viver->vivia
+O E R    >  -ER,ÍA		# "P=1_3,N=s,T=pi"		#roer->roía
+[^O] E R >  -ER,IAS      # "P=2,N=s,T=pi"		#viver->vivias
+O E R    >  -ER,ÍAS      # "P=2,N=s,T=pi"		#roer->roías
+E R      >  -ER,ÍAMOS    # "P=1,N=p,T=pi"		#viver->vivíamos
+E R      >  -ER,ÍADES    # "P=2,N=p,T=pi"		#viver->vivíades
+[^O] E R >  -ER,IAN      # "P=3,N=p,T=pi"		#viver->vivian
+O E R    >  -ER,ÍAN      # "P=3,N=p,T=pi"		#roer->roían
+E R      >  -ER,IN       # "P=1,N=s,T=pp"		#viver->vivin
+E R      >  -R,CHE       # "P=2,N=s,T=pp"		#viver->viveche
+E R      >  -R,U         # "P=3,N=s,T=pp"		#viver->viveu
+E R      >  -R,STES      # "P=2,N=p,T=pp"		#viver->vivestes
+E R      >  ON           # "P=3,N=p,T=pp"		#viver->viveron
+E R      >  A            # "P=1_3,N=s,T=pmp"		#viver->vivera
+E R      >  AS           # "P=2,N=s,T=pmp"		#viver->viveras
+E R      >  -ER,ÉRAMOS   # "P=1,N=p,T=pmp"		#viver->vivéramos
+E R      >  -ER,ÉRADES   # "P=2,N=p,T=pmp"		#viver->vivérades
+E R      >  AN		     # "P=3,N=p,T=pmp"		#viver->vivan
+E R      >  EI           # "P=1,N=s,T=fp"		#viver->viverei
+E R      >  ÁS           # "P=2,N=s,T=fp"		#viver->viverás
+E R      >  Á            # "P=3,N=s,T=fp"		#viver->viverá
+E R      >  EMOS         # "P=1,N=p,T=fp"		#viver->viveremos
+E R      >  EDES         # "P=2,N=p,T=fp"		#viver->viveredes
+E R      >  ÁN           # "P=3,N=p,T=fp"		#viver->viverán
+E R      >  -R,SE        # "P=1_3,N=s,T=ps"		#viver->vivese
+E R      >  -R,SES       # "P=2,N=s,T=ps"		#viver->viveses
+E R      >  -ER,ÉSEMOS   # "P=1,N=p,T=ps"		#viver->vivésemos
+E R      >  -ER,ÉSEDES   # "P=2,N=p,T=ps"		#viver->vivésedes
+E R      >  -R,SEN       # "P=3,N=p,T=ps"		#viver->vivesen
+E R      >  IA           # "P=1_3,N=s,T=c"		#viver->viveria
+E R      >  IAS          # "P=2,N=s,T=c"		#viver->viverias
+E R      >  ÍAMOS        # "P=1,N=p,T=c"		#viver->viveríamos
+E R      >  ÍADES        # "P=2,N=p,T=c"		#viver->viveríades
+E R      >  IAN          # "P=3,N=p,T=c"		#viver->viverian
+E R      >  ES           # "P=2,N=s,T=ic"		#viver->viveres
+E R      >  MOS          # "P=1,N=p,T=ic"		#viver->vivermos
+E R      >  DES          # "P=2,N=p,T=ic"		#viver->viverdes
+E R      >  EN           # "P=3,N=p,T=ic"		#viver->viveren
+E R      >  -R,NDO       # "T=g"				#viver->vivendo
+[^O] E R >  -ER,IDO      # "G=m,N=s,T=ppa"		#viver->vivido
+O E R    >  -ER,ÍDO      # "G=m,N=s,T=ppa"		#roer->roído
+[^O] E R >  -ER,IDA      # "G=f,N=s,T=ppa"		#viver->vivida
+O E R    >  -ER,ÍDA      # "G=f,N=s,T=ppa"		#roer->roída
+[^O] E R >  -ER,IDOS     # "G=m,N=p,T=ppa"		#viver->vividos
+O E R    >  -ER,ÍDOS     # "G=m,N=p,T=ppa"		#roer->roídos
+[^O] E R >  -ER,IDAS     # "G=f,N=p,T=ppa"		#viver->vividas
+O E R    >  -ER,ÍDAS     # "G=f,N=p,T=ppa"		#roer->roídas
+E R      >  -R,I         # "P=2,N=p,T=i"   	     #viver->vivei
+
+[^AUÜ] I R >  -R,A       # "P=1_3,N=s,T=pi"		#partir->partia
+[AÜ] I R   >  -IR,ÍA     # "P=1_3,N=s,T=pi"		#cair->caía
+[^G] U I R >  -IR,ÍA     # "P=1_3,N=s,T=pi"		#posuir->posuía
+G U I R    >  -R,A       # "P=1_3,N=s,T=pi"		#seguir->seguia
+[^AUÜ] I R >  -R,AS      # "P=2,N=s,T=pi"		#partir->partias
+[AÜ] I R   >  -IR,ÍAS    # "P=2,N=s,T=pi"		#cair->caías
+[^G] U I R >  -IR,ÍAS    # "P=2,N=s,T=pi"		#posuir->posuías
+G U I R    >  -R,AS      # "P=2,N=s,T=pi"		#seguir->seguias
+I R        >  -IR,ÍAMOS  # "P=1,N=p,T=pi"		#partir->partíamos
+I R        >  -IR,ÍADES  # "P=2,N=p,T=pi"		#partir->partíades
+[^AUÜ] I R >  -R,AN      # "P=3,N=p,T=pi"		#partir->partian
+[AÜ] I R   >  -IR,ÍAN    # "P=3,N=p,T=pi"		#cair->caían
+[^G] U I R >  -IR,ÍAN    # "P=3,N=p,T=pi"		#posuir->posuían
+G U I R    >  -R,AN      # "P=3,N=p,T=pi"		#seguir->seguian
+I R        >  -IR,IN     # "P=1,N=s,T=pp"		#partir->partin
+[^AUÜ] I R >  -R,CHE     # "P=2,N=s,T=pp"		#partir->partiche
+[AÜ] I R   >  -IR,ÍCHE   # "P=2,N=s,T=pp"		#cair->caíche
+[^G] U I R >  -IR,ÍCHE   # "P=2,N=s,T=pp"		#posuir->posuíche
+G U I R    >  -R,CHE     # "P=2,N=s,T=pp"		#seguir->seguiche
+I R        >  -R,U       # "P=3,N=s,T=pp"		#partir->partiu
+[^AUÜ] I R >  -R,STES    # "P=2,N=p,T=pp"		#partir->partistes
+[AÜ] I R   >  -IR,ÍSTES  # "P=2,N=p,T=pp"		#cair->caístes
+[^G] U I R >  -IR,ÍSTES  # "P=2,N=p,T=pp"		#posuir->posuístes
+G U I R    >  -R,STES    # "P=2,N=p,T=pp"		#seguir->seguístes
+[^AUÜ] I R >  ON         # "P=3,N=p,T=pp"		#partir->partiron
+[AÜ] I R   >  -IR,ÍRON   # "P=3,N=p,T=pp"		#cair->caíron
+[^G] U I R >  -IR,ÍRON   # "P=3,N=p,T=pp"		#posuir->posuíron
+G U I R    >  ON   		# "P=3,N=p,T=pp"		#seguir->seguiron
+[^AUÜ] I R >  A          # "P=1_3,N=s,T=pmp"		#partir->partira
+[AÜ] I R   >  -IR,ÍRA    # "P=1_3,N=s,T=pmp"		#cair->caíra
+[^G] U I R >  -IR,ÍRA    # "P=1_3,N=s,T=pmp"		#posuir->posuíra
+G U I R    >  A    		# "P=1_3,N=s,T=pmp"		#seguir->seguira
+[^AUÜ] I R >  AS         # "P=2,N=s,T=pmp"		#partir->partiras
+[AÜ] I R   >  -IR,ÍRAS   # "P=2,N=s,T=pmp"		#cair->caíras
+[^G] U I R >  -IR,ÍRAS   # "P=2,N=s,T=pmp"		#posuir->posuíras
+G U I R    >  AS   		# "P=2,N=s,T=pmp"		#seguir->seguiras
+I R        >  -IR,ÍRAMOS # "P=1,N=p,T=pmp"		#partir->partíramos
+I R        >  -IR,ÍRADES # "P=2,N=p,T=pmp"		#partir->partírades
+[^AUÜ] I R >  AN         # "P=3,N=p,T=pmp"		#partir->partiran
+[AÜ] I R   >  -IR,ÍRAN   # "P=3,N=p,T=pmp"		#cair->caíran
+[^G] U I R >  -IR,ÍRAN   # "P=3,N=p,T=pmp"		#posuir->posuíran
+G U I R    >  AN   		# "P=3,N=p,T=pmp"		#seguir->seguiran
+I R        >  EI         # "P=1,N=s,T=f"		#partir->partirei
+I R        >  ÁS         # "P=2,N=s,T=f"		#partir->partirás
+I R        >  Á          # "P=3,N=s,T=f"		#partir->partirá
+I R        >  EMOS       # "P=1,N=p,T=f"		#partir->partiremos
+I R        >  EDES       # "P=2,N=p,T=f"		#partir->partiredes
+I R        >  ÁN         # "P=3,N=p,T=f"		#partir->partirán
+
+[^AUÜ] I R >  -R,SE      # "P=1_3,N=s,T=pic"		#partir->partise
+[AÜ] I R   >  -IR,ÍSE    # "P=1_3,N=s,T=pic"		#cair->caíse
+[^G] U I R >  -IR,ÍSE    # "P=1_3,N=s,T=pic"		#posuir->posuíse
+G U I R    >  -R,SE   	# "P=1_3,N=s,T=pic"		#seguir->seguise
+[^AUÜ] I R >  -R,SES     # "P=2,N=s,T=pic"		#partir->partises
+[AÜ] I R   >  -IR,ÍSES   # "P=2,N=s,T=pic"		#cair->caíses
+[^G] U I R >  -IR,ÍSES   # "P=2,N=s,T=pic"		#posuir->posuíses
+G U I R    >  -R,SES     # "P=2,N=s,T=pic"		#seguir->seguises
+I R        >  -IR,ÍSEMOS # "P=1,N=p,T=pic"		#partir->partísemos
+I R        >  -IR,ÍSEDES # "P=2,N=p,T=pic"		#partir->partísedes
+[^AUÜ] I R >  -R,SEN     # "P=3,N=p,T=pic"		#partir->partisen
+[AÜ] I R   >  -IR,ÍSEN   # "P=3,N=p,T=pic"		#cair->caísen
+[^G] U I R >  -IR,ÍSEN   # "P=3,N=p,T=pic"		#posuir->posuísen
+G U I R    >  -R,SEN   	# "P=3,N=p,T=pic"		#seguir->seguisen
+I R        >  IA         # "P=1_3,N=s,T=c"		#partir->partiria
+I R        >  IAS        # "P=2,N=s,T=c"		#partir->partirias
+I R        >  ÍAMOS      # "P=1,N=p,T=c"		#partir->partiríamos
+I R        >  ÍADES      # "P=2,N=p,T=c"		#partir->partiríades
+I R        >  IAN        # "P=3,N=p,T=c"		#partir->partirian
+
+[^AUÜ] I R >  ES         # "P=2,N=s,T=fc"		#partir->partires
+[AÜ] I R   >  -IR,ÍRES   # "P=2,N=s,T=fc"		#cair->caíres
+[^G] U I R >  -IR,ÍRES   # "P=2,N=s,T=fc"		#posuir->posuíres
+G U I R    >  ES   		# "P=2,N=s,T=fc"		#seguir->seguires
+I R        >  MOS        # "P=1,N=p,T=fc"		#partir->partirmos
+I R        >  DES        # "P=2,N=p,T=fc"		#partir->partirdes
+[^AUÜ] I R >  EN         # "P=3,N=p,T=fc"		#partir->partiren
+[AÜ] I R   >  -IR,ÍREN   # "P=3,N=p,T=fc"		#cair->caíren
+[^G] U I R >  -IR,ÍREN   # "P=3,N=p,T=fc"		#posuir->posuíren
+G U I R    >  EN   		# "P=3,N=p,T=fc"		#seguir->seguiren
+I R        >  -R,NDO     # "T=g"				#partir->partindo
+
+[^AUÜ] I R >  -R,DO      # "G=m,N=s,T=ppa"		#partir->partido
+[AÜ] I R   >  -IR,ÍDO    # "G=m,N=s,T=ppa"		#cair->caído
+[^G] U I R >  -IR,ÍDO    # "G=m,N=s,T=ppa"		#posuir->posuído
+G U I R    >  -R,DO    	# "G=m,N=s,T=ppa"		#seguir->seguido
+[^AUÜ] I R >  -R,DA      # "G=f,N=s,T=ppa"		#partir->partida
+[AÜ] I R   >  -IR,ÍDA    # "G=f,N=s,T=ppa"		#cair->caída
+[^G] U I R >  -IR,ÍDA    # "G=f,N=s,T=ppa"		#posuir->posuída
+G U I R    >  -R,DA    	# "G=f,N=s,T=ppa"		#seguir->seguida
+[^AUÜ] I R >  -R,DOS     # "G=m,N=p,T=ppa"		#partir->partidos
+[AÜ] I R   >  -IR,ÍDOS   # "G=m,N=p,T=ppa"		#cair->caídos
+[^G] U I R >  -IR,ÍDOS   # "G=m,N=p,T=ppa"		#posuir->posuídos
+G U I R    >  -R,DOS    	# "G=m,N=p,T=ppa"		#seguir->seguidos
+[^AUÜ] I R >  -R,DAS     # "G=f,N=p,T=ppa"		#partir->partidas
+[AÜ] I R   >  -IR,ÍDAS   # "G=f,N=p,T=ppa"		#cair->caídas
+[^G] U I R >  -IR,ÍDAS   # "G=f,N=p,T=ppa"		#posuir->posuídas
+G U I R    >  -R,DAS    	# "G=f,N=p,T=ppa"		#seguir->seguidas
+
+[^AUÜ] I R >  -R,-       # "P=2,N=p,T=i"   	     #partir->parti
+[AÜ] I R   >  -IR,Í      # "P=2,N=p,T=i"   	     #cair->caí
+[^G] U I R >  -IR,Í      # "P=2,N=p,T=i"   	     #posuir->posuí
+G U I R    >  -R,-       # "P=2,N=p,T=i"   	     #seguir->segui
+
+
+
+#---------------------------------------------
+# Verbos da 3ª conxugación con alternáncia vocálica + Valer e derivados
+
+flag *Z:               # "CAT=v,T=inf" #(p,ps)
+
+L E R > -ER,LO    		#"P=1,N=s,T=p"		# valer->vallo
+L E R > -R,S			#"P=2,N=s,T=p"		# valer->vales
+L E R > -ER,E			#"P=3,N=s,T=p"		# valer->vale
+L E R > -R,MOS			#"P=1,N=p,T=p"		# valer->valemos
+L E R > -R,DES			#"P=2,N=p,T=p"		# valer->valedes
+L E R > -R,N			#"P=3,N=p,T=p"		# valer->valen
+L E R > -ER,LA			#"P=1_3,N=s,T=ps"	# valer->valla
+L E R > -ER,LAS		#"P=2,N=s,T=ps"	# valer->vallas
+L E R > -ER,LAMOS		#"P=1,N=p,T=ps"	# valer->vallamos
+L E R > -ER,LADES		#"P=2,N=p,T=ps"	# valer->vallades
+L E R > -ER,LAN		#"P=3,N=p,T=ps"	# valer->vallan
+
+L E R > -ER,É	   						# valer->valé-(lo,la, etc.)
+
+E D I R > -EDIR,IDO    	#"P=1,N=s,T=p"		# pedir->pido
+E D I R > -IR,ES		#"P=2,N=s,T=p"		# pedir->pedes
+E D I R > -IR,E		#"P=3,N=s,T=p"		# pedir->pede
+E D I R > -R,MOS		#"P=1,N=p,T=p"		# pedir->pedimos
+E D I R > -R,DES		#"P=2,N=p,T=p"		# pedir->pedides
+E D I R > -IR,EN		#"P=3,N=p,T=p"		# pedir->peden
+E D I R > -EDIR,IDA		#"P=1_3,N=s,T=ps"	# pedir->pida
+E D I R > -EDIR,IDAS	#"P=2,N=s,T=ps"	# pedir->pidas
+E D I R > -EDIR,IDAMOS	#"P=1,N=p,T=ps"	# pedir->pidamos
+E D I R > -EDIR,IDADES	#"P=2,N=p,T=ps"	# pedir->pidades
+E D I R > -EDIR,IDAN	#"P=3,N=p,T=ps"	# pedir->pidan
+
+E G U I R > -EGUIR,IGO    #"P=1,N=s,T=p"	# conseguir->consigo
+E G U I R > -IR,ES		 #"P=2,N=s,T=p"	# conseguir->consegues
+E G U I R > -IR,E		 #"P=3,N=s,T=p"	# conseguir->consegue
+E G U I R > -R,MOS		 #"P=1,N=p,T=p"	# conseguir->conseguimos
+E G U I R > -R,DES		 #"P=2,N=p,T=p"	# conseguir->conseguides
+E G U I R > -IR,EN		 #"P=3,N=p,T=p"	# conseguir->conseguen
+E G U I R > -EGUIR,IGA	 #"P=1_3,N=s,T=ps"	# conseguir->consiga
+E G U I R > -EGUIR,IGAS	 #"P=2,N=s,T=ps"	# conseguir->consigas
+E G U I R > -EGUIR,IGAMOS #"P=1,N=p,T=ps"	# conseguir->consigamos
+E G U I R > -EGUIR,IGADES #"P=2,N=p,T=ps"	# conseguir->consigades
+E G U I R > -EGUIR,IGAN	 #"P=3,N=p,T=ps"	# conseguir->consigan
+
+E L I R > -ELIR,ILO    	#"P=1,N=s,T=p"		# impelir->impilo
+E L I R > -IR,ES		#"P=2,N=s,T=p"		# impelir->impeles
+E L I R > -IR,E		#"P=3,N=s,T=p"		# impelir->impele
+E L I R > -R,MOS		#"P=1,N=p,T=p"		# impelir->impelimos
+E L I R > -R,DES		#"P=2,N=p,T=p"		# impelir->impelides
+E L I R > -IR,EN		#"P=3,N=p,T=p"		# impelir->impelen
+E L I R > -ELIR,ILA		#"P=1_3,N=s,T=ps"	# impelir->impila
+E L I R > -ELIR,ILAS	#"P=2,N=s,T=ps"	# impelir->impilas
+E L I R > -ELIR,ILAMOS	#"P=1,N=p,T=ps"	# impelir->impilamos
+E L I R > -ELIR,ILADES	#"P=2,N=p,T=ps"	# impelir->impilades
+E L I R > -ELIR,ILAN	#"P=3,N=p,T=ps"	# impelir->impilan
+
+E N T I R > -ENTIR,INTO    #"P=1,N=s,T=p"	# mentir->minto
+E N T I R > -IR,ES		  #"P=2,N=s,T=p"	# mentir->mentes
+E N T I R > -IR,E		  #"P=3,N=s,T=p"	# mentir->mente
+E N T I R > -R,MOS		  #"P=1,N=p,T=p"	# mentir->mentimos
+E N T I R > -R,DES		  #"P=2,N=p,T=p"	# mentir->mentides
+E N T I R > -IR,EN		  #"P=3,N=p,T=p"	# mentir->menten
+E N T I R > -ENTIR,INTA	  #"P=1_3,N=s,T=ps"	# mentir->minta
+E N T I R > -ENTIR,INTAS	  #"P=2,N=s,T=ps"	# mentir->mintas
+E N T I R > -ENTIR,INTAMOS #"P=1,N=p,T=ps"	# mentir->mintamos
+E N T I R > -ENTIR,INTADES #"P=2,N=p,T=ps"	# mentir->mintades
+E N T I R > -ENTIR,INTAN	  #"P=3,N=p,T=ps"	# mentir->mintan
+
+E R I R > -ERIR,IRO    	#"P=1,N=s,T=p"		# ferir->firo
+E R I R > -IR,ES		#"P=2,N=s,T=p"		# ferir->feres
+E R I R > -IR,E		#"P=3,N=s,T=p"		# ferir->fere
+E R I R > -R,MOS		#"P=1,N=p,T=p"		# ferir->ferimos
+E R I R > -R,DES		#"P=2,N=p,T=p"		# ferir->ferides
+E R I R > -IR,EN		#"P=3,N=p,T=p"		# ferir->feren
+E R I R > -ERIR,IRA		#"P=1_3,N=s,T=ps"	# ferir->fira
+E R I R > -ERIR,IRAS	#"P=2,N=s,T=ps"	# ferir->firas
+E R I R > -ERIR,IRAMOS	#"P=1,N=p,T=ps"	# ferir->firamos
+E R I R > -ERIR,IRADES	#"P=2,N=p,T=ps"	# ferir->firades
+E R I R > -ERIR,IRAN	#"P=3,N=p,T=ps"	# ferir->firan
+
+E R N I R > -ERNIR,IRNO    #"P=1,N=s,T=p"	# cernir->cirno
+E R N I R > -IR,ES		  #"P=2,N=s,T=p"	# cernir->cernes
+E R N I R > -IR,E		  #"P=3,N=s,T=p"	# cernir->cerne
+E R N I R > -R,MOS		  #"P=1,N=p,T=p"	# cernir->cernimos
+E R N I R > -R,DES		  #"P=2,N=p,T=p"	# cernir->cernides
+E R N I R > -IR,EN		  #"P=3,N=p,T=p"	# cernir->cernen
+E R N I R > -ERNIR,IRNA	  #"P=1_3,N=s,T=ps"	# cernir->cirna
+E R N I R > -ERNIR,IRNAS	  #"P=2,N=s,T=ps"	# cernir->cirnas
+E R N I R > -ERNIR,IRNAMOS #"P=1,N=p,T=ps"	# cernir->cirnamos
+E R N I R > -ERNIR,IRNADES #"P=2,N=p,T=ps"	# cernir->cirnades
+E R N I R > -ERNIR,IRNAN	  #"P=3,N=p,T=ps"	# cernir->cirnan
+
+E R T I R > -ERTIR,IRTO    #"P=1,N=s,T=p"	# advertir->advirto
+E R T I R > -IR,ES		  #"P=2,N=s,T=p"	# advertir->advertes
+E R T I R > -IR,E		  #"P=3,N=s,T=p"	# advertir->adverte
+E R T I R > -R,MOS		  #"P=1,N=p,T=p"	# advertir->advertimos
+E R T I R > -R,DES		  #"P=2,N=p,T=p"	# advertir->advertides
+E R T I R > -IR,EN		  #"P=3,N=p,T=p"	# advertir->adverten
+E R T I R > -ERTIR,IRTA	  #"P=1_3,N=s,T=ps"	# advertir->advirta
+E R T I R > -ERTIR,IRTAS	  #"P=2,N=s,T=ps"	# advertir->advirtas
+E R T I R > -ERTIR,IRTAMOS #"P=1,N=p,T=ps"	# advertir->advirtamos
+E R T I R > -ERTIR,IRTADES #"P=2,N=p,T=ps"	# advertir->advirtades
+E R T I R > -ERTIR,IRTAN	  #"P=3,N=p,T=ps"	# advertir->advirtan
+
+E S T I R > -ESTIR,ISTO    #"P=1,N=s,T=p"	# vestir->visto
+E S T I R > -IR,ES		  #"P=2,N=s,T=p"	# vestir->vestes
+E S T I R > -IR,E		  #"P=3,N=s,T=p"	# vestir->veste
+E S T I R > -R,MOS		  #"P=1,N=p,T=p"	# vestir->vestimos
+E S T I R > -R,DES		  #"P=2,N=p,T=p"	# vestir->vestides
+E S T I R > -IR,EN		  #"P=3,N=p,T=p"	# vestir->vesten
+E S T I R > -ESTIR,ISTA	  #"P=1_3,N=s,T=ps"	# vestir->vista
+E S T I R > -ESTIR,ISTAS	  #"P=2,N=s,T=ps"	# vestir->vistas
+E S T I R > -ESTIR,ISTAMOS #"P=1,N=p,T=ps"	# vestir->vistamos
+E S T I R > -ESTIR,ISTADES #"P=2,N=p,T=ps"	# vestir->vistades
+E S T I R > -ESTIR,ISTAN	  #"P=3,N=p,T=ps"	# vestir->vistan
+
+E T I R > -ETIR,ITO    	#"P=1,N=s,T=p"		# competir->compito
+E T I R > -IR,ES		#"P=2,N=s,T=p"		# competir->competes
+E T I R > -IR,E		#"P=3,N=s,T=p"		# competir->compete
+E T I R > -R,MOS		#"P=1,N=p,T=p"		# competir->competimos
+E T I R > -R,DES		#"P=2,N=p,T=p"		# competir->competides
+E T I R > -IR,EN		#"P=3,N=p,T=p"		# competir->competen
+E T I R > -ETIR,ITA		#"P=1_3,N=s,T=ps"	# competir->compita
+E T I R > -ETIR,ITAS	#"P=2,N=s,T=ps"	# competir->compitas
+E T I R > -ETIR,ITAMOS	#"P=1,N=p,T=ps"	# competir->compitamos
+E T I R > -ETIR,ITADES	#"P=2,N=p,T=ps"	# competir->compitades
+E T I R > -ETIR,ITAN	#"P=3,N=p,T=ps"	# competir->compitan
+
+O B R I R > -OBRIR,UBRO    #"P=1,N=s,T=p"	# cobrir->cubro
+O B R I R > -IR,ES		  #"P=2,N=s,T=p"	# cobrir->cobres
+O B R I R > -IR,E		  #"P=3,N=s,T=p"	# cobrir->cobre
+O B R I R > -R,MOS		  #"P=1,N=p,T=p"	# cobrir->cobrimos
+O B R I R > -R,DES		  #"P=2,N=p,T=p"	# cobrir->cobrides
+O B R I R > -IR,EN		  #"P=3,N=p,T=p"	# cobrir->cobren
+O B R I R > -OBRIR,UBRA	  #"P=1_3,N=s,T=ps" # cobrir->cubra
+O B R I R > -OBRIR,UBRAS	  #"P=2,N=s,T=ps"	# cobrir->cubras
+O B R I R > -OBRIR,UBRAMOS #"P=1,N=p,T=ps"	# cobrir->cubramos
+O B R I R > -OBRIR,UBRADES #"P=2,N=p,T=ps"	# cobrir->cubrades
+O B R I R > -OBRIR,UBRAN	  #"P=3,N=p,T=ps"	# cobrir->cubran
+
+O L I R > -OLIR,ULO    #"P=1,N=s,T=p"		# engolir->engulo
+O L I R > -IR,ES	   #"P=2,N=s,T=p"		# engolir->engoles
+O L I R > -IR,E	   #"P=3,N=s,T=p"		# engolir->engole
+O L I R > -R,MOS	   #"P=1,N=p,T=p"		# engolir->engolimos
+O L I R > -R,DES	   #"P=2,N=p,T=p"		# engolir->engolides
+O L I R > -IR,EN	   #"P=3,N=p,T=p"		# engolir->engolen
+O L I R > -OLIR,ULA	   #"P=1_3,N=s,T=ps" 	# engolir->engula
+O L I R > -OLIR,ULAS   #"P=2,N=s,T=ps"		# engolir->engulas
+O L I R > -OLIR,ULAMOS #"P=1,N=p,T=ps"		# engolir->engulamos
+O L I R > -OLIR,ULADES #"P=2,N=p,T=ps"		# engolir->engulades
+O L I R > -OLIR,ULAN   #"P=3,N=p,T=ps"		# engolir->engulan
+
+U L I R > -IR,O        #"P=1,N=s,T=p"		# bulir->bulo
+U L I R > -ULIR,OLES   #"P=2,N=s,T=p"		# bulir->boles
+U L I R > -ULIR,OLE	   #"P=3,N=s,T=p"		# bulir->bole
+U L I R > -R,MOS	   #"P=1,N=p,T=p"		# bulir->bulimos
+U L I R > -R,DES	   #"P=2,N=p,T=p"		# bulir->bulides
+U L I R > -ULIR,OLEN   #"P=3,N=p,T=p"		# bulir->bolen
+U L I R > -IR,A	   #"P=1_3,N=s,T=ps" 	# bulir->bula
+U L I R > -IR,AS   	   #"P=2,N=s,T=ps"		# bulir->bulas
+U L I R > -IR,AMOS     #"P=1,N=p,T=ps"		# bulir->bulamos
+U L I R > -IR,ADES     #"P=2,N=p,T=ps"		# bulir->bulades
+U L I R > -IR,AN       #"P=3,N=p,T=ps"		# bulir->bulan
+
+U D I R > -IR,O        #"P=1,N=s,T=p"		# acudir->acudo
+U D I R > -UDIR,ODES   #"P=2,N=s,T=p"		# acudir->acodes
+U D I R > -UDIR,ODE	   #"P=3,N=s,T=p"		# acudir->acode
+U D I R > -R,MOS	   #"P=1,N=p,T=p"		# acudir->acudimos
+U D I R > -R,DES	   #"P=2,N=p,T=p"		# acudir->acudides
+U D I R > -UDIR,ODEN   #"P=3,N=p,T=p"		# acudir->acoden
+U D I R > -IR,A	   #"P=1_3,N=s,T=ps" 	# acudir->acuda
+U D I R > -IR,AS   	   #"P=2,N=s,T=ps"		# acudir->acudas
+U D I R > -IR,AMOS     #"P=1,N=p,T=ps"		# acudir->acudamos
+U D I R > -IR,ADES     #"P=2,N=p,T=ps"		# acudir->acudades
+U D I R > -IR,AN       #"P=3,N=p,T=ps"		# acudir->acudan
+
+U X I R > -IR,O        #"P=1,N=s,T=p"		# fuxir->fuxo
+U X I R > -UXIR,OXES   #"P=2,N=s,T=p"		# fuxir->foxes
+U X I R > -UXIR,OXE	   #"P=3,N=s,T=p"		# fuxir->foxe
+U X I R > -R,MOS	   #"P=1,N=p,T=p"		# fuxir->fuximos
+U X I R > -R,DES	   #"P=2,N=p,T=p"		# fuxir->fuxides
+U X I R > -UXIR,OXEN   #"P=3,N=p,T=p"		# fuxir->foxen
+U X I R > -IR,A	   #"P=1_3,N=s,T=ps" 	# fuxir->fuxa
+U X I R > -IR,AS   	   #"P=2,N=s,T=ps"		# fuxir->fuxas
+U X I R > -IR,AMOS     #"P=1,N=p,T=ps"		# fuxir->fuxamos
+U X I R > -IR,ADES     #"P=2,N=p,T=ps"		# fuxir->fuxades
+U X I R > -IR,AN       #"P=3,N=p,T=ps"		# fuxir->fuxan
+
+
+
+
+#---------------------------------------------
+# Verbos irregulares que teñen derivados + agredir e rir (e derivados).
+
+flag *K:                # "CAT=v,T=inf"   # Todos os tempos
+
+G R E D I R > -EDIR,IDO  #"P=1,N=s,T=p"		# agredir->agrido
+G R E D I R > -EDIR,IDES	#"P=2,N=s,T=p"		# agredir->agrides
+G R E D I R > -EDIR,IDE	#"P=3,N=s,T=p"		# agredir->agride
+G R E D I R > -R,MOS	#"P=1,N=p,T=p"		# agredir->agredimos
+G R E D I R > -R,DES	#"P=2,N=p,T=p"		# agredir->agredides
+G R E D I R > -EDIR,IDEN	#"P=3,N=p,T=p"		# agredir->agriden
+G R E D I R > -EDIR,IDA		#"P=1_3,N=s,T=ps"	# agredir->agrida
+G R E D I R > -EDIR,IDAS		#"P=2,N=s,T=ps"	# agredir->agridas
+G R E D I R > -EDIR,IDAMOS	#"P=1,N=p,T=ps"	# agredir->agridamos
+G R E D I R > -EDIR,IDADES	#"P=2,N=p,T=ps"	# agredir->agridades
+G R E D I R > -EDIR,IDAN		#"P=3,N=p,T=ps"	# agredir->agridan
+
+R I R > -R,O    	#"P=1,N=s,T=p"		# rir->rio
+R I R > -R,S		#"P=2,N=s,T=p"		# rir->ris
+R I R > -R,MOS		#"P=1,N=p,T=p"		# rir->rimos
+R I R > -R,DES		#"P=2,N=p,T=p"		# rir->rides
+R I R > -R,EN		#"P=3,N=p,T=p"		# rir->rien
+R I R > -R,AMOS	#"P=1,N=p,T=ps"	# rir->riamos
+R I R > -R,ADES	#"P=2,N=p,T=ps"	# rir->riades
+
+D I C E R > -CER,GO    	#"P=1,N=s,T=p"		# dicer->digo
+D I C E R > -CER,S		#"P=2,N=s,T=p"		# dicer->dis
+D I C E R > -ICER,I	  	#"P=3,N=s,T=p"		# dicer->di
+D I C E R > -R,MOS 		#"P=1,N=p,T=p"     	# dicer->dicemos
+D I C E R > -R,DES    	#"P=2,N=p,T=p"     	# dicer->dicedes
+D I C E R > -CER,N   	#"P=3,N=p,T=p"   	# dicer->din
+D I C E R > -CER,XEN     #"P=1,N=s,T=pp"   	# dicer->dixen
+D I C E R > -CER,XECHE   #"P=2,N=s,T=pp"   	# dicer->dixeche
+D I C E R > -CER,XO      #"P=3,N=s,T=pp"   	# dicer->dixo
+D I C E R > -CER,XEMOS   #"P=1,N=p,T=pp"   	# dicer->dixemos
+D I C E R > -CER,XESTES  #"P=2,N=p,T=pp"   	# dicer->dixestes
+D I C E R > -CER,XERON   #"P=3,N=p,T=pp"   	# dicer->dixeron
+D I C E R > -CER,REI   	#"P=1,N=s,T=f"    	# dicer->direi
+D I C E R > -CER,RÁS   	#"P=2,N=s,T=f"    	# dicer->dirás
+D I C E R > -CER,RÁ		#"P=3,N=s,T=f"    	# dicer->dirá
+D I C E R > -CER,REMOS	#"P=1,N=p,T=f"    	# dicer->diremos
+D I C E R > -CER,REDES 	#"P=2,N=p,T=f"    	# dicer->diredes
+D I C E R > -CER,RÁN   	#"P=3,N=s,T=f"    	# dicer->dirán
+D I C E R > -ER,IA   	#"P=1_3,N=s,T=pi"  	# dicer->dicia
+D I C E R > -ER,IAS   	#"P=2,N=s,T=pi"    	# dicer->dicias
+D I C E R > -ER,ÍAMOS 	#"P=1,N=p,T=pi"    	# dicer->dicíamos
+D I C E R > -ER,ÍADES 	#"P=2,N=p,T=pi"    	# dicer->dicíades
+D I C E R > -ER,IAN   	#"P=3,N=p,T=pi"    	# dicer->dician
+D I C E R > -CER,XERA	#"P=1_3,N=s,T=pmp"	# dicer->dixera
+D I C E R > -CER,XERAS	#"P=2,N=s,T=pmp" 	# dicer->dixeras
+D I C E R > -CER,XÉRAMOS #"P=1,N=p,T=pmp" 	# dicer->dixéramos
+D I C E R > -CER,XÉRADES #"P=2,N=p,T=pmp" 	# dicer->dixérades
+D I C E R > -CER,XERAN	#"P=3,N=p,T=pmp" 	# dicer->dixeran
+D I C E R > -CER,RIA	#"P=1_3,N=s,T=c"	# dicer->diria
+D I C E R > -CER,RIAS	#"P=2,N=s,T=c"  	# dicer->dirias
+D I C E R > -CER,RÍAMOS	#"P=1,N=p,T=c"  	# dicer->diríamos
+D I C E R > -CER,RÍADES 	#"P=2,N=p,T=c"  	# dicer->diríades
+D I C E R > -CER,RIAN	#"P=3,N=p,T=c" 	# dicer->dirian
+D I C E R > -CER,GA   	#"P=1_3,N=s,T=ps" 	# dicer->diga
+D I C E R > -CER,GAS   	#"P=2,N=s,T=ps"   	# dicer->digas
+D I C E R > -CER,GAMOS 	#"P=1,N=p,T=ps"   	# dicer->digamos
+D I C E R > -CER,GADES 	#"P=2,N=p,T=ps"   	# dicer->digades
+D I C E R > -CER,GAN 	#"P=3,N=p,T=ps"   	# dicer->digan
+D I C E R > -CER,XESE	#"P=1_3,N=s,T=ps"	# dicer->dixese
+D I C E R > -CER,XESES	#"P=2,N=s,T=ps"  	# dicer->dixeses
+D I C E R > -CER,XÉSEMOS #"P=1,N=p,T=ps"  	# dicer->dixésemos
+D I C E R > -CER,XÉSEDES #"P=2,N=p,T=ps"  	# dicer->dixésedes
+D I C E R > -CER,XESEN	#"P=3,N=p,T=ps"  	# dicer->dixesen
+D I C E R > -CER,XER	#"P=1_3,N=s,T=fs" 	# dicer->dixer
+D I C E R > -CER,XERES	#"P=1,N=s,T=fs"   	# dicer->dixeres
+D I C E R > -CER,XERMOS  #"P=1,N=p,T=fs"   	# dicer->dixermos
+D I C E R > -CER,XERDES  #"P=2,N=p,T=fs"   	# dicer->dixerdes
+D I C E R > -CER,XEREN	#"P=3,N=p,T=fs"   	# dicer->dixeren
+D I C E R > ES			#"P=2,N=s,T=ic"  	# dicer->diceres
+D I C E R > MOS		#"P=1,N=p,T=ic"  	# dicer->dicermos
+D I C E R > DES		#"P=2,N=p,T=ic"  	# dicer->dicerdes
+D I C E R > EN			#"P=3,N=p,T=ic" 	# dicer->diceren
+D I C E R > -R,NDO		#"T=g"			# dicer->dicendo
+D I C E R > -CER,TO      #"G=m,N=s,T=ppa"	# dicer->dito
+D I C E R > -CER,TA   	#"G=f,N=s,T=ppa"	# dicer->dita
+D I C E R > -CER,TOS	#"G=m,N=p,T=ppa"	# dicer->ditos
+D I C E R > -CER,TAS	#"G=f,N=p,T=ppa"	# dicer->ditas
+D I C E R > -R,I		#"P=2,N=p,T=i"		# dicer->dicei
+
+F A C E R > -CER,GO    	#"P=1,N=s,T=p"		# facer->fago
+F A C E R > -CER,I	  	#"P=3,N=s,T=p"		# facer->fai
+F A C E R > -R,MOS 		#"P=1,N=p,T=p"     	# facer->facemos
+F A C E R > -R,DES    	#"P=2,N=p,T=p"     	# facer->facedes
+F A C E R > -ACER,IXEN    #"P=1,N=s,T=pp"   	# facer->fixen
+F A C E R > -ACER,IXECHE  #"P=2,N=s,T=pp"   	# facer->fixeche
+F A C E R > -ACER,IXO     #"P=3,N=s,T=pp"   	# facer->fixo
+F A C E R > -ACER,IXEMOS  #"P=1,N=p,T=pp"   	# facer->fixemos
+F A C E R > -ACER,IXESTES #"P=2,N=p,T=pp"   	# facer->fixestes
+F A C E R > -ACER,IXERON  #"P=3,N=p,T=pp"   	# facer->fixeron
+F A C E R > -CER,REI   	#"P=1,N=s,T=f"    	# facer->farei
+F A C E R > -CER,RÁS   	#"P=2,N=s,T=f"    	# facer->farás
+F A C E R > -CER,RÁ		#"P=3,N=s,T=f"    	# facer->fará
+F A C E R > -CER,REMOS	#"P=1,N=p,T=f"    	# facer->faremos
+F A C E R > -CER,REDES 	#"P=2,N=p,T=f"    	# facer->faredes
+F A C E R > -CER,RÁN   	#"P=3,N=s,T=f"    	# facer->farán
+F A C E R > -ER,IA   	#"P=1_3,N=s,T=pi"  	# facer->facia
+F A C E R > -ER,IAS   	#"P=2,N=s,T=pi"    	# facer->facias
+F A C E R > -ER,ÍAMOS 	#"P=1,N=p,T=pi"    	# facer->facíamos
+F A C E R > -ER,ÍADES 	#"P=2,N=p,T=pi"    	# facer->facíades
+F A C E R > -ER,IAN   	#"P=3,N=p,T=pi"    	# facer->facian
+F A C E R > -ACER,IXERA	  #"P=1_3,N=s,T=pmp"# facer->fixera
+F A C E R > -ACER,IXERAS	  #"P=2,N=s,T=pmp" 	# facer->fixeras
+F A C E R > -ACER,IXÉRAMOS #"P=1,N=p,T=pmp" 	# facer->fixéramos
+F A C E R > -ACER,IXÉRADES #"P=2,N=p,T=pmp" 	# facer->fixérades
+F A C E R > -ACER,IXERAN	  #"P=3,N=p,T=pmp" 	# facer->fixeran
+F A C E R > -CER,RIA	#"P=1_3,N=s,T=c"	# facer->faria
+F A C E R > -CER,RIAS	#"P=2,N=s,T=c"  	# facer->farias
+F A C E R > -CER,RÍAMOS	#"P=1,N=p,T=c"  	# facer->faríamos
+F A C E R > -CER,RÍADES 	#"P=2,N=p,T=c"  	# facer->faríades
+F A C E R > -CER,RIAN	#"P=3,N=p,T=c" 	# facer->farian
+F A C E R > -CER,GA   	#"P=1_3,N=s,T=ps" 	# facer->faga
+F A C E R > -CER,GAS   	#"P=2,N=s,T=ps"   	# facer->fagas
+F A C E R > -CER,GAMOS 	#"P=1,N=p,T=ps"   	# facer->fagamos
+F A C E R > -CER,GADES 	#"P=2,N=p,T=ps"   	# facer->fagades
+F A C E R > -CER,GAN 	#"P=3,N=p,T=ps"   	# facer->fagan
+F A C E R > -ACER,IXESE	  #"P=1_3,N=s,T=ps"	# facer->fixese
+F A C E R > -ACER,IXESES	  #"P=2,N=s,T=ps"  	# facer->fixeses
+F A C E R > -ACER,IXÉSEMOS #"P=1,N=p,T=ps"  	# facer->fixésemos
+F A C E R > -ACER,IXÉSEDES #"P=2,N=p,T=ps"  	# facer->fixésedes
+F A C E R > -ACER,IXESEN	  #"P=3,N=p,T=ps"  	# facer->fixesen
+F A C E R > -ACER,IXER	 #"P=1_3,N=s,T=fs" 	# facer->fixer
+F A C E R > -ACER,IXERES	 #"P=1,N=s,T=fs"   	# facer->fixeres
+F A C E R > -ACER,IXERMOS #"P=1,N=p,T=fs"   	# facer->fixermos
+F A C E R > -ACER,IXERDES #"P=2,N=p,T=fs"   	# facer->fixerdes
+F A C E R > -ACER,IXEREN	 #"P=3,N=p,T=fs"   	# facer->fixeren
+F A C E R > ES		      #"P=2,N=s,T=ic"  	# facer->faceres
+F A C E R > MOS	      #"P=1,N=p,T=ic"  	# facer->facermos
+F A C E R > DES	      #"P=2,N=p,T=ic"  	# facer->facerdes
+F A C E R > EN		      #"P=3,N=p,T=ic"  	# facer->faceren
+F A C E R > -R,NDO		 #"T=g"			# facer->facendo
+F A C E R > -ACER,EITO    #"G=m,N=s,T=ppa"	# facer->feito
+F A C E R > -ACER,EITA    #"G=f,N=s,T=ppa"	# facer->feita
+F A C E R > -ACER,EITOS	 #"G=m,N=p,T=ppa"	# facer->feitos
+F A C E R > -ACER,EITAS	 #"G=f,N=p,T=ppa"	# facer->feitas
+F A C E R > -R,I		 #"P=2,N=p,T=i"	# facer->facei
+
+O R > -R,ÑO    	#"P=1,N=s,T=p"			# por->poño
+O R > -OR,ÓS		#"P=2,N=s,T=p"			# repor->repós
+O R > -R,MOS 		#"P=1,N=p,T=p"     		# por->pomos
+O R > -R,NDES     	#"P=2,N=p,T=p"     		# por->pondes
+O R > -R,ÑEN   	#"P=3,N=p,T=p"   		# por->poñen
+O R > -OR,UXEN   	#"P=1,N=s,T=pp"    		# por->puxen
+O R > -OR,UXECHE   	#"P=2,N=s,T=pp"    		# por->puxeche
+O R > -OR,UXO   	#"P=3,N=s,T=pp"    		# por->puxo
+O R > -OR,UXEMOS   	#"P=1,N=p,T=pp"    		# por->puxemos
+O R > -OR,UXESTES  	#"P=2,N=p,T=pp"    		# por->puxestes
+O R > -OR,UXERON   	#"P=3,N=p,T=pp"    		# por->puxeron
+O R > EI		   	#"P=1,N=s,T=f"    		# por->porei
+O R > ÁS		   	#"P=2,N=s,T=f"    		# por->porás
+O R > Á		   	#"P=3,N=s,T=f"    		# por->porá
+O R > EMOS		#"P=1,N=p,T=f"    		# por->poremos
+O R > EDES	   	#"P=2,N=p,T=f"    		# por->poredes
+O R > ÁN		   	#"P=3,N=s,T=f"    		# por->porán
+O R > -OR,UÑA   	#"P=1_3,N=s,T=pi"  		# por->puña
+O R > -OR,UÑAS   	#"P=2,N=s,T=pi"    		# por->puñan
+O R > -OR,ÚÑAMOS  	#"P=1,N=p,T=pi"    		# por->púñamos
+O R > -OR,ÚÑADES   	#"P=2,N=p,T=pi"    		# por->púñades
+O R > -OR,UÑAN   	#"P=3,N=p,T=pi"    		# por->puñan
+O R > -OR,UXERA	#"P=1_3,N=s,T=pmp"    	# por->puxera
+O R > -OR,UXERAS	#"P=2,N=s,T=pmp"    	# por->puxeras
+O R > -OR,UXÉRAMOS	#"P=1,N=p,T=pmp"    	# por->puxéramos
+O R > -OR,UXÉRADES	#"P=2,N=p,T=pmp"    	# por->puxérades
+O R > -OR,UXERAN	#"P=3,N=p,T=pmp"    	# por->puxeran
+O R > IA		   	#"P=1_3,N=s,T=c"   		# por->poria
+O R > IAS		   	#"P=2,N=s,T=c"    		# por->porias
+O R > ÍAMOS		#"P=1,N=p,T=c"    		# por->poríamos
+O R > ÍADES	   	#"P=2,N=p,T=c"    		# por->poríades
+O R > IAN		   	#"P=3,N=p,T=c"    		# por->porian
+O R > -R,ÑA	   	#"P=1_3,N=s,T=ps"  		# por->poña
+O R > -R,ÑAS	   	#"P=2,N=s,T=ps"    		# por->poñas
+O R > -R,ÑAMOS	   	#"P=1,N=p,T=ps"    		# por->poñamos
+O R > -R,ÑADES	   	#"P=2,N=p,T=ps"    		# por->poñades
+O R > -R,ÑAN	   	#"P=3,N=p,T=ps"    		# por->poñan
+O R > -OR,UXESE	#"P=1_3,N=s,T=ps"  	  	# por->puxese
+O R > -OR,UXESES	#"P=2,N=s,T=ps"  	  	# por->puxeses
+O R > -OR,UXÉSEMOS	#"P=1,N=p,T=ps"  	  	# por->puxésemos
+O R > -OR,UXÉSEDES	#"P=2,N=p,T=ps"  	  	# por->puxésedes
+O R > -OR,UXESEN	#"P=3,N=p,T=ps"  	  	# por->puxesen
+O R > -OR,UXER		#"P=1_3,N=s,T=fs"  	  	# por->puxer
+O R > -OR,UXERES	#"P=1,N=s,T=fs"  	  	# por->puxeres
+O R > -OR,UXERMOS	#"P=1,N=p,T=fs"  	  	# por->puxermos
+O R > -OR,UXERDES	#"P=2,N=p,T=fs"  	  	# por->puxerdes
+O R > -OR,UXEREN	#"P=3,N=p,T=fs"  	  	# por->puxeren
+O R > ES			#"P=2,N=s,T=ic"  	  	# por->pores
+O R > MOS			#"P=1,N=p,T=ic"  	  	# por->pormos
+O R > DES			#"P=2,N=p,T=ic"  	  	# por->pordes
+O R > EN			#"P=3,N=p,T=ic"  	  	# por->poren
+O R > -R,NDO		#"T=g"				# por->pondo
+O R > -R,STO		#"G=m,N=s,T=ppa"		# por->posto
+O R > -R,STA		#"G=f,N=s,T=ppa"		# por->posta
+O R > -R,STOS		#"G=m,N=p,T=ppa"		# por->postos
+O R > -R,STAS		#"G=f,N=p,T=ppa"		# por->postas
+O R > -R,NDE		#"P=2,N=p,T=i"			# por->ponde
+
+P R A C E R > -CER,Z		#"P=3,N=s,T=p"		# pracer->praz
+P R A C E R > -ACER,OUVEN   	#"P=1,N=s,T=pp" 	# pracer->prouven
+P R A C E R > -ACER,OUVECHE 	#"P=2,N=s,T=pp" 	# pracer->prouveche
+P R A C E R > -ACER,OUVO   	#"P=3,N=s,T=pp" 	# pracer->prouvo
+P R A C E R > -ACER,OUVEMOS 	#"P=1,N=p,T=pp" 	# pracer->prouvemos
+P R A C E R > -ACER,OUVESTES	#"P=2,N=p,T=pp" 	# pracer->prouvestes
+P R A C E R > -ACER,OUVERON 	#"P=3,N=p,T=pp"	# pracer->prouveron
+P R A C E R > EI	   		#"P=1,N=s,T=f" 	# pracer->pracerei
+P R A C E R > ÁS	   		#"P=2,N=s,T=f" 	# pracer->pracerás
+P R A C E R > Á		 	#"P=3,N=s,T=f" 	# pracer->pracerá
+P R A C E R > EMOS			#"P=1,N=p,T=f" 	# pracer->praceremos
+P R A C E R > EDES	   		#"P=2,N=p,T=f" 	# pracer->praceredes
+P R A C E R > ÁN	   		#"P=3,N=s,T=f" 	# pracer->pracerán
+P R A C E R > -ER,IA   		#"P=1_3,N=s,T=pi"	# pracer->pracia
+P R A C E R > -ER,IAS   		#"P=2,N=s,T=pi"  	# pracer->pracias
+P R A C E R > -ER,ÍAMOS 		#"P=1,N=p,T=pi"  	# pracer->pracíamos
+P R A C E R > -ER,ÍADES 		#"P=2,N=p,T=pi"  	# pracer->pracíades
+P R A C E R > -ER,IAN   		#"P=3,N=p,T=pi"  	# pracer->pracian
+P R A C E R > -ACER,OUVERA	#"P=1_3,N=s,T=pmp" 	# pracer->prouvera
+P R A C E R > -ACER,OUVERAS	#"P=2,N=s,T=pmp"   	# pracer->prouveras
+P R A C E R > -ACER,OUVÉRAMOS #"P=1,N=p,T=pmp"   	# pracer->prouvéramos
+P R A C E R > -ACER,OUVÉRADES #"P=2,N=p,T=pmp"   	# pracer->prouvérades
+P R A C E R > -ACER,OUVERAN	#"P=3,N=p,T=pmp"   	# pracer->prouveran
+P R A C E R > IA	 	#"P=1_3,N=s,T=c"   		# pracer->praceria
+P R A C E R > IAS	   	#"P=2,N=s,T=c"    		# pracer->pracerias
+P R A C E R > ÍAMOS		#"P=1,N=p,T=c"    		# pracer->praceríamos
+P R A C E R > ÍADES	   	#"P=2,N=p,T=c"    		# pracer->praceríades
+P R A C E R > IAN	   	#"P=3,N=p,T=c"    		# pracer->pracerian
+P R A C E R > -ACER,OUVESE	#"P=1_3,N=s,T=ps" 	# pracer->prouvese
+P R A C E R > -ACER,OUVESES	#"P=2,N=s,T=ps"  	# pracer->prouveses
+P R A C E R > -ACER,OUVÉSEMOS #"P=1,N=p,T=ps"  	# pracer->prouvésemos
+P R A C E R > -ACER,OUVÉSEDES #"P=2,N=p,T=ps"  	# pracer->prouvésedes
+P R A C E R > -ACER,OUVESEN	#"P=3,N=p,T=ps"  	# pracer->prouvesen
+P R A C E R > -ACER,OUVER	#"P=1_3,N=s,T=fs"  	# pracer->prouver
+P R A C E R > -ACER,OUVERES	#"P=1,N=s,T=fs"  	# pracer->prouveres
+P R A C E R > -ACER,OUVERMOS	#"P=1,N=p,T=fs"  	# pracer->prouvermos
+P R A C E R > -ACER,OUVERDES	#"P=2,N=p,T=fs"  	# pracer->prouverdes
+P R A C E R > -ACER,OUVEREN	#"P=3,N=p,T=fs"  	# pracer->prouveren
+P R A C E R > ES		#"P=2,N=s,T=ic"  	  	# pracer->praceres
+P R A C E R > MOS		#"P=1,N=p,T=ic"  	  	# pracer->pracermos
+P R A C E R > DES		#"P=2,N=p,T=ic"  	  	# pracer->pracerdes
+P R A C E R > EN		#"P=3,N=p,T=ic"  	  	# pracer->praceren
+P R A C E R > -R,NDO	#"T=g"				# pracer->pracendo
+P R A C E R > -ER,IDO	#"G=m,N=s,T=ppa"		# pracer->pracido
+P R A C E R > -ER,IDA	#"G=f,N=s,T=ppa"		# pracer->pracida
+P R A C E R > -ER,IDOS	#"G=m,N=p,T=ppa"		# pracer->pracidos
+P R A C E R > -ER,IDAS	#"G=f,N=p,T=ppa"		# pracer->pracidas
+P R A C E R > -R,I		#"P=2,N=p,T=i"			# pracer->pracei
+
+T E R > -R,ÑO    	#"P=1,N=s,T=p"			# ter->teño
+T E R > -R,MOS 	#"P=1,N=p,T=p"     		# ter->temos
+T E R > -R,NDES    	#"P=2,N=p,T=p"     		# ter->tendes
+T E R > -R,ÑEN   	#"P=3,N=p,T=p"   		# ter->teñen
+T E R > -ER,IVEN   	#"P=1,N=s,T=pp"    		# ter->tiven
+T E R > -ER,IVECHE 	#"P=2,N=s,T=pp"    		# ter->tiveche
+T E R > -ER,IVO   	#"P=3,N=s,T=pp"    		# ter->tivo
+T E R > -ER,IVEMOS 	#"P=1,N=p,T=pp"    		# ter->tivemos
+T E R > -ER,IVESTES	#"P=2,N=p,T=pp"    		# ter->tivestes
+T E R > -ER,IVERON 	#"P=3,N=p,T=pp"    		# ter->tiveron
+T E R > EI	   	#"P=1,N=s,T=f"    		# ter->terei
+T E R > ÁS	   	#"P=2,N=s,T=f"    		# ter->terás
+T E R > Á		   	#"P=3,N=s,T=f"    		# ter->terá
+T E R > EMOS		#"P=1,N=p,T=f"    		# ter->teremos
+T E R > EDES	   	#"P=2,N=p,T=f"    		# ter->teredes
+T E R > ÁN	   	#"P=3,N=s,T=f"    		# ter->terán
+T E R > -ER,IÑA   	#"P=1_3,N=s,T=pi"  		# ter->tiña
+T E R > -ER,IÑAS   	#"P=2,N=s,T=pi"    		# ter->tiñas
+T E R > -ER,ÍÑAMOS 	#"P=1,N=p,T=pi"    		# ter->tíñamos
+T E R > -ER,ÍÑADES 	#"P=2,N=p,T=pi"    		# ter->tíñades
+T E R > -ER,IÑAN   	#"P=3,N=p,T=pi"    		# ter->tiñan
+T E R > -ER,IVERA	 #"P=1_3,N=s,T=pmp"    	# ter->tivera
+T E R > -ER,IVERAS	 #"P=2,N=s,T=pmp"    	# ter->tiveras
+T E R > -ER,IVÉRAMOS #"P=1,N=p,T=pmp"    	# ter->tivéramos
+T E R > -ER,IVÉRADES #"P=2,N=p,T=pmp"    	# ter->tivérades
+T E R > -ER,IVERAN	 #"P=3,N=p,T=pmp"    	# ter->tiveran
+T E R > IA	 	#"P=1_3,N=s,T=c"   		# ter->teria
+T E R > IAS	   	#"P=2,N=s,T=c"    		# ter->terias
+T E R > ÍAMOS		#"P=1,N=p,T=c"    		# ter->teríamos
+T E R > ÍADES	   	#"P=2,N=p,T=c"    		# ter->teríades
+T E R > IAN	   	#"P=3,N=p,T=c"    		# ter->terian
+T E R > -R,ÑA   	#"P=1_3,N=s,T=ps"  		# ter->teña
+T E R > -R,ÑAS   	#"P=2,N=s,T=ps"    		# ter->teñas
+T E R > -R,ÑAMOS 	#"P=1,N=p,T=ps"    		# ter->teñamos
+T E R > -R,ÑADES 	#"P=2,N=p,T=ps"    		# ter->teñades
+T E R > -R,ÑAN 	#"P=3,N=p,T=ps"    		# ter->teñan
+T E R > -ER,IVESE	 #"P=1_3,N=s,T=ps" 	  	# ter->tivese
+T E R > -ER,IVESES	 #"P=2,N=s,T=ps"  	  	# ter->tiveses
+T E R > -ER,IVÉSEMOS #"P=1,N=p,T=ps"  	  	# ter->tivésemos
+T E R > -ER,IVÉSEDES #"P=2,N=p,T=ps"  	  	# ter->tivésedes
+T E R > -ER,IVESEN	 #"P=3,N=p,T=ps"  	  	# ter->tivesen
+T E R > -ER,IVER	#"P=1_3,N=s,T=fs"  	  	# ter->tiver
+T E R > -ER,IVERES	#"P=1,N=s,T=fs"  	  	# ter->tiveres
+T E R > -ER,IVERMOS	#"P=1,N=p,T=fs"  	  	# ter->tivermos
+T E R > -ER,IVERDES	#"P=2,N=p,T=fs"  	  	# ter->tiverdes
+T E R > -ER,IVEREN	#"P=3,N=p,T=fs"  	  	# ter->tiveren
+T E R > ES		#"P=2,N=s,T=ic"  	  	# ter->teres
+T E R > MOS		#"P=1,N=p,T=ic"  	  	# ter->termos
+T E R > DES		#"P=2,N=p,T=ic"  	  	# ter->terdes
+T E R > EN		#"P=3,N=p,T=ic"  	  	# ter->teren
+T E R > -R,NDO		#"T=g"				# ter->tendo
+T E R > -ER,IDO	#"G=m,N=s,T=ppa"		# ter->tido
+T E R > -ER,IDA	#"G=f,N=s,T=ppa"		# ter->tida
+T E R > -ER,IDOS	#"G=m,N=p,T=ppa"		# ter->tidos
+T E R > -ER,IDAS	#"G=f,N=p,T=ppa"		# ter->tidas
+T E R > -R,NDE		#"P=2,N=p,T=i"			# ter->tende
+
+V E R > -R,XO    	#"P=1,N=s,T=p"			# ver->vexo
+V E R > -R,MOS 	#"P=1,N=p,T=p"     		# ver->vemos
+V E R > -R,DES    	#"P=2,N=p,T=p"     		# ver->vedes
+V E R > -ER,IN   	#"P=1,N=s,T=pp"    		# ver->vin
+V E R > -ER,ICHE   	#"P=2,N=s,T=pp"    		# ver->viche
+V E R > -ER,IU   	#"P=3,N=s,T=pp"    		# ver->viu
+V E R > -ER,IMOS   	#"P=1,N=p,T=pp"    		# ver->vimos
+V E R > -ER,ISTES  	#"P=2,N=p,T=pp"    		# ver->vistes
+V E R > -ER,IRON   	#"P=3,N=p,T=pp"    		# ver->viron
+V E R > EI	   	#"P=1,N=s,T=f"    		# ver->verei
+V E R > ÁS	   	#"P=2,N=s,T=f"    		# ver->verás
+V E R > Á		   	#"P=3,N=s,T=f"    		# ver->verá
+V E R > EMOS		#"P=1,N=p,T=f"    		# ver->veremos
+V E R > EDES	   	#"P=2,N=p,T=f"    		# ver->veredes
+V E R > ÁN	   	#"P=3,N=s,T=f"    		# ver->verán
+V E R > -ER,IA   	#"P=1_3,N=s,T=pi"  		# ver->via
+V E R > -ER,IAS   	#"P=2,N=s,T=pi"    		# ver->vias
+V E R > -ER,ÍAMOS 	#"P=1,N=p,T=pi"    		# ver->víamos
+V E R > -ER,ÍADES 	#"P=2,N=p,T=pi"    		# ver->víades
+V E R > -ER,IAN   	#"P=3,N=p,T=pi"    		# ver->vian
+V E R > -ER,IRA	#"P=1_3,N=s,T=pmp"    	# ver->vira
+V E R > -ER,IRAS	#"P=2,N=s,T=pmp"    	# ver->viras
+V E R > -ER,ÍRAMOS	#"P=1,N=p,T=pmp"    	# ver->víramos
+V E R > -ER,ÍRADES	#"P=2,N=p,T=pmp"    	# ver->vírades
+V E R > -ER,IRAN	#"P=3,N=p,T=pmp"    	# ver->viran
+V E R > IA	 	#"P=1_3,N=s,T=c"   		# ver->veria
+V E R > IAS	   	#"P=2,N=s,T=c"    		# ver->verias
+V E R > ÍAMOS		#"P=1,N=p,T=c"    		# ver->veríamos
+V E R > ÍADES	   	#"P=2,N=p,T=c"    		# ver->veríades
+V E R > IAN	   	#"P=3,N=p,T=c"    		# ver->verian
+V E R > -R,XA   	#"P=1_3,N=s,T=ps"  		# ver->vexa
+V E R > -R,XAS   	#"P=2,N=s,T=ps"    		# ver->vexas
+V E R > -R,XAMOS 	#"P=1,N=p,T=ps"    		# ver->vexamos
+V E R > -R,XADES 	#"P=2,N=p,T=ps"    		# ver->vexades
+V E R > -R,XAN 	#"P=3,N=p,T=ps"    		# ver->vexan
+V E R > -ER,ISE	#"P=1_3,N=s,T=ps"  	  	# ver->vise
+V E R > -ER,ISES	#"P=2,N=s,T=ps"  	  	# ver->vises
+V E R > -ER,ÍSEMOS	#"P=1,N=p,T=ps"  	  	# ver->vísemos
+V E R > -ER,ÍSEDES	#"P=2,N=p,T=ps"  	  	# ver->vísedes
+V E R > -ER,ISEN	#"P=3,N=p,T=ps"  	  	# ver->visen
+V E R > -ER,IR		#"P=1_3,N=s,T=fs"  	  	# ver->vir    
+V E R > -ER,IRES	#"P=1,N=s,T=fs"  	  	# ver->vires  
+V E R > -ER,IRMOS	#"P=1,N=p,T=fs"  	  	# ver->virmos 
+V E R > -ER,IRDES	#"P=2,N=p,T=fs"  	  	# ver->virdes 
+V E R > -ER,IREN	#"P=3,N=p,T=fs"  	  	# ver->viren   
+V E R > ES		#"P=2,N=s,T=ic"  	  	# ver->veres
+V E R > MOS		#"P=1,N=p,T=ic"  	  	# ver->vermos
+V E R > DES		#"P=2,N=p,T=ic"  	  	# ver->verdes
+V E R > EN		#"P=3,N=p,T=ic"  	  	# ver->veren
+V E R > -R,NDO		#"T=g"				# ver->vendo
+V E R > -ER,ISTO	#"G=m,N=s,T=ppa"		# ver->visto
+V E R > -ER,ISTA	#"G=f,N=s,T=ppa"		# ver->vista
+V E R > -ER,ISTOS	#"G=m,N=p,T=ppa"		# ver->vistos
+V E R > -ER,ISTAS	#"G=f,N=p,T=ppa"		# ver->vistas
+V E R > -R,DE		#"P=2,N=p,T=i"			# ver->vede
+
+V I R > -IR,EÑO    	#"P=1,N=s,T=p"			# vir->veño
+V I R > -R,MOS 	#"P=1,N=p,T=p"     		# vir->vimos  
+V I R > -R,NDES    	#"P=2,N=p,T=p"     		# vir->vindes
+V I R > -IR,EÑEN   	#"P=3,N=p,T=p"   		# vir->veñen
+V I R > -R,N   	#"P=1,N=s,T=pp"    		# vir->vin
+V I R > -R,ÑECHE   	#"P=2,N=s,T=pp"    		# vir->viñeche
+V I R > -IR,EU   	#"P=3,N=s,T=pp"    		# vir->veu
+V I R > -R,ÑEMOS   	#"P=1,N=p,T=pp"    		# vir->viñemos
+V I R > -R,ÑESTES  	#"P=2,N=p,T=pp"    		# vir->viñestes
+V I R > -R,ÑERON   	#"P=3,N=p,T=pp"    		# vir->viñeron
+V I R > EI	   	#"P=1,N=s,T=f"    		# vir->virei
+V I R > ÁS	   	#"P=2,N=s,T=f"    		# vir->virás
+V I R > Á		   	#"P=3,N=s,T=f"    		# vir->virá
+V I R > EMOS		#"P=1,N=p,T=f"    		# vir->viremos
+V I R > EDES	   	#"P=2,N=p,T=f"    		# vir->viredes
+V I R > ÁN	   	#"P=3,N=s,T=f"    		# vir->virán
+V I R > -R,ÑA   	#"P=1_3,N=s,T=pi"  		# vir->viña
+V I R > -R,ÑAS   	#"P=2,N=s,T=pi"    		# vir->viñas
+V I R > -IR,ÍÑAMOS 	#"P=1,N=p,T=pi"    		# vir->víñamos
+V I R > -IR,ÍÑADES 	#"P=2,N=p,T=pi"    		# vir->víñades
+V I R > -R,ÑAN   	#"P=3,N=p,T=pi"    		# vir->viñan
+V I R > -R,ÑERA	#"P=1_3,N=s,T=pmp"    	# vir->viñera
+V I R > -R,ÑERAS	#"P=2,N=s,T=pmp"    	# vir->viñeras
+V I R > -R,ÑÉRAMOS	#"P=1,N=p,T=pmp"    	# vir->viñéramos
+V I R > -R,ÑÉRADES	#"P=2,N=p,T=pmp"    	# vir->viñérades
+V I R > -R,ÑERAN	#"P=3,N=p,T=pmp"    	# vir->viñeran
+V I R > IA	 	#"P=1_3,N=s,T=c"   		# vir->viria
+V I R > IAS	   	#"P=2,N=s,T=c"    		# vir->virias
+V I R > ÍAMOS		#"P=1,N=p,T=c"    		# vir->viríamos
+V I R > ÍADES	   	#"P=2,N=p,T=c"    		# vir->viríades
+V I R > IAN	   	#"P=3,N=p,T=c"    		# vir->virian
+V I R > -IR,EÑA   	#"P=1_3,N=s,T=ps"  		# vir->veña
+V I R > -IR,EÑAS   	#"P=2,N=s,T=ps"    		# vir->veñas
+V I R > -IR,EÑAMOS 	#"P=1,N=p,T=ps"    		# vir->veñamos
+V I R > -IR,EÑADES 	#"P=2,N=p,T=ps"    		# vir->veñades
+V I R > -IR,EÑAN 	#"P=3,N=p,T=ps"    		# vir->veñan
+V I R > -R,ÑESE	#"P=1_3,N=s,T=ps"  	  	# vir->viñese
+V I R > -R,ÑESES	#"P=2,N=s,T=ps"  	  	# vir->viñeses
+V I R > -R,ÑÉSEMOS	#"P=1,N=p,T=ps"  	  	# vir->viñésemos
+V I R > -R,ÑÉSEDES	#"P=2,N=p,T=ps"  	  	# vir->viñésedes
+V I R > -R,ÑESEN	#"P=3,N=p,T=ps"  	  	# vir->viñesen
+V I R > -R,ÑER		#"P=1_3,N=s,T=fs"  	  	# vir->viñer
+V I R > -R,ÑERES	#"P=1,N=s,T=fs"  	  	# vir->viñeres
+V I R > -R,ÑERMOS	#"P=1,N=p,T=fs"  	  	# vir->viñermos
+V I R > -R,ÑERDES	#"P=2,N=p,T=fs"  	  	# vir->viñerdes
+V I R > -R,ÑEREN	#"P=3,N=p,T=fs"  	  	# vir->viñeren
+V I R > ES		#"P=2,N=s,T=ic"  	  	# vir->vires
+V I R > MOS		#"P=1,N=p,T=ic"  	  	# vir->virmos
+V I R > DES		#"P=2,N=p,T=ic"  	  	# vir->virdes
+V I R > EN		#"P=3,N=p,T=ic"  	  	# vir->viren
+V I R > -R,NDO		#"T=g"				# vir->vindo
+V I R > -R,DO		#"G=m,N=s,T=ppa"		# vir->vido
+V I R > -R,DA		#"G=f,N=s,T=ppa"		# vir->vida
+V I R > -R,DOS		#"G=m,N=p,T=ppa"		# vir->vidos
+V I R > -R,DAS		#"G=f,N=p,T=ppa"		# vir->vidas
+V I R > -R,NDE		#"P=2,N=p,T=i"			# vir->vinde
+
+E R 	> -ER,É	  						# facer->facé-(lo,la, etc.)
+O R  > -OR,Ó	  						# supor->supó-(lo,la, etc.)
+
+# Etiquetas usadas
+
+#flag *A:  # "CAT=n"			# anti
+#flag *B:  # "CAT=n"			# anti-
+#flag *C:  # "CAT=v,T=inf"		# ción
+#flag *D:  # "CAT=v,T=inf"     	# dor
+#flag *I:  # "CAT=n"			# in
+#flag *K:  # "CAT=v,T=inf"   		# Verbos irregulares que teñen derivados + agredir e rir (e derivados).
+#flag *M:  # "CAT=v,T=inf"      	# mento
+#flag *R:  # "CAT=v,T=inf"		# re
+#flag *S:  # "CAT=v,T=inf"		# des
+#flag *U:  # "CAT=n,v;T=inf"		# sub
+#flag *X:  # "CAT=v,T=inf" 		# Verbos regulares, presente de indicativo e de subxuntivo
+#flag *Y:  # "CAT=v,T=inf"  		# Verbos regulares, resto de tempos
+#flag *Z:  # "CAT=v,T=inf" 		# V. da 3ª conx. con alternáncia vocálica + Valer e derivados (p e ps)
+
+#flag *a:  # "CAT=a_nc,N=s"     	# plurais
+#flag *b:  # "CAT=a_nc,G=m,N=s" 	# femininos
+#flag *c:  # "CAT=v,T=inf"      	# ción
+#flag *d:  # "CAT=adj,N=s"      	# idade
+#flag *f:  # "CAT=a_nc,G=m,N=s" 	# femininos
+#flag *h:  # "CAT=a_nc,N=s"     	# iño
+#flag *i:  # "CAT=nc,N=s"   		# ismo
+#flag *m:  # "CAT=adj,N=s"      	# mente
+#flag *n:  # "CAT=v,T=inf"      	# nte
+#flag *p:  # "CAT=a_nc,N=s"     	# plurais
+#flag *s:  # "CAT=adj,N=s"      	# ísimo
+#flag *t:  # "CAT=nc,N=s"      	# ista
+#flag *v:  # "CAT=v,T=inf"    	# ábel, íbel
+#flag *w:  # "CAT=nc"            	# oso
+#flag *x:  # "CAT=v,T=inf"       	# dela
+#flag *y:  # "CAT=nc"            	# eira
+#flag *z:  # "CAT=a_nc,N=s"		# iño
+
+
+# Etiquetas por usar
+
+# E, F, G, H, J, L, N, O, P, Q, T, V, W
+# e, g, j, k, l, o, q, r, u
