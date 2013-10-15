@@ -1,0 +1,259 @@
+Dicionário galego (normativa de mínimos) para o ispell
+------------------------------------------------------
+
+Este é un dicionário de galego, usando a normativa de mínimos, para o
+corrector ortográfico ispell. Pode usa-lo, redistribui-lo ou modifica-lo
+sob os termos da Licenza Pública Xeral da GNU (vexa o ficheiro
+LICENZA.txt).
+
+Mais información sobre o corrector ortográfico ispell na páxina:
+	http://fmg-www.cs.ucla.edu/ficus-members/geoff/ispell.html. 
+
+Máis información sobre este dicionário en:
+	http://ispell-gl.sourceforge.net/ispell-gl.html
+	
+
+Este dicionário usa etiquetas maiúsculas e minúsculas no ficheiro de afixos
+(galician.aff), e 8 bits (latin1). A hora de compilar o ispell isto debe
+ter-se en conta, asi no ficheiro local.h debe:
+     incluir:  #define MASKBITS 64
+e   eliminar:  #define NO8BIT 
+
+Hoxe en dia a maioria das versión binárias de ispell que se distribuen xa
+foron compiladas asi, e portanto son compatíbeis con este dicionário.
+
+Para saber como foi compilada a sua versión de ispell empregue o comando
+file, vaia ao directório onde se achen os arquivos *.hash, usualmente
+/usr/lib/ispell ou /usr/local/lib/ispell, e dixite:
+
+file *****.hash, 
+
+onde debe substituir os asteriscos por algun dicionário que teña no seu 
+computador, por exemplo americanmed+.hash ou americanxlg.hash. O resultado 
+será algo semellante ao seguinte:
+
+	americanmed+hash: little endian ispell 3.1 hash file, 8-bit,
+	capitalization, 52 flags and 128 string characters 
+
+  Neste caso non haberia problemas, o ispell está preparado para traballar
+con etiquetas maiúsculas e minúsculas, e con 8 bits.
+
+  Se no resultado puxera: capitalization, 26 flags and 100 string
+characters, o ispell só entenderá as etiquetas maiúsculas, e o dicionário
+funcionará a meias, xa que non recoñecerá muitas palabras, mais funcionará.
+Seria factíbel adaptar o dicionário para que funcionara deste modo .
+
+  Se no resultado puxera, 7-bit, o ispell non entenderá as letras
+acentuadas nen o ñ, e portanto recomenda-se NON empregar este dicionário
+coa sua versión de ispell.
+
+
+		=================
+		|| INSTALACIÓN ||
+		=================			
+
+1) Compilar o ficheiro galician.hash. Para isto situe-se no directório onde
+estexan os ficheiros galician.words e galician.aff, e dixite:
+
+	buildhash galician.words galician.aff galician.hash
+
+
+2) Mover o ficheiro galician.hash ao directório onde se achen os outros
+arquivos *.hash, usualmente /usr/lib/ispell ou /usr/local/lib/ispell. Para
+isto cumpre ter permiso de escritura no dito directório.
+
+
+			=========
+			|| USO ||
+			=========
+
+Para corrixir o ficheiro foo.txt co ispell dixite
+
+ispell -d galician -T modo foo.txt
+
+onde "modo" pode ser un dos catro seguintes: 
+
+	lat	 (usa a páxina de códigos latin1, i.e. á, é, ñ ...)
+	tex	 (para ficheiros tex, i.e. \'a, \'e, \~n ...)
+	pre	 (para ficheiros nroff, i.e. 'a, 'e, 'i ...)
+	html  (para ficheiros html, i.e. &aacute;, &eacute;, &ntilde; ...)
+	
+o modo por defeito é o primeiro, de xeito que
+
+ispell -d galician -T lat foo.txt == ispell -d galician foo.txt
+
+Unha vez carregado, o ispell vai mostrando unha por unha as palabras que non
+recoñece como válidas. Na parte esquerda da liña superior da xanela aparece a
+palabra non recoñecida, e no centro desta mesma liña o nome do ficheiro a
+corrixir. En baixo aparecen unhas poucas liñas do ficheiro contextualizando a
+palabra non recoñecida, que se salienta mediante a inversión do fondo. E por
+baixo destas liñas aparecen unha série de suxeréncias numeradas. Se dentro das
+suxeréncias mostradas está a forma correcta dixite o número correspondente e a
+forma correcta subtituirá a incorrecta. Se as suxeréncias son máis de nove os
+números terán duas cifras e cumpre dixitar ambas, ainda que a primeira sexa un
+zero. Por último na parte inferior da xanela aparecen as seguintes opcións:
+
+[SP]	     Premer a tecla de espazo. Aceita a palabra tal como está, esta vez 
+          nada máis.
+<number>  Dixitar o número da suxestión axeitada.
+R)epl	Premer a tecla R. Permite corrixir a palabra manualmente.
+A)ccept	Premer a tecla A. Aceita a palabra como está e a considera válida no
+		resto da sesión.
+I)insert	Premer a tecla I. Aceita a palabra, con as maiusculas que poida ter, e
+          Inclui-a no dicionário persoal.
+L)ookup	Premer a tecla L. Procura palabras no dicionário do sistema, que é un
+          dicionário diferente dos dicionários de ispell.
+U)ncap	Premer a tecla U. Aceita a palabra, transformando todo a minúsculas, e
+          inclui-a no dicionário persoal.	
+Q)uit	Premer a tecla Q. Remata a corrección sen salvar as correccións feitas
+          até o momento.
+e(X)it	Premer a tecla X. Remata a correción neste ponto, salvando a
+          correccións feitas até o momento.
+?		Premer a tecla ?. Axuda (en inglés).
+^L		Redebuxa a xanela
+
+
+Ademais de como programa individual o ispell é usado como corrector ortográfico
+por distintos programas, que explican o seu uso, normalmente máis cómodo que o
+descrito.
+
+Para mais información sobre o ispell dixite: man ispell.
+
+
+		=================
+		|| LIMITACIÓNS ||
+		=================
+
+  1.  Esta é a versión 0.5 e ainda dista de ser completo, contando con 
+24000 palabras raices no galician.words. Contodo como o ficheiro de afixos, 
+galician.aff, é bastante completo o total de palabras xeradas, no 
+galician.hash, e portanto recoñecidas é de 515.176. Asi por
+exemplo da palabra raiz "amor" derivan-se 53 formas verbais distintas, e
+ademais "amador, amadora, amadores, amadoras, amante, amantes, amábel e
+amábeis.
+
+  2. Os pronomes, ou contracións de pronomes, átonos enclíticos unen-se ao
+verbo mediante o trazo. O ispell con este dicionário recoñece a maioria das
+formas verbais con pronomes enclíticos, mais non da recoñecido como válidas
+as 1ª e 2ª persoas do plural de caisquer tempos seguidos dos pronomes
+átonos -lo(s) e -la(s), e tampouco as 1ª persoas do plural seguidas do
+pronome -nos.
+  
+    Asi non recoñece: collemo-lo, collede-las, colleste-los, collíamo-la,
+                      colleremo-nos ...
+         si recoñece: collé-lo, collin-na, colleche-mo, collerán-cho, 
+	                 collemos-lle, collestes-nos, coller-se, collias-lles,
+				  colleran-vos, colleres-lle-la ...
+
+Da como válidas falsamente as formas collé, andá ... que son necesárias
+para dar por válidas (correctamente): collé-lo, andá-los, etc. Consideramos
+que as formas collé, andá, etc dificilmente poden ser escritas por erro.
+
+  3. Esta é a versión 0.1, sendo portanto de esperar que ademais de ser cativa 
+teña máis erros do que seria desexábel nun dicionário. Contamos coa 
+colaboración d@s usuári@s para detectar e corrixir tais erros.
+	
+
+
+			===============
+			|| CONSELLOS ||	
+			===============  
+
+O ispell non sempre apresenta as suxeréncias máis acaídas, asi se unha palabra
+non é recoñecida como correcta é conveniente facer o seguinte:
+
+	1) Se hai unha "b" troca-la por unha "v"
+	2) Se hai unha "v" troca-la por unha "b"
+	3) Caso de ter escrito unha forma rematada en "-ción" ou "-sión" troca-la 
+	   pola rematada en "-zón" ou "-són"
+	4) Caso de ter escrito unha forma rematada en "-zón" ou "-són" troca-la
+	   pola rematada en "-ción" ou "-sión"
+	   
+				  
+
+		================================
+		|| AMPLIACIÓNS E MODIFICACIÓN ||
+		================================
+
+O ispell está preparado para ir engadindo novas palabras ao dicionário privado,
+un dicionário que cria o propio ispell para cada usuári@, que en unix vai-se
+chamar ".ispell_galician" (para o galego, para outras línguas terá un nome
+similar) e en DOS(Windows) chamará-se "_galician". Como se veu ao descreber o 
+uso este dicionário privado vai-se formar coas palabras que non estando no
+dicionário principal @ usuári@ considera correctas. O dicionário privado é un
+ficheiro de texto que portanto pode se editado con calquer editor de texto,
+ainda que loxicamente cumpre ter CAUTELA.
+
+Ademais é posíbel modificar o diconário principal, para o cal a CAUTELA debe ser
+ainda maior. Un dicionário ispell xera-se a partir de dous ficheiros de texto,
+un con raices (neste caso galician.words) e outro con afixos (galician.aff). Por
+tanto modificar o dicionário resulta moi sinxelo, face-lo ben precisa de
+bastante atención, pois avonda con modificar algun dos dous ditos ficheiros e
+logo compilar o ficheiro hash, tal e como se descrebeu no apartado de
+instalación.
+
+Exemplos de modificación do dicionário principal.
+
+A) Quere-se que o dicionário considere como válidas unicamente as terminacións
+   xenuínas -zón, -són, -tón e -xón. 
+   
+   1) Abre-se o ficheiro galician.words nun editor de texto e usando o comando
+      procurar/trocar trocan-se:
+	 						ción/ --> zón/
+							sión/ --> són/
+							xión/ --> xón/
+							tión/ --> tón/
+	 tendo en conta que ocasión debe escreber-se con i. Ademais troca-se o 
+	 sufixo c polo sufixo o en todos os verbos que o leven.
+	 
+   2) Abre-se o ficheiro galician.aff nun editor de texto e modifican-se
+      o sufixos C, trocando "ción" por "zón" e "cións" por "zóns". Asi tera-se:
+
+ 		flag *C:                  # "CAT=v,T=inf"      # zón
+		T A R       > -TAR,ZÓN    # "CAT=nc,G=f,N=s"   # cantar->canción
+		C I O N A R > -IONAR,ZÓN  # "CAT=nc,G=f,N=s"   # adicionar->adizón
+		A I R       > -IR,CZÓN    # "CAT=nc,G=f,N=s"   # atrair->atraczón
+		U I R       > -IR,ZÓN     # "CAT=nc,G=f,N=s"   # evoluir->evoluzón	 
+	 
+        T A R       > -TAR,ZÓNS   # "CAT=nc,G=f,N=p"   # cantar->cancións
+		C I O N A R > -IONAR,ZÓNS # "CAT=nc,G=f,N=p"   # adicionar->adizóns
+		A I R       > -IR,CZÓNS   # "CAT=nc,G=f,N=p"   # atrair->atraczóns
+		U I R       > -IR,ZÓNS    # "CAT=nc,G=f,N=p"   # evoluir->evoluzóns
+	 
+B) Quere-se que o dicionário considere válidas as 2ª persoa do plural do 
+   presente de imperativo rematadas en -de, xogade, comede, dormide ...
+   	 
+	 1) Abre-se o ficheiro galician.aff nun editor de texto e buscan-se as
+	    ditas persoas, modificando-se axeitadamente:
+	    
+	    no flag Y
+	    
+	             AR  > -R,DE  # "P=2,N=p,T=i"   #andar->andade
+      
+    		     ER  > -R,DE  # "P=2,N=p,T=i"   #viver->vivede
+	     
+	    engadir  IR  > -R,DE  # "P=2,N=p,T=i"   #partir->partide
+	    
+	    
+	    no flag K
+	    
+	    engadir G R E D I R > -R,DE # "P=2,N=p,T=i"   #agredir->agredide
+	    engadir R I R       > -R,DE # "P=2,N=p,T=i"   #rir->ride
+	            D I C E R   > -R,DE # "P=2,N=p,T=i"   #dicer->dicede
+		    	F A C E R   > -R,DE # "P=2,N=p,T=i"   #facer->facede
+		    	P R A C E R > -R,DE # "P=2,N=p,T=i"   #pracer->pracede
+		    	T E R       > -R,DE # "P=2,N=p,T=i"   #ter->tede
+		    	V E R       > -R,DE # "P=2,N=p,T=i"   #ver->vede
+		    	V I R       > -R,DE # "P=2,N=p,T=i"   #vir->vide
+			  
+	2) Abre-se o ficheiro galician.word e fan-se os seguintes trocos
+	   cabei->cabede, dai->dade, estai->estade, habei->habede, podei->podede,
+	   querei->querede, sabei->sabede, traei->traede.
+
+	    
+
+
+----------
+
+Comentários, novas palabras importantes, e erros poden enviar-se a
+Ramón Flores <fa2ramon@usc.es>
