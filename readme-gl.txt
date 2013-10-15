@@ -1,4 +1,3 @@
-
 Corrector ortográfico Hunspell para o galego
 ============================================
 ©Copyright, 2006 - 2009, Mancomún-CESGA
@@ -53,7 +52,7 @@ O corrector está publicado nos termos da licenca GPLv3 (desde 2010, antes GPLv2
 Hunspell-gl contén
 --------------------
 	gl_ES.aff
-	gl_ES.dic
+	gl_ES.dic ((85974 lemas na versión «comunidade» e 53932 lemas na versión «volga»)
 	install.txt
 	install-gl.txt
 	license.txt
