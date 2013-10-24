@@ -24,7 +24,7 @@ Among those, we must highlight the contributions of:
 - Proxecto Trasno (Miguel Solla, advanced rules and dic). 2009-2010
 - Proxecto Trasno (Adrián Chaves, new rules and revamp source code for building, dic). 2010-2013
 
-From the start and now master word's source for the dictionary are the public Vocabulario Ortográfico da Lingua Galega (VOLGa) and on-line Dicionario da Real Academia Galega and yours evolutions along times.We must gratefull ILGA (aka Anton Santamarina) for his explicit permission for building a GPL dic from their lingüístic resources. 
+From the start and now master word's source for the dictionary are the public Vocabulario Ortográfico da Lingua Galega (VOLGa) and on-line Dicionario da Real Academia Galega and his evolutions along times. We must gratefull ILGA (aka Anton Santamarina) for his explicit permission for building a GPL dic from their lingüístic resources. 
   -VOLG(a) Santamarina Fernández, Antón e González González, Manuel (coord.).Real Academia Galega / Instituto da Lingua Galega, 2004. http://www.realacademiagalega.org/volga/. 
 
 A technical description about verbal morphosintactical behavior write by Miguel Solla is in:
