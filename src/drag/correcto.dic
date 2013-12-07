@@ -10762,13 +10762,13 @@ ganador/10,14 po:adxectivo / substantivo
 gañador/10,14 po:adxectivo / substantivo
 gandeiro/10,15 po:adxectivo / substantivo
 gandulo/10,15 po:adxectivo / substantivo
-ganés/10,15 po:adxectivo / substantivo
 gardador/10,14 po:adxectivo / substantivo
 gardián/10,15 po:adxectivo / substantivo
 gascón/10,15 po:adxectivo / substantivo
 gastador/10,14 po:adxectivo / substantivo
 gaucho/10,15 po:adxectivo / substantivo
 gavacho/10,15 po:adxectivo / substantivo
+ghanés/10,15 po:adxectivo / substantivo
 glorificador/10,14 po:adxectivo / substantivo
 gobernador/10,14 po:adxectivo / substantivo
 gobernante/10,15 po:adxectivo / substantivo
@@ -14332,7 +14332,6 @@ ben/10 po:adverbio / substantivo masculino
 crescendo/10 po:adverbio / substantivo masculino
 fóra po:adverbio / preposición
 menos po:adverbio / preposición / substantivo masculino
-anque po:conxunción
 ca po:conxunción
 coma po:conxunción
 conque po:conxunción
@@ -16459,9 +16458,11 @@ carrileira/10 po:substantivo feminino
 carrilleira/10 po:substantivo feminino
 carriola/10 po:substantivo feminino
 carriza/10 po:substantivo feminino
+carrocería/10 po:substantivo feminino
 carroceta/10 po:substantivo feminino
 carroucha/10 po:substantivo feminino
 carroula/10 po:substantivo feminino
+carrozaría/10 po:substantivo feminino
 carrúa/10 po:substantivo feminino
 carruaxe/10 po:substantivo feminino
 carrumba/10 po:substantivo feminino
@@ -25956,6 +25957,7 @@ vinca/10 po:substantivo feminino
 vincha/10 po:substantivo feminino
 vinchoca/10 po:substantivo feminino
 víncora/10 po:substantivo feminino
+vinculación/10 po:substantivo feminino
 vinda/10 po:substantivo feminino
 vindicación/10 po:substantivo feminino
 vindicta/10 po:substantivo feminino
@@ -27365,7 +27367,6 @@ apartadoiro/10 po:substantivo masculino
 apartamento/10 po:substantivo masculino
 aparte/10 po:substantivo masculino
 apartheid/10 po:substantivo masculino
-apeadeiro/10 po:substantivo masculino
 apeadoiro/10 po:substantivo masculino
 apear/10 po:substantivo masculino
 apedramento/10 po:substantivo masculino
@@ -29407,7 +29408,6 @@ cólquico/10 po:substantivo masculino
 colt/10 po:substantivo masculino
 columbario/10 po:substantivo masculino
 columbio/10 po:substantivo masculino
-columpio/10 po:substantivo masculino
 coluro/10 po:substantivo masculino
 colutorio/10 po:substantivo masculino
 coma/10 po:substantivo masculino
@@ -39816,8 +39816,8 @@ etcétera po:locución pronominal
 des po:conxunción [n-grama: des que]
 air po:substantivo masculino [n-grama: air bag]
 bag po:substantivo masculino [n-grama: air bag]
-delirium po:substantivo masculino [n-grama: delirium tremens]
-tremens po:substantivo masculino [n-grama: delirium tremens]
+delírium po:substantivo masculino [n-grama: delírium tremens]
+tremens po:substantivo masculino [n-grama: delírium tremens]
 ex po:substantivo masculino [n-grama: ex libris]
 libris po:substantivo masculino [n-grama: ex libris]
 hábeas po:substantivo masculino [n-grama: hábeas corpus]

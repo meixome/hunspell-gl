@@ -13,7 +13,7 @@ pushd $rootFolder &> /dev/null
 rm -rf ./build
 
 # Construír e empaquetar o corrector principal (VOLG).
-scons aff=norma dic=volga rep=comunidade,galipedia code=${code}
+scons aff=norma dic=drag rep=comunidade,galipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-volg-${version}"
 mkdir ${packageName}
@@ -28,7 +28,7 @@ mv ${packageName}.tar.xz ../${packageName}.tar.xz
 popd &> /dev/null
 
 # Construír e empaquetar o corrector da comunidade.
-scons aff=norma,trasno,unidades dic=comunidade,galipedia,iso639,iso4217,trasno,unidades,volga rep=comunidade,galipedia code=${code}
+scons aff=norma,trasno,unidades dic=comunidade,galipedia,iso639,iso4217,trasno,unidades,drag rep=comunidade,galipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-comunidade-${version}"
 mkdir ${packageName}

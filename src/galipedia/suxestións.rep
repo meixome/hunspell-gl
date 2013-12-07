@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-07-27
+#   2013-12-07
 #
 #
 # Limitacións
@@ -44,10 +44,13 @@
 #   As regras para estas suxestións non se escribirán de momento. Pero no futuro procederase a escribilas
 #   independentemente de que os desenvolvedores de Hunspell fornecesen a funcionalidade solicitada ou non.
 
+# a grandes rasgos → a grandes trazos
+# LOCUCIÓN
+
 # a partires de → a partir de
 # LOCUCIÓN
 
-# a grandes rasgos → a grandes trazos
+# a pesares de → a pesar de, pese a
 # LOCUCIÓN
 
 # a veces → ás veces

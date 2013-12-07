@@ -225,7 +225,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             categoryNames = parsedCategoryNames,
             invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Periferias|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
             validCategoryPattern = u"^(Comarcas|Periferias|Provincias) ",
-            invalidCategoryPattern = u"^(Capitais|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Subrexións) ",
+            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Subrexións) ",
             stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
@@ -308,7 +308,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Bolivia"))
     generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
-    generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades do {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades da República do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
     generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
     generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSencente"))
@@ -344,7 +344,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Romanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Serbia"))
     generators.append(GalipediaLocalidadesGenerator(u"Siria"))
-    generators.append(GalipediaLocalidadesGenerator(u"Sudáfrica"))
+    generators.append(GalipediaLocalidadesGenerator(u"Suráfrica"))
     generators.append(GalipediaLocalidadesGenerator(u"Suíza"))
     generators.append(GalipediaLocalidadesGenerator(u"Timor Leste"))
     generators.append(GalipediaLocalidadesGenerator(u"Turquía"))

@@ -29,7 +29,7 @@ CDF       # Congolese Franc (CONGO, THE DEMOCRATIC REPUBLIC OF).
 CHE       # WIR Euro (SWITZERLAND).
 CHF       # Swiss Franc (LIECHTENSTEIN, SWITZERLAND).
 CHW       # WIR Franc (SWITZERLAND).
-CLF       # Unidades de fomento (CHILE).
+CLF       # Unidad de Fomento (CHILE).
 CLP       # Chilean Peso (CHILE).
 CNY       # Yuan Renminbi (CHINA).
 COP       # Colombian Peso (COLOMBIA).
@@ -167,7 +167,6 @@ XBC       # Bond Markets Unit European Unit of Account 9 (E.U.A.-9) (ZZ03_Bond M
 XBD       # Bond Markets Unit European Unit of Account 17 (E.U.A.-17) (ZZ04_Bond Markets Unit European_EUA-17).
 XCD       # East Caribbean Dollar (ANGUILLA, ANTIGUA AND BARBUDA, DOMINICA, GRENADA, MONTSERRAT, SAINT KITTS AND NEVIS, SAINT LUCIA, SAINT VINCENT AND THE GRENADINES).
 XDR       # SDR (Special Drawing Right) (INTERNATIONAL MONETARY FUND (IMF) ).
-XFU       # UIC-Franc (ZZ05_UIC-Franc).
 XOF       # CFA Franc BCEAO (BENIN, BURKINA FASO, CÔTE D'IVOIRE, GUINEA-BISSAU, MALI, NIGER, SENEGAL, TOGO).
 XPD       # Palladium (ZZ09_Palladium).
 XPF       # CFP Franc (FRENCH POLYNESIA, NEW CALEDONIA, WALLIS AND FUTUNA).

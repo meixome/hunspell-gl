@@ -1,5 +1,740 @@
 Datos a partir dos rexistros de Github (https://github.com/meixome/hunspell-gl)
 
+Cambios desde a versión 13.10.1
+===============================
+
+• comunidade
+    • Suxestións:
+        + andiven → andei
+        + chaval → rapaz
+        + columpiar → arrandear
+        + columpio → randeeira
+        + decodificar → descodificar
+        + prexuizoso → prexudicial
+        + rexerar → rexenerar
+    • Vocabulario:
+        + activábel
+        + activable
+        + adicionar
+        + amordiscar
+        + atresadamente
+        + autoestima
+        + autopropagar
+        + bianualmente
+        + bienalmente
+        + booleano
+        + cablear
+        + caché
+        + canalizador
+        + cartelaría
+        + cián
+        + clúster
+        + conectividade
+        + conexionado
+        + consensuado
+        + controverso
+        + conversor
+        + Ctrl, CTRL
+        + desaglutinado
+        + descodificador
+        + despregábel
+        + despregable
+        + dialogante
+        + disciplinariamente
+        + discrecionalidade
+        + documentador
+        + electronicamente
+        + emocionalmente
+        + enchemento
+        + exhaustividade
+        + expansor
+        + expedientado
+        + exponencialmente
+        + formatar
+        + Galipedia
+        + grupal
+        + hunspell, Hunspell
+        + imprimíbel
+        + imprimible
+        + interactuar
+        + interconectar
+        + internauta
+        + interpersoal
+        + macro
+        + Maiús, MAIÚS
+        + maxenta
+        + medianoite
+        + mediático
+        + minusvalorado
+        + minusvalorar
+        + monitorizar
+        + multiplataforma
+        + multipunto
+        + nomeadamente
+        + normativamente
+        + Office
+        + orzamentado
+        + orzamentar
+        + paseniñamente
+        + paseniño
+        + penalmente
+        + personalizábel
+        + personalizable
+        + pervivencia
+        + porosamente
+        + potestativamente
+        + preditor
+        + pregábel
+        + pregable
+        + priorizar
+        + profesionalización
+        + profesionalizar
+        + profundamento
+        + promocional
+        + Python
+        + recalcular
+        + redenominar
+        + refritir
+        + renormativización
+        + reprografado
+        + reprografar
+        + respaldar
+        + retroalimentación
+        + reutilizar
+        + secuencialmente
+        + sobrepasar
+        + sostibilidade
+        + submódulo
+        + supraterritorial
+        + tecnotrónico
+        + tóner
+        + varapau
+        + vencellar
+        + VOLG, volga, VOLGa
+        + Word
+        + xemente
+        + xentalla
+        + xudicialización
+        + xudicializado
+        + xudicializar
+
+• drag (novo)
+    • Baseado no dicionario da Real Academia Galega.
+    • Substitúe ao «volga» como módulo principal de vocabulario.
+    • O módulo contén dous ficheiros de vocabulario:
+        • «correcto.dic» está copiado do módulo «volga», a partir do cal recibiu os seguintes cambios:
+            • delirium tremens → delírium tremens
+            • ganés → ghanés
+            + carrocería, carrozaría
+            + vinculación
+            - anque
+            - apeadeiro
+            - columpio
+        • «tolerado.dic», creado desde cero co seguinte vocabulario:
+            • seudónimo
+
+• galipedia/onomástica/arquitectura/relixión
+    + Abadía de San Andrés da Veiga de Espiñareda
+    + Convento de San Francisco de Tui
+    + Conxunto relixioso de Abades
+    + Igrexa de Nuestra Señora del Azogue
+    + Igrexa de Santa María de Goó
+    + Igrexa de Santa Mariña Dozo
+    + Igrexa de Santiago de Redondela
+    + Real Santuario del Santísimo Cristo de La Laguna
+    + Santuario da Virxe da Barca
+
+• galipedia/onomástica/toponimia/accidentes/illas
+    • Grenlandia → Groenlandia
+    • Hébridas de Dentro → Hébridas Interiores
+    • Hébridas de Fóra → Hébridas Exteriores
+    • Illa Trindade → Illa Trindad
+    • Miconos → Míconos
+    • San Bartolomé → Saint-Barthélemy
+    • Trindade e Tobago → Trinidad e Tobago
+    + Illas do arquipélago das Cook
+    + Uoleva
+
+• galipedia/onomástica/toponimia/accidentes/montañas
+    + A Pena Negra
+    + Gorbeia
+    + Macizo do Montgrí
+    + Monte da Peneda
+    + Monte Monseivane
+    + Monte Urgull
+    + Serra Gamoneda
+    - Monte Alba
+
+• galipedia/onomástica/toponimia/accidentes/ríos
+    + Refuxio de Sigüeiro
+    + Río Barcés
+    + Río Carrión
+    + Río Cervañiña
+    + Río Gobia
+    + Río Lóuzara
+    + Río Notwane
+    + Río Onyar
+    + Río Saja
+    + Río San Lourenzo
+    + Río Sousa
+    + Río Tay
+
+• galipedia/onomástica/toponimia/localidades/alemaña
+    + Nürburg
+
+• galipedia/onomástica/toponimia/localidades/colombia
+    • Cartagena de Indias → Cartaxena de Indias
+
+• galipedia/onomástica/toponimia/localidades/españa
+    • Barañáin → Barañain
+    • Casares de las Urdes → Casares de las Hurdes
+    • El Cubo de la Tierra del Vino → El Cubo del Vino
+    • Irún → Irun
+    + Aciveiros
+    + Ajofrín
+    + Alhambra
+    + Alveredos
+    + As Edradas
+    + As Portelas
+    + Ateca
+    + Barrosas
+    + Barxacova
+    + Busmaior
+    + Calabor
+    + Caminomorisco
+    + Campo de Lebre
+    + Canteixeira
+    + Casar de Palomero
+    + Castañeiras
+    + Chaos
+    + Corporais
+    + Currais
+    + Edroso
+    + Espiñeireda de Ancares
+    + Güimil-Serviz
+    + La Llosa de Ranes
+    + La Puebla de Montalbán
+    + Lumeiras
+    + Madridejos
+    + Malpica de Tajo
+    + Maluenda
+    + Navàs
+    + Nuñomoral
+    + Ocaña
+    + Palacios de Sanabria
+    + Pereda de Ancares
+    + Requeixo de Seabra
+    + Rihonor de Castilla
+    + San Ciprián
+    + San Justo
+    + Sorbeira
+    + Sortes de Ancares
+    + Suárbol
+    + Teixeu de Ancares
+    + Trefacio
+    + Valouta
+    + Vilarbón
+    + Vilasumil
+    + Yeles
+    + Yepes
+    + Yuncler
+    + Yunclillos
+    + Yuncos
+    + Zarza de Granadilla
+    - Cíes
+
+• galipedia/onomástica/toponimia/localidades/estados-unidos-de-américa
+    + Duluth
+    + Greensboro
+    + Norfolk
+
+• galipedia/onomástica/toponimia/localidades/francia
+    • Saint-Georges-des-Hurtières → Saint-Georges-d'Hurtières
+    + Cardet
+    + Céret
+    + Montbolo
+    + Reynès
+    + Saint-Fargeau-Ponthierry
+
+• galipedia/onomástica/toponimia/localidades/italia
+    + Vinci
+
+• galipedia/onomástica/toponimia/localidades/oceanía
+    + Temora
+
+• galipedia/onomástica/toponimia/localidades/portugal
+    + Paços de Ferreira
+
+• galipedia/onomástica/toponimia/localidades/qatar
+    + Ar Rayyan
+
+• galipedia/onomástica/toponimia/localidades/reino-unido
+    + Douglas
+
+• galipedia/onomástica/toponimia/localidades/sudáfrica → galipedia/onomástica/toponimia/localidades/suráfrica
+
+• galipedia/onomástica/toponimia/localidades/turquía
+    + Samsun
+
+• galipedia/onomástica/toponimia/lugares/galicia
+    + A Agra da Pedra
+    + A Agra de Samosteiro
+    + A Aldeíña
+    + A Alta de Pereira
+    + A Angustia
+    + A Babilonia
+    + A Baia
+    + A Banda
+    + A Barcala
+    + A Cachorreira
+    + A Canliña
+    + A Carcasía
+    + A Caroada
+    + A Carrasca
+    + A Casa Queimada
+    + A Castañeira
+    + A Catía
+    + A Concheira
+    + A Conga
+    + A Costa de Santa Ana
+    + A Costaneira
+    + A Couzada
+    + A Covada
+    + A Covasa
+    + A Covecha
+    + A Crocha de Levante
+    + A Crocha de Poñente
+    + A Cruciña
+    + A Cruz de Aguiño
+    + A Cruz de Oleiros
+    + A Eira de Concha
+    + A Estorrentada
+    + A Famelta
+    + A Ferrala
+    + A Fialla
+    + A Fiosa
+    + A Fonte do Espiño
+    + A Fontecuba
+    + A Fortaleza
+    + A Gaiteira
+    + A Herdadiña
+    + A Horta da Zapateira
+    + A Ibia
+    + A Lamasaída
+    + A Lombiña
+    + A Loxe
+    + A Manga
+    + A Mercé
+    + A Mirandela
+    + A Nespreira
+    + A Pagueira
+    + A Palela
+    + A Pata
+    + A Patiña
+    + A Pavana
+    + A Pedrachán
+    + A Pena do Ouro
+    + A Perouta
+    + A Pezoca
+    + A Pobanza
+    + A Pobra do Caramiñal
+    + A Ponte Barbanza
+    + A Ponte de Argalo
+    + A Ponte de Cela
+    + A Ponte de San Francisco
+    + A Ponte de Traba
+    + A Praga
+    + A Rasa de Abaixo
+    + A Rasa de Arriba
+    + A Recosta
+    + A Ribeira do Freixo
+    + A Solana
+    + A Tasca
+    + A Torriña
+    + A Virxe do Monte
+    + A Xentiña
+    + A Xurisdición
+    + Abeleiras de Abaixo
+    + Abeleiras de Arriba
+    + Abruñeiras
+    + Aceredo
+    + Airapadrón
+    + Albeida
+    + Alvariza
+    + Ansamonde
+    + Apartada
+    + Ardagán
+    + Argote
+    + Arillo
+    + Arrigada
+    + As Camposeiras
+    + As Castarnelas
+    + As Gobernas
+    + As Longras
+    + As Minas de San Fins
+    + As Patiñas
+    + As Pedras Miúdas
+    + As Robaleiras
+    + As Romeiras
+    + As Taras
+    + Ascariz
+    + Balcaide
+    + Baldrei
+    + Bandaseca
+    + Bandebó
+    + Banzas
+    + Bara
+    + Bargo
+    + Becollo
+    + Beiramar
+    + Bendimón
+    + Boel
+    + Bouza Nova
+    + Breixo
+    + Bribes Pequeno
+    + Briñidelo
+    + Brión de Abaixo
+    + Bubaces
+    + Buínte
+    + Buíste
+    + Bulleiro
+    + Buscalque
+    + Cabana Moura
+    + Cabío
+    + Cadreche
+    + Caíños
+    + Calveliño
+    + Cambeiro de Abaixo
+    + Cambeiro de Arriba
+    + Camiño do Raposo
+    + Campo de Lamas
+    + Campomuíños
+    + Cando de Abaixo
+    + Cando de Arriba
+    + Canide
+    + Carleo de Abaixo
+    + Carleo de Arriba
+    + Casbeiro
+    + Casonel
+    + Castrotañe
+    + Cedofeito
+    + Celeirón
+    + Cepido
+    + Cercias
+    + Cernande
+    + Chaioso
+    + Chelo
+    + Cividás
+    + Cobazas
+    + Codes
+    + Codesás
+    + Coiradas
+    + Comparada
+    + Condús
+    + Corgo
+    + Coruxas
+    + Coruxo de Abaixo
+    + Coruxo de Arriba
+    + Coruxos
+    + Costanza
+    + Croído
+    + Curral de Orro
+    + Drozo
+    + Eirís
+    + Eiroa
+    + Erminde
+    + Esperanzo
+    + Estúniga
+    + Faquín
+    + Filgueiro
+    + Fontaíña
+    + Fonte Pernal
+    + Fontenlos
+    + Formigueiro
+    + Fraguiña
+    + Franzomel
+    + Ganceiros
+    + Gatañal
+    + Graduíl
+    + Guiende
+    + Gulfián
+    + Labarta
+    + Laiantes de Abaixo
+    + Laiantes de Arriba
+    + Lamastelle
+    + Lantarou
+    + Lavacolla
+    + Lestaio
+    + Lezoce
+    + Listres
+    + Locai
+    + Lodeira
+    + Loios
+    + Lóngora
+    + Lorbé
+    + Loucia
+    + Lourido Grande
+    + Lourido Pequeno
+    + Lovada
+    + Lucil
+    + Manzós
+    + Marás
+    + Marracín de Abaixo
+    + Marracín de Arriba
+    + Marselle
+    + Martín de Louredo
+    + Mastontán
+    + Maxide
+    + Mediavila
+    + Meixón Frío
+    + Moces
+    + Morouzo
+    + Morzán
+    + Nebrixe
+    + Negral
+    + O Agro de Quinta
+    + O Alto do Rodicio
+    + O Arcebispo
+    + O Bañil
+    + O Bargo
+    + O Brenzo
+    + O Camiño da Poza
+    + O Camiño de Vieiro
+    + O Campamento
+    + O Cantón
+    + O Cereixeiro
+    + O Chan de Maroñas
+    + O Colo de Arca
+    + O Conchido
+    + O Coroto
+    + O Cortizo
+    + O Cotro
+    + O Couto de Abaixo
+    + O Cruceiro da Barquiña
+    + O Cruceiro de Barro
+    + O Cruceiro de Roo
+    + O Cubo
+    + O Curraliño
+    + O Hórreo
+    + O Inferniño
+    + O Lagar
+    + O Lucín
+    + O Lugariño
+    + O Madeiro
+    + O Mesón da Auga
+    + O Mollón
+    + O Monte de Casal
+    + O Monte do Bolo
+    + O Obre de Abaixo
+    + O Obre de Arriba
+    + O Outonil
+    + O Paramo
+    + O Pereiro de Abaixo
+    + O Pereiro de Arriba
+    + O Pinal do Rei
+    + O Pinar
+    + O Pinar de Martín
+    + O Pirillueiro
+    + O Piringuel
+    + O Polvorín
+    + O Porto de Dexo
+    + O Pumadiño
+    + O Puxedo
+    + O Rabuñeiro
+    + O Rego de Hortas
+    + O Reguendo
+    + O Río Lérez
+    + O Robalo
+    + O Sanguilexo
+    + O Toxedo
+    + O Trevoedo
+    + O Valoiro
+    + O Vilar de Outes
+    + O Volteiro
+    + O Xabrón
+    + O Xobre
+    + Ogos
+    + Oroña
+    + Orro
+    + Os Agros da Vila
+    + Os Areos
+    + Os Carragás
+    + Os Montiños
+    + Os Muíños de Naia
+    + Ousesende
+    + Outonín
+    + Ouxo
+    + Padrendo
+    + Paioso
+    + Parameiras
+    + Pascual
+    + Pedregueiras
+    + Pedrosiño
+    + Peiraio
+    + Pena Oubiña
+    + Penacova
+    + Penatouro
+    + Penisqueira
+    + Pinar do Río
+    + Piúca
+    + Ponte Barxas
+    + Ponte de San Francisco
+    + Porrido
+    + Portalaxe
+    + Porto Cabeiro
+    + Portobravo
+    + Portocarro
+    + Portodechán
+    + Portofreixo
+    + Praducelo
+    + Prancibe
+    + Quintenla
+    + Rasa
+    + Rascacú
+    + Rates
+    + Rego de Horta
+    + Regodaíde
+    + Regulfe
+    + Riatelo
+    + Riba da Fonte
+    + Riba de Mar
+    + Ribadal
+    + Ribas de Araúxo
+    + Ribiñas
+    + Río da Loba
+    + Río de Cestos
+    + Romardeiro
+    + Roncesvales
+    + Roo de Arriba
+    + Rosamonde
+    + Roupión
+    + Rúa do Ferreiro
+    + Rueiro
+    + Ruibelo
+    + Rumille
+    + Sabardes
+    + Saborido
+    + Sacido
+    + Saltoxo
+    + Sálvora
+    + Sameiro
+    + San Baínto
+    + San Roque de Crespos
+    + San Roquiño
+    + Sande de Abaixo
+    + Sande de Arriba
+    + Sanguiñal
+    + Santián
+    + Santo Isidro
+    + Sapiñeira
+    + Sarnón
+    + Sarnoso
+    + Sarro
+    + Seilán
+    + Sende
+    + Serrapio
+    + Servia
+    + Siavo
+    + Sigüeiro
+    + Sisaldo
+    + Sobreguexe
+    + Sobreviñas
+    + Sueiro
+    + Suviña
+    + Talagra
+    + Tavilo
+    + Terelle
+    + Tobe
+    + Tornil
+    + Torrelos
+    + Toscaña
+    + Trasporto
+    + Valbargos
+    + Valeixo
+    + Vascós
+    + Vichocuntín
+    + Vila Clara
+    + Vilar de Reconco
+    + Vilardigo
+    + Vilasobroso
+    + Viro
+    + Vivenzo
+    + Xaz
+    + Xeás
+    + Xendil
+    + Xilvir
+    + Xoez
+    - Cíes
+    - O Regato
+
+• galipedia/onomástica/toponimia/países
+    • Benín → Benin
+    • Grenlandia → Groenlandia
+    • O Salvador → El Salvador
+    • Reino de Sardeña → Reino da Sardeña
+    • República de Benín → República de Benin
+    • República de Botsuana → República de Botswana
+    • República de Burquina Faso → Burkina Faso
+    • República de Gana → República de Ghana
+    • Sudáfrica → Suráfrica
+    • Trindade e Tobago → República de Trinidad e Tobago
+    + África Occidental Portuguesa
+    + África Oriental Portuguesa
+    + Antiga República Iugoslava de Macedonia
+    + Botswana
+    + Burundi
+    + Bután
+    + Comores
+    + Congo-Brazzaville
+    + Ditadura Nacional
+    + Estado da África Oriental
+    + Estado de Angola
+    + Estado de Eritrea
+    + Gambia
+    + Ghana
+    + II República Portuguesa
+    + Imperio do Brasil
+    + Indias Occidentais
+    + Malawi
+    + Nova Celandia
+    + Paraguai
+    + Primeira República Portuguesa
+    + Província Ultramarina de Angola
+    + Provincia Ultramarina de Mozambique
+    + Reino de Galiza
+    + Reino de Islandia
+    + Reino de Portugal
+    + Reino do Brasil
+    + Reino Unido de Portugal, Brasil e o Algarve
+    + República Árabe de Exipto
+    + República de Angola
+    + República de Camerún
+    + República de Chad
+    + República de Cimbabue
+    + República de Costa do Marfil
+    + República de Guinea
+    + República de San Mariño
+    + República do Congo
+    + República Gabonesa
+    + República Popular de Bangladesh
+    + República Portuguesa
+    + Uzbequistán
+    - Paquistán Oriental
+    - Reino de Macedonia
+
+• galipedia/onomástica/toponimia/rexións/españa
+    • O Val Miñor → Val Miñor
+    + Bisbarra de Seabra
+    + Comarca de Requena-Utiel
+
+• iso4217
+    - XFU
+
+• volga
+    + romántica/s (só estaban as formas masculinas)
+    - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
+
+
 Versión 13.10.1
 ===============
 Limpeza

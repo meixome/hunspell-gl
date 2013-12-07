@@ -2462,9 +2462,152 @@ VLSI
 WAP
 WASP
 XML
+
+# Vocabulario xenérico.
+
+atresadamente po:advervio
+bianualmente po:advervio
+bienalmente po:advervio
+disciplinariamente po:advervio
+electronicamente po:advervio
+emocionalmente po:advervio
+exponencialmente po:advervio
+nomeadamente po:advervio
+normativamente po:advervio
+paseniñamente po:advervio
+penalmente po:advervio
+porosamente po:advervio
+potestativamente po:advervio
+secuencialmente po:advervio
+
+activábel/12 po:adxectivo
+activable/10 po:adxectivo
+boolenao/10,15 po:adxectivo
+canalizador/10,14 po:adxectivo
+conexionado/10,15 po:adxectivo
+consensuado/10,15 po:adxectivo
+conversor/10,14 po:adxectivo
+controverso/10,15 po:adxectivo
+desaglutinado/10,15 po:adxectivo
+descodificador/10,14 po:adxectivo
+despregábel/12 po:adxectivo
+despregable/10 po:adxectivo
+dialogante/10 po:adxectivo
+documentador/10,14 po:adxectivo
+expansor/10,14 po:adxectivo
+expedientado/10,15 po:adxectivo
+grupal/12 po:adxectivo
+imprimíbel/12 po:adxectivo
+imprimible/10 po:adxectivo
+interpersoal/12 po:adxectivo
+mediático/10,15 po:adxectivo
+minusvalorado/10,15 po:adxectivo
+multiplataforma po:adxectivo
+multipunto po:adxectivo
+orzamentado/10,15 po:adxectivo
+paseniño/10,15 po:adxectivo
+personalizábel/12 po:adxectivo
+personalizable/10 po:adxectivo
+preditor/10,14 po:adxectivo
+pregábel/12 po:adxectivo
+pregable/10 po:adxectivo
+promocional/12 po:adxectivo
+reprografado/10,15 po:adxectivo
+supraterritorial/12 po:adxectivo
+tecnotrónico/10,15 po:adxectivo
+xudicializado/10,15 po:adxectivo
+
+autoestima po:substantivo feminino
+caché/10 po:substantivo feminino
+cartelaría/10 po:substantivo feminino
+conectividade/10 po:substantivo feminino
+discrecionalidade po:substantivo feminino
+exhaustividade po:substantivo feminino
+macro/10 po:substantivo feminino
+medianoite po:substantivo feminino
+pervivencia po:substantivo feminino
 preinscrición/10 po:substantivo feminino
+profesionalización/10 po:substantivo feminino
+redirección/10 po:substantivo feminino
+renormativización po:substantivo feminino
+retroalimentación po:substantivo feminino
+sostibilidade/10 po:substantivo feminino
+xentalla po:substantivo feminino
+xudicialización/10 po:substantivo feminino
+
+cián po:substantivo masculino
+clúster/10 po:substantivo masculino
+enchemento po:substantivo masculino
+maxenta po:substantivo masculino
+profundamento/10 po:substantivo masculino
+submódulo/10 po:substantivo masculino
+tóner po:substantivo masculino
+varapau/10 po:substantivo masculino
+
+internauta/10 po:substantivo
+xemente/10 po:substantivo
+
+adicionar/200,201 po:verbo ts:transitiva al:adiciónar
+adiciónar/666,202 st:adicionar ts:alomorfo adicionar transitiva
+amordiscar/200,201 po:verbo ts:transitiva al:amordíscar
+amordíscar/666,202 st:amordiscar ts:alomorfo amordiscar transitiva
+autopropagar/200,201,230,231 po:verbo ts:transitiva / pronominal al:autopropágar
+autopropágar/666,202,232 st:autopropagar ts:alomorfo autopropagar transitiva / pronominal
+cablear/200,201 po:verbo ts:transitiva al:cabléar
+cabléar/666,202 st:cablear ts:alomorfo cablear transitiva
+formatar/200,201 po:verbo ts:transitiva al:formátar
+formátar/666,202 st:formatar ts:alomorfo formatar transitiva
+interactuar/221 po:verbo ts:intransitiva al:interactúar
+interactúar/666,220,222 st:interactuar ts:alomorfo interactuar intransitiva
+interconectar/200,201,230,231 po:verbo ts:transitiva / pronominal al:interconéctar
+interconéctar/666,202,232 st:interconectar ts:alomorfo interconectar transitiva / pronominal
+minusvalorar/200,201 po:verbo ts:transitiva al:minusvalórar
+minusvalórar/666,202 st:minusvalorar ts:alomorfo minusvalorar transitiva
+monitorizar/200,201 po:verbo ts:transitiva al:monitorízar
+monitorízar/666,202 st:monitorizar ts:alomorfo monitorizar transitiva
+orzamentar/200,201 po:verbo ts:transitiva al:orzaméntar
+orzaméntar/666,202 st:orzamentar ts:alomorfo orzamentar transitiva
 preinscribir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:preinscríbir
 preinscríbir/666,602,802 st:preinscribir ts:alomorfo preinscribir transitiva / pronominal
-redirección/10 po:substantivo feminino
+priorizar/200,201 po:verbo ts:transitiva al:priorízar
+priorízar/666,202 st:priorizar ts:alomorfo priorizar transitiva
+profesionalizar/200,201,230,231 po:verbo ts:transitiva / pronominal al:profesionalízar
+profesionalízar/666,202,232 st:profesionalizar ts:alomorfo profesionalizar transitiva / pronominal
+recalcular/200,201 po:verbo ts:transitiva al:recalcúlar
+recalcúlar/666,202 st:recalcular ts:alomorfo recalcular transitiva
+redenominar/200,201,230,231 po:verbo ts:transitiva / pronominal al:redenomínar
+redenomínar/666,202,232 st:redenominar ts:alomorfo redenominar transitiva / pronominal
 redirixir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:rediríxir
 rediríxir/666,602,802 st:redirixir ts:alomorfo redirixir transitiva / pronominal
+refritir/600,601 po:verbo ts:transitiva al:refrítir
+refrítir/666,602 st:refritir ts:alomorfo refritir transitiva
+reprografar/200,201 po:verbo ts:transitiva al:reprográfar
+reprográfar/666,202 st:reprografar ts:alomorfo reprografar transitiva
+reutilizar/200,201 po:verbo ts:transitiva al:reutilízar
+reutilízar/666,202 st:reutilizar ts:alomorfo reutilizar transitiva
+respaldar/200,201 po:verbo ts:transitiva al:respáldar
+respáldar/666,202 st:respaldar ts:alomorfo respaldar transitiva
+sobrepasar/200,201 po:verbo ts:transitiva al:sobrepásar
+sobrepásar/666,202 st:sobrepasar ts:alomorfo sobrepasar transitiva
+vencellar/200,201,230,231 po:verbo ts:transitiva / pronominal al:vencéllar
+vencéllar/666,202,232 st:vencellar ts:alomorfo vencellar transitiva / pronominal
+xudicializar/200,201 po:verbo ts:transitiva al:xudicialízar
+xudicialízar/666,202 st:xudicializar ts:alomorfo xudicializar transitiva
+
+# Marcas.
+
+Galipedia po:marca
+hunspell po:marca
+Hunspell po:marca
+Office po:marca
+Python po:marca
+VOLG po:marca
+volga po:marca
+VOLGa po:marca
+Word po:marca
+
+# Nomes de teclas.
+Ctrl po:tecla
+CTRL po:tecla
+Maiús po:tecla
+MAIÚS po:tecla

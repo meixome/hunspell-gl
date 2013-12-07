@@ -36,6 +36,7 @@ alámbr arám      # alambrar → aramar.
 ^alugueres$ rendas      # aluguer → alugamento, alugueiro, renda.
 andamio estada     # Erro común.
 andén plataforma     # Erro común.
+^andiven$ andei         # andiven → andei.
 anicr anic      # anicrar → anicar.
 anícr aníc      # anicrar → anicar.
 antefaz anteface     # Erro común.
@@ -136,6 +137,9 @@ cc c     # Exemplo: construcción → construción.
 champú xampú     # Erro común.
 champurr chapuz     # champurrar → chapuzar.
 champúrr chapúz     # champurrar → chapuzar.
+^chaval rapaz               # chaval → rapaz
+^chavais$ rapaces           # chaval → rapaz
+^chavales$ rapaces          # chaval → rapaz
 cerrollo ferrollo     # Erro común.
 choll choi # chollar → choiar
 ci ce      # ciar → cear.
@@ -148,6 +152,9 @@ coiñ cuiñ      # coiñar → cuiñar.
 coíñ cuíñ      # coiñar → cuiñar.
 coinc cuinc      # coincar → cuincar.
 coínc cuínc      # coincar → cuincar.
+^columpio randeeira             # columpio → randeeira.
+^columpi arrande                # columpiar → arrandear.
+^colúmpi arrandé                # columpiar → arrandear.
 comulg comung      # comulgar → comungar.
 comúlg comúng      # comulgar → comungar.
 conceb concib      # concebir → concibir.
@@ -181,6 +188,7 @@ debórc debróc      # deborcar → debrocar.
 debouc demouc      # deboucar → demoucar.
 debóuc demóuc      # deboucar → demoucar.
 dec dic      # decir → dicir.
+^decodif descodif           # decodificar → descodificar.
 decomis comis      # decomisar → comisar.
 decomís comís      # decomisar → comisar.
 demit dimit      # demitir → dimitir.
@@ -521,6 +529,10 @@ presionou premeu     # presionar → premer.
 presionóu preméu      # presionar → premer.
 presione prema     # presionar → premer.
 presióne préma      # presionar → premer.
+^prexuizosa prexudicial                 # prexuizoso → prexudicial
+^prexuizosas prexudiciais               # prexuizoso → prexudicial
+^prexuizoso prexudicial                 # prexuizoso → prexudicial
+^prexuizosos prexudiciais               # prexuizoso → prexudicial
 prorrate rate      # prorratear → ratear.
 prorraté raté      # prorratear → ratear.
 quep caib
@@ -583,6 +595,7 @@ resfri arrefri     # refriar → arrefriar.
 resfrí arrefrí     # refriar → arrefriar.
 retras atras      # retrasar → atrasar.
 retrás atrás      # retrasar → atrasar.
+^rex rexen                  # rexerar → rexenerar
 sea sexa
 ^según$ segundo   # según → segundo.
 sendero carreiro  # Erro común.

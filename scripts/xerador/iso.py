@@ -30,6 +30,7 @@ class Iso4217CodeList(object):
         pass
 
     def addEntry(self, currencyCode, currencyName, currencyCountry):
+        currencyCountry = currencyCountry.replace("\n", " ").replace("  ", " ")
         if currencyCode not in self.codes:
             self.codes[currencyCode] = { currencyName: [currencyCountry] }
         else:
