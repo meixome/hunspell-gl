@@ -3,132 +3,132 @@ Datos a partir dos rexistros de Github (https://github.com/meixome/hunspell-gl)
 Cambios desde a versión 13.10.1
 ===============================
 
-• comunidade
-    • Suxestións:
-        + -á, -án → -ana, -ano
-        + -aba → -ía
-        + Alemania → Alemaña
-        + alxebraico → alxébrico
-        + -ana, -ano → -á, -án
-        + andiven → andei
-        + chaval → rapaz
-        + columpiar → arrandear
-        + columpio → randeeira
-        + decodificar → descodificar
-        + -iles → ís
-        + -íles → ís
-        + prexuizoso → prexudicial
-        + rexerar → rexenerar
-        + satisface → satisfai
-        + satisfaceu → satisfixo
-        + sust- → subst-
-        + -ubo → -ivo
-        + -xo → -ciu
-    • Vocabulario:
-        + activábel
-        + activable
-        + adicionar
-        + amordiscar
-        + atresadamente
-        + autoestima
-        + autopropagar
-        + bianualmente
-        + bienalmente
-        + booleano
-        + cablear
-        + caché
-        + canalizador
-        + cartelaría
-        + cián
-        + clúster
-        + conectividade
-        + conexionado
-        + consensuado
-        + controverso
-        + conversor
-        + Ctrl, CTRL
-        + desaglutinado
-        + descodificador
-        + despregábel
-        + despregable
-        + dialogante
-        + disciplinariamente
-        + discrecionalidade
-        + documentador
-        + electronicamente
-        + emocionalmente
-        + enchemento
-        + exhaustividade
-        + expansor
-        + expedientado
-        + exponencialmente
-        + formatar
-        + Galipedia
-        + grupal
-        + hunspell, Hunspell
-        + imprimíbel
-        + imprimible
-        + interactuar
-        + interconectar
-        + internauta
-        + interpersoal
-        + macro
-        + Maiús, MAIÚS
-        + maxenta
-        + medianoite
-        + mediático
-        + minusvalorado
-        + minusvalorar
-        + monitorizar
-        + multiplataforma
-        + multipunto
-        + nomeadamente
-        + normativamente
-        + Office
-        + orzamentado
-        + orzamentar
-        + paseniñamente
-        + paseniño
-        + penalmente
-        + personalizábel
-        + personalizable
-        + pervivencia
-        + porosamente
-        + potestativamente
-        + preditor
-        + pregábel
-        + pregable
-        + priorizar
-        + profesionalización
-        + profesionalizar
-        + profundamento
-        + promocional
-        + Python
-        + recalcular
-        + redenominar
-        + refritir
-        + renormativización
-        + reprografado
-        + reprografar
-        + respaldar
-        + retroalimentación
-        + reutilizar
-        + secuencialmente
-        + sobrepasar
-        + sostibilidade
-        + submódulo
-        + supraterritorial
-        + tecnotrónico
-        + tóner
-        + varapau
-        + vencellar
-        + VOLG, volga, VOLGa
-        + Word
-        + xemente
-        + xentalla
-        + xudicialización
-        + xudicializado
-        + xudicializar
+• comunidade/suxestións:
+    + -á, -án → -ana, -ano
+    + -aba → -ía
+    + Alemania → Alemaña
+    + alxebraico → alxébrico
+    + -ana, -ano → -á, -án
+    + andiven → andei
+    + chaval → rapaz
+    + columpiar → arrandear
+    + columpio → randeeira
+    + decodificar → descodificar
+    + -iles → ís
+    + -íles → ís
+    + prexuizoso → prexudicial
+    + rexerar → rexenerar
+    + satisface → satisfai
+    + satisfaceu → satisfixo
+    + sust- → subst-
+    + -ubo → -ivo
+    + -xo → -ciu
+
+• comunidade/vocabulario:
+    + activábel
+    + activable
+    + adicionar
+    + amordiscar
+    + atresadamente
+    + autoestima
+    + autopropagar
+    + bianualmente
+    + bienalmente
+    + booleano
+    + cablear
+    + caché
+    + canalizador
+    + cartelaría
+    + cián
+    + clúster
+    + conectividade
+    + conexionado
+    + consensuado
+    + controverso
+    + conversor
+    + Ctrl, CTRL
+    + desaglutinado
+    + descodificador
+    + despregábel
+    + despregable
+    + dialogante
+    + disciplinariamente
+    + discrecionalidade
+    + documentador
+    + electronicamente
+    + emocionalmente
+    + enchemento
+    + exhaustividade
+    + expansor
+    + expedientado
+    + exponencialmente
+    + formatar
+    + Galipedia
+    + grupal
+    + hunspell, Hunspell
+    + imprimíbel
+    + imprimible
+    + interactuar
+    + interconectar
+    + internauta
+    + interpersoal
+    + macro
+    + Maiús, MAIÚS
+    + maxenta
+    + medianoite
+    + mediático
+    + minusvalorado
+    + minusvalorar
+    + monitorizar
+    + multiplataforma
+    + multipunto
+    + nomeadamente
+    + normativamente
+    + Office
+    + orzamentado
+    + orzamentar
+    + paseniñamente
+    + paseniño
+    + penalmente
+    + personalizábel
+    + personalizable
+    + pervivencia
+    + porosamente
+    + potestativamente
+    + preditor
+    + pregábel
+    + pregable
+    + priorizar
+    + profesionalización
+    + profesionalizar
+    + profundamento
+    + promocional
+    + Python
+    + recalcular
+    + redenominar
+    + refritir
+    + renormativización
+    + reprografado
+    + reprografar
+    + respaldar
+    + retroalimentación
+    + reutilizar
+    + secuencialmente
+    + sobrepasar
+    + sostibilidade
+    + submódulo
+    + supraterritorial
+    + tecnotrónico
+    + tóner
+    + varapau
+    + vencellar
+    + VOLG, volga, VOLGa
+    + Word
+    + xemente
+    + xentalla
+    + xudicialización
+    + xudicializado
+    + xudicializar
 
 • drag (novo)
     • Baseado no dicionario da Real Academia Galega.
