@@ -11,6 +11,18 @@
 # cómpre engadir un comentario ás liñas evidentes, como «silla cadeira»,
 # para facilitar a busca de liñas sen unha explicación.
 
+# -á, -án → -ana, -ano
+# Exemplos: humá → humanana, marcián → marciano.
+á$ ana
+án$ ano
+ás$ anas
+áns$ anos
+
+# -aba → -ía
+# Por exemplo: reflectaba → reflectía.
+aba ía
+ába ía
+
 abag avag     # abagar → avagar.
 abág avág      # abagar → avagar.
 aballo avello     # aballoar → avelloar.
@@ -28,12 +40,27 @@ aig ai
 áig ái
 alambr aram      # alambrar → aramar.
 alámbr arám      # alambrar → aramar.
+
+# Alemania → Alemaña
+^Alemania$ Alemaña
+
 ^aluguer$ alugamento    # aluguer → alugamento, alugueiro, renda.
 ^aluguer$ alugueiro     # aluguer → alugamento, alugueiro, renda.
 ^aluguer$ renda         # aluguer → alugamento, alugueiro, renda.
 ^alugueres$ alugamentos # aluguer → alugamento, alugueiro, renda.
 ^alugueres$ alugueiros  # aluguer → alugamento, alugueiro, renda.
 ^alugueres$ rendas      # aluguer → alugamento, alugueiro, renda.
+
+# alxebraico → alxébrico
+^alxebraic alxébric
+
+# -ana, -ano → -á, -án
+# Exemplos: otomana → otomá.
+ana$ á
+ano$ án
+anas$ ás
+anos$ áns
+
 andamio estada     # Erro común.
 andén plataforma     # Erro común.
 ^andiven$ andei         # andiven → andei.
@@ -398,6 +425,15 @@ ig igu      # igar → iguar.
 íg ígu      # igar → iguar.
 ig igü      # igar → iguar.
 íg ígü      # igar → iguar.
+
+# -iles → ís
+# Por exemplo: barriles → barrís, carriles → carrís.
+iles$ ís
+
+# -íles → ís
+# Por exemplo: raíles → raís.
+íles$ ís
+
 imb envi      # imbar → enviar.
 imb enví      # imbar → enviar.
 ímb enví      # imbar → enviar.
@@ -596,6 +632,17 @@ resfrí arrefrí     # refriar → arrefriar.
 retras atras      # retrasar → atrasar.
 retrás atrás      # retrasar → atrasar.
 ^rex rexen                  # rexerar → rexenerar
+
+# satisface → satisfai
+^satisface satisfai
+^satisfáce satisfai
+^satisfáce satisfái
+
+# satisfaceu → satisfixo
+^satisfaceu satisfixo
+^satisfaceu satisfíxo
+^satisfacéu satisfíxo
+
 sea sexa
 ^según$ segundo   # según → segundo.
 sendero carreiro  # Erro común.
@@ -618,6 +665,11 @@ sumerxi somerxe      # sumerxir → somerxer.
 sumerxí somerxé     # sumerxir → somerxer.
 suministr subministr     # suministrar → subministrar.
 suminístr subminístr      # suministrar → subministrar.
+
+# sust- → subst-
+# Por exemplo: sustituída → substituída, sustantivo → substantivo.
+^sust subst
+
 tachon chatol      # tachonar → chatolar.
 tachón chatól      # tachonar → chatolar.
 tambale cambale      # tambalear → cambalear.
@@ -662,6 +714,12 @@ ubic situ               # ubicar → localizar, situar.
 ubíc sitú               # ubicar → localizar, situar.
 ubiqu situ              # ubicar → localizar, situar.
 ubíqu sitú              # ubicar → localizar, situar.
+
+# -ubo → -ivo
+# Por exemplo: estubo → estivo.
+ubo ivo
+úbo ívo
+
 uch oit
 úch óit
 ue o     # Exemplo: puesto → posto.
@@ -678,6 +736,13 @@ x ll                  # Exemplo: parexa → parella.
 xener xer             # xenerar → xerar.
 xeralic xeneralic     # xeralizar → xeneralizar.
 xeraliz xeneraliz     # xeralizar → xeneralizar.
+
+# -xo → -ciu
+# Polo castelán «-jo». Por exemplo: produxo → produciu.
+uxo uciu
+úxo uciu
+úxo ucíu
+
 y ll     # Na maioría dos casos tratarase dun castelanismo.
 z ci     # Exemplo: silenzo → silencio.
 zamp chap      # zampar → chapar.

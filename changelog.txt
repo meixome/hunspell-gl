@@ -5,13 +5,25 @@ Cambios desde a versión 13.10.1
 
 • comunidade
     • Suxestións:
+        + -á, -án → -ana, -ano
+        + -aba → -ía
+        + Alemania → Alemaña
+        + alxebraico → alxébrico
+        + -ana, -ano → -á, -án
         + andiven → andei
         + chaval → rapaz
         + columpiar → arrandear
         + columpio → randeeira
         + decodificar → descodificar
+        + -iles → ís
+        + -íles → ís
         + prexuizoso → prexudicial
         + rexerar → rexenerar
+        + satisface → satisfai
+        + satisfaceu → satisfixo
+        + sust- → subst-
+        + -ubo → -ivo
+        + -xo → -ciu
     • Vocabulario:
         + activábel
         + activable
