@@ -1179,6 +1179,7 @@ Cambios desde a versión 13.10.1
     + terreno → terreo
 
 • iso4217
+    - LVL
     - XFU
 
 • volga
