@@ -2065,7 +2065,6 @@ El po:topónimo [n-grama: El Perdigón]
 Perdigón po:topónimo [n-grama: El Perdigón]
 El po:topónimo [n-grama: El Pinar de El Hierro]
 Pinar po:topónimo [n-grama: El Pinar de El Hierro]
-El po:topónimo [n-grama: El Pinar de El Hierro]
 Hierro po:topónimo [n-grama: El Pinar de El Hierro]
 El po:topónimo [n-grama: El Pont de Suert]
 Pont po:topónimo [n-grama: El Pont de Suert]
@@ -4703,6 +4702,8 @@ Roca po:topónimo
 Rocafort po:topónimo
 Rocas po:topónimo
 Rocha po:topónimo
+Roda po:topónimo [n-grama: Roda de Berà]
+Berà po:topónimo [n-grama: Roda de Berà]
 Rodeiro po:topónimo
 Rodieiros po:topónimo
 Rodís po:topónimo
@@ -5561,6 +5562,8 @@ María po:topónimo [n-grama: Santa María de Ordás]
 Ordás po:topónimo [n-grama: Santa María de Ordás]
 María po:topónimo [n-grama: Santa María de Salceda]
 Salceda po:topónimo [n-grama: Santa María de Salceda]
+María po:topónimo [n-grama: Santa María de Tebra]
+Tebra po:topónimo [n-grama: Santa María de Tebra]
 María po:topónimo [n-grama: Santa María de Traseirexa]
 Traseirexa po:topónimo [n-grama: Santa María de Traseirexa]
 María po:topónimo [n-grama: Santa María de Xeve]
@@ -6060,7 +6063,6 @@ Tauste po:topónimo
 Tavernes po:topónimo [n-grama: Tavernes Blanques]
 Blanques po:topónimo [n-grama: Tavernes Blanques]
 Tazacorte po:topónimo
-Tebra po:topónimo
 Teguise po:topónimo
 Teià po:topónimo
 Teibilide po:topónimo
@@ -6263,7 +6265,6 @@ del po:topónimo [n-grama: Urdiales del Páramo]
 Páramo po:topónimo [n-grama: Urdiales del Páramo]
 Urdilde po:topónimo
 Urduliz po:topónimo
-Urduña po:topónimo
 Uriz po:topónimo
 Urnieta po:topónimo
 Urretxu po:topónimo
@@ -6931,6 +6932,8 @@ Xemein po:topónimo
 Xende po:topónimo
 Xendive po:topónimo
 Xerdiz po:topónimo
+Xerez po:topónimo [n-grama: Xerez da Fronteira]
+Fronteira po:topónimo [n-grama: Xerez da Fronteira]
 Xermade po:topónimo
 Xermar po:topónimo
 Xermeade po:topónimo

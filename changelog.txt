@@ -354,7 +354,11 @@ Cambios desde a versión 13.10.1
     - Encontro das Augas
 
 • galipedia/onomástica/toponimia/localidades/alemaña
+    + Flensburgo
     + Nürburg
+
+• galipedia/onomástica/toponimia/localidades/bélxica
+    + Spa
 
 • galipedia/onomástica/toponimia/localidades/colombia
     • Cartagena de Indias → Cartaxena de Indias
@@ -399,6 +403,7 @@ Cambios desde a versión 13.10.1
     + Pereda de Ancares
     + Requeixo de Seabra
     + Rihonor de Castilla
+    + Roda de Berà
     + San Ciprián
     + San Justo
     + Sorbeira
@@ -409,6 +414,7 @@ Cambios desde a versión 13.10.1
     + Valouta
     + Vilarbón
     + Vilasumil
+    + Xerez da Fronteira
     + Yeles
     + Yepes
     + Yuncler
@@ -418,34 +424,108 @@ Cambios desde a versión 13.10.1
     - Cíes
 
 • galipedia/onomástica/toponimia/localidades/estados-unidos-de-américa
+    + Barrow
     + Duluth
+    + Eureka
     + Greensboro
     + Norfolk
+    + Porcupine
+
+• galipedia/onomástica/toponimia/localidades/finlandia
+    • Maarianhamina → Mariehamn
+    + Karkkila
+    + Loviisa
+    + Pietarsaari
 
 • galipedia/onomástica/toponimia/localidades/francia
     • Saint-Georges-des-Hurtières → Saint-Georges-d'Hurtières
+    + Acigné
+    + Amanlis
+    + Andouillé-Neuville
+    + Antrain
+    + Arbrissel
+    + Argentré-du-Plessis
+    + Aubigné
+    + Availles-sur-Seiche
+    + Baguer-Morvan
+    + Baguer-Pican
+    + Baillé
+    + Bain-de-Bretagne
+    + Bains-sur-Oust
+    + Bais
+    + Balazé
+    + Baulon
+    + Bazouges-la-Pérouse
+    + Beaucé
+    + Bécherel
+    + Bédée
+    + Betton
+    + Billé
+    + Bléruais
+    + Boisgervilly
+    + Boistrudan
+    + Bonnemain
+    + Bourg-des-Comptes
+    + Bourgbarré
+    + Bovel
     + Cardet
     + Céret
+    + La Baussaine
+    + La Bazouge-du-Désert
+    + La Bosse-de-Bretagne
+    + La Bouëxière
+    + La Boussac
+    + La Ville-ès-Nonais
+    + Le Vivier-sur-Mer
     + Montbolo
     + Reynès
+    + Rocamadour
     + Saint-Fargeau-Ponthierry
+    + Saint-Jean-Pied-de-Port
+    + Thonon-les-Bains
+    + Vieux-Vy-sur-Couesnon
+    + Vignoc
+    + Villamée
+    + Visseiche
+    + Vitré
 
 • galipedia/onomástica/toponimia/localidades/italia
+    • Bolzán → Bolzano
+    + Costa di Mezzate
+    + Piacenza
     + Vinci
 
 • galipedia/onomástica/toponimia/localidades/oceanía
     + Temora
 
+• galipedia/onomástica/toponimia/localidades/países-baixos
+    • Flesinga → Vlissingen
+
 • galipedia/onomástica/toponimia/localidades/portugal
+    + Arouca
+    + Dume
+    + Esposende
+    + Estoril
     + Paços de Ferreira
+    + Póvoa de Lanhoso
+    + Vila Nova de Foz Côa
 
 • galipedia/onomástica/toponimia/localidades/qatar
     + Ar Rayyan
 
 • galipedia/onomástica/toponimia/localidades/reino-unido
     + Douglas
+    + Forteviot
+    + Perth
+
+• galipedia/onomástica/toponimia/localidades/romanía
+    + Constanţa
+    + Mangalia
+    + Roșia Montană
+    + Tulcea
 
 • galipedia/onomástica/toponimia/localidades/sudáfrica → galipedia/onomástica/toponimia/localidades/suráfrica
+    + Mvezo
 
 • galipedia/onomástica/toponimia/localidades/turquía
     + Samsun
