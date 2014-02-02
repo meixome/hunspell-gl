@@ -323,17 +323,26 @@ Cambios desde a versión 13.10.1
     + Gorbeia
     + Macizo do Montgrí
     + Monte da Peneda
+    + Monte de Baltar
     + Monte Monseivane
     + Monte Urgull
     + Serra Gamoneda
     - Monte Alba
 
+• galipedia/onomástica/toponimia/accidentes/praias
+    • Praia da Malvarrosa → Praia da Malva-rosa
+    + Praia de Rande
+
 • galipedia/onomástica/toponimia/accidentes/ríos
     + Refuxio de Sigüeiro
+    + Río Angara
     + Río Barcés
+    + Río Bosna
     + Río Carrión
     + Río Cervañiña
+    + Río Ganxes
     + Río Gobia
+    + Río Klang
     + Río Lóuzara
     + Río Notwane
     + Río Onyar
@@ -341,6 +350,8 @@ Cambios desde a versión 13.10.1
     + Río San Lourenzo
     + Río Sousa
     + Río Tay
+    + Río Yamuna
+    - Encontro das Augas
 
 • galipedia/onomástica/toponimia/localidades/alemaña
     + Nürburg
