@@ -1166,6 +1166,18 @@ Cambios desde a versión 13.10.1
     + Granvia L'H
     + La Torrassa
 
+• galipedia/suxestións
+    + apesar → a pesar
+    + burundés/esa → burundiano/a
+    + cercanía → proximidade
+    + cinturón → cinto
+    + emplear → empregar
+    + hundir → afundi
+    + igresia → igrexa
+    + mila → milla
+    + tabla → táboa
+    + terreno → terreo
+
 • iso4217
     - XFU
 

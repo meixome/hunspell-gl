@@ -663,6 +663,9 @@
 # aparte → á parte
 ^aparte$ á_parte
 
+# apesar → a pesar
+^apesar$ a_pesar
+
 # apiedar → apiadar
 ^apied apiad
 ^apiéd apiád
@@ -1143,6 +1146,12 @@ atorníll aparafús
 ^bursátil$ bolsista
 ^bursátiles$ bolsistas
 
+# burundés/esa → burundiano/a
+^burundés$ burundiano
+^burundesa$ burundiana
+^burundeses$ burundianos
+^burundesas$ burundianas
+
 # búsqueda → busca
 ^búsqueda busca
 
@@ -1292,6 +1301,9 @@ atorníll aparafús
 # celda → cela
 ^celda cela
 
+# cercanía → proximidade
+^cercanía proximidade
+
 # cercano → próximo, achegado
 ^cercan próxim
 ^cercan achegad
@@ -1328,6 +1340,9 @@ atorníll aparafús
 
 # cincel → cicel
 ^cince cice
+
+# cinturón → cinto
+^cinturón cinto
 
 # cipaio → sipaio
 ^cipaio sipaio
@@ -2249,6 +2264,12 @@ atorníll aparafús
 # empleado → empregado
 ^emplead empregad
 
+# emplear → empregar
+^emple empreg
+^emple empregu
+^emplé emprég
+^emplé emprégu
+
 # empleo → emprego
 ^empleo emprego
 
@@ -3072,11 +3093,18 @@ atorníll aparafús
 # húmero → úmero
 ^húmero úmero
 
+# hundir → afundir
+^hund afund
+^húnd afúnd
+
 # icono → icona
 ^icono icona
 
 # iglesia → igrexa
 ^iglesia igrexa
+
+# igresia → igrexa
+^igresia igrexa
 
 # implementar → poñer en funcionamento
 # COMPLICADA
@@ -3421,6 +3449,9 @@ ja ha
 
 # miércoles → mércores
 ^miércoles$ mércores
+
+# mila → milla
+^mila milla
 
 # mín → min
 ^mín$ min
@@ -5033,6 +5064,9 @@ móvil móbil
 # suxo → sucio
 ^sux suci
 
+# tabla → táboa
+^tabla táboa
+
 # tabolete → tallo
 ^tabolete tallo
 
@@ -5154,6 +5188,9 @@ móvil móbil
 
 # terramoto → terremoto
 ^terramoto terremoto
+
+# terreno → terreo
+^terreno terreo
 
 # terrapleno → terraplén
 ^terrapleno terraplén
