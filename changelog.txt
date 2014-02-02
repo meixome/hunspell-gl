@@ -531,16 +531,23 @@ Cambios desde a versión 13.10.1
     + Samsun
 
 • galipedia/onomástica/toponimia/lugares/galicia
+    + A Agra Boa
     + A Agra da Pedra
     + A Agra de Samosteiro
+    + A Agra do Fondo
+    + A Agramuíña
     + A Aldeíña
     + A Alta de Pereira
+    + A Ameixida
     + A Angustia
     + A Babilonia
     + A Baia
     + A Banda
     + A Barcala
+    + A Bouciña
+    + A Braña Aberta
     + A Cachorreira
+    + A Cambra
     + A Canliña
     + A Carcasía
     + A Caroada
@@ -548,11 +555,15 @@ Cambios desde a versión 13.10.1
     + A Casa Queimada
     + A Castañeira
     + A Catía
+    + A Cocheiriza
     + A Concheira
     + A Conga
+    + A Conlleira
     + A Costa de Santa Ana
+    + A Costa do Cuco
     + A Costaneira
     + A Couzada
+    + A Cova de Xerpe
     + A Covada
     + A Covasa
     + A Covecha
@@ -568,31 +579,43 @@ Cambios desde a versión 13.10.1
     + A Fialla
     + A Fiosa
     + A Fonte do Espiño
+    + A Fonte Seca
     + A Fontecuba
+    + A Fonteíña
+    + A Formilla
     + A Fortaleza
     + A Gaiteira
     + A Herdadiña
     + A Horta da Zapateira
     + A Ibia
+    + A Insuela
+    + A Lagoíña
     + A Lamasaída
     + A Lombiña
     + A Loxe
     + A Manga
     + A Mercé
     + A Mirandela
+    + A Mureira
     + A Nespreira
     + A Pagueira
     + A Palela
     + A Pata
     + A Patiña
     + A Pavana
+    + A Pedra da Bouza
+    + A Pedra do Pino
+    + A Pedra Pateira
     + A Pedrachán
     + A Pena do Ouro
+    + A Pendente
+    + A Perdigoteira
     + A Perouta
     + A Pezoca
     + A Pobanza
     + A Pobra do Caramiñal
     + A Ponte Barbanza
+    + A Ponte da Braña
     + A Ponte de Argalo
     + A Ponte de Cela
     + A Ponte de San Francisco
@@ -601,19 +624,27 @@ Cambios desde a versión 13.10.1
     + A Rasa de Abaixo
     + A Rasa de Arriba
     + A Recosta
+    + A Ribeira de Creo
     + A Ribeira do Freixo
+    + A Ribeira do Maio
+    + A Ribeira do Uía
     + A Solana
     + A Tasca
     + A Torriña
+    + A Viña do Cabezal
     + A Virxe do Monte
+    + A Vouga
     + A Xentiña
     + A Xurisdición
     + Abeleiras de Abaixo
     + Abeleiras de Arriba
     + Abruñeiras
     + Aceredo
+    + Aducil
+    + Agro da Cuña
     + Airapadrón
     + Albeida
+    + Almansa
     + Alvariza
     + Ansamonde
     + Apartada
@@ -621,9 +652,17 @@ Cambios desde a versión 13.10.1
     + Argote
     + Arillo
     + Arrigada
+    + As Avesadas
+    + As Brañas do Cabo
     + As Camposeiras
+    + As Carolinas
+    + As Cartas
     + As Castarnelas
+    + As Chiscas
+    + As Escobias
     + As Gobernas
+    + As Hedreiras
+    + As Laxes do Castelo
     + As Longras
     + As Minas de San Fins
     + As Patiñas
@@ -632,8 +671,10 @@ Cambios desde a versión 13.10.1
     + As Romeiras
     + As Taras
     + Ascariz
+    + Axeitos
     + Balcaide
     + Baldrei
+    + Banda ó Rio
     + Bandaseca
     + Bandebó
     + Banzas
@@ -641,10 +682,16 @@ Cambios desde a versión 13.10.1
     + Bargo
     + Becollo
     + Beiramar
+    + Belles de Arriba
     + Bendimón
+    + Bico de Mar
     + Boel
+    + Boiro de Arriba
+    + Bornalle
     + Bouza Nova
+    + Breiro
     + Breixo
+    + Bretal
     + Bribes Pequeno
     + Briñidelo
     + Brión de Abaixo
@@ -654,20 +701,32 @@ Cambios desde a versión 13.10.1
     + Bulleiro
     + Buscalque
     + Cabana Moura
+    + Cabanas de Abaixo
+    + Cabanas de Ferro
+    + Cabanas de Loureiro
     + Cabío
     + Cadreche
     + Caíños
+    + Callao
     + Calveliño
     + Cambeiro de Abaixo
     + Cambeiro de Arriba
     + Camiño do Raposo
+    + Campo da Agra
     + Campo de Lamas
     + Campomuíños
     + Cando de Abaixo
     + Cando de Arriba
     + Canide
+    + Carballiños
     + Carleo de Abaixo
     + Carleo de Arriba
+    + Carolo
+    + Carreiriña
+    + Casal de Maus
+    + Casalnovo
+    + Casalpaio
+    + Casanande
     + Casbeiro
     + Casonel
     + Castrotañe
@@ -676,8 +735,10 @@ Cambios desde a versión 13.10.1
     + Cepido
     + Cercias
     + Cernande
+    + Cerradas
     + Chaioso
     + Chelo
+    + Chimpín
     + Cividás
     + Cobazas
     + Codes
@@ -686,13 +747,22 @@ Cambios desde a versión 13.10.1
     + Comparada
     + Condús
     + Corgo
+    + Coroso
     + Coruxas
     + Coruxo de Abaixo
     + Coruxo de Arriba
     + Coruxos
     + Costanza
+    + Coveliño
+    + Creo
+    + Cristal
     + Croído
+    + Cruceiro de Vao
+    + Cudieiros
     + Curral de Orro
+    + Deán Grande
+    + Deán Pequeno
+    + Detrás das Figueiras
     + Drozo
     + Eirís
     + Eiroa
@@ -703,24 +773,38 @@ Cambios desde a versión 13.10.1
     + Filgueiro
     + Fontaíña
     + Fonte Pernal
+    + Fonte Ramil
+    + Fonteneixe
     + Fontenlos
+    + Fóra de Portas
     + Formigueiro
+    + Forxás de Montes
     + Fraguiña
     + Franzomel
+    + Frións
     + Ganceiros
     + Gatañal
+    + Goda
     + Graduíl
+    + Gude
     + Guiende
     + Gulfián
+    + Iñeiras
     + Labarta
     + Laiantes de Abaixo
     + Laiantes de Arriba
     + Lamastelle
+    + Lameiro Quente
     + Lantarou
     + Lavacolla
     + Lestaio
+    + Lestón de Abaixo
     + Lezoce
+    + Liboi
+    + Lidón
     + Listres
+    + Lixó
+    + Lobeiras
     + Locai
     + Lodeira
     + Loios
@@ -740,24 +824,37 @@ Cambios desde a versión 13.10.1
     + Mastontán
     + Maxide
     + Mediavila
+    + Meixe
     + Meixón Frío
+    + Mexilloeiro
     + Moces
+    + Modorróns
+    + Mondelo
+    + Montevixán
     + Morouzo
     + Morzán
+    + Mosqueiros
+    + Muíño da Correa
     + Nebrixe
     + Negral
+    + O Agro da Area
     + O Agro de Quinta
     + O Alto do Rodicio
+    + O Ancoradoiro
     + O Arcebispo
+    + O Bacelo
     + O Bañil
     + O Bargo
+    + O Brañal
     + O Brenzo
     + O Camiño da Poza
     + O Camiño de Vieiro
     + O Campamento
     + O Cantón
+    + O Caramecheiro
     + O Cereixeiro
     + O Chan de Maroñas
+    + O Cochón
     + O Colo de Arca
     + O Conchido
     + O Coroto
@@ -766,17 +863,24 @@ Cambios desde a versión 13.10.1
     + O Couto de Abaixo
     + O Cruceiro da Barquiña
     + O Cruceiro de Barro
+    + O Cruceiro de Marcos
     + O Cruceiro de Roo
     + O Cubo
     + O Curraliño
+    + O Espiñeirido
+    + O Fogareiro
     + O Hórreo
     + O Inferniño
     + O Lagar
+    + O Lixó
     + O Lucín
     + O Lugariño
     + O Madeiro
+    + O Maio
     + O Mesón da Auga
+    + O Miñoteiro
     + O Mollón
+    + O Monte da Laxa
     + O Monte de Casal
     + O Monte do Bolo
     + O Obre de Abaixo
@@ -794,61 +898,86 @@ Cambios desde a versión 13.10.1
     + O Porto de Dexo
     + O Pumadiño
     + O Puxedo
+    + O Queiro
     + O Rabuñeiro
     + O Rego de Hortas
     + O Reguendo
+    + O Retiro
     + O Río Lérez
     + O Robalo
+    + O Rueiro do Adro
+    + O Rueiro do Porto
     + O Sanguilexo
+    + O Sobreiral
+    + O Touro
+    + O Uía
     + O Toxedo
     + O Trevoedo
     + O Valoiro
     + O Vilar de Outes
+    + O Vilar do Mato
     + O Volteiro
     + O Xabrón
     + O Xobre
     + Ogos
+    + Olás
+    + Olveira da Igrexa
+    + Olveira de Arriba
     + Oroña
     + Orro
     + Os Agros da Vila
+    + Os Areeiros
     + Os Areos
+    + Os Buxos
     + Os Carragás
     + Os Montiños
     + Os Muíños de Naia
+    + Os Páramos
+    + Os Queimadoiros
     + Ousesende
     + Outonín
     + Ouxo
     + Padrendo
     + Paioso
+    + Pancenteo
     + Parameiras
+    + Parte ó Río
     + Pascual
+    + Pé do Corniño
     + Pedregueiras
     + Pedrosiño
     + Peiraio
     + Pena Oubiña
     + Penacova
     + Penatouro
+    + Penavaqueira
     + Penisqueira
     + Pinar do Río
     + Piúca
     + Ponte Barxas
     + Ponte de San Francisco
+    + Ponte Goiáns
     + Porrido
     + Portalaxe
     + Porto Cabeiro
     + Portobravo
     + Portocarro
+    + Portochouso
     + Portodechán
     + Portofreixo
+    + Praderrei
     + Praducelo
     + Prancibe
+    + Pregal
     + Quintenla
     + Rasa
     + Rascacú
     + Rates
+    + Rebola
     + Rego de Horta
     + Regodaíde
     + Regulfe
+    + Reirís
     + Riatelo
     + Riba da Fonte
     + Riba de Mar
@@ -857,66 +986,101 @@ Cambios desde a versión 13.10.1
     + Ribiñas
     + Río da Loba
     + Río de Cestos
+    + Rocapillón
     + Romardeiro
     + Roncesvales
     + Roo de Arriba
     + Rosamonde
+    + Rosomil
     + Roupión
+    + Roufigueira
     + Rúa do Ferreiro
     + Rueiro
     + Ruibelo
     + Rumille
     + Sabardes
+    + Sabartán
     + Saborido
+    + Sabuceda
     + Sacido
+    + Salmón
+    + Salpurido
     + Saltoxo
     + Sálvora
     + Sameiro
+    + San Amedio
     + San Baínto
+    + San Francisco
     + San Roque de Crespos
     + San Roquiño
+    + Sancortes
     + Sande de Abaixo
     + Sande de Arriba
     + Sanguiñal
+    + Santa Uxía de Ribeira
     + Santián
     + Santo Isidro
     + Sapiñeira
     + Sarnón
     + Sarnoso
+    + Sarreiras
     + Sarro
+    + Sealo
+    + Sebre
+    + Sego
     + Seilán
+    + Seisidre
     + Sende
     + Serrapio
     + Servia
     + Siavo
     + Sigüeiro
+    + Sirves
     + Sisaldo
+    + Sistamares
     + Sobreguexe
     + Sobreviñas
+    + Sobrido
+    + Somorto
+    + Soutoxuste
+    + Subión
     + Sueiro
+    + Surribos
     + Suviña
     + Talagra
     + Tavilo
+    + Taxes
+    + Teira
+    + Tenencia
     + Terelle
     + Tobe
     + Tornil
+    + Torreiro
     + Torrelos
     + Toscaña
     + Trasporto
+    + Trión
     + Valbargos
     + Valeixo
+    + Valmourisco
     + Vascós
     + Vichocuntín
+    + Vieta
     + Vila Clara
     + Vilar de Reconco
     + Vilardigo
     + Vilasobroso
     + Viro
     + Vivenzo
+    + Vixán
+    + Xantoque
+    + Xarás
     + Xaz
     + Xeás
     + Xendil
+    + Xenxides
     + Xilvir
+    + Ximonde
     + Xoez
     - Cíes
     - O Regato
