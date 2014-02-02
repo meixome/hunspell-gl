@@ -15,7 +15,7 @@ rm -rf ./build
 # Construír e empaquetar o corrector principal (DRAG).
 scons aff=norma dic=drag rep=comunidade,galipedia code=${code}
 pushd build &> /dev/null
-packageName="hunspell-gl-volg-${version}"
+packageName="hunspell-gl-drag-${version}"
 mkdir ${packageName}
 mv ${code}.aff ${packageName}/${code}.aff
 mv ${code}.dic ${packageName}/${code}.dic
