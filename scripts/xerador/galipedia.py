@@ -176,9 +176,11 @@ class GalipediaGenerator(generator.Generator):
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
         for name in sorted(self.entries, cmp=collator.compare):
             if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
+                ngramas = set()
                 for ngrama in name.split(u" "):
                     ngrama = ngrama.replace(u",", u"")
-                    if ngrama not in generator.wordsToIgnore: # N-gramas innecesarios por ser vocabulario galego xeral.
+                    if ngrama not in generator.wordsToIgnore and ngrama not in ngramas: # N-gramas innecesarios por ser vocabulario galego xeral.
+                        ngramas.add(ngrama)
                         content += u"{ngrama} po:{partOfSpeech} [n-grama: {name}]\n".format(ngrama=ngrama, name=name, partOfSpeech=self.partOfSpeech)
             else:
                 if name not in generator.wordsToIgnore:
@@ -248,10 +250,10 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares"],
-        categoryOfSubcategoriesNames = [u"Illas por mar", u"Illas por países"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares", u"Illas dos Grandes Lagos"],
+        categoryOfSubcategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas e arquipélagos por país", u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
-        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas de Asia|Illas de Marrocos|Illas galegas|Illas por mar|Illas por países)$"
+        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Asia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países)$"
     ))
 
     generators.append(GalipediaGenerator(

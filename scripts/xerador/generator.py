@@ -92,6 +92,7 @@ wordsToIgnore = (
     u"Gran", u"Grande", u"Grandes",
     u"Igrexa", u"Igrexas",
     u"Illa", u"Illas",
+    u"Illote", u"Illotes",
     u"Imperio", u"Imperios",
     u"Insua", u"Insuas",
     u"Interior", u"Interiores",

@@ -162,11 +162,160 @@ Cambios desde a versión 13.10.1
     • Grenlandia → Groenlandia
     • Hébridas de Dentro → Hébridas Interiores
     • Hébridas de Fóra → Hébridas Exteriores
+    • Illa Prince Edward → Illa do Príncipe Eduardo
     • Illa Trindade → Illa Trindad
     • Miconos → Míconos
     • San Bartolomé → Saint-Barthélemy
     • Trindade e Tobago → Trinidad e Tobago
-    + Illas do arquipélago das Cook
+    + Arquipélago de Haida Gwaii
+    + Arrecife Carondelet
+    + Arrecife Indispensable
+    + Arrecife Winslow
+    + Atol Abaiang
+    + Atol Abemama
+    + Atol Ahe
+    + Atol Ahunui
+    + Atol Akiaki
+    + Atol Amanu
+    + Atol Anaa
+    + Atol Anuanuraro
+    + Atol Anuanurunga
+    + Atol Apataki
+    + Atol Aranuka
+    + Atol Aratika
+    + Atol Arorae
+    + Atol Arutua
+    + Atol Atafu
+    + Atol Beru
+    + Atol Butaritari
+    + Atol de Cosmoledo
+    + Atol Diego García
+    + Atol Faaite
+    + Atol Fakahina
+    + Atol Fakarava
+    + Atol Fangatau
+    + Atol Fangataufa
+    + Atol Hao
+    + Atol Haraiki
+    + Atol Hereheretue
+    + Atol Hikueru
+    + Atol Hiti
+    + Atol Katiu
+    + Atol Kauehi
+    + Atol Kaukura
+    + Atol Kayangel
+    + Atol Maiana
+    + Atol Makemo
+    + Atol Manihi
+    + Atol Manihiki
+    + Atol Manuhangi
+    + Atol Marakei
+    + Atol María Leste
+    + Atol Marokau
+    + Atol Marutea Norte
+    + Atol Marutea Sur
+    + Atol Mataiva
+    + Atol Matureivavao
+    + Atol Maupihaa
+    + Atol Morane
+    + Atol Motu One
+    + Atol Motutunga
+    + Atol Nanumea
+    + Atol Napuka
+    + Atol Nengonengo
+    + Atol Niau
+    + Atol Nihiru
+    + Atol Nonouti
+    + Atol Nukufetau
+    + Atol Nukulaelae
+    + Atol Nukutavake
+    + Atol Nukutepipi
+    + Atol Onotoa
+    + Atol Ontong Java
+    + Atol Orona
+    + Atol Paraoa
+    + Atol Penrhyn
+    + Atol Pinaki
+    + Atol Puka Puka
+    + Atol Pukaruha
+    + Atol Rakahanga
+    + Atol Rangiroa
+    + Atol Raraka
+    + Atol Raroia
+    + Atol Ravahere
+    + Atol Reao
+    + Atol Reitoru
+    + Atol Rekareka
+    + Atol Taenga
+    + Atol Tahanea
+    + Atol Taiaro
+    + Atol Takapoto
+    + Atol Takaroa
+    + Atol Takume
+    + Atol Tarawa
+    + Atol Tatakoto
+    + Atol Tauere
+    + Atol Tekokota
+    + Atol Tematangi
+    + Atol Temoe
+    + Atol Tenararo
+    + Atol Tenarunga
+    + Atol Tepoto Norte
+    + Atol Tepoto Sur
+    + Atol Tikehau
+    + Atol Toau
+    + Atol Tuanake
+    + Atol Tureia
+    + Atol Vahanga
+    + Atol Vahitahi
+    + Atol Vairaatea
+    + Atol Vanavana
+    + Blenheim Reef
+    + Eagle Islands
+    + Egmont Islands
+    + Funafuti
+    + Great Chagos Bank
+    + Grupo Acteón
+    + Illa Aukena
+    + Illa Betio
+    + Illa Birnie
+    + Illa de Astove
+    + Illa de Nikumaroro
+    + Illa Enderbury
+    + Illa Kanton
+    + Illa Mangareva
+    + Illa Rawaki
+    + Illa Tikei
+    + Illas da Decepción
+    + Illas do Duque de Gloucester
+    + Illas do Rei Xurxo
+    + Illas Dous Grupos
+    + Illas Fénix
+    + Illas Kuria
+    + Illas Raevski
+    + Illas Rowa
+    + Illote Funaota
+    + Illote Lakena
+    + Illote Lefogaki
+    + Illote Motufetau
+    + Illote Motuloa do Sur
+    + Illote Niualuka
+    + Illote Niuatui
+    + Illote Oua
+    + Illote Sakalua
+    + Illote Talalolae
+    + Illote Teafatule
+    + Illote Teafuaniua
+    + Illote Teafuanonu
+    + Illote Teafuone
+    + Illote Temotufoliki
+    + Illote Temotuloto
+    + Illote Tokinivae
+    + Pakantou
+    + Peros Banhos
+    + Pongalei
+    + Salomon Islands
+    + Sikaiana
     + Uoleva
 
 • galipedia/onomástica/toponimia/accidentes/montañas
