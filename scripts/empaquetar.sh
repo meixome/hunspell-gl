@@ -12,7 +12,7 @@ pushd $rootFolder &> /dev/null
 # Eliminar o cartafol de construción existente se o hai.
 rm -rf ./build
 
-# Construír e empaquetar o corrector principal (VOLG).
+# Construír e empaquetar o corrector principal (DRAG).
 scons aff=norma dic=drag rep=comunidade,galipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-volg-${version}"
