@@ -1113,12 +1113,16 @@ Cambios desde a versión 13.10.1
     + II República Portuguesa
     + Imperio do Brasil
     + Indias Occidentais
+    + Irán
     + Malawi
     + Nova Celandia
+    + Paquistán
     + Paraguai
+    + Persia
     + Primeira República Portuguesa
     + Província Ultramarina de Angola
     + Provincia Ultramarina de Mozambique
+    + Reino de Castela
     + Reino de Galiza
     + Reino de Islandia
     + Reino de Portugal
@@ -1131,11 +1135,14 @@ Cambios desde a versión 13.10.1
     + República de Cimbabue
     + República de Costa do Marfil
     + República de Guinea
+    + República de Iraq
     + República de San Mariño
     + República do Congo
+    + República do Sudán
     + República Gabonesa
     + República Popular de Bangladesh
     + República Portuguesa
+    + República Unida de Tanzania
     + Uzbequistán
     - Paquistán Oriental
     - Reino de Macedonia
@@ -1144,6 +1151,20 @@ Cambios desde a versión 13.10.1
     • O Val Miñor → Val Miñor
     + Bisbarra de Seabra
     + Comarca de Requena-Utiel
+    - Ceuta
+    - Melilla
+
+• galipedia/onomástica/toponimia/rexións/rusia
+    + Adiguesia
+    + Bashkortostán
+    + Daguestán
+    + República de Carelia
+
+• galipedia/onomástica/toponimia/zonas/españa
+    + Centre
+    + Collblanc
+    + Granvia L'H
+    + La Torrassa
 
 • iso4217
     - XFU
