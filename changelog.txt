@@ -153,8 +153,10 @@ Cambios desde a versión 13.10.1
     + Igrexa de Santa María de Goó
     + Igrexa de Santa Mariña Dozo
     + Igrexa de Santiago de Redondela
+    + Mosteiro de San Martín de Castañeda
     + Real Santuario del Santísimo Cristo de La Laguna
     + Santuario da Virxe da Barca
+    + Santuario de Santa María de África
 
 • galipedia/onomástica/toponimia/accidentes/illas
     • Grenlandia → Groenlandia
