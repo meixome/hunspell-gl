@@ -1589,6 +1589,13 @@ Cambios desde a versión 13.10.1
     + terreno → terreo
     + zigurat → cigurat
 
+• galizionario (novo)
+    • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.
+    • No futuro, cando chegue a estar á par co módulo da Galipedia, substituirá a este módulo, por ser o Galizionario un
+      proxecto máis axeitado para utilizar de base de datos de vocabulario.
+    • De momento o módulo unicamente contén topónimos, distribuídos entre «topónimos/xeral.dic» e
+      «topónimos/galicia.dic», imitando as categorías do proxecto.
+
 • iso4217
     - LVL
     + USS

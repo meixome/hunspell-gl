@@ -54,7 +54,7 @@ Módulos dispoñíbeis:
 
 
     DICIONARIOS DE NÚCLEOS DE PALABRAS
-    
+
     comunidade      Vocabulario da comunidade do corrector de galego Hunspell
                     Termos engadidos ao corrector sen indicar unha fonte que os apoie.
                     Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
@@ -72,12 +72,12 @@ Módulos dispoñíbeis:
 
                     • correcto. Vocabulario correcto.
                     • tolerado. Vocabulario tolerado.
-                    
+
     galipedia       Galipedia
                     http://gl.wikipedia.org/wiki/Portada
-                    
+
                     Submódulos:
-                        
+
                     • onomástica. Nomes propios.
                       • arquitectura.
                         • relixión. Pezas de arquitectura relixiosa.
@@ -166,6 +166,14 @@ Módulos dispoñíbeis:
                           • españa
                     • xeografía. Xeografía.
                       • accidentes. Accidentes xeográficos.
+
+    galizionario    Galizionario
+                    https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal
+
+                    Submódulos:
+
+                    • toponimia. Topónimos.
+                        • galicia
 
     iso639          Códigos de linguas (ISO 639)
                     http://gl.wikipedia.org/wiki/ISO_639
