@@ -135,10 +135,18 @@ Cambios desde a versión 13.10.1
     • Substitúe ao «volga» como módulo principal de vocabulario.
     • O módulo contén dous ficheiros de vocabulario:
         • «correcto.dic» está copiado do módulo «volga», a partir do cal recibiu os seguintes cambios:
+            • dedicar (+pronominal)
             • delirium tremens → delírium tremens
             • ganés → ghanés
+            • plutón/s → Plutón
+            • saturno/s → Saturno
+            • Venus → venus
             + carrocería, carrozaría
+            + Marte
+            + Neptuno
+            + Urano
             + vinculación
+            + Xúpiter
             - anque
             - apeadeiro
             - columpio
@@ -157,6 +165,8 @@ Cambios desde a versión 13.10.1
     + Real Santuario del Santísimo Cristo de La Laguna
     + Santuario da Virxe da Barca
     + Santuario de Santa María de África
+
++ galipedia/onomástica/astronomía/planetas
 
 • galipedia/onomástica/toponimia/accidentes/illas
     • Grenlandia → Groenlandia

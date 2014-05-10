@@ -81,6 +81,8 @@ Módulos dispoñíbeis:
                     • onomástica. Nomes propios.
                       • arquitectura.
                         • relixión. Pezas de arquitectura relixiosa.
+                      • astronomía
+                        • planetas
                       • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
                           • continentes

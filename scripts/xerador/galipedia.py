@@ -10,6 +10,7 @@ galipedia = pywikibot.Site(u"gl", u"wikipedia")
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")
+numberPattern = re.compile(u"^[0-9]+$")
 
 def getCategoryName(category):
     return category.title()[10:]
@@ -92,7 +93,7 @@ class GalipediaGenerator(generator.Generator):
 
     def parsePageName(self, pageName):
 
-        pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
+        pageName = re.sub(parenthesis, u"", pageName).strip() # Eliminar contido entre parénteses.
 
         if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
             return
@@ -179,7 +180,7 @@ class GalipediaGenerator(generator.Generator):
                 ngramas = set()
                 for ngrama in name.split(u" "):
                     ngrama = ngrama.replace(u",", u"")
-                    if ngrama not in generator.wordsToIgnore and ngrama not in ngramas: # N-gramas innecesarios por ser vocabulario galego xeral.
+                    if ngrama not in generator.wordsToIgnore and ngrama not in ngramas and not numberPattern.match(ngrama): # N-gramas innecesarios por ser vocabulario galego xeral.
                         ngramas.add(ngrama)
                         content += u"{ngrama} po:{partOfSpeech} [n-grama: {name}]\n".format(ngrama=ngrama, name=name, partOfSpeech=self.partOfSpeech)
             else:
@@ -245,6 +246,15 @@ def loadGeneratorList():
         invalidPagePattern = u"^(Modelo:|{pattern}|Galería de imaxes)".format(pattern=pattern),
         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
         invalidCategoryPattern = u"^(Imaxes) "
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/astronomía/planetas.dic",
+        partOfSpeech = u"nome propio",
+        categoryNames = [u"Planetas"],
+        invalidPagePattern = u"^(Lista d|Planeta anano$|Planeta($| ))",
+        validCategoryPattern = u"^(Candidatos a planeta|Planetas |Plutoides$)",
+        invalidCategoryPattern = u"^Sistemas planetarios$"
     ))
 
     generators.append(GalipediaGenerator(
