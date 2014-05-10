@@ -1108,66 +1108,119 @@ Cambios desde a versión 13.10.1
     - O Regato
 
 • galipedia/onomástica/toponimia/países
+    • Belice → Belize
     • Benín → Benin
+    • Camboxa → Cambodja, Reino de Cambodja
     • Grenlandia → Groenlandia
-    • O Salvador → El Salvador
+    • Iberia caucásica → Reino de Iberia
     • Reino de Sardeña → Reino da Sardeña
     • República de Benín → República de Benin
     • República de Botsuana → República de Botswana
-    • República de Burquina Faso → Burkina Faso
+    • República de Burquina Faso → Burkina Faso, Burquina Faso
     • República de Gana → República de Ghana
     • Sudáfrica → Suráfrica
+    • Timor-Leste → Timor Leste
     • Trindade e Tobago → República de Trinidad e Tobago
+    • República de Turkmenistán → República de Turcomenistán, Turkmenistán
     + África Occidental Portuguesa
     + África Oriental Portuguesa
     + Antiga República Iugoslava de Macedonia
+    + Atamanato
+    + Atamanato cosaco
     + Botswana
     + Burundi
     + Bután
+    + Cidade Libre de Cracovia
+    + Cidade libre, independente e estritamente neutral de Cracovia
     + Comores
     + Congo-Brazzaville
     + Ditadura Nacional
+    + Djibuti
+    + Ducado de Prusia
     + Estado da África Oriental
     + Estado de Angola
     + Estado de Eritrea
+    + Estado de Ucraína
+    + Estado Libre de Prusia
+    + Estado ruso antigo
+    + Estado ucraíno
     + Gambia
+    + Gana
     + Ghana
+    + Gran Ducado de Moscova
+    + Gran Ducado de Vladímir-Súzdal
+    + Hetmanato
+    + Hetmanato cosaco
+    + Hohenzollern
+    + Hohenzollern-Hechingen
+    + II Hetmanato
     + II República Portuguesa
     + Imperio do Brasil
     + Indias Occidentais
     + Irán
+    + Kenya
+    + Khanato de Crimea
     + Malawi
-    + Nova Celandia
+    + Marca de Carniola
+    + Margraviato de Carniola
+    + Moscovia
+    + Osetia do Sur
+    + País de Hohenzollern
     + Paquistán
     + Paraguai
     + Persia
     + Primeira República Portuguesa
+    + Principado de Moscova
+    + Principado de Vladímir-Súzdal
+    + Provincia de Hohenzollern
     + Província Ultramarina de Angola
     + Provincia Ultramarina de Mozambique
     + Reino de Castela
+    + Reino de Galicia e Lodomeria
     + Reino de Galiza
     + Reino de Islandia
     + Reino de Portugal
+    + Reino de Prusia
     + Reino do Brasil
     + Reino Unido de Portugal, Brasil e o Algarve
     + República Árabe de Exipto
+    + República da India
+    + República das Illas Fidxi
     + República de Angola
     + República de Camerún
     + República de Chad
     + República de Cimbabue
     + República de Costa do Marfil
+    + República de Cracovia
     + República de Guinea
-    + República de Iraq
+    + República de Nóvgorod
     + República de San Mariño
     + República do Congo
     + República do Sudán
     + República Gabonesa
+    + República Nacional de Ucraína Occidental
+    + República Nacional Ucraína
     + República Popular de Bangladesh
+    + República Popular de Crimea
+    + República Popular de Ucraína
+    + República Popular de Ucraína Occidental
     + República Portuguesa
+    + República Socialista Soviética de Táurida
+    + República Socialista Soviética de Tavria
+    + República Soviética de Donetsk
+    + República Soviética de Donetsk-Krivoi Rog
     + República Unida de Tanzania
+    + Rodesia do Sur
+    + Rus de Kiev
+    + Rus de Kíev
+    + Rus' de Kíev
+    + Rus de Vladímir-Súzdal
+    + Tsarato de Rusia
+    + Tsarato ruso
     + Uzbequistán
     - Paquistán Oriental
     - Reino de Macedonia
+    - República de Polonia
 
 • galipedia/onomástica/toponimia/rexións/españa
     • O Val Miñor → Val Miñor

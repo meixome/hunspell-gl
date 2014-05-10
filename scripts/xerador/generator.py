@@ -50,6 +50,7 @@ wordsToIgnore = (
     u"Barrio", u"Barrios",
     u"Basílica", u"Basílicas",
     u"Branca", u"Brancas", u"Branco", u"Brancos",
+    u"Británica", u"Británicas", u"Británico", u"Británicos",
     u"Beira", u"Beiras",
     u"Cabo",
     u"Camiño", u"Camiños",
@@ -109,6 +110,7 @@ wordsToIgnore = (
     u"Menor", u"Menores",
     u"Monte", u"Montes",
     u"Mosteiro", u"Mosteiros",
+    u"Nacional", u"Nacionais",
     u"Nosa", u"Nosas", u"Noso", u"Nosos",
     u"Nova", u"Novas", u"Novo", u"Novos",
     u"Norte",
@@ -154,6 +156,7 @@ wordsToIgnore = (
     u"Socialista", u"Socialistas",
     u"Sol", u"Soles",
     u"Souto", u"Soutos",
+    u"Soviética", u"Soviéticas", u"Soviético", u"Soviéticos",
     u"Subrexión", u"Subrexións",
     u"Sur",
     u"Templo", u"Templos",
@@ -164,8 +167,9 @@ wordsToIgnore = (
     u"Veiga", u"Veigas",
     u"Vella", u"Vellas", u"Vello", u"Vellos",
     u"Verde", u"Verdes",
-    u"Vila", u"Vilas"
+    u"Vila", u"Vilas",
     u"Vilar", u"Vilares",
+    u"Virxe", u"Virxes",
 
     # Ordinais. Por exemplo, «Cuarta República».
     u"Primeira", u"Primeiras", u"Primeiro", u"Primeiros",

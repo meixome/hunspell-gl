@@ -116,7 +116,7 @@ class GalipediaGenerator(generator.Generator):
         firstSentence = getFirstSencenteFromPageContent(pageContent)
         if firstSentence is None:
             raise Exception
-        boldEntry = re.compile(u"\'\'\'([^\']+)\'\'\'")
+        boldEntry = re.compile(u"\'\'\'(.*?)\'\'\'")
         matches = boldEntry.findall(firstSentence)
         if len(matches) == 0:
             raise Exception
