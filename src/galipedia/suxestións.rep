@@ -436,6 +436,9 @@
 # alemanes → alemáns
 ^alemanes$ alemáns
 
+# Alemania → Alemaña
+^Alemania$ Alemaña
+
 # alevosía → aleivosía
 ^alevosía aleivosía
 
@@ -491,6 +494,10 @@
 
 # alrededor → arredor
 ^alrededor arredor
+
+# altavoz → altofalante
+^altavoz$ altofalante
+^altavoces$ altofalantes
 
 # aluguer → alugueiro
 ^aluguer$ alugueiro
@@ -878,6 +885,9 @@ atorníll aparafús
 ^aun unifiqu
 ^aún unifíc
 ^aún unifíqu
+
+# austriaco → austríaco
+^austriac austríac
 
 # automóvil → automóbil
 ^automóvil automóbil
@@ -1479,6 +1489,30 @@ atorníll aparafús
 ^concretiz concret
 ^concretíc concrét
 ^concretíz concrét
+
+
+# concurrir → concorrer
+
+^concurri concorre  # infinitivo
+^concurrí concorré  # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/copretérito
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+
+^concu conco        # participio
+^concú concú        # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+                    # imperativo negativo
+
 
 # condear → condenar (e condena)
 ^conde conden
@@ -2496,6 +2530,15 @@ atorníll aparafús
 ^envexezá avellé     # imperativo afirmativo/2PR,4P,5PR
 ^envexéza avélle
 
+
+# envidia → envexa
+^envidia$ envexa
+
+# envidiar → envexar
+
+^envidi envex
+^envídi envéx
+
 # error → erro
 ^error$ erro
 ^errores$ erros
@@ -2666,6 +2709,10 @@ atorníll aparafús
 
 # estricto → estrito
 ^estricto estrito
+
+# estriñir → estrinxir
+^estriñ estrinx
+^estríñ estrínx
 
 # estructura → estrutura
 ^estructura estrutura
@@ -3233,6 +3280,9 @@ atorníll aparafús
 
 # irrevocable → irrevogable
 ^irrevocable irrevogable
+
+# isla → illa
+^isla illa
 
 # isolar, isolado → illar, illado
 ^isol ill
@@ -5656,6 +5706,9 @@ uir$ uír
 
 # zepelín → cepelín
 ^zepelín cepelín
+
+# zigurat → cigurat
+^zigurat cigurat
 
 # zodiaco → zodíaco
 ^zodiaco zodíaco

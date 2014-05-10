@@ -6,7 +6,6 @@ Cambios desde a versión 13.10.1
 • comunidade/suxestións:
     + -á, -án → -ana, -ano
     + -aba → -ía
-    + Alemania → Alemaña
     + alxebraico → alxébrico
     + -ana, -ano → -á, -án
     + andiven → andei
@@ -1177,16 +1176,24 @@ Cambios desde a versión 13.10.1
     + La Torrassa
 
 • galipedia/suxestións
+    + Alemania → Alemaña
+    + altavoz → altofalante
     + apesar → a pesar
+    + austriaco → austríaco
     + burundés/esa → burundiano/a
     + cercanía → proximidade
     + cinturón → cinto
+    + concurrir → concorrer
     + emplear → empregar
-    + hundir → afundi
+    + envidia, envidiar → envexa, envexar
+    + estriñir → estrinxir
+    + hundir → afundir
     + igresia → igrexa
+    + isla → illa
     + mila → milla
     + tabla → táboa
     + terreno → terreo
+    + zigurat → cigurat
 
 • iso4217
     - LVL
