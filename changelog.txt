@@ -153,17 +153,30 @@ Cambios desde a versión 13.10.1
             • seudónimo
 
 • galipedia/onomástica/arquitectura/relixión
+    + Abadía de Port du Salut
     + Abadía de San Andrés da Veiga de Espiñareda
+    + Casa reitoral do Viso
+    + Catedral de Nosa Señora dos Remedios
+    + Catedral de Palencia
     + Convento de San Francisco de Tui
     + Conxunto relixioso de Abades
     + Igrexa de Nuestra Señora del Azogue
     + Igrexa de Santa María de Goó
     + Igrexa de Santa Mariña Dozo
     + Igrexa de Santiago de Redondela
+    + Igrexa de Santiago de Vigo
+    + Izumo Taisha
+    + Mosteiro de San Cibrao de Montecubeiro
     + Mosteiro de San Martín de Castañeda
+    + Mosteiro de San Millán de la Cogolla
+    + Mosteiro de San Millán de Suso
+    + Mosteiro de San Millán de Yuso
     + Real Santuario del Santísimo Cristo de La Laguna
     + Santuario da Virxe da Barca
     + Santuario de Santa María de África
+    - Pórtico da Gloria (pasouse a «galipedia/onomástica/arte/escultura/relixión»)
+
++ galipedia/onomástica/arte/escultura/relixión
 
 + galipedia/onomástica/astronomía/planetas
 

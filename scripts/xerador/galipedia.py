@@ -258,6 +258,14 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/arte/escultura/relixión.dic",
+        partOfSpeech = u"nome propio",
+        categoryNames = [u"Escultura relixiosa de Galicia"],
+        validCategoryPattern = u"^(Baldaquinos d|Cruceiros d)",
+        invalidCategoryPattern = u"^Imaxes d"
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares", u"Illas dos Grandes Lagos"],
