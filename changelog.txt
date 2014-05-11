@@ -181,15 +181,33 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/astronomía/planetas
 
 • galipedia/onomástica/toponimia/accidentes/illas
+    • A Orchila → La Orchila
+    • Arquipélago Os Monxes → Arquipélago Los Monxes
+    • Caio Salt → Caio Sal
+    • Crooked Island → Illa Crooked
+    • French Frigate Shoals → Fragata Francesa
+    • Gran Turk → Gran Turca
     • Grenlandia → Groenlandia
     • Hébridas de Dentro → Hébridas Interiores
     • Hébridas de Fóra → Hébridas Exteriores
+    • Illa da Irlanda → Illa de Irlanda
+    • Illa King William → Illa do Rei Guillerme
+    • Illa Prince Charles → Illa do Príncipe Carlos
     • Illa Prince Edward → Illa do Príncipe Eduardo
+    • Illa Prince of Wales → Illa do Príncipe de Gales
+    • Illa Prince Patrick → Illa do Príncipe Patricio
     • Illa Trindade → Illa Trindad
+    • Illas Árticas → Illas Árticas do Canadá
+    • Illas Granadinas → Granadinas
     • Miconos → Míconos
+    • Oxeía → Oxeia
     • San Bartolomé → Saint-Barthélemy
     • Trindade e Tobago → Trinidad e Tobago
+    + Arquipélago das Bahamas
+    + Arquipélago das Turcas
     + Arquipélago de Haida Gwaii
+    + Arquipélago de Samoa
+    + Arquipélago de Tokelau
     + Arrecife Carondelet
     + Arrecife Indispensable
     + Arrecife Winslow
@@ -303,12 +321,16 @@ Cambios desde a versión 13.10.1
     + Illa Birnie
     + Illa de Astove
     + Illa de Nikumaroro
+    + Illa dos Monxes
     + Illa Enderbury
     + Illa Kanton
     + Illa Mangareva
     + Illa Rawaki
     + Illa Tikei
+    + Illas Aleutianas
+    + Illas Caicos
     + Illas da Decepción
+    + Illas de Sotavento de Hawai
     + Illas do Duque de Gloucester
     + Illas do Rei Xurxo
     + Illas Dous Grupos
@@ -333,12 +355,22 @@ Cambios desde a versión 13.10.1
     + Illote Temotufoliki
     + Illote Temotuloto
     + Illote Tokinivae
+    + Manhattan
     + Pakantou
     + Peros Banhos
     + Pongalei
     + Salomon Islands
     + Sikaiana
     + Uoleva
+    + Utøya
+    - Al Muharraq
+    - Anguila
+    - Antiga e Barbuda
+    - Bimini
+    - Estados Federados de Micronesia
+    - Illa de Arousa (queda «A Illa de Arousa»)
+    - Samoa Americana
+    - San Tomé e Príncipe
 
 • galipedia/onomástica/toponimia/accidentes/montañas
     + A Pena Negra

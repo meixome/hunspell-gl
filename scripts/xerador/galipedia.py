@@ -15,7 +15,7 @@ numberPattern = re.compile(u"^[0-9]+$")
 def getCategoryName(category):
     return category.title()[10:]
 
-def getFirstSencenteFromPageContent(pageContent):
+def getFirstSentenceFromPageContent(pageContent):
     lines = pageContent.split('\n')
     withinTemplate = False
     for line in lines:
@@ -49,7 +49,7 @@ class GalipediaGenerator(generator.Generator):
         self.pageNames = pageNames
         self.categoryNames = categoryNames
         self.parsingMode = parsingMode
-        if parsingMode not in ["FirstSencente", "Title"]:
+        if parsingMode not in ["FirstSentence", "Title"]:
             print "Warning: Unsupported parsing mode: {mode}".format(mode=parsingMode)
 
         if invalidPagePattern is None:
@@ -112,8 +112,8 @@ class GalipediaGenerator(generator.Generator):
             self.addEntry(pageName)
 
 
-    def parseFirstSencente(self, pageContent):
-        firstSentence = getFirstSencenteFromPageContent(pageContent)
+    def parseFirstSentence(self, pageContent):
+        firstSentence = getFirstSentenceFromPageContent(pageContent)
         if firstSentence is None:
             raise Exception
         boldEntry = re.compile(u"\'\'\'(.*?)\'\'\'")
@@ -126,17 +126,17 @@ class GalipediaGenerator(generator.Generator):
 
 
     def parsePage(self, page):
-        if self.parsingMode == "FirstSencente":
+        if self.parsingMode == "FirstSentence":
             if page.isCategory():
                 categoryName = getCategoryName(page)
                 page = pywikibot.Page(galipedia, categoryName)
                 try:
-                    self.parseFirstSencente(page.get())
+                    self.parseFirstSentence(page.get())
                 except:
                     self.parsePageName(categoryName)
             else:
                 try:
-                    self.parseFirstSencente(page.get())
+                    self.parseFirstSentence(page.get())
                 except: # Páxina sen contido, como [[Imperio do Xapón]] o día 27/07/2013.
                     self.parsePageName(page.title())
         else:
@@ -268,10 +268,10 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas de Asia", u"Illas de Marrocos", u"Illas das Illas Baleares", u"Illas dos Grandes Lagos"],
-        categoryOfSubcategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas e arquipélagos por país", u"Illas por mar", u"Illas por países"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas das Illas Baleares", u"Illas de Galicia", u"Illas de Asia", u"Illas de Marrocos", u"Illas galegas", u"Illas dos Grandes Lagos"],
+        categoryOfSubcategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas por continente", u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
-        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Asia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países)$"
+        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Alasca|Illas de Asia|Illas de Galicia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países|Illas por continente)$"
     ))
 
     generators.append(GalipediaGenerator(
@@ -306,7 +306,7 @@ def loadGeneratorList():
             u"Dalmacia",
             u"Faixa de Gaza"
         ],
-        parsingMode = "FirstSencente"
+        parsingMode = "FirstSentence"
     ))
 
     pattern = u"(Afluentes|Regatos|Ríos) "
@@ -331,7 +331,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades da República do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
     generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
-    generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSencente"))
+    generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
     generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
@@ -395,7 +395,7 @@ def loadGeneratorList():
         invalidPagePattern = u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )",
         validCategoryPattern = u"^(Estados desaparecidos d|Imperios|Países d)",
         invalidCategoryPattern = u"^(Capitais d|Emperadores$)",
-        parsingMode = "FirstSencente"
+        parsingMode = "FirstSentence"
     ))
 
     generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))
