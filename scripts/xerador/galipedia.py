@@ -1,8 +1,15 @@
 # -*- coding:utf-8 -*-
 
-import re
+import os, re, sys
+import urllib, urllib2
+
 import pywikibot
+from pywikibot.xmlreader import XmlDump
+
 import PyICU
+from xdg.BaseDirectory import save_cache_path
+from bs4 import BeautifulSoup
+
 import generator
 
 
@@ -13,23 +20,111 @@ wikiTags = re.compile(u"\[\[|\]\]")
 numberPattern = re.compile(u"^[0-9]+$")
 boldPattern = re.compile(u"\'\'\' *(.*?) *\'\'\'")
 
+
+class DumpProvider(object):
+
+    # Singleton implementation: http://stackoverflow.com/a/1810367
+    _instance = None
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super(DumpProvider, cls).__new__(
+                                cls, *args, **kwargs)
+            cls._instance._initialized = False
+        return cls._instance
+
+
+    def xmlReader(self):
+        if not self._xmlReader:
+            self._xmlReader = XmlDump(self.pageDumpPath)
+        return self._xmlReader
+
+
+    def getRemoteDumpDate(self):
+        request = urllib2.Request(u"http://dumps.wikimedia.org/glwiki/")
+        response = urllib2.urlopen(request)
+        page = response.read()
+        soup = BeautifulSoup(page)
+        return int(soup.find_all("tr")[-2].td.a.get_text())
+
+
+    def __init__(self):
+
+        if self._initialized:
+            return
+        self._initialized = True
+
+        self._xmlReader = None
+
+        cacheFolder = save_cache_path(u"hunspell-gl")
+        dumpFolder = os.path.join(cacheFolder, u"galipedia-dumps")
+
+        pageDumpFileNameTemplate = u"glwiki-{}-pages-meta-current.xml.bz2"
+        pageDumpPattern = re.compile(pageDumpFileNameTemplate.format(u"(?P<date>[0-9]{8})"))
+        self.pageDumpPath = None
+
+        localDumpDate = None
+
+        needNewDump = True
+        remoteDumpDate = self.getRemoteDumpDate()
+
+        if not os.path.exists(dumpFolder):
+            os.makedirs(dumpFolder)
+        else:
+            for filePath in [filePath for filePath in os.listdir(dumpFolder) if os.path.isfile(os.path.join(dumpFolder, filePath))]:
+                match = pageDumpPattern.match(filePath)
+                if match:
+                    localDumpDate = int(match.group(u"date"))
+                    self.pageDumpPath = os.path.join(dumpFolder, filePath)
+                    break
+
+        if localDumpDate is not None:
+            if remoteDumpDate <= localDumpDate:
+                needNewDump = False
+            else:
+                os.remove(self.pageDumpPath)
+
+        if needNewDump:
+            pageDumpFileName = pageDumpFileNameTemplate.format(remoteDumpDate)
+            self.pageDumpPath = os.path.join(dumpFolder, pageDumpFileName)
+            print u"Descargando a copia de seguridade “{}”…".format(self.pageDumpPath),
+            sys.stdout.flush()
+            urllib.urlretrieve(u"http://dumps.wikimedia.org/glwiki/{}/{}".format(remoteDumpDate, pageDumpFileName), self.pageDumpPath)
+            print u"Feito."
+            sys.stdout.flush()
+
 def getCategoryName(category):
     return category.title()[10:]
 
-def getFirstSentenceFromPageContent(pageContent):
+fileTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):([^][]|\[\[[^][]+\]\])+\]\] *")
+
+def removeMediaWikiFileTags(content):
+    return fileTagPattern.sub(u"", content)
+
+redirectPattern = re.compile(u"#REDIRECT *\[\[(?P<target>.*)\]\]")
+
+def getPageContent(pageName):
+    page = pywikibot.Page(galipedia, pageName)
+    while page.isRedirectPage():
+        page = page.getRedirectTarget()
+    return page.get()
+
+def getFirstSentenceFromPageContent(pageName, pageContent):
     lines = pageContent.split('\n')
-    withinTemplate = False
+    match = redirectPattern.match(lines[0])
+    if match:
+        return getFirstSentenceFromPageContent(pageName, getPageContent(pageName))
+    templateDepth = 0
     for line in lines:
+        line = removeMediaWikiFileTags(line)
+        line = line.rstrip()
         if len(line) > 0:
-            if line[0] not in [' ', '{', '}', '|', '[', ':', '!'] and withinTemplate is False:
+            if line[0] not in [' ', '{', '}', '|', '[', ':', '!'] and templateDepth == 0:
                 line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
                 line = re.sub(reference, u"", line) # Eliminar contido de referencia.
                 return line.split(". ")[0]
-            elif line[:2] == u"{{":
-                if line[-2:] != u"}}":
-                    withinTemplate = True
-            elif line[:2] == u"}}":
-                withinTemplate = False
+            else:
+                templateDepth += line.count("{{")
+                templateDepth -= line.count("}}")
     return None
 
 
@@ -77,18 +172,23 @@ class GalipediaGenerator(generator.Generator):
         self.entries = set()
         self.visitedCategories = set()
 
+        self.dumpProvider = DumpProvider()
+        self.firstSentencePages = set()
+
 
     def addEntry(self, entry):
         if self.stripPrefixPattern is not None:
             match = self.stripPrefixPattern.match(entry)
             if match:
                 entry = entry[len(match.group(0)):]
-        self.entries.add(entry)
+        entry = entry.strip().replace(u'\ufeff', '') # http://stackoverflow.com/a/6786646
+        if entry:
+            self.entries.add(entry)
 
 
     def parsePageName(self, pageName):
 
-        pageName = re.sub(parenthesis, u"", pageName).strip() # Eliminar contido entre parénteses.
+        pageName = re.sub(parenthesis, u"", pageName) # Eliminar contido entre parénteses.
 
         if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
             parts = pageName.split(" - ")
@@ -104,31 +204,46 @@ class GalipediaGenerator(generator.Generator):
             self.addEntry(pageName)
 
 
-    def parseFirstSentence(self, pageContent):
-        firstSentence = getFirstSentenceFromPageContent(pageContent)
+    def enqueueToParseFirstSentence(self, pageName):
+        self.firstSentencePages.add(pageName)
+
+
+    def parseFirstSentence(self, pageName, pageContent):
+        firstSentence = getFirstSentenceFromPageContent(pageName, pageContent)
         if firstSentence is None:
-            raise Exception
+            print u"First sentence is None in “{}”.".format(pageName)
+            raise IndexError
         matches = boldPattern.findall(firstSentence)
         if len(matches) == 0:
-            raise Exception
+            raise ValueError(pageName)
         for match in matches:
             match = re.sub(wikiTags, u"", match) # Eliminar etiquetas MediaWiki, como [[ ou ]].
-            self.addEntry(match)
+            self.parsePageName(match)
 
+    mainArticleMatch = re.compile(u"\{\{ *AP *\| *(?P<page>[^|}]+) *(\||\}\})")
 
-    def parsePage(self, page):
-        if page.isCategory():
-            pageName = getCategoryName(page)
-            page = pywikibot.Page(galipedia, pageName)
-        else:
-            pageName = page.title()
-
+    def parseCategory(self, page):
+        pageName = getCategoryName(page)
         if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
             return
-
         if self.parsingMode == "FirstSentence":
             try:
-                self.parseFirstSentence(page.get())
+                categoryContent = page.get()
+                match = mainArticleMatch.search(categoryContent)
+                if match:
+                    self.enqueueToParseFirstSentence(match.group("page"))
+                    return
+            except:
+                pass
+        self.parsePageName(pageName) # Use category name if anything else fails.
+
+
+    def parsePage(self, pageName):
+        if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
+            return
+        if self.parsingMode == "FirstSentence":
+            try:
+                self.enqueueToParseFirstSentence(pageName)
             except:
                 self.parsePageName(pageName)
         else:
@@ -144,26 +259,71 @@ class GalipediaGenerator(generator.Generator):
                 if self.validCategoryPattern is not None and self.validCategoryPattern.match(subcategoryName):
                     self.loadPageNamesFromCategory(subcategory)
                 elif self.invalidCategoryPattern is not None and not self.invalidCategoryPattern.match(subcategoryName):
-                    self.parsePage(subcategory)
+                    self.parseCategory(subcategory)
 
         for page in category.articles(namespaces=0):
-            self.parsePage(page)
+            self.parsePage(page.title())
 
 
     def generateFileContent(self):
 
-        for pageName in self.pageNames:
-            self.parsePage(pywikibot.Page(galipedia, pageName))
+        print u"Cargando a copia de seguridade “{}”…".format(self.dumpProvider.pageDumpPath),
+        sys.stdout.flush()
+        self.xmlReader = self.dumpProvider.xmlReader()
+        print u"Feito."
+        sys.stdout.flush()
 
+        for pageName in self.pageNames:
+            self.parsePage(pageName)
         for categoryName in self.categoryOfSubcategoriesNames:
             category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
             print u"Cargando subcategorías de {name}…".format(name=category.title())
             for subcategory in category.subcategories():
                 self.loadPageNamesFromCategory(subcategory)
-
         for categoryName in self.categoryNames:
             if categoryName not in self.visitedCategories:
                 self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
+
+
+        if self.parsingMode == "FirstSentence":
+            pageCount = len(self.firstSentencePages)
+            processedPages = 0
+            statement = u"Analizando a primeira oración de cada páxina na copia de seguridade… {} ({}%)\r"
+            sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
+            sys.stdout.flush()
+            for entry in self.xmlReader.parse():
+                if entry.title in self.firstSentencePages:
+                    try:
+                        self.parseFirstSentence(entry.title, entry.text)
+                    except ValueError:
+                        try:
+                            pageContent = getPageContent(entry.title)
+                            self.parseFirstSentence(entry.title, getPageContent(entry.title))
+                        except ValueError:
+                            print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
+                            raise
+                    self.firstSentencePages.remove(entry.title)
+                    processedPages += 1
+                    sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
+                    sys.stdout.flush()
+                    if processedPages == pageCount:
+                        break
+            print
+            sys.stdout.flush()
+
+            pageCount = len(self.firstSentencePages)
+            if pageCount > 0:
+                processedPages = 0
+                statement = u"Analizando as páxinas restantes a partir do seu contido no wiki… {} ({}%)\r"
+                print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
+                sys.stdout.flush()
+                for pageName in self.firstSentencePages:
+                    self.parseFirstSentence(pageName, getPageContent(pageName))
+                    processedPages += 1
+                    print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
+                    sys.stdout.flush()
+                print
+                sys.stdout.flush()
 
         content = ""
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
@@ -171,7 +331,7 @@ class GalipediaGenerator(generator.Generator):
             if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
                 ngramas = set()
                 for ngrama in name.split(u" "):
-                    ngrama = ngrama.replace(u",", u"")
+                    ngrama = ngrama.replace(u",", u"").strip()
                     if ngrama not in generator.wordsToIgnore and ngrama not in ngramas and not numberPattern.match(ngrama): # N-gramas innecesarios por ser vocabulario galego xeral.
                         ngramas.add(ngrama)
                         content += u"{ngrama} po:{partOfSpeech} [n-grama: {name}]\n".format(ngrama=ngrama, name=name, partOfSpeech=self.partOfSpeech)
@@ -193,14 +353,14 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
         if countryName == u"España":
             basqueFilter = True
 
-        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Imaxes|Galería|Historia|Listas?|Localidades|Lugares|Municipios|Parroquias|Principais cidades) "
+        pattern = u"(Alcaldes|Arquitectura|Capitais|Comunas|Concellos|Festas?|Imaxes|Igrexa|Galería|Historia|Listas?|Localidades|Lugares|Municipios|Parroquias|Principais cidades) "
         super(GalipediaLocalidadesGenerator, self).__init__(
             resource = u"onomástica/toponimia/localidades/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
-            validCategoryPattern = u"^(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
-            invalidCategoryPattern = u"{pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
+            invalidPagePattern = u"(?i)^(Modelo:|Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
+            validCategoryPattern = u"(?i)^(Antig[ao]s )?(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
+            invalidCategoryPattern = u"(?i){pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
             basqueFilter = basqueFilter,
             parsingMode = parsingMode
         )
@@ -326,11 +486,11 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
     generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
-    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"]))
+    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Etiopía"))
     generators.append(GalipediaLocalidadesGenerator(u"Exipto"))
-    generators.append(GalipediaLocalidadesGenerator(u"Finlandia"))
+    generators.append(GalipediaLocalidadesGenerator(u"Finlandia", parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Francia", [u"Cidades de {name}", u"Comunas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia"))
     generators.append(GalipediaLocalidadesGenerator(u"Grecia antiga", [u"Antigas cidades gregas"]))
@@ -349,7 +509,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"México", [u"Cidades de {name}", u"Cidades prehispánicas de {name}", u"Concellos de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Oceanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Países Baixos", [u"Cidades dos {name}"]))
-    generators.append(GalipediaLocalidadesGenerator(u"Perú"))
+    generators.append(GalipediaLocalidadesGenerator(u"Perú", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Polonia"))
     generators.append(GalipediaLocalidadesGenerator(u"Portugal", [u"Cidades de {name}", u"Municipios de {name}", u"Vilas de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Qatar"))
@@ -362,7 +522,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Timor Leste"))
     generators.append(GalipediaLocalidadesGenerator(u"Turquía"))
     generators.append(GalipediaLocalidadesGenerator(u"Venezuela"))
-    generators.append(GalipediaLocalidadesGenerator(u"Xapón", [u"Concellos do {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Xapón", [u"Concellos do {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Xordania"))
 
     generators.append(GalipediaGenerator(

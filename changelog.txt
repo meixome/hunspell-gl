@@ -455,88 +455,53 @@ Cambios desde a versión 13.10.1
     - Encontro das Augas
 
 • galipedia/onomástica/toponimia/localidades/alemaña
+    • Friburgo de Brisgovia → Friburgo
+    + Ennepetal
     + Flensburgo
     + Nürburg
+    + Schorndorf
+    + Stolberg
 
 • galipedia/onomástica/toponimia/localidades/bélxica
     + Spa
 
+• galipedia/onomástica/toponimia/localidades/brasil
+    • Río de Xaneiro → Río de Janeiro
+    + Praça Diogo de Vasconcelos
+
 • galipedia/onomástica/toponimia/localidades/colombia
     • Cartagena de Indias → Cartaxena de Indias
 
+• galipedia/onomástica/toponimia/localidades/dinamarca
+    • Copenhaguen → Copenhague
+
 • galipedia/onomástica/toponimia/localidades/españa
-    • Barañáin → Barañain
-    • Casares de las Urdes → Casares de las Hurdes
-    • El Cubo de la Tierra del Vino → El Cubo del Vino
-    • Irún → Irun
-    + Aciveiros
-    + Ajofrín
-    + Alhambra
-    + Alveredos
-    + As Edradas
-    + As Portelas
-    + Ateca
-    + Barrosas
-    + Barxacova
-    + Busmaior
-    + Calabor
-    + Caminomorisco
-    + Campo de Lebre
-    + Canteixeira
-    + Casar de Palomero
-    + Castañeiras
-    + Chaos
-    + Corporais
-    + Currais
-    + Edroso
-    + Espiñeireda de Ancares
-    + Güimil-Serviz
-    + La Llosa de Ranes
-    + La Puebla de Montalbán
-    + Lumeiras
-    + Madridejos
-    + Malpica de Tajo
-    + Maluenda
-    + Navàs
-    + Nuñomoral
-    + Ocaña
-    + Palacios de Sanabria
-    + Pereda de Ancares
-    + Requeixo de Seabra
-    + Rihonor de Castilla
-    + Roda de Berà
-    + San Ciprián
-    + San Justo
-    + Sorbeira
-    + Sortes de Ancares
-    + Suárbol
-    + Teixeu de Ancares
-    + Trefacio
-    + Valouta
-    + Vilarbón
-    + Vilasumil
-    + Xerez da Fronteira
-    + Yeles
-    + Yepes
-    + Yuncler
-    + Yunclillos
-    + Yuncos
-    + Zarza de Granadilla
-    - Cíes
+    • Completamente rexenerado cun novo algoritmo: en vez de usarse o nome do
+      artigo na Galipedia, extráense os nomes do contido do artigo, permitindo
+      así extraer todos os nomes daquelas localidades que teñan máis dun nome.
 
 • galipedia/onomástica/toponimia/localidades/estados-unidos-de-américa
     + Barrow
     + Duluth
     + Eureka
     + Greensboro
+    + Macon
     + Norfolk
     + Porcupine
+    + Savannah
 
 • galipedia/onomástica/toponimia/localidades/finlandia
-    • Maarianhamina → Mariehamn
+    + Åbo
+    + Högfors
+    + Jakobstad
+    + Karis
     + Karkkila
     + Loviisa
+    + Lovisa
+    + Mariehamn
     + Pietarsaari
+    + Raasepori
+    + Uleåborg
 
 • galipedia/onomástica/toponimia/localidades/francia
     • Saint-Georges-des-Hurtières → Saint-Georges-d'Hurtières
@@ -569,6 +534,16 @@ Cambios desde a versión 13.10.1
     + Bourg-des-Comptes
     + Bourgbarré
     + Bovel
+    + Bréal-sous-Montfort
+    + Bréal-sous-Vitré
+    + Brécé
+    + Breteil
+    + Brie
+    + Brielles
+    + Broualan
+    + Bruc-sur-Aff
+    + Bruz
+    + Campel
     + Cardet
     + Céret
     + La Baussaine
@@ -578,6 +553,7 @@ Cambios desde a versión 13.10.1
     + La Boussac
     + La Ville-ès-Nonais
     + Le Vivier-sur-Mer
+    + Les Brulais
     + Montbolo
     + Reynès
     + Rocamadour
@@ -590,24 +566,39 @@ Cambios desde a versión 13.10.1
     + Visseiche
     + Vitré
 
+• galipedia/onomástica/toponimia/localidades/israel
+    • Bolzán → Bolzano
+    + Costa di Mezzate
+    + Nazaret
+    + Piacenza
+    + Vinci
+
 • galipedia/onomástica/toponimia/localidades/italia
     • Bolzán → Bolzano
+    • Ravenna → Rávena
     + Costa di Mezzate
     + Piacenza
     + Vinci
 
 • galipedia/onomástica/toponimia/localidades/oceanía
+    • Canberra → Camberra
     + Temora
 
 • galipedia/onomástica/toponimia/localidades/países-baixos
     • Flesinga → Vlissingen
+
+• galipedia/onomástica/toponimia/localidades/polonia
+    • Gdansk → Gdańsk
+    • Lodz → Łódź
 
 • galipedia/onomástica/toponimia/localidades/portugal
     + Arouca
     + Dume
     + Esposende
     + Estoril
+    + Loures
     + Paços de Ferreira
+    + Portimão
     + Póvoa de Lanhoso
     + Vila Nova de Foz Côa
 
@@ -618,6 +609,8 @@ Cambios desde a versión 13.10.1
     + Douglas
     + Forteviot
     + Perth
+    + Saint Helier
+    + St Albans
 
 • galipedia/onomástica/toponimia/localidades/romanía
     + Constanţa
@@ -629,7 +622,14 @@ Cambios desde a versión 13.10.1
     + Mvezo
 
 • galipedia/onomástica/toponimia/localidades/turquía
+    • Istambul → Estambul
     + Samsun
+
+• galipedia/onomástica/toponimia/localidades/xapón
+    • Kochi → Kōchi
+    + Hiroshima
+    + Ooita
+    + Tokyo
 
 • galipedia/onomástica/toponimia/lugares/galicia
     + A Agra Boa

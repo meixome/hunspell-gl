@@ -26,15 +26,15 @@ class Generator(object):
         self.writeToResource(self.generateFileContent())
 
 
-wordsToIgnore = (
+tupleOfWordsToIgnore = (
     # Nexos comúns.
-    u"a", u"A", u"as", u"As", u"o", u"O", u"os", u"Os",
-    u"á", u"Á", u"ás", u"Ás", u"ao", u"Ao", u"aos", u"Aos", u"ó", u"Ó", u"ós", u"Ós",
-    u"da", u"Da", u"das", u"Das", u"de", u"De", u"do", u"Do", u"dos", u"Dos",
-    u"e", u"E",
-    u"en", u"En",
-    u"entre", u"Entre",
-    u"tras", u"Tras",
+    u"A", u"As", u"O", u"Os",
+    u"Á", u"Ás", u"Ao", u"Aos", u"Ó", u"Ós",
+    u"Da", u"Das", u"De", u"Do", u"Dos",
+    u"E",
+    u"En",
+    u"Entre",
+    u"Tras",
 
     # Outros termos comúns correctos en galego.
     u"Abadía", u"Abadías",
@@ -44,7 +44,7 @@ wordsToIgnore = (
     u"Arquipélago", u"Arquipélagos",
     u"Arrecife", u"Arrecifes",
     u"Arriba",
-    u"arroio", u"arroios", u"Arroio", u"Arroios",
+    u"Arroio", u"Arroios",
     u"Atol", u"Atois",
     u"Baixa", u"Baixas", u"Baixo", u"Baixos",
     u"Baldaquino", u"Baldaquinos",
@@ -72,7 +72,7 @@ wordsToIgnore = (
     u"Concello", u"Concellos",
     u"Condado", u"Condados",
     u"Confederación", u"Confederacións",
-    u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
+    u"Continental", u"Continentais", # «Portugal continental».
     u"Convento", u"Conventos",
     u"Coroa", u"Coroas",
     u"Costa", u"Costas",
@@ -139,17 +139,17 @@ wordsToIgnore = (
     u"Provincia", u"Provincias",
     u"Raíña", u"Raíñas", u"Rei", u"Reis",
     u"Real", u"Reais",
-    u"refuxio", u"refuxios", u"Refuxio", u"Refuxios",
-    u"regato", u"regatos", u"Regato", u"Regatos",
-    u"rego", u"regos", u"Rego", u"Regos",
+    u"Refuxio", u"Refuxios",
+    u"Regato", u"Regatos",
+    u"Rego", u"Regos",
     u"Regueiro", u"Regueiros",
     u"Reino", u"Reinos",
-    u"reitoral", u"reitorais", u"Reitoral", u"Reitorais",
+    u"Reitoral", u"Reitorais",
     u"Remedio", u"Remedios",
     u"República", u"Repúblicas",
     u"Rexión", u"Rexións",
     u"Ribeira", u"Ribeiras",
-    u"río", u"ríos", u"Río", u"Ríos",
+    u"Río", u"Ríos",
     u"Rúa", u"Rúas",
     u"Ruína", u"Ruínas",
     u"San", u"Santa", u"Santas", u"Santo", u"Santos",
@@ -188,3 +188,7 @@ wordsToIgnore = (
     u"Novena", u"Novenas", u"Noveno", u"Novenos",
     u"Décima", u"Décimas", u"Décimo", u"Décimos",
 )
+wordsToIgnore = set()
+for word in tupleOfWordsToIgnore:
+    wordsToIgnore.add(word)
+    wordsToIgnore.add(word.lower())
