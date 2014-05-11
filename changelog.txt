@@ -1591,7 +1591,31 @@ Cambios desde a versión 13.10.1
 
 • iso4217
     - LVL
+    + USS
     - XFU
+
+• iso639
+    + aqt
+    + enl
+    + enx
+    + esy
+    + gev
+    + gmg
+    + olt
+    + ptq
+    + spn
+    + tkv
+    + xaj
+    + xis
+    + ygs
+    - emo
+    - ggm
+    - leg
+    - lmm
+    - mhh
+    - puz
+    - sap
+    - yuu
 
 • volga
     + romántica/s (só estaban as formas masculinas)
