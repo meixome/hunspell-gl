@@ -373,11 +373,14 @@ Cambios desde a versión 13.10.1
     - San Tomé e Príncipe
 
 • galipedia/onomástica/toponimia/accidentes/montañas
+    • Monte Quenia → Monte Kenya
     + A Pena Negra
     + Gorbeia
     + Macizo do Montgrí
     + Monte da Peneda
     + Monte de Baltar
+    + Monte de Enxa
+    + Monte Hacho
     + Monte Monseivane
     + Monte Urgull
     + Serra Gamoneda
@@ -385,26 +388,70 @@ Cambios desde a versión 13.10.1
 
 • galipedia/onomástica/toponimia/accidentes/praias
     • Praia da Malvarrosa → Praia da Malva-rosa
+    • Praia de Ornanda → Praia Ornanda
+    + Praia das Furnas
+    + Praia de Aguieira
+    + Praia de Benzú
+    + Praia de Coira
+    + Praia de Queiruga
     + Praia de Rande
 
 • galipedia/onomástica/toponimia/accidentes/ríos
-    + Refuxio de Sigüeiro
-    + Río Angara
-    + Río Barcés
-    + Río Bosna
-    + Río Carrión
-    + Río Cervañiña
-    + Río Ganxes
-    + Río Gobia
-    + Río Klang
-    + Río Lóuzara
-    + Río Notwane
-    + Río Onyar
-    + Río Saja
-    + Río San Lourenzo
-    + Río Sousa
-    + Río Tay
-    + Río Yamuna
+    • Dâmboviţa → Dâmbovița
+    + Aare
+    + Aguasvivas
+    + Ahogaborricos
+    + Angara
+    + Aragón
+    + Arroio Bustillo
+    + Baixoi
+    + Barcés
+    + Baztan
+    + Blackwater
+    + Bosna
+    + Buble
+    + Carballas
+    + Carballo
+    + Carrión
+    + Casela
+    + Cervañiña
+    + Corvo
+    + Esil
+    + Evros
+    + Ganga
+    + Ganxes
+    + Gobia
+    + Godovari
+    + Guadalaviar
+    + Halis
+    + Huang He
+    + Japará
+    + Kabal
+    + Kabul
+    + Kaveri
+    + Kızılırmak
+    + Klang
+    + Lameiriña
+    + Landrove
+    + Lijiang
+    + Lóuzara
+    + Mahanadi
+    + Me Nam
+    + Notwane
+    + Ob
+    + Onyar
+    + Padus
+    + Pingüela
+    + Prípiat
+    + Sigüeiro
+    + Saja
+    + San Lourenzo
+    + Sousa
+    + Tay
+    + Tisa
+    + Uruguai
+    + Urupampa
+    + Yamuna
     - Encontro das Augas
 
 • galipedia/onomástica/toponimia/localidades/alemaña

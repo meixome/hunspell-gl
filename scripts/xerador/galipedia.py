@@ -11,6 +11,7 @@ parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")
 numberPattern = re.compile(u"^[0-9]+$")
+boldPattern = re.compile(u"\'\'\' *(.*?) *\'\'\'")
 
 def getCategoryName(category):
     return category.title()[10:]
@@ -30,12 +31,6 @@ def getFirstSentenceFromPageContent(pageContent):
             elif line[:2] == u"}}":
                 withinTemplate = False
     return None
-
-def getPageName(page):
-    if page.isCategory():
-        return getCategoryName(page)
-    else:
-        return page.title()
 
 
 class GalipediaGenerator(generator.Generator):
@@ -95,9 +90,6 @@ class GalipediaGenerator(generator.Generator):
 
         pageName = re.sub(parenthesis, u"", pageName).strip() # Eliminar contido entre parénteses.
 
-        if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
-            return
-
         if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
             parts = pageName.split(" - ")
             self.addEntry(parts[0])
@@ -116,8 +108,7 @@ class GalipediaGenerator(generator.Generator):
         firstSentence = getFirstSentenceFromPageContent(pageContent)
         if firstSentence is None:
             raise Exception
-        boldEntry = re.compile(u"\'\'\'(.*?)\'\'\'")
-        matches = boldEntry.findall(firstSentence)
+        matches = boldPattern.findall(firstSentence)
         if len(matches) == 0:
             raise Exception
         for match in matches:
@@ -126,21 +117,22 @@ class GalipediaGenerator(generator.Generator):
 
 
     def parsePage(self, page):
-        if self.parsingMode == "FirstSentence":
-            if page.isCategory():
-                categoryName = getCategoryName(page)
-                page = pywikibot.Page(galipedia, categoryName)
-                try:
-                    self.parseFirstSentence(page.get())
-                except:
-                    self.parsePageName(categoryName)
-            else:
-                try:
-                    self.parseFirstSentence(page.get())
-                except: # Páxina sen contido, como [[Imperio do Xapón]] o día 27/07/2013.
-                    self.parsePageName(page.title())
+        if page.isCategory():
+            pageName = getCategoryName(page)
+            page = pywikibot.Page(galipedia, pageName)
         else:
-            self.parsePageName(getPageName(page))
+            pageName = page.title()
+
+        if self.invalidPagePattern is not None and self.invalidPagePattern.match(pageName):
+            return
+
+        if self.parsingMode == "FirstSentence":
+            try:
+                self.parseFirstSentence(page.get())
+            except:
+                self.parsePageName(pageName)
+        else:
+            self.parsePageName(pageName)
 
 
     def loadPageNamesFromCategory(self, category):
@@ -314,9 +306,10 @@ def loadGeneratorList():
         resource = u"onomástica/toponimia/accidentes/ríos.dic",
         partOfSpeech = u"topónimo",
         categoryOfSubcategoriesNames = [u"Ríos"],
-        invalidPagePattern = u"^(Modelo:|{pattern}|(Galería de imaxes|Hidrografía|Lista) )".format(pattern=pattern),
+        invalidPagePattern = u"^(Modelo:|{pattern}|(Galería de imaxes|Hidrografía|Lista) |(Caneiro \(muíño\)|Pasadoiro|Pontella \(pasaxe\))$)".format(pattern=pattern),
         invalidCategoryPattern = u"^({pattern}|Imaxes)".format(pattern=pattern),
-        validCategoryPattern = u"^{pattern}".format(pattern=pattern)
+        validCategoryPattern = u"^{pattern}".format(pattern=pattern),
+        parsingMode = "FirstSentence"
     ))
 
     generators.append(GalipediaLocalidadesGenerator(u"Desaparecidas", [u"Cidades desaparecidas"])) # Localidades desaparecidas.
