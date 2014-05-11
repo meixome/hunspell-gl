@@ -1526,17 +1526,41 @@ Cambios desde a versión 13.10.1
     - Reino de Macedonia
     - República de Polonia
 
+• galipedia/onomástica/toponimia/rexións/brasil
+    + Río de Janeiro
+
 • galipedia/onomástica/toponimia/rexións/españa
     • O Val Miñor → Val Miñor
     + Bisbarra de Seabra
     + Comarca de Requena-Utiel
+    - Castellón
     - Ceuta
     - Melilla
+
+• galipedia/onomástica/toponimia/rexións/estados-unidos-de-américa
+    • Georgia → Xeorxia
+
+• galipedia/onomástica/toponimia/rexións/francia
+    • Pas-de-Calais → Paso de Calais
+    + Martinica
+
+• galipedia/onomástica/toponimia/rexións/italia
+    • Ravenna → Rávena
+
+• galipedia/onomástica/toponimia/rexións/méxico
+    • Baja California → Baixa California
+    • Baja California Sur → Baixa California Sur
+    + Xalisco
+
+• galipedia/onomástica/toponimia/rexións/países-baixos
+    + Güeldres
+    + Zelandia
 
 • galipedia/onomástica/toponimia/rexións/rusia
     + Adiguesia
     + Bashkortostán
     + Daguestán
+    + República de Altai
     + República de Carelia
 
 • galipedia/onomástica/toponimia/zonas/españa

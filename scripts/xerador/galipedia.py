@@ -379,8 +379,8 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
             invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Periferias|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
-            validCategoryPattern = u"^(Comarcas|Periferias|Provincias) ",
-            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Estados|Gobernos|Nados|Parlamentos|Políticas|Presidentes|Subrexións) ",
+            validCategoryPattern = u"^(Comarcas|Departamentos|Estados|Periferias|Provincias|Rexións|Subrexións) ",
+            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Estados|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes|Subrexións) ",
             stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
