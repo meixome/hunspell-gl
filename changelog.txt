@@ -176,12 +176,6 @@ Cambios desde a versión 13.10.1
     + Santuario de Santa María de África
     - Pórtico da Gloria (pasouse a «galipedia/onomástica/arte/escultura/relixión»)
 
-+ galipedia/onomástica/arte/escultura/relixión
-
-+ galipedia/onomástica/astronomía/planetas
-
-+ galipedia/onomástica/toponimia/accidentes/baías
-
 • galipedia/onomástica/toponimia/accidentes/illas
     • A Orchila → La Orchila
     • Arquipélago Os Monxes → Arquipélago Los Monxes
@@ -619,8 +613,6 @@ Cambios desde a versión 13.10.1
     + Mangalia
     + Roșia Montană
     + Tulcea
-
-+ galipedia/onomástica/toponimia/localidades/suecia
 
 • galipedia/onomástica/toponimia/localidades/sudáfrica → galipedia/onomástica/toponimia/localidades/suráfrica
     + Mvezo
@@ -1548,8 +1540,6 @@ Cambios desde a versión 13.10.1
     • Pas-de-Calais → Paso de Calais
     + Martinica
 
-+ galipedia/onomástica/toponimia/rexións/india
-
 • galipedia/onomástica/toponimia/rexións/italia
     • Ravenna → Rávena
 
@@ -1633,6 +1623,14 @@ Cambios desde a versión 13.10.1
 • volga
     + romántica/s (só estaban as formas masculinas)
     - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
+
++ galipedia/onomástica/arte/escultura/relixión
++ galipedia/onomástica/astronomía/planetas
++ galipedia/onomástica/toponimia/accidentes/baías
++ galipedia/onomástica/toponimia/localidades/sudán-do-sur
++ galipedia/onomástica/toponimia/localidades/suecia
++ galipedia/onomástica/toponimia/rexións/guatemala
++ galipedia/onomástica/toponimia/rexións/india
 
 
 Versión 13.10.1

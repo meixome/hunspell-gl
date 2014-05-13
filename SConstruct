@@ -141,6 +141,7 @@ Módulos dispoñíbeis:
                           • romanía
                           • serbia
                           • siria
+                          • sudán-do-sur
                           • suecia
                           • suráfrica
                           • suíza
@@ -161,6 +162,7 @@ Módulos dispoñíbeis:
                           • estados-unidos-de-américa
                           • finlandia
                           • francia
+                          • guatemala
                           • grecia
                           • india
                           • italia
