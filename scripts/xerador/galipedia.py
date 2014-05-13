@@ -2,6 +2,7 @@
 
 import os, re, sys
 import urllib, urllib2
+import pickle
 
 import pywikibot
 from pywikibot.xmlreader import XmlDump
@@ -101,6 +102,12 @@ def removeMediaWikiFileTags(content):
     return fileTagPattern.sub(u"", content)
 
 redirectPattern = re.compile(u"#REDIRECT *\[\[(?P<target>.*)\]\]")
+htmlStartTagPattern = re.compile(u"< *(\w+)[^>]*?(?<!/)>")
+htmlEndTagPattern = re.compile(u"</ *(\w+) *>")
+tagsToSkip = [u"br"]
+tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
+tableEndTagPattern = re.compile(u"\|\}(?!\})")
+fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
 
 def getPageContent(pageName):
     page = pywikibot.Page(galipedia, pageName)
@@ -108,23 +115,48 @@ def getPageContent(pageName):
         page = page.getRedirectTarget()
     return page.get()
 
+sentenceSeparatorPattern = re.compile(u"(?<!St)\. ")
+
 def getFirstSentenceFromPageContent(pageName, pageContent):
     lines = pageContent.split('\n')
     match = redirectPattern.match(lines[0])
     if match:
         return getFirstSentenceFromPageContent(pageName, getPageContent(pageName))
     templateDepth = 0
+    tableDepth = 0
+    fileDepth = 0
+    htmlStartTags = []
     for line in lines:
         line = removeMediaWikiFileTags(line)
         line = line.rstrip()
-        if len(line) > 0:
-            if line[0] not in [' ', '{', '}', '|', '[', ':', '!'] and templateDepth == 0:
+        if line:
+            tableDepth += sum(1 for match in tableStartTagPattern.finditer(line))
+            lineTableEndTagsCount = sum(1 for match in tableEndTagPattern.finditer(line))
+            tableDepth -= lineTableEndTagsCount
+            if lineTableEndTagsCount and line.startswith("|}"):
+                line = line[2:]
+                if not line:
+                    continue
+            if line[0] not in [' ', '{', '}', '|', '[', ':', '!', '<'] and not templateDepth and not tableDepth and not fileDepth and not htmlStartTags:
                 line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
                 line = re.sub(reference, u"", line) # Eliminar contido de referencia.
-                return line.split(". ")[0]
-            else:
-                templateDepth += line.count("{{")
-                templateDepth -= line.count("}}")
+                return sentenceSeparatorPattern.split(line)[0]
+            templateDepth += line.count("{{")
+            templateDepth -= line.count("}}")
+            lineFileDepth = sum(1 for match in fileStartTagPattern.finditer(line))
+            fileDepth += lineFileDepth
+            fileDepth -= line.count(u"]]") - line.count(u"[[") + lineFileDepth
+            for startTag in htmlStartTagPattern.findall(line):
+                if startTag not in tagsToSkip:
+                    htmlStartTags.append(startTag)
+            for endTag in htmlEndTagPattern.findall(line):
+                if endTag in tagsToSkip:
+                    pass
+                elif endTag in htmlStartTags:
+                    htmlStartTags.remove(endTag)
+                else:
+                    print u"In page “{}”, start tag for end tag “{}” not found in line:\n    {}".format(pageName, endTag, line)
+                    raise Exception
     return None
 
 
@@ -233,6 +265,10 @@ class GalipediaGenerator(generator.Generator):
                 if match:
                     self.enqueueToParseFirstSentence(match.group("page"))
                     return
+                elif u"{{AP}}" in categoryContent:
+                    self.enqueueToParseFirstSentence(pageName)
+                    return
+
             except:
                 pass
         self.parsePageName(pageName) # Use category name if anything else fails.
@@ -273,17 +309,73 @@ class GalipediaGenerator(generator.Generator):
         print u"Feito."
         sys.stdout.flush()
 
-        for pageName in self.pageNames:
-            self.parsePage(pageName)
-        for categoryName in self.categoryOfSubcategoriesNames:
-            category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
-            print u"Cargando subcategorías de {name}…".format(name=category.title())
-            for subcategory in category.subcategories():
-                self.loadPageNamesFromCategory(subcategory)
-        for categoryName in self.categoryNames:
-            if categoryName not in self.visitedCategories:
-                self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
+        cache = False # Set to True to enable caching of the list of pages to work on.
+        cacheFilePath = u"firstSentencePages.pickle"
+        if cache and self.parsingMode == "FirstSentence" and os.path.exists(cacheFilePath):
+            with open(cacheFilePath, "r") as fileObject:
+                self.firstSentencePages = pickle.load(fileObject)
+        else:
+            for pageName in self.pageNames:
+                cache.parsePage(pageName)
+            for categoryName in self.categoryOfSubcategoriesNames:
+                category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
+                print u"Cargando subcategorías de {name}…".format(name=category.title())
+                for subcategory in category.subcategories():
+                    self.loadPageNamesFromCategory(subcategory)
+            for categoryName in self.categoryNames:
+                if categoryName not in self.visitedCategories:
+                    self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
+            if cache and self.parsingMode == "FirstSentence":
+                with open(cacheFilePath, "w") as fileObject:
+                    pickle.dump(self.firstSentencePages, fileObject)
 
+        # DEBUG: Use this list for pages that had errors in the wiki that just
+        # have just fixed in the wiki but are still wrong in the XML dump.
+        pagesToLoadFromWiki = [
+                u"Atol Ailinglaplap",
+                u"Atol Rose",
+                u"Atol Namu",
+                u"Atol Nukufetau",
+                u"Australia",
+                u"Bolshoy Lyakhovsky",
+                u"Capri",
+                u"Ceram",
+                u"Coco, Costa Rica",
+                u"Cozumel",
+                u"Dokos",
+                u"Filicudi",
+                u"Grande Terre, Nova Caledonia",
+                u"Great Chagos Bank",
+                u"Illa Beef",
+                u"Illa da Virgen del Mar",
+                u"Illa de El Sujeto",
+                u"Illa de Las Palomas",
+                u"Illa del Giglio",
+                u"Illa Desolación",
+                u"Illa Juan de Nova",
+                u"Illa Maupiti",
+                u"Illa Piedra del Hombre",
+                u"Illa Plana",
+                u"Illa Saint-Paul",
+                u"Illa Tac",
+                u"Illa Vostok",
+                u"Illas Caimán",
+                u"Illas dispersas do Océano Índico",
+                u"Illas Ryukyu",
+                u"Illote Motu",
+                u"Illote Motuloa do Sur",
+                u"Lampione",
+                u"Leucas - Λευκάδα",
+                u"Linosa",
+                u"Mayotte",
+                u"Okinawa",
+                u"Paramushir",
+                u"Poros",
+                u"Run",
+                u"Sado",
+                u"Strombolicchio",
+                u"Tobago",
+            ]
 
         if self.parsingMode == "FirstSentence":
             pageCount = len(self.firstSentencePages)
@@ -292,7 +384,7 @@ class GalipediaGenerator(generator.Generator):
             sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
             sys.stdout.flush()
             for entry in self.xmlReader.parse():
-                if entry.title in self.firstSentencePages:
+                if entry.title in self.firstSentencePages and entry.title not in pagesToLoadFromWiki:
                     try:
                         self.parseFirstSentence(entry.title, entry.text)
                     except ValueError:
@@ -420,10 +512,11 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas das Illas Baleares", u"Illas de Galicia", u"Illas de Asia", u"Illas de Marrocos", u"Illas galegas", u"Illas dos Grandes Lagos"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas das Illas Baleares", u"Illas de Asturias", u"Illas de Galicia", u"Illas de Asia", u"Illas de Marrocos", u"Illas galegas", u"Illas dos Grandes Lagos"],
         categoryOfSubcategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas por continente", u"Illas por mar", u"Illas por países"],
-        invalidPagePattern = u"^(Modelo:|(Batalla|Lista) )",
-        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Alasca|Illas de Asia|Illas de Galicia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países|Illas por continente)$"
+        invalidPagePattern = u"^(Modelo:|(Batalla|Lista) |Illote Motu|Illas de Galicia)",
+        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Alasca|Illas de Asia|Illas de Galicia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
+        parsingMode = "FirstSentence"
     ))
 
     generators.append(GalipediaGenerator(
