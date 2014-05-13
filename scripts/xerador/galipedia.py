@@ -332,49 +332,6 @@ class GalipediaGenerator(generator.Generator):
         # DEBUG: Use this list for pages that had errors in the wiki that just
         # have just fixed in the wiki but are still wrong in the XML dump.
         pagesToLoadFromWiki = [
-                u"Atol Ailinglaplap",
-                u"Atol Rose",
-                u"Atol Namu",
-                u"Atol Nukufetau",
-                u"Australia",
-                u"Bolshoy Lyakhovsky",
-                u"Capri",
-                u"Ceram",
-                u"Coco, Costa Rica",
-                u"Cozumel",
-                u"Dokos",
-                u"Filicudi",
-                u"Grande Terre, Nova Caledonia",
-                u"Great Chagos Bank",
-                u"Illa Beef",
-                u"Illa da Virgen del Mar",
-                u"Illa de El Sujeto",
-                u"Illa de Las Palomas",
-                u"Illa del Giglio",
-                u"Illa Desolación",
-                u"Illa Juan de Nova",
-                u"Illa Maupiti",
-                u"Illa Piedra del Hombre",
-                u"Illa Plana",
-                u"Illa Saint-Paul",
-                u"Illa Tac",
-                u"Illa Vostok",
-                u"Illas Caimán",
-                u"Illas dispersas do Océano Índico",
-                u"Illas Ryukyu",
-                u"Illote Motu",
-                u"Illote Motuloa do Sur",
-                u"Lampione",
-                u"Leucas - Λευκάδα",
-                u"Linosa",
-                u"Mayotte",
-                u"Okinawa",
-                u"Paramushir",
-                u"Poros",
-                u"Run",
-                u"Sado",
-                u"Strombolicchio",
-                u"Tobago",
             ]
 
         if self.parsingMode == "FirstSentence":
@@ -507,6 +464,15 @@ def loadGeneratorList():
         categoryNames = [u"Escultura relixiosa de Galicia"],
         validCategoryPattern = u"^(Baldaquinos d|Cruceiros d)",
         invalidCategoryPattern = u"^Imaxes d"
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/baías.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Golfos e baías"],
+        invalidPagePattern = u"^Baía$",
+        validCategoryPattern = u"^Golfos e baías d",
+        parsingMode = "FirstSentence"
     ))
 
     generators.append(GalipediaGenerator(
