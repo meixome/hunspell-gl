@@ -422,14 +422,14 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
         parsedCategoryNames = []
         for categoryName in categoryNames:
             parsedCategoryNames.append(categoryName.format(name=countryName))
-
+        categoryPattern = u"Comarcas|Departamentos|Estados|Periferias|Provincias|Rexións|Subdivisións|Subrexións"
         super(GalipediaRexionsGenerator, self).__init__(
             resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
             categoryNames = parsedCategoryNames,
-            invalidPagePattern = u"^(Modelo:|(Batalla|Departamentos|Estados|Lista|Periferias|Provincias|Rexións|Subrexións) |Comunidade autónoma)",
-            validCategoryPattern = u"^(Comarcas|Departamentos|Estados|Periferias|Provincias|Rexións|Subrexións) ",
-            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Estados|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes|Subrexións) ",
+            invalidPagePattern = u"^(Modelo:|(Batalla|Lista|{}) |Comunidade autónoma)".format(categoryPattern),
+            validCategoryPattern = u"^({}) ".format(categoryPattern),
+            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
             stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
@@ -619,6 +619,7 @@ def loadGeneratorList():
     generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Grecia", [u"Periferias de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"India", [u"Subdivisións da {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Países Baixos", [u"Provincias dos {name}"]))
