@@ -570,6 +570,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Nepal", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Oceanía"))
     generators.append(GalipediaLocalidadesGenerator(u"Países Baixos", [u"Cidades dos {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Paquistán"))
     generators.append(GalipediaLocalidadesGenerator(u"Perú", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Polonia"))
     generators.append(GalipediaLocalidadesGenerator(u"Portugal", [u"Cidades de {name}", u"Municipios de {name}", u"Vilas de {name}"]))

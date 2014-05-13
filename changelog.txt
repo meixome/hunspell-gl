@@ -1629,6 +1629,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/accidentes/baías
 + galipedia/onomástica/toponimia/localidades/malaisia
 + galipedia/onomástica/toponimia/localidades/nepal
++ galipedia/onomástica/toponimia/localidades/paquistán
 + galipedia/onomástica/toponimia/localidades/sudán-do-sur
 + galipedia/onomástica/toponimia/localidades/suecia
 + galipedia/onomástica/toponimia/rexións/guatemala

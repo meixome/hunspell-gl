@@ -1,0 +1,179 @@
+FAMILIAS DE REGRAS DE CONSTRUCIÓN DE PALABRAS
+
+norma           Normas ortográficas e morfolóxicas do idioma galego
+                Real Academia Galega / Instituto da Lingua Galega, 2003
+                http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+
+trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
+                http://trasno.net/content/resultados-das-trasnadas
+
+unidades        Prefixos e sufixos para símbolos de unidades
+                http://en.wikipedia.org/wiki/International_System_of_Units
+                Nota: inclúense prefixos para unidades binarias.
+
+
+DICIONARIOS DE NÚCLEOS DE PALABRAS
+
+comunidade      Vocabulario da comunidade do corrector de galego Hunspell
+                Termos engadidos ao corrector sen indicar unha fonte que os apoie.
+                Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
+
+                Submódulos:
+
+                • toponimia.dic
+                • vocabulario.dic
+
+drag            Dicionario da Real Academia Galega
+                Real Academia Galega, 2012
+                http://www.realacademiagalega.org/dicionario
+
+                Submódulos:
+
+                • correcto. Vocabulario correcto.
+                • tolerado. Vocabulario tolerado.
+
+galipedia       Galipedia
+                http://gl.wikipedia.org/wiki/Portada
+
+                Submódulos:
+
+                • onomástica. Nomes propios.
+                    • arquitectura.
+                    • relixión. Pezas de arquitectura relixiosa.
+                    • arte
+                    • escultura
+                        • relixión
+                    • astronomía
+                    • planetas
+                    • toponimia. Topónimos.
+                    • accidentes. Nomes de accidentes xeográficos.
+                        • baías
+                        • continentes
+                        • illas
+                        • montañas
+                        • praias
+                        • rexións
+                        • ríos
+                    • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                        • desaparecidas. Localidades desaparecidas, que xa non existen.
+                        • alemaña
+                        • alxeria
+                        • bangladesh
+                        • barbados
+                        • bélxica
+                        • bolivia
+                        • brasil
+                        • colombia
+                        • congo
+                        • cuba
+                        • dinamarca
+                        • emiratos-árabes-unidos
+                        • eslovaquia
+                        • españa
+                        • estados-unidos-de-américa
+                        • etiopía
+                        • exipto
+                        • finlandia
+                        • francia
+                        • grecia
+                        • grecia-antiga
+                        • guatemala
+                        • guinea-bisau
+                        • hungría
+                        • iemen
+                        • india
+                        • indonesia
+                        • iraq
+                        • irlanda
+                        • israel
+                        • italia
+                        • líbano
+                        • malaisia
+                        • malí
+                        • méxico
+                        • nepal
+                        • oceanía
+                        • países-baixos
+                        • paquistán
+                        • perú
+                        • polonia
+                        • portugal
+                        • qatar
+                        • reino-unido
+                        • romanía
+                        • serbia
+                        • siria
+                        • sudán-do-sur
+                        • suecia
+                        • suráfrica
+                        • suíza
+                        • timor-leste
+                        • turquía
+                        • venezuela
+                        • xapón
+                        • xordania
+                    • lugares. Nomes de lugares e parroquias.
+                        • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                    • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
+                    • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                        • alemaña
+                        • brasil
+                        • chile
+                        • colombia
+                        • españa
+                        • estados-unidos-de-américa
+                        • finlandia
+                        • francia
+                        • guatemala
+                        • grecia
+                        • india
+                        • italia
+                        • méxico
+                        • países-baixos
+                        • portugal
+                        • rusia
+                    • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
+                        • españa
+                • xeografía. Xeografía.
+                    • accidentes. Accidentes xeográficos.
+
+galizionario    Galizionario
+                https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal
+
+                Submódulos:
+
+                • toponimia. Topónimos.
+                    • galicia
+
+iso639          Códigos de linguas (ISO 639)
+                http://gl.wikipedia.org/wiki/ISO_639
+
+iso4217         Códigos de moedas (ISO 4217)
+                http://gl.wikipedia.org/wiki/ISO_4217
+
+trasno          Acordos terminolóxicos do Proxecto Trasno
+                http://trasno.net/content/resultados-das-trasnadas
+
+unidades        Símbolos de unidades
+                http://en.wikipedia.org/wiki/International_System_of_Units
+                Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
+
+volga           Vocabulario ortográfico da lingua galega
+                Santamarina Fernández, Antón e González González, Manuel (coord.)
+                Real Academia Galega / Instituto da Lingua Galega, 2004
+                http://www.realacademiagalega.org/volga/
+
+                Submódulos:
+
+                • correcto. Vocabulario correcto.
+                • tolerado. Vocabulario tolerado.
+
+
+REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
+
+comunidade      Suxestións da comunidade do corrector de galego Hunspell
+                Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
+                Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
+
+galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
+                http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
