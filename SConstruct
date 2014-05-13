@@ -131,6 +131,7 @@ Módulos dispoñíbeis:
                           • líbano
                           • malí
                           • méxico
+                          • nepal
                           • oceanía
                           • países-baixos
                           • perú
