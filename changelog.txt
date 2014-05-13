@@ -180,6 +180,8 @@ Cambios desde a versión 13.10.1
 
 + galipedia/onomástica/astronomía/planetas
 
++ galipedia/onomástica/toponimia/accidentes/baías
+
 • galipedia/onomástica/toponimia/accidentes/illas
     • A Orchila → La Orchila
     • Arquipélago Os Monxes → Arquipélago Los Monxes
@@ -617,6 +619,8 @@ Cambios desde a versión 13.10.1
     + Mangalia
     + Roșia Montană
     + Tulcea
+
++ galipedia/onomástica/toponimia/localidades/suecia
 
 • galipedia/onomástica/toponimia/localidades/sudáfrica → galipedia/onomástica/toponimia/localidades/suráfrica
     + Mvezo
@@ -1543,6 +1547,8 @@ Cambios desde a versión 13.10.1
 • galipedia/onomástica/toponimia/rexións/francia
     • Pas-de-Calais → Paso de Calais
     + Martinica
+
++ galipedia/onomástica/toponimia/rexións/india
 
 • galipedia/onomástica/toponimia/rexións/italia
     • Ravenna → Rávena

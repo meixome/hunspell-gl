@@ -81,10 +81,14 @@ Módulos dispoñíbeis:
                     • onomástica. Nomes propios.
                       • arquitectura.
                         • relixión. Pezas de arquitectura relixiosa.
+                      • arte
+                        • escultura
+                          • relixión
                       • astronomía
                         • planetas
                       • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
+                          • baías
                           • continentes
                           • illas
                           • montañas
@@ -137,6 +141,7 @@ Módulos dispoñíbeis:
                           • romanía
                           • serbia
                           • siria
+                          • suecia
                           • suráfrica
                           • suíza
                           • timor-leste
@@ -157,6 +162,7 @@ Módulos dispoñíbeis:
                           • finlandia
                           • francia
                           • grecia
+                          • india
                           • italia
                           • méxico
                           • países-baixos
