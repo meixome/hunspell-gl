@@ -1634,6 +1634,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/localidades/suecia
 + galipedia/onomástica/toponimia/rexións/guatemala
 + galipedia/onomástica/toponimia/rexións/india
++ galipedia/onomástica/toponimia/rexións/reino-unido
 
 
 Versión 13.10.1

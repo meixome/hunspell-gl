@@ -422,7 +422,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
         parsedCategoryNames = []
         for categoryName in categoryNames:
             parsedCategoryNames.append(categoryName.format(name=countryName))
-        categoryPattern = u"Comarcas|Departamentos|Estados|Periferias|Provincias|Rexións|Subdivisións|Subrexións"
+        categoryPattern = u"Áreas municipais|Comarcas|Condados|Departamentos|Distritos|Divisións|Estados|Partidos xudiciais|Periferias|Provincias|Rexións|Subdivisións|Subrexións"
         super(GalipediaRexionsGenerator, self).__init__(
             resource = u"onomástica/toponimia/rexións/{name}.dic".format(name=countryName.lower().replace(" ", "-")),
             partOfSpeech = u"topónimo",
@@ -430,7 +430,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             invalidPagePattern = u"^(Modelo:|(Batalla|Lista|{}) |Comunidade autónoma)".format(categoryPattern),
             validCategoryPattern = u"^({}) ".format(categoryPattern),
             invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
-            stripPrefixPattern = u"^(Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
+            stripPrefixPattern = u"^(Condado|Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
 
@@ -633,6 +633,7 @@ def loadGeneratorList():
         u"Antigas provincias portuguesas", u"Distritos e rexións autónomas de Portugal", u"NUTS I portuguesas",
         u"NUTS II portuguesas", u"NUTS III portuguesas", u"Rexións autónomas de Portugal"
     ]))
+    generators.append(GalipediaRexionsGenerator(u"Reino Unido", [u"Condados de Inglaterra", u"Condados de Irlanda", u"Divisións de Escocia", u"Rexións de Inglaterra"]))
     generators.append(GalipediaRexionsGenerator(u"Rusia", [u"Repúblicas de {name}"]))
 
     generators.append(GalipediaGenerator(

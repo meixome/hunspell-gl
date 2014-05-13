@@ -131,6 +131,7 @@ galipedia       Galipedia
                         • méxico
                         • países-baixos
                         • portugal
+                        • reino-unido
                         • rusia
                     • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                         • españa
