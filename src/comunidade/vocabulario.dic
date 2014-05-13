@@ -2348,8 +2348,5 @@ CTRL po:tecla
 Maiús po:tecla
 MAIÚS po:tecla
 
-# Toponimia e xentilicios
+# Xentilicios
 capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
-Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
-Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
-Galiana po:topónimo         # https://en.wikipedia.org/wiki/Guliana,_Gujrat

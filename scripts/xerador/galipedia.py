@@ -430,7 +430,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             invalidPagePattern = u"^(Modelo:|(Batalla|Lista|{}) |Comunidade autónoma)".format(categoryPattern),
             validCategoryPattern = u"^({}) ".format(categoryPattern),
             invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
-            stripPrefixPattern = u"^(Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
+            stripPrefixPattern = u"^(Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
         )
 
 
@@ -620,6 +620,7 @@ def loadGeneratorList():
     generators.append(GalipediaRexionsGenerator(u"Finlandia"))
     generators.append(GalipediaRexionsGenerator(u"Francia", [u"Departamentos de {name}", u"Rexións de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Grecia", [u"Periferias de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Guatemala", [u"Departamentos de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"India", [u"Subdivisións da {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Italia", [u"Rexións de {name}", u"Provincias de {name}"]))
     generators.append(GalipediaRexionsGenerator(u"México", [u"Estados de {name}"]))
