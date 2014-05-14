@@ -104,7 +104,7 @@ def removeMediaWikiFileTags(content):
 redirectPattern = re.compile(u"#REDIRECT *\[\[(?P<target>.*)\]\]")
 htmlStartTagPattern = re.compile(u"< *(\w+)[^>]*?(?<!/)>")
 htmlEndTagPattern = re.compile(u"</ *(\w+) *>")
-tagsToSkip = [u"br"]
+tagsToSkip = [u"br", "hr"]
 tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
 tableEndTagPattern = re.compile(u"\|\}(?!\})")
 fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
@@ -252,7 +252,18 @@ class GalipediaGenerator(generator.Generator):
             match = re.sub(wikiTags, u"", match) # Eliminar etiquetas MediaWiki, como [[ ou ]].
             self.parsePageName(match)
 
-    mainArticleMatch = re.compile(u"\{\{ *AP *\| *(?P<page>[^|}]+) *(\||\}\})")
+    mainArticleMatch = re.compile(u"(?i)\{\{ *(AP|Artigo principal) *\| *(?P<page>[^|}]+) *(\||\}\})")
+
+    def enqueueToParseFirstSentenceIfExists(pageName):
+        page = pywikibot.Page(galipedia, pageName)
+        if page.exists():
+            if page.isRedirectPage():
+                page = page.getRedirectTarget()
+                pageName = page.title()
+            self.enqueueToParseFirstSentence(pageName)
+            return True
+        return False
+
 
     def parseCategory(self, page):
         pageName = getCategoryName(page)
@@ -263,15 +274,10 @@ class GalipediaGenerator(generator.Generator):
                 categoryContent = page.get()
                 match = GalipediaGenerator.mainArticleMatch.search(categoryContent)
                 if match:
-                    mainPageName = match.group("page")
-                    mainPage = pywikibot.Page(galipedia, mainPageName)
-                    if mainPage.exists():
-                        self.enqueueToParseFirstSentence(mainPageName)
+                    if self.enqueueToParseFirstSentenceIfExists(match.group("page")):
                         return
-                elif u"{{AP}}" in categoryContent:
-                    mainPage = pywikibot.Page(galipedia, pageName)
-                    if mainPage.exists():
-                        self.enqueueToParseFirstSentence(pageName)
+                elif u"{{AP}}" in categoryContent or u"{{Artigo principal}}" in categoryContent:
+                    if self.enqueueToParseFirstSentenceIfExists(pageName):
                         return
             except:
                 pass
@@ -313,7 +319,7 @@ class GalipediaGenerator(generator.Generator):
         print u"Feito."
         sys.stdout.flush()
 
-        cache = False # Set to True to enable caching of the list of pages to work on.
+        cache = True # Set to True to enable caching of the list of pages to work on.
         cacheFilePath = u"firstSentencePages.pickle"
         if cache and self.parsingMode == "FirstSentence" and os.path.exists(cacheFilePath):
             with open(cacheFilePath, "r") as fileObject:
