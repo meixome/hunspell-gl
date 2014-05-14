@@ -39,107 +39,109 @@ galipedia       Galipedia
 
                 • onomástica. Nomes propios.
                     • arquitectura.
-                    • relixión. Pezas de arquitectura relixiosa.
+                        • relixión. Pezas de arquitectura relixiosa.
                     • arte
-                    • escultura
-                        • relixión
+                        • escultura
+                            • relixión
                     • astronomía
-                    • planetas
+                        • planetas
+                    • historia
+                        • civilizacións
                     • toponimia. Topónimos.
-                    • accidentes. Nomes de accidentes xeográficos.
-                        • baías
-                        • continentes
-                        • illas
-                        • mares
-                        • montañas
-                        • praias
-                        • rexións
-                        • ríos
-                    • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
-                        • desaparecidas. Localidades desaparecidas, que xa non existen.
-                        • alemaña
-                        • alxeria
-                        • bangladesh
-                        • barbados
-                        • bélxica
-                        • bolivia
-                        • brasil
-                        • china
-                        • colombia
-                        • congo
-                        • cuba
-                        • dinamarca
-                        • emiratos-árabes-unidos
-                        • eslovaquia
-                        • españa
-                        • estados-unidos-de-américa
-                        • etiopía
-                        • exipto
-                        • finlandia
-                        • francia
-                        • grecia
-                        • grecia-antiga
-                        • guatemala
-                        • guinea-bisau
-                        • hungría
-                        • iemen
-                        • india
-                        • indonesia
-                        • iraq
-                        • irlanda
-                        • israel
-                        • italia
-                        • líbano
-                        • malaisia
-                        • malí
-                        • méxico
-                        • mozambique
-                        • nepal
-                        • oceanía
-                        • omán
-                        • países-baixos
-                        • paquistán
-                        • perú
-                        • polonia
-                        • portugal
-                        • qatar
-                        • reino-unido
-                        • romanía
-                        • serbia
-                        • siria
-                        • sudán-do-sur
-                        • suecia
-                        • suráfrica
-                        • suíza
-                        • timor-leste
-                        • turquía
-                        • venezuela
-                        • xapón
-                        • xordania
-                    • lugares. Nomes de lugares e parroquias.
-                        • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
-                    • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
-                    • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
-                        • alemaña
-                        • bélxica
-                        • brasil
-                        • chile
-                        • colombia
-                        • españa
-                        • estados-unidos-de-américa
-                        • finlandia
-                        • francia
-                        • guatemala
-                        • grecia
-                        • india
-                        • italia
-                        • méxico
-                        • países-baixos
-                        • portugal
-                        • reino-unido
-                        • rusia
-                    • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
-                        • españa
+                        • accidentes. Nomes de accidentes xeográficos.
+                            • baías
+                            • continentes
+                            • illas
+                            • mares
+                            • montañas
+                            • praias
+                            • rexións
+                            • ríos
+                        • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                            • desaparecidas. Localidades desaparecidas, que xa non existen.
+                            • alemaña
+                            • alxeria
+                            • bangladesh
+                            • barbados
+                            • bélxica
+                            • bolivia
+                            • brasil
+                            • china
+                            • colombia
+                            • congo
+                            • cuba
+                            • dinamarca
+                            • emiratos-árabes-unidos
+                            • eslovaquia
+                            • españa
+                            • estados-unidos-de-américa
+                            • etiopía
+                            • exipto
+                            • finlandia
+                            • francia
+                            • grecia
+                            • grecia-antiga
+                            • guatemala
+                            • guinea-bisau
+                            • hungría
+                            • iemen
+                            • india
+                            • indonesia
+                            • iraq
+                            • irlanda
+                            • israel
+                            • italia
+                            • líbano
+                            • malaisia
+                            • malí
+                            • méxico
+                            • mozambique
+                            • nepal
+                            • oceanía
+                            • omán
+                            • países-baixos
+                            • paquistán
+                            • perú
+                            • polonia
+                            • portugal
+                            • qatar
+                            • reino-unido
+                            • romanía
+                            • serbia
+                            • siria
+                            • sudán-do-sur
+                            • suecia
+                            • suráfrica
+                            • suíza
+                            • timor-leste
+                            • turquía
+                            • venezuela
+                            • xapón
+                            • xordania
+                        • lugares. Nomes de lugares e parroquias.
+                            • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                        • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
+                        • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                            • alemaña
+                            • bélxica
+                            • brasil
+                            • chile
+                            • colombia
+                            • españa
+                            • estados-unidos-de-américa
+                            • finlandia
+                            • francia
+                            • guatemala
+                            • grecia
+                            • india
+                            • italia
+                            • méxico
+                            • países-baixos
+                            • portugal
+                            • reino-unido
+                            • rusia
+                        • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
+                            • españa
                 • xeografía. Xeografía.
                     • accidentes. Accidentes xeográficos.
 

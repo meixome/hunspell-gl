@@ -189,14 +189,6 @@ Cambios desde a versión 13.10.1
 • galipedia/onomástica/toponimia/rexións/rusia (actualizouse)
 • galipedia/onomástica/toponimia/zonas/españa (actualizouse)
 • galipedia/suxestións (actualizouse)
-
-• galizionario (novo)
-    • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.
-    • No futuro, cando chegue a estar á par co módulo da Galipedia, substituirá a este módulo, por ser o Galizionario un
-      proxecto máis axeitado para utilizar de base de datos de vocabulario.
-    • De momento o módulo unicamente contén topónimos, distribuídos entre «toponimia/xeral.dic» e
-      «toponimia/galicia.dic», imitando as categorías do proxecto.
-
 • iso4217 (actualizouse)
 • iso639 (actualizouse)
 
@@ -206,6 +198,7 @@ Cambios desde a versión 13.10.1
 
 + galipedia/onomástica/arte/escultura/relixión
 + galipedia/onomástica/astronomía/planetas
++ galipedia/onomástica/historia/civilizacións
 + galipedia/onomástica/toponimia/accidentes/baías
 + galipedia/onomástica/toponimia/accidentes/mares
 + galipedia/onomástica/toponimia/localidades/china
@@ -220,6 +213,13 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/rexións/guatemala
 + galipedia/onomástica/toponimia/rexións/india
 + galipedia/onomástica/toponimia/rexións/reino-unido
+
++ galizionario (novo)
+    • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.
+    • No futuro, cando chegue a estar á par co módulo da Galipedia, substituirá a este módulo, por ser o Galizionario un
+      proxecto máis axeitado para utilizar de base de datos de vocabulario.
+    • De momento o módulo unicamente contén topónimos, distribuídos entre «toponimia/xeral.dic» e
+      «toponimia/galicia.dic», imitando as categorías do proxecto.
 
 
 Versión 13.10.1

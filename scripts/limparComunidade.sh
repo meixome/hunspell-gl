@@ -28,7 +28,7 @@ do
   unset entryExists
   for result in "${grepResults[@]}"
   do
-    resultEntry=$(echo ${result} | cut -d: -f 2 | cut -d" " -f 1)
+    resultEntry=$(echo ${result} | cut -d: -f 1 | cut -d" " -f 1)
     if [ "${entry}" == "${resultEntry}" ]; then
       entryExists=true
     fi
