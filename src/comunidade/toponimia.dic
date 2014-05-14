@@ -27,12 +27,11 @@ Mans po:topónimo            # https://en.wikipedia.org/wiki/Le_Mans
 Maspalomas po:topónimo      # https://en.wikipedia.org/wiki/Maspalomas
 Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
 Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
-Maón                        # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
-Mogadouro
-Moguer
-Monagas
-Montalvo
-Montecarlo
+Maón po:topónimo            # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
+Mogadouro po:topónimo       # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Mogadouro
+Moguer po:topónimo          # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Huelva
+Monagas po:topónimo         # https://gl.wikipedia.org/wiki/Acosta
+Montalvo po:topónimo        # https://gl.wikipedia.org/wiki/Praia_de_Paxari%C3%B1as
 Moravia
 Murillo
 Muñíz

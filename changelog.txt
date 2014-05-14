@@ -213,6 +213,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/rexións/guatemala
 + galipedia/onomástica/toponimia/rexións/india
 + galipedia/onomástica/toponimia/rexións/reino-unido
++ galipedia/onomástica/toponimia/zonas/mónaco
 
 + galizionario (novo)
     • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.

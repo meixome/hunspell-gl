@@ -438,6 +438,8 @@ class GalipediaGenerator(generator.Generator):
                     sys.stdout.flush()
                 print
                 sys.stdout.flush()
+        print
+        sys.stdout.flush()
 
         content = ""
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
@@ -732,6 +734,14 @@ def loadGeneratorList():
         categoryNames = [u"Barrios de España", u"Distritos de España"],
         invalidPagePattern = u"^Modelo:|(Barrios|Distritos) ",
         validCategoryPattern = u"^(Barrios|Distritos) "
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/zonas/mónaco.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Barrios de Mónaco"],
+        invalidPagePattern = u"^Modelo:|(Barrios) ",
+        validCategoryPattern = u"^(Barrios) "
     ))
 
     return generators
