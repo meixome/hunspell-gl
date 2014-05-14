@@ -25,10 +25,9 @@ Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
 Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
 Mans po:topónimo            # https://en.wikipedia.org/wiki/Le_Mans
 Maspalomas po:topónimo      # https://en.wikipedia.org/wiki/Maspalomas
-Masía
-Masías
-Maón
-Maúnzo
+Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
+Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
+Maón                        # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
 Mediterráneo
 Mesopotamia
 Mogadouro

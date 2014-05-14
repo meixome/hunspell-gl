@@ -20,14 +20,16 @@ def getPageName(page):
 
 class GalizionarioGenerator(generator.Generator):
 
-    def __init__(self, resource, partOfSpeech, pageNames = [], categoryNames = []):
+    def __init__(self, resource, partOfSpeech, pageNames = [], categoryNames = [], ignoreCategoryNames = []):
 
         self.resource = "galizionario/" + resource
         self.partOfSpeech = partOfSpeech
         self.pageNames = pageNames
         self.categoryNames = categoryNames
+        self.ignoreCategoryNames = ignoreCategoryNames
         self.entries = set()
         self.visitedCategories = set()
+        self.pagesToIgnore = set()
 
 
     def addEntry(self, entry):
@@ -35,7 +37,8 @@ class GalizionarioGenerator(generator.Generator):
 
 
     def parsePageName(self, pageName):
-        self.addEntry(pageName)
+        if pageName not in self.pagesToIgnore:
+            self.addEntry(pageName)
 
 
     def parsePage(self, page):
@@ -49,7 +52,18 @@ class GalizionarioGenerator(generator.Generator):
             self.parsePage(page)
 
 
+    def loadPageNamesFromCategoryIntoIgnoreList(self, category):
+        print u"Cargando {name} para omitir o seu contido…".format(name=category.title())
+        self.visitedCategories.add(getCategoryName(category))
+        for page in category.articles(namespaces=0):
+            self.pagesToIgnore.add(getPageName(page))
+
+
     def generateFileContent(self):
+
+        for categoryName in self.ignoreCategoryNames:
+            if categoryName not in self.visitedCategories:
+                self.loadPageNamesFromCategoryIntoIgnoreList(pywikibot.Category(galizionario, u"Categoría:{}".format(categoryName)))
 
         for pageName in self.pageNames:
             self.parsePage(pywikibot.Page(galizionario, pageName))
@@ -80,7 +94,8 @@ def loadGeneratorList():
     generators.append(GalizionarioGenerator(
         resource = u"toponimia/xeral.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Toponimia en galego"]
+        categoryNames = [u"Toponimia en galego"],
+        ignoreCategoryNames = [u"Toponimia de Galicia en galego"]
     ))
 
     generators.append(GalizionarioGenerator(
