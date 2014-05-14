@@ -212,6 +212,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/localidades/paquistán
 + galipedia/onomástica/toponimia/localidades/sudán-do-sur
 + galipedia/onomástica/toponimia/localidades/suecia
++ galipedia/onomástica/toponimia/rexións/bélxica
 + galipedia/onomástica/toponimia/rexións/guatemala
 + galipedia/onomástica/toponimia/rexións/india
 + galipedia/onomástica/toponimia/rexións/reino-unido

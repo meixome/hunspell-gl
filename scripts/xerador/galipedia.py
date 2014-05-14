@@ -319,7 +319,7 @@ class GalipediaGenerator(generator.Generator):
         print u"Feito."
         sys.stdout.flush()
 
-        cache = True # Set to True to enable caching of the list of pages to work on.
+        cache = False # Set to True to enable caching of the list of pages to work on. (for debug)
         cacheFilePath = u"firstSentencePages.pickle"
         if cache and self.parsingMode == "FirstSentence" and os.path.exists(cacheFilePath):
             with open(cacheFilePath, "r") as fileObject:
@@ -359,8 +359,9 @@ class GalipediaGenerator(generator.Generator):
                             pageContent = getPageContent(entry.title)
                             self.parseFirstSentence(entry.title, getPageContent(entry.title))
                         except ValueError:
+                            print
                             print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
-                            raise
+                            continue
                     except:
                         continue # Use the online version.
                     self.firstSentencePages.remove(entry.title)
@@ -429,7 +430,7 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
 
 class GalipediaRexionsGenerator(GalipediaGenerator):
 
-    def __init__(self, countryName, categoryNames = [u"Rexións de {name}"]):
+    def __init__(self, countryName, categoryNames = [u"Rexións de {name}"], parsingMode = "Title"):
 
         parsedCategoryNames = []
         for categoryName in categoryNames:
@@ -442,7 +443,8 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             invalidPagePattern = u"^(Modelo:|(Batalla|Lista|{}) |Comunidade autónoma)".format(categoryPattern),
             validCategoryPattern = u"^({}) ".format(categoryPattern),
             invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
-            stripPrefixPattern = u"^(Condado|Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) "
+            stripPrefixPattern = u"^(Condado|Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) ",
+            parsingMode = parsingMode
         )
 
 
@@ -548,7 +550,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Alxeria"))
     generators.append(GalipediaLocalidadesGenerator(u"Bangladesh"))
     generators.append(GalipediaLocalidadesGenerator(u"Barbados"))
-    generators.append(GalipediaLocalidadesGenerator(u"Bélxica"))
+    generators.append(GalipediaLocalidadesGenerator(u"Bélxica", parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Bolivia"))
     generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
@@ -628,6 +630,7 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))
+    generators.append(GalipediaRexionsGenerator(u"Bélxica", [u"Provincias da {name}", u"Rexións de {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaRexionsGenerator(u"Brasil", [u"Estados do {name}"]))
     generators.append(GalipediaRexionsGenerator(u"Chile"))
     generators.append(GalipediaRexionsGenerator(u"Colombia", [u"Departamentos de {name}", u"Provincias de {name}"]))
