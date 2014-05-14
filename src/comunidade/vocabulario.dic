@@ -2348,5 +2348,8 @@ CTRL po:tecla
 Maiús po:tecla
 MAIÚS po:tecla
 
-# Xentilicios
+# Xentilicios.
 capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
+
+# Nomes de persoa.
+Maeloc po:nome    # https://gl.wikipedia.org/wiki/Mailoc
