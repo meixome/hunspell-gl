@@ -382,50 +382,54 @@ class GalipediaGenerator(generator.Generator):
                 self.cacheManager.save(self.resource, u"titlePages", self.titlePages)
                 self.cacheManager.save(self.resource, u"firstSentencePages", self.firstSentencePages)
 
-        if self.parsingMode == "FirstSentence":
-            pageCount = len(self.firstSentencePages)
-            processedPages = 0
-            statement = u"Analizando a primeira oración de cada páxina na copia de seguridade… {} ({}%)\r"
-            sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
-            sys.stdout.flush()
-            for entry in self.xmlReader.parse():
-                if entry.title in self.titlePages:
-                    self.parsePageName(entry.title)
-                elif entry.title in self.firstSentencePages and entry.title not in self.cacheManager.pagesToLoadFromWiki:
-                    try:
-                        self.parseFirstSentence(entry.title, entry.text)
-                    except ValueError:
-                        try:
-                            pageContent = getPageContent(entry.title)
-                            self.parseFirstSentence(entry.title, getPageContent(entry.title))
-                        except ValueError:
-                            print
-                            print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
-                            continue
-                    except:
-                        continue # Use the online version.
+        pageCount = len(self.firstSentencePages) + len(self.titlePages)
+        processedPages = 0
+        pagesToProcessFromWiki = 0
+        statement = u"Analizando a primeira oración de cada páxina na copia de seguridade… {} ({}%)\r"
+        sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
+        sys.stdout.flush()
+        for entry in self.xmlReader.parse():
+            if entry.title in self.cacheManager.pagesToLoadFromWiki:
+                pagesToProcessFromWiki += 1
+            elif entry.title in self.titlePages:
+                self.parsePageName(entry.title)
+                self.titlePages.remove(entry.title)
+                processedPages += 1
+            elif entry.title in self.firstSentencePages:
+                try:
+                    self.parseFirstSentence(entry.title, entry.text)
                     self.firstSentencePages.remove(entry.title)
                     processedPages += 1
-                    sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
-                    sys.stdout.flush()
-                    if processedPages == pageCount:
-                        break
-            print
+                except ValueError:
+                    try:
+                        pageContent = getPageContent(entry.title)
+                        self.parseFirstSentence(entry.title, getPageContent(entry.title))
+                        self.firstSentencePages.remove(entry.title)
+                        processedPages += 1
+                    except ValueError:
+                        print
+                        print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
+                        pagesToProcessFromWiki += 1
+                except:
+                    pagesToProcessFromWiki += 1
+            sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
             sys.stdout.flush()
+            if (processedPages + pagesToProcessFromWiki) == pageCount:
+                break
+        print
+        sys.stdout.flush()
 
-            pageCount = len(self.firstSentencePages)
-            if pageCount > 0:
-                processedPages = 0
-                statement = u"Analizando as páxinas restantes a partir do seu contido no wiki… {} ({}%)\r"
+        if pagesToProcessFromWiki > 0:
+            statement = u"Analizando as páxinas restantes a partir do seu contido no wiki… {} ({}%)\r"
+            print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
+            sys.stdout.flush()
+            for pageName in self.firstSentencePages:
+                self.parseFirstSentence(pageName, getPageContent(pageName))
+                processedPages += 1
                 print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
                 sys.stdout.flush()
-                for pageName in self.firstSentencePages:
-                    self.parseFirstSentence(pageName, getPageContent(pageName))
-                    processedPages += 1
-                    print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
-                    sys.stdout.flush()
-                print
-                sys.stdout.flush()
+            print
+            sys.stdout.flush()
 
         content = ""
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
@@ -593,6 +597,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Bélxica", parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Bolivia"))
     generators.append(GalipediaLocalidadesGenerator(u"Brasil", [u"Cidades do {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"China", [u"Cidades da {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Colombia", [u"Cidades de {name}", u"Concellos de {name}", u"Correxementos de {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Congo", [u"Cidades da República do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Cuba"))
