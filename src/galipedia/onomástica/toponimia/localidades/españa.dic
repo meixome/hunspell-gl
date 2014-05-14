@@ -127,6 +127,7 @@ Albal po:topónimo
 Albalat po:topónimo [n-grama: Albalat dels Sorells]
 dels po:topónimo [n-grama: Albalat dels Sorells]
 Sorells po:topónimo [n-grama: Albalat dels Sorells]
+Albanyà po:topónimo
 Albarracín po:topónimo
 Albelda po:topónimo [n-grama: Albelda de Iregua]
 Iregua po:topónimo [n-grama: Albelda de Iregua]
@@ -285,6 +286,7 @@ Andújar po:topónimo
 Anguiano po:topónimo
 Anguix po:topónimo
 Anievas po:topónimo
+Anlleo po:topónimo
 Añora po:topónimo
 Ansó po:topónimo
 Antas po:topónimo [n-grama: Antas de Ulla]
@@ -394,6 +396,7 @@ Arucas po:topónimo
 Arzúa po:topónimo
 Edradas po:topónimo [n-grama: As Edradas]
 Ellas po:topónimo [n-grama: As Ellas]
+Figueiras po:topónimo [n-grama: As Figueiras]
 Neves po:topónimo [n-grama: As Neves]
 Nogais po:topónimo [n-grama: As Nogais]
 Palmas po:topónimo [n-grama: As Palmas de Gran Canaria]
@@ -404,6 +407,7 @@ Portelas po:topónimo [n-grama: As Portelas]
 Somozas po:topónimo [n-grama: As Somozas]
 Travesas po:topónimo [n-grama: As Travesas]
 Asadur po:topónimo
+Astierna po:topónimo
 Astorga po:topónimo
 Astudillo po:topónimo
 Atapuerca po:topónimo
@@ -767,6 +771,7 @@ Verdún po:topónimo [n-grama: Canal de Verdún]
 Cañamaque po:topónimo
 Cañaveras po:topónimo
 Candamo po:topónimo
+Candás po:topónimo
 Candelaria po:topónimo
 Candilichera po:topónimo
 Candín po:topónimo
@@ -966,6 +971,7 @@ Celada po:topónimo [n-grama: Celada del Camino]
 del po:topónimo [n-grama: Celada del Camino]
 Camino po:topónimo [n-grama: Celada del Camino]
 Celanova po:topónimo
+Celoriu po:topónimo
 Cenicero po:topónimo
 Cenlle po:topónimo
 Centenera po:topónimo [n-grama: Centenera de Andaluz]
@@ -1102,6 +1108,7 @@ Cospeito po:topónimo
 Costitx po:topónimo
 Cotobade po:topónimo
 Couxela po:topónimo
+Covadonga po:topónimo
 Covaleda po:topónimo
 Covarrubias po:topónimo
 Covelo po:topónimo
@@ -1711,6 +1718,8 @@ Cueva po:topónimo [n-grama: La Cueva de Roa]
 Roa po:topónimo [n-grama: La Cueva de Roa]
 La po:topónimo [n-grama: La Ercina]
 Ercina po:topónimo [n-grama: La Ercina]
+La po:topónimo [n-grama: La Felguera]
+Felguera po:topónimo [n-grama: La Felguera]
 La po:topónimo [n-grama: La Figuera]
 Figuera po:topónimo [n-grama: La Figuera]
 La po:topónimo [n-grama: La Frontera]
@@ -1867,6 +1876,8 @@ Larouco po:topónimo
 Larrabetzu po:topónimo
 Las po:topónimo [n-grama: Las Aldehuelas]
 Aldehuelas po:topónimo [n-grama: Las Aldehuelas]
+Las po:topónimo [n-grama: Las Arenas]
+Arenas po:topónimo [n-grama: Las Arenas]
 Las po:topónimo [n-grama: Las Cabezas de San Juan]
 Cabezas po:topónimo [n-grama: Las Cabezas de San Juan]
 Juan po:topónimo [n-grama: Las Cabezas de San Juan]
@@ -1991,6 +2002,7 @@ Tojos po:topónimo [n-grama: Los Tojos]
 Louredo po:topónimo
 Lourenzá po:topónimo
 Lousame po:topónimo
+Luarca po:topónimo
 Lubián po:topónimo
 Lucena po:topónimo
 Lucillo po:topónimo
@@ -2461,6 +2473,7 @@ Oñati po:topónimo
 Oncala po:topónimo
 Onda po:topónimo
 Ondarroa po:topónimo
+Oneta po:topónimo
 Ontinyent po:topónimo
 Onzonilla po:topónimo
 Oquillas po:topónimo
@@ -2478,6 +2491,7 @@ Orpesa po:topónimo
 Ortigueira po:topónimo
 Ortuella po:topónimo
 Blancos po:topónimo [n-grama: Os Blancos]
+Coutos po:topónimo [n-grama: Os Coutos]
 Osa po:topónimo [n-grama: Osa de la Vega]
 la po:topónimo [n-grama: Osa de la Vega]
 Vega po:topónimo [n-grama: Osa de la Vega]
@@ -2570,6 +2584,7 @@ Parets po:topónimo [n-grama: Parets del Vallès]
 del po:topónimo [n-grama: Parets del Vallès]
 Vallès po:topónimo [n-grama: Parets del Vallès]
 Parla po:topónimo
+Parlleiro po:topónimo
 Parres po:topónimo
 la po:topónimo [n-grama: Partido de la Sierra en Tobalina]
 Sierra po:topónimo [n-grama: Partido de la Sierra en Tobalina]
@@ -2644,6 +2659,7 @@ Pineda po:topónimo [n-grama: Pineda de Mar]
 Mar po:topónimo [n-grama: Pineda de Mar]
 Pineda po:topónimo [n-grama: Pineda Trasmonte]
 Trasmonte po:topónimo [n-grama: Pineda Trasmonte]
+Piñeira po:topónimo
 Pinilla po:topónimo [n-grama: Pinilla de los Barruecos]
 los po:topónimo [n-grama: Pinilla de los Barruecos]
 Barruecos po:topónimo [n-grama: Pinilla de los Barruecos]
@@ -2676,6 +2692,9 @@ Pobra po:topónimo [n-grama: Pobra de Seabra]
 Seabra po:topónimo [n-grama: Pobra de Seabra]
 Poio po:topónimo
 Pol po:topónimo
+Pola po:topónimo [n-grama: Pola de Allande]
+Allande po:topónimo [n-grama: Pola de Allande]
+Polaviella po:topónimo
 Polentinos po:topónimo
 Pollença po:topónimo
 Pomar po:topónimo [n-grama: Pomar de Valdivia]
@@ -7181,6 +7200,7 @@ Coloma po:topónimo [n-grama: Santa Coloma de Farners]
 Farners po:topónimo [n-grama: Santa Coloma de Farners]
 Coloma po:topónimo [n-grama: Santa Coloma de Gramenet]
 Gramenet po:topónimo [n-grama: Santa Coloma de Gramenet]
+Colomba po:topónimo [n-grama: Santa Colomba]
 Colomba po:topónimo [n-grama: Santa Colomba de Curueño]
 Curueño po:topónimo [n-grama: Santa Colomba de Curueño]
 Colomba po:topónimo [n-grama: Santa Colomba de Somoza]
@@ -10421,6 +10441,7 @@ Sotobañado po:topónimo [n-grama: Sotobañado y Priorato]
 y po:topónimo [n-grama: Sotobañado y Priorato]
 Priorato po:topónimo [n-grama: Sotobañado y Priorato]
 Sotragero po:topónimo
+Sotres po:topónimo
 Sotresgudo po:topónimo
 Soutomaior po:topónimo
 Suances po:topónimo
@@ -10547,6 +10568,7 @@ Touro po:topónimo
 Tourón po:topónimo
 Trabada po:topónimo
 Trabadelo po:topónimo
+Trabado po:topónimo
 Trapagaran po:topónimo
 Trasmiras po:topónimo
 Trasmoz po:topónimo
@@ -10557,8 +10579,10 @@ Tres po:topónimo [n-grama: Tres Cantos]
 Cantos po:topónimo [n-grama: Tres Cantos]
 Trespaderne po:topónimo
 Tresviso po:topónimo
+Trevías po:topónimo
 Triacastela po:topónimo
 Triollo po:topónimo
+Trubia po:topónimo
 Truchas po:topónimo
 Trucios po:topónimo
 Trujillo po:topónimo
@@ -10571,6 +10595,7 @@ Lago po:topónimo [n-grama: Tubilla del Lago]
 Tudanca po:topónimo
 Tudela po:topónimo
 Tui po:topónimo
+Tuilla po:topónimo
 Tuineje po:topónimo
 Turcia po:topónimo
 Turtzioz po:topónimo
@@ -10952,6 +10977,7 @@ Villaobispo po:topónimo [n-grama: Villaobispo de Otero]
 Otero po:topónimo [n-grama: Villaobispo de Otero]
 Villaornate po:topónimo [n-grama: Villaornate y Castro]
 y po:topónimo [n-grama: Villaornate y Castro]
+Villapedre po:topónimo
 Villaprovedo po:topónimo
 Villaquejida po:topónimo
 Villaquilambre po:topónimo

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-import os, re, sys
+import codecs, json, os, re, sys, time
 import urllib, urllib2
 import pickle
 
@@ -22,16 +22,44 @@ numberPattern = re.compile(u"^[0-9]+$")
 boldPattern = re.compile(u"\'\'\' *(.*?) *\'\'\'")
 
 
-class DumpProvider(object):
+class CacheManager(object):
 
     # Singleton implementation: http://stackoverflow.com/a/1810367
     _instance = None
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
-            cls._instance = super(DumpProvider, cls).__new__(
+            cls._instance = super(CacheManager, cls).__new__(
                                 cls, *args, **kwargs)
             cls._instance._initialized = False
         return cls._instance
+
+
+    def cachePath(self, resourcePath, objectName):
+        return os.path.join(self.pickleFolder, resourcePath, objectName)
+
+
+    def cacheExists(self, resourcePath, objectName):
+        cachePath = self.cachePath(resourcePath, objectName)
+        if not os.path.exists(cachePath):
+            return False
+        fileData = os.stat(cachePath)
+        if (time.time() - fileData.st_mtime) > 86400: # Older than 24h.
+            return False
+        return True
+
+
+    def load(self, resourcePath, objectName):
+        cachePath = self.cachePath(resourcePath, objectName)
+        with open(cachePath, "r") as fileObject:
+            return pickle.load(fileObject)
+
+
+    def save(self, resourcePath, objectName, objectData):
+        cachePath = self.cachePath(resourcePath, objectName)
+        if not os.path.exists(os.path.dirname(cachePath)):
+            os.makedirs(os.path.dirname(cachePath))
+        with open(cachePath, "w") as fileObject:
+            pickle.dump(objectData, fileObject)
 
 
     def xmlReader(self):
@@ -56,8 +84,10 @@ class DumpProvider(object):
 
         self._xmlReader = None
 
-        cacheFolder = save_cache_path(u"hunspell-gl")
-        dumpFolder = os.path.join(cacheFolder, u"galipedia-dumps")
+        self.cacheFolder = save_cache_path(u"hunspell-gl")
+        self.pickleFolder = os.path.join(self.cacheFolder, u"pickle")
+        dumpFolder = os.path.join(self.cacheFolder, u"galipedia-dumps")
+        pagesToLoadFromWikiJsonFilePath = os.path.join(self.cacheFolder, u"pagesToLoadFromWiki.json")
 
         pageDumpFileNameTemplate = u"glwiki-{}-pages-meta-current.xml.bz2"
         pageDumpPattern = re.compile(pageDumpFileNameTemplate.format(u"(?P<date>[0-9]{8})"))
@@ -83,6 +113,8 @@ class DumpProvider(object):
                 needNewDump = False
             else:
                 os.remove(self.pageDumpPath)
+                with open(pagesToLoadFromWikiJsonFilePath, "w") as fileObject:
+                    fileObject.write(u"")
 
         if needNewDump:
             pageDumpFileName = pageDumpFileNameTemplate.format(remoteDumpDate)
@@ -92,6 +124,13 @@ class DumpProvider(object):
             urllib.urlretrieve(u"http://dumps.wikimedia.org/glwiki/{}/{}".format(remoteDumpDate, pageDumpFileName), self.pageDumpPath)
             print u"Feito."
             sys.stdout.flush()
+
+        self.pagesToLoadFromWiki = []
+        if os.path.exists(pagesToLoadFromWikiJsonFilePath):
+            with codecs.open(pagesToLoadFromWikiJsonFilePath, "r", "utf-8") as fileObject:
+                self.pagesToLoadFromWiki = json.load(fileObject)
+
+
 
 def getCategoryName(category):
     return category.title()[10:]
@@ -204,8 +243,9 @@ class GalipediaGenerator(generator.Generator):
         self.entries = set()
         self.visitedCategories = set()
 
-        self.dumpProvider = DumpProvider()
+        self.cacheManager = CacheManager()
         self.firstSentencePages = set()
+        self.titlePages = set()
 
 
     def addEntry(self, entry):
@@ -234,6 +274,10 @@ class GalipediaGenerator(generator.Generator):
             self.addEntry(parts[1])
         else:
             self.addEntry(pageName)
+
+
+    def enqueueToParseTitle(self, pageName):
+        self.titlePages.add(pageName)
 
 
     def enqueueToParseFirstSentence(self, pageName):
@@ -281,7 +325,7 @@ class GalipediaGenerator(generator.Generator):
                         return
             except:
                 pass
-        self.parsePageName(pageName) # Use category name if anything else fails.
+        self.enqueueToParseTitle(pageName) # Use category name if anything else fails.
 
 
     def parsePage(self, pageName):
@@ -291,9 +335,9 @@ class GalipediaGenerator(generator.Generator):
             try:
                 self.enqueueToParseFirstSentence(pageName)
             except:
-                self.parsePageName(pageName)
+                self.enqueueToParseTitle(pageName)
         else:
-            self.parsePageName(pageName)
+            self.enqueueToParseTitle(pageName)
 
 
     def loadPageNamesFromCategory(self, category):
@@ -313,17 +357,16 @@ class GalipediaGenerator(generator.Generator):
 
     def generateFileContent(self):
 
-        print u"Cargando a copia de seguridade “{}”…".format(self.dumpProvider.pageDumpPath),
+        print u"Cargando a copia de seguridade “{}”…".format(self.cacheManager.pageDumpPath),
         sys.stdout.flush()
-        self.xmlReader = self.dumpProvider.xmlReader()
+        self.xmlReader = self.cacheManager.xmlReader()
         print u"Feito."
         sys.stdout.flush()
 
-        cache = False # Set to True to enable caching of the list of pages to work on. (for debug)
-        cacheFilePath = u"firstSentencePages.pickle"
-        if cache and self.parsingMode == "FirstSentence" and os.path.exists(cacheFilePath):
-            with open(cacheFilePath, "r") as fileObject:
-                self.firstSentencePages = pickle.load(fileObject)
+        cache = True # Set to False to disable caching of the lists of pages to work on.
+        if cache and self.cacheManager.cacheExists(self.resource, u"titlePages"):
+            self.titlePages = self.cacheManager.load(self.resource, u"titlePages")
+            self.firstSentencePages = self.cacheManager.load(self.resource, u"firstSentencePages")
         else:
             for pageName in self.pageNames:
                 cache.parsePage(pageName)
@@ -335,14 +378,9 @@ class GalipediaGenerator(generator.Generator):
             for categoryName in self.categoryNames:
                 if categoryName not in self.visitedCategories:
                     self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
-            if cache and self.parsingMode == "FirstSentence":
-                with open(cacheFilePath, "w") as fileObject:
-                    pickle.dump(self.firstSentencePages, fileObject)
-
-        # DEBUG: Use this list for pages that had errors in the wiki that just
-        # have just fixed in the wiki but are still wrong in the XML dump.
-        pagesToLoadFromWiki = [
-            ]
+            if cache:
+                self.cacheManager.save(self.resource, u"titlePages", self.titlePages)
+                self.cacheManager.save(self.resource, u"firstSentencePages", self.firstSentencePages)
 
         if self.parsingMode == "FirstSentence":
             pageCount = len(self.firstSentencePages)
@@ -351,7 +389,9 @@ class GalipediaGenerator(generator.Generator):
             sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
             sys.stdout.flush()
             for entry in self.xmlReader.parse():
-                if entry.title in self.firstSentencePages and entry.title not in pagesToLoadFromWiki:
+                if entry.title in self.titlePages:
+                    self.parsePageName(entry.title)
+                elif entry.title in self.firstSentencePages and entry.title not in self.cacheManager.pagesToLoadFromWiki:
                     try:
                         self.parseFirstSentence(entry.title, entry.text)
                     except ValueError:
@@ -559,7 +599,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Dinamarca"))
     generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
-    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de Galicia"], parsingMode="FirstSentence"))
+    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de España"], parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Etiopía"))
     generators.append(GalipediaLocalidadesGenerator(u"Exipto"))
