@@ -155,7 +155,7 @@ def getFirstSentenceFromPageContent(pageName, pageContent):
                 elif endTag in htmlStartTags:
                     htmlStartTags.remove(endTag)
                 else:
-                    print u"In page “{}”, start tag for end tag “{}” not found in line:\n    {}".format(pageName, endTag, line)
+                    print u"\nIn page “{}”, start tag for end tag “{}” not found in line:\n    {}".format(pageName, endTag, line)
                     raise Exception
     return None
 
@@ -243,7 +243,7 @@ class GalipediaGenerator(generator.Generator):
     def parseFirstSentence(self, pageName, pageContent):
         firstSentence = getFirstSentenceFromPageContent(pageName, pageContent)
         if firstSentence is None:
-            print u"First sentence is None in “{}”.".format(pageName)
+            print u"\nFirst sentence is None in “{}”.".format(pageName)
             raise IndexError
         matches = boldPattern.findall(firstSentence)
         if len(matches) == 0:
@@ -261,14 +261,18 @@ class GalipediaGenerator(generator.Generator):
         if self.parsingMode == "FirstSentence":
             try:
                 categoryContent = page.get()
-                match = mainArticleMatch.search(categoryContent)
+                match = GalipediaGenerator.mainArticleMatch.search(categoryContent)
                 if match:
-                    self.enqueueToParseFirstSentence(match.group("page"))
-                    return
+                    mainPageName = match.group("page")
+                    mainPage = pywikibot.Page(galipedia, mainPageName)
+                    if mainPage.exists():
+                        self.enqueueToParseFirstSentence(mainPageName)
+                        return
                 elif u"{{AP}}" in categoryContent:
-                    self.enqueueToParseFirstSentence(pageName)
-                    return
-
+                    mainPage = pywikibot.Page(galipedia, pageName)
+                    if mainPage.exists():
+                        self.enqueueToParseFirstSentence(pageName)
+                        return
             except:
                 pass
         self.parsePageName(pageName) # Use category name if anything else fails.
@@ -351,6 +355,8 @@ class GalipediaGenerator(generator.Generator):
                         except ValueError:
                             print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
                             raise
+                    except:
+                        continue # Use the online version.
                     self.firstSentencePages.remove(entry.title)
                     processedPages += 1
                     sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
@@ -478,7 +484,7 @@ def loadGeneratorList():
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/illas.dic",
         partOfSpeech = u"topónimo",
-        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas das Illas Baleares", u"Illas de Asturias", u"Illas de Galicia", u"Illas de Asia", u"Illas de Marrocos", u"Illas galegas", u"Illas dos Grandes Lagos"],
+        categoryNames = [u"Illas e arquipélagos", u"Arquipélagos", u"Atois", u"Illas", u"Illas das Illas Baleares", u"Illas de Asturias", u"Illas de Canarias", u"Illas de Galicia", u"Illas de Asia", u"Illas de Marrocos", u"Illas galegas", u"Illas dos Grandes Lagos"],
         categoryOfSubcategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas por continente", u"Illas por mar", u"Illas por países"],
         invalidPagePattern = u"^(Modelo:|(Batalla|Lista) |Illote Motu|Illas de Galicia)",
         invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Alasca|Illas de Asia|Illas de Galicia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
