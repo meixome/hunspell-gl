@@ -50,6 +50,7 @@ galipedia       Galipedia
                         • baías
                         • continentes
                         • illas
+                        • mares
                         • montañas
                         • praias
                         • rexións

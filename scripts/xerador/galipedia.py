@@ -544,6 +544,16 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/mares.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Mares e océanos"],
+        invalidPagePattern = u"^(Instituto|(Mar|Océano mundial|Zona económica exclusiva)$)",
+        validCategoryPattern = u"^(Mares|Océanos)",
+        invalidCategoryPattern = u"^(Cidades|Estreitos) ",
+        parsingMode = "FirstSentence"
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/montañas.dic",
         partOfSpeech = u"topónimo",
         categoryNames = [u"Montañas"],
