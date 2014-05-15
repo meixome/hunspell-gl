@@ -152,44 +152,8 @@ Cambios desde a versión 13.10.1
         • «tolerado.dic», creado desde cero co seguinte vocabulario:
             • seudónimo
 
-• galipedia/onomástica/arquitectura/relixión (actualizouse)
-• galipedia/onomástica/toponimia/accidentes/illas (actualizouse)
-• galipedia/onomástica/toponimia/accidentes/praias (actualizouse)
-• galipedia/onomástica/toponimia/accidentes/ríos (actualizouse)
-• galipedia/onomástica/toponimia/localidades/alemaña (actualizouse)
-• galipedia/onomástica/toponimia/localidades/bélxica (actualizouse)
-• galipedia/onomástica/toponimia/localidades/brasil (actualizouse)
-• galipedia/onomástica/toponimia/localidades/colombia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/dinamarca (actualizouse)
-• galipedia/onomástica/toponimia/localidades/españa (actualizouse)
-• galipedia/onomástica/toponimia/localidades/estados-unidos-de-américa (actualizouse)
-• galipedia/onomástica/toponimia/localidades/finlandia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/francia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/grecia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/israel (actualizouse)
-• galipedia/onomástica/toponimia/localidades/italia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/oceanía (actualizouse)
-• galipedia/onomástica/toponimia/localidades/países-baixos (actualizouse)
-• galipedia/onomástica/toponimia/localidades/polonia (actualizouse)
-• galipedia/onomástica/toponimia/localidades/portugal (actualizouse)
-• galipedia/onomástica/toponimia/localidades/qatar (actualizouse)
-• galipedia/onomástica/toponimia/localidades/reino-unido (actualizouse)
-• galipedia/onomástica/toponimia/localidades/romanía (actualizouse)
-• galipedia/onomástica/toponimia/localidades/sudáfrica → galipedia/onomástica/toponimia/localidades/suráfrica (actualizouse)
-• galipedia/onomástica/toponimia/localidades/turquía (actualizouse)
-• galipedia/onomástica/toponimia/localidades/xapón (actualizouse)
-• galipedia/onomástica/toponimia/lugares/galicia (actualizouse)
-• galipedia/onomástica/toponimia/países (actualizouse)
-• galipedia/onomástica/toponimia/rexións/brasil (actualizouse)
-• galipedia/onomástica/toponimia/rexións/españa (actualizouse)
-• galipedia/onomástica/toponimia/rexións/estados-unidos-de-américa (actualizouse)
-• galipedia/onomástica/toponimia/rexións/francia (actualizouse)
-• galipedia/onomástica/toponimia/rexións/italia (actualizouse)
-• galipedia/onomástica/toponimia/rexións/méxico (actualizouse)
-• galipedia/onomástica/toponimia/rexións/países-baixos (actualizouse)
-• galipedia/onomástica/toponimia/rexións/rusia (actualizouse)
-• galipedia/onomástica/toponimia/zonas/españa (actualizouse)
-• galipedia/suxestións (actualizouse)
+• galipedia → wikipedia/gl
+
 • iso4217 (actualizouse)
 • iso639 (actualizouse)
 
@@ -197,44 +161,84 @@ Cambios desde a versión 13.10.1
     + romántica/s (só estaban as formas masculinas)
     - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
 
-+ galipedia/onomástica/arte/escultura/relixión
-+ galipedia/onomástica/astronomía/planetas
-+ galipedia/onomástica/historia/civilizacións
-+ galipedia/onomástica/toponimia/accidentes/baías
-+ galipedia/onomástica/toponimia/accidentes/desertos
-+ galipedia/onomástica/toponimia/accidentes/mares
-+ galipedia/onomástica/toponimia/accidentes/penínsulas
-+ galipedia/onomástica/toponimia/localidades/austria
-+ galipedia/onomástica/toponimia/localidades/burkina-faso
-+ galipedia/onomástica/toponimia/localidades/cambodja
-+ galipedia/onomástica/toponimia/localidades/canadá
-+ galipedia/onomástica/toponimia/localidades/china
-+ galipedia/onomástica/toponimia/localidades/corea-do-norte
-+ galipedia/onomástica/toponimia/localidades/dominica
-+ galipedia/onomástica/toponimia/localidades/islandia
-+ galipedia/onomástica/toponimia/localidades/kenya
-+ galipedia/onomástica/toponimia/localidades/malaisia
-+ galipedia/onomástica/toponimia/localidades/marrocos
-+ galipedia/onomástica/toponimia/localidades/mozambique
-+ galipedia/onomástica/toponimia/localidades/nepal
-+ galipedia/onomástica/toponimia/localidades/omán
-+ galipedia/onomástica/toponimia/localidades/paquistán
-+ galipedia/onomástica/toponimia/localidades/rusia
-+ galipedia/onomástica/toponimia/localidades/sudán-do-sur
-+ galipedia/onomástica/toponimia/localidades/suecia
-+ galipedia/onomástica/toponimia/localidades/ucraína
-+ galipedia/onomástica/toponimia/rexións/bélxica
-+ galipedia/onomástica/toponimia/rexións/guatemala
-+ galipedia/onomástica/toponimia/rexións/india
-+ galipedia/onomástica/toponimia/rexións/reino-unido
-+ galipedia/onomástica/toponimia/zonas/mónaco
+• wikipedia/gl/onomástica/arquitectura/relixión (actualizouse)
+• wikipedia/gl/onomástica/toponimia/accidentes/illas (actualizouse)
+• wikipedia/gl/onomástica/toponimia/accidentes/praias (actualizouse)
+• wikipedia/gl/onomástica/toponimia/accidentes/ríos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/alemaña (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/bélxica (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/brasil (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/colombia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/dinamarca (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/españa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/estados-unidos-de-américa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/finlandia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/francia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/grecia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/israel (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/italia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/oceanía (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/países-baixos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/polonia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/portugal (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/qatar (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/reino-unido (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/romanía (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/sudáfrica → wikipedia/gl/onomástica/toponimia/localidades/suráfrica (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/turquía (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/xapón (actualizouse)
+• wikipedia/gl/onomástica/toponimia/lugares/galicia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/países (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/brasil (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/españa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/estados-unidos-de-américa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/francia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/italia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/méxico (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/países-baixos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/rusia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
+• wikipedia/gl/suxestións (actualizouse)
 
 + galizionario (novo)
     • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.
-    • No futuro, cando chegue a estar á par co módulo da Galipedia, substituirá a este módulo, por ser o Galizionario un
+    • No futuro, cando chegue a estar á par co módulo da Wikipedia, substituirá a este módulo, por ser o Galizionario un
       proxecto máis axeitado para utilizar de base de datos de vocabulario.
     • De momento o módulo unicamente contén topónimos, distribuídos entre «toponimia/xeral.dic» e
       «toponimia/galicia.dic», imitando as categorías do proxecto.
+
++ wikipedia/es/antropónimos
++ wikipedia/gl/onomástica/arte/escultura/relixión
++ wikipedia/gl/onomástica/astronomía/planetas
++ wikipedia/gl/onomástica/historia/civilizacións
++ wikipedia/gl/onomástica/toponimia/accidentes/baías
++ wikipedia/gl/onomástica/toponimia/accidentes/desertos
++ wikipedia/gl/onomástica/toponimia/accidentes/mares
++ wikipedia/gl/onomástica/toponimia/accidentes/penínsulas
++ wikipedia/gl/onomástica/toponimia/localidades/austria
++ wikipedia/gl/onomástica/toponimia/localidades/burkina-faso
++ wikipedia/gl/onomástica/toponimia/localidades/cambodja
++ wikipedia/gl/onomástica/toponimia/localidades/canadá
++ wikipedia/gl/onomástica/toponimia/localidades/china
++ wikipedia/gl/onomástica/toponimia/localidades/corea-do-norte
++ wikipedia/gl/onomástica/toponimia/localidades/dominica
++ wikipedia/gl/onomástica/toponimia/localidades/islandia
++ wikipedia/gl/onomástica/toponimia/localidades/kenya
++ wikipedia/gl/onomástica/toponimia/localidades/malaisia
++ wikipedia/gl/onomástica/toponimia/localidades/marrocos
++ wikipedia/gl/onomástica/toponimia/localidades/mozambique
++ wikipedia/gl/onomástica/toponimia/localidades/nepal
++ wikipedia/gl/onomástica/toponimia/localidades/omán
++ wikipedia/gl/onomástica/toponimia/localidades/paquistán
++ wikipedia/gl/onomástica/toponimia/localidades/rusia
++ wikipedia/gl/onomástica/toponimia/localidades/sudán-do-sur
++ wikipedia/gl/onomástica/toponimia/localidades/suecia
++ wikipedia/gl/onomástica/toponimia/localidades/ucraína
++ wikipedia/gl/onomástica/toponimia/rexións/bélxica
++ wikipedia/gl/onomástica/toponimia/rexións/guatemala
++ wikipedia/gl/onomástica/toponimia/rexións/india
++ wikipedia/gl/onomástica/toponimia/rexións/reino-unido
++ wikipedia/gl/onomástica/toponimia/zonas/mónaco
 
 
 Versión 13.10.1

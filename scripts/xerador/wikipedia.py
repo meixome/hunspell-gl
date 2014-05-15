@@ -14,7 +14,6 @@ from bs4 import BeautifulSoup
 import generator
 
 
-galipedia = pywikibot.Site(u"gl", u"wikipedia")
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")
@@ -24,14 +23,14 @@ boldPattern = re.compile(u"\'\'\' *(.*?) *\'\'\'")
 
 class CacheManager(object):
 
-    # Singleton implementation: http://stackoverflow.com/a/1810367
-    _instance = None
-    def __new__(cls, *args, **kwargs):
-        if not cls._instance:
-            cls._instance = super(CacheManager, cls).__new__(
-                                cls, *args, **kwargs)
-            cls._instance._initialized = False
-        return cls._instance
+    def __init__(self, languageCode):
+
+        self.languageCode = languageCode
+
+        self.cacheFolder = save_cache_path(u"hunspell-gl")
+        self.pickleFolder = os.path.join(self.cacheFolder, u"pickle")
+
+        self._xmlReader = None
 
 
     def cachePath(self, resourcePath, objectName):
@@ -64,32 +63,25 @@ class CacheManager(object):
 
     def xmlReader(self):
         if not self._xmlReader:
+            self._initialize()
             self._xmlReader = XmlDump(self.pageDumpPath)
         return self._xmlReader
 
 
     def getRemoteDumpDate(self):
-        request = urllib2.Request(u"http://dumps.wikimedia.org/glwiki/")
+        request = urllib2.Request(u"http://dumps.wikimedia.org/{}wiki/".format(self.languageCode))
         response = urllib2.urlopen(request)
         page = response.read()
         soup = BeautifulSoup(page)
         return int(soup.find_all("tr")[-2].td.a.get_text())
 
 
-    def __init__(self):
+    def _initialize(self):
 
-        if self._initialized:
-            return
-        self._initialized = True
+        dumpFolder = os.path.join(self.cacheFolder, u"wikipedia-dumps")
+        pagesToLoadFromWikiJsonFilePath = os.path.join(self.cacheFolder, u"pagesToLoadFromWiki-{}.json".format(self.languageCode))
 
-        self._xmlReader = None
-
-        self.cacheFolder = save_cache_path(u"hunspell-gl")
-        self.pickleFolder = os.path.join(self.cacheFolder, u"pickle")
-        dumpFolder = os.path.join(self.cacheFolder, u"galipedia-dumps")
-        pagesToLoadFromWikiJsonFilePath = os.path.join(self.cacheFolder, u"pagesToLoadFromWiki.json")
-
-        pageDumpFileNameTemplate = u"glwiki-{}-pages-meta-current.xml.bz2"
+        pageDumpFileNameTemplate = u"{}wiki".format(self.languageCode) + u"-{}-pages-articles.xml.bz2"
         pageDumpPattern = re.compile(pageDumpFileNameTemplate.format(u"(?P<date>[0-9]{8})"))
         self.pageDumpPath = None
 
@@ -121,7 +113,7 @@ class CacheManager(object):
             self.pageDumpPath = os.path.join(dumpFolder, pageDumpFileName)
             print u"Descargando a copia de seguridade “{}”…".format(self.pageDumpPath),
             sys.stdout.flush()
-            urllib.urlretrieve(u"http://dumps.wikimedia.org/glwiki/{}/{}".format(remoteDumpDate, pageDumpFileName), self.pageDumpPath)
+            urllib.urlretrieve(u"http://dumps.wikimedia.org/{}wiki/{}/{}".format(self.languageCode, remoteDumpDate, pageDumpFileName), self.pageDumpPath)
             print u"Feito."
             sys.stdout.flush()
 
@@ -148,64 +140,15 @@ tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
 tableEndTagPattern = re.compile(u"\|\}(?!\})")
 fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
 
-def getPageContent(pageName):
-    page = pywikibot.Page(galipedia, pageName)
-    while page.isRedirectPage():
-        page = page.getRedirectTarget()
-    return page.get()
-
 sentenceSeparatorPattern = re.compile(u"(?<!(a\.C|d\.C|.St))\. ")
 
-def getFirstSentenceFromPageContent(pageName, pageContent):
-    lines = pageContent.split('\n')
-    match = redirectPattern.match(lines[0])
-    if match:
-        return getFirstSentenceFromPageContent(pageName, getPageContent(pageName))
-    templateDepth = 0
-    tableDepth = 0
-    fileDepth = 0
-    htmlStartTags = []
-    for line in lines:
-        line = removeMediaWikiFileTags(line)
-        line = line.rstrip()
-        if line:
-            tableDepth += sum(1 for match in tableStartTagPattern.finditer(line))
-            lineTableEndTagsCount = sum(1 for match in tableEndTagPattern.finditer(line))
-            tableDepth -= lineTableEndTagsCount
-            if lineTableEndTagsCount and line.startswith("|}"):
-                line = line[2:]
-                if not line:
-                    continue
-            if line[0] not in [' ', '{', '}', '|', '[', ':', '!', '<'] and not templateDepth and not tableDepth and not fileDepth and not htmlStartTags:
-                line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
-                line = re.sub(reference, u"", line) # Eliminar contido de referencia.
-                return sentenceSeparatorPattern.split(line)[0]
-            templateDepth += line.count("{{")
-            templateDepth -= line.count("}}")
-            lineFileDepth = sum(1 for match in fileStartTagPattern.finditer(line))
-            fileDepth += lineFileDepth
-            fileDepth -= line.count(u"]]") - line.count(u"[[") + lineFileDepth
-            for startTag in htmlStartTagPattern.findall(line):
-                if startTag not in tagsToSkip:
-                    htmlStartTags.append(startTag)
-            for endTag in htmlEndTagPattern.findall(line):
-                if endTag in tagsToSkip:
-                    pass
-                elif endTag in htmlStartTags:
-                    htmlStartTags.remove(endTag)
-                else:
-                    print u"\nIn page “{}”, start tag for end tag “{}” not found in line:\n    {}".format(pageName, endTag, line)
-                    raise Exception
-    return None
 
+class WikipediaGenerator(generator.Generator):
 
-class GalipediaGenerator(generator.Generator):
-
-    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
+    def __init__(self, languageCode, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
                  invalidCategoryPattern = None, stripPrefixPattern = None, commaFilter = True, basqueFilter = False,
                  categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
-
-        self.resource = "galipedia/" + resource
+        self.resource = u"wikipedia/{}/{}".format(languageCode, resource)
         self.partOfSpeech = partOfSpeech
         self.pageNames = pageNames
         self.categoryNames = categoryNames
@@ -244,9 +187,11 @@ class GalipediaGenerator(generator.Generator):
         self.entries = set()
         self.visitedCategories = set()
 
-        self.cacheManager = CacheManager()
+        self.cacheManager = CacheManager(languageCode)
         self.firstSentencePages = set()
         self.titlePages = set()
+
+        self.site = pywikibot.Site(languageCode, u"wikipedia")
 
 
     def addEntry(self, entry):
@@ -286,7 +231,7 @@ class GalipediaGenerator(generator.Generator):
 
 
     def parseFirstSentence(self, pageName, pageContent):
-        firstSentence = getFirstSentenceFromPageContent(pageName, pageContent)
+        firstSentence = self.getFirstSentenceFromPageContent(pageName, pageContent)
         if firstSentence is None:
             print u"\nFirst sentence is None in “{}”.".format(pageName)
             raise IndexError
@@ -300,7 +245,7 @@ class GalipediaGenerator(generator.Generator):
     mainArticleMatch = re.compile(u"(?i)\{\{ *(AP|Artigo principal) *\| *(?P<page>[^|}]+) *(\||\}\})")
 
     def enqueueToParseFirstSentenceIfExists(self, pageName):
-        page = pywikibot.Page(galipedia, pageName)
+        page = pywikibot.Page(self.site, pageName)
         if page.exists():
             if page.isRedirectPage():
                 page = page.getRedirectTarget()
@@ -355,14 +300,56 @@ class GalipediaGenerator(generator.Generator):
         for page in category.articles(namespaces=0):
             self.parsePage(page.title())
 
+    def getPageContent(self, pageName):
+        page = pywikibot.Page(self.site, pageName)
+        while page.isRedirectPage():
+            page = page.getRedirectTarget()
+        return page.get()
+
+    def getFirstSentenceFromPageContent(self, pageName, pageContent):
+        lines = pageContent.split('\n')
+        match = redirectPattern.match(lines[0])
+        if match:
+            return self.getFirstSentenceFromPageContent(pageName, self.getPageContent(pageName))
+        templateDepth = 0
+        tableDepth = 0
+        fileDepth = 0
+        htmlStartTags = []
+        for line in lines:
+            line = removeMediaWikiFileTags(line)
+            line = line.rstrip()
+            if line:
+                tableDepth += sum(1 for match in tableStartTagPattern.finditer(line))
+                lineTableEndTagsCount = sum(1 for match in tableEndTagPattern.finditer(line))
+                tableDepth -= lineTableEndTagsCount
+                if lineTableEndTagsCount and line.startswith("|}"):
+                    line = line[2:]
+                    if not line:
+                        continue
+                if line[0] not in [' ', '{', '}', '|', '[', ':', '!', '<'] and not templateDepth and not tableDepth and not fileDepth and not htmlStartTags:
+                    line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
+                    line = re.sub(reference, u"", line) # Eliminar contido de referencia.
+                    return sentenceSeparatorPattern.split(line)[0]
+                templateDepth += line.count("{{")
+                templateDepth -= line.count("}}")
+                lineFileDepth = sum(1 for match in fileStartTagPattern.finditer(line))
+                fileDepth += lineFileDepth
+                fileDepth -= line.count(u"]]") - line.count(u"[[") + lineFileDepth
+                for startTag in htmlStartTagPattern.findall(line):
+                    if startTag not in tagsToSkip:
+                        htmlStartTags.append(startTag)
+                for endTag in htmlEndTagPattern.findall(line):
+                    if endTag in tagsToSkip:
+                        pass
+                    elif endTag in htmlStartTags:
+                        htmlStartTags.remove(endTag)
+                    else:
+                        print u"\nIn page “{}”, start tag for end tag “{}” not found in line:\n    {}".format(pageName, endTag, line)
+                        raise Exception
+        return None
+
 
     def generateFileContent(self):
-
-        print u"Cargando a copia de seguridade “{}”…".format(self.cacheManager.pageDumpPath),
-        sys.stdout.flush()
-        self.xmlReader = self.cacheManager.xmlReader()
-        print u"Feito."
-        sys.stdout.flush()
 
 
         cache = True # Set to False to disable caching of the lists of pages to work on.
@@ -373,13 +360,13 @@ class GalipediaGenerator(generator.Generator):
             for pageName in self.pageNames:
                 cache.parsePage(pageName)
             for categoryName in self.categoryOfSubcategoriesNames:
-                category = pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName))
+                category = pywikibot.Category(self.site, u"Categoría:{}".format(categoryName))
                 print u"Cargando subcategorías de {name}…".format(name=category.title())
                 for subcategory in category.subcategories():
                     self.loadPageNamesFromCategory(subcategory)
             for categoryName in self.categoryNames:
                 if categoryName not in self.visitedCategories:
-                    self.loadPageNamesFromCategory(pywikibot.Category(galipedia, u"Categoría:{}".format(categoryName)))
+                    self.loadPageNamesFromCategory(pywikibot.Category(self.site, u"Categoría:{}".format(categoryName)))
             if cache:
                 self.cacheManager.save(self.resource, u"titlePages", self.titlePages)
                 self.cacheManager.save(self.resource, u"firstSentencePages", self.firstSentencePages)
@@ -401,6 +388,11 @@ class GalipediaGenerator(generator.Generator):
             sys.stdout.flush()
 
         if len(self.firstSentencePages):
+            print u"Cargando a copia de seguridade “{}”…".format(self.cacheManager.pageDumpPath),
+            sys.stdout.flush()
+            self.xmlReader = self.cacheManager.xmlReader()
+            print u"Feito."
+            sys.stdout.flush()
             statement = u"Analizando a primeira oración de cada páxina na copia de seguridade… {} ({}%)\r"
             sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
             sys.stdout.flush()
@@ -414,13 +406,13 @@ class GalipediaGenerator(generator.Generator):
                         processedPages += 1
                     except ValueError:
                         try:
-                            pageContent = getPageContent(entry.title)
-                            self.parseFirstSentence(entry.title, getPageContent(entry.title))
+                            pageContent = self.getPageContent(entry.title)
+                            self.parseFirstSentence(entry.title, self.getPageContent(entry.title))
                             self.firstSentencePages.remove(entry.title)
                             processedPages += 1
                         except ValueError:
                             print
-                            print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, getFirstSentenceFromPageContent(entry.title, pageContent))
+                            print u"Non se atopou ningunha palabra en letra grosa na primeira oración de «{}»:\n    {}".format(entry.title, self.getFirstSentenceFromPageContent(entry.title, pageContent))
                             pagesToProcessFromWiki += 1
                     except:
                         pagesToProcessFromWiki += 1
@@ -436,7 +428,7 @@ class GalipediaGenerator(generator.Generator):
                 print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
                 sys.stdout.flush()
                 for pageName in self.firstSentencePages:
-                    self.parseFirstSentence(pageName, getPageContent(pageName))
+                    self.parseFirstSentence(pageName, self.getPageContent(pageName))
                     processedPages += 1
                     print statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount),
                     sys.stdout.flush()
@@ -457,6 +449,51 @@ class GalipediaGenerator(generator.Generator):
                 if name not in generator.wordsToIgnore:
                     content += u"{name} po:{partOfSpeech}\n".format(name=name, partOfSpeech=self.partOfSpeech)
         return content
+
+
+class GalipediaGenerator(WikipediaGenerator):
+
+    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
+                 invalidCategoryPattern = None, stripPrefixPattern = None, commaFilter = True, basqueFilter = False,
+                 categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
+        super(GalipediaGenerator, self).__init__(
+                "gl",
+                resource,
+                partOfSpeech,
+                categoryNames=categoryNames,
+                invalidPagePattern=invalidPagePattern,
+                validCategoryPattern=validCategoryPattern,
+                invalidCategoryPattern=invalidCategoryPattern,
+                stripPrefixPattern=stripPrefixPattern,
+                commaFilter=commaFilter,
+                basqueFilter=basqueFilter,
+                categoryOfSubcategoriesNames=categoryOfSubcategoriesNames,
+                parsingMode=parsingMode,
+                pageNames=pageNames,
+            )
+
+
+class WikipediaEsGenerator(WikipediaGenerator):
+
+    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
+                 invalidCategoryPattern = None, stripPrefixPattern = None, commaFilter = True, basqueFilter = False,
+                 categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
+        super(WikipediaEsGenerator, self).__init__(
+                "es",
+                resource,
+                partOfSpeech,
+                categoryNames=categoryNames,
+                invalidPagePattern=invalidPagePattern,
+                validCategoryPattern=validCategoryPattern,
+                invalidCategoryPattern=invalidCategoryPattern,
+                stripPrefixPattern=stripPrefixPattern,
+                commaFilter=commaFilter,
+                basqueFilter=basqueFilter,
+                categoryOfSubcategoriesNames=categoryOfSubcategoriesNames,
+                parsingMode=parsingMode,
+                pageNames=pageNames,
+            )
+        self.site = pywikibot.Site(u"es", u"wikipedia") # Usar a Galipedia de maneira predeterminada.
 
 
 class GalipediaLocalidadesGenerator(GalipediaGenerator):
@@ -508,6 +545,9 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
 def loadGeneratorList():
 
     generators = []
+
+
+    # Galipedia
 
     pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
     generators.append(GalipediaGenerator(
@@ -774,5 +814,18 @@ def loadGeneratorList():
         invalidPagePattern = u"^Modelo:|(Barrios) ",
         validCategoryPattern = u"^(Barrios) "
     ))
+
+
+    # Wikipedia en castelán.
+
+    generators.append(WikipediaEsGenerator(
+        resource = u"antropónimos.dic",
+        partOfSpeech = u"antropónimo",
+        categoryNames = [u"Nombres por género"],
+        validCategoryPattern = u"^Nombres ",
+        invalidCategoryPattern = u"^Puranas$",
+    ))
+
+
 
     return generators

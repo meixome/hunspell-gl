@@ -2,7 +2,7 @@
 
 import os, sys
 import codecs, locale
-import common, galipedia, galizionario, iso
+import common, wikipedia, galizionario, iso
 
 # See http://stackoverflow.com/a/4546129/939364
 sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
@@ -18,9 +18,9 @@ def getFirstPathRelativeToSecondPathIfWithin(childPath, parentPath):
 
 def loadGeneratorList():
     generators = []
-    generators.extend(galipedia.loadGeneratorList())
     generators.extend(galizionario.loadGeneratorList())
     generators.extend(iso.loadGeneratorList())
+    generators.extend(wikipedia.loadGeneratorList())
     return generators
 
 

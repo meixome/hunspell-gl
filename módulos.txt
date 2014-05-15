@@ -20,7 +20,6 @@ comunidade      Vocabulario da comunidade do corrector de galego Hunspell
 
                 Submódulos:
 
-                • toponimia.dic
                 • vocabulario.dic
 
 drag            Dicionario da Real Academia Galega
@@ -32,132 +31,134 @@ drag            Dicionario da Real Academia Galega
                 • correcto. Vocabulario correcto.
                 • tolerado. Vocabulario tolerado.
 
-galipedia       Galipedia
-                http://gl.wikipedia.org/wiki/Portada
+wikipedia       Wikipedia
+                http://wikipedia.org
 
                 Submódulos:
-
-                • onomástica. Nomes propios.
-                    • arquitectura.
-                        • relixión. Pezas de arquitectura relixiosa.
-                    • arte
-                        • escultura
-                            • relixión
-                    • astronomía
-                        • planetas
-                    • historia
-                        • civilizacións
-                    • toponimia. Topónimos.
-                        • accidentes. Nomes de accidentes xeográficos.
-                            • baías
-                            • continentes
-                            • desertos
-                            • illas
-                            • mares
-                            • montañas
-                            • penínsulas
-                            • praias
-                            • rexións
-                            • ríos
-                        • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
-                            • desaparecidas. Localidades desaparecidas, que xa non existen.
-                            • alemaña
-                            • alxeria
-                            • austria
-                            • bangladesh
-                            • barbados
-                            • bélxica
-                            • bolivia
-                            • brasil
-                            • burkina-faso
-                            • cambodja
-                            • canadá
-                            • china
-                            • colombia
-                            • congo
-                            • corea-do-norte
-                            • cuba
-                            • dinamarca
-                            • dominica
-                            • emiratos-árabes-unidos
-                            • eslovaquia
-                            • españa
-                            • estados-unidos-de-américa
-                            • etiopía
-                            • exipto
-                            • finlandia
-                            • francia
-                            • grecia
-                            • grecia-antiga
-                            • guatemala
-                            • guinea-bisau
-                            • hungría
-                            • iemen
-                            • india
-                            • indonesia
-                            • iraq
-                            • irlanda
-                            • islandia
-                            • israel
-                            • italia
-                            • kenya
-                            • líbano
-                            • malaisia
-                            • malí
-                            • marrocos
-                            • méxico
-                            • mozambique
-                            • nepal
-                            • oceanía
-                            • omán
-                            • países-baixos
-                            • paquistán
-                            • perú
-                            • polonia
-                            • portugal
-                            • qatar
-                            • reino-unido
-                            • romanía
-                            • rusia
-                            • serbia
-                            • siria
-                            • sudán-do-sur
-                            • suecia
-                            • suráfrica
-                            • suíza
-                            • timor-leste
-                            • turquía
-                            • ucraína
-                            • venezuela
-                            • xapón
-                            • xordania
-                        • lugares. Nomes de lugares e parroquias.
-                            • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
-                        • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
-                        • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
-                            • alemaña
-                            • bélxica
-                            • brasil
-                            • chile
-                            • colombia
-                            • españa
-                            • estados-unidos-de-américa
-                            • finlandia
-                            • francia
-                            • guatemala
-                            • grecia
-                            • india
-                            • italia
-                            • méxico
-                            • países-baixos
-                            • portugal
-                            • reino-unido
-                            • rusia
-                        • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
-                            • españa
-                            • mónaco
-                • xeografía. Xeografía.
-                    • accidentes. Accidentes xeográficos.
+                • es
+                    • antropónimos
+                • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
+                    • onomástica. Nomes propios.
+                        • arquitectura.
+                            • relixión. Pezas de arquitectura relixiosa.
+                        • arte
+                            • escultura
+                                • relixión
+                        • astronomía
+                            • planetas
+                        • historia
+                            • civilizacións
+                        • toponimia. Topónimos.
+                            • accidentes. Nomes de accidentes xeográficos.
+                                • baías
+                                • continentes
+                                • desertos
+                                • illas
+                                • mares
+                                • montañas
+                                • penínsulas
+                                • praias
+                                • rexións
+                                • ríos
+                            • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                                • desaparecidas. Localidades desaparecidas, que xa non existen.
+                                • alemaña
+                                • alxeria
+                                • austria
+                                • bangladesh
+                                • barbados
+                                • bélxica
+                                • bolivia
+                                • brasil
+                                • burkina-faso
+                                • cambodja
+                                • canadá
+                                • china
+                                • colombia
+                                • congo
+                                • corea-do-norte
+                                • cuba
+                                • dinamarca
+                                • dominica
+                                • emiratos-árabes-unidos
+                                • eslovaquia
+                                • españa
+                                • estados-unidos-de-américa
+                                • etiopía
+                                • exipto
+                                • finlandia
+                                • francia
+                                • grecia
+                                • grecia-antiga
+                                • guatemala
+                                • guinea-bisau
+                                • hungría
+                                • iemen
+                                • india
+                                • indonesia
+                                • iraq
+                                • irlanda
+                                • islandia
+                                • israel
+                                • italia
+                                • kenya
+                                • líbano
+                                • malaisia
+                                • malí
+                                • marrocos
+                                • méxico
+                                • mozambique
+                                • nepal
+                                • oceanía
+                                • omán
+                                • países-baixos
+                                • paquistán
+                                • perú
+                                • polonia
+                                • portugal
+                                • qatar
+                                • reino-unido
+                                • romanía
+                                • rusia
+                                • serbia
+                                • siria
+                                • sudán-do-sur
+                                • suecia
+                                • suráfrica
+                                • suíza
+                                • timor-leste
+                                • turquía
+                                • ucraína
+                                • venezuela
+                                • xapón
+                                • xordania
+                            • lugares. Nomes de lugares e parroquias.
+                                • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                            • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
+                            • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                                • alemaña
+                                • bélxica
+                                • brasil
+                                • chile
+                                • colombia
+                                • españa
+                                • estados-unidos-de-américa
+                                • finlandia
+                                • francia
+                                • guatemala
+                                • grecia
+                                • india
+                                • italia
+                                • méxico
+                                • países-baixos
+                                • portugal
+                                • reino-unido
+                                • rusia
+                            • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
+                                • españa
+                                • mónaco
+                    • xeografía. Xeografía.
+                        • accidentes. Accidentes xeográficos.
 
 galizionario    Galizionario
                 https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal
@@ -197,5 +198,5 @@ comunidade      Suxestións da comunidade do corrector de galego Hunspell
                 Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
                 Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
 
-galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
+wikipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
                 http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
