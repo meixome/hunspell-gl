@@ -86,6 +86,7 @@ tupleOfWordsToIgnore = (
     u"Cruz", u"Cruces",
     u"Democrática", u"Democráticas", u"Democrático", u"Democráticos",
     u"Delta", u"Deltas",
+    u"Deserto", u"Desertos",
     u"Distrito", u"Distritos",
     u"Ducado", u"Ducados",
     u"Enseada", u"Enseadas",

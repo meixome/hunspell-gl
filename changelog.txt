@@ -165,6 +165,7 @@ Cambios desde a versión 13.10.1
 • galipedia/onomástica/toponimia/localidades/estados-unidos-de-américa (actualizouse)
 • galipedia/onomástica/toponimia/localidades/finlandia (actualizouse)
 • galipedia/onomástica/toponimia/localidades/francia (actualizouse)
+• galipedia/onomástica/toponimia/localidades/grecia (actualizouse)
 • galipedia/onomástica/toponimia/localidades/israel (actualizouse)
 • galipedia/onomástica/toponimia/localidades/italia (actualizouse)
 • galipedia/onomástica/toponimia/localidades/oceanía (actualizouse)
@@ -200,6 +201,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/astronomía/planetas
 + galipedia/onomástica/historia/civilizacións
 + galipedia/onomástica/toponimia/accidentes/baías
++ galipedia/onomástica/toponimia/accidentes/desertos
 + galipedia/onomástica/toponimia/accidentes/mares
 + galipedia/onomástica/toponimia/localidades/austria
 + galipedia/onomástica/toponimia/localidades/cambodja

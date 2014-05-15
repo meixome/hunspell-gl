@@ -51,6 +51,7 @@ galipedia       Galipedia
                         • accidentes. Nomes de accidentes xeográficos.
                             • baías
                             • continentes
+                            • desertos
                             • illas
                             • mares
                             • montañas

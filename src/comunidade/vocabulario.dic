@@ -2330,17 +2330,16 @@ vencéllar/666,202,232 st:vencellar ts:alomorfo vencellar transitiva / pronomina
 xudicializar/200,201 po:verbo ts:transitiva al:xudicialízar
 xudicialízar/666,202 st:xudicializar ts:alomorfo xudicializar transitiva
 
-# Marcas.
-
-Galipedia po:marca
-hunspell po:marca
-Hunspell po:marca
-Office po:marca
-Python po:marca
-VOLG po:marca
-volga po:marca
-VOLGa po:marca
-Word po:marca
+# Nomes propios.
+Galipedia po:nome propio
+hunspell po:nome propio
+Hunspell po:nome propio
+Office po:nome propio
+Python po:nome propio
+VOLG po:nome propio
+volga po:nome propio
+VOLGa po:nome propio
+Word po:nome propio
 
 # Nomes de teclas.
 Ctrl po:tecla
@@ -2351,6 +2350,9 @@ MAIÚS po:tecla
 # Xentilicios.
 capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
 
-# Nomes de persoa.
-Maeloc po:nome propio       # https://gl.wikipedia.org/wiki/Mailoc
-Pexerto po:nome propio      # http://www.nomes-galegos.info/wiki/index.php?title=Pexerto
+# Nomes de pía.
+Maeloc po:nome de pía       # https://gl.wikipedia.org/wiki/Mailoc
+Pexerto po:nome de pía      # http://www.nomes-galegos.info/wiki/index.php?title=Pexerto
+
+# Apelidos.
+Sarmiento po:apelido        # https://gl.wikipedia.org/wiki/Sarmiento
