@@ -202,7 +202,7 @@ def getFirstSentenceFromPageContent(pageName, pageContent):
 class GalipediaGenerator(generator.Generator):
 
     def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
-                 invalidCategoryPattern = None, stripPrefixPattern = None, basqueFilter = False,
+                 invalidCategoryPattern = None, stripPrefixPattern = None, commaFilter = True, basqueFilter = False,
                  categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
 
         self.resource = "galipedia/" + resource
@@ -237,6 +237,7 @@ class GalipediaGenerator(generator.Generator):
         else:
             self.stripPrefixPattern = re.compile(stripPrefixPattern)
 
+        self.commaFilter = commaFilter
         self.basqueFilter = basqueFilter # Os nomes (de topónimos éuscaras) como «Valle de Trápaga-Trapagaran» dan lugar a dúas entradas, «Valle de Trápaga» e «Trapagaran».
         self.categoryOfSubcategoriesNames = categoryOfSubcategoriesNames # Lista de categorías das que cargar subcategorías directamente, sen filtrar o nome das subcategorías con «validCategoryPattern».
 
@@ -265,10 +266,10 @@ class GalipediaGenerator(generator.Generator):
         if " - " in pageName: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
             parts = pageName.split(" - ")
             self.addEntry(parts[0])
-        elif "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+        elif self.commaFilter and "," in pageName: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
             parts = pageName.split(",")
             self.addEntry(parts[0])
-        elif self.basqueFilter is True and "-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+        elif self.basqueFilter and "-" in pageName: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
             parts = pageName.split("-")
             self.addEntry(parts[0])
             self.addEntry(parts[1])
@@ -298,7 +299,7 @@ class GalipediaGenerator(generator.Generator):
 
     mainArticleMatch = re.compile(u"(?i)\{\{ *(AP|Artigo principal) *\| *(?P<page>[^|}]+) *(\||\}\})")
 
-    def enqueueToParseFirstSentenceIfExists(pageName):
+    def enqueueToParseFirstSentenceIfExists(self, pageName):
         page = pywikibot.Page(galipedia, pageName)
         if page.exists():
             if page.isRedirectPage():
@@ -362,6 +363,7 @@ class GalipediaGenerator(generator.Generator):
         self.xmlReader = self.cacheManager.xmlReader()
         print u"Feito."
         sys.stdout.flush()
+
 
         cache = True # Set to False to disable caching of the lists of pages to work on.
         if cache and self.cacheManager.cacheExists(self.resource, u"titlePages"):
@@ -731,7 +733,8 @@ def loadGeneratorList():
         invalidPagePattern = u"^(Modelo:|Concellos |Galería d|Historia d|Lista d|Principais cidades )",
         validCategoryPattern = u"^(Estados desaparecidos d|Imperios|Países d)",
         invalidCategoryPattern = u"^(Capitais d|Emperadores$)",
-        parsingMode = "FirstSentence"
+        parsingMode = "FirstSentence",
+        commaFilter = False
     ))
 
     generators.append(GalipediaRexionsGenerator(u"Alemaña", [u"Estados de {name}", u"Rexións de {name}"]))

@@ -1,4 +1,6 @@
 Nóvgorod po:topónimo [n-grama: A República de Nóvgorod]
+Abiasia po:topónimo
+Abkhazia po:topónimo
 Acerbaixán po:topónimo
 Afganistán po:topónimo
 África po:topónimo [n-grama: África do Sur]
@@ -19,11 +21,8 @@ Andorra po:topónimo
 Angola po:topónimo
 Anguila po:topónimo
 Annam po:topónimo
-Antiga po:topónimo [n-grama: Antiga Confederación Suíza]
 Suíza po:topónimo [n-grama: Antiga Confederación Suíza]
-Antiga po:topónimo [n-grama: Antiga e Barbuda]
 Barbuda po:topónimo [n-grama: Antiga e Barbuda]
-Antiga po:topónimo [n-grama: Antiga República Iugoslava de Macedonia]
 Iugoslava po:topónimo [n-grama: Antiga República Iugoslava de Macedonia]
 Macedonia po:topónimo [n-grama: Antiga República Iugoslava de Macedonia]
 Antillas po:topónimo
@@ -41,6 +40,7 @@ Bahrain po:topónimo
 Bahrein po:topónimo
 Bangladesh po:topónimo
 Barbados po:topónimo
+Belau po:topónimo
 Belize po:topónimo
 Bélxica po:topónimo
 Benin po:topónimo
@@ -82,7 +82,6 @@ Chipre po:topónimo
 Vaticano po:topónimo [n-grama: Cidade do Vaticano]
 Cracovia po:topónimo [n-grama: Cidade Libre de Cracovia]
 Danzig po:topónimo [n-grama: Cidade Libre de Danzig]
-libre po:topónimo [n-grama: Cidade libre, independente e estritamente neutral de Cracovia e o seu territorio]
 independente po:topónimo [n-grama: Cidade libre, independente e estritamente neutral de Cracovia e o seu territorio]
 estritamente po:topónimo [n-grama: Cidade libre, independente e estritamente neutral de Cracovia e o seu territorio]
 neutral po:topónimo [n-grama: Cidade libre, independente e estritamente neutral de Cracovia e o seu territorio]
@@ -140,11 +139,12 @@ Presidios po:topónimo [n-grama: Estado dos Presidios]
 Presidios po:topónimo [n-grama: Estado dos Reais Presidios]
 Independente po:topónimo [n-grama: Estado Independente de Samoa]
 Samoa po:topónimo [n-grama: Estado Independente de Samoa]
-Fiume po:topónimo [n-grama: Estado Libre de Fiume]
+Asociado po:topónimo [n-grama: Estado Libre Asociado de Porto Rico]
+Rico po:topónimo [n-grama: Estado Libre Asociado de Porto Rico]
+Fiume po:topónimo [n-grama: Estado libre de Fiume]
 Prusia po:topónimo [n-grama: Estado Libre de Prusia]
 Irlandés po:topónimo [n-grama: Estado Libre Irlandés]
 ruso po:topónimo [n-grama: Estado ruso antigo]
-antigo po:topónimo [n-grama: Estado ruso antigo]
 ucraíno po:topónimo [n-grama: Estado ucraíno]
 Confederados po:topónimo [n-grama: Estados Confederados]
 Confederados po:topónimo [n-grama: Estados Confederados de América]
@@ -177,8 +177,9 @@ Groenlandia po:topónimo
 Guatemala po:topónimo
 Güiana po:topónimo
 Guinea po:topónimo
+Guinea po:topónimo [n-grama: Guinea Ecuatorial]
+Ecuatorial po:topónimo [n-grama: Guinea Ecuatorial]
 Guinea-Bisau po:topónimo
-Haití po:topónimo
 Hetmanato po:topónimo
 Hetmanato po:topónimo [n-grama: Hetmanato cosaco]
 cosaco po:topónimo [n-grama: Hetmanato cosaco]
@@ -189,6 +190,7 @@ Honduras po:topónimo
 Hungría po:topónimo
 I po:topónimo [n-grama: I República Española]
 Española po:topónimo [n-grama: I República Española]
+Iberia po:topónimo
 Iemen po:topónimo
 Iemen po:topónimo [n-grama: Iemen do Norte]
 Iemen po:topónimo [n-grama: Iemen do Sur]
@@ -198,8 +200,8 @@ II po:topónimo [n-grama: II República Portuguesa]
 Portuguesa po:topónimo [n-grama: II República Portuguesa]
 Caimán po:topónimo [n-grama: Illas Caimán]
 Cook po:topónimo [n-grama: Illas Cook]
-Ellice po:topónimo [n-grama: Illas Ellice]
 Feroe po:topónimo [n-grama: Illas Feroe]
+Marshall po:topónimo [n-grama: Illas Marshall]
 Salomón po:topónimo [n-grama: Illas Salomón]
 Alemán po:topónimo [n-grama: Imperio Alemán]
 austríaco po:topónimo [n-grama: Imperio austríaco]
@@ -281,12 +283,11 @@ Caledonia po:topónimo [n-grama: Nova Caledonia]
 Zelandia po:topónimo [n-grama: Nova Zelandia]
 Salvador po:topónimo [n-grama: O Salvador]
 Omán po:topónimo
-Osetia po:topónimo [n-grama: Osetia do Sur]
 Hohenzollern po:topónimo [n-grama: País de Hohenzollern]
-países po:topónimo [n-grama: países bálticos]
 bálticos po:topónimo [n-grama: países bálticos]
 Palau po:topónimo
 Palestina po:topónimo
+Panamá po:topónimo
 Papúa po:topónimo [n-grama: Papúa Nova Guinea]
 Guinea po:topónimo [n-grama: Papúa Nova Guinea]
 Paquistán po:topónimo
@@ -294,7 +295,6 @@ Paraguai po:topónimo
 Persia po:topónimo
 Perú po:topónimo
 Polonia po:topónimo
-Rico po:topónimo [n-grama: Porto Rico]
 Portugal po:topónimo
 Presidios po:topónimo [n-grama: Presidios de Toscana]
 Toscana po:topónimo [n-grama: Presidios de Toscana]
@@ -346,7 +346,6 @@ Galiza po:topónimo [n-grama: Reino de Galiza]
 Granada po:topónimo [n-grama: Reino de Granada]
 Grecia po:topónimo [n-grama: Reino de Grecia]
 Holanda po:topónimo [n-grama: Reino de Holanda]
-Iberia po:topónimo [n-grama: Reino de Iberia]
 Inglaterra po:topónimo [n-grama: Reino de Inglaterra]
 Irlanda po:topónimo [n-grama: Reino de Irlanda]
 Islandia po:topónimo [n-grama: Reino de Islandia]
@@ -393,12 +392,13 @@ Checa po:topónimo [n-grama: República Checa]
 Croata po:topónimo [n-grama: República Croata de Herzeg-Bosnia]
 Herzeg-Bosnia po:topónimo [n-grama: República Croata de Herzeg-Bosnia]
 India po:topónimo [n-grama: República da India]
-Fidxi po:topónimo [n-grama: República das Illas Fidxi]
 Marshall po:topónimo [n-grama: República das Illas Marshall]
 Maldivas po:topónimo [n-grama: República das Maldivas]
+Palaus po:topónimo [n-grama: República das Palaus]
 Acerbaixán po:topónimo [n-grama: República de Acerbaixán]
 Angola po:topónimo [n-grama: República de Angola]
 Armenia po:topónimo [n-grama: República de Armenia]
+Artsakh po:topónimo [n-grama: República de Artsakh]
 Austria po:topónimo [n-grama: República de Austria]
 Benin po:topónimo [n-grama: República de Benin]
 Botswana po:topónimo [n-grama: República de Botswana]
@@ -421,7 +421,6 @@ Ecuatorial po:topónimo [n-grama: República de Guinea Ecuatorial]
 Haití po:topónimo [n-grama: República de Haití]
 Indonesia po:topónimo [n-grama: República de Indonesia]
 Kiribati po:topónimo [n-grama: República de Kiribati]
-Kosovo po:topónimo [n-grama: República de Kosovo]
 Letonia po:topónimo [n-grama: República de Letonia]
 Lituania po:topónimo [n-grama: República de Lituania]
 Macedonia po:topónimo [n-grama: República de Macedonia]
@@ -429,8 +428,10 @@ Madagascar po:topónimo [n-grama: República de Madagascar]
 Malí po:topónimo [n-grama: República de Malí]
 Moldavia po:topónimo [n-grama: República de Moldavia]
 Mongolia po:topónimo [n-grama: República de Mongolia]
+Nagorno-Karabakh po:topónimo [n-grama: República de Nagorno-Karabakh]
 Nauru po:topónimo [n-grama: República de Nauru]
 Nicaragua po:topónimo [n-grama: República de Nicaragua]
+Osetia po:topónimo [n-grama: República de Osetia do Sur]
 Panamá po:topónimo [n-grama: República de Panamá]
 Ruanda po:topónimo [n-grama: República de Ruanda]
 Mariño po:topónimo [n-grama: República de San Mariño]
@@ -446,10 +447,9 @@ del po:topónimo [n-grama: República del Ecuador]
 Ecuador po:topónimo [n-grama: República del Ecuador]
 Alemá po:topónimo [n-grama: República Democrática Alemá]
 Tomé po:topónimo [n-grama: República Democrática de San Tomé e Príncipe]
-Príncipe po:topónimo [n-grama: República Democrática de San Tomé e Príncipe]
 Vietnam po:topónimo [n-grama: República Democrática de Vietnam]
-democrática po:topónimo [n-grama: República democrática do Congo]
 Congo po:topónimo [n-grama: República democrática do Congo]
+Congo po:topónimo [n-grama: República Democrática do Congo]
 Alxeria po:topónimo [n-grama: República Democrática e Popular de Alxeria]
 Iemen po:topónimo [n-grama: República Democrática Popular do Iemen]
 Lao po:topónimo [n-grama: República Democrática Popular Lao]
@@ -467,9 +467,7 @@ Brasil po:topónimo [n-grama: República Federativa do Brasil]
 Gabonesa po:topónimo [n-grama: República Gabonesa]
 Helvética po:topónimo [n-grama: República Helvética]
 Irlandesa po:topónimo [n-grama: República Irlandesa]
-Islámica po:topónimo [n-grama: República Islámica de Irán]
 Irán po:topónimo [n-grama: República Islámica de Irán]
-Islámica po:topónimo [n-grama: República Islámica de Paquistán]
 Paquistán po:topónimo [n-grama: República Islámica de Paquistán]
 Ucraína po:topónimo [n-grama: República Nacional de Ucraína Occidental]
 Ucraína po:topónimo [n-grama: República Nacional Ucraína]
@@ -483,7 +481,6 @@ Bucara po:topónimo [n-grama: República Popular Soviética de Bucara]
 Portuguesa po:topónimo [n-grama: República Portuguesa]
 Checoslovaca po:topónimo [n-grama: República Socialista Checoslovaca]
 Montenegro po:topónimo [n-grama: República Socialista de Montenegro]
-socialista po:topónimo [n-grama: República socialista do Viet Nam]
 Viet po:topónimo [n-grama: República socialista do Viet Nam]
 Nam po:topónimo [n-grama: República socialista do Viet Nam]
 Táurida po:topónimo [n-grama: República Socialista Soviética da Táurida]
@@ -504,13 +501,15 @@ Vladímir-Súzdal po:topónimo [n-grama: Rus de Vladímir-Súzdal]
 Rus' po:topónimo [n-grama: Rus' de Kíev]
 Kíev po:topónimo [n-grama: Rus' de Kíev]
 Rusia po:topónimo
-Sacro po:topónimo [n-grama: Sacro Imperio Romano]
-Romano po:topónimo [n-grama: Sacro Imperio Romano]
+Sacro po:topónimo [n-grama: Sacro Imperio Romano Xermánico]
+Romano po:topónimo [n-grama: Sacro Imperio Romano Xermánico]
+Xermánico po:topónimo [n-grama: Sacro Imperio Romano Xermánico]
 Sáhara po:topónimo [n-grama: Sáhara Occidental]
 Samoa po:topónimo
 Mariño po:topónimo [n-grama: San Mariño]
-Pedro po:topónimo [n-grama: San Pedro e Miguelón]
-Miguelón po:topónimo [n-grama: San Pedro e Miguelón]
+Pedro po:topónimo [n-grama: San Pedro e Miquelón]
+Miquelón po:topónimo [n-grama: San Pedro e Miquelón]
+Tomé po:topónimo [n-grama: San Tomé e Príncipe]
 Vicente po:topónimo [n-grama: San Vicente e Granadinas]
 Granadinas po:topónimo [n-grama: San Vicente e Granadinas]
 Lucía po:topónimo [n-grama: Santa Lucía]
@@ -518,6 +517,7 @@ Española po:topónimo [n-grama: Segunda República Española]
 Francesa po:topónimo [n-grama: Segunda República Francesa]
 Francés po:topónimo [n-grama: Segundo Imperio Francés]
 Reich po:topónimo [n-grama: Segundo Reich]
+Seixeles po:topónimo
 Senegal po:topónimo
 Irlanda po:topónimo [n-grama: Señorío de Irlanda]
 Serbia po:topónimo
@@ -533,6 +533,7 @@ Somalia po:topónimo
 Sri po:topónimo [n-grama: Sri Lanka]
 Lanka po:topónimo [n-grama: Sri Lanka]
 Strathclyde po:topónimo
+Suacilandia po:topónimo
 Sublime po:topónimo [n-grama: Sublime Estado Otomán]
 Otomán po:topónimo [n-grama: Sublime Estado Otomán]
 Sudán po:topónimo
@@ -550,10 +551,10 @@ Taxiquistán po:topónimo
 Francesa po:topónimo [n-grama: Terceira República Francesa]
 Reich po:topónimo [n-grama: Terceiro Reich]
 Territorio po:topónimo [n-grama: Territorio libre de Trieste]
-libre po:topónimo [n-grama: Territorio libre de Trieste]
 Trieste po:topónimo [n-grama: Territorio libre de Trieste]
 Timor po:topónimo [n-grama: Timor Leste]
 Togo po:topónimo
+Tonga po:topónimo
 Tracia po:topónimo
 Tsarato po:topónimo [n-grama: Tsarato de Rusia]
 Rusia po:topónimo [n-grama: Tsarato de Rusia]
@@ -572,6 +573,7 @@ Kalmar po:topónimo [n-grama: Unión de Kalmar]
 Myanmar po:topónimo [n-grama: Unión de Myanmar]
 Usbequistán po:topónimo
 Uzbequistán po:topónimo
+Vanuatu po:topónimo
 Venezuela po:topónimo
 Vietnam po:topónimo
 Vietnam po:topónimo [n-grama: Vietnam do Norte]
@@ -593,5 +595,6 @@ Xapón po:topónimo
 Xeorxia po:topónimo
 Xibutí po:topónimo
 Xordania po:topónimo
+Zaire po:topónimo
 Zambia po:topónimo
 Zeta po:topónimo
