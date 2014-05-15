@@ -55,6 +55,7 @@ galipedia       Galipedia
                             • illas
                             • mares
                             • montañas
+                            • penínsulas
                             • praias
                             • rexións
                             • ríos

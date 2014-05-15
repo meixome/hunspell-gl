@@ -2336,6 +2336,7 @@ hunspell po:nome propio
 Hunspell po:nome propio
 Office po:nome propio
 Python po:nome propio
+Vichona po:nome propio
 VOLG po:nome propio
 volga po:nome propio
 VOLGa po:nome propio
@@ -2356,3 +2357,5 @@ Pexerto po:nome de pía      # http://www.nomes-galegos.info/wiki/index.php?titl
 
 # Apelidos.
 Sarmiento po:apelido        # https://gl.wikipedia.org/wiki/Sarmiento
+Valcárcel po:apelido        # https://gl.wikipedia.org/wiki/Marcos_Valc%C3%A1rcel
+Viaño po:apelido            # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o

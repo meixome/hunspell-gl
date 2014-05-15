@@ -590,6 +590,14 @@ def loadGeneratorList():
         validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)"
     ))
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/toponimia/accidentes/penínsulas.dic",
+        partOfSpeech = u"topónimo",
+        categoryNames = [u"Penínsulas"],
+        validCategoryPattern = u"^Penínsulas (a|d|por |n)",
+        parsingMode = "FirstSentence"
+    ))
+
     pattern = u"(Praias) "
     generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/praias.dic",
