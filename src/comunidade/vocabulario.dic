@@ -2352,4 +2352,4 @@ MAIÚS po:tecla
 capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
 
 # Nomes de persoa.
-Maeloc po:nome    # https://gl.wikipedia.org/wiki/Mailoc
+Maeloc po:nome propio       # https://gl.wikipedia.org/wiki/Mailoc
