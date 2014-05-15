@@ -207,7 +207,8 @@ Cambios desde a versión 13.10.1
     • De momento o módulo unicamente contén topónimos, distribuídos entre «toponimia/xeral.dic» e
       «toponimia/galicia.dic», imitando as categorías do proxecto.
 
-+ wikipedia/es/antropónimos
++ wikipedia/en/antroponimia
++ wikipedia/es/antroponimia
 + wikipedia/gl/onomástica/antroponimia
 + wikipedia/gl/onomástica/arte/escultura/relixión
 + wikipedia/gl/onomástica/astronomía/planetas

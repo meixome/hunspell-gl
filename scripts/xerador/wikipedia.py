@@ -360,13 +360,13 @@ class WikipediaGenerator(generator.Generator):
             for pageName in self.pageNames:
                 cache.parsePage(pageName)
             for categoryName in self.categoryOfSubcategoriesNames:
-                category = pywikibot.Category(self.site, u"Categoría:{}".format(categoryName))
+                category = pywikibot.Category(self.site, u"Category:{}".format(categoryName))
                 print u"Cargando subcategorías de {name}…".format(name=category.title())
                 for subcategory in category.subcategories():
                     self.loadPageNamesFromCategory(subcategory)
             for categoryName in self.categoryNames:
                 if categoryName not in self.visitedCategories:
-                    self.loadPageNamesFromCategory(pywikibot.Category(self.site, u"Categoría:{}".format(categoryName)))
+                    self.loadPageNamesFromCategory(pywikibot.Category(self.site, u"Category:{}".format(categoryName)))
             if cache:
                 self.cacheManager.save(self.resource, u"titlePages", self.titlePages)
                 self.cacheManager.save(self.resource, u"firstSentencePages", self.firstSentencePages)
@@ -458,6 +458,28 @@ class GalipediaGenerator(WikipediaGenerator):
                  categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
         super(GalipediaGenerator, self).__init__(
                 "gl",
+                resource,
+                partOfSpeech,
+                categoryNames=categoryNames,
+                invalidPagePattern=invalidPagePattern,
+                validCategoryPattern=validCategoryPattern,
+                invalidCategoryPattern=invalidCategoryPattern,
+                stripPrefixPattern=stripPrefixPattern,
+                commaFilter=commaFilter,
+                basqueFilter=basqueFilter,
+                categoryOfSubcategoriesNames=categoryOfSubcategoriesNames,
+                parsingMode=parsingMode,
+                pageNames=pageNames,
+            )
+
+
+class WikipediaEnGenerator(WikipediaGenerator):
+
+    def __init__(self, resource, partOfSpeech, categoryNames = [], invalidPagePattern = None, validCategoryPattern = None,
+                 invalidCategoryPattern = None, stripPrefixPattern = None, commaFilter = True, basqueFilter = False,
+                 categoryOfSubcategoriesNames = [], parsingMode = "Title", pageNames = []):
+        super(WikipediaEnGenerator, self).__init__(
+                "en",
                 resource,
                 partOfSpeech,
                 categoryNames=categoryNames,
@@ -858,6 +880,16 @@ def loadGeneratorList():
         categoryNames = [u"Nombres por género"],
         validCategoryPattern = u"^Nombres ",
         invalidCategoryPattern = u"^Puranas$",
+    ))
+
+
+    # Wikipedia en inglés.
+
+    generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia.dic",
+        partOfSpeech = u"antropónimo",
+        categoryNames = [u"Given names by gender"],
+        validCategoryPattern = u".* given names",
     ))
 
 
