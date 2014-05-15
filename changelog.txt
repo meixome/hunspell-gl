@@ -202,6 +202,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/accidentes/baías
 + galipedia/onomástica/toponimia/accidentes/mares
 + galipedia/onomástica/toponimia/localidades/china
++ galipedia/onomástica/toponimia/localidades/kenya
 + galipedia/onomástica/toponimia/localidades/malaisia
 + galipedia/onomástica/toponimia/localidades/mozambique
 + galipedia/onomástica/toponimia/localidades/nepal

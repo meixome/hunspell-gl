@@ -395,6 +395,8 @@ class GalipediaGenerator(generator.Generator):
                 processedPages += 1
                 sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
                 sys.stdout.flush()
+            print
+            sys.stdout.flush()
 
         if len(self.firstSentencePages):
             statement = u"Analizando a primeira oración de cada páxina na copia de seguridade… {} ({}%)\r"
@@ -438,8 +440,6 @@ class GalipediaGenerator(generator.Generator):
                     sys.stdout.flush()
                 print
                 sys.stdout.flush()
-        print
-        sys.stdout.flush()
 
         content = ""
         collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
@@ -652,6 +652,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Irlanda"))
     generators.append(GalipediaLocalidadesGenerator(u"Israel"))
     generators.append(GalipediaLocalidadesGenerator(u"Italia", [u"Cidades de {name}", u"Comunas de {name}"]))
+    generators.append(GalipediaLocalidadesGenerator(u"Kenya", parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Líbano", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Malaisia"))
     generators.append(GalipediaLocalidadesGenerator(u"Malí"))
