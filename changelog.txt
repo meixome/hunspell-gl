@@ -207,6 +207,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/localidades/corea-do-norte
 + galipedia/onomástica/toponimia/localidades/kenya
 + galipedia/onomástica/toponimia/localidades/malaisia
++ galipedia/onomástica/toponimia/localidades/marrocos
 + galipedia/onomástica/toponimia/localidades/mozambique
 + galipedia/onomástica/toponimia/localidades/nepal
 + galipedia/onomástica/toponimia/localidades/omán
