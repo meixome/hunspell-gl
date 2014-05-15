@@ -4,10 +4,10 @@
 # entradas que estean xa presentes nun módulo distinto.
 #
 # Exemplo de uso:
-# $ ./limparComunidade.sh toponimia.dic galipedia/toponimia
+# $ ./limparComunidade.sh toponimia.dic wikipedia/gl/onomástica/toponimia
 #
 # Neste exemplo, eliminaranse de «comunidade/toponimia.dic» as entradas que xa estean dispoñíbeis dentro do módulo
-# «galipedia/toponimia».
+# «wikipedia/gl/onomástica/toponimia».
 
 rootFolder="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 pushd $rootFolder &> /dev/null
