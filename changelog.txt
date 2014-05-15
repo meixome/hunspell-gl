@@ -201,6 +201,8 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/historia/civilizacións
 + galipedia/onomástica/toponimia/accidentes/baías
 + galipedia/onomástica/toponimia/accidentes/mares
++ galipedia/onomástica/toponimia/localidades/cambodja
++ galipedia/onomástica/toponimia/localidades/canadá
 + galipedia/onomástica/toponimia/localidades/china
 + galipedia/onomástica/toponimia/localidades/kenya
 + galipedia/onomástica/toponimia/localidades/malaisia
