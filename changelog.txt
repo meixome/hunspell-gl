@@ -210,6 +210,7 @@ Cambios desde a versión 13.10.1
 + galipedia/onomástica/toponimia/localidades/nepal
 + galipedia/onomástica/toponimia/localidades/omán
 + galipedia/onomástica/toponimia/localidades/paquistán
++ galipedia/onomástica/toponimia/localidades/rusia
 + galipedia/onomástica/toponimia/localidades/sudán-do-sur
 + galipedia/onomástica/toponimia/localidades/suecia
 + galipedia/onomástica/toponimia/localidades/ucraína

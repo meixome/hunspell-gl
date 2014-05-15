@@ -387,7 +387,7 @@ class GalipediaGenerator(generator.Generator):
         pagesToProcessFromWiki = 0
 
         if len(self.titlePages):
-            statement = u"Analizando nomes de páxinas (ignorando o seu contido)… {} ({}%)\r"
+            statement = u"Analizando nomes de páxinas ou categorías (ignorando o seu contido)… {} ({}%)\r"
             sys.stdout.write(statement.format(u"{}/{}".format(processedPages, pageCount), processedPages*100/pageCount))
             sys.stdout.flush()
             for pageName in self.titlePages:
@@ -671,6 +671,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Qatar"))
     generators.append(GalipediaLocalidadesGenerator(u"Reino Unido", [u"Cidades do {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Romanía"))
+    generators.append(GalipediaLocalidadesGenerator(u"Rusia", parsingMode="FirstSentence"))
     generators.append(GalipediaLocalidadesGenerator(u"Serbia"))
     generators.append(GalipediaLocalidadesGenerator(u"Siria"))
     generators.append(GalipediaLocalidadesGenerator(u"Sudán do Sur", [u"Localidades de {name}"]))
