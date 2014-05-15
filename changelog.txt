@@ -208,6 +208,7 @@ Cambios desde a versión 13.10.1
       «toponimia/galicia.dic», imitando as categorías do proxecto.
 
 + wikipedia/es/antropónimos
++ wikipedia/gl/onomástica/antroponimia
 + wikipedia/gl/onomástica/arte/escultura/relixión
 + wikipedia/gl/onomástica/astronomía/planetas
 + wikipedia/gl/onomástica/historia/civilizacións

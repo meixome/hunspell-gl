@@ -493,7 +493,6 @@ class WikipediaEsGenerator(WikipediaGenerator):
                 parsingMode=parsingMode,
                 pageNames=pageNames,
             )
-        self.site = pywikibot.Site(u"es", u"wikipedia") # Usar a Galipedia de maneira predeterminada.
 
 
 class GalipediaLocalidadesGenerator(GalipediaGenerator):
@@ -539,6 +538,39 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             stripPrefixPattern = u"^(Condado|Departamento|Estado|Provincia)( autónom[ao])? d(a|as|e|o|os) ",
             parsingMode = parsingMode
         )
+
+
+class GalipediaNomesGenerator(generator.Generator):
+
+    def __init__(self):
+        self.resource = u"wikipedia/gl/onomástica/antroponimia.dic"
+
+    def generateFileContent(self):
+        entries = set()
+        partOfSpeech = u"antropónimo"
+        namePattern = re.compile(u"^\* *\'\'\' *(\[\[)? *([^]|]+\| *)?(?P<name>[^]|]+) *(\]\])? *\'\'\'")
+        site = pywikibot.Site(u"gl", u"wikipedia")
+        for pageName in [u"Lista de nomes masculinos en galego", u"Lista de nomes femininos en galego"]:
+            page = pywikibot.Page(site, pageName)
+            pageContent = page.get()
+            for line in pageContent.splitlines():
+                match = namePattern.match(line)
+                if match:
+                    entries.add(match.group("name"))
+        content = ""
+        collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+        for name in sorted(entries, cmp=collator.compare):
+            if " " in name: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
+                ngramas = set()
+                for ngrama in name.split(u" "):
+                    ngrama = ngrama.replace(u",", u"").strip()
+                    if ngrama not in generator.wordsToIgnore and ngrama not in ngramas and not numberPattern.match(ngrama): # N-gramas innecesarios por ser vocabulario galego xeral.
+                        ngramas.add(ngrama)
+                        content += u"{ngrama} po:{partOfSpeech} [n-grama: {name}]\n".format(ngrama=ngrama, name=name, partOfSpeech=partOfSpeech)
+            else:
+                if name not in generator.wordsToIgnore:
+                    content += u"{name} po:{partOfSpeech}\n".format(name=name, partOfSpeech=partOfSpeech)
+        return content
 
 
 
@@ -815,11 +847,13 @@ def loadGeneratorList():
         validCategoryPattern = u"^(Barrios) "
     ))
 
+    generators.append(GalipediaNomesGenerator())
+
 
     # Wikipedia en castelán.
 
     generators.append(WikipediaEsGenerator(
-        resource = u"antropónimos.dic",
+        resource = u"antroponimia.dic",
         partOfSpeech = u"antropónimo",
         categoryNames = [u"Nombres por género"],
         validCategoryPattern = u"^Nombres ",

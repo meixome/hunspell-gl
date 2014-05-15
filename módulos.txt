@@ -36,9 +36,10 @@ wikipedia       Wikipedia
 
                 Submódulos:
                 • es
-                    • antropónimos
+                    • antroponimia. Nomes de persoas.
                 • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
                     • onomástica. Nomes propios.
+                        • antroponimia. Nomes de persoas.
                         • arquitectura.
                             • relixión. Pezas de arquitectura relixiosa.
                         • arte
