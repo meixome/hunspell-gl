@@ -74,6 +74,7 @@ galipedia       Galipedia
                             • corea-do-norte
                             • cuba
                             • dinamarca
+                            • dominica
                             • emiratos-árabes-unidos
                             • eslovaquia
                             • españa

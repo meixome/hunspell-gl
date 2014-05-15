@@ -57,10 +57,9 @@ Praceres po:topónimo        # https://gl.wikipedia.org/wiki/Louriz%C3%A1n,_Pont
 Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
 Preston po:topónimo         # https://en.wikipedia.org/wiki/Preston#Places
 Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
-Rinca
-Riveside
-Romandía
-Roseau
+Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
+Riveside po:topónimo        # https://en.wikipedia.org/wiki/Riverside,_Illinois
+Romandía po:topónimo        # https://gl.wikipedia.org/wiki/Su%C3%ADza_romanda
 Rosellón
 Róterdam
 Sagunto
