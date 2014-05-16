@@ -1,33 +1,22 @@
-Abraám
 Adosinda
-Alegria
-Alexandro
 Alexo
 Álavaro
 Amábel
-Amadea
 Amadeu
-Amelio
-Antoin
 Anxelica
 Anxelina
 Arancha
-Arminda
-Arnoldo
 Auria
 Ausenda
 Bahamonde
 Branca
 Camiño
 Cecía
-Claudino
 Cruz
 Damasio
-Dania
 Delmiro
 Denisia
 Donisia
-Eladio
 Emerita
 Ermesinda
 Ermoxio
@@ -35,48 +24,33 @@ Estrela
 Eteria
 Eufrosina
 Eurídice
-Eusebia
 Eusenda
 Eustaquia
-Eutimio
 Euxeo
 Evanxelina
 Exeria
 Exiquia
-Faustiño
 Felícita
 Felícitas
 FLorencia
-Fulxencio
 Gabo
-Gasparo
 Henar
 Hermerico
 Herodias
-Honoria
 Idacio
 Idalia
-Ilda
 Irineu
 lea
 Lía
-Loisa
 Manecho
-Marián
-Maruxa
 Mateu
 Manardo
 Milia
 Mingos
 Miragres
 Mitas
-Nélida
-Nicolau
-Nito
 Nocencio
-Noe
 Odilio
-Odon
 Otilio
 Ousenda
 Outel
@@ -91,32 +65,23 @@ Quinto
 Romelia
 Roxeiro
 Santos
-Saturnino
 Segunda
 Segundo
-Sibila
 Sindo
 Sisnando
 Soedade
 Sol
-Susa
-Tiago
 Tiso
 Torcutato
-Vicencio
-Vitor
 Xacob
 Xano
 Xaquín
 Xaquina
-Xencio
 Xermao
 Xeroma
 Xeromo
 Xiraldo
 Xordan
-Xustino
-Zaíra
 Pérez
 González
 Ramírez
@@ -124,7 +89,6 @@ Miragaia
 Vázquez
 Castelao
 Ferrín
-Blanco
 Collazo
 Santamarina
 Méndez
@@ -1277,9 +1241,9 @@ Maeloc po:antropónimo       # https://gl.wikipedia.org/wiki/Mailoc
 Pexerto po:antropónimo      # http://www.nomes-galegos.info/wiki/index.php?title=Pexerto
 
 # Apelidos.
-Sarmiento po:antropónimo        # https://gl.wikipedia.org/wiki/Sarmiento
-Valcárcel po:antropónimo        # https://gl.wikipedia.org/wiki/Marcos_Valc%C3%A1rcel
-Viaño po:antropónimo            # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
+Sarmiento po:antropónimo    # https://gl.wikipedia.org/wiki/Sarmiento
+Valcárcel po:antropónimo    # https://gl.wikipedia.org/wiki/Marcos_Valc%C3%A1rcel
+Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 
 # Topónimos.
 Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)

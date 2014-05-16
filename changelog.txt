@@ -200,12 +200,15 @@ Cambios desde a versión 13.10.1
 • wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
 • wikipedia/gl/suxestións (actualizouse)
 
-+ galizionario (novo)
-    • Baseado no Galizionario, a versión en galego do proxecto Wiktionary da fundación Wikimedia.
-    • No futuro, cando chegue a estar á par co módulo da Wikipedia, substituirá a este módulo, por ser o Galizionario un
-      proxecto máis axeitado para utilizar de base de datos de vocabulario.
-    • De momento o módulo unicamente contén topónimos, distribuídos entre «toponimia/xeral.dic» e
-      «toponimia/galicia.dic», imitando as categorías do proxecto.
++ wiktionary (novo)
+    • Baseado no proxecto Wiktionary da fundación Wikimedia.
+    • O ideal é que pouco a pouco este proxecto vaxa fornecendo módulos que
+      substitúan aos da Wikipedia, por ser o Wiktionary un proxecto máis
+      axeitado para utilizar de base de datos de vocabulario.
+    • De momento o módulo contén:
+        • Antropónimos, no módulo «en/antroponimia».
+        • Topónimos, distribuídos entre «gl/toponimia/xeral.dic» e
+          «gl/toponimia/galicia.dic», imitando as categorías do proxecto.
 
 + wikipedia/en/antroponimia
 + wikipedia/es/antroponimia
