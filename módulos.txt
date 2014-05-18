@@ -162,6 +162,8 @@ wikipedia       Wikipedia
                                 • mónaco
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
+                • hu. Módulos baseados no contido da Wikipedia en húngaro.
+                    • antroponimia. Nomes de persoas.
 
 galizionario    Galizionario
                 https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal

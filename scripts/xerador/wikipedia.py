@@ -7,6 +7,7 @@ from mediawiki import TitleParser, FirstSentenceParser, LineParser  # Page parse
 from mediawiki import EntryParser  # Page parsers.
 
 
+# Wikipedia generator.
 
 class WikipediaGenerator(MediaWikiGenerator):
 
@@ -20,6 +21,10 @@ class WikipediaGenerator(MediaWikiGenerator):
             )
 
 
+
+
+# Language-specific Wikipedia generators.
+
 class GalipediaGenerator(WikipediaGenerator):
 
     def __init__(self, resource, partOfSpeech, entryGenerators):
@@ -29,6 +34,7 @@ class GalipediaGenerator(WikipediaGenerator):
                 partOfSpeech,
                 entryGenerators=entryGenerators,
             )
+
 
 
 class WikipediaEnGenerator(WikipediaGenerator):
@@ -52,6 +58,21 @@ class WikipediaEsGenerator(WikipediaGenerator):
                 entryGenerators=entryGenerators,
             )
 
+
+class WikipediaHuGenerator(WikipediaGenerator):
+
+    def __init__(self, resource, partOfSpeech, entryGenerators):
+        super(WikipediaHuGenerator, self).__init__(
+                "hu",
+                resource,
+                partOfSpeech,
+                entryGenerators=entryGenerators,
+            )
+
+
+
+
+# Helpers.
 
 class GalipediaLocalidadesGenerator(GalipediaGenerator):
 
@@ -86,6 +107,7 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
         )
 
 
+
 class GalipediaRexionsGenerator(GalipediaGenerator):
 
     def __init__(self, countryName, categoryNames = [u"Rexións de {name}"], pageParser=None):
@@ -112,6 +134,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
                 )
             ],
         )
+
 
 
 class GalipediaNamesGenerator(GalipediaGenerator):
@@ -606,6 +629,22 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Given names by gender"],
                         validCategoryPattern = u".* given names",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    # Wikipedia en húngaro.
+
+    generators.append(WikipediaHuGenerator(
+        resource = u"antroponimia.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryOfCategoriesNames = [u"Férfikeresztnevek", u"Női keresztnevek"],
                     ),
                 ],
             )

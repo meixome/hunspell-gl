@@ -18,26 +18,30 @@ moduleReplacingTheFile="src/${2}"
 # Limpar o ficheiro.
 while read line
 do
-  entry="$(echo ${line} | cut -d" " -f 1)"
-  currentIfs=${IFS}
-  IFS=$'\n'
-  escapedEntry="$(echo ${entry} | sed -e "s#\.#\\.#")"
-  grepResults=( $(grep "${escapedEntry}" "${moduleReplacingTheFile}"/* -R --exclude-dir="comunidade") )
-  IFS=${currentIfs}
+    if [ "$line" != "" ]; then
+        if [ "${line:0:1}" != "#" ]; then
+            entry="$(echo ${line} | cut -d" " -f 1)"
+            currentIfs=${IFS}
+            IFS=$'\n'
+            escapedEntry="$(echo ${entry} | sed -e "s#\.#\\.#")"
+            grepResults=( $(grep -hF "${escapedEntry}" "${moduleReplacingTheFile}"/* -R --exclude-dir="comunidade") )
+            IFS=${currentIfs}
 
-  unset entryExists
-  for result in "${grepResults[@]}"
-  do
-    resultEntry=$(echo ${result} | cut -d: -f 2 | cut -d" " -f 1)
-    if [ "${entry}" == "${resultEntry}" ]; then
-      entryExists=true
+            unset entryExists
+            for result in "${grepResults[@]}"
+            do
+                resultEntry=$(echo ${result} | cut -d" " -f 1)
+                if [ "${entry}" == "${resultEntry}" ]; then
+                entryExists=true
+                fi
+            done
+
+            if [ "${entryExists}" == "true" ]; then
+                echo "Eliminando «${entry}»…"
+                sed -e "/^${escapedEntry}\($\| \)/d" -i ${fileToClean}
+            fi
+        fi
     fi
-  done
-
-  if [ "${entryExists}" == "true" ]; then
-    echo "Eliminando «${entry}»…"
-    sed -e "/^${escapedEntry}\($\| \)/d" -i ${fileToClean}
-  fi
 done < ${fileToClean}
 
 popd &> /dev/null
