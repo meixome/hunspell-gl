@@ -30,6 +30,8 @@ modulesSourcePath = common.getModulesSourcePath()
 generators = loadGeneratorList()
 
 for parameter in [parameter.decode('UTF-8') for parameter in sys.argv[1:]]:
+    if parameter.startswith("-"):
+        continue
     modulePath = getFirstPathRelativeToSecondPathIfWithin(parameter, modulesSourcePath)
     usedGenerators = 0
     for generator in generators:

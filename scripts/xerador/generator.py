@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 
-import codecs, os
+from __future__ import print_function
+
+import codecs, os, sys
+
 import common
 
 
@@ -10,20 +13,27 @@ def createFoldersIfNeeded(path):
     except:
         pass
 
+
+def output(text):
+    print(text, end="")
+    sys.stdout.flush()
+
+
+def writeToResource(content, resource):
+    targetPath = os.path.join(common.getModulesSourcePath(), resource)
+    createFoldersIfNeeded(os.path.dirname(targetPath))
+    with codecs.open(targetPath, u"w", u"utf-8") as fileObject:
+        fileObject.write(content)
+
+
 class Generator(object):
 
     def generateFileContent(self):
-        print "Reimplement this method in your subclass!"
-        return ""
+        raise Exception("Abstract method")
 
-    def writeToResource(self, content):
-        targetPath = os.path.join(common.getModulesSourcePath(), self.resource)
-        createFoldersIfNeeded(os.path.dirname(targetPath))
-        with codecs.open(targetPath, u"w", u"utf-8") as fileObject:
-            fileObject.write(content)
 
     def run(self):
-        self.writeToResource(self.generateFileContent())
+        writeToResource(self.generateFileContent(), self.resource)
 
 
 tupleOfWordsToIgnore = (
@@ -48,6 +58,7 @@ tupleOfWordsToIgnore = (
     u"Antiga", u"Antigas", u"Antigo", u"Antigos",
     u"Atol", u"Atois",
     u"Australiana", u"Australianas", u"Australiano", u"Australianos",
+    u"Autónoma", u"Autónomas", u"Autónomo", u"Autónomos",
     u"Baía", u"Baías",
     u"Baixa", u"Baixas", u"Baixo", u"Baixos",
     u"Baldaquino", u"Baldaquinos",
@@ -87,6 +98,7 @@ tupleOfWordsToIgnore = (
     u"Cruz", u"Cruces",
     u"Democrática", u"Democráticas", u"Democrático", u"Democráticos",
     u"Delta", u"Deltas",
+    u"Departamento", u"Departamentos",
     u"Deserto", u"Desertos",
     u"Distrito", u"Distritos",
     u"Ducado", u"Ducados",
