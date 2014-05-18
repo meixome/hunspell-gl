@@ -621,7 +621,7 @@ def loadGeneratorList():
     # Wikipedia en inglés.
 
     generators.append(WikipediaEnGenerator(
-        resource = u"antroponimia.dic",
+        resource = u"antroponimia/xeral.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
             EntryGenerator(
@@ -629,6 +629,21 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Given names by gender"],
                         validCategoryPattern = u".* given names",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia/países/brasil.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"People by state in Brazil"],
+                        validCategoryPattern = u".*",
                     ),
                 ],
             )

@@ -1,4 +1,3 @@
-Amadeu
 Anxelica
 Anxelina
 Arancha
@@ -9,7 +8,6 @@ Branca
 Camiño
 Cecía
 Cruz
-Damasio
 Delmiro
 Denisia
 Donisia
@@ -34,7 +32,6 @@ Hermerico
 Herodias
 Idacio
 Idalia
-Irineu
 lea
 Lía
 Manecho
@@ -66,7 +63,6 @@ Sindo
 Sisnando
 Soedade
 Sol
-Tiso
 Torcutato
 Xacob
 Xano
@@ -77,9 +73,6 @@ Xeroma
 Xeromo
 Xiraldo
 Xordan
-Pérez
-González
-Ramírez
 Miragaia
 Vázquez
 Castelao
@@ -112,7 +105,6 @@ afma.
 afmo.
 alc.
 al.
-A.
 AA.
 A.R.
 AA.RR.
@@ -168,7 +160,6 @@ cem.
 cert.
 ca.
 circul.
-C.
 cit.
 cl.
 clás.
@@ -263,7 +254,6 @@ esp.
 espf.
 estac.
 E.M.
-E.
 Exc.ª
 Excma.Sra.
 Excmo.Sr.
@@ -351,7 +341,6 @@ loc.adv.
 loc.conx.
 loc.prep.
 lonx.
-M.
 MM.
 Magfa.
 Magfo.
@@ -410,7 +399,6 @@ OP
 OM
 O.M.
 OO.MM.
-P.
 PP.
 pag.
 p.i.
@@ -484,7 +472,6 @@ RDL
 R.D.LEX.
 RDLEX
 R.D.
-RD
 RR.DD.
 R.O.
 RR.OO.
@@ -493,7 +480,6 @@ rel.
 Rte.
 R.I.P.
 RIP
-R.
 R
 Rev.
 Rda.
@@ -649,7 +635,6 @@ z.
 11M
 11S
 23F
-A3
 ABC
 ACB
 ACDI
@@ -666,21 +651,17 @@ AEB
 AECI
 AFP
 AHU
-AI
 AID
 AIF
 AIU
 ALCA
-AM
 AMGI
 AOD
-AP
 ARE
 AS-PG
 ASEAN
 ASEF
 ATS
-Aenor
 Ales
 Asoe
 Asou
@@ -706,7 +687,6 @@ BUP
 Banesto
 Benelux
 Bilega
-C9
 CACTI
 CAD
 CAE
@@ -714,25 +694,21 @@ CAEG
 CAF
 CAMPSA
 CBS
-CC
 CCOO
 CCD
 CCG
-CD
 CD-R
 CD-RW
 CR-ROM
 CDE
 CDG
 CDS
-CE
 CEOE
 CEPAL
 CESCE
 CESID
 CESGA
 CFI
-CG
 CGAC
 CGAI
 CGC
@@ -778,23 +754,18 @@ DNI
 DOG
 DVD
 DXT
-EA
 ECHO
 EEUU
 EFTA
-EG
 EGPGC
-EH
 ELA
 EMBO
-EN
 ESO
 ETA
 ETAm
 ETB
 ETB-2
 ETB2
-EU
 EU-IU
 EUA
 EURIBOR
@@ -945,25 +916,21 @@ OVNI
 Ofie
 Ofix
 Ofoe
-PA
 PAE
 PAL
 PALOP
 PAS
 PASEC
-PC
 PCB
 PCE
 PCEr
 PCG
 PCP
 PCPR
-PD
 PEAE
 PECO
 PEME
 PETI
-PG
 PIB
 PIN
 PMA
@@ -973,7 +940,6 @@ PNN
 PNRA-NR
 PNUD
 PNV
-PP
 PPAE
 PPdeG
 PRONAF
@@ -982,7 +948,6 @@ PSC
 PSG
 PSOE
 PSdeG
-PT
 PTT
 PUK
 PVD
@@ -993,13 +958,11 @@ R11
 R12
 R21
 R2D2
-R9
 RAE
 RAG
 RAF
 RAI
 RENFE
-RG
 RTVE
 SAARC
 SAS
@@ -1236,7 +1199,6 @@ Maeloc po:antropónimo       # https://gl.wikipedia.org/wiki/Mailoc
 Pexerto po:antropónimo      # http://www.nomes-galegos.info/wiki/index.php?title=Pexerto
 
 # Apelidos.
-Sarmiento po:antropónimo    # https://gl.wikipedia.org/wiki/Sarmiento
 Valcárcel po:antropónimo    # https://gl.wikipedia.org/wiki/Marcos_Valc%C3%A1rcel
 Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 
@@ -1244,7 +1206,6 @@ Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
 Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
 Galiana po:topónimo         # https://en.wikipedia.org/wiki/Guliana,_Gujrat
-Gouveia po:topónimo         # https://gl.wikipedia.org/wiki/Distrito_da_Guarda
 Goyang po:topónimo          # https://en.wikipedia.org/wiki/Goyang
 Guarico po:topónimo         # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Venezuela
 Gunungkidoli po:topónimo    # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
@@ -1291,8 +1252,6 @@ Pasadama po:topónimo        # https://gl.wikipedia.org/wiki/Montes_de_Galicia
 Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
 Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
 Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
-Paterson po:topónimo        # https://gl.wikipedia.org/wiki/Lista_das_maiores_cidades_dos_estados_dos_EUA
-Peniche po:topónimo         # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal
 Perelló po:topónimo         # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Tarragona
 Ponce po:topónimo           # https://gl.wikipedia.org/wiki/Plena_%28x%C3%A9nero_musical%29
 Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
@@ -1311,7 +1270,6 @@ Seongnam po:topónimo        # https://gl.wikipedia.org/wiki/Se%C3%BAl
 Silgar po:topónimo          # https://gl.wikipedia.org/wiki/Galer%C3%ADa_de_imaxes_da_praia_de_Silgar
 Silicon po:topónimo         # https://en.wikipedia.org/wiki/Silicon_Valley
 Sipadan po:topónimo         # https://en.wikipedia.org/wiki/Sipadan
-Stanford po:topónimo        # https://en.wikipedia.org/wiki/Stanford_%28disambiguation%29#Places
 Swansea po:topónimo         # https://gl.wikipedia.org/wiki/Gales
 Tangerang po:topónimo       # https://gl.wikipedia.org/wiki/Iabotabek
 Tapacari po:topónimo        # https://gl.wikipedia.org/wiki/Departamento_de_Cochabamba

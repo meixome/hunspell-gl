@@ -37,6 +37,9 @@ wikipedia       Wikipedia
                 Submódulos:
                 • en. Módulos baseados no contido da Wikipedia en inglés.
                     • antroponimia. Nomes de persoas.
+                        • países
+                            • brasil
+                        • xeral
                 • es. Módulos baseados no contido da Wikipedia en castelán.
                     • antroponimia. Nomes de persoas.
                 • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.

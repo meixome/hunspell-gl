@@ -97,9 +97,9 @@ class TaskInProgressReporter(object):
 
 # Dictionary generators.
 
-class MediaWikiGenerator(Generator):
+numberPattern = re.compile(u"^[0-9]+$")
 
-    numberPattern = re.compile(u"^[0-9]+$")
+class MediaWikiGenerator(Generator):
 
 
     def __init__(self, siteName, languageCode, resource, partOfSpeech, entryGenerators):
@@ -286,15 +286,18 @@ class CategoryBrowser(PageGenerator):
         return not self.pageTitleMatchesPattern(category, self.invalidCategoryPattern)
 
 
-    def loadPagesFromCategory(self, category):
+    def loadPagesFromCategory(self, category, reporter):
         self.visitedCategoryNames.add(category.title(withNamespace=False))
         for page in category.articles(namespaces=0):
             if self.pageIsValid(page):
                 yield page
+        reporter.done()
         for subcategory in category.subcategories():
-            if subcategory.title(withNamespace=False) not in self.visitedCategoryNames:
+            subcategoryName = subcategory.title(withNamespace=False)
+            if subcategoryName not in self.visitedCategoryNames:
                 if self.canLoadPagesFromCategory(subcategory):
-                    for page in self.loadPagesFromCategory(subcategory):
+                    subcategoryReporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(subcategoryName), indent=reporter.indent+2)
+                    for page in self.loadPagesFromCategory(subcategory, subcategoryReporter):
                         yield page
                 elif self.canTreatCategoryAsPage(subcategory):
                     if self.pageIsValid(subcategory):
@@ -322,9 +325,8 @@ class CategoryBrowser(PageGenerator):
             for categoryName in self.categoryNames:
                 if categoryName not in self.visitedCategoryNames:
                     reporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(categoryName), indent=2)
-                    for page in self.loadPagesFromCategory(pywikibot.Category(self.site, categoryName)):
+                    for page in self.loadPagesFromCategory(pywikibot.Category(self.site, categoryName), reporter):
                         yield page
-                    reporter.done()
 
         if self.categoryOfCategoriesNames:
             output(u"• Obtendo páxinas da lista de categorías de categorías…\n")
@@ -333,9 +335,8 @@ class CategoryBrowser(PageGenerator):
                     subcategoryName = subcategory.title(withNamespace=False)
                     if subcategoryName not in self.visitedCategoryNames:
                         reporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(subcategoryName), indent=2)
-                        for page in self.loadPagesFromCategory(subcategory):
+                        for page in self.loadPagesFromCategory(subcategory, reporter):
                             yield page
-                        reporter.done()
 
 
 class PageLoader(PageGenerator):

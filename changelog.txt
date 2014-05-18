@@ -210,10 +210,11 @@ Cambios desde a versión 13.10.1
         • Topónimos, distribuídos entre «gl/toponimia/xeral.dic» e
           «gl/toponimia/galicia.dic», imitando as categorías do proxecto.
 
-+ wikipedia/en/antroponimia
-+ wikipedia/es/antroponimia
-+ wikipedia/gl/onomástica/arte/escultura/relixión
-+ wikipedia/gl/onomástica/astronomía/planetas
++ wikipedia/en
++ wikipedia/es
++ wikipedia/gl/onomástica/antroponimia
++ wikipedia/gl/onomástica/arte
++ wikipedia/gl/onomástica/astronomía
 + wikipedia/gl/onomástica/historia/civilizacións
 + wikipedia/gl/onomástica/toponimia/accidentes/baías
 + wikipedia/gl/onomástica/toponimia/accidentes/desertos
@@ -243,7 +244,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/gl/onomástica/toponimia/rexións/india
 + wikipedia/gl/onomástica/toponimia/rexións/reino-unido
 + wikipedia/gl/onomástica/toponimia/zonas/mónaco
-+ wikipedia/hu/antroponimia
++ wikipedia/hu
 
 
 Versión 13.10.1
