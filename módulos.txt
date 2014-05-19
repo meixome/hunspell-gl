@@ -168,6 +168,10 @@ wikipedia       Wikipedia
                         • accidentes. Accidentes xeográficos.
                 • hu. Módulos baseados no contido da Wikipedia en húngaro.
                     • antroponimia. Nomes de persoas.
+                • pt. Módulos baseados no contido da Wikipedia en portugués.
+                    • antroponimia. Nomes de persoas.
+                        • países
+                            • españa
 
 galizionario    Galizionario
                 https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal

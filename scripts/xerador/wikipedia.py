@@ -70,6 +70,17 @@ class WikipediaHuGenerator(WikipediaGenerator):
             )
 
 
+class WikipediaPtGenerator(WikipediaGenerator):
+
+    def __init__(self, resource, partOfSpeech, entryGenerators):
+        super(WikipediaPtGenerator, self).__init__(
+                "pt",
+                resource,
+                partOfSpeech,
+                entryGenerators=entryGenerators,
+            )
+
+
 
 
 # Helpers.
@@ -685,6 +696,23 @@ def loadGeneratorList():
                 pageGenerators = [
                     CategoryBrowser(
                         categoryOfCategoriesNames = [u"Férfikeresztnevek", u"Női keresztnevek"],
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    # Wikipedia en portugués.
+
+    generators.append(WikipediaPtGenerator(
+        resource = u"antroponimia/países/españa.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Reis de Leão",],
+                        invalidPagePattern = u"^Anexo:",
                     ),
                 ],
             )
