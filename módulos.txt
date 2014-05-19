@@ -39,6 +39,7 @@ wikipedia       Wikipedia
                     • antroponimia. Nomes de persoas.
                         • países
                             • brasil
+                            • italia
                         • xeral
                 • es. Módulos baseados no contido da Wikipedia en castelán.
                     • antroponimia. Nomes de persoas.

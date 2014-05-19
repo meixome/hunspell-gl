@@ -660,6 +660,21 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia/países/italia.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Italian sculptors"],
+                        validCategoryPattern = u".* (sculptors|stubs)",
+                    ),
+                ],
+            )
+        ],
+    ))
+
     # Wikipedia en húngaro.
 
     generators.append(WikipediaHuGenerator(

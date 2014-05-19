@@ -153,6 +153,7 @@ class MediaWikiGenerator(Generator):
         #
         noCache = {}
         for arg in sys.argv:
+            arg = arg.decode("utf-8")
             if arg.startswith(u"-nocache"):
                 pieces = arg.split(u":")
                 piecesCount = len(pieces)
