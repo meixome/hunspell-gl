@@ -628,9 +628,19 @@ def loadGeneratorList():
                 pageGenerators = [
                     CategoryBrowser(
                         categoryNames = [u"Given names by gender"],
-                        validCategoryPattern = u".* given names",
+                        validCategoryPattern = u".* (god(desse)?s|names)",
+                        invalidPagePattern = u"^(Consorts of Ganesha|Forms of Parvati|Ganges in Hinduism|.* Temple)$",
                     ),
                 ],
+            ),
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Basque given names"],
+                        validCategoryPattern = u".* names",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
             )
         ],
     ))
