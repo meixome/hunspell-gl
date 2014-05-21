@@ -40,7 +40,7 @@ class GalizionarioNamesGenerator(GalizionarioGenerator):
         pageNames = [u"Apéndice:Nomes de persoa",]
         pageLoader = PageLoader(pageNames=pageNames)
 
-        tableParser = TableParser(cellNumbers=[0, 4])
+        tableParser = TableParser(cellNumbers=[0, 3, 4])
 
         super(GalizionarioNamesGenerator, self).__init__(
             resource = u"antroponimia.dic",
@@ -52,6 +52,7 @@ class GalizionarioNamesGenerator(GalizionarioGenerator):
                     entryParser=EntryParser(
                         commaSplitter=True,
                         commaFilter=False,
+                        semicolonSplitter=True,
                     )
                 ),
             ]

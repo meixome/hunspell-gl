@@ -278,7 +278,6 @@ class MediaWikiGenerator(Generator):
                 for parsedEntry in entryGenerator.entryParser.parse(entries):
                     parsedEntries.add(parsedEntry)
                 cacheManager.save(self.resource, cacheName, parsedEntries)
-
             totalEntries.update(parsedEntries)
             index += 1
 
@@ -918,7 +917,7 @@ class TableParser(PageContentParser):
     def iterCells(self, row):
         for cell in row.splitlines():
             if cell.startswith("|"): # Skip headers that start with “!”.
-                cell = cell[1:].strip()
+                cell = cell[1:]
                 if cell:
                     yield cell
 
@@ -1037,13 +1036,21 @@ class EntryParser(object):
                  commaFilter=True,
                  commaSplitter=False,
                  hyphenFilter=True,
-                 noRtlFilter=True):
+                 noRtlFilter=True,
+                 semicolonSplitter=False,
+                 unescapeHtml=True,):
         self.apostropheFilter = apostropheFilter
         self.basqueFilter = basqueFilter
         self.commaFilter = commaFilter
         self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
-        self.noRtlFilter = True
+        self.noRtlFilter = noRtlFilter
+        self.semicolonSplitter = semicolonSplitter
+        self.unescapeHtml = unescapeHtml
+
+        if self.unescapeHtml:
+            import HTMLParser
+            self.htmlParser = HTMLParser.HTMLParser()
 
 
     def applyMandatoryFilters(self, entry):
@@ -1067,12 +1074,14 @@ class EntryParser(object):
                 continue
 
             # Modifiers.
+            if self.apostropheFilter and "'" in entry:
+                entry = entry.replace("'", "")
             if self.commaFilter and "," in entry: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
                 entry = entry.split(",")[0]
             if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(" - ")[0]
-            if self.apostropheFilter and "'" in entry:
-                entry = entry.replace("'", "")
+            if self.unescapeHtml and "&" in entry:
+                entry = self.htmlParser.unescape(entry)
 
 
             # Splitters.
@@ -1090,11 +1099,21 @@ class EntryParser(object):
                         newOutputEntries.add(outputEntry)
                 outputEntries = newOutputEntries
 
-            if self.commaSplitter: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+            if self.commaSplitter:
                 newOutputEntries = set()
                 for outputEntry in outputEntries:
                     if "," in outputEntry:
                         for newOutputEntry in outputEntry.split(","):
+                            newOutputEntries.add(newOutputEntry)
+                    else:
+                        newOutputEntries.add(outputEntry)
+                outputEntries = newOutputEntries
+
+            if self.semicolonSplitter:
+                newOutputEntries = set()
+                for outputEntry in outputEntries:
+                    if ";" in outputEntry:
+                        for newOutputEntry in outputEntry.split(";"):
                             newOutputEntries.add(newOutputEntry)
                     else:
                         newOutputEntries.add(outputEntry)
