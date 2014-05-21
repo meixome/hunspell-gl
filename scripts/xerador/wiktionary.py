@@ -3,7 +3,7 @@
 from mediawiki import MediaWikiGenerator  # Dictionary generators.
 from mediawiki import EntryGenerator  # Entry generators.
 from mediawiki import PageLoader, CategoryBrowser  # Page generators.
-from mediawiki import TitleParser, FirstSentenceParser, LineParser  # Page parsers.
+from mediawiki import TitleParser, FirstSentenceParser, LineParser, TableParser  # Page parsers.
 from mediawiki import EntryParser  # Page parsers.
 
 
@@ -29,6 +29,34 @@ class GalizionarioGenerator(WiktionaryGenerator):
                 partOfSpeech,
                 entryGenerators=entryGenerators,
             )
+
+
+
+
+class GalizionarioNamesGenerator(GalizionarioGenerator):
+
+    def __init__(self):
+
+        pageNames = [u"Apéndice:Nomes de persoa",]
+        pageLoader = PageLoader(pageNames=pageNames)
+
+        tableParser = TableParser(cellNumbers=[0, 4])
+
+        super(GalizionarioNamesGenerator, self).__init__(
+            resource = u"antroponimia.dic",
+            partOfSpeech = u"antropónimo",
+            entryGenerators = [
+                EntryGenerator(
+                    pageGenerators=[pageLoader,],
+                    pageParser=tableParser,
+                    entryParser=EntryParser(
+                        commaSplitter=True,
+                        commaFilter=False,
+                    )
+                ),
+            ]
+        )
+
 
 
 class WiktionaryEnGenerator(WiktionaryGenerator):
@@ -77,6 +105,8 @@ def loadGeneratorList():
 
 
     # Galizionario.
+
+    generators.append(GalizionarioNamesGenerator())
 
     generators.append(GalizionarioGenerator(
         resource = u"toponimia/xeral.dic",

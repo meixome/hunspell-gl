@@ -206,7 +206,7 @@ Cambios desde a versión 13.10.1
       substitúan aos da Wikipedia, por ser o Wiktionary un proxecto máis
       axeitado para utilizar de base de datos de vocabulario.
     • De momento o módulo contén:
-        • Antropónimos, no módulo «en/antroponimia».
+        • Antropónimos, nos módulos «en/antroponimia» e «gl/antroponimia».
         • Topónimos, distribuídos entre «gl/toponimia/xeral.dic» e
           «gl/toponimia/galicia.dic», imitando as categorías do proxecto.
 

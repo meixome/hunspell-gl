@@ -175,13 +175,17 @@ wikipedia       Wikipedia
                         • países
                             • españa
 
-galizionario    Galizionario
-                https://gl.wiktionary.org/wiki/Wiktionary:P%C3%A1xina_principal
+wiktionary      Wiktionary
+                https://wiktionary.org
 
                 Submódulos:
 
-                • toponimia. Topónimos.
-                    • galicia
+                • en. Módulos baseados no contido do Wiktionary en inglés.
+                    • antroponimia
+                • gl. Módulos baseados no contido do Wiktionary en galego.
+                    • antroponimia
+                    • toponimia. Topónimos.
+                        • galicia
 
 iso639          Códigos de linguas (ISO 639)
                 http://gl.wikipedia.org/wiki/ISO_639

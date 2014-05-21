@@ -509,8 +509,11 @@ class SiteCache(object):
     def pageNamesToLoadFromWiki(self):
         filePath = self.pageNamesToLoadFromWikiFilePath()
         if os.path.exists(filePath):
-            with codecs.open(filePath, "r", "utf-8") as fileObject:
-                return json.load(fileObject)
+            try:
+                with codecs.open(filePath, "r", "utf-8") as fileObject:
+                    return json.load(fileObject)
+            except:
+                pass
         else:
             with open(filePath, "w") as fileObject:
                 fileObject.write("")
@@ -891,6 +894,46 @@ class LineParser(PageContentParser):
 
 
 
+tablePattern = re.compile(u"(?s)\{\|.*?\|\}")
+
+
+class TableParser(PageContentParser):
+
+    def __init__(self, cellNumbers):
+        super(TableParser, self).__init__()
+        self.cellNumbers = cellNumbers
+
+
+    def iterTables(self, content):
+        for match in tablePattern.finditer(content):
+            yield match.group()
+
+
+    def iterRows(self, table):
+        tableWithoutTags = "\n".join(table.split("\n")[1:-1])
+        for row in tableWithoutTags.split("|-"):
+            yield row
+
+
+    def iterCells(self, row):
+        for cell in row.splitlines():
+            if cell.startswith("|"): # Skip headers that start with “!”.
+                cell = cell[1:].strip()
+                if cell:
+                    yield cell
+
+
+    def parsePageContent(self, page, content, source):
+        for table in self.iterTables(content):
+            for row in self.iterRows(table):
+                cellNumber = 0
+                for cell in self.iterCells(row):
+                    if cellNumber in self.cellNumbers:
+                        yield cell
+                    cellNumber += 1
+
+
+
 class FirstSentenceParser(PageContentParser):
 
     def __init__(self):
@@ -992,11 +1035,13 @@ class EntryParser(object):
                  apostropheFilter=True,
                  basqueFilter=False,
                  commaFilter=True,
+                 commaSplitter=False,
                  hyphenFilter=True,
                  noRtlFilter=True):
         self.apostropheFilter = apostropheFilter
         self.basqueFilter = basqueFilter
         self.commaFilter = commaFilter
+        self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
         self.noRtlFilter = True
 
@@ -1029,14 +1074,33 @@ class EntryParser(object):
             if self.apostropheFilter and "'" in entry:
                 entry = entry.replace("'", "")
 
-            # Splitters.
-            if self.basqueFilter and "-" in entry: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
-                entry = entry.split("-")
 
-            if isinstance(entry, basestring):
-                for item in self.applyMandatoryFilters(entry):
+            # Splitters.
+
+            outputEntries = set()
+            outputEntries.add(entry)
+
+            if self.basqueFilter: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+                newOutputEntries = set()
+                for outputEntry in outputEntries:
+                    if "-" in outputEntry:
+                        for newOutputEntry in outputEntry.split("-"):
+                            newOutputEntries.add(newOutputEntry)
+                    else:
+                        newOutputEntries.add(outputEntry)
+                outputEntries = newOutputEntries
+
+            if self.commaSplitter: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
+                newOutputEntries = set()
+                for outputEntry in outputEntries:
+                    if "," in outputEntry:
+                        for newOutputEntry in outputEntry.split(","):
+                            newOutputEntries.add(newOutputEntry)
+                    else:
+                        newOutputEntries.add(outputEntry)
+                outputEntries = newOutputEntries
+
+
+            for outputEntry in outputEntries:
+                for item in self.applyMandatoryFilters(outputEntry):
                     yield item
-            else:
-                for subentry in entry:
-                    for item in self.applyMandatoryFilters(subentry):
-                        yield item
