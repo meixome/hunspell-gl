@@ -1,5 +1,3 @@
-Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
-Bahamonde
 Branca
 Camiño
 Cecía
@@ -69,13 +67,11 @@ Xeromo
 Xiraldo
 Xordan
 Miragaia
-Vázquez
 Castelao
 Ferrín
 Collazo
 Santamarina
 Méndez
-López
 Raxoi
 Feixoo
 Abilleira
@@ -139,7 +135,6 @@ ax.
 bach.
 bda.
 b.
-B.
 Bmo.P.
 bibl.
 bl.
@@ -185,13 +180,10 @@ cuadr.
 4º
 ch.
 deb.
-D.
 D
 D.L.
-DL
 del.
 d. de o.
-DO
 depto.
 dep.
 dta.
@@ -665,18 +657,14 @@ BASIS
 BAsD
 BBC
 BERD
-BI
 BID
 BIRD
 BIRF
 BIS
-BM
-BN
 BNG
 BOE
 BOP
 BOPG
-BP
 BUP
 Banesto
 Benelux
@@ -743,7 +731,6 @@ CiU
 Cunef
 DAtk
 DDT
-DI
 DNI
 DOG
 DVD
@@ -1287,5 +1274,6 @@ Xermiade po:topónimo        # http://www.edu.xunta.es/centros/ceippalasrei/syst
 Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
 
 # Antropónimos.
+Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
 Anxelica po:antropónimo     # http://archive.today/kSoG
 Anxelina po:antropónimo     # https://twitter.com/angelibochis

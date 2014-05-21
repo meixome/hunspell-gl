@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
-import os, re, requests, sys, tempfile, time, unicodedata, urllib, urllib2
+import codecs, json, os, re, requests, sys, tempfile, time, unicodedata, urllib
+import urllib2
 
 import PyICU
 from bs4 import BeautifulSoup
@@ -25,7 +26,7 @@ highlightedPattern = re.compile(u"\'\'\'(\'\')? *(?P<entry>.*?) *(\'\')?\'\'\'")
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")
-sentenceSeparatorPattern = re.compile(u"(?<!(a\.C|d\.C|.St))\. ")
+sentenceSeparatorPattern = re.compile(u"(?<!(a\.C|..D|d\.C|.St|..[A-Z]))\. ")
 
 
 
@@ -510,6 +511,9 @@ class SiteCache(object):
         if os.path.exists(filePath):
             with codecs.open(filePath, "r", "utf-8") as fileObject:
                 return json.load(fileObject)
+        else:
+            with open(filePath, "w") as fileObject:
+                fileObject.write("")
         return []
 
 
@@ -545,7 +549,7 @@ class SiteCache(object):
     def dumpDownloadBytes(self):
         if not self._dumpDownloadBytes:
             response = requests.head(self.dumpUrl())
-            self._dumpDownloadBytes = response.headers.get('content-length')
+            self._dumpDownloadBytes = float(response.headers.get('content-length'))
         return self._dumpDownloadBytes
 
 
@@ -625,9 +629,8 @@ class SiteCache(object):
                 os.remove(localDumpPath)
 
             filePath = self.pageNamesToLoadFromWikiFilePath()
-            if os.path.exists(filePath):
-                with open(filePath, "w") as fileObject:
-                    fileObject.write("")
+            with open(filePath, "w") as fileObject:
+                fileObject.write("")
 
             self._localDumpDate = self.remoteDumpDate()
             dumpFileName = self.dumpFileNameTemplate.format(self._localDumpDate)
@@ -938,6 +941,8 @@ class FirstSentenceParser(PageContentParser):
                 if line[0] not in [' ', '{', '}', '|', '[', ':', '!', '<'] and not templateDepth and not tableDepth and not fileDepth and not htmlStartTags:
                     line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
                     line = re.sub(reference, u"", line) # Eliminar contido de referencia.
+                    if line.startswith("D."):
+                        line = line[2:]
                     return sentenceSeparatorPattern.split(line)[0]
 
                 templateDepth += line.count("{{")
@@ -984,10 +989,12 @@ class FirstSentenceParser(PageContentParser):
 class EntryParser(object):
 
     def __init__(self,
+                 apostropheFilter=True,
                  basqueFilter=False,
                  commaFilter=True,
                  hyphenFilter=True,
                  noRtlFilter=True):
+        self.apostropheFilter = apostropheFilter
         self.basqueFilter = basqueFilter
         self.commaFilter = commaFilter
         self.hyphenFilter = hyphenFilter
@@ -1019,6 +1026,8 @@ class EntryParser(object):
                 entry = entry.split(",")[0]
             if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(" - ")[0]
+            if self.apostropheFilter and "'" in entry:
+                entry = entry.replace("'", "")
 
             # Splitters.
             if self.basqueFilter and "-" in entry: # Nome éuscara oficial, en éuscara e castelán. Por exemplo: «Valle de Trápaga-Trapagaran».
