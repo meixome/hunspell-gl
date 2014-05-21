@@ -1037,6 +1037,7 @@ class EntryParser(object):
                  commaSplitter=False,
                  hyphenFilter=True,
                  noRtlFilter=True,
+                 quoteFilter=True,
                  semicolonSplitter=False,
                  unescapeHtml=True,):
         self.apostropheFilter = apostropheFilter
@@ -1045,6 +1046,7 @@ class EntryParser(object):
         self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
         self.noRtlFilter = noRtlFilter
+        self.quoteFilter = quoteFilter
         self.semicolonSplitter = semicolonSplitter
         self.unescapeHtml = unescapeHtml
 
@@ -1080,6 +1082,8 @@ class EntryParser(object):
                 entry = entry.split(",")[0]
             if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(" - ")[0]
+            if self.quoteFilter and "\"" in entry:
+                entry = entry.replace("\"", "")
             if self.unescapeHtml and "&" in entry:
                 entry = self.htmlParser.unescape(entry)
 

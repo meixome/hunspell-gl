@@ -708,6 +708,21 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia/países/méxico.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"People from Oaxaca"],
+                        validCategoryPattern = u"^(Members|Musicians|People|Singers) ",
+                    ),
+                ],
+            )
+        ],
+    ))
+
     # Wikipedia en húngaro.
 
     generators.append(WikipediaHuGenerator(
