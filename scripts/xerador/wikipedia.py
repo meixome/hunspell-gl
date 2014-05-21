@@ -164,7 +164,7 @@ class GalipediaNamesGenerator(GalipediaGenerator):
         lineParser = LineParser(namePattern, )
 
         super(GalipediaNamesGenerator, self).__init__(
-            resource = u"onomástica/antroponimia.dic",
+            resource = u"onomástica/antroponimia/xeral.dic",
             partOfSpeech = u"antropónimo",
             entryGenerators = [
                 EntryGenerator(
@@ -187,6 +187,22 @@ def loadGeneratorList():
 
     # Galipedia
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/países/españa.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Reis de Galicia"],
+                        invalidPagePattern = u"^(Dinastía|Lista d)",
+                        validCategoryPattern = u"^(Reis|Dinastía)",
+                    ),
+                ],
+            )
+        ],
+    ))
+
     pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
     generators.append(GalipediaGenerator(
         resource = u"onomástica/arquitectura/relixión.dic",
@@ -206,6 +222,22 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/arte/escultura/relixión.dic",
+        partOfSpeech = u"nome propio",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Escultura relixiosa de Galicia"],
+                        validCategoryPattern = u"^(Baldaquinos d|Cruceiros d)",
+                        invalidCategoryPattern = u"^Imaxes d",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/astronomía/planetas.dic",
         partOfSpeech = u"nome propio",
         entryGenerators=[
@@ -216,22 +248,6 @@ def loadGeneratorList():
                         invalidPagePattern = u"^(Lista d|Planeta anano$|Planeta($| ))",
                         validCategoryPattern = u"^(Candidatos a planeta|Planetas |Plutoides$)",
                         invalidCategoryPattern = u"^Sistemas planetarios$",
-                    ),
-                ],
-            )
-        ],
-    ))
-
-    generators.append(GalipediaGenerator(
-        resource = u"onomástica/arte/escultura/relixión.dic",
-        partOfSpeech = u"nome propio",
-        entryGenerators=[
-            EntryGenerator(
-                pageGenerators = [
-                    CategoryBrowser(
-                        categoryNames = [u"Escultura relixiosa de Galicia"],
-                        validCategoryPattern = u"^(Baldaquinos d|Cruceiros d)",
-                        invalidCategoryPattern = u"^Imaxes d",
                     ),
                 ],
             )

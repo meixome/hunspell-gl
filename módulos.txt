@@ -46,6 +46,8 @@ wikipedia       Wikipedia
                 • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
                     • onomástica. Nomes propios.
                         • antroponimia. Nomes de persoas.
+                            • países
+                                • españa
                         • arquitectura.
                             • relixión. Pezas de arquitectura relixiosa.
                         • arte
