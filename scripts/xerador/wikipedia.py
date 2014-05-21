@@ -194,7 +194,11 @@ def loadGeneratorList():
             EntryGenerator(
                 pageGenerators = [
                     CategoryBrowser(
-                        categoryNames = [u"Finados en 1975", u"Reis de Galicia"],
+                        categoryNames = [
+                            u"Finados en 1975",
+                            u"Nados en Salceda de Caselas",
+                            u"Reis de Galicia",
+                        ],
                         invalidPagePattern = u"^(Dinastía|Lista d)",
                         validCategoryPattern = u"^(Reis|Dinastía)",
                         invalidCategoryPattern = u"^(Lista d)",
