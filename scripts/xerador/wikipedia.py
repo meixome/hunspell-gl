@@ -742,6 +742,20 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia/países/rusia.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"People from Bryansk"],
+                    ),
+                ],
+            )
+        ],
+    ))
+
     # Wikipedia en húngaro.
 
     generators.append(WikipediaHuGenerator(
