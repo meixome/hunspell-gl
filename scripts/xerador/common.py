@@ -2,8 +2,15 @@
 
 from __future__ import print_function
 
-import os, pickle, time
+import os, pickle, re, time
 from xdg.BaseDirectory import save_cache_path
+import PyICU
+
+from generator import output, wordsToIgnore
+
+
+
+numberPattern = re.compile(u"^[0-9]+$")
 
 
 def getModulesSourcePath():
@@ -52,3 +59,80 @@ class CacheManager(object):
             os.makedirs(os.path.dirname(cachePath))
         with open(cachePath, "w") as fileObject:
             pickle.dump(objectData, fileObject)
+
+
+
+
+
+# Progress reporters.
+
+class ProgressReporter(object):
+
+    def report(self):
+        output(u"{}→ {}… {}/{} ({}%)\r".format(
+            u" "*self.indent,
+            self.statement,
+            self.processed,
+            self.total,
+            self.processed*100/self.total,
+        ))
+
+
+    def __init__(self, statement, total, indent=0):
+        self.statement = statement
+        self.total = total
+        self.indent = indent
+        self.processed = 0
+        if self.total:
+            self.report()
+
+    def increase(self, count=1):
+        self.processed += count
+        self.report()
+
+    def done(self):
+        if self.total:
+            output(u"{}✓ {}. {}/{} ({}%)\n".format(
+                u" "*self.indent,
+                self.statement,
+                self.processed,
+                self.total,
+                self.processed*100/self.total,
+            ))
+
+
+class TaskInProgressReporter(object):
+
+    def report(self):
+        output(u"{}→ {}…\r".format(u" "*self.indent, self.statement))
+
+
+    def __init__(self, statement, indent=0):
+        self.statement = statement
+        self.indent = indent
+        self.report()
+
+
+    def done(self):
+        output(u"{}✓ {}.\n".format(u" "*self.indent, self.statement))
+
+
+
+def formatEntriesForDictionary(entries, partOfSpeech):
+    reporter = ProgressReporter(u"Adaptando as entradas ao formato do dicionario", len(entries))
+    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+    for entry in sorted(entries, cmp=collator.compare):
+        if " " in entry: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
+            ngramas = set()
+            for ngrama in entry.split(u" "):
+                ngrama = ngrama.strip(",")
+                if ngrama not in wordsToIgnore:  # N-gramas innecesarios por ser vocabulario galego xeral.
+                    if ngrama not in ngramas:  # Non é necesario repetir ngramas dentro da mesma entrada
+                        if not numberPattern.match(ngrama):  # Hunspell sempre acepta números.
+                            ngramas.add(ngrama)
+                            yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech)
+        else:
+            if entry not in wordsToIgnore:
+                yield u"{entry} po:{partOfSpeech}\n".format(entry=entry, partOfSpeech=partOfSpeech)
+        reporter.increase()
+    reporter.done()
