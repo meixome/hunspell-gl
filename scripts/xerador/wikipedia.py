@@ -195,12 +195,13 @@ def loadGeneratorList():
                 pageGenerators = [
                     CategoryBrowser(
                         categoryNames = [
+                            u"Escritores de Galicia",
                             u"Finados en 1975",
                             u"Nados en Salceda de Caselas",
                             u"Reis de Galicia",
                         ],
-                        invalidPagePattern = u"^(Dinastía|Lista d)",
-                        validCategoryPattern = u"^(Reis|Dinastía)",
+                        invalidPagePattern = u"^(Dinastía|Lista d|Xeración)",
+                        validCategoryPattern = u"^(Dinastía|Escritores|Poetas|Tradutores|Reis|Xeración)",
                         invalidCategoryPattern = u"^(Lista d)",
                     ),
                 ],

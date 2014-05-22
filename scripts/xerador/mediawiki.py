@@ -673,10 +673,11 @@ class PageContentLoader(object):
             content = category.get()
 
             match = mainArticleTemplatePatterns[languageCode].search(content)
-            if match.group("page"):
-                mainArticleName = match.group("page")
-            elif match.group("template"):
-                mainArticleName = category.title(withNamespace=False)
+            if match:
+                if match.group("page"):
+                    mainArticleName = match.group("page")
+                elif match.group("template"):
+                    mainArticleName = category.title(withNamespace=False)
 
             if mainArticleName:
                 page = pywikibot.Page(category.site, mainArticleName)

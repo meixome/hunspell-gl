@@ -1,5 +1,3 @@
-Evanxelina
-Exeria
 Exiquia
 Felícita
 Felícitas
@@ -16,15 +14,8 @@ Prácida
 Romelia
 Torcutato
 Xordan
-Miragaia
-Castelao
-Ferrín
-Collazo
-Santamarina
 Raxoi
-Feixoo
 Abilleira
-Fole
 D.g.
 a\/
 f\/m
@@ -429,7 +420,6 @@ R.C.
 r.
 s.e.o.o.
 S.S.
-S.
 Sta.
 Sto.
 Smo.
@@ -456,7 +446,6 @@ Sra.
 Srta.
 serv.
 S.N.
-SP
 7.ª
 7ª
 7.º
@@ -469,12 +458,8 @@ símb.
 soc.
 sdade.
 S.A.
-SA
-S. en C.
-SC
 sdade.Lda.
 S.L.
-SL
 S.M.I.
 S.R.M.
 SS.AA.
@@ -1126,7 +1111,6 @@ capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Bras
 # Nomes de pía.
 
 # Apelidos.
-Valcárcel po:antropónimo    # https://gl.wikipedia.org/wiki/Marcos_Valc%C3%A1rcel
 Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 
 # Topónimos.
@@ -1223,4 +1207,5 @@ Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
 Anxelica po:antropónimo     # http://archive.today/kSoG
 Anxelina po:antropónimo     # https://twitter.com/angelibochis
-Eurídice po:antroponimia        # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
+Eurídice po:antroponimia    # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
+Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
