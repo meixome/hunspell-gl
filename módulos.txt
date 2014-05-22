@@ -180,6 +180,7 @@ wikipedia       Wikipedia
                 • pt. Módulos baseados no contido da Wikipedia en portugués.
                     • antroponimia. Nomes de persoas.
                         • países
+                            • brasil
                             • españa
 
 wiktionary      Wiktionary

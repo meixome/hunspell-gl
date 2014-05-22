@@ -828,6 +828,23 @@ def loadGeneratorList():
     # Wikipedia en portugués.
 
     generators.append(WikipediaPtGenerator(
+        resource = u"antroponimia/países/brasil.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Atores do Brasil",],
+                        invalidPagePattern = u"^(Anexo:|Vedete$)",
+                        validCategoryPattern = u"^(Atores|Estrelas|Vedetes)",
+                        invalidCategoryPattern = u"^(!|Imagens)",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(WikipediaPtGenerator(
         resource = u"antroponimia/países/españa.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
