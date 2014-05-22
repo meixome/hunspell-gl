@@ -743,6 +743,22 @@ def loadGeneratorList():
     ))
 
     generators.append(WikipediaEnGenerator(
+        resource = u"antroponimia/países/países-baixos.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Dutch footballers"],
+                        invalidPagePattern = u"^List of",
+                        validCategoryPattern = u".*(footballers|stubs)",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(WikipediaEnGenerator(
         resource = u"antroponimia/países/rusia.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
