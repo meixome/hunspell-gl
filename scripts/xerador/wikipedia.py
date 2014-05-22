@@ -678,6 +678,7 @@ def loadGeneratorList():
                 pageGenerators = [
                     CategoryBrowser(
                         categoryNames = [
+                            u"Botánicos de Italia del siglo XV",
                             u"Religiosos de Italia del siglo XV",
                             u"Santos de Italia",
                         ],
