@@ -658,8 +658,11 @@ def loadGeneratorList():
             EntryGenerator(
                 pageGenerators = [
                     CategoryBrowser(
-                        categoryNames = [u"Religiosos de Italia del siglo XV"],
-                        validCategoryPattern = u".*",
+                        categoryNames = [
+                            u"Religiosos de Italia del siglo XV",
+                            u"Santos de Italia",
+                        ],
+                        validCategoryPattern = u"^(Cardenales|Obispos|Santos)",
                     ),
                 ],
             )
