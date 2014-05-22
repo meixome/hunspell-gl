@@ -214,6 +214,7 @@ def loadGeneratorList():
                         categoryNames = [
                             u"Escritores de Galicia",
                             u"Finados en 1975",
+                            u"Nados en Pontedeume",
                             u"Nados en Salceda de Caselas",
                             u"Reis de Galicia",
                             u"Vicepresidentes do goberno de España",
