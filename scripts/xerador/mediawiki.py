@@ -1032,7 +1032,7 @@ class FirstSentenceParser(PageContentParser):
 class EntryParser(object):
 
     def __init__(self,
-                 apostropheFilter=True,
+                 doubleApostropheFilter=True,
                  basqueFilter=False,
                  commaFilter=True,
                  commaSplitter=False,
@@ -1041,7 +1041,7 @@ class EntryParser(object):
                  quoteFilter=True,
                  semicolonSplitter=False,
                  unescapeHtml=True,):
-        self.apostropheFilter = apostropheFilter
+        self.doubleApostropheFilter = doubleApostropheFilter
         self.basqueFilter = basqueFilter
         self.commaFilter = commaFilter
         self.commaSplitter = commaSplitter
@@ -1077,8 +1077,8 @@ class EntryParser(object):
                 continue
 
             # Modifiers.
-            if self.apostropheFilter and "'" in entry:
-                entry = entry.replace("'", "")
+            if self.doubleApostropheFilter and "''" in entry:
+                entry = entry.replace("''", "")
             if self.commaFilter and "," in entry: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
                 entry = entry.split(",")[0]
             if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».

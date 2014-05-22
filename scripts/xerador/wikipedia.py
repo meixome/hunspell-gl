@@ -741,7 +741,10 @@ def loadGeneratorList():
             EntryGenerator(
                 pageGenerators = [
                     CategoryBrowser(
-                        categoryNames = [u"People by state in Brazil"],
+                        categoryNames = [
+                            u"People by state in Brazil",
+                            u"Brazilian mixed martial artists",
+                        ],
                         validCategoryPattern = u".*",
                     ),
                 ],
