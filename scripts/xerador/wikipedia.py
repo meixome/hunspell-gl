@@ -216,6 +216,7 @@ def loadGeneratorList():
                             u"Finados en 1975",
                             u"Nados en Salceda de Caselas",
                             u"Reis de Galicia",
+                            u"Vicepresidentes do goberno de España",
                         ],
                         invalidPagePattern = u"^(Dinastía|Lista d|Xeración)",
                         validCategoryPattern = u"^(Dinastía|Escritores|Poetas|Tradutores|Reis|Xeración)",
