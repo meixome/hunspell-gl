@@ -188,6 +188,23 @@ def loadGeneratorList():
     # Galipedia
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/países/costa-rica.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [
+                            u"Presidentes de Costa Rica",
+                        ],
+                        invalidPagePattern = u"^Presidente de Costa Rica$",
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/antroponimia/países/españa.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
