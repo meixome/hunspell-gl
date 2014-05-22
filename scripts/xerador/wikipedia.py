@@ -210,6 +210,25 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/relixión.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [
+                            u"Personaxes bíblicos",
+                        ],
+                        invalidPagePattern = u"^Apóstolo$",
+                        validCategoryPattern = u"^Apóstolos",
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
     pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
     generators.append(GalipediaGenerator(
         resource = u"onomástica/arquitectura/relixión.dic",
