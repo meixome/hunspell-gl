@@ -690,6 +690,22 @@ def loadGeneratorList():
     ))
 
     generators.append(WikipediaEsGenerator(
+        resource = u"antroponimia/países/españa.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [
+                            u"Ciclistas de la Comunidad de Madrid",
+                        ],
+                    ),
+                ],
+            )
+        ],
+    ))
+
+    generators.append(WikipediaEsGenerator(
         resource = u"antroponimia/países/italia.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[

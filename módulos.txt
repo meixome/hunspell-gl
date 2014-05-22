@@ -47,6 +47,7 @@ wikipedia       Wikipedia
                 • es. Módulos baseados no contido da Wikipedia en castelán.
                     • antroponimia. Nomes de persoas.
                         • países
+                            • españa
                             • italia
                 • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
                     • onomástica. Nomes propios.
