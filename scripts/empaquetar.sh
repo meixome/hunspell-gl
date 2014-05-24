@@ -28,7 +28,7 @@ mv ${packageName}.tar.xz ../${packageName}.tar.xz
 popd &> /dev/null
 
 # Construír e empaquetar o corrector da comunidade.
-scons aff=norma,trasno,unidades dic=comunidade,wikipedia,galizionario,iso639,iso4217,trasno,unidades,drag rep=comunidade,wikipedia code=${code}
+scons aff=norma,trasno,unidades dic=comunidade,drag,iso639,iso4217,trasno,unidades,uvigo,wikipedia,wiktionary rep=comunidade,wikipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-comunidade-${version}"
 mkdir ${packageName}

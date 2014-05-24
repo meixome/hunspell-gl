@@ -2,7 +2,8 @@
 
 from __future__ import print_function
 
-import os, pickle, re, time
+import os, pickle, re, requests, sys, time, urllib
+from datetime import datetime
 from xdg.BaseDirectory import save_cache_path
 import PyICU
 
@@ -59,9 +60,6 @@ class CacheManager(object):
             os.makedirs(os.path.dirname(cachePath))
         with open(cachePath, "w") as fileObject:
             pickle.dump(objectData, fileObject)
-
-
-
 
 
 # Progress reporters.
@@ -136,3 +134,93 @@ def formatEntriesForDictionary(entries, partOfSpeech):
                 yield u"{entry} po:{partOfSpeech}\n".format(entry=entry, partOfSpeech=partOfSpeech)
         reporter.increase()
     reporter.done()
+
+
+
+def formatEntriesAndCommentsForDictionary(entries, partOfSpeech):
+    reporter = ProgressReporter(u"Adaptando as entradas ao formato do dicionario", len(entries))
+    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+    for entry in sorted(entries, cmp=collator.compare):
+        if " " in entry: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
+            ngramas = set()
+            for ngrama in entry.split(u" "):
+                ngrama = ngrama.strip(",")
+                if ngrama not in wordsToIgnore:  # N-gramas innecesarios por ser vocabulario galego xeral.
+                    if ngrama not in ngramas:  # Non é necesario repetir ngramas dentro da mesma entrada
+                        if not numberPattern.match(ngrama):  # Hunspell sempre acepta números.
+                            ngramas.add(ngrama)
+                            if entries[entry]: # A entrada ten comentario.
+                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]  # {comment}\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech, comment=entries[entry])
+                            else:
+                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech)
+        else:
+            if entry not in wordsToIgnore:
+                if entries[entry]: # A entrada ten comentario.
+                    yield u"{entry} po:{partOfSpeech}  # {comment}\n".format(entry=entry, partOfSpeech=partOfSpeech, comment=entries[entry])
+                else:
+                    yield u"{entry} po:{partOfSpeech}\n".format(entry=entry, partOfSpeech=partOfSpeech)
+        reporter.increase()
+    reporter.done()
+
+
+
+class ContentCache(object):
+
+    def __init__(self, cacheFolder):
+
+        cacheManager = CacheManager()
+        self.cacheFolder = os.path.join(cacheManager.cacheFolder, cacheFolder)
+        if not os.path.exists(self.cacheFolder):
+            os.makedirs(self.cacheFolder)
+
+
+    def downloadFileIfNeededAndGetLocalPath(self, url, fileName=None):
+
+        if not fileName:
+            fileName = url.split(u"/")[-1]
+        localPath = os.path.join(self.cacheFolder, fileName)
+
+        if not os.path.exists(localPath):
+            urllib.urlretrieve(url, localPath)
+            return localPath
+
+        request = requests.head(url)
+        remoteFileDate = datetime.strptime(request.headers.get("Last-Modified"), '%a, %d %b %Y %H:%M:%S GMT')
+        localFileDate = datetime.strptime(time.ctime(os.path.getmtime(localPath)), "%a %b %d %H:%M:%S %Y")
+
+        if remoteFileDate > localFileDate:
+            urllib.urlretrieve(url, localPath)
+
+        return localPath
+
+
+
+class PdfParser(object):
+
+    def __init__(self, filePath):
+        self.filePath = filePath
+
+
+    def lines(self):
+
+        from pdfminer.layout import LAParams, LTChar
+        from pdfminer.pdfparser import PDFParser
+        from pdfminer.pdfdocument import PDFDocument
+        from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+        from pdfminer.converter import PDFPageAggregator
+        from pdfminer.pdfpage import PDFPage
+
+        fileObject = open(self.filePath, "rb")
+        parser = PDFParser(fileObject)
+        document = PDFDocument(parser)
+        resourceManager = PDFResourceManager()
+        device = PDFPageAggregator(resourceManager)
+        interpreter = PDFPageInterpreter(resourceManager, device)
+        for page in PDFPage.create_pages(document):
+            interpreter.process_page(page)
+            layout = device.get_result()
+            objects = [object for object in layout if isinstance(object, LTChar)]
+            if objects:
+                params = LAParams()
+                for line in layout.group_objects(params, objects):
+                    yield line.get_text()

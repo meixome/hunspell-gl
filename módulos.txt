@@ -4,12 +4,15 @@ norma           Normas ortográficas e morfolóxicas do idioma galego
                 Real Academia Galega / Instituto da Lingua Galega, 2003
                 http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
 
+
 trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
                 http://trasno.net/content/resultados-das-trasnadas
+
 
 unidades        Prefixos e sufixos para símbolos de unidades
                 http://en.wikipedia.org/wiki/International_System_of_Units
                 Nota: inclúense prefixos para unidades binarias.
+
 
 
 DICIONARIOS DE NÚCLEOS DE PALABRAS
@@ -22,6 +25,7 @@ comunidade      Vocabulario da comunidade do corrector de galego Hunspell
 
                 • vocabulario.dic
 
+
 drag            Dicionario da Real Academia Galega
                 Real Academia Galega, 2012
                 http://www.realacademiagalega.org/dicionario
@@ -30,6 +34,45 @@ drag            Dicionario da Real Academia Galega
 
                 • correcto. Vocabulario correcto.
                 • tolerado. Vocabulario tolerado.
+
+
+iso639          Códigos de linguas (ISO 639)
+                http://gl.wikipedia.org/wiki/ISO_639
+
+
+iso4217         Códigos de moedas (ISO 4217)
+                http://gl.wikipedia.org/wiki/ISO_4217
+
+
+trasno          Acordos terminolóxicos do Proxecto Trasno
+                http://trasno.net/content/resultados-das-trasnadas
+
+
+unidades        Símbolos de unidades
+                http://en.wikipedia.org/wiki/International_System_of_Units
+                Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
+
+
+uvigo           Universidade de Vigo
+                Área de Normalización Lingüística
+                http://anl.uvigo.es/
+
+                Submódulos:
+
+                • abreviacións
+                • siglas
+
+
+volga           Vocabulario ortográfico da lingua galega
+                Santamarina Fernández, Antón e González González, Manuel (coord.)
+                Real Academia Galega / Instituto da Lingua Galega, 2004
+                http://www.realacademiagalega.org/volga/
+
+                Submódulos:
+
+                • correcto. Vocabulario correcto.
+                • tolerado. Vocabulario tolerado.
+
 
 wikipedia       Wikipedia
                 http://wikipedia.org
@@ -184,6 +227,7 @@ wikipedia       Wikipedia
                             • brasil
                             • españa
 
+
 wiktionary      Wiktionary
                 https://wiktionary.org
 
@@ -196,28 +240,6 @@ wiktionary      Wiktionary
                     • toponimia. Topónimos.
                         • galicia
 
-iso639          Códigos de linguas (ISO 639)
-                http://gl.wikipedia.org/wiki/ISO_639
-
-iso4217         Códigos de moedas (ISO 4217)
-                http://gl.wikipedia.org/wiki/ISO_4217
-
-trasno          Acordos terminolóxicos do Proxecto Trasno
-                http://trasno.net/content/resultados-das-trasnadas
-
-unidades        Símbolos de unidades
-                http://en.wikipedia.org/wiki/International_System_of_Units
-                Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
-
-volga           Vocabulario ortográfico da lingua galega
-                Santamarina Fernández, Antón e González González, Manuel (coord.)
-                Real Academia Galega / Instituto da Lingua Galega, 2004
-                http://www.realacademiagalega.org/volga/
-
-                Submódulos:
-
-                • correcto. Vocabulario correcto.
-                • tolerado. Vocabulario tolerado.
 
 
 REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
@@ -226,5 +248,8 @@ comunidade      Suxestións da comunidade do corrector de galego Hunspell
                 Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
                 Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
 
+
 wikipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
                 http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
+
+
