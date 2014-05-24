@@ -48,6 +48,15 @@ unidades        Símbolos de unidades
                 Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
 
 
+udc             Universidade da Coruña
+                Facultade de Filoloxía
+                http://www.udc.es/filo/
+
+                Submódulos:
+
+                • abreviacións
+
+
 uvigo           Universidade de Vigo
                 Área de Normalización Lingüística
                 http://anl.uvigo.es/

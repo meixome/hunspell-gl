@@ -210,6 +210,12 @@ Cambios desde a versión 13.10.1
     • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
       na guía de estilo.
 
++ udc (novo)
+    • Baseado en publicacións da Universidade da Coruña.
+    • O módulo contén «abreviaturas.dic», baseado nun documento da Facultade de
+      Filoloxía da universidade, que inclúe unha lista de abreviaturas
+      frecuentes.
+
 + uvigo (novo)
     • Baseado en publicacións da Universidade de Vigo.
     • O módulo contén «abreviaturas.dic» e «siglas.dic», baseados no documento

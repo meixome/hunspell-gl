@@ -2,7 +2,7 @@
 
 import os, sys
 import codecs, locale
-import common, drag, iso, microsoft, uvigo, wikipedia, wiktionary
+import common, drag, iso, microsoft, udc, uvigo, wikipedia, wiktionary
 
 # See http://stackoverflow.com/a/4546129/939364
 sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
@@ -21,6 +21,7 @@ def loadGeneratorList():
     generators.extend(drag.loadGeneratorList())
     generators.extend(iso.loadGeneratorList())
     generators.extend(microsoft.loadGeneratorList())
+    generators.extend(udc.loadGeneratorList())
     generators.extend(uvigo.loadGeneratorList())
     generators.extend(wikipedia.loadGeneratorList())
     generators.extend(wiktionary.loadGeneratorList())
