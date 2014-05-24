@@ -1,16 +1,3 @@
-addor.
-addora.
-adva.
-advo.
-afma.
-afmo.
-AA.
-A.R.
-AA.RR.
-ambul.
-amb.
-A.C.
-antepret.
 aXC
 A.T.
 aparc.
@@ -845,7 +832,7 @@ Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
 Anxelica po:antropónimo     # http://archive.today/kSoG
 Anxelina po:antropónimo     # https://twitter.com/angelibochis
-Eurídice po:antroponimia    # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
+Eurídice po:antropónimo     # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
 Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
 Exiquia po:antropónimo      # http://www.noome.net/nombre-exiquia-en-espana
 Felícita po:antropónimo     # http://www.deperu.com/nombres-peruanos/significado-Fel%C3%ADcita
@@ -854,18 +841,28 @@ Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfe
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
 
+# Abreviaturas.
+AA. po:abreviatura          # autores / altezas
+AA.RR. po:abreviatura       # altezas reais
+A.C. po:abreviatura         # asociación cultural
+addor. po:abreviatura       # administrador
+addora. po:abreviatura      # administradora
+adva. po:abreviatura        # avenida
+advo. po:abreviatura        # administrativo
+afma. po:abreviatura        # afectuosísima
+afmo. po:abreviatura        # afectuosísimo
+amb. po:abreviatura         # ambiguo
+antepret. po:abreviatura    # antepretérito pospretérito
 
 # Incertos.
-
 a\/
+ambul.  # ambulancia? ambulatorio?
+A.R.
 D.g.
 f\/m
-
-# http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
-# http://www.zara.com/es/es/mujer/camisas-c358004.html ?
-# http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
-m\/c
-
+m\/c    # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
+        # http://www.zara.com/es/es/mujer/camisas-c358004.html ?
+        # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
 m\/l
 m\/o
 o\/

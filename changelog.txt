@@ -140,9 +140,12 @@ Cambios desde a versión 13.10.1
             • plutón/s → Plutón
             • saturno/s → Saturno
             • Venus → venus
+            + antepretérito
             + carrocería, carrozaría
+            + copretérito
             + Marte
             + Neptuno
+            + pospretérito
             + Urano
             + vinculación
             + Xúpiter
