@@ -157,6 +157,10 @@ Cambios desde a versión 13.10.1
 • iso4217 (actualizouse)
 • iso639 (actualizouse)
 
+• norma
+    • Engadíronse números enteiros, decimais e porcentaxes.
+    • Engadíronse números ordinais. Por exemplo: 1.ª, 23ª, 456.º, 7890º.
+
 • volga
     + romántica/s (só estaban as formas masculinas)
     - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)

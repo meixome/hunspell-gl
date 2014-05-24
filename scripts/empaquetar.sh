@@ -13,7 +13,7 @@ pushd $rootFolder &> /dev/null
 rm -rf ./build
 
 # Construír e empaquetar o corrector principal (DRAG).
-scons aff=norma dic=drag rep=comunidade,wikipedia code=${code}
+scons aff=norma dic=drag,norma rep=comunidade,wikipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-drag-${version}"
 mkdir ${packageName}
@@ -28,7 +28,7 @@ mv ${packageName}.tar.xz ../${packageName}.tar.xz
 popd &> /dev/null
 
 # Construír e empaquetar o corrector da comunidade.
-scons aff=norma,trasno,unidades dic=comunidade,drag,iso639,iso4217,trasno,unidades,uvigo,wikipedia,wiktionary rep=comunidade,wikipedia code=${code}
+scons aff=norma,trasno,unidades dic=comunidade,drag,iso639,iso4217,norma,trasno,unidades,uvigo,wikipedia,wiktionary rep=comunidade,wikipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-comunidade-${version}"
 mkdir ${packageName}
@@ -47,7 +47,7 @@ mkdir -p build
 pushd build &> /dev/null
 packageName="hunspell-gl-fontes-${version}"
 mkdir ${packageName}
-for folder in scripts src
+for folder in scripts src tests
 do
 	cp -R ../${folder} ${packageName}/${folder}
 done

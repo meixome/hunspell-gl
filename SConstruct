@@ -5,7 +5,7 @@ import mmap, os, PyICU, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma'
-defaultDic  = u'drag'
+defaultDic  = u'drag,norma'
 defaultRep  = u'comunidade,wikipedia'
 defaultCode = u'gl'
 
@@ -22,7 +22,7 @@ nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
-    scons dic=drag,unidades
+    scons dic=drag,norma
 
 Para incluír submódulos, sepáreos do módulo pai cunha barra inclinada. Por exemplo, para incluír o vocabulario do
 submódulo «onomástica» do módulo «wikipedia», use:
@@ -111,9 +111,26 @@ def extendAffFromString(targetFilename, sourceString):
 
 
 def createAff(targetFilename, sourceFilenames):
-    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
+    """ Constrúe o ficheiro .aff base a partir dos módulos indicados.
     """
+    baseFilesCount = len(sourceFilenames)
+    if baseFilesCount > 1:
+        print u"O corrector só pode constar dun único ficheiro «.base»."
+        raise Exception()
+    elif baseFilesCount < 1:
+        print u"O corrector debe incluír un ficheiro «.base»."
+        print u"Inclúa un módulo con ficheiro de regras base (por exemplo, «norma») na lista de ficheiros do parámetro «aff»."
+        raise Exception()
+
     initialize(targetFilename)
+    for sourceFilename in sourceFilenames:
+        parsedContent = getParsedContent(sourceFilename)
+        extendAffFromString(targetFilename, parsedContent)
+
+
+def addContentToAff(targetFilename, sourceFilenames):
+    """ Amplía o ficheiro .aff base a partir dos módulos indicados.
+    """
     for sourceFilename in sourceFilenames:
         parsedContent = getParsedContent(sourceFilename)
         extendAffFromString(targetFilename, parsedContent)
@@ -131,12 +148,14 @@ def addReplacementsToAff(targetFilename, sourceFilenames):
         if line not in linesSeen:
             linesSeen.add(line)
 
-    formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
-    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-    for line in sorted(linesSeen, cmp=collator.compare):
-        formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
+    if linesSeen:
 
-    extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
+        formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
+        collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+        for line in sorted(linesSeen, cmp=collator.compare):
+            formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
+
+        extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
 
 
 def getParsedContent(sourceFilename):
@@ -210,7 +229,7 @@ def getSourceFilesFromFolderAndExtension(folder, extension):
 
     for dirname, dirnames, filenames in os.walk(folder):
         for filename in filenames:
-            if filename[-len(extension):] == extension:
+            if filename.endswith(extension):
                 sourceFiles.append(os.path.join(dirname, filename))
 
     return sourceFiles
@@ -239,6 +258,7 @@ def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
 
 def getSourceFiles(dictionary, rules, replacements):
     sourceFiles = []
+    sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.base'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.aff'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(dictionary, '.dic'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(replacements, '.rep'))
@@ -251,15 +271,17 @@ def getFilenamesFromFileEntriesWithMatchingExtensions(fileEntries, extensionList
     filenames = []
     for fileEntry in fileEntries:
         filename = str(fileEntry)
-        if filename[-4:] in extensionList:
-            filenames.append(filename)
+        for extension in extensionList:
+            if filename.endswith(extension):
+                filenames.append(filename)
     return filenames
 
 
 def createSpellchecker(target, source, env):
     aff = unicode(target[0])
     dic = unicode(target[1])
-    createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
+    createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.base']))
+    addContentToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
     addReplacementsToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.rep']))
     createDic(dic, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.dic']))
     applyMakealias(aff, dic)

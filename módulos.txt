@@ -1,29 +1,11 @@
-FAMILIAS DE REGRAS DE CONSTRUCIÓN DE PALABRAS
-
-norma           Normas ortográficas e morfolóxicas do idioma galego
-                Real Academia Galega / Instituto da Lingua Galega, 2003
-                http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
-
-
-trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
-                http://trasno.net/content/resultados-das-trasnadas
-
-
-unidades        Prefixos e sufixos para símbolos de unidades
-                http://en.wikipedia.org/wiki/International_System_of_Units
-                Nota: inclúense prefixos para unidades binarias.
-
-
-
-DICIONARIOS DE NÚCLEOS DE PALABRAS
-
-comunidade      Vocabulario da comunidade do corrector de galego Hunspell
-                Termos engadidos ao corrector sen indicar unha fonte que os apoie.
+comunidade      Módulo da comunidade do corrector de galego Hunspell
+                Termos e suxestións engadidos ao corrector sen indicar unha fonte que os apoie.
                 Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
 
                 Submódulos:
 
-                • vocabulario.dic
+                • vocabulario
+                • suxestións
 
 
 drag            Dicionario da Real Academia Galega
@@ -42,6 +24,11 @@ iso639          Códigos de linguas (ISO 639)
 
 iso4217         Códigos de moedas (ISO 4217)
                 http://gl.wikipedia.org/wiki/ISO_4217
+
+
+norma           Normas ortográficas e morfolóxicas do idioma galego
+                Real Academia Galega / Instituto da Lingua Galega, 2003
+                http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
 
 
 trasno          Acordos terminolóxicos do Proxecto Trasno
@@ -217,6 +204,7 @@ wikipedia       Wikipedia
                             • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                                 • españa
                                 • mónaco
+                    • suxestións. Erros ortográficos e desviacións máis comúns rexistrados na Galipedia (http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións).
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
                 • hu. Módulos baseados no contido da Wikipedia en húngaro.
@@ -239,17 +227,3 @@ wiktionary      Wiktionary
                     • antroponimia
                     • toponimia. Topónimos.
                         • galicia
-
-
-
-REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
-
-comunidade      Suxestións da comunidade do corrector de galego Hunspell
-                Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
-                Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
-
-
-wikipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
-                http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
-
-

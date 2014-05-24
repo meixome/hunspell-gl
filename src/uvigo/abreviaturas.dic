@@ -49,7 +49,7 @@ b. po:abreviatura [n-grama: b. e n.]  # Branco e negro
 n. po:abreviatura [n-grama: b. e n.]  # Branco e negro
 b. po:abreviatura [n-grama: b. o.]  # Boletín oficial
 o. po:abreviatura [n-grama: b. o.]  # Boletín oficial
-b/n po:abreviatura  # Branco e negro
+b\/n po:abreviatura  # Branco e negro
 bibl. po:abreviatura  # Biblioteca
 bibliog. po:abreviatura  # Bibliografía
 bl. po:abreviatura  # Bloque
@@ -60,8 +60,8 @@ adm. po:abreviatura [n-grama: c. de adm.]  # Consello de administración
 c. po:abreviatura [n-grama: c. m.]  # Colexio maior
 m. po:abreviatura [n-grama: c. m.]  # Colexio maior
 c.c. po:abreviatura  # Conta corrente
-c/ po:abreviatura  # Conta
-c/c po:abreviatura  # Conta corrente
+c\/ po:abreviatura  # Conta
+c\/c po:abreviatura  # Conta corrente
 cant. po:abreviatura  # Cantidade
 cap. po:abreviatura  # Capítulo
 carr. po:abreviatura  # Carreira
@@ -72,7 +72,7 @@ catedr. po:abreviatura  # Catedrático/a
 cert. po:abreviatura  # Certificado
 cfr. po:abreviatura  # Confróntese
 ch. po:abreviatura  # Cheque
-ch/ po:abreviatura  # Cheque
+ch\/ po:abreviatura  # Cheque
 cía. po:abreviatura  # Compañía
 cit. po:abreviatura  # Citado/a
 cód. po:abreviatura  # Código
@@ -102,7 +102,7 @@ d. po:abreviatura [n-grama: d. l.]  # Decreto lei
 l. po:abreviatura [n-grama: d. l.]  # Decreto lei
 d.v. po:abreviatura  # Días vista
 d.x. po:abreviatura  # Dirección xeral
-d/v po:abreviatura  # Días vista
+d\/v po:abreviatura  # Días vista
 dec. po:abreviatura  # Decembro
 dep. po:abreviatura  # Depósito
 desp. po:abreviatura  # Despacho
@@ -126,7 +126,7 @@ t. po:abreviatura [n-grama: e. t. s.]  # Escola técnica superior
 s. po:abreviatura [n-grama: e. t. s.]  # Escola técnica superior
 e. po:abreviatura [n-grama: e. u.]  # Escola universitaria
 u. po:abreviatura [n-grama: e. u.]  # Escola universitaria
-e/ po:abreviatura  # Envío
+e\/ po:abreviatura  # Envío
 econ. po:abreviatura  # Económico
 ed. po:abreviatura  # Editor/a
 edit. po:abreviatura  # Editorial
@@ -135,7 +135,7 @@ ef. po:abreviatura  # Efecto
 ef. po:abreviatura [n-grama: ef. por rec.]  # Efectos por recibir
 por po:abreviatura [n-grama: ef. por rec.]  # Efectos por recibir
 rec. po:abreviatura [n-grama: ef. por rec.]  # Efectos por recibir
-ef/r po:abreviatura  # Efectos por recibir
+ef\/r po:abreviatura  # Efectos por recibir
 Em. po:abreviatura  # Eminencia
 ent. po:abreviatura  # Entidade
 entr. po:abreviatura  # Entreplanta
@@ -158,7 +158,7 @@ exp. po:abreviatura  # Expediente
 exped. po:abreviatura  # Expedido/a
 ext. po:abreviatura  # Extensión
 f. po:abreviatura  # Folio
-f/ po:abreviatura  # Favor
+f\/ po:abreviatura  # Favor
 fábr. po:abreviatura  # Fábrica
 fac. po:abreviatura  # Facultade
 facs. po:abreviatura  # Facsímile
@@ -209,8 +209,8 @@ cr. po:abreviatura [n-grama: l de cr.]  # Letra de crédito
 l. po:abreviatura  # Letra de cambio
 l. po:abreviatura [n-grama: l. cit.]  # Loco citato(lugar citado)
 cit. po:abreviatura [n-grama: l. cit.]  # Loco citato(lugar citado)
-l/ po:abreviatura  # Letra de cambio
-l/cr po:abreviatura  # Letra de crédito
+l\/ po:abreviatura  # Letra de cambio
+l\/cr po:abreviatura  # Letra de crédito
 lab. po:abreviatura  # Laboratorio
 lám. po:abreviatura  # Lámina
 lic. po:abreviatura  # Licenciatura
@@ -222,8 +222,8 @@ m. po:abreviatura [n-grama: m. t.]  # Meses termo
 t. po:abreviatura [n-grama: m. t.]  # Meses termo
 m. po:abreviatura [n-grama: m. v.]  # Meses vista
 v. po:abreviatura [n-grama: m. v.]  # Meses vista
-m/t po:abreviatura  # Meses termo
-m/v po:abreviatura  # Meses vista
+m\/t po:abreviatura  # Meses termo
+m\/v po:abreviatura  # Meses vista
 masc. po:abreviatura  # Masculino
 mat. po:abreviatura  # Materia
 máx. po:abreviatura  # Máximo
@@ -363,7 +363,7 @@ L. po:abreviatura [n-grama: S. L.]  # Sociedade limitada
 s. po:abreviatura [n-grama: s. n.]  # Sine nomine(autor descoñecido)
 n. po:abreviatura [n-grama: s. n.]  # Sine nomine(autor descoñecido)
 S.A.R. po:abreviatura  # A súa alteza real
-s/n po:abreviatura  # Sen número
+s\/n po:abreviatura  # Sen número
 sáb. po:abreviatura  # Sábado
 secc. po:abreviatura  # Sección
 secr. po:abreviatura  # Secretario/a
@@ -385,7 +385,7 @@ supl. po:abreviatura  # Suplente
 suplem. po:abreviatura  # Suplemento
 susp. po:abreviatura  # Suspenso/a
 t. po:abreviatura  # Talón
-t/ po:abreviatura  # Talón
+t\/ po:abreviatura  # Talón
 técn. po:abreviatura  # Técnico/a
 telegr. po:abreviatura  # Telegrama
 test. po:abreviatura  # Testemuña
@@ -410,7 +410,7 @@ v. po:abreviatura [n-grama: v. e pr.]  # Visto e prace
 pr. po:abreviatura [n-grama: v. e pr.]  # Visto e prace
 v. po:abreviatura [n-grama: v. gr.]  # Verbi gratia(por exemplo)
 gr. po:abreviatura [n-grama: v. gr.]  # Verbi gratia(por exemplo)
-v/ po:abreviatura  # Valor
+v\/ po:abreviatura  # Valor
 Vde. po:abreviatura  # Vostede
 ven. po:abreviatura  # Venres
 venc. po:abreviatura  # Vencemento
@@ -419,7 +419,7 @@ vocab. po:abreviatura  # Vocabulario
 vol. po:abreviatura  # Volume
 vulg. po:abreviatura  # Vulgarismo
 x. po:abreviatura  # Xiro
-x/ po:abreviatura  # Xiro
+x\/ po:abreviatura  # Xiro
 xan. po:abreviatura  # Xaneiro
 xll. po:abreviatura  # Xullo
 xud. po:abreviatura  # Xudicial

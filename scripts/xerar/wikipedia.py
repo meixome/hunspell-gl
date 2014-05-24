@@ -363,17 +363,22 @@ def loadGeneratorList():
                             u"Arquipélagos",
                             u"Atois",
                             u"Illas",
+                            u"Illas da Bretaña",
                             u"Illas das Illas Baleares",
                             u"Illas de Asturias",
                             u"Illas de Canarias",
+                            u"Illas de Cataluña",
+                            u"Illas de Escocia",
                             u"Illas de Galicia",
                             u"Illas de Asia",
                             u"Illas de Marrocos",
+                            u"Illas deshabitadas",
+                            u"Illas ficticias",
                             u"Illas galegas",
                             u"Illas dos Grandes Lagos"
                         ],
-                        invalidPagePattern = u"^((Batalla|Lista) |Illote Motu|Illas de Galicia)",
-                        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas de Alasca|Illas de Asia|Illas de Galicia|Illas de Marrocos|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
+                        invalidPagePattern = u"^((Batalla|Lista) |Illa deserta|Illote Motu|Illas de Galicia)",
+                        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas da Bretaña|Illas de Alasca|Illas de Asia|Illas de Cataluña|Illas de Galicia|Illas de Escocia|Illas de Marrocos|Illas deshabitadas|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas ficticias|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
                         categoryOfCategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas por continente", u"Illas por mar", u"Illas por países"],
                     ),
                 ],
@@ -516,7 +521,7 @@ def loadGeneratorList():
     generators.append(GalipediaLocalidadesGenerator(u"Dominica", pageParser=FirstSentenceParser()))
     generators.append(GalipediaLocalidadesGenerator(u"Emiratos Árabes Unidos", [u"Cidades dos {name}"], pageParser=FirstSentenceParser()))
     generators.append(GalipediaLocalidadesGenerator(u"Eslovaquia"))
-    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Concellos de {name}", u"Cidades de {name}", u"Parroquias de España"], pageParser=FirstSentenceParser()))
+    generators.append(GalipediaLocalidadesGenerator(u"España", [u"Cidades autónomas de {name}", u"Cidades de {name}", u"Concellos de {name}", u"Parroquias de España"], pageParser=FirstSentenceParser()))
     generators.append(GalipediaLocalidadesGenerator(u"Estados Unidos de América", [u"Cidades dos {name}"]))
     generators.append(GalipediaLocalidadesGenerator(u"Etiopía"))
     generators.append(GalipediaLocalidadesGenerator(u"Exipto"))

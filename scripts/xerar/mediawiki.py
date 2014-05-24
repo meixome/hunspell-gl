@@ -602,6 +602,8 @@ class PageContentLoader(object):
                     mainArticleName = match.group("page")
                 elif match.group("template"):
                     mainArticleName = category.title(withNamespace=False)
+            else:
+                mainArticleName = category.title(withNamespace=False)
 
             if mainArticleName:
                 page = pywikibot.Page(category.site, mainArticleName)
@@ -737,13 +739,17 @@ class PageContentLoader(object):
             content = None
             if not page.isRedirectPage():
                 content = page.get()
+            else:
+                content = page.getRedirectTarget().get()
             yield page, content, "wiki"
 
         for page in self.pagesToLoadFromWiki:
             content = None
             if not page.isRedirectPage():
                 content = page.get()
-            yield page, page.get(), "wiki"
+            else:
+                content = page.getRedirectTarget().get()
+            yield page, content, "wiki"
 
 
 

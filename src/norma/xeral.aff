@@ -1,62 +1,4 @@
 
-# Codificación de caracteres.
-SET UTF-8
-
-# Caracteres que se buscarán para facer suxestións de substitucións 
-# cando unicamente varíe un carácter na cadea.
-TRY -aáàâãäeéêèiïìíîoóòôõöuùúûübcçdfghjklmnñpqrstvxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÀÈÌÒÙÏÜÇ·
-
-# Indícase o tipo de nomenclatura das regras de afixación.
-FLAG num
-
-# O seguinte parámetro («666») utilizarase para indicar que a raíz
-# do dicionario que se utiliza precisa necesariamente dunha regra de afixación
-NEEDAFFIX 666
-
-# As seguintes son cadeas de teclas que, dada a súa proximidade, poden ser
-# facilmente confundidas á hora de teclear unha palabra. En cada serie de
-# teclas ─separadas por unha barra vertical, «|»─ terase en conta as teclas
-# á esquerda e dereita de cada unha.
-KEY qwertyuiop|asdfghjklñ|zxcvbnm|qaw|saz|wse|dsx|sz|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|uji|kjm|jn|iko|lkmñ|plñç
-
-# Impide que se ofrezan suxestións de substitución con elementos da cadea separados por un espazo 
-# (impide tamén as regras de substitución de n-gramas)
-NOSPLITSUGS
-
-# Establece o parámetro (do ficheiro de dicionario) que indica
-# que non varía en maiúsculas ou en minúsculas 
-KEEPCASE 999
-
-# Considérase o guión coma unha letra máis (só funciona nun terminal, non 
-# nos procesadores de texto
-WORDCHARS -'.
-
-# A continuación amósanse parellas de caracteres que o usuario puido confundir.
-# O caso máis habitual é o de que falten tiles ou acentos gráficos nas palabras.
-
-MAP 21
-MAP aá
-MAP eé
-MAP ií
-MAP oó
-MAP uú
-MAP iï
-MAP uü
-MAP ie
-MAP íé
-MAP uo
-MAP úó
-MAP bv
-MAP lr
-MAP ye
-MAP yi
-MAP yx
-MAP xs
-MAP zc
-MAP nñ
-MAP s-
-MAP r-
-
 # Regras da flexión en plural
 
 # Masculinos que rematan en vogal ou consoante diferente de -l, -r, -s ou -z engaden -s para formar o plural. Ex. casa - casas, robot - robots
@@ -9834,3 +9776,20 @@ SFX 860     Y     3
 SFX 860     ir     es/666,132,133     balbúcir . is:presente P2 + enclítico
 SFX 860     ir     e/666,134,135     balbúcir . is:presente P3 + enclítico
 SFX 860     ir     en/666,134,135     balbúcir . is:presente P6 + enclítico
+
+
+# Números.
+
+COMPOUNDMIN 1
+
+ONLYINCOMPOUND 900
+# 901: [0-9]
+# 902: ,
+# 903: [%‰]
+# 904: .
+# 905: [ºª]
+
+COMPOUNDRULE 3
+COMPOUNDRULE (901)(901)*(903)?  # [0-9]+%?
+COMPOUNDRULE (901)(901)*(902)(901)(901)*(903)?  # [0-9]+,[0-9]+%?
+COMPOUNDRULE (901)(901)*(904)?(905)  # [0-9]+\.?[ºª]

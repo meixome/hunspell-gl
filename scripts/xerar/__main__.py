@@ -38,8 +38,8 @@ for parameter in [parameter.decode('UTF-8') for parameter in sys.argv[1:]]:
     usedGenerators = 0
     for generator in generators:
         if generator.resource.startswith(modulePath):
-            print u":: Actualizando {resource}…".format(resource=generator.resource)
+            print u":: Actualizando «{resource}»…".format(resource=generator.resource)
             generator.run()
             usedGenerators += 1
     if usedGenerators == 0:
-        print u"Non existe ningún xerador para o módulo «{module}».".format(module=modulePath)
+        print u":: Non existe ningún xerador para o módulo «{module}».".format(module=modulePath)

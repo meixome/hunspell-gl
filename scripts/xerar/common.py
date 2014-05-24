@@ -117,24 +117,12 @@ class TaskInProgressReporter(object):
 
 
 def formatEntriesForDictionary(entries, partOfSpeech):
-    reporter = ProgressReporter(u"Adaptando as entradas ao formato do dicionario", len(entries))
-    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-    for entry in sorted(entries, cmp=collator.compare):
-        if " " in entry: # Se o nome contén espazos, usarase unha sintaxe especial no ficheiro .dic.
-            ngramas = set()
-            for ngrama in entry.split(u" "):
-                ngrama = ngrama.strip(",")
-                if ngrama not in wordsToIgnore:  # N-gramas innecesarios por ser vocabulario galego xeral.
-                    if ngrama not in ngramas:  # Non é necesario repetir ngramas dentro da mesma entrada
-                        if not numberPattern.match(ngrama):  # Hunspell sempre acepta números.
-                            ngramas.add(ngrama)
-                            yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech)
-        else:
-            if entry not in wordsToIgnore:
-                yield u"{entry} po:{partOfSpeech}\n".format(entry=entry, partOfSpeech=partOfSpeech)
-        reporter.increase()
-    reporter.done()
+    return formatEntriesAndCommentsForDictionary(dict.fromkeys(entries, None), partOfSpeech)
 
+
+
+def escapeSpecialEntryCharacters(entry):
+    return entry.replace("/", "\/")
 
 
 def formatEntriesAndCommentsForDictionary(entries, partOfSpeech):
@@ -150,15 +138,15 @@ def formatEntriesAndCommentsForDictionary(entries, partOfSpeech):
                         if not numberPattern.match(ngrama):  # Hunspell sempre acepta números.
                             ngramas.add(ngrama)
                             if entries[entry]: # A entrada ten comentario.
-                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]  # {comment}\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech, comment=entries[entry])
+                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]  # {comment}\n".format(ngrama=escapeSpecialEntryCharacters(ngrama), entry=entry, partOfSpeech=partOfSpeech, comment=entries[entry])
                             else:
-                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=ngrama, entry=entry, partOfSpeech=partOfSpeech)
+                                yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=escapeSpecialEntryCharacters(ngrama), entry=entry, partOfSpeech=partOfSpeech)
         else:
             if entry not in wordsToIgnore:
                 if entries[entry]: # A entrada ten comentario.
-                    yield u"{entry} po:{partOfSpeech}  # {comment}\n".format(entry=entry, partOfSpeech=partOfSpeech, comment=entries[entry])
+                    yield u"{entry} po:{partOfSpeech}  # {comment}\n".format(entry=escapeSpecialEntryCharacters(entry), partOfSpeech=partOfSpeech, comment=entries[entry])
                 else:
-                    yield u"{entry} po:{partOfSpeech}\n".format(entry=entry, partOfSpeech=partOfSpeech)
+                    yield u"{entry} po:{partOfSpeech}\n".format(entry=escapeSpecialEntryCharacters(entry), partOfSpeech=partOfSpeech)
         reporter.increase()
     reporter.done()
 

@@ -1,0 +1,14 @@
+# Punto final.
+palabra.
+
+# Siglas.
+# Palabras que só son correctas cos puntos, e que Hunspell marcaría como
+# incorrectas se perdese a capacidade de ter en conta o punto.
+Antig.
+Arqueol.
+Arquit.
+art.
+det.
+indet.
+Astron.
+Bibliol.
