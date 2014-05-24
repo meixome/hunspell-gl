@@ -29,7 +29,7 @@ KEEPCASE 999
 
 # Considérase o guión coma unha letra máis (só funciona nun terminal, non 
 # nos procesadores de texto
-WORDCHARS -'
+WORDCHARS -'.
 
 # A continuación amósanse parellas de caracteres que o usuario puido confundir.
 # O caso máis habitual é o de que falten tiles ou acentos gráficos nas palabras.
