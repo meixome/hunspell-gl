@@ -1,11 +1,3 @@
-D.g.
-a\/
-f\/m
-m\/c
-m\/l
-m\/o
-o\/
-abrev.
 adic.
 admón.
 addor.
@@ -53,7 +45,6 @@ cte.
 cp.
 compt.
 cf.
-cta.
 conx.il.
 cor.
 cuadr.
@@ -75,7 +66,6 @@ d\/v
 dir.ª
 D.P.
 div.
-D.ª
 dupdo.
 e\/
 e\/c
@@ -187,12 +177,10 @@ P.A.
 p\/c
 P.D.
 p.e.
-p.ex.
 p.f.
 p.o.
 P.O.
 p.p.
-p.m.
 P.S.
 prefer.
 presb.
@@ -263,7 +251,6 @@ subst.
 t\/
 T.
 T.A.E.
-tel.
 teléf.
 tlf.
 tv.
@@ -872,3 +859,19 @@ Herodias po:antropónimo     # https://en.wikipedia.org/wiki/Herodias (non vale 
 Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfeita
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
+
+
+# Incertos.
+
+a\/
+D.g.
+f\/m
+
+# http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
+# http://www.zara.com/es/es/mujer/camisas-c358004.html ?
+# http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
+m\/c
+
+m\/l
+m\/o
+o\/

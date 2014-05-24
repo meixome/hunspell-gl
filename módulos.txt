@@ -26,6 +26,14 @@ iso4217         Códigos de moedas (ISO 4217)
                 http://gl.wikipedia.org/wiki/ISO_4217
 
 
+microsoft       Microsoft
+                http://www.microsoft.com/es-es/default.aspx
+
+                Submódulos:
+
+                • abreviacións
+
+
 norma           Normas ortográficas e morfolóxicas do idioma galego
                 Real Academia Galega / Instituto da Lingua Galega, 2003
                 http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf

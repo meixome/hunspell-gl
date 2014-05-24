@@ -204,11 +204,17 @@ Cambios desde a versión 13.10.1
 • wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
 • wikipedia/gl/suxestións (actualizouse)
 
++ microsoft (novo)
+    • Baseado da guía de estilo de Microsoft para a localización de software ao
+      galego.
+    • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
+      na guía de estilo.
+
 + uvigo (novo)
     • Baseado en publicacións da Universidade de Vigo.
-    • De momento o módulo contén «abreviaturas.dic» e «siglas.dic», baseados no
-      documento de dúbidas lingüísticas da universidade, que inclúe unha lista
-      de abreviaturas e siglas frecuentes.
+    • O módulo contén «abreviaturas.dic» e «siglas.dic», baseados no documento
+      de dúbidas lingüísticas da universidade, que inclúe unha lista de
+      abreviaturas e siglas frecuentes.
 
 + wiktionary (novo)
     • Baseado no proxecto Wiktionary da fundación Wikimedia.
