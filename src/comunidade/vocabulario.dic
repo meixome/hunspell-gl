@@ -1,13 +1,9 @@
-aXC
-A.T.
-aparc.
 apt.
 apto.
 arc.
 AA.EE.
 atta.
 atto.
-atte.
 AA.VV.
 av.
 ax.
@@ -20,25 +16,18 @@ cam.
 cpt.
 célt.
 cem.
-ca.
 circul.
-cl.
-clás.
 C.F.
 C.P.
 cte.
-cp.
 compt.
-cf.
 conx.il.
 cor.
 cuadr.
 deb.
 D.L.
-del.
 depto.
 der.
-derrog.
 D.E.P.
 dXC
 desv.
@@ -47,7 +36,6 @@ D.m.
 d\/d
 d\/fra
 d\/v
-dir.ª
 D.P.
 div.
 dupdo.
@@ -79,7 +67,6 @@ f\/
 f.c.
 F.C.
 ff.cc.
-fest.
 FF.AA.
 f.f.
 Fr.
@@ -89,16 +76,12 @@ g.v.
 her.
 hol.
 i.e.
-íd.
-igr.
 II.
 Iltma.
 Iltmo.
 Ilma.Sra.
 Ilmo.Sr.
 impt.
-introd.
-ít.
 k.o.
 K.O.
 r
@@ -119,23 +102,16 @@ m.n.
 M.I.Sr.
 Mons.
 mon.
-mpal.
 neol.
 n.p.
 N.ªSª
 N.S.
 N.B.
-N. do E.
-N. da E.
-N. do T.
-N. da T.
-N.T.
 m\/ch
 m\/f
 m\/x
 o.cit.
 o.p.
-obrig.
 op.cit.
 O
 OP
@@ -145,16 +121,13 @@ OO.MM.
 PP.
 pag.
 p.i.
-pat.
 páxs.
 perg.
-pta.
 ptas.
 p.b.
 P.M.
 P.M.A.
 p.n.
-pob.
 p.a.
 P.A.
 p\/c
@@ -165,11 +138,8 @@ p.o.
 P.O.
 p.p.
 P.S.
-prefer.
 presb.
 P.V.P.
-ppal.
-prof.ª
 prnl.
 p.qu.
 Q.D.G.
@@ -230,18 +200,13 @@ SS.MM.
 s.v.
 subst.
 t\/
-T.
 T.A.E.
-teléf.
 tlf.
 tv.
-TV
 tte.
 tte.cor.
 t.m.
-TM
 tur.
-urx.
 v\/
 var.
 VV.AA.
@@ -250,7 +215,6 @@ vel.
 vend.
 v.g.
 v.gr.
-vers.
 v.s.
 v.o.
 v.a.
@@ -269,7 +233,6 @@ V.E.
 VV.EE.
 V.M.
 VV.MM.
-Vdes.
 W.C.
 xral.
 xerm.
@@ -532,7 +495,6 @@ SLG
 SMS
 SRO
 Soweto
-T5
 TAE
 TBE
 TBI
@@ -540,7 +502,6 @@ TDT
 TIR
 UTC
 VIP
-TG
 TGV
 TLCAN
 TMI
@@ -842,7 +803,6 @@ Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/po
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
 
 # Abreviaturas.
-AA. po:abreviatura          # autores / altezas
 AA.RR. po:abreviatura       # altezas reais
 A.C. po:abreviatura         # asociación cultural
 addor. po:abreviatura       # administrador
@@ -858,6 +818,8 @@ antepret. po:abreviatura    # antepretérito pospretérito
 a\/
 ambul.  # ambulancia? ambulatorio?
 A.R.
+A.T.    # antigo testamento?
+aXC     # áreas de xestión clínica? por que vai en minúscula o «a»?
 D.g.
 f\/m
 m\/c    # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
@@ -865,4 +827,5 @@ m\/c    # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadra
         # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
 m\/l
 m\/o
+N.T.    # novo testamento?
 o\/
