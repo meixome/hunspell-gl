@@ -213,6 +213,14 @@ Cambios desde a versión 13.10.1
     • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
       na guía de estilo.
 
++ santiago (novo)
+    • Baseado en publicacións do Concello de Santiago de Compostela.
+    • O módulo contén os seguintes submódulos baseados en documentos
+      publicados polo concello que inclúen listas de palabras:
+        • abreviaturas
+        • siglas
+        • símbolos
+
 + udc (novo)
     • Baseado en publicacións da Universidade da Coruña.
     • O módulo contén os seguintes submódulos baseados en documentos

@@ -1,0 +1,271 @@
+# Relación de símbolos máis frecuentes
+# http://www.v1deputacionlugo.org/media/documentos/Libro_de_estilo_Concello_Santiago.pdf
+
+% po:símbolo  #  tanto por cento
+$ po:símbolo  #  dólar
+£ po:símbolo  #  libra
+¥ po:símbolo  #  ien
+€ po:símbolo  #  euro
+Ac po:símbolo  #  actinio
+Ag po:símbolo  #  prata
+Al po:símbolo  #  aluminio
+ALL po:símbolo  #  lek (moeda oficial de Albania)
+Am po:símbolo  #  americio
+Ar po:símbolo  #  argon
+ARS po:símbolo  #  peso arxentino
+at po:símbolo  #  atmosfera técnica
+At po:símbolo  #  astato
+atm po:símbolo  #  atmosfera
+Au po:símbolo  #  ouro
+b po:símbolo  #  barn
+B po:símbolo  #  bel
+Ba po:símbolo  #  bario
+BAM po:símbolo  #  marco convertíbel
+bar po:símbolo  #  bar
+BBD po:símbolo  #  dólar de Barbados
+Be po:símbolo  #  berilio
+BGN po:símbolo  #  leva (moeda de Bulgaria)
+Bh po:símbolo  #  bohrio
+Bi po:símbolo  #  bismuto
+Bk po:símbolo  #  berkelio
+BOB po:símbolo  #  boliviano (moeda de Bolivia)
+Bq po:símbolo  #  becquerel
+Br po:símbolo  #  bromo
+BRL po:símbolo  #  real (moeda do Brasil)
+Bs po:símbolo  #  bolívar (moeda de Venezuela)
+BSD po:símbolo  #  dólar das Bahamas
+BYR po:símbolo  #  rublo de Bielorrusia
+BZD po:símbolo  #  dólar de Belice
+c po:símbolo  #  centi-CAD : dólar canadense
+C po:símbolo  #  culombio, coulomb
+cal po:símbolo  #  caloría
+cd po:símbolo  #  candela
+Cd po:símbolo  #  cadmio
+Ce po:símbolo  #  cerio
+Cf po:símbolo  #  californio
+cg po:símbolo  #  centígrado
+CHF po:símbolo  #  franco de Suíza
+Ci po:símbolo  #  curio (unidade de radioactividade)
+cl po:símbolo  #  centilitro
+Cl po:símbolo  #  cloro
+CLP po:símbolo  #  peso de Chile
+cm po:símbolo  #  centímetro
+Cm po:símbolo  #  curio (elemento químico)
+cm² po:símbolo  #  centímetro cadrado
+cm³ po:símbolo  #  centímetro cúbico
+Co po:símbolo  #  cobalto
+COP po:símbolo  #  peso de Colombio
+cps po:símbolo  #  ciclos por segundo
+Cr po:símbolo  #  cromo
+CRC po:símbolo  #  colón de Costa Rica
+Cs po:símbolo  #  cesio
+CSD po:símbolo  #  dinar serbio
+Cu po:símbolo  #  cobre
+CUP po:símbolo  #  peso de Cuba
+CV po:símbolo  #  cabalo de vapor
+CZK po:símbolo  #  corona da República Checa
+d po:símbolo  #  deci-da : deca-dB : decibel
+dg po:símbolo  #  decigramo
+DKK po:símbolo  #  coroa de Dinamarca
+dl po:símbolo  #  decilitro
+dm po:símbolo  #  decímetro
+DM po:símbolo  #  marco alemán
+dm² po:símbolo  #  decímetro cadrado
+dm³ po:símbolo  #  decímetro cúbico
+DOP po:símbolo  #  peso da República Dominicana
+dyn po:símbolo  #  dina
+DYP po:símbolo  #  disposio
+Er po:símbolo  #  erbio
+erg po:símbolo  #  erxio
+Es po:símbolo  #  einstenio
+Eu po:símbolo  #  europio
+eV po:símbolo  #  electrovolt
+f po:símbolo  #  femto-Fe : ferro
+F po:símbolo  #  faradio // flúor // franco
+Fm po:símbolo  #  fermio
+FM po:símbolo  #  Frecuencia Modulada
+Fr po:símbolo  #  francio // franklin
+ft po:símbolo  #  pé (do inglés foot unidade de lonxitude)
+G po:símbolo  #  xiga-g : gramo
+Ga po:símbolo  #  galio
+GBP po:símbolo  #  libra esterlina
+Gd po:símbolo  #  gadolinio
+Ge po:símbolo  #  xermanio
+gr po:símbolo  #  gran (unidade de peso)
+Gs po:símbolo  #  gauss
+GTQ po:símbolo  #  quetzal (moeda de Guatemala)
+Gy po:símbolo  #  gray
+GYD po:símbolo  #  dólar da Guaiana
+h po:símbolo  #  altura (do inglés height) // hora // hecto-Ha : hahnio
+H po:símbolo  #  henry // hidróxeno // hotel
+ha po:símbolo  #  hectárea
+He po:símbolo  #  helio
+Hf po:símbolo  #  hafnio
+hg po:símbolo  #  hectogramo
+Hg po:símbolo  #  mercurio
+hl po:símbolo  #  hectolitro
+hm po:símbolo  #  hectómetro
+HNL po:símbolo  #  lempira (moeda de Honduras)
+Ho po:símbolo  #  holmio
+Hp po:símbolo  #  cabalo vapor (do inglés horsepower)
+HRK po:símbolo  #  kuna (moeda de Croacia)
+Hs po:símbolo  #  hassio
+HTG po:símbolo  #  gourde (moeda de Haití)
+HUF po:símbolo  #  forinto (moeda de Hungría)
+Hz po:símbolo  #  hercio
+I po:símbolo  #  iodo
+IMD po:símbolo  #  dólar xamaicano
+in po:símbolo  #  polgada (do inglés inch, unidade de lonxitude)
+In po:símbolo  #  indio
+Ir po:símbolo  #  iridio
+ISK po:símbolo  #  coroa de Islandia
+J po:símbolo  #  xulio
+k po:símbolo  #  quilo-kcal : quilocaloría
+K po:símbolo  #  kelvin // potasio
+kg po:símbolo  #  quilogramo
+kHz po:símbolo  #  quilohercio
+kj po:símbolo  #  quiloxulio
+km po:símbolo  #  quilómetro
+km\/h po:símbolo  #  quilómetro hora
+km² po:símbolo  #  quilómetro cadrado
+Kr po:símbolo  #  cripton
+kV po:símbolo  #  quilovolt
+Kv po:símbolo  #  kurchatovio
+kW po:símbolo  #  quilovatio
+kW\/h po:símbolo  #  quilovatio por hora
+l po:símbolo  #  litro
+L po:símbolo  #  litro
+La po:símbolo  #  lantano
+lb po:símbolo  #  libra (unidade de peso)
+Li po:símbolo  #  litio
+lm po:símbolo  #  lumen
+Lr po:símbolo  #  laurencio
+LTL po:símbolo  #  litas (moeda de Lituania)
+Lu po:símbolo  #  lutecio
+LVL po:símbolo  #  lats (moeda de Letonia)
+lx po:símbolo  #  lux
+M po:símbolo  #  mega-m : metro // mili-m/s : metro por segundo
+m² po:símbolo  #  metro cadrado
+m³ po:símbolo  #  metro cúbico
+MB po:símbolo  #  megabyte
+mbar po:símbolo  #  milibar
+Mc po:símbolo  #  megaciclo
+Md po:símbolo  #  mendelevio
+MDL po:símbolo  #  leu de Moldavia
+mg po:símbolo  #  miligramo
+Mg po:símbolo  #  magnesio
+MHz po:símbolo  #  megahercio
+min po:símbolo  #  minuto
+ml po:símbolo  #  mililitro
+mm po:símbolo  #  milímetro
+Mn po:símbolo  #  manganeso
+Mo po:símbolo  #  molibdeno
+mol po:símbolo  #  mol
+Mt po:símbolo  #  meitnerio
+MTL po:símbolo  #  lira de Malta
+MW po:símbolo  #  Medium Wave, Onda Media
+Mx po:símbolo  #  mdaxwell
+MXN po:símbolo  #  peso mexicano / novo peso mexicano
+MXP po:símbolo  #  peso mexicano / novo peso mexicano
+n po:símbolo  #  nano-N : Newton // nitróxeno // norte
+Na po:símbolo  #  sodio
+Nb po:símbolo  #  niobio
+Nd po:símbolo  #  neodimio
+Ne po:símbolo  #  neon
+NE po:símbolo  #  Nordeste
+Ni po:símbolo  #  níquel
+NIO po:símbolo  #  córdoba (moeda de Nicaragua)
+No po:símbolo  #  nobelio
+NO po:símbolo  #  Noroeste
+NOK po:símbolo  #  coroa de Noruega
+Np po:símbolo  #  neptunio
+NW po:símbolo  #  Noroeste
+oC po:símbolo  #  grao centígrado
+Oe po:símbolo  #  oersted
+oF po:símbolo  #  grao Fahrenheit
+OM po:símbolo  #  Medium Wave, Onda Media
+oz po:símbolo  #  onza
+P po:símbolo  #  fósforo // poise
+PAB po:símbolo  #  balboa (moeda de Panamá)
+Pb po:símbolo  #  chumbo
+pc po:símbolo  #  parsec
+Pd po:símbolo  #  paladio
+PEN po:símbolo  #  sol / novo sol (moeda de Perú)
+PES po:símbolo  #  sol / novo sol (moeda de Perú)
+PHP po:símbolo  #  peso filipino (moeda de Filipinas)
+PLN po:símbolo  #  esloti (moeda de Polonia)
+Pm po:símbolo  #  prometio
+Po po:símbolo  #  polonio
+Pr po:símbolo  #  praseodimio
+pt po:símbolo  #  pinta
+Pt po:símbolo  #  platino
+Pu po:símbolo  #  plutonio
+PYG po:símbolo  #  guaraní (moeda de Paraguay)
+Qm po:símbolo  #  quintal métrico
+R po:símbolo  #  roentgen
+r\/m po:símbolo  #  revolucións por minuto
+r\/s po:símbolo  #  revolucións por segundo
+Ra po:símbolo  #  radio
+rad po:símbolo  #  radián
+Rb po:símbolo  #  rubidio
+Re po:símbolo  #  renio
+Rf po:símbolo  #  rutherfordio
+Rh po:símbolo  #  rhesus (‘factor sanguíneo’) // rodio
+Rn po:símbolo  #  radon
+ROL po:símbolo  #  leu (moeda de Romanía)
+RON po:símbolo  #  leu (moeda de Romanía)
+Ru po:símbolo  #  rutenio
+RUB po:símbolo  #  rublo (moeda de Rusia)
+s po:símbolo  #  segundo
+S po:símbolo  #  Siemens // Sur // Xofre
+Sb po:símbolo  #  antimonio
+Sc po:símbolo  #  escandio
+Se po:símbolo  #  selenio
+SE po:símbolo  #  sueste
+SEK po:símbolo  #  coroa sueca (moeda de Suecia)
+Sg po:símbolo  #  seaborxio
+Si po:símbolo  #  silicio
+SIT po:símbolo  #  tólar (moeda de Eslovenia)
+SKK po:símbolo  #  coroa eslovaca (moeda de Eslovaquia)
+Sm po:símbolo  #  samario
+Sn po:símbolo  #  estaño
+SO po:símbolo  #  sudoeste
+sr po:símbolo  #  estereorradián
+Sr po:símbolo  #  estroncio
+SRD po:símbolo  #  dólar de Surinam
+Sv po:símbolo  #  sievert
+SVC po:símbolo  #  colón salvadoreño (moeda do Salvador)
+SW po:símbolo  #  Short Wave, Onda Curta
+t po:símbolo  #  tonelada
+T po:símbolo  #  tesla
+Tb po:símbolo  #  terbio
+Tc po:símbolo  #  tecnecio
+Te po:símbolo  #  telurio
+tex po:símbolo  #  tex
+Th po:símbolo  #  torio
+Ti po:símbolo  #  titanio
+Tl po:símbolo  #  talio
+Tm po:símbolo  #  tulio
+TRL po:símbolo  #  lira / nova lira de Turquía
+TRY po:símbolo  #  lira / nova lira de Turquía
+TTD po:símbolo  #  dólar de Trinidade e Tobago
+u po:símbolo  #  unidade atómica de masa unificada
+U po:símbolo  #  uranio
+UA po:símbolo  #  unidade astronómica
+UAH po:símbolo  #  grivna (moeda de Ucrania)
+USD po:símbolo  #  dólar de EE. UU.
+UYU po:símbolo  #  peso de Uruguai
+V po:símbolo  #  vanadio // volt
+VEB po:símbolo  #  bolívar (moeda de Venezuela)
+W po:símbolo  #  volframio // watt
+W\/b po:símbolo  #  wéber
+W\/h po:símbolo  #  watt por hora
+XAF po:símbolo  #  franco CFA (moeda de Guinea Ecuatorial e outros países africanos)
+XCD po:símbolo  #  dólar do Caribe Oriental (moeda de Antigua e Barbuda, Dominica, Granada, San Cristóbal e Nieves, Santa Lucía, San Vicente e as Granadinas)
+Xe po:símbolo  #  xenon
+Y po:símbolo  #  itrio
+Yb po:símbolo  #  iterbio
+yd po:símbolo  #  iarda
+Zn po:símbolo  #  cinc ou zinc
+Zr po:símbolo  #  circonio ou zirconio
+Ω po:símbolo  #  ohm

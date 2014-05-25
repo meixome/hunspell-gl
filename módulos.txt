@@ -27,7 +27,7 @@ iso4217         Códigos de moedas (ISO 4217)
 
 
 microsoft       Microsoft
-                http://www.microsoft.com/es-es/default.aspx
+                http://www.microsoft.com
 
                 Submódulos:
 
@@ -37,6 +37,16 @@ microsoft       Microsoft
 norma           Normas ortográficas e morfolóxicas do idioma galego
                 Real Academia Galega / Instituto da Lingua Galega, 2003
                 http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+
+
+santiago        Concello de Santiago de Compostela
+                http://www.santiagodecompostela.org
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
 
 
 trasno          Acordos terminolóxicos do Proxecto Trasno
@@ -49,7 +59,7 @@ unidades        Símbolos de unidades
 
 
 udc             Universidade da Coruña
-                http://www.udc.es/
+                http://www.udc.es
 
                 Submódulos:
 
