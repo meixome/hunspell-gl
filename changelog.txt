@@ -215,9 +215,10 @@ Cambios desde a versión 13.10.1
 
 + udc (novo)
     • Baseado en publicacións da Universidade da Coruña.
-    • O módulo contén un submódulo, «abreviaturas», baseado en documentos
-      publicados pola universidade que inclúen listas de abreviaturas
-      frecuentes, xerais ou por temática.
+    • O módulo contén os seguintes submódulos baseados en documentos
+      publicados pola universidade que inclúen listas de palabras:
+        • abreviaturas
+        • siglas
 
 + uvigo (novo)
     • Baseado en publicacións da Universidade de Vigo.
