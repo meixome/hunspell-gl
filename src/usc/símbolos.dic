@@ -1,0 +1,49 @@
+# Relación de símbolos máis frecuentes
+# http://www.usc.es/export/sites/default/gl/servizos/snl/asesoramento/fundamentos/descargas/abreviaturassiglassimboloslexico.pdf
+
+C po:símbolo  # culombio, coulomb
+cal po:símbolo  # caloría
+cg po:símbolo  # centigramo
+cl po:símbolo  # centilitro
+cm po:símbolo  # centímetro
+CV po:símbolo  # cabalo de vapor
+dB po:símbolo  # decibelio
+dg po:símbolo  # decigramo
+g po:símbolo  # gramo
+h po:símbolo  # hora
+ha po:símbolo  # hectárea
+hg po:símbolo  # hectogramo
+hl po:símbolo  # hectolitro
+hm po:símbolo  # hectómetro
+Hz po:símbolo  # hercio
+J po:símbolo  # xulio
+kg po:símbolo  # quilogramo
+kJ po:símbolo  # quiloxulio
+kl po:símbolo  # quilolitro
+km po:símbolo  # quilómetro
+km\/h po:símbolo  # quilómetro por hora
+kV po:símbolo  # quilovoltio
+kW po:símbolo  # quilovatio
+kW\/h po:símbolo  # quilovatio por hora
+m po:símbolo  # metro
+m\/s po:símbolo  # metro por segundo
+MB po:símbolo  # megabyte
+mg po:símbolo  # miligramo
+MHz po:símbolo  # megahercio
+min po:símbolo  # minuto
+mm po:símbolo  # milímetro
+NE po:símbolo  # nordeste
+NO po:símbolo  # noroeste
+NW po:símbolo  # noroeste
+PTA po:símbolo  # peseta
+r\/m po:símbolo  # revolucións por minuto
+r\/s po:símbolo  # revolucións por segundo
+s po:símbolo  # segundo
+S po:símbolo  # sur
+SE po:símbolo  # sueste
+SO po:símbolo  # sudoeste
+SW po:símbolo  # sudoeste
+t po:símbolo  # tonelada
+V po:símbolo  # voltio
+W po:símbolo  # vatio
+W\/h po:símbolo  # vatio por hora

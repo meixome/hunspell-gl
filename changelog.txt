@@ -228,6 +228,14 @@ Cambios desde a versión 13.10.1
         • abreviaturas
         • siglas
 
++ usc (novo)
+    • Baseado en publicacións da Universidade de Santiago de Compostela.
+    • O módulo contén os seguintes submódulos baseados en documentos
+      publicados pola universidade que inclúen listas de palabras:
+        • abreviaturas
+        • siglas
+        • símbolos
+
 + uvigo (novo)
     • Baseado en publicacións da Universidade de Vigo.
     • O módulo contén «abreviaturas.dic» e «siglas.dic», baseados no documento

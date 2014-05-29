@@ -68,6 +68,16 @@ udc             Universidade da Coruña
                     • xeral
 
 
+usc             Universidade de Santiago de Compostela
+                http://www.usc.es
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
+
+
 uvigo           Universidade de Vigo
                 Área de Normalización Lingüística
                 http://anl.uvigo.es/
