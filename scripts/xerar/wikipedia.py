@@ -248,6 +248,8 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(GalipediaNamesGenerator())
+
     pattern = u"(Arquitectura relixiosa|Basílicas|Capelas|Catedrais|Colexiatas|Conventos|Ermidas|Igrexas|Mosteiros|Mosteiros e conventos|Pórticos|Santuarios|Templos) "
     generators.append(GalipediaGenerator(
         resource = u"onomástica/arquitectura/relixión.dic",
@@ -673,7 +675,60 @@ def loadGeneratorList():
         ],
     ))
 
-    generators.append(GalipediaNamesGenerator())
+
+    lineExpression = u"^\* *(\'\'\')? *(\[\[)? *([^][|\']+\|)? *(?P<entry>[^][|\']+) *(\]\])? *(\'\'\')? *:"
+
+    generators.append(GalipediaGenerator(
+        resource = u"siglas/campos/alimentación.dic",
+        partOfSpeech = u"sigla",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames = [u"Lista de siglas e acrónimos de alimentación",],),
+                ],
+                pageParser=LineParser(lineExpression),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"siglas/campos/informática.dic",
+        partOfSpeech = u"sigla",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames = [u"Lista de siglas e acrónimos de informática",],),
+                ],
+                pageParser=LineParser(lineExpression),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"siglas/campos/medicina.dic",
+        partOfSpeech = u"sigla",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames = [u"Lista de acrónimos en Medicina",],),
+                ],
+                pageParser=LineParser(lineExpression),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"siglas/xeral.dic",
+        partOfSpeech = u"sigla",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames = [u"Lista de siglas e acrónimos",],),
+                ],
+                pageParser=LineParser(lineExpression),
+            )
+        ],
+    ))
 
 
     # Wikipedia en castelán.

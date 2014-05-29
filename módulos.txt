@@ -232,6 +232,12 @@ wikipedia       Wikipedia
                             • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                                 • españa
                                 • mónaco
+                    • siglas
+                        • campos
+                            • alimentación
+                            • informática
+                            • medicina
+                        • xeral
                     • suxestións. Erros ortográficos e desviacións máis comúns rexistrados na Galipedia (http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións).
                     • xeografía. Xeografía.
                         • accidentes. Accidentes xeográficos.
