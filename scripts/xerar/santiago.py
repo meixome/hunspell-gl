@@ -9,7 +9,7 @@ import generator
 
 
 
-contentCache = ContentCache("udc")
+contentCache = ContentCache("santiago")
 styleGuidePdfUrl = u"http://www.v1deputacionlugo.org/media/documentos/Libro_de_estilo_Concello_Santiago.pdf"
 
 

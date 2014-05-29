@@ -1,188 +1,54 @@
-der.
-D.E.P.
-dXC
-desv.
-determ.
-D.m.
-d\/d
-d\/fra
-d\/v
-D.P.
-div.
-e\/
-e\/c
-e\/p
-Em.ª
-Emcia.
-Revma.
-Emmo.Sr.
-e.f.
-e.g.e.
-e.p.d.
-E.P.D.
-e.p.m.
-E.P.M.
-end.
-E.C.
-E.U.
-espf.
-estac.
-E.M.
-Exc.ª
-Excma.Sra.
-Excmo.Sr.
-f\/
-f.c.
-F.C.
-ff.cc.
-FF.AA.
-f.f.
-furg.
-g.v.
-hol.
-i.e.
-II.
-Ilma.Sra.
-Ilmo.Sr.
-impt.
-k.o.
-K.O.
-r
-r\/d
-L.A.C.
-L.A.Cr.
-LACr
-L.R.X.P.A.C.
-LRXPAC
-Magfa.
-Magfo.
 m\/t
 m\/v
-m.n.
-M.I.Sr.
 mon.
 neol.
-n.p.
-N.ªSª
-N.S.
-N.B.
+N.ª
 m\/ch
 m\/f
 m\/x
-o.cit.
-o.p.
-op.cit.
 O
-OP
-O.M.
-OO.MM.
+OO.
 PP.
 pag.
-p.i.
 páxs.
 ptas.
-p.b.
-P.M.
-P.M.A.
-p.n.
-p.a.
-P.A.
 p\/c
-P.D.
-p.e.
-p.f.
-p.o.
-P.O.
-p.p.
-P.S.
-P.V.P.
-p.qu.
-Q.D.G.
-q.e.g.e.
-q.e.p.d.
-q.s.g.h.
+qu.
 quint.
-R.D.L.
 RDL
-R.D.LEX.
+LEX.
 RDLEX
-R.D.
-RR.DD.
-R.O.
-RR.OO.
+RR.
+DD.
+RR.
+OO.
 Rte.
-R.I.P.
 RIP
 Rev.
 Rda.
-R.M.
-RR.MM.
-R.C.
-s.e.o.o.
-S.S.
+RR.
 Smo.
-S.P.
 sarx.
-S.O.S.
 secret.
 segs.
 s\/d
-s.d.
-s.l.
 s\/n
-s.n.
 Srta.
-S.N.
 sdade.
-S.A.
-sdade.Lda.
-S.L.
-S.M.I.
-S.R.M.
-SS.AA.
-S.E.
-SS.EE.
-S.M.
-SS.MM.
-s.v.
+sdade.
 subst.
 t\/
-T.A.E.
 tlf.
-tte.cor.
-t.m.
 tur.
 v\/
-VV.AA.
 veh.
 vel.
 vend.
-v.g.
-v.gr.
-v.s.
-v.o.
-v.a.
-v.t.
 vix.
 vta.
-V.I.
-V.S.I.
-V.A.R.
-V.B.
-V.S.
-V.A.
-V.E.
-VV.EE.
-V.M.
-VV.MM.
-W.C.
+W.
 xral.
-X.C.
 x\/
-X.P.
-x.p.
-X.T.
-x.dir.
 z.
 11-M
 11-S
@@ -252,14 +118,10 @@ G-8
 G10
 G24
 G30
-G5
-G7
-G8
 GMT
 GOBI
 GPRS
 GTZ
-GZ
 Grapo
 HB
 HIPC
@@ -674,26 +536,37 @@ ax. po:abreviatura          # axudante
 bach. po:abreviatura        # bacharelato
 calef. po:abreviatura       # calefacción
 célt. po:abreviatura        # céltica/o
+der. po:abreviatura         # dereito
+desv. po:abreviatura        # desviación
+div. po:abreviatura         # división
+Em.ª po:abreviatura         # eminencia
+Emcia. po:abreviatura       # eminencia
+estac. po:abreviatura       # estación
+Exc.ª  po:abreviatura       # excelencia
+impt. po:abreviatura        # importe
+Magfa. po:abreviatura       # magnífica
+Magfo. po:abreviatura       # magnífico
+Revma. po:abreviatura       # reverendísima
+Sr. po:abreviatura          # señor
 
 # Siglas e acrónimos.
-A.C. po:abreviatura         # asociación cultural
-AA.RR. po:abreviatura       # altezas reais
-AA.VV. po:sigla             # asociacións veciñais
-C.F. po:sigla               # club de fútbol
+RR. po:sigla [n-grama: AA. RR.]     # altezas reais
+F. po:sigla [n-grama: C. F.]        # club de fútbol
+ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
+FF. po:sigla [n-grama: FF. AA.]     # Forzas Armadas
+K. po:sigla [n-grama: K. O.]
+LRXPAC po:siglas                    # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
 
 # Incertos.
 a\/
-AA.EE.      # asuntos exteriores? artes escénicas? asociacións estudantís?
 ambul.      # ambulancia? ambulatorio?
 apt.        # apartamento? apartado? aparte?
 apto.       # aparato? apartamento?
 A.R.
 A.T.        # antigo testamento?
 aXC         # áreas de xestión clínica? por que vai en minúscula o «a»?
-Bmo.P.
 c\/
 cam.
-C.P.        # centro público? código postal? colexio público?
 cpt.        # capitán?
 cem.        # cemento? cemiterio?
 circul.     # circular? circulatorio? circulación?
@@ -701,13 +574,26 @@ compt.      # competencia? computadores?
 conx.il.
 cte.        # corrente?
 cuadr.      # cuadrante? cuadrícula?
-D.g.
-D.L.        # (parece relacionado con libros, dun xeito similar ao ISBN)
+d\/d
+determ.     # determinar? determinado? determinativo? determinante?
+d\/fra
+d\/v
+dXC         # (terá algo que ver con aXC? será unha forma alternativa de d.C.?)
+e\/
+e\/c
+end.
+e\/p
+espf.
+U. [n-grama: E. U.]
+f\/
 f\/m
+furg.
+hol.
+II.
 m\/c        # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
             # http://www.zara.com/es/es/mujer/camisas-c358004.html ?
             # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
 m\/l
 m\/o
-N.T.        # novo testamento?
 o\/
+r\/d
