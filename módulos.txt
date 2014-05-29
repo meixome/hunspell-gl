@@ -1,3 +1,13 @@
+ceg             Confederación de Empresarios de Galicia
+                http://www.ceg.es
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
+
+
 comunidade      Módulo da comunidade do corrector de galego Hunspell
                 Termos e suxestións engadidos ao corrector sen indicar unha fonte que os apoie.
                 Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.

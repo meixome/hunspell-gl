@@ -1,0 +1,50 @@
+# Relación de símbolos máis frecuentes
+# http://www.normalizacion.ceg.es/attachments/article/71/siglaspdf.pdf
+
+% po:símbolo  # Tanto por cento
+Au po:símbolo  # Ouro
+C po:símbolo  # Coulomb
+cal po:símbolo  # Caloría
+cg po:símbolo  # Centigramo
+cl po:símbolo  # Centilitro
+cm po:símbolo  # Centímetro
+CV po:símbolo  # Cabalo de vapor
+dB po:símbolo  # Decibelio
+dg po:símbolo  # Decigramo
+dl po:símbolo  # Decilitro
+dm po:símbolo  # Decímetro
+FM po:símbolo  # frecuencia modulada
+g po:símbolo  # Gramo
+G po:símbolo  # Xiga
+h po:símbolo  # Hora
+H po:símbolo  # Hotel
+ha po:símbolo  # Hectárea
+Hz po:símbolo  # Hertz
+J po:símbolo  # Joule
+k po:símbolo  # Quilogramo
+kg po:símbolo  # Quilogramo
+km po:símbolo  # Quilómetro
+km\/h po:símbolo  # Quilómetro por hora
+kV po:símbolo  # Quilovoltio
+kW po:símbolo  # Quilovatio
+l po:símbolo  # Litro
+m po:símbolo  # Metro
+M po:símbolo  # Mega
+m\/s po:símbolo  # Metro por segundo
+MB po:símbolo  # Megabyte
+mg po:símbolo  # Miligramo
+MHz po:símbolo  # Megahertz
+min po:símbolo  # Minuto
+ml po:símbolo  # Mililitro
+mm po:símbolo  # Milímetro
+N po:símbolo  # Norte
+Pa po:símbolo  # Pascal
+r\/m po:símbolo  # Revolucións por minuto
+r\/s po:símbolo  # Revolucións por segundo
+s po:símbolo  # Segundo
+S po:símbolo  # Sur
+t po:símbolo  # Tonelada
+U po:símbolo [n-grama: U A]  # Unidade astronómica
+V po:símbolo  # Voltio
+W po:símbolo  # Vatio, watt
+Wh po:símbolo  # Vatio-hora

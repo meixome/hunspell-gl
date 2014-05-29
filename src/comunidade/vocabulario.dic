@@ -1,14 +1,8 @@
-m\/t
-m\/v
-mon.
-neol.
 N.ª
 m\/ch
 m\/f
 m\/x
 O
-OO.
-PP.
 pag.
 páxs.
 ptas.
@@ -21,9 +15,6 @@ RDLEX
 RR.
 DD.
 RR.
-OO.
-Rte.
-RIP
 Rev.
 RR.
 sarx.
@@ -34,13 +25,10 @@ s\/n
 Srta.
 sdade.
 sdade.
-subst.
 t\/
 tlf.
-tur.
 v\/
 veh.
-vel.
 vend.
 vix.
 vta.
@@ -155,7 +143,6 @@ OCTPC
 ODM
 OFO
 OMGI
-ONGD
 ONUSIDA
 OOPS
 OREALC
@@ -224,7 +211,6 @@ UNMISET
 UNMOGIP
 UPN
 USAID
-UVI
 VCR
 VHA
 VIH
@@ -517,7 +503,6 @@ Revma. po:abreviatura       # reverendísima
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
 F. po:sigla [n-grama: C. F.]        # club de fútbol
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
-FF. po:sigla [n-grama: FF. AA.]     # Forzas Armadas
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:siglas                    # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
 
@@ -559,5 +544,7 @@ m\/c        # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros c
             # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
 m\/l
 m\/o
+m\/t
+m\/v
 o\/
 r\/d

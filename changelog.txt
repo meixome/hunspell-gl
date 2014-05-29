@@ -207,6 +207,14 @@ Cambios desde a versión 13.10.1
 • wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
 • wikipedia/gl/suxestións (actualizouse)
 
++ ceg (novo)
+    • Baseado en publicacións da Confederación de Empresarios de Galicia.
+    • O módulo contén os seguintes submódulos baseados en documentos
+      publicados pola universidade que inclúen listas de palabras:
+        • abreviaturas
+        • siglas
+        • símbolos
+
 + microsoft (novo)
     • Baseado da guía de estilo de Microsoft para a localización de software ao
       galego.
