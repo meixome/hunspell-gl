@@ -25,9 +25,7 @@ OO.
 Rte.
 RIP
 Rev.
-Rda.
 RR.
-Smo.
 sarx.
 secret.
 segs.
@@ -511,14 +509,9 @@ der. po:abreviatura         # dereito
 desv. po:abreviatura        # desviación
 div. po:abreviatura         # división
 Em.ª po:abreviatura         # eminencia
-Emcia. po:abreviatura       # eminencia
 estac. po:abreviatura       # estación
-Exc.ª  po:abreviatura       # excelencia
 impt. po:abreviatura        # importe
-Magfa. po:abreviatura       # magnífica
-Magfo. po:abreviatura       # magnífico
 Revma. po:abreviatura       # reverendísima
-Sr. po:abreviatura          # señor
 
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais

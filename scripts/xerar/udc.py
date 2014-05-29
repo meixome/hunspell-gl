@@ -11,7 +11,8 @@ import generator
 
 contentCache = ContentCache("udc")
 abbreviationsPdfUrl = u"http://download.microsoft.com/download/A/0/B/A0B1A66A-5EBF-4CF3-9453-4B13BB027F1F/Phd_thesis_DB_v21.pdf"
-languageUsageCriteriaPdfUrl = u"http://www.udc.es/snl/documentospdf/Libro_Criterios_lingua.pdf"
+languageUsageCriteria2012PdfUrl = u"http://www.udc.es/snl/documentospdf/Libro_Criterios_lingua.pdf"
+languageUsageCriteria2007PdfUrl = u"http://www.concellodezas.org/linguazas/documentos/criterios_uso_lingua.pdf"
 
 
 class AbbreviationsGenerator(generator.Generator):
@@ -74,7 +75,7 @@ class AdministrativeAbbreviationsGenerator(generator.Generator):
 
     def generateFileContent(self):
 
-        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteriaPdfUrl)
+        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteria2012PdfUrl)
         pdfParser = PdfParser(filePath)
 
         entries = {}
@@ -121,7 +122,76 @@ class AdministrativeAbbreviationsGenerator(generator.Generator):
                 comment = None
 
         dictionary  = u"# Relación de abreviaturas máis frecuentes na linguaxe administrativa\n"
-        dictionary += u"# {}\n".format(languageUsageCriteriaPdfUrl)
+        dictionary += u"# {}\n".format(languageUsageCriteria2012PdfUrl)
+        dictionary += u"\n"
+        for entry in formatEntriesAndCommentsForDictionary(entries, u"abreviatura"):
+            dictionary += entry
+        return dictionary
+
+
+class TitleAbbreviationsGenerator(generator.Generator):
+
+    def __init__(self):
+        self.resource = u"udc/abreviaturas/tratamento.dic"
+
+
+    def generateFileContent(self):
+
+        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteria2007PdfUrl)
+        pdfParser = PdfParser(filePath)
+
+        entries = {}
+        parsingStage = 0
+        comment = None
+        entry = None
+        twoLines = 0
+
+        for line in pdfParser.lines():
+
+            line = line.strip()
+            if not line:
+                continue
+
+            if parsingStage == 0:
+                if line == u"ABREVIATURAS DE TRATAMENTO":
+                    parsingStage += 1
+                continue
+
+            elif parsingStage == 1:
+                if line == u"CRITERIOS PARA O USO DA LINGUA":
+                    break
+
+            if line.isdigit():
+                continue
+
+            if twoLines != 0:
+                if twoLines == 1:
+                    entry = line
+                    twoLines += 1
+                    continue
+                elif twoLines == 2:
+                    comment = comment[:-1] + line
+                    twoLines += 1
+                    continue
+                elif twoLines == 3:
+                    entry += u" " + line
+                    twoLines = 0
+
+            if not comment:
+                comment = line
+                if comment.endswith(u"-"):
+                    twoLines = 1
+                continue
+            else:
+                if not entry:
+                    entry = line
+                entries[entry] = comment
+                comment = None
+                entry = None
+
+
+        dictionary  = u"# Relación de abreviaturas de tratamento\n"
+        dictionary += u"# {}\n".format(languageUsageCriteria2007PdfUrl)
         dictionary += u"\n"
         for entry in formatEntriesAndCommentsForDictionary(entries, u"abreviatura"):
             dictionary += entry
@@ -136,7 +206,7 @@ class AcronymsGenerator(generator.Generator):
 
     def generateFileContent(self):
 
-        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteriaPdfUrl)
+        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteria2012PdfUrl)
         pdfParser = PdfParser(filePath)
 
         entries = {}
@@ -175,7 +245,7 @@ class AcronymsGenerator(generator.Generator):
                 entry = None
 
         dictionary  = u"# Relación de siglas e acrónimos máis frecuentes\n"
-        dictionary += u"# {}\n".format(languageUsageCriteriaPdfUrl)
+        dictionary += u"# {}\n".format(languageUsageCriteria2012PdfUrl)
         dictionary += u"\n"
         for entry in formatEntriesAndCommentsForDictionary(entries, u"sigla"):
             dictionary += entry
@@ -190,7 +260,7 @@ class UdcAcronymsGenerator(generator.Generator):
 
     def generateFileContent(self):
 
-        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteriaPdfUrl)
+        filePath = contentCache.downloadFileIfNeededAndGetLocalPath(languageUsageCriteria2012PdfUrl)
         pdfParser = PdfParser(filePath)
 
         entries = {}
@@ -229,7 +299,7 @@ class UdcAcronymsGenerator(generator.Generator):
                 entry = None
 
         dictionary  = u"# Relación de siglas e acrónimos máis frecuentes na UDC\n"
-        dictionary += u"# {}\n".format(languageUsageCriteriaPdfUrl)
+        dictionary += u"# {}\n".format(languageUsageCriteria2012PdfUrl)
         dictionary += u"\n"
         for entry in formatEntriesAndCommentsForDictionary(entries, u"sigla"):
             dictionary += entry
@@ -241,5 +311,6 @@ def loadGeneratorList():
     generators.append(AcronymsGenerator())
     generators.append(AbbreviationsGenerator())
     generators.append(AdministrativeAbbreviationsGenerator())
+    generators.append(TitleAbbreviationsGenerator())
     generators.append(UdcAcronymsGenerator())
     return generators
