@@ -3,7 +3,6 @@ Srta.
 sdade.
 sdade.
 tlf.
-v\/
 veh.
 vend.
 vix.
@@ -98,7 +97,6 @@ INRA
 INTI
 ISRP
 ITC
-Iberia
 K2
 KGB
 LAB
@@ -157,7 +155,6 @@ SAS
 SEACEX
 SIOPE
 SRO
-Soweto
 TBE
 TBI
 TDT
@@ -330,12 +327,10 @@ Galipedia po:nome propio
 hunspell po:nome propio
 Hunspell po:nome propio
 Office po:nome propio
-Python po:nome propio
 Vichona po:nome propio
 VOLG po:nome propio
 volga po:nome propio
 VOLGa po:nome propio
-Word po:nome propio
 
 # Nomes de teclas.
 Ctrl po:tecla
@@ -352,7 +347,6 @@ Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 # Topónimos.
 Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
 Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
-Galiana po:topónimo         # https://en.wikipedia.org/wiki/Guliana,_Gujrat
 Goyang po:topónimo          # https://en.wikipedia.org/wiki/Goyang
 Guarico po:topónimo         # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Venezuela
 Gunungkidoli po:topónimo    # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
@@ -366,7 +360,6 @@ Kebunamen po:topónimo       # http://www.libertaddigital.com/sociedad/al-menos-
 Kinabalu po:topónimo        # https://en.wikipedia.org/wiki/Mount_Kinabalu
 Kings po:topónimo           # https://en.wikipedia.org/wiki/Kings_County,_California
 Ladinia po:topónimo         # https://en.wikipedia.org/wiki/Ladinia
-Lai po:topónimo             # https://en.wikipedia.org/wiki/La%C3%AF
 Langosteira po:topónimo     # https://gl.wikipedia.org/wiki/Punta_Langosteira
 Languedoc po:topónimo       # https://gl.wikipedia.org/wiki/Languedoc
 Latinoamérica po:topónimo   # https://gl.wikipedia.org/wiki/Am%C3%A9rica_Latina
@@ -374,7 +367,6 @@ Leverkusen po:topónimo      # https://en.wikipedia.org/wiki/Leverkusen
 Llosas po:topónimo          # https://en.wikipedia.org/wiki/Les_Llosses
 Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
 Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
-Mans po:topónimo            # https://en.wikipedia.org/wiki/Le_Mans
 Maspalomas po:topónimo      # https://en.wikipedia.org/wiki/Maspalomas
 Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
 Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
@@ -400,11 +392,9 @@ Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
 Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
 Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
 Perelló po:topónimo         # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Tarragona
-Ponce po:topónimo           # https://gl.wikipedia.org/wiki/Plena_%28x%C3%A9nero_musical%29
 Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
 Praceres po:topónimo        # https://gl.wikipedia.org/wiki/Louriz%C3%A1n,_Pontevedra
 Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
-Preston po:topónimo         # https://en.wikipedia.org/wiki/Preston#Places
 Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
 Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
 Riveside po:topónimo        # https://en.wikipedia.org/wiki/Riverside,_Illinois
@@ -421,7 +411,6 @@ Swansea po:topónimo         # https://gl.wikipedia.org/wiki/Gales
 Tangerang po:topónimo       # https://gl.wikipedia.org/wiki/Iabotabek
 Tapacari po:topónimo        # https://gl.wikipedia.org/wiki/Departamento_de_Cochabamba
 Tasikmalaya po:topónimo     # https://en.wikipedia.org/wiki/Tasikmalaya
-Thane po:topónimo           # https://en.wikipedia.org/wiki/Thane
 Tlalnepantla po:topónimo    # https://en.wikipedia.org/wiki/Tlalnepantla_de_Baz
 Tolima po:topónimo          # https://gl.wikipedia.org/wiki/Departamentos_de_Colombia
 Tondela po:topónimo         # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Tondela
@@ -442,7 +431,6 @@ Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
 # Antropónimos.
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
 Anxelica po:antropónimo     # http://archive.today/kSoG
-Anxelina po:antropónimo     # https://twitter.com/angelibochis
 Eurídice po:antropónimo     # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
 Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
 Exiquia po:antropónimo      # http://www.noome.net/nombre-exiquia-en-espana
@@ -482,7 +470,6 @@ segs. po:abreviatura        # segundos
 
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
-F. po:sigla [n-grama: C. F.]        # club de fútbol
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
@@ -508,15 +495,12 @@ d\/d
 DD.
 determ.     # determinar? determinado? determinativo? determinante?
 d\/fra
-d\/v
 dXC         # (terá algo que ver con aXC? será unha forma alternativa de d.C.?)
-e\/
 e\/c
 end.
 e\/p
 espf.
 U. [n-grama: E. U.]
-f\/
 f\/m
 furg.
 hol.
@@ -529,10 +513,7 @@ m\/ch
 m\/f
 m\/l
 m\/o
-m\/t
-m\/v
 m\/x
-o\/
 p\/c
 qu.
 quint.

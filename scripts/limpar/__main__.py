@@ -17,13 +17,23 @@ def getModulesSourcePath():
 
 modulesPath = getModulesSourcePath()
 fileToClean = sys.argv[1]
-inputFiles = sys.argv[2:]
+inputFilesOrFolders = sys.argv[2:]
 
 entries = set()
-for inputFile in inputFiles:
-    with codecs.open(inputFile, "r", "utf-8") as fileObject:
-        for line in fileObject.readlines():
-            entries.add(line.split(u" ")[0])
+for inputFileOrFolder in inputFilesOrFolders:
+    if os.path.isfile(inputFileOrFolder):
+        with codecs.open(inputFile, "r", "utf-8") as fileObject:
+            for line in fileObject.readlines():
+                entries.add(line.split(u" ")[0])
+    else:
+        for parentFolderPath, folderNames, fileNames in os.walk(inputFileOrFolder.decode("utf-8")):
+            for fileName in fileNames:
+                if fileName.endswith(u".dic"):
+                    filePath = os.path.join(parentFolderPath, fileName)
+                    if filePath != fileToClean:
+                        with codecs.open(filePath, "r", "utf-8") as fileObject:
+                            for line in fileObject.readlines():
+                                entries.add(line.split(u" ")[0])
 
 
 newContent = u""
