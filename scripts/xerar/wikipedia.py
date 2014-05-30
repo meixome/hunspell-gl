@@ -3,7 +3,7 @@
 from mediawiki import MediaWikiGenerator  # Dictionary generators.
 from mediawiki import EntryGenerator  # Entry generators.
 from mediawiki import PageLoader, CategoryBrowser  # Page generators.
-from mediawiki import TitleParser, FirstSentenceParser, LineParser  # Page parsers.
+from mediawiki import TitleParser, FirstSentenceParser, LineParser, TableParser  # Page parsers.
 from mediawiki import EntryParser  # Page parsers.
 
 
@@ -332,6 +332,33 @@ def loadGeneratorList():
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/política/partidos/españa.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Partidos políticos de España"],
+                        validCategoryPattern = u"^(Partidos )",
+                        invalidCategoryPattern = u"^()",
+                        invalidPagePattern = u"^(Lista|Partidos) ",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            ),
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Listas de política"],
+                        validPagePattern = u"^Partidos inscritos",
+                    ),
+                ],
+                pageParser=TableParser(cellNumbers=[0, 1], skipRows=[0,]),
             )
         ],
     ))

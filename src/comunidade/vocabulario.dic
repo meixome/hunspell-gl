@@ -1,4 +1,3 @@
-ACDI
 ADENDA
 ADESLAS
 AMGI
@@ -61,7 +60,6 @@ GOBI
 GTZ
 HIPC
 IBEX
-ICV
 IDH
 IDRC
 Ifema
@@ -73,10 +71,8 @@ INAD
 INCODER
 INCORA
 INCRA
-INDA
 INEFAN
 INRA
-INTI
 ISRP
 ITC
 K2
@@ -349,7 +345,6 @@ Leverkusen po:topónimo      # https://en.wikipedia.org/wiki/Leverkusen
 Llosas po:topónimo          # https://en.wikipedia.org/wiki/Les_Llosses
 Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
 Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
-Maspalomas po:topónimo      # https://en.wikipedia.org/wiki/Maspalomas
 Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
 Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
 Maón po:topónimo            # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
@@ -373,9 +368,7 @@ Pasadama po:topónimo        # https://gl.wikipedia.org/wiki/Montes_de_Galicia
 Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
 Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
 Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
-Perelló po:topónimo         # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Tarragona
 Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
-Praceres po:topónimo        # https://gl.wikipedia.org/wiki/Louriz%C3%A1n,_Pontevedra
 Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
 Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
 Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
@@ -467,8 +460,6 @@ a\/
 ambul.      # ambulancia? ambulatorio?
 apt.        # apartamento? apartado? aparte?
 apto.       # aparato? apartamento?
-A.R.
-A.T.        # antigo testamento?
 aXC         # áreas de xestión clínica? por que vai en minúscula o «a»?
 cam.
 cpt.        # capitán?

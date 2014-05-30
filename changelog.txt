@@ -266,6 +266,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/gl/onomástica/arte
 + wikipedia/gl/onomástica/astronomía
 + wikipedia/gl/onomástica/historia
++ wikipedia/gl/onomástica/política
 + wikipedia/gl/onomástica/toponimia/accidentes/baías
 + wikipedia/gl/onomástica/toponimia/accidentes/desertos
 + wikipedia/gl/onomástica/toponimia/accidentes/mares

@@ -250,7 +250,7 @@ class CategoryBrowser(PageGenerator):
 
     def __init__(self, site=None,
                  categoryNames=[], ignoreCategoryNames=[], categoryOfCategoriesNames=[],
-                 invalidPagePattern=None, validCategoryPattern=None, invalidCategoryPattern=None):
+                 validPagePattern=None, invalidPagePattern=None, validCategoryPattern=None, invalidCategoryPattern=None):
 
         # Site.
         self.site = site
@@ -261,6 +261,7 @@ class CategoryBrowser(PageGenerator):
         self.categoryOfCategoriesNames = categoryOfCategoriesNames
 
         # Patterns.
+        self.validPagePattern = parsePattern(validPagePattern)
         self.invalidPagePattern = parsePattern(invalidPagePattern)
         self.validCategoryPattern = parsePattern(validCategoryPattern)
         self.invalidCategoryPattern = parsePattern(invalidCategoryPattern)
@@ -279,9 +280,11 @@ class CategoryBrowser(PageGenerator):
 
 
     def pageIsValid(self, page):
-        if self.pageTitleMatchesPattern(page, self.invalidPagePattern):
-            return False
         if page.title(withNamespace=False) in self.pagesNamesToIgnore:
+            return False
+        if self.validPagePattern is not None:
+            return self.validPagePattern.match(page.title(withNamespace=False))
+        if self.pageTitleMatchesPattern(page, self.invalidPagePattern):
             return False
         return True
 
@@ -829,9 +832,10 @@ tablePattern = re.compile(u"(?s)\{\|.*?\|\}")
 
 class TableParser(PageContentParser):
 
-    def __init__(self, cellNumbers):
+    def __init__(self, cellNumbers, skipRows=[]):
         super(TableParser, self).__init__()
         self.cellNumbers = cellNumbers
+        self.skipRows = skipRows
 
 
     def iterTables(self, content):
@@ -842,7 +846,14 @@ class TableParser(PageContentParser):
     def iterRows(self, table):
         tableWithoutTags = "\n".join(table.split("\n")[1:-1])
         for row in tableWithoutTags.split("|-"):
-            yield row
+            if u"|" in row: # Senón pode tratarse dun separador ao comezo da táboa.
+                yield row
+
+
+    def parseCell(self, cell):
+        if u" |" in cell:
+            return "|".join(cell.split(u"|")[1:])
+        return cell
 
 
     def iterCells(self, row):
@@ -850,17 +861,23 @@ class TableParser(PageContentParser):
             if cell.startswith("|"): # Skip headers that start with “!”.
                 cell = cell[1:]
                 if cell:
-                    yield cell
+                    if u"||" in cell:
+                        for subcell in cell.split(u"||"):
+                            yield self.parseCell(subcell)
+                    yield self.parseCell(cell)
 
 
     def parsePageContent(self, page, content, source):
         for table in self.iterTables(content):
+            rowNumber = 0
             for row in self.iterRows(table):
-                cellNumber = 0
-                for cell in self.iterCells(row):
-                    if cellNumber in self.cellNumbers:
-                        yield cell
-                    cellNumber += 1
+                if rowNumber not in self.skipRows:
+                    cellNumber = 0
+                    for cell in self.iterCells(row):
+                        if cellNumber in self.cellNumbers:
+                            yield cell
+                        cellNumber += 1
+                rowNumber += 1
 
 
 
@@ -967,6 +984,7 @@ class EntryParser(object):
                  commaFilter=True,
                  commaSplitter=False,
                  hyphenFilter=True,
+                 linkFilter=True,
                  noRtlFilter=True,
                  quoteFilter=True,
                  semicolonSplitter=False,
@@ -976,6 +994,7 @@ class EntryParser(object):
         self.commaFilter = commaFilter
         self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
+        self.linkFilter = linkFilter
         self.noRtlFilter = noRtlFilter
         self.quoteFilter = quoteFilter
         self.semicolonSplitter = semicolonSplitter
@@ -1013,6 +1032,8 @@ class EntryParser(object):
                 entry = entry.split(",")[0]
             if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(" - ")[0]
+            if self.linkFilter and u"[[" in entry:
+                entry = entry.replace(u"[[", "").replace(u"]]", "") # Non está preparado para texto nas ligazóns de momento.
             if self.quoteFilter and "\"" in entry:
                 entry = entry.replace("\"", "")
             if self.unescapeHtml and "&" in entry:
