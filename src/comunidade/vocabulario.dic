@@ -1,19 +1,3 @@
-s\/d
-Srta.
-sdade.
-sdade.
-tlf.
-veh.
-vend.
-vix.
-vta.
-W.
-xral.
-z.
-11-M
-11-S
-11M
-11S
 23F
 ACDI
 ADENDA
@@ -50,7 +34,6 @@ CTPD
 DAtk
 DDT
 ECHO
-EEUU
 EFTA
 ELA
 EMBO
@@ -466,7 +449,12 @@ páxs. po:abreviatura        # páxinas
 ptas. po:abreviatura        # pesetas
 Revma. po:abreviatura       # reverendísima
 sarx. po:abreviatura        # sarxento
+sdade. po:abreviatura       # sociedade
 segs. po:abreviatura        # segundos
+Srta. po:abreviatura        # señorita
+tlf. po:abreviatura         # teléfono
+veh. po:abreviatura         # vehículo
+xral. po:abreviatura        # xeneral
 
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
@@ -520,4 +508,10 @@ quint.
 r\/d
 RDLEX
 RR.
+s\/d
 secret.
+vend.
+vix.
+vta.
+W.
+z.

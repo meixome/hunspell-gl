@@ -302,8 +302,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/historia/atentados.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Atentados terroristas"],
+                        validCategoryPattern = u"^Atentados",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/historia/civilizacións.dic",
-        partOfSpeech = u"nome propio",
+        partOfSpeech = u"nome",
         entryGenerators=[
             EntryGenerator(
                 pageGenerators = [
