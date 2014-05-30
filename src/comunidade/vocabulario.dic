@@ -1,31 +1,7 @@
-N.ª
-m\/ch
-m\/f
-m\/x
-O
-pag.
-páxs.
-ptas.
-p\/c
-qu.
-quint.
-RDL
-LEX.
-RDLEX
-RR.
-DD.
-RR.
-Rev.
-RR.
-sarx.
-secret.
-segs.
 s\/d
-s\/n
 Srta.
 sdade.
 sdade.
-t\/
 tlf.
 v\/
 veh.
@@ -34,7 +10,6 @@ vix.
 vta.
 W.
 xral.
-x\/
 z.
 11-M
 11-S
@@ -497,14 +472,21 @@ div. po:abreviatura         # división
 Em.ª po:abreviatura         # eminencia
 estac. po:abreviatura       # estación
 impt. po:abreviatura        # importe
+N.ª po:abreviatura          # nosa
+pag. po:abreviatura         # pagamento
+páxs. po:abreviatura        # páxinas
+ptas. po:abreviatura        # pesetas
 Revma. po:abreviatura       # reverendísima
+sarx. po:abreviatura        # sarxento
+segs. po:abreviatura        # segundos
 
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
 F. po:sigla [n-grama: C. F.]        # club de fútbol
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
 K. po:sigla [n-grama: K. O.]
-LRXPAC po:siglas                    # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
+LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
+RDL po:sigla                        # Rede de Dinamización Lingüística
 
 # Incertos.
 a\/
@@ -514,7 +496,6 @@ apto.       # aparato? apartamento?
 A.R.
 A.T.        # antigo testamento?
 aXC         # áreas de xestión clínica? por que vai en minúscula o «a»?
-c\/
 cam.
 cpt.        # capitán?
 cem.        # cemento? cemiterio?
@@ -524,6 +505,7 @@ conx.il.
 cte.        # corrente?
 cuadr.      # cuadrante? cuadrícula?
 d\/d
+DD.
 determ.     # determinar? determinado? determinativo? determinante?
 d\/fra
 d\/v
@@ -539,12 +521,22 @@ f\/m
 furg.
 hol.
 II.
+LEX.
 m\/c        # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
             # http://www.zara.com/es/es/mujer/camisas-c358004.html ?
             # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
+m\/ch
+m\/f
 m\/l
 m\/o
 m\/t
 m\/v
+m\/x
 o\/
+p\/c
+qu.
+quint.
 r\/d
+RDLEX
+RR.
+secret.
