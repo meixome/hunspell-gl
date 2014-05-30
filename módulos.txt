@@ -131,6 +131,7 @@ wikipedia       Wikipedia
                     • empresas
                         • seguros
                 • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
+                    • bioquímica
                     • onomástica. Nomes propios.
                         • antroponimia. Nomes de persoas.
                             • países

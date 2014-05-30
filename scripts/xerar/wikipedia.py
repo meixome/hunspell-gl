@@ -98,7 +98,7 @@ class GalipediaLocalidadesGenerator(GalipediaGenerator):
             categoryNames=parsedCategoryNames,
             invalidPagePattern = u"(?i)^(Wikipedia:|{pattern}[a-z])".format(pattern=pattern),
             validCategoryPattern = u"(?i)^(Antig[ao]s )?(Cidades|Comunas|Concellos|Municipios|Parroquias|Vilas) ",
-            invalidCategoryPattern = u"(?i){pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
+            invalidCategoryAsPagePattern = u"(?i){pattern}[a-z]|.+sen imaxes$".format(pattern=pattern),
         )
 
         entryParser = EntryParser()
@@ -132,7 +132,7 @@ class GalipediaRexionsGenerator(GalipediaGenerator):
             categoryNames=parsedCategoryNames,
             invalidPagePattern = u"^((Batalla|Lista|{}) |Comunidade autónoma)".format(categoryPattern),
             validCategoryPattern = u"^({}) ".format(categoryPattern),
-            invalidCategoryPattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
+            invalidCategoryAsPagePattern = u"^(Capitais|Categorías|Deporte|Gobernos|Nados|Parlamentos|Personalidades|Políticas|Presidentes) ",
         )
 
         super(GalipediaRexionsGenerator, self).__init__(
@@ -188,6 +188,22 @@ def loadGeneratorList():
     # Galipedia
 
     generators.append(GalipediaGenerator(
+        resource = u"bioquímica.dic",
+        partOfSpeech = u"substantivo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Coencimas",],
+                        invalidCategoryPattern = u"^Personalidades",
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/antroponimia/países/costa-rica.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
@@ -221,7 +237,7 @@ def loadGeneratorList():
                         ],
                         invalidPagePattern = u"^(Dinastía|Lista d|Xeración)",
                         validCategoryPattern = u"^(Dinastía|Escritores|Poetas|Tradutores|Reis|Xeración)",
-                        invalidCategoryPattern = u"^(Lista d)",
+                        invalidCategoryAsPagePattern = u"^(Lista d)",
                     ),
                 ],
                 pageParser = FirstSentenceParser(),
@@ -261,7 +277,7 @@ def loadGeneratorList():
                         categoryNames = [u"Arquitectura relixiosa por países"],
                         invalidPagePattern = u"^({pattern}|Galería de imaxes)".format(pattern=pattern),
                         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
-                        invalidCategoryPattern = u"^(Imaxes) ",
+                        invalidCategoryAsPagePattern = u"^(Imaxes) ",
                     ),
                 ],
             )
@@ -277,7 +293,7 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Escultura relixiosa de Galicia"],
                         validCategoryPattern = u"^(Baldaquinos d|Cruceiros d)",
-                        invalidCategoryPattern = u"^Imaxes d",
+                        invalidCategoryAsPagePattern = u"^Imaxes d",
                     ),
                 ],
             )
@@ -294,7 +310,7 @@ def loadGeneratorList():
                         categoryNames = [u"Planetas"],
                         invalidPagePattern = u"^(Lista d|Planeta anano$|Planeta($| ))",
                         validCategoryPattern = u"^(Candidatos a planeta|Planetas |Plutoides$)",
-                        invalidCategoryPattern = u"^Sistemas planetarios$",
+                        invalidCategoryAsPagePattern = u"^Sistemas planetarios$",
                     ),
                 ],
             )
@@ -311,7 +327,7 @@ def loadGeneratorList():
                         categoryNames = [u"Bancos e caixas de aforro"],
                         invalidPagePattern = u"^(Banca ética|Banco malo|Caixa de aforros|Caixeiro automático)$",
                         validCategoryPattern = u"^(Bancos|Caixas)",
-                        invalidCategoryPattern = u"^(Personalidades)",
+                        invalidCategoryAsPagePattern = u"^(Personalidades)",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -328,7 +344,7 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Acontecementos históricos"],
                         validCategoryPattern = u"^(Atentados|Golpes de estado)",
-                        invalidCategoryPattern = u"^(Catástrofes|Conflitos|Declaracións de independencia|Guerras|Revolucións)", # Ignorados, polos menos de momento.
+                        invalidCategoryAsPagePattern = u"^(Catástrofes|Conflitos|Declaracións de independencia|Guerras|Revolucións)", # Ignorados, polos menos de momento.
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -346,7 +362,7 @@ def loadGeneratorList():
                         categoryNames = [u"Civilizacións"],
                         invalidPagePattern = u"^((Lista|Pobos) |(Civilización|Cultura dos Campos de Urnas|Sala do hidromel)$)",
                         validCategoryPattern = u"^(Pobos|Reinos) ",
-                        invalidCategoryPattern = u"^(Arquitectura|Xeografía) ",
+                        invalidCategoryAsPagePattern = u"^(Arquitectura|Xeografía) ",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -381,7 +397,7 @@ def loadGeneratorList():
                         categoryNames = [u"Organizacións internacionais"],
                         invalidPagePattern = u"^Organización Internacional$",
                         validCategoryPattern = u"^Organizacións",
-                        invalidCategoryPattern = u"^Personalidades",
+                        invalidCategoryAsPagePattern = u"^Personalidades",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -398,7 +414,7 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Partidos políticos de España"],
                         validCategoryPattern = u"^(Partidos )",
-                        invalidCategoryPattern = u"^()",
+                        invalidCategoryAsPagePattern = u"^()",
                         invalidPagePattern = u"^(Lista|Partidos) ",
                     ),
                 ],
@@ -477,7 +493,7 @@ def loadGeneratorList():
                             u"Illas dos Grandes Lagos"
                         ],
                         invalidPagePattern = u"^((Batalla|Lista) |Illa deserta|Illote Motu|Illas de Galicia)",
-                        invalidCategoryPattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas da Bretaña|Illas de Alasca|Illas de Asia|Illas de Cataluña|Illas de Galicia|Illas de Escocia|Illas de Marrocos|Illas deshabitadas|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas ficticias|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
+                        invalidCategoryAsPagePattern = u"^(Arquipélagos|Illas|Illas da baía d.*|Illas da Bretaña|Illas de Alasca|Illas de Asia|Illas de Cataluña|Illas de Galicia|Illas de Escocia|Illas de Marrocos|Illas deshabitadas|Illas do arquipélago d.*|Illas do Xapón|Illas dos Grandes Lagos|Illas e arquipélagos .*|Illas ficticias|Illas galegas|Illas por mar|Illas por países|Illas por continente)$",
                         categoryOfCategoriesNames = [u"Illas e arquipélagos por localización‎", u"Illas por continente", u"Illas por mar", u"Illas por países"],
                     ),
                 ],
@@ -496,7 +512,7 @@ def loadGeneratorList():
                         categoryNames = [u"Mares e océanos"],
                         invalidPagePattern = u"^(Instituto|(Mar|Océano mundial|Zona económica exclusiva)$)",
                         validCategoryPattern = u"^(Mares|Océanos)",
-                        invalidCategoryPattern = u"^(Cidades|Estreitos) ",
+                        invalidCategoryAsPagePattern = u"^(Cidades|Estreitos) ",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -546,7 +562,7 @@ def loadGeneratorList():
                         categoryNames = [u"Praias"],
                         invalidPagePattern = u"^({pattern}|Bandeira Azul$|Galería de imaxes|Praia$|Praia nudista$)".format(pattern=pattern),
                         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
-                        invalidCategoryPattern = u"^(Imaxes) ",
+                        invalidCategoryAsPagePattern = u"^(Imaxes) ",
                     ),
                 ],
             )
@@ -572,7 +588,7 @@ def loadGeneratorList():
                         categoryNames = [u"Rexións de Europa"],
                         invalidPagePattern = u"^({pattern}|Galería de imaxes)".format(pattern=pattern),
                         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
-                        invalidCategoryPattern = u"^(Imaxes) ",
+                        invalidCategoryAsPagePattern = u"^(Imaxes) ",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -590,7 +606,7 @@ def loadGeneratorList():
                     CategoryBrowser(
                         invalidPagePattern = u"^({pattern}|(Galería de imaxes|Hidrografía|Lista) |(Caneiro \(muíño\)|Pasadoiro|Pontella \(pasaxe\))$)".format(pattern=pattern),
                         validCategoryPattern = u"^{pattern}".format(pattern=pattern),
-                        invalidCategoryPattern = u"^({pattern}|Imaxes)".format(pattern=pattern),
+                        invalidCategoryAsPagePattern = u"^({pattern}|Imaxes)".format(pattern=pattern),
                         categoryOfCategoriesNames = [u"Ríos"],
                     ),
                 ],
@@ -705,7 +721,7 @@ def loadGeneratorList():
                         ],
                         invalidPagePattern = u"^(Concellos |Galería d|Historia d|Lista d|Principais cidades )",
                         validCategoryPattern = u"^(Estados desaparecidos d|Imperios|Países d)",
-                        invalidCategoryPattern = u"^(Capitais d|Emperadores$)",
+                        invalidCategoryAsPagePattern = u"^(Capitais d|Emperadores$)",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -856,7 +872,7 @@ def loadGeneratorList():
                     CategoryBrowser(
                         categoryNames = [u"Nombres por género"],
                         validCategoryPattern = u"^Nombres ",
-                        invalidCategoryPattern = u"^Puranas$",
+                        invalidCategoryAsPagePattern = u"^Puranas$",
                     ),
                 ],
             )
@@ -1049,7 +1065,7 @@ def loadGeneratorList():
                         categoryNames = [u"Atores do Brasil",],
                         invalidPagePattern = u"^(Anexo:|Vedete$)",
                         validCategoryPattern = u"^(Atores|Estrelas|Vedetes)",
-                        invalidCategoryPattern = u"^(!|Imagens)",
+                        invalidCategoryAsPagePattern = u"^(!|Imagens)",
                     ),
                 ],
             )

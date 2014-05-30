@@ -250,7 +250,9 @@ class CategoryBrowser(PageGenerator):
 
     def __init__(self, site=None,
                  categoryNames=[], ignoreCategoryNames=[], categoryOfCategoriesNames=[],
-                 validPagePattern=None, invalidPagePattern=None, validCategoryPattern=None, invalidCategoryPattern=None):
+                 validPagePattern=None, invalidPagePattern=None,
+                 validCategoryPattern=None, invalidCategoryPattern=None,
+                 invalidCategoryAsPagePattern=None):
 
         # Site.
         self.site = site
@@ -265,6 +267,7 @@ class CategoryBrowser(PageGenerator):
         self.invalidPagePattern = parsePattern(invalidPagePattern)
         self.validCategoryPattern = parsePattern(validCategoryPattern)
         self.invalidCategoryPattern = parsePattern(invalidCategoryPattern)
+        self.invalidCategoryAsPagePattern = parsePattern(invalidCategoryAsPagePattern)
 
         # Internal.
         self.visitedCategoryNames = set()
@@ -290,11 +293,15 @@ class CategoryBrowser(PageGenerator):
 
 
     def canLoadPagesFromCategory(self, category):
-        return self.pageTitleMatchesPattern(category, self.validCategoryPattern)
+        if self.validCategoryPattern is not None:
+            return self.validCategoryPattern.match(category.title(withNamespace=False))
+        if self.pageTitleMatchesPattern(category, self.invalidCategoryPattern):
+            return False
+        return True
 
 
     def canTreatCategoryAsPage(self, category):
-        return not self.pageTitleMatchesPattern(category, self.invalidCategoryPattern)
+        return not self.pageTitleMatchesPattern(category, self.invalidCategoryAsPagePattern)
 
 
     def loadPagesFromCategory(self, category, reporter):
@@ -988,6 +995,8 @@ class EntryParser(object):
                  noRtlFilter=True,
                  quoteFilter=True,
                  semicolonSplitter=False,
+                 subscriptFilter=True,
+                 superscriptFilter=True,
                  unescapeHtml=True,):
         self.doubleApostropheFilter = doubleApostropheFilter
         self.basqueFilter = basqueFilter
@@ -998,6 +1007,8 @@ class EntryParser(object):
         self.noRtlFilter = noRtlFilter
         self.quoteFilter = quoteFilter
         self.semicolonSplitter = semicolonSplitter
+        self.subscriptFilter = subscriptFilter
+        self.superscriptFilter = superscriptFilter
         self.unescapeHtml = unescapeHtml
 
         if self.unescapeHtml:
@@ -1029,17 +1040,23 @@ class EntryParser(object):
                 continue
 
             # Modifiers.
-            if self.doubleApostropheFilter and "''" in entry:
-                entry = entry.replace("''", "")
-            if self.commaFilter and "," in entry: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
-                entry = entry.split(",")[0]
-            if self.hyphenFilter and " - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
-                entry = entry.split(" - ")[0]
+            if self.doubleApostropheFilter and u"''" in entry:
+                entry = entry.replace(u"''", u"")
+            if self.commaFilter and u"," in entry: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
+                entry = entry.split(u",")[0]
+            if self.hyphenFilter and u" - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
+                entry = entry.split(u" - ")[0]
             if self.linkFilter and u"[[" in entry:
-                entry = entry.replace(u"[[", "").replace(u"]]", "") # Non está preparado para texto nas ligazóns de momento.
-            if self.quoteFilter and "\"" in entry:
-                entry = entry.replace("\"", "")
-            if self.unescapeHtml and "&" in entry:
+                entry = entry.replace(u"[[", u"").replace(u"]]", u"") # Non está preparado para texto nas ligazóns de momento.
+            if self.quoteFilter and u"\"" in entry:
+                entry = entry.replace(u"\"", u"")
+            if self.subscriptFilter and u"<sub>" in entry:
+                entry = entry.replace(u"<sub>2</sub>", u"₂") # Engádanse novos valores a medida que sexan necesarios.
+            if self.superscriptFilter and u"<sup>" in entry:
+                entry = entry.replace(u"<sup>+</sup>", u"⁺") # Engádanse novos valores a medida que sexan necesarios.
+            if self.quoteFilter and u"\"" in entry:
+                entry = entry.replace(u"\"", u"")
+            if self.unescapeHtml and u"&" in entry:
                 entry = self.htmlParser.unescape(entry)
 
 
