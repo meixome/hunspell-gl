@@ -1021,7 +1021,10 @@ class EntryParser(object):
 
     def parse(self, entries):
         for entry in entries:
+
             # Skippers.
+            if not entry:
+                continue
             if self.noRtlFilter and self.isRtl(entry):
                 continue
 

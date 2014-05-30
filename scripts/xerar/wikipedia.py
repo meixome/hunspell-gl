@@ -355,6 +355,23 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/organizacións/asociacións.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Asociacións"],
+                        invalidPagePattern = u"^(Colectivo|Gremio|Organización non gobernamental)$",
+                        validCategoryPattern = u"^(Asociacións|Bandas|Centros|Corais|Entidades|Fundacións|Organizacións|Orquestras|Sindicatos)",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/organizacións/internacionais.dic",
         partOfSpeech = u"nome",
         entryGenerators=[

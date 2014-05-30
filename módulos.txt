@@ -150,6 +150,7 @@ wikipedia       Wikipedia
                             • acontecementos
                             • civilizacións
                         • organizacións
+                            • asociacións
                             • internacionais
                         • política
                             • partidos
