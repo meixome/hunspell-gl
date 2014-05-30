@@ -355,6 +355,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/organizacións/internacionais.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Organizacións internacionais"],
+                        invalidPagePattern = u"^Organización Internacional$",
+                        validCategoryPattern = u"^Organizacións",
+                        invalidCategoryPattern = u"^Personalidades",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/política/partidos/españa.dic",
         partOfSpeech = u"nome",
         entryGenerators=[

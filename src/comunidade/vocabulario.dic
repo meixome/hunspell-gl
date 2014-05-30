@@ -1,21 +1,3 @@
-CFI
-CGC
-CISO
-CLOC
-CNA
-CNE
-CONFEMEN
-CONGDE
-CONGOOP
-CONTAG
-COPART
-COPMAGUA
-CTAG-G8
-CTPD
-DAtk
-DDT
-ECHO
-EFTA
 ELA
 EMBO
 ETAm
@@ -85,7 +67,6 @@ Ofie
 Ofix
 Ofoe
 PAE
-PALOP
 PASEC
 PCB
 PCEr
@@ -439,6 +420,14 @@ BIRF po:sigla                       # https://gl.wikipedia.org/wiki/Banco_Mundia
 BIS po:sigla                        # Bank for International Settlements
 CACTI po:sigla                      # Centro de Apoio Científico e Tecnolóxico á Investigación (Campus Lagoas-Marcosende de Vigo)
 CCD po:sigla                        # Centros clandestinos de detención
+CFI po:sigla                        # Corporación Financeira Internacional
+CONFEMEN po:sigla                   # Conférence des Ministres de l’Éducation des États et gouvernements membres de la Francophonie
+CONGDE po:sigla                     # Coordinadora de ONGD-España
+CONTAG po:sigla                     # Confederação Nacional dos Trabalhadores na Agricultura
+COPMAGUA po:sigla                   # Coordinación de Organizaciones del Pueblo Maya de Guatemala
+CTAG-G8 po:sigla                    # «Counter-Terrorism Action Group» (grupo de acción antiterrorista) de «Group of Eight» (grupo de oito, G8).
+DDT po:sigla                        # dichlorodiphenyltrichloroethane
+ECHO po:sigla                       # European Community Humanitarian Office
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
@@ -459,11 +448,18 @@ cam.
 cpt.        # capitán?
 cem.        # cemento? cemiterio?
 circul.     # circular? circulatorio? circulación?
+CISO
+CLOC
+CNE         # Consello Nacional Electoral? Centro Nacional de Epidemioloxía? Centro para a Nova Europa?
 compt.      # competencia? computadores?
+CONGOOP
 conx.il.
+COPART
 CR-ROM
 cte.        # corrente?
+CTPD
 cuadr.      # cuadrante? cuadrícula?
+DAtk
 d\/d
 DD.
 determ.     # determinar? determinado? determinativo? determinante?
