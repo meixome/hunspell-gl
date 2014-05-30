@@ -302,6 +302,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/empresas/banca.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Bancos e caixas de aforro"],
+                        invalidPagePattern = u"^(Banca ética|Banco malo|Caixa de aforros|Caixeiro automático)$",
+                        validCategoryPattern = u"^(Bancos|Caixas)",
+                        invalidCategoryPattern = u"^(Personalidades)",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/historia/acontecementos.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
