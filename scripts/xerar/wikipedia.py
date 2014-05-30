@@ -719,6 +719,23 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/transporte/liñas-aéreas.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Aeroliñas"],
+                        invalidPagePattern = u"^(Aeroliña|Aeroliña de baixo custo)$",
+                        validCategoryPattern = u"^Aeroliñas",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
 
     lineExpression = u"^\* *(\'\'\')? *(\[\[)? *([^][|\']+\|)? *(?P<entry>[^][|\']+) *(\]\])? *(\'\'\')? *:"
 

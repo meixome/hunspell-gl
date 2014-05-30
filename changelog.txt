@@ -295,6 +295,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/gl/onomástica/toponimia/rexións/india
 + wikipedia/gl/onomástica/toponimia/rexións/reino-unido
 + wikipedia/gl/onomástica/toponimia/zonas/mónaco
++ wikipedia/gl/onomástica/transporte
 + wikipedia/gl/siglas
 + wikipedia/hu
 + wikipedia/pt

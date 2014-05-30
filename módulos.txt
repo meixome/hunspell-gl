@@ -257,6 +257,8 @@ wikipedia       Wikipedia
                             • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
                                 • españa
                                 • mónaco
+                        • transporte
+                            • liñas-aéreas
                     • siglas
                         • campos
                             • alimentación
