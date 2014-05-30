@@ -863,6 +863,23 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(WikipediaEsGenerator(
+        resource = u"empresas/seguros.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Aseguradoras"],
+                        invalidPagePattern = u"^(Compañía de seguros|Reaseguro|Sector asegurador en España)$",
+                        validCategoryPattern = u"^(Aseguradoras|Reaseguradoras)",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
 
     # Wikipedia en inglés.
 

@@ -1,13 +1,3 @@
-BERD
-BIRF
-BIS
-Benelux
-Bilega
-CACTI
-CAEG
-CCD
-CR-ROM
-CESCE
 CFI
 CGC
 CISO
@@ -443,6 +433,12 @@ xral. po:abreviatura        # xeneral
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
 Adeslas po:sigla                    # https://es.wikipedia.org/wiki/Mutua_Madrile%C3%B1a#SegurCaixa_Adeslas
+Benelux po:sigla                    # https://gl.wikipedia.org/wiki/Benelux
+BERD po:sigla                       # Banco Europeo para a Reconstrución e o Desenvolvemento
+BIRF po:sigla                       # https://gl.wikipedia.org/wiki/Banco_Mundial
+BIS po:sigla                        # Bank for International Settlements
+CACTI po:sigla                      # Centro de Apoio Científico e Tecnolóxico á Investigación (Campus Lagoas-Marcosende de Vigo)
+CCD po:sigla                        # Centros clandestinos de detención
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
@@ -458,12 +454,14 @@ apt.        # apartamento? apartado? aparte?
 apto.       # aparato? apartamento?
 aXC         # áreas de xestión clínica? por que vai en minúscula o «a»?
 BASIS       # https://en.wikipedia.org/wiki/Basis
+CAEG        # http://acronyms.thefreedictionary.com/CAEG
 cam.
 cpt.        # capitán?
 cem.        # cemento? cemiterio?
 circul.     # circular? circulatorio? circulación?
 compt.      # competencia? computadores?
 conx.il.
+CR-ROM
 cte.        # corrente?
 cuadr.      # cuadrante? cuadrícula?
 d\/d
