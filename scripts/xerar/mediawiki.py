@@ -867,10 +867,10 @@ class TableParser(PageContentParser):
         for cell in row.splitlines():
             if cell.startswith("|"): # Skip headers that start with “!”.
                 cell = cell[1:]
-                if cell:
-                    if u"||" in cell:
-                        for subcell in cell.split(u"||"):
-                            yield self.parseCell(subcell)
+                if cell and u"||" in cell:
+                    for subcell in cell.split(u"||"):
+                        yield self.parseCell(subcell)
+                else:
                     yield self.parseCell(cell)
 
 
@@ -881,7 +881,7 @@ class TableParser(PageContentParser):
                 if rowNumber not in self.skipRows:
                     cellNumber = 0
                     for cell in self.iterCells(row):
-                        if cellNumber in self.cellNumbers:
+                        if cellNumber in self.cellNumbers and cell:
                             yield cell
                         cellNumber += 1
                 rowNumber += 1
@@ -991,6 +991,7 @@ class EntryParser(object):
                  commaFilter=True,
                  commaSplitter=False,
                  hyphenFilter=True,
+                 ignoredEntries=[],
                  linkFilter=True,
                  noRtlFilter=True,
                  quoteFilter=True,
@@ -1003,6 +1004,7 @@ class EntryParser(object):
         self.commaFilter = commaFilter
         self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
+        self.ignoredEntries = ignoredEntries
         self.linkFilter = linkFilter
         self.noRtlFilter = noRtlFilter
         self.quoteFilter = quoteFilter
@@ -1020,7 +1022,7 @@ class EntryParser(object):
         entry = re.sub(parenthesis, u"", entry) # Eliminar contido entre parénteses.
         entry = entry.strip()
         entry = entry.strip(u'\ufeff') # http://stackoverflow.com/a/6786646
-        if entry:
+        if entry and entry not in self.ignoredEntries:
             yield entry
 
 

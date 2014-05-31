@@ -819,6 +819,20 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/transporte/aeroportos.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames=[u"Lista de aeroportos de España",]),
+                ],
+                pageParser=TableParser(cellNumbers=[4, 5], skipRows=[0,]),
+                entryParser=EntryParser(ignoredEntries=[u"?", u"-"]),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/transporte/liñas-aéreas.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
