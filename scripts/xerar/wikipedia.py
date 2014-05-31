@@ -436,13 +436,13 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"onomástica/política/partidos/españa.dic",
+        resource = u"onomástica/política/partidos.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
             EntryGenerator(
                 pageGenerators = [
                     CategoryBrowser(
-                        categoryNames = [u"Partidos políticos de España"],
+                        categoryNames = [u"Partidos políticos por países"],
                         validCategoryPattern = u"^(Partidos )",
                         invalidCategoryAsPagePattern = u"^()",
                         invalidPagePattern = u"^(Lista|Partidos) ",

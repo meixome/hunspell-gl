@@ -133,6 +133,8 @@ def formatEntriesAndCommentsForDictionary(entries, partOfSpeech):
             ngramas = set()
             for ngrama in entry.split(u" "):
                 ngrama = ngrama.strip(",")
+                if ngrama == u"/": # e.g. «Alianza 90 / Os Verdes».
+                    continue
                 if ngrama not in wordsToIgnore:  # N-gramas innecesarios por ser vocabulario galego xeral.
                     if ngrama not in ngramas:  # Non é necesario repetir ngramas dentro da mesma entrada
                         if not numberPattern.match(ngrama):  # Hunspell sempre acepta números.

@@ -1,10 +1,3 @@
-INAD
-INCODER
-INCORA
-INCRA
-INEFAN
-INRA
-ISRP
 ITC
 K2
 KGB
@@ -36,7 +29,6 @@ PAE
 PASEC
 PCB
 PCEr
-PCP
 PCPR
 PEAE
 PECO
@@ -417,6 +409,10 @@ G30 po:sigla                        # Grupo de 30
 GTZ po:sigla                        # Axencia alemá de Cooperación Técnica
 HIPC po:sigla                       # Highly-Indebted Poor Country
 IDH po:sigla                        # https://gl.wikipedia.org/wiki/%C3%8Dndice_de_Desenvolvemento_Humano
+INCODER po:sigla                    # Instituto Colombiano de Desarrollo Rural
+INCORA po:sigla                     # Instituto Colombiano de la Reforma Agraria
+INEFAN po:sigla                     # Instituto Ecuatoriano Forestal y de Areas Naturales
+INRA po:sigla                       # Instituto Nacional de Investigación Agronómica de Francia
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
 RDL po:sigla                        # Rede de Dinamización Lingüística
@@ -468,6 +464,8 @@ IFIs
 IGVG
 II.
 ILCA        # International Lactation Consultant Association? International Laser Class Association? International Liver Cancer Association?
+INAD        # Institut National des Arts Divinatoires? Irish National Audit of Dementia?
+INCRA       # Instituto Nacional de Colonização e Reforma? International Non-Profit Credit Rating Agency?
 LEX.
 m\/c        # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros cadrados)?
             # http://www.zara.com/es/es/mujer/camisas-c358004.html ?
