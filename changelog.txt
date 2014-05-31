@@ -261,6 +261,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/en
 + wikipedia/es
 + wikipedia/gl/bioquímica
++ wikipedia/gl/onomástica/administración
 + wikipedia/gl/onomástica/antroponimia
 + wikipedia/gl/onomástica/arte
 + wikipedia/gl/onomástica/astronomía
