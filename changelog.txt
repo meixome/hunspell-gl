@@ -270,6 +270,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/gl/onomástica/historia
 + wikipedia/gl/onomástica/organizacións
 + wikipedia/gl/onomástica/política
++ wikipedia/gl/onomástica/televisión
 + wikipedia/gl/onomástica/toponimia/accidentes/baías
 + wikipedia/gl/onomástica/toponimia/accidentes/desertos
 + wikipedia/gl/onomástica/toponimia/accidentes/mares

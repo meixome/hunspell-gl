@@ -544,6 +544,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/televisión/cadeas.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Cadeas de televisión"],
+                        validCategoryPattern = u"^(Cadeas|Televisións)",
+                        invalidCategoryAsPagePattern = u"^Programas",
+                        invalidPagePattern = u"^(Cadea de televisión|Televisión comunitaria)$",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/baías.dic",
         partOfSpeech = u"topónimo",
         entryGenerators=[
