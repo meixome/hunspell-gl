@@ -1,5 +1,3 @@
-MCRN
-MERCOSUR
 MINUGUA
 MPAA
 MST
@@ -53,7 +51,6 @@ TDT
 TIR
 VIP
 TGV
-TLCAN
 TMI
 TMM5
 TRO
@@ -464,6 +461,7 @@ m\/c        # http://www.palaciocongresosvigo.com/gl/espacios/sala-130 (metros c
             # http://www.zara.com/es/es/mujer/camisas-c358004.html ?
             # http://wikita.org/wiki/Nicaraguan_c%C3%B3rdoba (moeda corrente)?
 m\/ch
+MCRN        # Michigan Corporate Relations Network? Mathematics and Climate Research Network? Medicines for Children Research Network?
 m\/f
 m\/l
 m\/o
