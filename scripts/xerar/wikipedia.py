@@ -965,6 +965,22 @@ def loadGeneratorList():
         ],
     ))
 
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/transporte/trens.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Trens"],
+                        validCategoryPattern = u"^Trens",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
 
     lineExpression = u"^\* *(\'\'\')? *(\[\[)? *([^][|\']+\|)? *(?P<entry>[^][|\']+) *(\]\])? *(\'\'\')? *:"
 
