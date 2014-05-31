@@ -349,6 +349,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/deporte/acontecementos.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Eventos deportivos"],
+                        validCategoryPattern = u"^(Acontecementos|Campionatos|Competicións|Ligas|Mundiais|Torneos)",
+                        invalidCategoryAsPagePattern = u"(^(Balóns|Goleadores|Tempadas)|.* nos Xogos Olímpicos$)",
+                        invalidPagePattern = u".*\d+-\d+",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/economía/feiras.dic",
         partOfSpeech = u"nome",
         entryGenerators=[

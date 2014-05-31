@@ -91,6 +91,7 @@ tupleOfWordsToIgnore = (
     u"Beira", u"Beiras",
     u"Cabo",
     u"Camiño", u"Camiños",
+    u"Campionato", u"Campionatos",
     u"Campo", u"Campos",
     u"Candidatura", u"Candidaturas",
     u"Capela", u"Capelas",
@@ -117,6 +118,7 @@ tupleOfWordsToIgnore = (
     u"Continental", u"Continentais", # «Portugal continental».
     u"Continente", u"Continentes",
     u"Convento", u"Conventos",
+    u"Copa", u"Copas",
     u"Coroa", u"Coroas",
     u"Costa", u"Costas",
     u"Cova", u"Covas",
@@ -130,6 +132,7 @@ tupleOfWordsToIgnore = (
     u"Deserto", u"Desertos",
     u"Día", u"Días",
     u"Distrito", u"Distritos",
+    u"División", u"Divisións",
     u"Ducado", u"Ducados",
     u"Enseada", u"Enseadas",
     u"Era", u"Eras",
@@ -282,6 +285,7 @@ tupleOfWordsToIgnore = (
     u"Xadrez",
     u"Xaneiro",
     u"Xenocidio", u"Xenocidios",
+    u"Xogo", u"Xogos",
     u"Xuño",
     u"Xullo",
 

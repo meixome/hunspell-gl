@@ -643,16 +643,18 @@ class PageContentLoader(object):
         for page in pages:
             if page.isCategory():
                 mainArticle = self.mainCategoryArticle(page)
-                if mainArticle:
-                    self.pagesToLoadFromXmlDump[mainArticle.title(withNamespace=False)] = mainArticle
-                else:
+                if not mainArticle:
                     self._pagesWithoutContent.add(page)
+                    continue
+                else:
+                    pageName = mainArticle.title(withNamespace=False)
+                    page = mainArticle
             else:
                 pageName = page.title(withNamespace=False)
-                if pageName in pageNamesToLoadFromWiki:
-                    self.pagesToLoadFromWiki.add(pywikibot.Page(self.site, pageName))
-                else:
-                    self.pagesToLoadFromXmlDump[pageName] = page
+            if pageName in pageNamesToLoadFromWiki:
+                self.pagesToLoadFromWiki.add(pywikibot.Page(self.site, pageName))
+            else:
+                self.pagesToLoadFromXmlDump[pageName] = page
 
         self._xmlReader = None
         self._calculateSecondsToLoadOnePageFromWiki = None

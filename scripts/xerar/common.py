@@ -11,7 +11,7 @@ from generator import output, wordsToIgnore
 
 
 
-numberPattern = re.compile(u"^[0-9]+$")
+numberPattern = re.compile(u"^[0-9]+(\.?[ºª]|\.)?$")
 
 
 def getModulesSourcePath():
@@ -144,7 +144,7 @@ def formatEntriesAndCommentsForDictionary(entries, partOfSpeech):
                             else:
                                 yield u"{ngrama} po:{partOfSpeech} [n-grama: {entry}]\n".format(ngrama=escapeSpecialEntryCharacters(ngrama), entry=entry, partOfSpeech=partOfSpeech)
         else:
-            if entry not in wordsToIgnore:
+            if entry not in wordsToIgnore and not numberPattern.match(entry):  # Hunspell sempre acepta números.
                 if entries[entry]: # A entrada ten comentario.
                     yield u"{entry} po:{partOfSpeech}  # {comment}\n".format(entry=escapeSpecialEntryCharacters(entry), partOfSpeech=partOfSpeech, comment=entries[entry])
                 else:
