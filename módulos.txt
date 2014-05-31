@@ -148,6 +148,7 @@ wikipedia       Wikipedia
                         • economía
                             • empresas
                                 • banca
+                            • feiras
                             • índices-bolsistas
                         • historia
                             • acontecementos
