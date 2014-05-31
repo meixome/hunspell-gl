@@ -578,6 +578,22 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/televisión/grupos.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Grupos de televisión de España"],
+                        invalidCategoryPattern = u".",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/toponimia/accidentes/baías.dic",
         partOfSpeech = u"topónimo",
         entryGenerators=[
