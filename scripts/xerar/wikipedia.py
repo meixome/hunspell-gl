@@ -367,6 +367,23 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/deporte/fórmula1/escuderías.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Escuderías de Fórmula 1"],
+                        validCategoryPattern = u"^(Escuderías)",
+                        invalidPagePattern = u"^Lista",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/economía/feiras.dic",
         partOfSpeech = u"nome",
         entryGenerators=[

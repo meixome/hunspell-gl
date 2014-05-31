@@ -1,6 +1,3 @@
-TMI
-TMM5
-TRO
 TRO-BA
 TRO-BC
 TVC
@@ -366,6 +363,8 @@ SAARC po:sigla                      # Asociación Sudasiática para a Cooperaci�
 SEACEX po:sigla                     # Arte Español para o Exterior do Ministerio de Asuntos Exteriores
 S.I.O.P.E. po:sigla                 # Sección de Información, Orientación, Promoción del Estudiante Voluntariado y Discapacidad (http://www.uvigo.es/uvigo_es/administracion/extension/funcions/siope/index.html)
 TDT po:sigla                        # https://gl.wikipedia.org/wiki/Televisi%C3%B3n_Dixital_Terrestre
+TMI po:sigla                        # Taxa de mortalidade infantil
+TMM5 po:sigla                       # Taxa de mortalidade de menores de 5 anos
 
 # Incertos.
 a\/
