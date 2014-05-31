@@ -21,7 +21,8 @@ tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
 tableEndTagPattern = re.compile(u"\|\}(?!\})")
 fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
 
-highlightedPattern = re.compile(u"\(?\'\'\'(\'\')? *(?P<entry>.*?) *(\'\')?\'\'\'\)?")
+highlightedPattern = re.compile(u"(\'\'\'(\'\')?|\(\'\'\'?) *(?P<entry>.*?) *((\'\')?\'\'\'|\'\'\'?\))")
+
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")

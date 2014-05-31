@@ -931,6 +931,24 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/transporte/barcos.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Barcos"],
+                        invalidPagePattern = u"^(Babor|Barco|Calado|Desprazamento \(náutica\)|Estribor|Francobordo|Navegación marítima|Popa|Proa|Puntal)$",
+                        validCategoryPattern = u"^(Barcos|Embarcacións)",
+                        invalidCategoryAsPagePattern = u"^(Accidentes|Imaxes|Tipos)",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/transporte/liñas-aéreas.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
@@ -972,6 +990,14 @@ def loadGeneratorList():
                     PageLoader(pageNames = [u"Lista de siglas e acrónimos de informática",],),
                 ],
                 pageParser=LineParser(lineExpression),
+            ),
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Acrónimos de informática"],
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
             )
         ],
     ))
@@ -998,6 +1024,17 @@ def loadGeneratorList():
                     PageLoader(pageNames = [u"Lista de siglas e acrónimos",],),
                 ],
                 pageParser=LineParser(lineExpression),
+            ),
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Acrónimos"],
+                        invalidCategoryPattern = u".",
+                        invalidCategoryAsPagePattern = u".",
+                        invalidPagePattern = u"^(Acrónimo recursivo$|Lista )",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
             )
         ],
     ))

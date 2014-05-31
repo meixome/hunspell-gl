@@ -1,17 +1,3 @@
-R11
-R12
-R21
-R2D2
-RAF
-SAARC
-SEACEX
-SIOPE
-SRO
-TBE
-TBI
-TDT
-TIR
-VIP
 TGV
 TMI
 TMM5
@@ -282,6 +268,7 @@ Felícita po:antropónimo     # http://www.deperu.com/nombres-peruanos/significa
 Herodias po:antropónimo     # https://en.wikipedia.org/wiki/Herodias (non vale coller o nome doutras linguas, este é dos que se traducen)
 Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfeita
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
+R2-D2 po:antropónimo        # Personaxe da saga «A guerra das galaxias».
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
 
 # Abreviaturas.
@@ -377,6 +364,10 @@ PNRA-NR po:sigla                    # Pakistan Nuclear Regulatory Authority - Nu
 PRONAF po:sigla                     # Programa Nacional de Fortalecimento da Agricultura Familiar
 PXOUM po:sigla                      # Plan Xeral de Ordenación Urbanística Municipal
 RDL po:sigla                        # Rede de Dinamización Lingüística
+SAARC po:sigla                      # Asociación Sudasiática para a Cooperación Rexional
+SEACEX po:sigla                     # Arte Español para o Exterior do Ministerio de Asuntos Exteriores
+S.I.O.P.E. po:sigla                 # Sección de Información, Orientación, Promoción del Estudiante Voluntariado y Discapacidad (http://www.uvigo.es/uvigo_es/administracion/extension/funcions/siope/index.html)
+TDT po:sigla                        # https://gl.wikipedia.org/wiki/Televisi%C3%B3n_Dixital_Terrestre
 
 # Incertos.
 a\/
@@ -458,11 +449,18 @@ PTT         # https://en.wikipedia.org/wiki/PTT
 PVD         # https://en.wikipedia.org/wiki/PVD
 qu.
 quint.
+R12         # https://en.wikipedia.org/wiki/R12
+R21
+RAF         # https://gl.wikipedia.org/wiki/RAF
 r\/d
 RDLEX
 RR.
 s\/d
 secret.
+SRO         # https://en.wikipedia.org/wiki/SRO
+TBE         # http://acronyms.thefreedictionary.com/TBE
+TBI
+TIR         # https://en.wikipedia.org/wiki/TIR
 vend.
 vix.
 vta.

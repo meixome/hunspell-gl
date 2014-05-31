@@ -1,4 +1,8 @@
+A.D. po:sigla
 AAPP po:sigla
+Ab po:sigla [n-grama: Ab urbe condita]
+urbe po:sigla [n-grama: Ab urbe condita]
+condita po:sigla [n-grama: Ab urbe condita]
 ACB po:sigla
 ACSUG po:sigla
 ADEGA po:sigla
@@ -13,6 +17,10 @@ AIA po:sigla
 AIU po:sigla
 Ales po:sigla
 ANECA po:sigla
+Anno po:sigla [n-grama: Anno Domini]
+Domini po:sigla [n-grama: Anno Domini]
+antes po:sigla [n-grama: antes de Cristo]
+Cristo po:sigla [n-grama: antes de Cristo]
 APA po:sigla
 APRADOGA po:sigla
 ARE po:sigla
@@ -71,6 +79,9 @@ CNT po:sigla
 COAG po:sigla
 COAP po:sigla
 COBOL po:sigla
+Código po:sigla [n-grama: Código de Ubicación Geográfica]
+Ubicación po:sigla [n-grama: Código de Ubicación Geográfica]
+Geográfica po:sigla [n-grama: Código de Ubicación Geográfica]
 COI po:sigla
 COIE po:sigla
 COTOP po:sigla
@@ -84,6 +95,12 @@ CTT po:sigla
 Cunef po:sigla
 CVI po:sigla
 CXTG po:sigla
+D po:sigla
+Deutsches po:sigla [n-grama: Deutsches Institut für Normung]
+Institut po:sigla [n-grama: Deutsches Institut für Normung]
+für po:sigla [n-grama: Deutsches Institut für Normung]
+Normung po:sigla [n-grama: Deutsches Institut für Normung]
+DIN po:sigla
 DNI po:sigla
 DOG po:sigla
 DSI po:sigla
@@ -105,7 +122,10 @@ ESA po:sigla
 ESO po:sigla
 ETB po:sigla
 EU po:sigla
+Eurafrasia po:sigla
+Eurasia po:sigla
 EURIBOR po:sigla
+Euroasia po:sigla
 Eurostat po:sigla
 EXB po:sigla
 FAI po:sigla
@@ -137,6 +157,7 @@ GPRS po:sigla
 GPS po:sigla
 Grapo po:sigla
 HB po:sigla
+I po:sigla
 I+D po:sigla
 IAE po:sigla
 IBI po:sigla
@@ -188,6 +209,7 @@ LOU po:sigla
 LOXSE po:sigla
 LRU po:sigla
 LRXAP-PAC po:sigla
+LSD po:sigla
 MAP po:sigla
 MBA po:sigla
 MEC po:sigla
@@ -196,6 +218,8 @@ MIR po:sigla
 MIT po:sigla
 MNL po:sigla
 MUFACE po:sigla
+MVP po:sigla
+N po:sigla
 NASDAQ po:sigla
 NATO po:sigla
 NIF po:sigla
@@ -213,6 +237,7 @@ OPEP po:sigla
 OTAN po:sigla
 OTRI po:sigla
 Ovni po:sigla
+P po:sigla
 PAAU po:sigla
 PAL po:sigla
 PAS po:sigla
@@ -233,6 +258,7 @@ PSOE po:sigla
 PUK po:sigla
 PVP po:sigla
 PXOU po:sigla
+Q po:sigla
 RACE po:sigla
 Radar po:sigla
 RAG po:sigla
@@ -242,6 +268,7 @@ RG po:sigla
 RPT po:sigla
 RTVE po:sigla
 RTVG po:sigla
+S po:sigla
 SENPA po:sigla
 SEPI po:sigla
 Sergas po:sigla
@@ -264,6 +291,9 @@ SS po:sigla
 TAC po:sigla
 TAE po:sigla
 TC po:sigla
+Terminal po:sigla [n-grama: Terminal punto de venda]
+punto po:sigla [n-grama: Terminal punto de venda]
+venda po:sigla [n-grama: Terminal punto de venda]
 TFT po:sigla
 TGSS po:sigla
 Tit-eu po:sigla
@@ -271,6 +301,7 @@ Tit-un po:sigla
 TS po:sigla
 TSXG po:sigla
 TVG po:sigla
+Ubigeo po:sigla
 UCI po:sigla
 UDC po:sigla
 Udega po:sigla
@@ -287,6 +318,8 @@ UTC po:sigla
 UV po:sigla
 UXA po:sigla
 UXT po:sigla
+V po:sigla
 VHF po:sigla
 VHS po:sigla
+VIP po:sigla
 WAP po:sigla
