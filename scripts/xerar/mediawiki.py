@@ -21,7 +21,7 @@ tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
 tableEndTagPattern = re.compile(u"\|\}(?!\})")
 fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
 
-highlightedPattern = re.compile(u"\'\'\'(\'\')? *(?P<entry>.*?) *(\'\')?\'\'\'")
+highlightedPattern = re.compile(u"\(?\'\'\'(\'\')? *(?P<entry>.*?) *(\'\')?\'\'\'\)?")
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
 wikiTags = re.compile(u"\[\[|\]\]")
@@ -618,6 +618,8 @@ class PageContentLoader(object):
             if mainArticleName:
                 page = pywikibot.Page(category.site, mainArticleName)
                 if page.exists():
+                    if page.isRedirectPage():
+                       page = page.getRedirectTarget()
                     return page
 
         return None
@@ -938,7 +940,6 @@ class FirstSentenceParser(PageContentParser):
                         continue
 
                 if line[0] not in [' ', '{', '}', '|', '[', ':', '!', '<'] and not templateDepth and not tableDepth and not fileDepth and not htmlStartTags:
-                    line = re.sub(parenthesis, u"", line) # Eliminar contido entre parénteses.
                     line = re.sub(reference, u"", line) # Eliminar contido de referencia.
                     if line.startswith("D."):
                         line = line[2:]
