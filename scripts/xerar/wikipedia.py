@@ -219,6 +219,22 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/administración/ministerios.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Ministerios de España"],
+                        validCategoryPattern = u"^Antigos ministerios"
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/antroponimia/países/costa-rica.dic",
         partOfSpeech = u"antropónimo",
         entryGenerators=[
