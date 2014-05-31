@@ -318,7 +318,22 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
-        resource = u"onomástica/empresas/banca.dic",
+        resource = u"onomástica/economía/índices-bolsistas.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Índices bolsistas",],
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/economía/empresas/banca.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
             EntryGenerator(

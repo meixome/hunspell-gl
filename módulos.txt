@@ -145,8 +145,10 @@ wikipedia       Wikipedia
                                 • relixión
                         • astronomía
                             • planetas
-                        • empresas
-                            • banca
+                        • economía
+                            • empresas
+                                • banca
+                            • índices-bolsistas
                         • historia
                             • acontecementos
                             • civilizacións

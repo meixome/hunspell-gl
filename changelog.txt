@@ -264,7 +264,7 @@ Cambios desde a versión 13.10.1
 + wikipedia/gl/onomástica/antroponimia
 + wikipedia/gl/onomástica/arte
 + wikipedia/gl/onomástica/astronomía
-+ wikipedia/gl/onomástica/empresas
++ wikipedia/gl/onomástica/economía
 + wikipedia/gl/onomástica/historia
 + wikipedia/gl/onomástica/organizacións
 + wikipedia/gl/onomástica/política

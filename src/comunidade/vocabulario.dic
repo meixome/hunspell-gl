@@ -1,24 +1,3 @@
-FARC
-FCA
-FIDDA
-FINUL
-FLACSO
-FOD
-FTC
-Frelimo
-G-10
-G-24
-G-30
-G-5
-G-7
-G-8
-G10
-G24
-G30
-GOBI
-GTZ
-HIPC
-IBEX
 IDH
 IDRC
 Ifema
@@ -425,7 +404,25 @@ EMBO po:sigla                       # European Molecular Biology Organization
 ETAm po:sigla                       # ETA Militar
 ETB-2 po:sigla                      # Euskal Telebista 2
 ETB2  po:sigla                      # Euskal Telebista 2
+FARC po:sigla                       # Fuerzas Armadas Revolucionarias de Colombia
+FCA po:sigla                        # «Free Carrier» (francotransportista)
 ff. po:sigla [n-grama: ff. cc.]     # ferrocarrís
+FINUL po:sigla                      # Forza Provisional das Nacións Unidas en Líbano
+FLACSO po:sigla                     # Facultad Latinoamericana de Ciencias Sociales
+FRELIMO po:sigla                    # Frente de Liberación de Mozambique
+FTC po:sigla                        # Federal Trade Commission
+G-5  po:sigla                       # Grupo de 5
+G5  po:sigla                        # Grupo de 5
+G-7  po:sigla                       # Grupo de 7
+G7  po:sigla                        # Grupo de 7
+G-10 po:sigla                       # Grupo de 10
+G10 po:sigla                        # Grupo de 10
+G-24 po:sigla                       # Grupo de 24
+G24 po:sigla                        # Grupo de 24
+G-30 po:sigla                       # Grupo de 30
+G30 po:sigla                        # Grupo de 30
+GTZ po:sigla                        # Axencia alemá de Cooperación Técnica
+HIPC po:sigla                       # Highly-Indebted Poor Country
 K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
 RDL po:sigla                        # Rede de Dinamización Lingüística
@@ -467,7 +464,9 @@ end.
 e\/p
 espf.
 U. [n-grama: E. U.]
+FIDDA
 f\/m
+FOD         # https://en.wikipedia.org/wiki/FOD
 furg.
 hol.
 II.

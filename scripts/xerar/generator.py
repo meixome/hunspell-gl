@@ -148,6 +148,7 @@ tupleOfWordsToIgnore = (
     u"Illote", u"Illotes",
     u"Imperio", u"Imperios",
     u"Incidente", u"Incidentes",
+    u"Índice", u"Índices",
     u"Insua", u"Insuas",
     u"Interior", u"Interiores",
     u"Islámica", u"Islámicas", u"Islámico", u"Islámicos",
