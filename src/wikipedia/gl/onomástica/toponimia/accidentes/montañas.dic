@@ -11,12 +11,16 @@ Groba po:topónimo [n-grama: Alto da Groba]
 Veneira po:topónimo [n-grama: Alto da Veneira]
 Bieito po:topónimo [n-grama: Alto de San Bieito]
 Andes po:topónimo
+Annapurna po:topónimo
 Apeninos po:topónimo
 Balaitus po:topónimo
 Cerro po:topónimo [n-grama: Cerro de Pereira]
 Pereira po:topónimo [n-grama: Cerro de Pereira]
+Cho po:topónimo [n-grama: Cho Oiu]
+Oiu po:topónimo [n-grama: Cho Oiu]
 Cofre po:topónimo [n-grama: Cofre de Perote]
 Perote po:topónimo [n-grama: Cofre de Perote]
+Corbetts po:topónimo
 Cordal po:topónimo [n-grama: Cordal Cantábrico]
 Cantábrico po:topónimo [n-grama: Cordal Cantábrico]
 Cordal po:topónimo [n-grama: Cordal do Atlas]
@@ -30,6 +34,8 @@ Xura po:topónimo [n-grama: Cordilleira do Xura]
 Cordilleira po:topónimo [n-grama: Cordilleira dos Balcáns]
 Balcáns po:topónimo [n-grama: Cordilleira dos Balcáns]
 Cordilleira po:topónimo [n-grama: Cordilleira Litoral]
+Cordilleira po:topónimo [n-grama: Cordilleira Penibética]
+Penibética po:topónimo [n-grama: Cordilleira Penibética]
 Cordilleira po:topónimo [n-grama: Cordilleira Prelitoral]
 Prelitoral po:topónimo [n-grama: Cordilleira Prelitoral]
 Cordilleira po:topónimo [n-grama: Cordilleira Subbética]
@@ -46,26 +52,33 @@ elevados po:topónimo [n-grama: Cumes máis elevados de España por autonomía e
 España po:topónimo [n-grama: Cumes máis elevados de España por autonomía e provincia]
 por po:topónimo [n-grama: Cumes máis elevados de España por autonomía e provincia]
 autonomía po:topónimo [n-grama: Cumes máis elevados de España por autonomía e provincia]
-provincia po:topónimo [n-grama: Cumes máis elevados de España por autonomía e provincia]
 Emi po:topónimo [n-grama: Emi Koussi]
 Koussi po:topónimo [n-grama: Emi Koussi]
+Everest po:topónimo
 Foho po:topónimo [n-grama: Foho Tatamailau]
 Tatamailau po:topónimo [n-grama: Foho Tatamailau]
+Gasherbrum po:topónimo [n-grama: Gasherbrum I]
+I po:topónimo [n-grama: Gasherbrum I]
+Gasherbrum po:topónimo [n-grama: Gasherbrum II]
+II po:topónimo [n-grama: Gasherbrum II]
 Gorbeia po:topónimo
 Sasso po:topónimo [n-grama: Gran Sasso d'Italia]
 d'Italia po:topónimo [n-grama: Gran Sasso d'Italia]
+Himalaia po:topónimo
 Hombori po:topónimo [n-grama: Hombori Tondo]
 Tondo po:topónimo [n-grama: Hombori Tondo]
 Huascarán po:topónimo
 Huayna po:topónimo [n-grama: Huayna Picchu]
 Picchu po:topónimo [n-grama: Huayna Picchu]
+Imaxes po:topónimo [n-grama: Imaxes de montes de Galicia]
+K2 po:topónimo
 Kala po:topónimo [n-grama: Kala Patthar]
 Patthar po:topónimo [n-grama: Kala Patthar]
 Karakorum po:topónimo
 Kediet po:topónimo [n-grama: Kediet Ijill]
 Ijill po:topónimo [n-grama: Kediet Ijill]
+Lhotse po:topónimo
 Lista po:topónimo [n-grama: Lista de montes de España]
-montes po:topónimo [n-grama: Lista de montes de España]
 España po:topónimo [n-grama: Lista de montes de España]
 Llullaillaco po:topónimo
 Macizo po:topónimo [n-grama: Macizo do Mont Blanc]
@@ -75,6 +88,7 @@ Macizo po:topónimo [n-grama: Macizo do Montgrí]
 Montgrí po:topónimo [n-grama: Macizo do Montgrí]
 Macizo po:topónimo [n-grama: Macizo Galaico]
 Galaico po:topónimo [n-grama: Macizo Galaico]
+Manaslu po:topónimo
 Masada po:topónimo
 Mioteira po:topónimo
 Moncai po:topónimo
@@ -82,7 +96,6 @@ Moncayo po:topónimo
 Mont po:topónimo [n-grama: Mont Blanc]
 Blanc po:topónimo [n-grama: Mont Blanc]
 Montañas po:topónimo [n-grama: Montañas de Galicia]
-Galicia po:topónimo [n-grama: Montañas de Galicia]
 Montañas po:topónimo [n-grama: Montañas Rochosas]
 Rochosas po:topónimo [n-grama: Montañas Rochosas]
 Aloia po:topónimo [n-grama: Monte Aloia]
@@ -145,7 +158,6 @@ Ventoux po:topónimo [n-grama: Monte Ventoux]
 Wilhelm po:topónimo [n-grama: Monte Wilhelm]
 Xalo po:topónimo [n-grama: Monte Xalo]
 Xiabre po:topónimo [n-grama: Monte Xiabre]
-Galicia po:topónimo [n-grama: Montes de Galicia]
 León po:topónimo [n-grama: Montes de León]
 Toledo po:topónimo [n-grama: Montes de Toledo]
 Urais po:topónimo [n-grama: Montes Urais]
@@ -154,6 +166,7 @@ Montserrat po:topónimo
 Morro po:topónimo [n-grama: Morro de Moco]
 Moco po:topónimo [n-grama: Morro de Moco]
 Mulhacén po:topónimo
+Munros po:topónimo
 Mustallar po:topónimo
 Nanga po:topónimo [n-grama: Nanga Parbat]
 Parbat po:topónimo [n-grama: Nanga Parbat]
