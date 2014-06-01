@@ -1,4 +1,7 @@
 FLTV po:nome [n-grama: 1 FLTV]
+Fürstentum po:nome [n-grama: 1 Fürstentum Liechtenstein Television]
+Liechtenstein po:nome [n-grama: 1 Fürstentum Liechtenstein Television]
+Television po:nome [n-grama: 1 Fürstentum Liechtenstein Television]
 TV po:nome [n-grama: 13 TV]
 3\/24 po:nome
 3XL po:nome
@@ -7,6 +10,7 @@ WJAC po:nome [n-grama: 6 WJAC]
 8tv po:nome
 Aaj po:nome [n-grama: Aaj Tak]
 Tak po:nome [n-grama: Aaj Tak]
+ABC po:nome
 Aceh po:nome [n-grama: Aceh TV]
 TV po:nome [n-grama: Aceh TV]
 Al po:nome [n-grama: Al Jazeera]
@@ -30,13 +34,18 @@ Arte po:nome
 Asia po:nome [n-grama: Asia Television Limited]
 Television po:nome [n-grama: Asia Television Limited]
 Limited po:nome [n-grama: Asia Television Limited]
+ATV po:nome
 Australian po:nome [n-grama: Australian Broadcasting Corporation]
 Broadcasting po:nome [n-grama: Australian Broadcasting Corporation]
 Corporation po:nome [n-grama: Australian Broadcasting Corporation]
+Band po:nome
 Barcelona po:nome [n-grama: Barcelona TV]
 TV po:nome [n-grama: Barcelona TV]
 BBC po:nome
 Boing po:nome
+British po:nome [n-grama: British Broadcasting Corporation]
+Broadcasting po:nome [n-grama: British Broadcasting Corporation]
+Corporation po:nome [n-grama: British Broadcasting Corporation]
 British po:nome [n-grama: British Sky Broadcasting Group plc]
 Sky po:nome [n-grama: British Sky Broadcasting Group plc]
 Broadcasting po:nome [n-grama: British Sky Broadcasting Group plc]
@@ -52,12 +61,16 @@ Bío-Bío po:nome [n-grama: Canal 9 Bío-Bío Televisión]
 Deza po:nome [n-grama: Canal Deza]
 Nou po:nome [n-grama: Canal Nou Dos]
 Panda po:nome [n-grama: Canal Panda]
+Rexional po:nome [n-grama: Canal Rexional]
 Super3 po:nome [n-grama: Canal Super3]
 TV po:nome [n-grama: Canal Sur TV]
 Tea po:nome [n-grama: Canal Tea]
+Canal+ po:nome
 Canal+ po:nome [n-grama: Canal+ 1]
 Canal+ po:nome [n-grama: Canal+ Liga]
 Canale po:nome [n-grama: Canale 5]
+Canale po:nome [n-grama: Canale cinque]
+cinque po:nome [n-grama: Canale cinque]
 CBC po:nome
 CBS po:nome
 CCTV po:nome
@@ -65,10 +78,16 @@ Channel po:nome [n-grama: Channel [V] Thailand]
 [V] po:nome [n-grama: Channel [V] Thailand]
 Thailand po:nome [n-grama: Channel [V] Thailand]
 Chilevisión po:nome
+China po:nome [n-grama: China Central Television]
+Television po:nome [n-grama: China Central Television]
+CHV po:nome
 Clan po:nome
 CNN po:nome [n-grama: CNN International]
 International po:nome [n-grama: CNN International]
 CNN+ po:nome
+Columbia po:nome [n-grama: Columbia Broadcasting System]
+Broadcasting po:nome [n-grama: Columbia Broadcasting System]
+System po:nome [n-grama: Columbia Broadcasting System]
 Compañía po:nome [n-grama: Compañía Nacional de Televisión de Ucraína]
 Ucraína po:nome [n-grama: Compañía Nacional de Televisión de Ucraína]
 Correo po:nome [n-grama: Correo TV]
@@ -93,6 +112,7 @@ Disney po:nome [n-grama: Disney Channel]
 Channel po:nome [n-grama: Disney Channel]
 Doordarshan po:nome
 DR po:nome
+EBC po:nome
 EBU-UER po:nome
 Eesti po:nome [n-grama: Eesti Rahvusringhääling]
 Rahvusringhääling po:nome [n-grama: Eesti Rahvusringhääling]
@@ -108,6 +128,7 @@ Brasil po:nome [n-grama: Empresa Brasil de Comunicação]
 Comunicação po:nome [n-grama: Empresa Brasil de Comunicação]
 Energy po:nome
 ERR po:nome
+ERTU po:nome
 ESPN po:nome
 Esport3 po:nome
 Établissement po:nome [n-grama: Établissement de la radiodiffusion-télévision tunisienne]
@@ -116,9 +137,15 @@ radiodiffusion-télévision po:nome [n-grama: Établissement de la radiodiffusio
 tunisienne po:nome [n-grama: Établissement de la radiodiffusion-télévision tunisienne]
 ETV po:nome
 Euronews po:nome
+European po:nome [n-grama: European Broadcasting Union]
+Broadcasting po:nome [n-grama: European Broadcasting Union]
+Union po:nome [n-grama: European Broadcasting Union]
 Factoría po:nome [n-grama: Factoría de Ficción]
 Ficción po:nome [n-grama: Factoría de Ficción]
-Fox po:nome
+FOX po:nome
+Fox po:nome [n-grama: Fox Broadcasting Company]
+Broadcasting po:nome [n-grama: Fox Broadcasting Company]
+Company po:nome [n-grama: Fox Broadcasting Company]
 France po:nome [n-grama: France 2]
 Cero po:nome [n-grama: Galiza Ano Cero]
 Georgian po:nome [n-grama: Georgian Public Broadcaster]
@@ -128,6 +155,9 @@ Gol po:nome [n-grama: Gol Televisión]
 GPB po:nome
 Hamburg po:nome [n-grama: Hamburg 1]
 HBO po:nome
+Home po:nome [n-grama: Home Box Office]
+Box po:nome [n-grama: Home Box Office]
+Office po:nome [n-grama: Home Box Office]
 IB3 po:nome [n-grama: IB3 Televisió]
 Televisió po:nome [n-grama: IB3 Televisió]
 IBSat po:nome
@@ -158,6 +188,7 @@ Libyan po:nome [n-grama: Libyan Jamahiriya Broadcasting Corporation]
 Jamahiriya po:nome [n-grama: Libyan Jamahiriya Broadcasting Corporation]
 Broadcasting po:nome [n-grama: Libyan Jamahiriya Broadcasting Corporation]
 Corporation po:nome [n-grama: Libyan Jamahiriya Broadcasting Corporation]
+LJBC po:nome
 Localia po:nome [n-grama: Localia Coruña]
 Coruña po:nome [n-grama: Localia Coruña]
 Localia po:nome [n-grama: Localia Santiago]
@@ -178,15 +209,24 @@ Music po:nome [n-grama: Music Television]
 Television po:nome [n-grama: Music Television]
 Narón po:nome [n-grama: Narón TV]
 TV po:nome [n-grama: Narón TV]
+National po:nome [n-grama: National Education Television]
+Education po:nome [n-grama: National Education Television]
+Television po:nome [n-grama: National Education Television]
 National po:nome [n-grama: National Geographic Channels International]
 Geographic po:nome [n-grama: National Geographic Channels International]
 Channels po:nome [n-grama: National Geographic Channels International]
 International po:nome [n-grama: National Geographic Channels International]
+Natsionalna po:nome [n-grama: Natsionalna Telekompaniya Ukrayïny]
+Telekompaniya po:nome [n-grama: Natsionalna Telekompaniya Ukrayïny]
+Ukrayïny po:nome [n-grama: Natsionalna Telekompaniya Ukrayïny]
 NBC po:nome [n-grama: NBC Universal]
 Universal po:nome [n-grama: NBC Universal]
 Neox po:nome
 Neox8 po:nome
+NET po:nome
 Nitro po:nome
+Norsk po:nome [n-grama: Norsk Rikskringkasting]
+Rikskringkasting po:nome [n-grama: Norsk Rikskringkasting]
 Nós po:nome [n-grama: Nós TV]
 TV po:nome [n-grama: Nós TV]
 Nova9 po:nome
@@ -198,12 +238,19 @@ Perviy po:nome [n-grama: Perviy Kanal]
 Kanal po:nome [n-grama: Perviy Kanal]
 Prasar po:nome [n-grama: Prasar Bharati]
 Bharati po:nome [n-grama: Prasar Bharati]
+Public po:nome [n-grama: Public Broadcasting Service]
+Broadcasting po:nome [n-grama: Public Broadcasting Service]
+Service po:nome [n-grama: Public Broadcasting Service]
 Audizioni po:nome [n-grama: Radio Audizioni Italiane]
 Italiane po:nome [n-grama: Radio Audizioni Italiane]
 Rádio po:nome [n-grama: Rádio e Televisão de Portugal]
 Televisão po:nome [n-grama: Rádio e Televisão de Portugal]
 Portugal po:nome [n-grama: Rádio e Televisão de Portugal]
 Andorra po:nome [n-grama: Radio e Televisión de Andorra]
+Ràdio po:nome [n-grama: Ràdio i Televisió d'Andorra]
+i po:nome [n-grama: Ràdio i Televisió d'Andorra]
+Televisió po:nome [n-grama: Ràdio i Televisió d'Andorra]
+d'Andorra po:nome [n-grama: Ràdio i Televisió d'Andorra]
 Cerceda po:nome [n-grama: Radio Televisión de Cerceda]
 Municipal po:nome [n-grama: Radio Televisión Municipal de Ponteareas]
 Ponteareas po:nome [n-grama: Radio Televisión Municipal de Ponteareas]
@@ -224,6 +271,9 @@ due po:nome [n-grama: Rai due]
 Raidió po:nome [n-grama: Raidió Teilifís Éireann]
 Teilifís po:nome [n-grama: Raidió Teilifís Éireann]
 Éireann po:nome [n-grama: Raidió Teilifís Éireann]
+Red po:nome [n-grama: Red Chilena de Televisión]
+Chilena po:nome [n-grama: Red Chilena de Televisión]
+Red po:nome [n-grama: Red Televisión]
 Red po:nome [n-grama: Red Televisiva Megavisión S.A.]
 Televisiva po:nome [n-grama: Red Televisiva Megavisión S.A.]
 Megavisión po:nome [n-grama: Red Televisiva Megavisión S.A.]
@@ -236,7 +286,10 @@ Rede po:nome [n-grama: Rede Record]
 Record po:nome [n-grama: Rede Record]
 Rediffusion po:nome [n-grama: Rediffusion Television]
 Television po:nome [n-grama: Rediffusion Television]
+RTCG po:nome
 RTÉ po:nome
+RTK po:nome
+RTP po:nome
 RTV po:nome
 RTVA po:nome
 RTVSLO po:nome
@@ -247,15 +300,26 @@ Satellite po:nome [n-grama: Satellite Television Asia Region]
 Television po:nome [n-grama: Satellite Television Asia Region]
 Asia po:nome [n-grama: Satellite Television Asia Region]
 Region po:nome [n-grama: Satellite Television Asia Region]
+SBS po:nome
+SBT po:nome
+Alemá po:nome [n-grama: Segunda Televisión Alemá]
+Sistema po:nome [n-grama: Sistema Brasileiro de Televisão]
+Brasileiro po:nome [n-grama: Sistema Brasileiro de Televisão]
+Televisão po:nome [n-grama: Sistema Brasileiro de Televisão]
 Société po:nome [n-grama: Société Radio-Canada]
 Radio-Canada po:nome [n-grama: Société Radio-Canada]
 Special po:nome [n-grama: Special Broadcasting Service]
 Broadcasting po:nome [n-grama: Special Broadcasting Service]
 Service po:nome [n-grama: Special Broadcasting Service]
+SRC po:nome
+STAR po:nome
 STAR po:nome [n-grama: STAR Movies]
 Movies po:nome [n-grama: STAR Movies]
 Sveriges po:nome [n-grama: Sveriges Television]
 Television po:nome [n-grama: Sveriges Television]
+SVT po:nome
+T20 po:nome
+TCM po:nome
 Tele po:nome [n-grama: Tele Salnés Barbanza]
 Salnés po:nome [n-grama: Tele Salnés Barbanza]
 Barbanza po:nome [n-grama: Tele Salnés Barbanza]
@@ -283,11 +347,14 @@ Balears po:nome [n-grama: Televisió de les Illes Balears]
 Televisió po:nome [n-grama: Televisió Valenciana Internacional]
 Valenciana po:nome [n-grama: Televisió Valenciana Internacional]
 Canaria po:nome [n-grama: Televisión Canaria]
+Educativa po:nome [n-grama: Televisión Educativa Nacional]
 Ferrol po:nome [n-grama: Televisión Ferrol Canal 31]
 Chile po:nome [n-grama: Televisión Nacional de Chile]
 Télévision po:nome [n-grama: Télévision Suisse Romande]
 Suisse po:nome [n-grama: Télévision Suisse Romande]
 Romande po:nome [n-grama: Télévision Suisse Romande]
+suíza po:nome [n-grama: Televisión suíza romanda]
+romanda po:nome [n-grama: Televisión suíza romanda]
 Television po:nome [n-grama: Television Sydney]
 Sydney po:nome [n-grama: Television Sydney]
 Universidad po:nome [n-grama: Televisión Universidad de Concepción]
@@ -298,6 +365,7 @@ Spółka po:nome [n-grama: Telewizja Polska Spółka Akcyjna]
 Akcyjna po:nome [n-grama: Telewizja Polska Spółka Akcyjna]
 TF1 po:nome
 TLC po:nome
+TRM po:nome
 TRT po:nome
 Türkiye po:nome [n-grama: Türkiye Radyo Televizyon Kurumu]
 Radyo po:nome [n-grama: Türkiye Radyo Televizyon Kurumu]
@@ -314,7 +382,15 @@ Monde po:nome [n-grama: TV5 Monde]
 TVE po:nome [n-grama: TVE 2]
 TVE po:nome [n-grama: TVE HD]
 HD po:nome [n-grama: TVE HD]
+TVN po:nome
+TVS po:nome
+TVSB po:nome
+TVU po:nome
+TVVi po:nome
 Radiodifusión po:nome [n-grama: Unión Europea de Radiodifusión]
+Union po:nome [n-grama: Union européenne de radio-télévision]
+européenne po:nome [n-grama: Union européenne de radio-télévision]
+radio-télévision po:nome [n-grama: Union européenne de radio-télévision]
 V po:nome [n-grama: V Televisión]
 V-me po:nome
 VIA po:nome [n-grama: VIA Televisión]
@@ -338,6 +414,7 @@ Zimbabwe po:nome [n-grama: Zimbabwe Broadcasting Corporation]
 Broadcasting po:nome [n-grama: Zimbabwe Broadcasting Corporation]
 Corporation po:nome [n-grama: Zimbabwe Broadcasting Corporation]
 ZIZ po:nome
+ZNBC po:nome
 Zweites po:nome [n-grama: Zweites Deutsches Fernsehen]
 Deutsches po:nome [n-grama: Zweites Deutsches Fernsehen]
 Fernsehen po:nome [n-grama: Zweites Deutsches Fernsehen]

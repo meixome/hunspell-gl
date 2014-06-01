@@ -540,7 +540,7 @@ def loadGeneratorList():
             EntryGenerator(
                 pageGenerators = [
                     CategoryBrowser(
-                        categoryNames = [u"Partidos políticos por países"],
+                        categoryNames = [u"Partidos políticos"],
                         validCategoryPattern = u"^(Partidos )",
                         invalidPagePattern = u"^(Lista|Partidos) ",
                     ),

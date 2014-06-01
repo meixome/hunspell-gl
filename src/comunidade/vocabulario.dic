@@ -1,25 +1,4 @@
-TVS
-UCD
-UDR
-UFO
-UICN
-UNAM
-UNEB
-UNGEI
-UNIFIL
-UNMISET
-UNMOGIP
-UPN
-USAID
-VCR
-VHA
-VIH
-VTR
-VLSI
-WASP
-
-# Vocabulario xenérico.
-
+# Adverbios.
 atresadamente po:advervio
 bianualmente po:advervio
 bienalmente po:advervio
@@ -35,6 +14,7 @@ porosamente po:advervio
 potestativamente po:advervio
 secuencialmente po:advervio
 
+# Adxectivos.
 activábel/12 po:adxectivo
 activable/10 po:adxectivo
 boolenao/10,15 po:adxectivo
@@ -72,6 +52,7 @@ supraterritorial/12 po:adxectivo
 tecnotrónico/10,15 po:adxectivo
 xudicializado/10,15 po:adxectivo
 
+# Substantivos femininos.
 autoestima po:substantivo feminino
 caché/10 po:substantivo feminino
 cartelaría/10 po:substantivo feminino
@@ -90,6 +71,7 @@ sostibilidade/10 po:substantivo feminino
 xentalla po:substantivo feminino
 xudicialización/10 po:substantivo feminino
 
+# Substantivos masculinos.
 cián po:substantivo masculino
 clúster/10 po:substantivo masculino
 enchemento po:substantivo masculino
@@ -99,9 +81,11 @@ submódulo/10 po:substantivo masculino
 tóner po:substantivo masculino
 varapau/10 po:substantivo masculino
 
+# Substantivos neutros
 internauta/10 po:substantivo
 xemente/10 po:substantivo
 
+# Verbos
 adicionar/200,201 po:verbo ts:transitiva al:adiciónar
 adiciónar/666,202 st:adicionar ts:alomorfo adicionar transitiva
 amordiscar/200,201 po:verbo ts:transitiva al:amordíscar
@@ -149,17 +133,16 @@ vencéllar/666,202,232 st:vencellar ts:alomorfo vencellar transitiva / pronomina
 xudicializar/200,201 po:verbo ts:transitiva al:xudicialízar
 xudicialízar/666,202 st:xudicializar ts:alomorfo xudicializar transitiva
 
-# Nomes propios.
+# Nomes.
 Galipedia po:nome propio
 hunspell po:nome propio
 Hunspell po:nome propio
-Office po:nome propio
 Vichona po:nome propio
 VOLG po:nome propio
 volga po:nome propio
 VOLGa po:nome propio
 
-# Nomes de teclas.
+# Teclas.
 Ctrl po:tecla
 CTRL po:tecla
 Maiús po:tecla
@@ -362,6 +345,17 @@ S.I.O.P.E. po:sigla                 # Sección de Información, Orientación, Pr
 TDT po:sigla                        # https://gl.wikipedia.org/wiki/Televisi%C3%B3n_Dixital_Terrestre
 TMI po:sigla                        # Taxa de mortalidade infantil
 TMM5 po:sigla                       # Taxa de mortalidade de menores de 5 anos
+UNAM po:sigla                       # Universidade Nacional Autónoma de México
+UNGEI po:sigla                      # United Nations Girls' Education Initiative
+UNIFIL po:sigla                     # https://gl.wikipedia.org/wiki/Forza_Provisional_das_Naci%C3%B3ns_Unidas_en_L%C3%ADbano
+UNMISET po:sigla                    # United Nations Mission of Support in East Timor
+UNMOGIP po:sigla                    # United Nations Military Observer Group in India and Pakistan
+USAID po:sigla                      # United States Agency for International Development
+VCR po:sigla                        # Video Cassette Recording
+VHA po:sigla                        # Veterans Health Administration
+VIH po:sigla                        # https://gl.wikipedia.org/wiki/Virus_da_inmunodeficiencia_humana
+VTR po:sigla                        # Video Tape Recorder
+VLSI po:sigla                       # Very Large Scale Integration
 
 # Incertos.
 a\/
@@ -457,6 +451,7 @@ TBI
 TIR         # https://en.wikipedia.org/wiki/TIR
 TRO-BA
 TRO-BC
+UNEB        # Uganda National Examination Board? Universidade do Estado da Bahia?
 vend.
 vix.
 vta.

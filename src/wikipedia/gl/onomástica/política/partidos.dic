@@ -264,6 +264,7 @@ A.VE.P.ALH po:nome
 A.x.S.M. po:nome
 A.Y. po:nome
 A.Y.I. po:nome
+AA po:nome
 AA.VV.C. po:nome
 AAD po:nome
 AAN po:nome
@@ -307,6 +308,7 @@ per po:nome [n-grama: Acció per Sitges]
 Sitges po:nome [n-grama: Acció per Sitges]
 AcCioN po:nome
 Castellana po:nome [n-grama: Acción Castellana Popular]
+Catalá po:nome [n-grama: Acción Catalá]
 Catalana|Acció po:nome [n-grama: Acción Catalana|Acció Catalana]
 Catalana po:nome [n-grama: Acción Catalana|Acció Catalana]
 Ciudadana po:nome [n-grama: Acción Ciudadana Liberal]
@@ -2191,6 +2193,11 @@ CAS po:nome
 del po:nome [n-grama: Casa del Pueblo de Mahon]
 Pueblo po:nome [n-grama: Casa del Pueblo de Mahon]
 Mahon po:nome [n-grama: Casa del Pueblo de Mahon]
+Castela po:nome [n-grama: Castela Nova en galego e ata finais de 2008 Juventudes Comuneras]
+ata po:nome [n-grama: Castela Nova en galego e ata finais de 2008 Juventudes Comuneras]
+finais po:nome [n-grama: Castela Nova en galego e ata finais de 2008 Juventudes Comuneras]
+Juventudes po:nome [n-grama: Castela Nova en galego e ata finais de 2008 Juventudes Comuneras]
+Comuneras po:nome [n-grama: Castela Nova en galego e ata finais de 2008 Juventudes Comuneras]
 Castellanos po:nome
 Castellterçol po:nome [n-grama: Castellterçol Alternativa Local]
 Local po:nome [n-grama: Castellterçol Alternativa Local]
@@ -2799,6 +2806,8 @@ Compromiso po:nome [n-grama: Compromiso Las Palmas de G.C.]
 Las po:nome [n-grama: Compromiso Las Palmas de G.C.]
 Palmas po:nome [n-grama: Compromiso Las Palmas de G.C.]
 G.C. po:nome [n-grama: Compromiso Las Palmas de G.C.]
+Compromiso po:nome [n-grama: Compromiso por Asturias]
+Asturias po:nome [n-grama: Compromiso por Asturias]
 Compromiso po:nome [n-grama: Compromiso por Firgas]
 Firgas po:nome [n-grama: Compromiso por Firgas]
 Compromiso po:nome [n-grama: Compromiso por Galicia]
@@ -2865,13 +2874,25 @@ Conservadores po:nome [n-grama: Confederación de Partidos Conservadores]
 Radicales po:nome [n-grama: Confederación de Radicales]
 Independientes po:nome [n-grama: Confederación Española de Independientes]
 Rural po:nome [n-grama: Confederación Rural Española]
+Congreso po:nome [n-grama: Congreso de Rodesia do Norte]
+Rodesia po:nome [n-grama: Congreso de Rodesia do Norte]
 Congreso po:nome [n-grama: Congreso Nacional Africano]
 Africano po:nome [n-grama: Congreso Nacional Africano]
+Congreso po:nome [n-grama: Congreso Nacional Africano de Rodesia do Norte]
+Africano po:nome [n-grama: Congreso Nacional Africano de Rodesia do Norte]
+Rodesia po:nome [n-grama: Congreso Nacional Africano de Rodesia do Norte]
+Congreso po:nome [n-grama: Congreso Nacional Africano de Rodesia do Sur]
+Africano po:nome [n-grama: Congreso Nacional Africano de Rodesia do Sur]
+Rodesia po:nome [n-grama: Congreso Nacional Africano de Rodesia do Sur]
 Congreso po:nome [n-grama: Congreso Nacional de Canarias]
 Canarias po:nome [n-grama: Congreso Nacional de Canarias]
 Congreso po:nome [n-grama: Congreso Nacional Nativo Sudafricano]
 Nativo po:nome [n-grama: Congreso Nacional Nativo Sudafricano]
 Sudafricano po:nome [n-grama: Congreso Nacional Nativo Sudafricano]
+Consello po:nome [n-grama: Consello Nacional Africano]
+Africano po:nome [n-grama: Consello Nacional Africano]
+Consello po:nome [n-grama: Consello Nacional Africano Unido]
+Africano po:nome [n-grama: Consello Nacional Africano Unido]
 Conservadors po:nome [n-grama: Conservadors de Catalunya]
 Catalunya po:nome [n-grama: Conservadors de Catalunya]
 Conservative po:nome [n-grama: Conservative and Unionist Party]
@@ -3159,6 +3180,8 @@ Canaria po:nome [n-grama: Democracia Canaria]
 Democracia po:nome [n-grama: Democracia Conservadora Independiente]
 Conservadora po:nome [n-grama: Democracia Conservadora Independiente]
 Independiente po:nome [n-grama: Democracia Conservadora Independiente]
+Democracia po:nome [n-grama: Democracia Cristiá]
+Cristiá po:nome [n-grama: Democracia Cristiá]
 Democracia po:nome [n-grama: Democracia Cristiana]
 Cristiana po:nome [n-grama: Democracia Cristiana]
 Democracia po:nome [n-grama: Democracia Cristiana Andaluza]
@@ -3255,6 +3278,8 @@ Derecha po:nome [n-grama: Derecha Independiente Alborayense]
 Independiente po:nome [n-grama: Derecha Independiente Alborayense]
 Alborayense po:nome [n-grama: Derecha Independiente Alborayense]
 Derecha po:nome [n-grama: Derecha Liberal Republicana]
+Dereita po:nome [n-grama: Dereita de Cataluña]
+Cataluña po:nome [n-grama: Dereita de Cataluña]
 Dereita po:nome [n-grama: Dereita Galeguista]
 Galeguista po:nome [n-grama: Dereita Galeguista]
 Desarrollo po:nome [n-grama: Desarrollo y Progreso de Majadahonda]
@@ -3340,6 +3365,7 @@ EAR po:nome
 EBIN po:nome
 Ebrencs po:nome [n-grama: Ebrencs Independents]
 Independents po:nome [n-grama: Ebrencs Independents]
+EC po:nome
 eco.v.i.b. po:nome
 Ecologistas po:nome [n-grama: Ecologistas los Verdes Independientes de Las Baleares]
 los po:nome [n-grama: Ecologistas los Verdes Independientes de Las Baleares]
@@ -3352,6 +3378,7 @@ EdM po:nome
 Eficacia po:nome [n-grama: Eficacia Independiente]
 Independiente po:nome [n-grama: Eficacia Independiente]
 EGU po:nome
+EHAK po:nome
 Ei po:nome
 Ei po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels Democrates Descontents]
 Escons po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels Democrates Descontents]
@@ -3359,6 +3386,7 @@ Insubmisos-Alternativa po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels D
 dels po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels Democrates Descontents]
 Democrates po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels Democrates Descontents]
 Descontents po:nome [n-grama: Ei Escons Insubmisos-Alternativa dels Democrates Descontents]
+EIA po:nome
 EILG po:nome
 éirígí po:nome
 Eivissa po:nome [n-grama: Eivissa pel Canvi]
@@ -3553,6 +3581,7 @@ Espacio po:nome [n-grama: Espacio Alternativo]
 Mestiza po:nome [n-grama: España Mestiza]
 Españoles po:nome [n-grama: Españoles Libres e Iguales]
 Iguales po:nome [n-grama: Españoles Libres e Iguales]
+Espazo po:nome [n-grama: Espazo Alternativo]
 ESQ.VAL. po:nome
 Esquerda po:nome [n-grama: Esquerda Anticapitalista]
 Anticapitalista po:nome [n-grama: Esquerda Anticapitalista]
@@ -3683,6 +3712,10 @@ Bai po:nome [n-grama: Euskal Herria Bai]
 Euskal po:nome [n-grama: Euskal Herria Bildu]
 Herria po:nome [n-grama: Euskal Herria Bildu]
 Bildu po:nome [n-grama: Euskal Herria Bildu]
+Euskal po:nome [n-grama: Euskal Herrialdeetako Alderdi Komunista]
+Herrialdeetako po:nome [n-grama: Euskal Herrialdeetako Alderdi Komunista]
+Alderdi po:nome [n-grama: Euskal Herrialdeetako Alderdi Komunista]
+Komunista po:nome [n-grama: Euskal Herrialdeetako Alderdi Komunista]
 Euskal po:nome [n-grama: Euskal Herriko Berdeak-Euskal Berdeak Verdes del País Vasco-Verdes Vascos]
 Herriko po:nome [n-grama: Euskal Herriko Berdeak-Euskal Berdeak Verdes del País Vasco-Verdes Vascos]
 Berdeak-Euskal po:nome [n-grama: Euskal Herriko Berdeak-Euskal Berdeak Verdes del País Vasco-Verdes Vascos]
@@ -3692,6 +3725,13 @@ Vasco-Verdes po:nome [n-grama: Euskal Herriko Berdeak-Euskal Berdeak Verdes del 
 Vascos po:nome [n-grama: Euskal Herriko Berdeak-Euskal Berdeak Verdes del País Vasco-Verdes Vascos]
 Euskal po:nome [n-grama: Euskal Herritarrok]
 Herritarrok po:nome [n-grama: Euskal Herritarrok]
+Euskal po:nome [n-grama: Euskal Iraultzarako Alderdia]
+Iraultzarako po:nome [n-grama: Euskal Iraultzarako Alderdia]
+Alderdia po:nome [n-grama: Euskal Iraultzarako Alderdia]
+Euskal po:nome [n-grama: Euskal Sozialistak Elkartzeko Indarra]
+Sozialistak po:nome [n-grama: Euskal Sozialistak Elkartzeko Indarra]
+Elkartzeko po:nome [n-grama: Euskal Sozialistak Elkartzeko Indarra]
+Indarra po:nome [n-grama: Euskal Sozialistak Elkartzeko Indarra]
 Eusko po:nome [n-grama: Eusko Alkartasuna]
 Alkartasuna po:nome [n-grama: Eusko Alkartasuna]
 Euzko po:nome [n-grama: Euzko Abertzaleak-Nacionalistas Vascos]
@@ -3758,6 +3798,7 @@ F.R.I. po:nome
 F.U.A. po:nome
 F.U.F. po:nome
 FA po:nome
+FAC po:nome
 Fai! po:nome
 FAL po:nome
 Falange po:nome [n-grama: Falange 2.000]
@@ -3881,6 +3922,8 @@ Social po:nome [n-grama: Federación Social Demócrata]
 Socialdemócrata po:nome [n-grama: Federación Socialdemócrata de Madrid]
 Madrid po:nome [n-grama: Federación Socialdemócrata de Madrid]
 Unidade po:nome [n-grama: Federación Unidade Galega]
+Felirati po:nome [n-grama: Felirati Párt]
+Párt po:nome [n-grama: Felirati Párt]
 Ferran po:nome [n-grama: Ferran Units per Salou]
 Units po:nome [n-grama: Ferran Units per Salou]
 per po:nome [n-grama: Ferran Units per Salou]
@@ -3923,6 +3966,8 @@ FORO po:nome
 Foro po:nome [n-grama: Foro Andaluz-Ciudadanos por Andalucía]
 Andaluz-Ciudadanos po:nome [n-grama: Foro Andaluz-Ciudadanos por Andalucía]
 Andalucía po:nome [n-grama: Foro Andaluz-Ciudadanos por Andalucía]
+Foro po:nome [n-grama: Foro Asturias]
+Asturias po:nome [n-grama: Foro Asturias]
 Foro po:nome [n-grama: Foro Centro y Democracia]
 y po:nome [n-grama: Foro Centro y Democracia]
 Democracia po:nome [n-grama: Foro Centro y Democracia]
@@ -3931,6 +3976,8 @@ Ciudadano po:nome [n-grama: Foro Ciudadano de Cáceres]
 Cáceres po:nome [n-grama: Foro Ciudadano de Cáceres]
 Foro po:nome [n-grama: Foro Ciudadano Europeo]
 Ciudadano po:nome [n-grama: Foro Ciudadano Europeo]
+Foro po:nome [n-grama: Foro de Ciudadanos]
+Ciudadanos po:nome [n-grama: Foro de Ciudadanos]
 Foro po:nome [n-grama: Foro de Izquierdas-Los Verdes]
 Izquierdas-Los po:nome [n-grama: Foro de Izquierdas-Los Verdes]
 Foro po:nome [n-grama: Foro de la Izquierda de San Fernando de Henares]
@@ -4033,8 +4080,13 @@ Fronte po:nome [n-grama: Fronte de Salvación Nacional]
 Salvación po:nome [n-grama: Fronte de Salvación Nacional]
 Fronte po:nome [n-grama: Fronte Nacional]
 Fronte po:nome [n-grama: Fronte Nacional Británica]
+Fronte po:nome [n-grama: Fronte Nacional Unida]
 Fronte po:nome [n-grama: Fronte Obreira Galega]
 Obreira po:nome [n-grama: Fronte Obreira Galega]
+Fronte po:nome [n-grama: Fronte Polisario]
+Polisario po:nome [n-grama: Fronte Polisario]
+Fronte po:nome [n-grama: Fronte polo País Valenciano]
+Valenciano po:nome [n-grama: Fronte polo País Valenciano]
 Fronte po:nome [n-grama: Fronte Popular]
 FSD po:nome
 FSI po:nome
@@ -4237,6 +4289,8 @@ del po:nome [n-grama: Gente del Pueblo]
 Pueblo po:nome [n-grama: Gente del Pueblo]
 Gente po:nome [n-grama: Gente para Teulada]
 Teulada po:nome [n-grama: Gente para Teulada]
+Geroa po:nome [n-grama: Geroa Bai]
+Bai po:nome [n-grama: Geroa Bai]
 Gestió po:nome [n-grama: Gestió Social]
 Social po:nome [n-grama: Gestió Social]
 Gestión po:nome [n-grama: Gestión Ciudadana de Torrejón de Velasco]
@@ -4795,6 +4849,7 @@ Batasuna po:nome [n-grama: Herri Batasuna]
 Herri po:nome [n-grama: Herri Hats]
 Hats po:nome [n-grama: Herri Hats]
 Herut po:nome
+HKK po:nome
 Home po:nome [n-grama: Home Rule League]
 Rule po:nome [n-grama: Home Rule League]
 League po:nome [n-grama: Home Rule League]
@@ -5907,6 +5962,7 @@ IZ.CA. po:nome
 IZ.MI. po:nome
 IZA po:nome
 IZAN po:nome
+IzCo po:nome
 izfu po:nome
 IZMA po:nome
 IzP po:nome
@@ -6056,6 +6112,8 @@ Directo po:nome [n-grama: Jarama Directo]
 JERC po:nome
 Jerezanos po:nome [n-grama: Jerezanos por Jerez]
 Jerez po:nome [n-grama: Jerezanos por Jerez]
+Jeune po:nome [n-grama: Jeune Europe]
+Europe po:nome [n-grama: Jeune Europe]
 JEV po:nome
 JNR po:nome
 JONS po:nome
@@ -6134,6 +6192,13 @@ Izquierda po:nome [n-grama: Juventudes de Izquierda Comunista]
 Juventudes po:nome [n-grama: Juventudes Nacional Revolucionarias]
 Revolucionarias po:nome [n-grama: Juventudes Nacional Revolucionarias]
 Kadima po:nome
+Kalle po:nome [n-grama: Kalle Anka-partiet]
+Anka-partiet po:nome [n-grama: Kalle Anka-partiet]
+KANU po:nome
+Kenya po:nome [n-grama: Kenya African National Union]
+African po:nome [n-grama: Kenya African National Union]
+National po:nome [n-grama: Kenya African National Union]
+Union po:nome [n-grama: Kenya African National Union]
 Komunistická po:nome [n-grama: Komunistická strana Čech a Moravy]
 strana po:nome [n-grama: Komunistická strana Čech a Moravy]
 Čech po:nome [n-grama: Komunistická strana Čech a Moravy]
@@ -6265,6 +6330,7 @@ Socialiste po:nome [n-grama: Lëvizja Socialiste për Integrim]
 për po:nome [n-grama: Lëvizja Socialiste për Integrim]
 Integrim po:nome [n-grama: Lëvizja Socialiste për Integrim]
 LG po:nome
+Li po:nome
 Andaluza po:nome [n-grama: Liberación Andaluza]
 Liberales po:nome [n-grama: Liberales Vascos]
 Vascos po:nome [n-grama: Liberales Vascos]
@@ -6277,7 +6343,12 @@ Home po:nome [n-grama: Liga da Home Rule]
 Rule po:nome [n-grama: Liga da Home Rule]
 Familias po:nome [n-grama: Liga das Familias Polacas]
 Polacas po:nome [n-grama: Liga das Familias Polacas]
+Independentes po:nome [n-grama: Liga de Independentes]
+Komunista po:nome [n-grama: Liga Komunista Iraultzailea]
+Iraultzailea po:nome [n-grama: Liga Komunista Iraultzailea]
 Obrera po:nome [n-grama: Liga Obrera Comunista]
+Africana po:nome [n-grama: Liga Popular Africana pola Independencia]
+Independencia po:nome [n-grama: Liga Popular Africana pola Independencia]
 Unitaria po:nome [n-grama: Liga Unitaria de los Trabajadores]
 los po:nome [n-grama: Liga Unitaria de los Trabajadores]
 Trabajadores po:nome [n-grama: Liga Unitaria de los Trabajadores]
@@ -6291,6 +6362,7 @@ Lista po:nome [n-grama: Lista Verde]
 Listas po:nome [n-grama: Listas Independientes de Ciudadanos Europeos]
 Independientes po:nome [n-grama: Listas Independientes de Ciudadanos Europeos]
 Ciudadanos po:nome [n-grama: Listas Independientes de Ciudadanos Europeos]
+LKI po:nome
 LL.I.G.A. po:nome
 LL.S.D'A. po:nome
 LLEI po:nome
@@ -6402,6 +6474,7 @@ M po:nome [n-grama: M S I]
 S po:nome [n-grama: M S I]
 I po:nome [n-grama: M S I]
 M-14-A po:nome
+M-26-J po:nome
 M-J po:nome
 M.A.I. po:nome
 M.A.p.T. po:nome
@@ -6472,6 +6545,7 @@ CARTAGENA po:nome [n-grama: MC CARTAGENA]
 MCE po:nome
 MCES po:nome
 MCL po:nome
+MDT po:nome
 Mebyon po:nome [n-grama: Mebyon Kernow]
 Kernow po:nome [n-grama: Mebyon Kernow]
 MEI po:nome
@@ -6512,6 +6586,11 @@ Iniciativas po:nome [n-grama: Móstoles Iniciativas Ciudadanas]
 Ciudadanas po:nome [n-grama: Móstoles Iniciativas Ciudadanas]
 Móstoles po:nome [n-grama: Móstoles Verde]
 Motivados po:nome
+Mouvement po:nome [n-grama: Mouvement pour l'Autonomie de la Kabylie]
+pour po:nome [n-grama: Mouvement pour l'Autonomie de la Kabylie]
+l'Autonomie po:nome [n-grama: Mouvement pour l'Autonomie de la Kabylie]
+la po:nome [n-grama: Mouvement pour l'Autonomie de la Kabylie]
+Kabylie po:nome [n-grama: Mouvement pour l'Autonomie de la Kabylie]
 Mouvement po:nome [n-grama: Mouvement pour la justice et la paix]
 pour po:nome [n-grama: Mouvement pour la justice et la paix]
 la po:nome [n-grama: Mouvement pour la justice et la paix]
@@ -6526,7 +6605,11 @@ Cambio po:nome [n-grama: Movemento Cidadán polo Cambio]
 Movemento po:nome [n-grama: Movemento Comunista de Euskadi]
 Euskadi po:nome [n-grama: Movemento Comunista de Euskadi]
 Movemento po:nome [n-grama: Movemento Comunista de Galicia]
+Movemento po:nome [n-grama: Movemento do 26 de xullo]
 Movemento po:nome [n-grama: Movemento Galego Democrático]
+Movemento po:nome [n-grama: Movemento para a Autodeterminación da Illa de Bioko]
+Autodeterminación po:nome [n-grama: Movemento para a Autodeterminación da Illa de Bioko]
+Bioko po:nome [n-grama: Movemento para a Autodeterminación da Illa de Bioko]
 Movemento po:nome [n-grama: Movemento pola Francia]
 Francia po:nome [n-grama: Movemento pola Francia]
 Movemento po:nome [n-grama: Movemento pola Xustiza e a Paz]
@@ -6610,6 +6693,7 @@ Movimiento po:nome [n-grama: Movimiento Ciudadano de Cartagena]
 Ciudadano po:nome [n-grama: Movimiento Ciudadano de Cartagena]
 Cartagena po:nome [n-grama: Movimiento Ciudadano de Cartagena]
 Movimiento po:nome [n-grama: Movimiento Comunista]
+Movimiento po:nome [n-grama: Movimiento Comunista de España]
 Movimiento po:nome [n-grama: Movimiento de Acción Social por Ceuta]
 Social po:nome [n-grama: Movimiento de Acción Social por Ceuta]
 Ceuta po:nome [n-grama: Movimiento de Acción Social por Ceuta]
@@ -6798,6 +6882,11 @@ Especulación po:nome [n-grama: Non a Especulación Urbanística]
 Urbanística po:nome [n-grama: Non a Especulación Urbanística]
 NOPES po:nome
 NOPP po:nome
+Northern po:nome [n-grama: Northern Rhodesian African National Congress]
+Rhodesian po:nome [n-grama: Northern Rhodesian African National Congress]
+African po:nome [n-grama: Northern Rhodesian African National Congress]
+National po:nome [n-grama: Northern Rhodesian African National Congress]
+Congress po:nome [n-grama: Northern Rhodesian African National Congress]
 NOS po:nome
 Nós-Unidade po:nome [n-grama: Nós-Unidade Popular]
 NÓS-Unidade po:nome [n-grama: NÓS-Unidade Popular]
@@ -6907,6 +6996,7 @@ Valdemorillo po:nome [n-grama: Nuevo Valdemorillo]
 Nuevos po:nome [n-grama: Nuevos Republicanos Españoles]
 Españoles po:nome [n-grama: Nuevos Republicanos Españoles]
 NUSO po:nome
+Estonia po:nome [n-grama: O Partido Comunista de Estonia]
 O.A. po:nome
 O.B.C. po:nome
 O.I. po:nome
@@ -6966,6 +7056,12 @@ ORGA po:nome
 Organització po:nome [n-grama: Organització de Veins Independents]
 Veins po:nome [n-grama: Organització de Veins Independents]
 Independents po:nome [n-grama: Organització de Veins Independents]
+Organização po:nome [n-grama: Organização Comunista Marxista-Leninista Portuguesa]
+Marxista-Leninista po:nome [n-grama: Organização Comunista Marxista-Leninista Portuguesa]
+Portuguesa po:nome [n-grama: Organização Comunista Marxista-Leninista Portuguesa]
+Organización po:nome [n-grama: Organización Comunista Marxista-Leninista Portuguesa]
+Marxista-Leninista po:nome [n-grama: Organización Comunista Marxista-Leninista Portuguesa]
+Portuguesa po:nome [n-grama: Organización Comunista Marxista-Leninista Portuguesa]
 Organización po:nome [n-grama: Organización de Izquierda Comunista]
 Izquierda po:nome [n-grama: Organización de Izquierda Comunista]
 Organización po:nome [n-grama: Organización de Marxistas-Leninistas de España]
@@ -6978,6 +7074,8 @@ Neda po:nome [n-grama: Organización de Progresistas Independientes en Neda]
 Organización po:nome [n-grama: Organización Independiente Valenciana]
 Independiente po:nome [n-grama: Organización Independiente Valenciana]
 Valenciana po:nome [n-grama: Organización Independiente Valenciana]
+Organización po:nome [n-grama: Organización para a Liberación da Palestina]
+Palestina po:nome [n-grama: Organización para a Liberación da Palestina]
 Organización po:nome [n-grama: Organización Popular de la Serranía de Ronda]
 la po:nome [n-grama: Organización Popular de la Serranía de Ronda]
 Serranía po:nome [n-grama: Organización Popular de la Serranía de Ronda]
@@ -7004,6 +7102,7 @@ ORYSPE po:nome
 Osona po:nome [n-grama: Osona Municipal]
 Municipal po:nome [n-grama: Osona Municipal]
 OXIGENO po:nome
+P po:nome
 P po:nome [n-grama: P A E C]
 C po:nome [n-grama: P A E C]
 P po:nome [n-grama: P DE A]
@@ -7449,6 +7548,10 @@ PARAMADIS po:nome
 PARG po:nome
 Parque po:nome [n-grama: Parque Alternativa Unida-Alfafar]
 Unida-Alfafar po:nome [n-grama: Parque Alternativa Unida-Alfafar]
+Parti po:nome [n-grama: Parti libéral du Québec]
+libéral po:nome [n-grama: Parti libéral du Québec]
+du po:nome [n-grama: Parti libéral du Québec]
+Québec po:nome [n-grama: Parti libéral du Québec]
 Parti po:nome [n-grama: Parti Ouvrier Français]
 Ouvrier po:nome [n-grama: Parti Ouvrier Français]
 Français po:nome [n-grama: Parti Ouvrier Français]
@@ -7510,7 +7613,8 @@ Social po:nome [n-grama: Partido Acción Social Evangélica]
 Evangélica po:nome [n-grama: Partido Acción Social Evangélica]
 Administradores po:nome [n-grama: Partido Administradores de Jerez]
 Jerez po:nome [n-grama: Partido Administradores de Jerez]
-Agrario po:nome [n-grama: Partido Agrario]
+Africano po:nome [n-grama: Partido Africano da Independencia]
+Independencia po:nome [n-grama: Partido Africano da Independencia]
 Agrario po:nome [n-grama: Partido Agrario Ambientalista]
 Ambientalista po:nome [n-grama: Partido Agrario Ambientalista]
 Agrario po:nome [n-grama: Partido Agrario Español]
@@ -7575,11 +7679,14 @@ Azul po:nome [n-grama: Partido Azul de Derecha Progresista]
 Derecha po:nome [n-grama: Partido Azul de Derecha Progresista]
 Azul po:nome [n-grama: Partido Azul Estelar]
 Estelar po:nome [n-grama: Partido Azul Estelar]
+Baath po:nome [n-grama: Partido Baath Árabe Socialista]
+Árabe po:nome [n-grama: Partido Baath Árabe Socialista]
 Balear po:nome [n-grama: Partido Balear]
 Barbateño po:nome [n-grama: Partido Barbateño Unido]
 Blanco po:nome [n-grama: Partido Blanco]
 Blanco po:nome [n-grama: Partido Blanco Independiente]
 Independiente po:nome [n-grama: Partido Blanco Independiente]
+Bretón po:nome [n-grama: Partido Bretón]
 Cádiz po:nome [n-grama: Partido Cádiz Radical]
 Canario po:nome [n-grama: Partido Canario de Acción Democrática]
 Canario po:nome [n-grama: Partido Canario de Vanguardia Popular]
@@ -7632,8 +7739,12 @@ Melillense po:nome [n-grama: Partido Coalición Melillense-Partido Melillense]
 Coalición po:nome [n-grama: Partido Coalición Valenciana]
 Valenciana po:nome [n-grama: Partido Coalición Valenciana]
 Coalición po:nome [n-grama: Partido Coalición Verde]
+Alemán po:nome [n-grama: Partido Comunista Alemán]
+Armenio po:nome [n-grama: Partido Comunista Armenio]
 bielorruso po:nome [n-grama: Partido Comunista bielorruso]
+India po:nome [n-grama: Partido Comunista da India]
 Acerbaixán po:nome [n-grama: Partido Comunista de Acerbaixán]
+Albania po:nome [n-grama: Partido Comunista de Albania]
 Alemaña po:nome [n-grama: Partido Comunista de Alemaña]
 Andalucía po:nome [n-grama: Partido Comunista de Andalucía]
 Aragón po:nome [n-grama: Partido Comunista de Aragón]
@@ -7641,6 +7752,7 @@ Asturias po:nome [n-grama: Partido Comunista de Asturias]
 Austria po:nome [n-grama: Partido Comunista de Austria]
 Bohemia po:nome [n-grama: Partido Comunista de Bohemia e Moravia]
 Moravia po:nome [n-grama: Partido Comunista de Bohemia e Moravia]
+Bulgaria po:nome [n-grama: Partido Comunista de Bulgaria]
 Canarias po:nome [n-grama: Partido Comunista de Canarias]
 Cantabria po:nome [n-grama: Partido Comunista de Cantabria]
 Castilla-La po:nome [n-grama: Partido Comunista de Castilla-La Mancha]
@@ -7648,8 +7760,10 @@ Mancha po:nome [n-grama: Partido Comunista de Castilla-La Mancha]
 Castilla-León po:nome [n-grama: Partido Comunista de Castilla-León]
 Checoslovaquia po:nome [n-grama: Partido Comunista de Checoslovaquia]
 Chile po:nome [n-grama: Partido Comunista de Chile]
+China po:nome [n-grama: Partido Comunista de China]
 Unificado po:nome [n-grama: Partido Comunista de España Unificado]
 Extremadura po:nome [n-grama: Partido Comunista de Extremadura]
+Finlandia po:nome [n-grama: Partido Comunista de Finlandia]
 Francia po:nome [n-grama: Partido Comunista de Francia]
 Marxista po:nome [n-grama: Partido Comunista de Galicia Marxista Revolucionario]
 Revolucionario po:nome [n-grama: Partido Comunista de Galicia Marxista Revolucionario]
@@ -7686,6 +7800,9 @@ Valencià po:nome [n-grama: Partido Comunista del País Valenciano Partit Comuni
 del po:nome [n-grama: Partido Comunista del Pueblo Andaluz]
 Pueblo po:nome [n-grama: Partido Comunista del Pueblo Andaluz]
 Andaluz po:nome [n-grama: Partido Comunista del Pueblo Andaluz]
+del po:nome [n-grama: Partido Comunista del Pueblo Castellano]
+Pueblo po:nome [n-grama: Partido Comunista del Pueblo Castellano]
+Castellano po:nome [n-grama: Partido Comunista del Pueblo Castellano]
 del po:nome [n-grama: Partido Comunista del Pueblo de Cataluña]
 Pueblo po:nome [n-grama: Partido Comunista del Pueblo de Cataluña]
 Cataluña po:nome [n-grama: Partido Comunista del Pueblo de Cataluña]
@@ -7705,6 +7822,7 @@ Conservador po:nome [n-grama: Partido Conservador Español]
 Constitucional po:nome [n-grama: Partido Constitucional]
 Cristiano po:nome [n-grama: Partido Cristiano Democrático de Huelva]
 Huelva po:nome [n-grama: Partido Cristiano Democrático de Huelva]
+Esquerda po:nome [n-grama: Partido da Esquerda Europea]
 Nación po:nome [n-grama: Partido da Nación Occitana]
 Occitana po:nome [n-grama: Partido da Nación Occitana]
 Protección po:nome [n-grama: Partido da Protección dos Dereitos Humanos]
@@ -7858,6 +7976,9 @@ los po:nome [n-grama: Partido de los Pensionistas en Acción]
 Pensionistas po:nome [n-grama: Partido de los Pensionistas en Acción]
 los po:nome [n-grama: Partido de los Trabajadores de España]
 Trabajadores po:nome [n-grama: Partido de los Trabajadores de España]
+los po:nome [n-grama: Partido de los Trabajadores de España-Unidad Comunista]
+Trabajadores po:nome [n-grama: Partido de los Trabajadores de España-Unidad Comunista]
+España-Unidad po:nome [n-grama: Partido de los Trabajadores de España-Unidad Comunista]
 los po:nome [n-grama: Partido de los Trabajadores en Precario]
 Trabajadores po:nome [n-grama: Partido de los Trabajadores en Precario]
 Precario po:nome [n-grama: Partido de los Trabajadores en Precario]
@@ -7948,6 +8069,7 @@ Democracia po:nome [n-grama: Partido Democracia Social de Albania]
 Social po:nome [n-grama: Partido Democracia Social de Albania]
 Albania po:nome [n-grama: Partido Democracia Social de Albania]
 Canario po:nome [n-grama: Partido Demócrata Canario]
+Cristián po:nome [n-grama: Partido Demócrata Cristián]
 Cristiano po:nome [n-grama: Partido Demócrata Cristiano]
 Andalucía po:nome [n-grama: Partido Demócrata de Andalucía]
 Ciudadanos po:nome [n-grama: Partido Demócrata de Ciudadanos de Algete]
@@ -8036,8 +8158,11 @@ Derechos po:nome [n-grama: Partido Derechos Ciudadanos]
 Ciudadanos po:nome [n-grama: Partido Derechos Ciudadanos]
 Movimento po:nome [n-grama: Partido do Movimento Democrático Brasileiro]
 Brasileiro po:nome [n-grama: Partido do Movimento Democrático Brasileiro]
+Pato po:nome [n-grama: Partido do Pato Donald]
+Donald po:nome [n-grama: Partido do Pato Donald]
 Reconstrución po:nome [n-grama: Partido do Pobo para a Reconstrución e a Democracia]
 Democracia po:nome [n-grama: Partido do Pobo para a Reconstrución e a Democracia]
+Traballo po:nome [n-grama: Partido do Traballo]
 Doble po:nome [n-grama: Partido Doble Autonomía]
 Autonomía po:nome [n-grama: Partido Doble Autonomía]
 Dolores po:nome [n-grama: Partido Dolores Independiente]
@@ -8051,6 +8176,12 @@ Independientes po:nome [n-grama: Partido dos Independientes Orteganos]
 Orteganos po:nome [n-grama: Partido dos Independientes Orteganos]
 Pontevedra po:nome [n-grama: Partido dos Progresistas de Pontevedra]
 Trabalhadores po:nome [n-grama: Partido dos Trabalhadores]
+Traballadores po:nome [n-grama: Partido dos Traballadores de Corea]
+Corea po:nome [n-grama: Partido dos Traballadores de Corea]
+Traballadores po:nome [n-grama: Partido dos Traballadores do Curdistán]
+Curdistán po:nome [n-grama: Partido dos Traballadores do Curdistán]
+Traballadores po:nome [n-grama: Partido dos Traballadores Noruegueses]
+Noruegueses po:nome [n-grama: Partido dos Traballadores Noruegueses]
 Veciños po:nome [n-grama: Partido dos Veciños de Teo]
 Teo po:nome [n-grama: Partido dos Veciños de Teo]
 Ecológico po:nome [n-grama: Partido Ecológico Español]
@@ -8117,6 +8248,8 @@ Socialdemócrata po:nome [n-grama: Partido Independente Socialdemócrata de Alem
 Alemaña po:nome [n-grama: Partido Independente Socialdemócrata de Alemaña]
 Independentista po:nome [n-grama: Partido Independentista Canario]
 Canario po:nome [n-grama: Partido Independentista Canario]
+Independentista po:nome [n-grama: Partido Independentista Portorriqueño]
+Portorriqueño po:nome [n-grama: Partido Independentista Portorriqueño]
 Independiente po:nome [n-grama: Partido Independiente]
 Independiente po:nome [n-grama: Partido Independiente Alternativa Algabeña]
 Algabeña po:nome [n-grama: Partido Independiente Alternativa Algabeña]
@@ -8489,6 +8622,7 @@ Andaluz po:nome [n-grama: Partido Liberal Andaluz]
 Adeje po:nome [n-grama: Partido Liberal de Adeje Europeo]
 Cataluña po:nome [n-grama: Partido Liberal de Cataluña]
 Lanzarote po:nome [n-grama: Partido Liberal de Lanzarote]
+Quebec po:nome [n-grama: Partido Liberal de Quebec]
 del po:nome [n-grama: Partido Liberal del Empleo y la Vivienda Estatal]
 Empleo po:nome [n-grama: Partido Liberal del Empleo y la Vivienda Estatal]
 y po:nome [n-grama: Partido Liberal del Empleo y la Vivienda Estatal]
@@ -8604,6 +8738,9 @@ NYANP po:nome [n-grama: Partido NYANP]
 Obreiro po:nome [n-grama: Partido Obreiro Francés]
 Francés po:nome [n-grama: Partido Obreiro Francés]
 Obreiro po:nome [n-grama: Partido Obreiro Galego]
+Obreiro po:nome [n-grama: Partido Obreiro Socialdemócrata Ruso]
+Socialdemócrata po:nome [n-grama: Partido Obreiro Socialdemócrata Ruso]
+Ruso po:nome [n-grama: Partido Obreiro Socialdemócrata Ruso]
 Obreiro po:nome [n-grama: Partido Obreiro Unificado Polaco]
 Unificado po:nome [n-grama: Partido Obreiro Unificado Polaco]
 Polaco po:nome [n-grama: Partido Obreiro Unificado Polaco]
@@ -8658,6 +8795,8 @@ Pensionista po:nome [n-grama: Partido Pensionista Demócrata]
 Pirata po:nome [n-grama: Partido Pirata]
 Democracia po:nome [n-grama: Partido pola Democracia]
 Independencia po:nome [n-grama: Partido pola Independencia]
+político po:nome [n-grama: partido político]
+político po:nome [n-grama: partido político europeo]
 Político po:nome [n-grama: Partido Político Independiente Colmenar]
 Independiente po:nome [n-grama: Partido Político Independiente Colmenar]
 Colmenar po:nome [n-grama: Partido Político Independiente Colmenar]
@@ -8676,6 +8815,7 @@ Euskadi po:nome [n-grama: Partido Popular de Euskadi]
 Dinamarqués po:nome [n-grama: Partido Popular Dinamarqués]
 Vasco po:nome [n-grama: Partido Popular do País Vasco]
 Gallego po:nome [n-grama: Partido Popular Gallego]
+Sueco po:nome [n-grama: Partido Popular Sueco]
 Valenciano po:nome [n-grama: Partido Popular Valenciano]
 el po:nome [n-grama: Partido por el Nuevo Sistema]
 Nuevo po:nome [n-grama: Partido por el Nuevo Sistema]
@@ -9042,6 +9182,8 @@ Inglaterra po:nome [n-grama: Partido Verde de Inglaterra e Gales]
 Gales po:nome [n-grama: Partido Verde de Inglaterra e Gales]
 Villariego po:nome [n-grama: Partido Villariego Independiente]
 Independiente po:nome [n-grama: Partido Villariego Independiente]
+Partidu po:nome [n-grama: Partidu Republikanu]
+Republikanu po:nome [n-grama: Partidu Republikanu]
 Partit po:nome [n-grama: Partit Acció Socialista de Catalunya]
 Acció po:nome [n-grama: Partit Acció Socialista de Catalunya]
 Catalunya po:nome [n-grama: Partit Acció Socialista de Catalunya]
@@ -9368,6 +9510,7 @@ PC-95-I po:nome
 PCA po:nome
 PCAN po:nome
 PCAS po:nome
+PCC po:nome
 PCCh po:nome
 PCD po:nome
 PCDH po:nome
@@ -9772,6 +9915,7 @@ PLIX po:nome
 PLJ po:nome
 PLN po:nome
 PLPS po:nome
+PLQ po:nome
 pMAR po:nome
 PMDB po:nome
 PML po:nome
@@ -9796,6 +9940,7 @@ PNN po:nome
 PNR po:nome
 PNRIF po:nome
 PNT po:nome
+Po po:nome
 POBA po:nome
 Poble po:nome [n-grama: Poble Actiu]
 Actiu po:nome [n-grama: Poble Actiu]
@@ -9811,6 +9956,7 @@ Podemos po:nome
 Poder po:nome [n-grama: Poder Natural]
 Natural po:nome [n-grama: Poder Natural]
 POG po:nome
+Polisario po:nome
 Política po:nome [n-grama: Política de Gestión Reciproca]
 Gestión po:nome [n-grama: Política de Gestión Reciproca]
 Reciproca po:nome [n-grama: Política de Gestión Reciproca]
@@ -9869,6 +10015,7 @@ PRAG po:nome
 Prawo po:nome [n-grama: Prawo i Sprawiedliwość]
 i po:nome [n-grama: Prawo i Sprawiedliwość]
 Sprawiedliwość po:nome [n-grama: Prawo i Sprawiedliwość]
+PRC po:nome
 PRCC po:nome
 PRCV po:nome
 PRD po:nome
@@ -9987,6 +10134,7 @@ PS po:nome [n-grama: PS i CC]
 i po:nome [n-grama: PS i CC]
 CC po:nome [n-grama: PS i CC]
 PS-cd po:nome
+PSA po:nome
 PSA-Partido po:nome [n-grama: PSA-Partido Soc]
 Soc po:nome [n-grama: PSA-Partido Soc]
 PSAN po:nome
@@ -10102,6 +10250,8 @@ RDS po:nome
 RE po:nome
 Reagrupament po:nome [n-grama: Reagrupament Nacional Català]
 Català po:nome [n-grama: Reagrupament Nacional Català]
+Reagrupamento po:nome [n-grama: Reagrupamento Democrático Africano]
+Africano po:nome [n-grama: Reagrupamento Democrático Africano]
 Realidad po:nome [n-grama: Realidad Burgalesa]
 Burgalesa po:nome [n-grama: Realidad Burgalesa]
 RED po:nome [n-grama: RED V]
@@ -10201,6 +10351,7 @@ Revolutionary po:nome [n-grama: Revolutionary United Front]
 United po:nome [n-grama: Revolutionary United Front]
 Front po:nome [n-grama: Revolutionary United Front]
 Solidarios po:nome [n-grama: Rexión e Pobos Solidarios]
+Rí po:nome
 RN po:nome
 RNV po:nome
 Roque po:nome [n-grama: Roque Aguayro]
@@ -10208,8 +10359,11 @@ Aguayro po:nome [n-grama: Roque Aguayro]
 Roteños po:nome [n-grama: Roteños Unidos]
 RP po:nome
 RT po:nome
+Ruotsalainen po:nome [n-grama: Ruotsalainen Kansanpuolue]
+Kansanpuolue po:nome [n-grama: Ruotsalainen Kansanpuolue]
 RVPV po:nome
 RWF po:nome
+S po:nome
 S.A. po:nome
 S.A.I. po:nome
 S.A.L.A.R. po:nome
@@ -10239,6 +10393,7 @@ S.U. po:nome
 S'UNIO po:nome
 S'Unió po:nome [n-grama: S'Unió Calvianera]
 Calvianera po:nome [n-grama: S'Unió Calvianera]
+Sa po:nome
 SAC po:nome
 SAIn po:nome
 Salou po:nome [n-grama: Salou pel Canvi]
@@ -10356,6 +10511,7 @@ Independientes po:nome [n-grama: Socialistas Independientes de Nules]
 Nules po:nome [n-grama: Socialistas Independientes de Nules]
 Independientes po:nome [n-grama: Socialistas Independientes de Orense]
 Orense po:nome [n-grama: Socialistas Independientes de Orense]
+Patriotas po:nome [n-grama: Socialistas Patriotas]
 Galicia-Socialistas po:nome [n-grama: Socialistas por Galicia-Socialistas por Ourense]
 Ourense po:nome [n-grama: Socialistas por Galicia-Socialistas por Ourense]
 Socialistes po:nome [n-grama: Socialistes del Pueblu Asturiano]
@@ -10431,6 +10587,7 @@ Som po:nome [n-grama: Som del Poble]
 del po:nome [n-grama: Som del Poble]
 Poble po:nome [n-grama: Som del Poble]
 SOM-P po:nome
+Sortu po:nome
 Soy po:nome [n-grama: Soy Vecino]
 Vecino po:nome [n-grama: Soy Vecino]
 Sozialista po:nome [n-grama: Sozialista Abertzaleak]
@@ -10441,7 +10598,10 @@ SpR po:nome
 ST po:nome
 Unificat po:nome [n-grama: Sur Unificat]
 SV po:nome
+Svenska po:nome [n-grama: Svenska Folkpartiet]
+Folkpartiet po:nome [n-grama: Svenska Folkpartiet]
 SVO po:nome
+SWAPO po:nome
 SxSPC po:nome
 Synaspismós po:nome [n-grama: Synaspismós Rizospastikís Aristerás]
 Rizospastikís po:nome [n-grama: Synaspismós Rizospastikís Aristerás]
@@ -10767,6 +10927,7 @@ UCA po:nome
 UCAM po:nome
 UCAMO po:nome
 UCCA po:nome
+UCD po:nome
 UCE po:nome
 UCG po:nome
 UCICAS po:nome
@@ -10780,6 +10941,7 @@ Ud.Ca po:nome
 UDC po:nome
 UDCE po:nome
 UDCP po:nome
+UDDIA po:nome
 UDEME po:nome
 UDEPE po:nome
 UDI po:nome
@@ -10813,6 +10975,8 @@ UMdC po:nome
 UMG po:nome
 UMP po:nome
 UMS po:nome
+Nuevo po:nome [n-grama: Un Nuevo Tiempo]
+Tiempo po:nome [n-grama: Un Nuevo Tiempo]
 Honesto po:nome [n-grama: Un Partido Honesto E Integrador]
 Integrador po:nome [n-grama: Un Partido Honesto E Integrador]
 UN-IB po:nome
@@ -11408,6 +11572,9 @@ Ciudad po:nome [n-grama: Unión Democrática Ciudad del Vino]
 del po:nome [n-grama: Unión Democrática Ciudad del Vino]
 Vino po:nome [n-grama: Unión Democrática Ciudad del Vino]
 Arosa po:nome [n-grama: Unión Democrática de Arosa]
+Defensa po:nome [n-grama: Unión Democrática de Defensa dos Intereses Africanos]
+Intereses po:nome [n-grama: Unión Democrática de Defensa dos Intereses Africanos]
+Africanos po:nome [n-grama: Unión Democrática de Defensa dos Intereses Africanos]
 Griñón po:nome [n-grama: Unión Democrática de Griñón]
 Mengíbar po:nome [n-grama: Unión Democrática de Mengíbar]
 Redondela po:nome [n-grama: Unión Democrática de Redondela]
@@ -11424,6 +11591,7 @@ Murcia po:nome [n-grama: Unión Democrática Región de Murcia]
 Navarro po:nome [n-grama: Unión do Pobo Navarro]
 Povo po:nome [n-grama: Unión do Povo Galego]
 Traballo po:nome [n-grama: Unión do Traballo]
+Esquerda po:nome [n-grama: Unión dos Liberais e da Esquerda]
 General po:nome [n-grama: Unión General de Desempleados y Marginados]
 Desempleados po:nome [n-grama: Unión General de Desempleados y Marginados]
 y po:nome [n-grama: Unión General de Desempleados y Marginados]
@@ -11468,6 +11636,8 @@ Minas po:nome [n-grama: Unión Minera de Villanueva del Río y Minas]
 Mostoleña po:nome [n-grama: Unión Mostoleña Independiente]
 Independiente po:nome [n-grama: Unión Mostoleña Independiente]
 Murciana po:nome [n-grama: Unión Murciana]
+Africana po:nome [n-grama: Unión Nacional Africana de Kenya]
+Kenya po:nome [n-grama: Unión Nacional Africana de Kenya]
 Andaluza po:nome [n-grama: Unión Nacional Andaluza]
 Pensionistas po:nome [n-grama: Unión Nacional de Pensionistas]
 Canaria po:nome [n-grama: Unión Nacionalista Canaria]
@@ -11506,6 +11676,8 @@ Peninsular po:nome [n-grama: Unión Peninsular Independiente Gallega]
 Independiente po:nome [n-grama: Unión Peninsular Independiente Gallega]
 Gallega po:nome [n-grama: Unión Peninsular Independiente Gallega]
 Pilareña po:nome [n-grama: Unión Pilareña]
+Europa po:nome [n-grama: Unión pola Europa das Nacións]
+Nacións po:nome [n-grama: Unión pola Europa das Nacións]
 Pontonera po:nome [n-grama: Unión Pontonera]
 Astillero-Guarnizo po:nome [n-grama: Unión Popular Astillero-Guarnizo]
 Arteixo po:nome [n-grama: Unión Popular de Arteixo]
@@ -11566,6 +11738,8 @@ Social po:nome [n-grama: Unión Social Cristiá]
 Cristiá po:nome [n-grama: Unión Social Cristiá]
 Social po:nome [n-grama: Unión Social Demócrata de Andalucía]
 Andalucía po:nome [n-grama: Unión Social Demócrata de Andalucía]
+Social po:nome [n-grama: Unión Social Demócrata de Macedonia]
+Macedonia po:nome [n-grama: Unión Social Demócrata de Macedonia]
 Social po:nome [n-grama: Unión Social Demócrata Española]
 Social po:nome [n-grama: Unión Social Española]
 Social po:nome [n-grama: Unión Social Liberal]
@@ -11661,6 +11835,10 @@ Unitat po:nome [n-grama: Unitat Socialista del País Valencià]
 del po:nome [n-grama: Unitat Socialista del País Valencià]
 Valencià po:nome [n-grama: Unitat Socialista del País Valencià]
 UNITE po:nome
+United po:nome [n-grama: United African National Council]
+African po:nome [n-grama: United African National Council]
+National po:nome [n-grama: United African National Council]
+Council po:nome [n-grama: United African National Council]
 Units po:nome [n-grama: Units per Bellaterra]
 per po:nome [n-grama: Units per Bellaterra]
 Bellaterra po:nome [n-grama: Units per Bellaterra]
@@ -11704,6 +11882,7 @@ UPI-RM po:nome
 UPIC po:nome
 UPM po:nome
 UPMT po:nome
+UPN po:nome
 UPO po:nome
 UPRI po:nome
 UPRv po:nome
@@ -11922,6 +12101,7 @@ VVGM po:nome
 Vx+ po:nome
 VYP po:nome
 VYS po:nome
+W po:nome
 X.C.P.T. po:nome
 X.X.I. po:nome
 Xabia po:nome [n-grama: Xabia Som Tots]
