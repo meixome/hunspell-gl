@@ -689,9 +689,18 @@ def loadGeneratorList():
                 pageGenerators = [
                     CategoryBrowser(
                         categoryNames = [u"Montañas"],
-                        validCategoryPattern = u"^(Cordilleiras|Montañas|Montes)",
+                        validCategoryPattern = u"^(Cordilleiras|Cumes|Montañas|Montes)",
+                        invalidPagePattern = u"^(Cumes máis|Lista)",
+                        invalidCategoryAsPagePattern = u"^(Imaxes) ",
                     ),
                 ],
+            ),
+            EntryGenerator(
+                pageGenerators = [
+                    PageLoader(pageNames=[u"Montes de Galicia",]),
+                ],
+                pageParser=TableParser(cellNumbers=[0, 2], skipRows=[0,]),
+                entryParser=EntryParser(separatorsSplitter=[u"/",]),
             )
         ],
     ))

@@ -1000,6 +1000,7 @@ class EntryParser(object):
                  noRtlFilter=True,
                  quoteFilter=True,
                  semicolonSplitter=False,
+                 separatorsSplitter=[],
                  subscriptFilter=True,
                  superscriptFilter=True,
                  unescapeHtml=True,):
@@ -1013,6 +1014,7 @@ class EntryParser(object):
         self.noRtlFilter = noRtlFilter
         self.quoteFilter = quoteFilter
         self.semicolonSplitter = semicolonSplitter
+        self.separatorsSplitter = separatorsSplitter
         self.subscriptFilter = subscriptFilter
         self.superscriptFilter = superscriptFilter
         self.unescapeHtml = unescapeHtml
@@ -1053,6 +1055,7 @@ class EntryParser(object):
             if self.hyphenFilter and u" - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(u" - ")[0]
             if self.linkFilter and u"[[" in entry:
+                entry = re.sub(u"\[\[[^]|]+\|([^]|]+)\]\]", u"\\1", entry)
                 entry = entry.replace(u"[[", u"").replace(u"]]", u"") # Non está preparado para texto nas ligazóns de momento.
             if self.quoteFilter and u"\"" in entry:
                 entry = entry.replace(u"\"", u"")
@@ -1096,6 +1099,16 @@ class EntryParser(object):
                 for outputEntry in outputEntries:
                     if ";" in outputEntry:
                         for newOutputEntry in outputEntry.split(";"):
+                            newOutputEntries.add(newOutputEntry)
+                    else:
+                        newOutputEntries.add(outputEntry)
+                outputEntries = newOutputEntries
+
+            for separator in self.separatorsSplitter:
+                newOutputEntries = set()
+                for outputEntry in outputEntries:
+                    if separator in outputEntry:
+                        for newOutputEntry in outputEntry.split(separator):
                             newOutputEntries.add(newOutputEntry)
                     else:
                         newOutputEntries.add(outputEntry)
