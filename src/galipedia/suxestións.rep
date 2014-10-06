@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-07-27
+#   2013-12-07
 #
 #
 # Limitacións
@@ -44,10 +44,13 @@
 #   As regras para estas suxestións non se escribirán de momento. Pero no futuro procederase a escribilas
 #   independentemente de que os desenvolvedores de Hunspell fornecesen a funcionalidade solicitada ou non.
 
+# a grandes rasgos → a grandes trazos
+# LOCUCIÓN
+
 # a partires de → a partir de
 # LOCUCIÓN
 
-# a grandes rasgos → a grandes trazos
+# a pesares de → a pesar de, pese a
 # LOCUCIÓN
 
 # a veces → ás veces
@@ -433,6 +436,9 @@
 # alemanes → alemáns
 ^alemanes$ alemáns
 
+# Alemania → Alemaña
+^Alemania$ Alemaña
+
 # alevosía → aleivosía
 ^alevosía aleivosía
 
@@ -488,6 +494,10 @@
 
 # alrededor → arredor
 ^alrededor arredor
+
+# altavoz → altofalante
+^altavoz$ altofalante
+^altavoces$ altofalantes
 
 # aluguer → alugueiro
 ^aluguer$ alugueiro
@@ -659,6 +669,9 @@
 
 # aparte → á parte
 ^aparte$ á_parte
+
+# apesar → a pesar
+^apesar$ a_pesar
 
 # apiedar → apiadar
 ^apied apiad
@@ -872,6 +885,9 @@ atorníll aparafús
 ^aun unifiqu
 ^aún unifíc
 ^aún unifíqu
+
+# austriaco → austríaco
+^austriac austríac
 
 # automóvil → automóbil
 ^automóvil automóbil
@@ -1140,6 +1156,12 @@ atorníll aparafús
 ^bursátil$ bolsista
 ^bursátiles$ bolsistas
 
+# burundés/esa → burundiano/a
+^burundés$ burundiano
+^burundesa$ burundiana
+^burundeses$ burundianos
+^burundesas$ burundianas
+
 # búsqueda → busca
 ^búsqueda busca
 
@@ -1289,6 +1311,9 @@ atorníll aparafús
 # celda → cela
 ^celda cela
 
+# cercanía → proximidade
+^cercanía proximidade
+
 # cercano → próximo, achegado
 ^cercan próxim
 ^cercan achegad
@@ -1325,6 +1350,9 @@ atorníll aparafús
 
 # cincel → cicel
 ^cince cice
+
+# cinturón → cinto
+^cinturón cinto
 
 # cipaio → sipaio
 ^cipaio sipaio
@@ -1461,6 +1489,30 @@ atorníll aparafús
 ^concretiz concret
 ^concretíc concrét
 ^concretíz concrét
+
+
+# concurrir → concorrer
+
+^concurri concorre  # infinitivo
+^concurrí concorré  # xerundio
+                    # indicativo/presente/4P-5P
+                    # indicativo/pretérito/3P-6P
+                    # indicativo/copretérito
+                    # indicativo/antepretérito
+                    # indicativo/futuro
+                    # indicativo/pospretérito
+                    # subxuntivo/pretérito
+                    # subxuntivo/futuro
+                    # infinitivo conxugado
+                    # imperativo afirmativo/5P
+
+^concu conco        # participio
+^concú concú        # indicativo/presente/1P-3P,6P
+                    # indicativo/pretérito/1P-2P
+                    # subxuntivo/presente
+                    # imperativo afirmativo/2P,2PR,4P,5PR
+                    # imperativo negativo
+
 
 # condear → condenar (e condena)
 ^conde conden
@@ -2246,6 +2298,12 @@ atorníll aparafús
 # empleado → empregado
 ^emplead empregad
 
+# emplear → empregar
+^emple empreg
+^emple empregu
+^emplé emprég
+^emplé emprégu
+
 # empleo → emprego
 ^empleo emprego
 
@@ -2472,6 +2530,15 @@ atorníll aparafús
 ^envexezá avellé     # imperativo afirmativo/2PR,4P,5PR
 ^envexéza avélle
 
+
+# envidia → envexa
+^envidia$ envexa
+
+# envidiar → envexar
+
+^envidi envex
+^envídi envéx
+
 # error → erro
 ^error$ erro
 ^errores$ erros
@@ -2642,6 +2709,10 @@ atorníll aparafús
 
 # estricto → estrito
 ^estricto estrito
+
+# estriñir → estrinxir
+^estriñ estrinx
+^estríñ estrínx
 
 # estructura → estrutura
 ^estructura estrutura
@@ -3069,11 +3140,18 @@ atorníll aparafús
 # húmero → úmero
 ^húmero úmero
 
+# hundir → afundir
+^hund afund
+^húnd afúnd
+
 # icono → icona
 ^icono icona
 
 # iglesia → igrexa
 ^iglesia igrexa
+
+# igresia → igrexa
+^igresia igrexa
 
 # implementar → poñer en funcionamento
 # COMPLICADA
@@ -3202,6 +3280,9 @@ atorníll aparafús
 
 # irrevocable → irrevogable
 ^irrevocable irrevogable
+
+# isla → illa
+^isla illa
 
 # isolar, isolado → illar, illado
 ^isol ill
@@ -3418,6 +3499,9 @@ ja ha
 
 # miércoles → mércores
 ^miércoles$ mércores
+
+# mila → milla
+^mila milla
 
 # mín → min
 ^mín$ min
@@ -5030,6 +5114,9 @@ móvil móbil
 # suxo → sucio
 ^sux suci
 
+# tabla → táboa
+^tabla táboa
+
 # tabolete → tallo
 ^tabolete tallo
 
@@ -5151,6 +5238,9 @@ móvil móbil
 
 # terramoto → terremoto
 ^terramoto terremoto
+
+# terreno → terreo
+^terreno terreo
 
 # terrapleno → terraplén
 ^terrapleno terraplén
@@ -5616,6 +5706,9 @@ uir$ uír
 
 # zepelín → cepelín
 ^zepelín cepelín
+
+# zigurat → cigurat
+^zigurat cigurat
 
 # zodiaco → zodíaco
 ^zodiaco zodíaco

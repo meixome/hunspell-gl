@@ -5,7 +5,7 @@ import mmap, os, PyICU, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma'
-defaultDic  = u'volga'
+defaultDic  = u'drag'
 defaultRep  = u'comunidade,galipedia'
 defaultCode = u'gl'
 
@@ -22,7 +22,7 @@ nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
-    scons dic=volga,unidades
+    scons dic=drag,unidades
 
 Para incluír submódulos, sepáreos do módulo pai cunha barra inclinada. Por exemplo, para incluír o vocabulario do
 submódulo «toponimia» do módulo «galipedia», use:
@@ -63,6 +63,15 @@ Módulos dispoñíbeis:
 
                     • toponimia.dic
                     • vocabulario.dic
+
+    drag            Dicionario da Real Academia Galega
+                    Real Academia Galega, 2012
+                    http://www.realacademiagalega.org/dicionario
+
+                    Submódulos:
+
+                    • correcto. Vocabulario correcto.
+                    • tolerado. Vocabulario tolerado.
                     
     galipedia       Galipedia
                     http://gl.wikipedia.org/wiki/Portada
@@ -72,6 +81,8 @@ Módulos dispoñíbeis:
                     • onomástica. Nomes propios.
                       • arquitectura.
                         • relixión. Pezas de arquitectura relixiosa.
+                      • astronomía
+                        • planetas
                       • toponimia. Topónimos.
                         • accidentes. Nomes de accidentes xeográficos.
                           • continentes
@@ -126,7 +137,7 @@ Módulos dispoñíbeis:
                           • romanía
                           • serbia
                           • siria
-                          • sudáfrica
+                          • suráfrica
                           • suíza
                           • timor-leste
                           • turquía

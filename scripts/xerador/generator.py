@@ -26,28 +26,32 @@ class Generator(object):
         self.writeToResource(self.generateFileContent())
 
 
-wordsToIgnore = (
+tupleOfWordsToIgnore = (
     # Nexos comúns.
-    u"a", u"A", u"as", u"As", u"o", u"O", u"os", u"Os",
-    u"á", u"Á", u"ás", u"Ás", u"ao", u"Ao", u"aos", u"Aos", u"ó", u"Ó", u"ós", u"Ós",
-    u"da", u"Da", u"das", u"Das", u"de", u"De", u"do", u"Do", u"dos", u"Dos",
-    u"e", u"E",
-    u"en", u"En",
-    u"entre", u"Entre",
-    u"tras", u"Tras",
+    u"A", u"As", u"O", u"Os",
+    u"Á", u"Ás", u"Ao", u"Aos", u"Ó", u"Ós",
+    u"Da", u"Das", u"De", u"Do", u"Dos",
+    u"E",
+    u"En",
+    u"Entre",
+    u"Tras",
 
     # Outros termos comúns correctos en galego.
+    u"Abadía", u"Abadías",
     u"Abaixo",
     u"Aldea", u"Aldeas",
     u"Alta", u"Altas", u"Alto", u"Altos",
     u"Arquipélago", u"Arquipélagos",
     u"Arrecife", u"Arrecifes",
     u"Arriba",
+    u"Arroio", u"Arroios",
     u"Atol", u"Atois",
     u"Baixa", u"Baixas", u"Baixo", u"Baixos",
+    u"Baldaquino", u"Baldaquinos",
     u"Barrio", u"Barrios",
     u"Basílica", u"Basílicas",
     u"Branca", u"Brancas", u"Branco", u"Brancos",
+    u"Británica", u"Británicas", u"Británico", u"Británicos",
     u"Beira", u"Beiras",
     u"Cabo",
     u"Camiño", u"Camiños",
@@ -68,7 +72,7 @@ wordsToIgnore = (
     u"Concello", u"Concellos",
     u"Condado", u"Condados",
     u"Confederación", u"Confederacións",
-    u"continental", u"Continental", u"continentais", u"Continentais", # «Portugal continental».
+    u"Continental", u"Continentais", # «Portugal continental».
     u"Convento", u"Conventos",
     u"Coroa", u"Coroas",
     u"Costa", u"Costas",
@@ -83,6 +87,7 @@ wordsToIgnore = (
     u"Estreito", u"Estreitos",
     u"Estrela", u"Estrelas",
     u"Exterior", u"Exteriores",
+    u"Fachada", u"Fachadas",
     u"Faro", u"Faros",
     u"Federación", u"Federacións",
     u"Federada", u"Federadas", u"Federado", u"Federados",
@@ -92,6 +97,7 @@ wordsToIgnore = (
     u"Gran", u"Grande", u"Grandes",
     u"Igrexa", u"Igrexas",
     u"Illa", u"Illas",
+    u"Illote", u"Illotes",
     u"Imperio", u"Imperios",
     u"Insua", u"Insuas",
     u"Interior", u"Interiores",
@@ -105,6 +111,8 @@ wordsToIgnore = (
     u"Menor", u"Menores",
     u"Monte", u"Montes",
     u"Mosteiro", u"Mosteiros",
+    u"Nacional", u"Nacionais",
+    u"Nosa", u"Nosas", u"Noso", u"Nosos",
     u"Nova", u"Novas", u"Novo", u"Novos",
     u"Norte",
     u"Occidental", u"Occidentais",
@@ -126,12 +134,18 @@ wordsToIgnore = (
     u"Porto", u"Portos",
     u"Prado", u"Prados",
     u"Praia", u"Praias",
+    u"Princesa", u"Princesas", u"Príncipe", u"Príncipes",
     u"Principado", u"Principados",
     u"Provincia", u"Provincias",
+    u"Raíña", u"Raíñas", u"Rei", u"Reis",
     u"Real", u"Reais",
+    u"Refuxio", u"Refuxios",
     u"Regato", u"Regatos",
+    u"Rego", u"Regos",
     u"Regueiro", u"Regueiros",
     u"Reino", u"Reinos",
+    u"Reitoral", u"Reitorais",
+    u"Remedio", u"Remedios",
     u"República", u"Repúblicas",
     u"Rexión", u"Rexións",
     u"Ribeira", u"Ribeiras",
@@ -140,12 +154,14 @@ wordsToIgnore = (
     u"Ruína", u"Ruínas",
     u"San", u"Santa", u"Santas", u"Santo", u"Santos",
     u"Santuario", u"Santuarios",
+    u"Señor", u"Señora", u"Señoras", u"Señores",
     u"Señorío", u"Señoríos",
     u"Serra", u"Serras",
     u"Silva", u"Silvas",
     u"Socialista", u"Socialistas",
     u"Sol", u"Soles",
     u"Souto", u"Soutos",
+    u"Soviética", u"Soviéticas", u"Soviético", u"Soviéticos",
     u"Subrexión", u"Subrexións",
     u"Sur",
     u"Templo", u"Templos",
@@ -156,8 +172,9 @@ wordsToIgnore = (
     u"Veiga", u"Veigas",
     u"Vella", u"Vellas", u"Vello", u"Vellos",
     u"Verde", u"Verdes",
-    u"Vila", u"Vilas"
+    u"Vila", u"Vilas",
     u"Vilar", u"Vilares",
+    u"Virxe", u"Virxes",
 
     # Ordinais. Por exemplo, «Cuarta República».
     u"Primeira", u"Primeiras", u"Primeiro", u"Primeiros",
@@ -171,3 +188,7 @@ wordsToIgnore = (
     u"Novena", u"Novenas", u"Noveno", u"Novenos",
     u"Décima", u"Décimas", u"Décimo", u"Décimos",
 )
+wordsToIgnore = set()
+for word in tupleOfWordsToIgnore:
+    wordsToIgnore.add(word)
+    wordsToIgnore.add(word.lower())

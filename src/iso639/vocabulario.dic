@@ -352,6 +352,7 @@ aqm       # Atohwaim (639-3).
 aqn       # Northern Alta (639-3).
 aqp       # Atakapa (639-3).
 aqr       # Arhâ (639-3).
+aqt       # Angaité (639-3).
 aqz       # Akuntsu (639-3).
 ar        # Arabic (639-1).
 ara       # Arabic (639-2/639-5, 639-3).
@@ -655,7 +656,7 @@ bey       # Beli (Papua New Guinea) (639-3).
 bez       # Bena (Tanzania) (639-3).
 bfa       # Bari (639-3).
 bfb       # Pauri Bareli (639-3).
-bfc       # Northern Bai (639-3).
+bfc       # Panyi Bai (639-3).
 bfd       # Bafut (639-3).
 bfe       # Betaf (639-3).
 bff       # Bofi (639-3).
@@ -1608,7 +1609,7 @@ dgw       # Daungwurrung (639-3).
 dgx       # Doghoro (639-3).
 dgz       # Daga (639-3).
 dhd       # Dhundari (639-3).
-dhg       # Djangu (639-3).
+dhg       # Dhangu (639-3).
 dhi       # Dhimal (639-3).
 dhl       # Dhalandji (639-3).
 dhm       # Zemba (639-3).
@@ -1862,7 +1863,6 @@ emi       # Mussau-Emira (639-3).
 emk       # Eastern Maninkakan (639-3).
 emm       # Mamulique (639-3).
 emn       # Eman (639-3).
-emo       # Emok (639-3).
 emp       # Northern Emberá (639-3).
 ems       # Pacific Gulf Yupik (639-3).
 emu       # Eastern Muria (639-3).
@@ -1877,6 +1877,7 @@ end       # Ende (639-3).
 enf       # Forest Enets (639-3).
 eng       # English (639-2/639-5, 639-3).
 enh       # Tundra Enets (639-3).
+enl       # Enlhet (639-3).
 enm       # Middle English (1100-1500) (639-2/639-5, 639-3).
 enn       # Engenni (639-3).
 eno       # Enggano (639-3).
@@ -1885,6 +1886,7 @@ enr       # Emumu (639-3).
 enu       # Enu (639-3).
 env       # Enwan (Edu State) (639-3).
 enw       # Enwan (Akwa Ibom State) (639-3).
+enx       # Enxet (639-3).
 eo        # Esperanto (639-1).
 eot       # Beti (Côte d'Ivoire) (639-3).
 epi       # Epie (639-3).
@@ -1912,6 +1914,7 @@ esq       # Esselen (639-3).
 ess       # Central Siberian Yupik (639-3).
 est       # Estonian (639-2/639-5, 639-3).
 esu       # Central Yupik (639-3).
+esy       # Eskayan (639-3).
 et        # Estonian (639-1).
 etb       # Etebi (639-3).
 etc       # Etchemin (639-3).
@@ -1984,7 +1987,7 @@ fli       # Fali (639-3).
 fll       # North Fali (639-3).
 fln       # Flinders Island (639-3).
 flr       # Fuliiru (639-3).
-fly       # Tsotsitaal (639-3).
+fly       # Flaaitaal (639-3).
 fmp       # Fe'fe' (639-3).
 fmu       # Far Western Muria (639-3).
 fng       # Fanagalo (639-3).
@@ -2130,6 +2133,7 @@ geo       # Georgian (639-2/B).
 geq       # Geme (639-3).
 ger       # German (639-2/B).
 ges       # Geser-Gorom (639-3).
+gev       # Eviya (639-3).
 gew       # Gera (639-3).
 gex       # Garre (639-3).
 gey       # Enya (639-3).
@@ -2144,7 +2148,6 @@ gge       # Guragone (639-3).
 ggg       # Gurgula (639-3).
 ggk       # Kungarakany (639-3).
 ggl       # Ganglau (639-3).
-ggm       # Gugu Mini (639-3).
 ggn       # Eastern Gurung (639-3).
 ggo       # Southern Gondi (639-3).
 ggt       # Gitua (639-3).
@@ -2210,6 +2213,7 @@ gly       # Gule (639-3).
 gma       # Gambera (639-3).
 gmb       # Gula'alaa (639-3).
 gmd       # Mághdì (639-3).
+gmg       # Magɨyi (639-3).
 gmh       # Middle High German (ca. 1050-1500) (639-2/639-5, 639-3).
 gml       # Middle Low German (639-3).
 gmm       # Gbaya-Mbodomo (639-3).
@@ -2514,7 +2518,7 @@ how       # Honi (639-3).
 hoy       # Holiya (639-3).
 hoz       # Hozo (639-3).
 hpo       # Hpon (639-3).
-hps       # Hawai'i Pidgin Sign Language (639-3).
+hps       # Hawai'i Sign Language (HSL) (639-3).
 hr        # Croatian (639-1).
 hra       # Hrangkhol (639-3).
 hrc       # Niwer Mil (639-3).
@@ -3592,7 +3596,7 @@ lau       # Laba (639-3).
 lav       # Latvian (639-2/639-5, 639-3).
 law       # Lauje (639-3).
 lax       # Tiwa (639-3).
-lay       # Lama (Myanmar) (639-3).
+lay       # Lama Bai (639-3).
 laz       # Aribwatsa (639-3).
 lb        # Luxembourgish (639-1).
 lba       # Lui (639-3).
@@ -3648,7 +3652,6 @@ lec       # Leco (639-3).
 led       # Lendu (639-3).
 lee       # Lyélé (639-3).
 lef       # Lelemi (639-3).
-leg       # Lengua (639-3).
 leh       # Lenje (639-3).
 lei       # Lemio (639-3).
 lej       # Lengola (639-3).
@@ -3778,7 +3781,6 @@ lmi       # Lombi (639-3).
 lmj       # West Lembata (639-3).
 lmk       # Lamkang (639-3).
 lml       # Hano (639-3).
-lmm       # Lamam (639-3).
 lmn       # Lambadi (639-3).
 lmo       # Lombard (639-3).
 lmp       # Limbum (639-3).
@@ -4106,7 +4108,6 @@ mhd       # Mbugu (639-3).
 mhe       # Besisi (639-3).
 mhf       # Mamaa (639-3).
 mhg       # Margu (639-3).
-mhh       # Maskoy Pidgin (639-3).
 mhi       # Ma'di (639-3).
 mhj       # Mogholi (639-3).
 mhk       # Mungaka (639-3).
@@ -5142,6 +5143,7 @@ olk       # Olkol (639-3).
 olm       # Oloma (639-3).
 olo       # Livvi (639-3).
 olr       # Olrat (639-3).
+olt       # Old Lithuanian (639-3).
 om        # Oromo (639-1).
 oma       # Omaha-Ponca (639-3).
 omb       # East Ambae (639-3).
@@ -5553,6 +5555,7 @@ pti       # Pintiini (639-3).
 ptn       # Patani (639-3).
 pto       # Zo'é (639-3).
 ptp       # Patep (639-3).
+ptq       # Pattapu (639-3).
 ptr       # Piamatsina (639-3).
 ptt       # Enrekang (639-3).
 ptu       # Bambam (639-3).
@@ -5580,7 +5583,6 @@ puu       # Punu (639-3).
 puw       # Puluwatese (639-3).
 pux       # Puare (639-3).
 puy       # Purisimeño (639-3).
-puz       # Purum Naga (639-3).
 pwa       # Pawaia (639-3).
 pwb       # Panawa (639-3).
 pwg       # Gapapaiwa (639-3).
@@ -5836,7 +5838,6 @@ sak       # Sake (639-3).
 sam       # Samaritan Aramaic (639-2/639-5, 639-3).
 san       # Sanskrit (639-2/639-5, 639-3).
 sao       # Sause (639-3).
-sap       # Sanapaná (639-3).
 saq       # Samburu (639-3).
 sar       # Saraveca (639-3).
 sas       # Sasak (639-2/639-5, 639-3).
@@ -6167,6 +6168,7 @@ spi       # Saponi (639-3).
 spk       # Sengo (639-3).
 spl       # Selepet (639-3).
 spm       # Akukem (639-3).
+spn       # Sanapaná (639-3).
 spo       # Spokane (639-3).
 spp       # Supyire Senoufo (639-3).
 spq       # Loreto-Ucayali Spanish (639-3).
@@ -6583,6 +6585,7 @@ tkr       # Tsakhur (639-3).
 tks       # Takestani (639-3).
 tkt       # Kathoriya Tharu (639-3).
 tku       # Upper Necaxa Totonac (639-3).
+tkv       # Mur Pano (639-3).
 tkw       # Teanu (639-3).
 tkx       # Tangko (639-3).
 tkz       # Takua (639-3).
@@ -7352,6 +7355,7 @@ xad       # Adai (639-3).
 xae       # Aequian (639-3).
 xag       # Aghwan (639-3).
 xai       # Kaimbé (639-3).
+xaj       # Ararandewára (639-3).
 xal       # Kalmyk (639-2/639-5, 639-3).
 xam       # /Xam (639-3).
 xan       # Xamtanga (639-3).
@@ -7419,7 +7423,7 @@ xgf       # Gabrielino-Fernandeño (639-3).
 xgg       # Goreng (639-3).
 xgi       # Garingbal (639-3).
 xgl       # Galindan (639-3).
-xgm       # Guwinmal (639-3).
+xgm       # Dharumbal (639-3).
 xgr       # Garza (639-3).
 xgu       # Unggumi (639-3).
 xgw       # Guwa (639-3).
@@ -7439,6 +7443,7 @@ xil       # Illyrian (639-3).
 xin       # Xinca (639-3).
 xip       # Xipináwa (639-3).
 xir       # Xiriâna (639-3).
+xis       # Kisan (639-3).
 xiv       # Indus Valley Language (639-3).
 xiy       # Xipaya (639-3).
 xjb       # Minjungbal (639-3).
@@ -7717,6 +7722,7 @@ ygl       # Yangum Gel (639-3).
 ygm       # Yagomi (639-3).
 ygp       # Gepo (639-3).
 ygr       # Yagaria (639-3).
+ygs       # Yolŋu Sign Language (639-3).
 ygu       # Yugul (639-3).
 ygw       # Yagwoia (639-3).
 yha       # Baha Buyang (639-3).
@@ -7862,7 +7868,6 @@ yup       # Yukpa (639-3).
 yuq       # Yuqui (639-3).
 yur       # Yurok (639-3).
 yut       # Yopno (639-3).
-yuu       # Yugh (639-3).
 yuw       # Yau (Morobe Province) (639-3).
 yux       # Southern Yukaghir (639-3).
 yuy       # East Yugur (639-3).
