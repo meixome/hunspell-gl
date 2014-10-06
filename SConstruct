@@ -5,8 +5,8 @@ import mmap, os, PyICU, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma'
-defaultDic  = u'drag'
-defaultRep  = u'comunidade,galipedia'
+defaultDic  = u'drag,norma'
+defaultRep  = u'comunidade,wikipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -22,12 +22,12 @@ nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
-    scons dic=drag,unidades
+    scons dic=drag,norma
 
 Para incluír submódulos, sepáreos do módulo pai cunha barra inclinada. Por exemplo, para incluír o vocabulario do
-submódulo «toponimia» do módulo «galipedia», use:
+submódulo «onomástica» do módulo «wikipedia», use:
 
-    scons dic=galipedia/toponimia
+    scons dic=wikipedia/onomástica
 
 Os valores por omisión son:
 
@@ -36,171 +36,7 @@ Os valores por omisión son:
     Substitucións: {rep}.
     Código de lingua: {code} (dá lugar a «{code}.aff» e «{code}.dic»).
 
-Módulos dispoñíbeis:
-
-
-    FAMILIAS DE REGRAS DE CONSTRUCIÓN DE PALABRAS
-
-    norma           Normas ortográficas e morfolóxicas do idioma galego
-                    Real Academia Galega / Instituto da Lingua Galega, 2003
-                    http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
-
-    trasno          Flexións especiais para os acordos terminolóxicos do Proxecto Trasno
-                    http://trasno.net/content/resultados-das-trasnadas
-
-    unidades        Prefixos e sufixos para símbolos de unidades
-                    http://en.wikipedia.org/wiki/International_System_of_Units
-                    Nota: inclúense prefixos para unidades binarias.
-
-
-    DICIONARIOS DE NÚCLEOS DE PALABRAS
-    
-    comunidade      Vocabulario da comunidade do corrector de galego Hunspell
-                    Termos engadidos ao corrector sen indicar unha fonte que os apoie.
-                    Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
-
-                    Submódulos:
-
-                    • toponimia.dic
-                    • vocabulario.dic
-
-    drag            Dicionario da Real Academia Galega
-                    Real Academia Galega, 2012
-                    http://www.realacademiagalega.org/dicionario
-
-                    Submódulos:
-
-                    • correcto. Vocabulario correcto.
-                    • tolerado. Vocabulario tolerado.
-                    
-    galipedia       Galipedia
-                    http://gl.wikipedia.org/wiki/Portada
-                    
-                    Submódulos:
-                        
-                    • onomástica. Nomes propios.
-                      • arquitectura.
-                        • relixión. Pezas de arquitectura relixiosa.
-                      • astronomía
-                        • planetas
-                      • toponimia. Topónimos.
-                        • accidentes. Nomes de accidentes xeográficos.
-                          • continentes
-                          • illas
-                          • montañas
-                          • praias
-                          • rexións
-                          • ríos
-                        • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
-                          • desaparecidas. Localidades desaparecidas, que xa non existen.
-                          • alemaña
-                          • alxeria
-                          • bangladesh
-                          • barbados
-                          • bélxica
-                          • bolivia
-                          • brasil
-                          • colombia
-                          • congo
-                          • cuba
-                          • dinamarca
-                          • emiratos-árabes-unidos
-                          • eslovaquia
-                          • españa
-                          • estados-unidos-de-américa
-                          • etiopía
-                          • exipto
-                          • finlandia
-                          • francia
-                          • grecia
-                          • grecia-antiga
-                          • guatemala
-                          • guinea-bisau
-                          • hungría
-                          • iemen
-                          • india
-                          • indonesia
-                          • iraq
-                          • irlanda
-                          • israel
-                          • italia
-                          • líbano
-                          • malí
-                          • méxico
-                          • oceanía
-                          • países-baixos
-                          • perú
-                          • polonia
-                          • portugal
-                          • qatar
-                          • reino-unido
-                          • romanía
-                          • serbia
-                          • siria
-                          • suráfrica
-                          • suíza
-                          • timor-leste
-                          • turquía
-                          • venezuela
-                          • xapón
-                          • xordania
-                        • lugares. Nomes de lugares e parroquias.
-                          • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
-                        • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
-                        • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
-                          • alemaña
-                          • brasil
-                          • chile
-                          • colombia
-                          • españa
-                          • estados-unidos-de-américa
-                          • finlandia
-                          • francia
-                          • grecia
-                          • italia
-                          • méxico
-                          • países-baixos
-                          • portugal
-                          • rusia
-                        • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
-                          • españa
-                    • xeografía. Xeografía.
-                      • accidentes. Accidentes xeográficos.
-
-    iso639          Códigos de linguas (ISO 639)
-                    http://gl.wikipedia.org/wiki/ISO_639
-
-    iso4217         Códigos de moedas (ISO 4217)
-                    http://gl.wikipedia.org/wiki/ISO_4217
-
-    trasno          Acordos terminolóxicos do Proxecto Trasno
-                    http://trasno.net/content/resultados-das-trasnadas
-
-    unidades        Símbolos de unidades
-                    http://en.wikipedia.org/wiki/International_System_of_Units
-                    Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
-
-    volga           Vocabulario ortográfico da lingua galega
-                    Santamarina Fernández, Antón e González González, Manuel (coord.)
-                    Real Academia Galega / Instituto da Lingua Galega, 2004
-                    http://www.realacademiagalega.org/volga/
-                    
-                    Submódulos:
-                        
-                    • correcto. Vocabulario correcto.
-                    • tolerado. Vocabulario tolerado.
-
-
-    REGRAS DE SUXESTIÓNS DE SUBSTITUCIÓN DE PALABRAS INCORRECTAS POR PALABRAS CORRECTAS
-    
-    comunidade      Suxestións da comunidade do corrector de galego Hunspell
-                    Suxestións engadidas ao corrector sen indicar unha fonte que as apoie.
-                    Nota: trátase de suxestións que deben revisarse e repartirse entre os outros módulos.
-
-    galipedia       Erros ortográficos e desviacións máis comúns rexistrados na Galipedia
-                    http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións
-
-
+En «módulos.txt» atopará unha lista de módulos dispoñíbeis.
 """.format(aff=defaultAff, dic=defaultDic, rep=defaultRep, code=defaultCode))
 
 
@@ -275,9 +111,26 @@ def extendAffFromString(targetFilename, sourceString):
 
 
 def createAff(targetFilename, sourceFilenames):
-    """ Constrúe o ficheiro .aff a partir dos módulos indicados.
+    """ Constrúe o ficheiro .aff base a partir dos módulos indicados.
     """
+    baseFilesCount = len(sourceFilenames)
+    if baseFilesCount > 1:
+        print u"O corrector só pode constar dun único ficheiro «.base»."
+        raise Exception()
+    elif baseFilesCount < 1:
+        print u"O corrector debe incluír un ficheiro «.base»."
+        print u"Inclúa un módulo con ficheiro de regras base (por exemplo, «norma») na lista de ficheiros do parámetro «aff»."
+        raise Exception()
+
     initialize(targetFilename)
+    for sourceFilename in sourceFilenames:
+        parsedContent = getParsedContent(sourceFilename)
+        extendAffFromString(targetFilename, parsedContent)
+
+
+def addContentToAff(targetFilename, sourceFilenames):
+    """ Amplía o ficheiro .aff base a partir dos módulos indicados.
+    """
     for sourceFilename in sourceFilenames:
         parsedContent = getParsedContent(sourceFilename)
         extendAffFromString(targetFilename, parsedContent)
@@ -295,12 +148,14 @@ def addReplacementsToAff(targetFilename, sourceFilenames):
         if line not in linesSeen:
             linesSeen.add(line)
 
-    formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
-    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-    for line in sorted(linesSeen, cmp=collator.compare):
-        formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
+    if linesSeen:
 
-    extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
+        formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
+        collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
+        for line in sorted(linesSeen, cmp=collator.compare):
+            formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
+
+        extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
 
 
 def getParsedContent(sourceFilename):
@@ -374,7 +229,7 @@ def getSourceFilesFromFolderAndExtension(folder, extension):
 
     for dirname, dirnames, filenames in os.walk(folder):
         for filename in filenames:
-            if filename[-len(extension):] == extension:
+            if filename.endswith(extension):
                 sourceFiles.append(os.path.join(dirname, filename))
 
     return sourceFiles
@@ -403,6 +258,7 @@ def getSourceFilesFromModulesStringAndExtension(modulesString, extension):
 
 def getSourceFiles(dictionary, rules, replacements):
     sourceFiles = []
+    sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.base'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(rules, '.aff'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(dictionary, '.dic'))
     sourceFiles.extend(getSourceFilesFromModulesStringAndExtension(replacements, '.rep'))
@@ -415,15 +271,17 @@ def getFilenamesFromFileEntriesWithMatchingExtensions(fileEntries, extensionList
     filenames = []
     for fileEntry in fileEntries:
         filename = str(fileEntry)
-        if filename[-4:] in extensionList:
-            filenames.append(filename)
+        for extension in extensionList:
+            if filename.endswith(extension):
+                filenames.append(filename)
     return filenames
 
 
 def createSpellchecker(target, source, env):
     aff = unicode(target[0])
     dic = unicode(target[1])
-    createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
+    createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.base']))
+    addContentToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
     addReplacementsToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.rep']))
     createDic(dic, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.dic']))
     applyMakealias(aff, dic)

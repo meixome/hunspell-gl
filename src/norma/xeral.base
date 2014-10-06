@@ -1,0 +1,67 @@
+# Codificación de caracteres.
+SET UTF-8
+
+# Caracteres que se buscarán para facer suxestións de substitucións 
+# cando unicamente varíe un carácter na cadea.
+TRY -aáàâãäeéêèiïìíîoóòôõöuùúûübcçdfghjklmnñpqrstvxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÀÈÌÒÙÏÜÇ·
+
+# Indícase o tipo de nomenclatura das regras de afixación.
+FLAG num
+
+# O seguinte parámetro («666») utilizarase para indicar que a raíz
+# do dicionario que se utiliza precisa necesariamente dunha regra de afixación
+NEEDAFFIX 666
+
+# As seguintes son cadeas de teclas que, dada a súa proximidade, poden ser
+# facilmente confundidas á hora de teclear unha palabra. En cada serie de
+# teclas ─separadas por unha barra vertical, «|»─ terase en conta as teclas
+# á esquerda e dereita de cada unha.
+KEY qwertyuiop|asdfghjklñ|zxcvbnm|qaw|saz|wse|dsx|sz|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|uji|kjm|jn|iko|lkmñ|plñç
+
+# Impide que se ofrezan suxestións de substitución con elementos da cadea separados por un espazo 
+# (impide tamén as regras de substitución de n-gramas)
+NOSPLITSUGS
+
+# Establece o parámetro (do ficheiro de dicionario) que indica
+# que non varía en maiúsculas ou en minúsculas 
+KEEPCASE 999
+
+BREAK 8
+BREAK -     # Entre palabras. Exemplo: «non-fumadores».
+BREAK ^-    # Ao principio dunha palabra. Exemplo: «resulta innecesario o acento gráfico nos adverbios en -mente».
+BREAK -$    # Ao final dunha palabra. Exemplo: «os prefixos do tipo ex-».
+BREAK .$    # Ao final dunha palabra.
+BREAK ,$    # Ao final dunha palabra.
+BREAK ’$    # Ao final dunha palabra.
+BREAK '$    # Ao final dunha palabra.
+BREAK ^'    # Ao principio dunha palabra.
+
+# Considérase o guión coma unha letra máis (só funciona nun terminal, non 
+# nos procesadores de texto).
+WORDCHARS -'’.,0123456789‰%
+
+# A continuación amósanse parellas de caracteres que o usuario puido confundir.
+# O caso máis habitual é o de que falten tiles ou acentos gráficos nas palabras.
+
+MAP 21
+MAP aá
+MAP eé
+MAP ií
+MAP oó
+MAP uú
+MAP iï
+MAP uü
+MAP ie
+MAP íé
+MAP uo
+MAP úó
+MAP bv
+MAP lr
+MAP ye
+MAP yi
+MAP yx
+MAP xs
+MAP zc
+MAP nñ
+MAP s-
+MAP r-

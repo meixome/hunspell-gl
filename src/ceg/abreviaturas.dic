@@ -1,0 +1,252 @@
+# Relación de abreviaturas máis frecuentes
+# http://www.normalizacion.ceg.es/attachments/article/71/siglaspdf.pdf
+
+a. po:abreviatura  # Excelentísimo/a
+a. po:abreviatura [n-grama: a. C.]  # Antes de Cristo
+C. po:abreviatura [n-grama: a. C.]  # Antes de Cristo
+a. po:abreviatura [n-grama: a. m.]  # Ante meridiem
+m. po:abreviatura [n-grama: a. m.]  # Ante meridiem
+AA. po:abreviatura [n-grama: AA. VV.]  # Autores varios
+VV. po:abreviatura [n-grama: AA. VV.]  # Autores varios
+abr. po:abreviatura  # Abril
+acad. po:abreviatura  # Academia
+admón. po:abreviatura  # Administración
+admtvo. po:abreviatura  # Administrativo
+adv. po:abreviatura  # Adverbio
+adx. po:abreviatura  # Adxectivo
+agr. po:abreviatura  # Agricultura
+al. po:abreviatura  # Alumno
+alc. po:abreviatura  # Alcalde
+alt. po:abreviatura  # Altura
+ampl. po:abreviatura  # Ampliación
+ant. po:abreviatura  # Antigo
+ap. po:abreviatura  # Apéndice
+apdo. po:abreviatura  # Apartado
+apmto. po:abreviatura  # Apartamento
+aprox. po:abreviatura  # Aproximadamente
+arc. po:abreviatura  # Arcaísmo
+arq. po:abreviatura  # Arquivo
+arquit. po:abreviatura  # Arquitectura
+art. po:abreviatura  # Artigo
+asdo. po:abreviatura  # Asinado
+asoc. po:abreviatura  # Asociación
+át. po:abreviatura  # Ático
+aux. po:abreviatura  # Auxiliar
+avda. po:abreviatura  # Avenida
+axud. po:abreviatura  # Axudante
+bibl. po:abreviatura  # Biblioteca
+bibliog. po:abreviatura  # Bibliografía
+bl. po:abreviatura  # Bloque
+bol. po:abreviatura  # Boletín
+C. po:abreviatura  # Código
+c\/ po:abreviatura  # Conta
+c\/c po:abreviatura  # Conta corrente
+ca. po:abreviatura  # Circa
+cap. po:abreviatura  # Capítulo
+cast po:abreviatura  # Castelán
+cert. po:abreviatura  # Certificado
+cfr. po:abreviatura  # Confróntese
+ch. po:abreviatura  # Cheque
+ch\/ po:abreviatura  # Cheque
+cía. po:abreviatura  # Compañía
+cit. po:abreviatura  # Citado/a
+cód. po:abreviatura  # Código
+col. po:abreviatura  # Columna
+colab. po:abreviatura  # Colaborador/a
+com. po:abreviatura  # Comisión
+conc. po:abreviatura  # Concello
+cons. po:abreviatura  # Consellería
+constr. po:abreviatura  # Construción
+conx. po:abreviatura  # Conxunción
+coord. po:abreviatura  # Coordinador/a
+corp. po:abreviatura  # Corporación
+cta. po:abreviatura  # Conta
+D. po:abreviatura  # Don
+d. po:abreviatura [n-grama: d. C.]  # Despois de Cristo
+C. po:abreviatura [n-grama: d. C.]  # Despois de Cristo
+Dª. po:abreviatura  # Dona
+dec. po:abreviatura  # Decembro
+dep. po:abreviatura  # Depósito
+desp. po:abreviatura  # Despacho
+dir. po:abreviatura  # Director
+dirª. po:abreviatura  # Directora
+disp. po:abreviatura  # Disposición
+doc. po:abreviatura  # Documento
+dom. po:abreviatura  # Domingo
+dpto. po:abreviatura  # Departamento
+Dr. po:abreviatura  # Doutor/a
+Dra. po:abreviatura  # Doutor/a
+dta. po:abreviatura  # Dereita
+econ. po:abreviatura  # Economía, económico
+ed. po:abreviatura  # Edición
+educ. po:abreviatura  # Educación
+entdo. po:abreviatura  # Entresollado
+esc. po:abreviatura  # Escaleira
+esp. po:abreviatura  # Español
+esq. po:abreviatura  # Esquerda
+est. po:abreviatura  # Estación
+estat. po:abreviatura  # Estatística
+et. po:abreviatura [n-grama: et. al.]  # Et alii
+al. po:abreviatura [n-grama: et. al.]  # Et alii
+etc. po:abreviatura  # Etcétera
+ex. po:abreviatura  # Exemplo
+Excmo. po:abreviatura  # Excelentísimo/a
+exp. po:abreviatura  # Expediente
+exped. po:abreviatura  # Expedido
+ext. po:abreviatura  # Extensión
+f. po:abreviatura  # Folio
+f. po:abreviatura [n-grama: f. f.]  # Franco fábrica
+f. po:abreviatura [n-grama: f. x.]  # Fundamento xurídico
+x. po:abreviatura [n-grama: f. x.]  # Fundamento xurídico
+fª po:abreviatura  # Factura
+fábr. po:abreviatura  # Fábrica
+fac. po:abreviatura  # Facultade
+fact. po:abreviatura  # Factura
+farm. po:abreviatura  # Farmacia
+fasc. po:abreviatura  # Fascículo
+febr. po:abreviatura  # Febreiro
+fem. po:abreviatura  # Feminino
+fig. po:abreviatura  # Figurado
+gal. po:abreviatura  # Galego
+gob. po:abreviatura  # Goberno
+h. po:abreviatura  # Habitante
+hab. po:abreviatura  # Habitante
+ib. po:abreviatura  # Ibídem
+íd. po:abreviatura  # Ídem
+Ilma. po:abreviatura  # Ilustrísimo/a
+Ilmo. po:abreviatura  # Ilustrísimo/a
+imp. po:abreviatura  # Importante
+ind. po:abreviatura  # Industria
+índ. po:abreviatura  # Índice
+indef. po:abreviatura  # Indefinido
+inf. po:abreviatura  # Inferior
+inst. po:abreviatura  # Instituto
+int. po:abreviatura  # Interior
+intr. po:abreviatura  # Introdución
+introd. po:abreviatura  # Introdución
+irr. po:abreviatura  # Irregular
+l. po:abreviatura  # Luns
+lit. po:abreviatura  # Literatura, literario
+loc. po:abreviatura  # Locución
+loc. po:abreviatura [n-grama: loc. cit.]  # Loco citato, lugar citado
+cit. po:abreviatura [n-grama: loc. cit.]  # Loco citato, lugar citado
+lonx. po:abreviatura  # Lonxitude
+ltda. po:abreviatura  # Limitada
+m. po:abreviatura  # Masculino
+mar. po:abreviatura  # Marzo
+masc. po:abreviatura  # Masculino
+máx. po:abreviatura  # Máximo
+mc. po:abreviatura  # Mércores
+med. po:abreviatura  # Medicina
+mín. po:abreviatura  # Mínimo
+minist. po:abreviatura  # Ministerio
+mon. po:abreviatura  # Monumento
+Mons. po:abreviatura  # Monseñor
+Mr. po:abreviatura  # Míster
+ms. po:abreviatura  # Manuscrito
+mun. po:abreviatura  # Municipio, municipal
+n. po:abreviatura  # Nota
+n. po:abreviatura [n-grama: n. do e.]  # Nota do editor
+e. po:abreviatura [n-grama: n. do e.]  # Nota do editor
+n. po:abreviatura [n-grama: n. do t.]  # Nota do tradutor
+t. po:abreviatura [n-grama: n. do t.]  # Nota do tradutor
+neol. po:abreviatura  # Neoloxismo
+nov. po:abreviatura  # Novembro
+núm. po:abreviatura  # Número
+of. po:abreviatura  # Oficina
+op. po:abreviatura [n-grama: op. cit.]  # Opus citatum, obra citada
+cit. po:abreviatura [n-grama: op. cit.]  # Opus citatum, obra citada
+out. po:abreviatura  # Outubro
+p. po:abreviatura  # Páxina
+P. po:abreviatura  # Padre
+p. po:abreviatura [n-grama: p. ex.]  # Por exemplo
+ex. po:abreviatura [n-grama: p. ex.]  # Por exemplo
+p. po:abreviatura [n-grama: p. m.]  # Post meridiem
+m. po:abreviatura [n-grama: p. m.]  # Post meridiem
+pár. po:abreviatura  # Parágrafo
+part. po:abreviatura  # Participio
+pat. po:abreviatura  # Patente
+pav. po:abreviatura  # Pavillón
+páx. po:abreviatura  # Páxina
+pdo. po:abreviatura  # Pasado
+pl. po:abreviatura  # Plural
+pob. po:abreviatura  # Poboación
+pol. po:abreviatura  # Polígono
+PP. po:abreviatura  # Padre
+pr. po:abreviatura  # Praza
+pral. po:abreviatura  # Principal
+pref. po:abreviatura  # Prefixo
+prep. po:abreviatura  # Preposición
+pres. po:abreviatura  # Presidente
+proc. po:abreviatura  # Procurador
+prof. po:abreviatura  # Profesión
+pron. po:abreviatura  # Pronome
+prov. po:abreviatura  # Provincia, provincial
+publ. po:abreviatura  # Publicado
+r. po:abreviatura  # Recibín
+ref. po:abreviatura  # Referencia
+rel. po:abreviatura  # Relativo
+rev. po:abreviatura  # Revista
+rex. po:abreviatura  # Rexistro
+Rte. po:abreviatura  # Remitente
+s. po:abreviatura  # Supra
+S. po:abreviatura  # Sentencia
+S. po:abreviatura [n-grama: S. A.]  # Sociedade anónima
+A. po:abreviatura [n-grama: S. A.]  # Sociedade anónima
+s. po:abreviatura [n-grama: s. d.]  # Sen data
+d. po:abreviatura [n-grama: s. d.]  # Sen data
+s. po:abreviatura [n-grama: s. l.]  # Sen lugar
+l. po:abreviatura [n-grama: s. l.]  # Sen lugar
+S. po:abreviatura [n-grama: S. L.]  # Sociedade limitada
+L. po:abreviatura [n-grama: S. L.]  # Sociedade limitada
+s. po:abreviatura [n-grama: s. n.]  # Sen número
+n. po:abreviatura [n-grama: s. n.]  # Sen número
+s\/n po:abreviatura  # Sen número
+secr. po:abreviatura  # Secretaría, secretario/a
+seg. po:abreviatura  # Seguinte
+set. po:abreviatura  # Setembro
+sing. po:abreviatura  # Singular
+sobr. po:abreviatura  # Sobresaliente
+soc. po:abreviatura  # Sociedade
+Sr. po:abreviatura  # Señor
+Sra. po:abreviatura  # Señora
+Sta. po:abreviatura  # Santo/a
+Sto. po:abreviatura  # Santo/a
+subst. po:abreviatura  # Substantivo
+sup. po:abreviatura  # Superior
+supl. po:abreviatura  # Suplemento
+susp. po:abreviatura  # Suspenso/a
+t. po:abreviatura  # Tomo
+t\/ po:abreviatura  # Talón
+tel. po:abreviatura  # Teléfono
+testem. po:abreviatura  # Testemuña
+tfno. po:abreviatura  # Teléfono
+tít. po:abreviatura  # Título
+trad. po:abreviatura  # Tradución
+transf. po:abreviatura  # Transferencia
+tur. po:abreviatura  # Turismo
+últ. po:abreviatura  # Último
+univ. po:abreviatura  # Universidade
+urb. po:abreviatura  # Urbanización
+v. po:abreviatura  # Verbo
+v. po:abreviatura [n-grama: v. e pr.]  # Visto e prace
+pr. po:abreviatura [n-grama: v. e pr.]  # Visto e prace
+v. po:abreviatura [n-grama: v. gr.]  # Verbi gratia
+gr. po:abreviatura [n-grama: v. gr.]  # Verbi gratia
+v. po:abreviatura [n-grama: v. o.]  # Versión orixinal
+o. po:abreviatura [n-grama: v. o.]  # Versión orixinal
+var. po:abreviatura  # Variante
+Vde. po:abreviatura  # Vostede
+Vdes. po:abreviatura  # Vostedes
+vel. po:abreviatura  # Velocidade
+vid. po:abreviatura  # Videte
+vol. po:abreviatura  # Volume
+vulg. po:abreviatura  # Vulgarismo
+x. po:abreviatura  # Xoves
+x. po:abreviatura [n-grama: x. p.]  # Xiro postal
+p. po:abreviatura [n-grama: x. p.]  # Xiro postal
+x\/ po:abreviatura  # Xiro
+x\/p po:abreviatura  # Xiro postal
+xan. po:abreviatura  # Xaneiro
+xud. po:abreviatura  # Xudicial
+xur. po:abreviatura  # Xurídico

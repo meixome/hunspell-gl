@@ -1,0 +1,315 @@
+ceg             Confederación de Empresarios de Galicia
+                http://www.ceg.es
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
+
+
+comunidade      Módulo da comunidade do corrector de galego Hunspell
+                Termos e suxestións engadidos ao corrector sen indicar unha fonte que os apoie.
+                Nota: trátase de vocabulario que debe revisarse e repartirse entre os outros módulos.
+
+                Submódulos:
+
+                • vocabulario
+                • suxestións
+
+
+drag            Dicionario da Real Academia Galega
+                Real Academia Galega, 2012
+                http://www.realacademiagalega.org/dicionario
+
+                Submódulos:
+
+                • correcto. Vocabulario correcto.
+                • tolerado. Vocabulario tolerado.
+
+
+iso639          Códigos de linguas (ISO 639)
+                http://gl.wikipedia.org/wiki/ISO_639
+
+
+iso4217         Códigos de moedas (ISO 4217)
+                http://gl.wikipedia.org/wiki/ISO_4217
+
+
+microsoft       Microsoft
+                http://www.microsoft.com
+
+                Submódulos:
+
+                • abreviaturas
+
+
+norma           Normas ortográficas e morfolóxicas do idioma galego
+                Real Academia Galega / Instituto da Lingua Galega, 2003
+                http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+
+
+santiago        Concello de Santiago de Compostela
+                http://www.santiagodecompostela.org
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
+
+
+trasno          Acordos terminolóxicos do Proxecto Trasno
+                http://trasno.net/content/resultados-das-trasnadas
+
+
+unidades        Símbolos de unidades
+                http://en.wikipedia.org/wiki/International_System_of_Units
+                Nota: inclúense unidades de fóra do S.I., como byte (B) ou quintal métrico (q) ou tonelada (t).
+
+
+udc             Universidade da Coruña
+                http://www.udc.es
+
+                Submódulos:
+
+                • abreviaturas
+                    • administración
+                    • tratamento
+                    • xeral
+
+
+usc             Universidade de Santiago de Compostela
+                http://www.usc.es
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+                • símbolos
+
+
+uvigo           Universidade de Vigo
+                Área de Normalización Lingüística
+                http://anl.uvigo.es/
+
+                Submódulos:
+
+                • abreviaturas
+                • siglas
+
+
+volga           Vocabulario ortográfico da lingua galega
+                Santamarina Fernández, Antón e González González, Manuel (coord.)
+                Real Academia Galega / Instituto da Lingua Galega, 2004
+                http://www.realacademiagalega.org/volga/
+
+                Submódulos:
+
+                • correcto. Vocabulario correcto.
+                • tolerado. Vocabulario tolerado.
+
+
+wikipedia       Wikipedia
+                http://wikipedia.org
+
+                Submódulos:
+                • en. Módulos baseados no contido da Wikipedia en inglés.
+                    • antroponimia. Nomes de persoas.
+                        • países
+                            • brasil
+                            • italia
+                            • méxico
+                            • países-baixos
+                            • rusia
+                        • xeral
+                • es. Módulos baseados no contido da Wikipedia en castelán.
+                    • antroponimia. Nomes de persoas.
+                        • países
+                            • españa
+                            • italia
+                    • empresas
+                        • seguros
+                • gl. Módulos baseados no contido da Galipedia, a Wikipedia en galego.
+                    • bioquímica
+                    • onomástica. Nomes propios.
+                        • administración
+                            • intelixencia
+                            • ministerios
+                        • antroponimia. Nomes de persoas.
+                            • países
+                                • costa-rica
+                                • españa
+                            • relixión
+                        • arquitectura.
+                            • relixión. Pezas de arquitectura relixiosa.
+                        • arte
+                            • escultura
+                                • relixión
+                        • astronomía
+                            • planetas
+                        • deporte
+                            • acontecementos
+                            • fórmula1
+                                • escuderías
+                        • economía
+                            • empresas
+                                • banca
+                            • feiras
+                            • índices-bolsistas
+                        • historia
+                            • acontecementos
+                            • civilizacións
+                        • organizacións
+                            • asociacións
+                            • deporte
+                            • economía
+                            • internacionais
+                        • política
+                            • partidos
+                        • televisión
+                            • cadeas
+                            • grupos
+                        • toponimia. Topónimos.
+                            • accidentes. Nomes de accidentes xeográficos.
+                                • baías
+                                • continentes
+                                • desertos
+                                • illas
+                                • mares
+                                • montañas
+                                • penínsulas
+                                • praias
+                                • rexións
+                                • ríos
+                            • localidades. Nomes de núcleos de poboación: cidades, comunas, concellos, vilas…
+                                • desaparecidas. Localidades desaparecidas, que xa non existen.
+                                • alemaña
+                                • alxeria
+                                • austria
+                                • bangladesh
+                                • barbados
+                                • bélxica
+                                • bolivia
+                                • brasil
+                                • burkina-faso
+                                • cambodja
+                                • canadá
+                                • china
+                                • colombia
+                                • congo
+                                • corea-do-norte
+                                • cuba
+                                • dinamarca
+                                • dominica
+                                • emiratos-árabes-unidos
+                                • eslovaquia
+                                • españa
+                                • estados-unidos-de-américa
+                                • etiopía
+                                • exipto
+                                • finlandia
+                                • francia
+                                • grecia
+                                • grecia-antiga
+                                • guatemala
+                                • guinea-bisau
+                                • hungría
+                                • iemen
+                                • india
+                                • indonesia
+                                • iraq
+                                • irlanda
+                                • islandia
+                                • israel
+                                • italia
+                                • kenya
+                                • líbano
+                                • malaisia
+                                • malí
+                                • marrocos
+                                • méxico
+                                • mozambique
+                                • nepal
+                                • oceanía
+                                • omán
+                                • países-baixos
+                                • paquistán
+                                • perú
+                                • polonia
+                                • portugal
+                                • qatar
+                                • reino-unido
+                                • romanía
+                                • rusia
+                                • serbia
+                                • siria
+                                • sudán-do-sur
+                                • suecia
+                                • suráfrica
+                                • suíza
+                                • timor-leste
+                                • turquía
+                                • ucraína
+                                • venezuela
+                                • xapón
+                                • xordania
+                            • lugares. Nomes de lugares e parroquias.
+                                • galicia. Véxase: http://gl.wikipedia.org/wiki/Categoría:Lugares_de_Galicia
+                            • países. Nomes de países do mundo, actuais e pasados, de recoñecemento amplo ou limitado.
+                            • rexións. Topónimos entre localidades e estados: comunidades, condados, provincias, rexións…
+                                • alemaña
+                                • bélxica
+                                • brasil
+                                • chile
+                                • colombia
+                                • españa
+                                • estados-unidos-de-américa
+                                • finlandia
+                                • francia
+                                • guatemala
+                                • grecia
+                                • india
+                                • italia
+                                • méxico
+                                • países-baixos
+                                • portugal
+                                • reino-unido
+                                • rusia
+                            • zonas. Nomes de partes de núcleos de poboacións: barrios e distritos.
+                                • españa
+                                • mónaco
+                        • transporte
+                            • aeroportos
+                            • barcos
+                            • liñas-aéreas
+                            • trens
+                    • siglas
+                        • campos
+                            • alimentación
+                            • informática
+                            • medicina
+                        • xeral
+                    • suxestións. Erros ortográficos e desviacións máis comúns rexistrados na Galipedia (http://gl.wikipedia.org/wiki/Wikipedia:Erros_de_ortografía_e_desviacións).
+                    • xeografía. Xeografía.
+                        • accidentes. Accidentes xeográficos.
+                • hu. Módulos baseados no contido da Wikipedia en húngaro.
+                    • antroponimia. Nomes de persoas.
+                • pt. Módulos baseados no contido da Wikipedia en portugués.
+                    • antroponimia. Nomes de persoas.
+                        • países
+                            • brasil
+                            • españa
+
+
+wiktionary      Wiktionary
+                https://wiktionary.org
+
+                Submódulos:
+
+                • en. Módulos baseados no contido do Wiktionary en inglés.
+                    • antroponimia
+                • gl. Módulos baseados no contido do Wiktionary en galego.
+                    • antroponimia
+                    • toponimia. Topónimos.
+                        • galicia

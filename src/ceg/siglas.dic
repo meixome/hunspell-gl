@@ -1,0 +1,205 @@
+# Relación de siglas e acrónimos máis frecuentes
+# http://www.normalizacion.ceg.es/attachments/article/71/siglaspdf.pdf
+
+ADN po:sigla  # Ácido desoxirribonucleico.
+ADO po:sigla  # Asociación de Deportes Olímpicos.
+AEF po:sigla  # Asociación Española de Franquiciadores.
+AEGACA po:sigla  # Asociación de Empresarios Galegos en Cataluña.
+AEGAMEX po:sigla  # Asociación de Empresarios Galegos en Máxico.
+AELC po:sigla  # Asociación Europea de Libre Comercio.
+AES po:sigla  # Axudas de emerxencia social.
+AMAT po:sigla  # Asociación de Mutuas de Accidentes de Traballo.
+AME po:sigla  # Acordo Monetario Europeo.
+ANPA po:sigla  # Asociación de Nais e Pais de Aumnos.
+ANPE po:sigla  # Asociación Nacional de Profesionais da Educación. Aenor
+APA po:sigla  # Asociación para a Prevención de Accidentes.
+APD po:sigla  # Atención pública domiciliaria.
+ARE po:sigla  # Asemblea Rexional Europea. Asepal
+ASGAME po:sigla  # Asociación Galega de Arbitraxe, Mediación e Equidade.
+ATS po:sigla  # Axudante técnico sanitario. Banesto Benelux
+BNG po:sigla  # Bloque Nacionalista Galego.
+BOE po:sigla  # Boletín Oficial do Estado.
+BOP po:sigla  # Boletín Oficial da Provincia.
+CA po:sigla  # Comunidade Autónoma.
+CC po:sigla  # Código civil.
+CC. po:sigla [n-grama: CC. OO.]  # Comisións Obreiras.
+OO. po:sigla [n-grama: CC. OO.]  # Comisións Obreiras.
+CCG po:sigla  # Consello da Cultura Galega.
+CDE po:sigla  # Centro de Documentación Europea.
+CDG po:sigla  # Centro Dramático Galego.
+CE po:sigla  # Constitución española.
+CEC po:sigla  # Confederación de Empresarios da Coruña.
+CEG po:sigla  # Confederación de Empresarios de Galicia.
+CEI po:sigla  # Centro de Empresas e Innovación .
+CEL po:sigla  # Confederación de Empresarios de Lugo.
+CEO po:sigla  # Confederación Empresarial de Ourense.
+CEOE po:sigla  # Confederación Española de Organizacións Empresariais.
+CEP po:sigla  # Confederación de Empresarios de Pontevedra.
+CEPI po:sigla  # Centro de Educación Profesional Integrada.
+CEPYME po:sigla  # Confederación Empresarial de la Pequena y Mediana Empresa.
+CERA po:sigla  # Censo Electoral de Residentes Ausentes.
+CES po:sigla  # Confederación Europea de Sindicatos. Cesid
+CIF po:sigla  # Código de identificación fiscal.
+CIG po:sigla  # Converxencia Intersindical Galega. Cima
+CIRCE po:sigla  # Centro de Información e Rede de Creación de Empresas.
+CIS po:sigla  # Censo de Innovación e Servizos.
+CNT po:sigla  # Confederación Nacional do Traballo.
+COAG po:sigla  # Colexio Oficial de Arquitectos de Galicia.
+COFE po:sigla  # Centro de Orientación, Formación e Emprego. Cogami COPA-Cogeca General de las Cooperativas Agrarias. Coreper
+COSAC po:sigla  # Conférence des Organes Spécialisés dans les Affaires Communautaires.
+COTOP po:sigla  # Consellería de Ordenación do Territorio e Obras Públicas.
+CP po:sigla  # Código postal.
+CPU po:sigla  # Central Processing Unit, Unidade central de procesamento.
+CRTVG po:sigla  # Compañía de Radio-Televisión de Galicia.
+CSIC po:sigla  # Consello Superior de Investigacións Científicas.
+CSIF po:sigla  # Confederación Sindical Independente de Funcionarios.
+CTAG po:sigla  # Centro Tecnolóxico de Automoción de Galicia.
+CTNL po:sigla  # Coordinadora de Traballadores/as de Normalización da Lingua.
+CTT po:sigla  # Centro de Transferencia de Tecnoloxía.
+CXG po:sigla  # Consello da Xuventude de Galicia. Dirce
+DIT po:sigla  # Documento de Idoneidade Técnica.
+DITE po:sigla  # Documento de Idoneidade Técnica Europeo.
+DNI po:sigla  # Documento nacional de identidade.
+DOCE po:sigla  # Diario Oficial das Comunidades Europeas.
+DOG po:sigla  # Diario Oficial de Galicia.
+DUE po:sigla  # Documento único electrónico.
+EDAR po:sigla  # Estación depuradora de augas residuais.
+EGAP po:sigla  # Escola Galega de Administración Pública.
+ENA po:sigla  # Empresa Nacional de Autopistas.
+ENDESA po:sigla  # Empresa Nacional de Electricidade, Sociedade Anónima.
+EPA po:sigla  # Enquisa de poboación activa.
+EPI po:sigla  # Equipos de protección individual
+ESE po:sigla  # Enquisa social europea.
+ESO po:sigla  # Ensino Secundario Obrigatorio.
+ETT po:sigla  # Empresa de traballo temporal.
+EUA po:sigla  # Estados Unidos de América.
+EURATOM po:sigla  # Comunidade Europea de Enerxía Atómica.
+FAO po:sigla  # Food and Agriculture Organization; Organización para a Agricultura e a Alimentación.
+FAQ po:sigla  # Frecuently Asked Questions, Preguntas frecuentes.
+FCI po:sigla  # Fondo de compensación interterritorial. Feder Fegamp
+FEMP po:sigla  # Federación Española de Municipios e Provincias. Fenosa
+FEOGA po:sigla  # Fondo Europeo de Orientación e de Garantía Agrícola. Feuga
+FF. po:sigla [n-grama: FF. AA.]  # Forzas Armadas. Fidac hidrocarburos.
+AA. po:sigla [n-grama: FF. AA.]  # Forzas Armadas. Fidac hidrocarburos.
+FIFA po:sigla  # Fedération Internationale de Football Association, Federación Internacional de Asociacións de fútbol. Finsa
+FIP po:sigla  # Formación e inserción profesional. Fitur
+FMI po:sigla  # Fondo Monetario Internacional. Fogga
+FP po:sigla  # Formación Profesional.
+GMS po:sigla  # Global Management System, Sistema Global de Dirección. Grumir
+I+D po:sigla  # Investigación e Desenvolvemento. Idega I+D+i
+IAE po:sigla  # Imposto de Actividades Económicas.
+ICE po:sigla  # Instituto de Ciencias da Educación.
+ICES po:sigla  # International Council for the Exploration of the Sea.
+ICO po:sigla  # Instituto de Crédito Oficial. Icona
+IEO po:sigla  # Instituto Español de Oceanografía.
+IES po:sigla  # Instituto de Ensino Secundario
+IFOP po:sigla  # Instrumento Financeiro de Orientación da Pesca.
+IGAEM po:sigla  # Instituto Galego de Artes Escénicas e Musicais. Igape
+IGE po:sigla  # Instituto Galego de Estatística.
+IGVS po:sigla  # Instituto Galego da Vivenda e Solo. Ilga
+INE po:sigla  # Instituto Nacional de Estatística.
+INEF po:sigla  # Instituto Nacional de Educación Física. Inega Inem Inesga
+INI po:sigla  # Instituto Nacional de Industria. Inorde Insalud Inserso
+INSS po:sigla  # Instituto Nacional da Seguridade Social.
+IPC po:sigla  # Índice de prezos ao consumo.
+IRPF po:sigla  # Imposto sobre a renda das persoas físicas.
+ISBN po:sigla  # International Standard Book Number.
+ISO po:sigla  # Organización Internacional de Estandarización.
+ISSN po:sigla  # International Standard Serial Number.
+ITOPF po:sigla  # International Tanker Owners Pollution Federation.
+IVE po:sigla  # Imposto sobre o valor engadido.
+LAC po:sigla  # Lei de axuizamento civil.
+LAU po:sigla  # Lei de arrendamentos urbanos.
+LBRL po:sigla  # Lei de bases de réxime local.
+LCE po:sigla  # Lei de contratos do Estado.
+LEF po:sigla  # Lei de expropiación forzosa.
+LH po:sigla  # Lei hipotecaria.
+LNL po:sigla  # Lei de normalización lingüística.
+LOFCA po:sigla  # Lei orgánica de financiamento das comunidades autónomas.
+LOHAPA po:sigla  # Lei orgánica de harmonización do proceso autonómico.
+LOPD po:sigla  # Lei orgánica de protección de datos de carácter persoal.
+LOPX po:sigla  # Lei orgánica do poder xudicial.
+LOREX po:sigla  # Lei orgánica do réxime electoral xeral.
+LPA po:sigla  # Lei de procedemento administrativo.
+LRXAP-PAC po:sigla  # Lei de réxime xurídico das administracións públicas e do procedemento administrativo común.
+LS po:sigla  # Lei do solo.
+MAC po:sigla  # Marco de apoio comunitario.
+MAP po:sigla  # Ministerio de Administracións Públicas.
+MEC po:sigla  # Ministerio de Educación e Ciencia.
+MIR po:sigla  # Médico interno e residente.
+MNL po:sigla  # Mesa pola Normalización Lingüística.
+MOPU po:sigla  # Ministerio de Obras Públicas e Urbanismo.
+NAFO po:sigla  # Northwest Atlantic Fisheries Organization, Organización de Pesquerías do Atlántico Noroeste.
+NIF po:sigla  # Número de identificación fiscal.
+NRP po:sigla  # Número de rexistro persoal.
+OCDE po:sigla  # Organización para a Cooperación e o Desenvolvemento Económico.
+OCM po:sigla  # Organizacións comúns de mercado.
+OIT po:sigla  # Organización Internacional do Traballo.
+OMC po:sigla  # Organización Mundial do Comercio.
+OMI po:sigla  # Organización Marítima Internacional.
+OMS po:sigla  # Organización Mundial da Saúde.
+ONG po:sigla  # Organización non gobernamental.
+ONGD po:sigla  # Organización non gobernamental para o desenvolvemento.
+ONU po:sigla  # Organización das Nacións Unidas.
+OPA po:sigla  # Ofertas públicas de adquisición.
+OPE po:sigla  # Oferta pública de emprego.
+OTAN po:sigla  # Organización do Tratado do Atlántico Norte.
+OTRI po:sigla  # Oficina de Transferencia de Resultados de Investigación.
+PAC po:sigla  # Punto de atención continuada.
+PAIT po:sigla  # Punto de Asesoramento e Inicio de Tramitación.
+PAMI po:sigla  # Programa de asistencia médica integral.
+PD po:sigla  # Posdata. Pedega
+PIB po:sigla  # Produto interior bruto.
+PISA po:sigla  # Programa internacional de avaliación de estudantes.
+PNB po:sigla  # Produto nacional bruto.
+PNN po:sigla  # Profesor non numerario.
+POI po:sigla  # Programa operativo integrado.
+PP po:sigla  # Partido Popular.
+PRL po:sigla  # Prevención de riscos laborais.
+PS po:sigla  # Post scriptum. PSdeG
+PVP po:sigla  # Prezo de venda ao público.
+PXNL po:sigla  # Plan xeral de normalización lingüística.
+PXOU po:sigla  # Plan xeral de ordenación urbana.
+RAG po:sigla  # Real Academia Galega.
+RAM po:sigla  # Random Access Memory.
+REASS po:sigla  # Réxime especial agrario da Seguridade Social. Reganosa
+RETA po:sigla  # Réxime especial de traballadores autónomos.
+RIP po:sigla  # Requiescat in pace Risga
+ROM po:sigla  # Read Only Memory.
+RSU po:sigla  # Residuos sólidos urbanos.
+RTP po:sigla  # Relacións de postos de traballo.
+SAL po:sigla  # Servizo de Asesoramento Lingüístico. Sasemar
+SEC po:sigla  # Sistema europeo de contas.
+SEPI po:sigla  # Sociedade Española de Participacións Industriais. Seprona
+SGI po:sigla  # Servizo Galego da Igualdade.
+SGTM po:sigla  # Sindicato Galego de Traballadores do Mar. Siega
+SIIT po:sigla  # Sistema integrado de información turística.
+SISPE po:sigla  # Sistema de información dos servizos públicos de emprego.
+SLG po:sigla  # Sindicato Labrego Galego.
+SLNE po:sigla  # Sociedade Limitada Nova Empresa.
+SME po:sigla  # Sistema monetario europeo.
+SMI po:sigla  # Sistema monetario internacional.
+SMS po:sigla  # Short Message Service, Servizo de Mensaxes Curtas.
+SNL po:sigla  # Servizo de Normalización Lingüística. Sodiga Sogama
+SOS po:sigla  # Save our ships, Salvade os nosos barcos.
+SP po:sigla  # Servizo público.
+SPI po:sigla  # Sociedade Pública de Investimentos.
+SXPL po:sigla  # Secretaría Xeral de Política Lingüística.
+TC po:sigla  # Tribunal Constitucional.
+TCA po:sigla  # Tramos de concentración de accidentes.
+TIC po:sigla  # Tecnoloxías da información e da comunicación.
+TIO po:sigla  # Táboas input-output.
+TRAC po:sigla  # Telefonía rural de acceso celular. Tradime
+TS po:sigla  # Tribunal Supremo.
+TSXG po:sigla  # Tribunal Superior de Xustiza de Galicia.
+UAC po:sigla  # Universidade da Coruña.
+UCI po:sigla  # Unidade de coidados intensivos.
+UE po:sigla  # Unión Europea.
+UNED po:sigla  # Universidade Nacional de Educación a Distancia.
+UNESCO po:sigla  # Organización das Nacións Unidas para a Educación, a Ciencia e a Cultura. Unicef
+USC po:sigla  # Universidade de Santiago de Compostela.
+UV po:sigla  # Universidade de Vigo.
+UVI po:sigla  # Unidade de vixilancia intensiva.
+UXA po:sigla  # Unidade de Xestión Académica.
+UXT po:sigla  # Unión Xeral de Traballadores.
+VUE po:sigla  # Ventá única empresarial Wifi

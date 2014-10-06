@@ -1,0 +1,77 @@
+# Relación de abreviaturas de tratamento
+# http://www.concellodezas.org/linguazas/documentos/criterios_uso_lingua.pdf
+
+A. po:abreviatura  # alteza
+A. po:abreviatura [n-grama: A. R.]  # alteza real
+R. po:abreviatura [n-grama: A. R.]  # alteza real
+AA. po:abreviatura  # alteza
+Arc. po:abreviatura  # arcebispo
+B. po:abreviatura  # beato
+Bmo. po:abreviatura [n-grama: Bmo. P]  # beatísimo padre
+P po:abreviatura [n-grama: Bmo. P]  # beatísimo padre
+D. po:abreviatura  # don
+D.ª po:abreviatura [n-grama: D.ª ou Dna.]  # dona
+ou po:abreviatura [n-grama: D.ª ou Dna.]  # dona
+Dna. po:abreviatura [n-grama: D.ª ou Dna.]  # dona
+Dr. po:abreviatura  # doutor
+Dra. po:abreviatura  # doutora
+Emcia. po:abreviatura  # eminencia
+Emcia. po:abreviatura [n-grama: Emcia. Revrma.]  # eminencia reverendísima
+Revrma. po:abreviatura [n-grama: Emcia. Revrma.]  # eminencia reverendísima
+Emma. po:abreviatura  # eminentísima
+Emma. po:abreviatura [n-grama: Emma. Sra.]  # eminentísima  señora
+Sra. po:abreviatura [n-grama: Emma. Sra.]  # eminentísima  señora
+Emmo. po:abreviatura  # eminentísimo
+Emmo. po:abreviatura [n-grama: Emmo. Sr.]  # eminentísimo señor
+Sr. po:abreviatura [n-grama: Emmo. Sr.]  # eminentísimo señor
+Exc. po:abreviatura  # exelentísimo
+Exc. po:abreviatura [n-grama: Exc. Sr]  # excelentísimo  señor
+Sr po:abreviatura [n-grama: Exc. Sr]  # excelentísimo  señor
+Exc. po:abreviatura [n-grama: Exc. Sr.ª]  # excelentísima  señora
+Sr.ª po:abreviatura [n-grama: Exc. Sr.ª]  # excelentísima  señora
+Exc.ª po:abreviatura  # excelentísima
+Fr. po:abreviatura  # frei
+Il. po:abreviatura  # ilustre
+Ilma. po:abreviatura  # ilustrísima
+Ilma. po:abreviatura [n-grama: Ilma. Sr.ª]  # ilustrísima señora
+Sr.ª po:abreviatura [n-grama: Ilma. Sr.ª]  # ilustrísima señora
+Ilmo. po:abreviatura  # ilustrísimo
+Ilmo. po:abreviatura [n-grama: Ilmo. Sr.]  # ilustrísimo señor
+Sr. po:abreviatura [n-grama: Ilmo. Sr.]  # ilustrísimo señor
+Magfa. po:abreviatura  # magnífica
+Magfo. po:abreviatura  # magnífico
+mons. po:abreviatura  # monseñor
+Rda. po:abreviatura  # reverenda
+Rdo. po:abreviatura  # reverendo
+S. po:abreviatura  # san
+S.A.I. po:abreviatura  # súa alteza imperial
+S.A.R. po:abreviatura  # súa alteza real
+S.A.S. po:abreviatura  # súa alteza serenísima
+S.D.M. po:abreviatura  # súa divina maxestade
+S.E. po:abreviatura  # súa excelencia
+S.M. po:abreviatura  # súa maxestade
+S.M.I. po:abreviatura  # súa maxestade imperial
+S.R.M. po:abreviatura  # súa real maxestade
+S.S. po:abreviatura  # súa santidade
+Sma. po:abreviatura  # santísima
+Smo. po:abreviatura  # santísimo
+Sr. po:abreviatura  # señor
+Sra. po:abreviatura [n-grama: Sra. ou S.ª]  # señora
+ou po:abreviatura [n-grama: Sra. ou S.ª]  # señora
+S.ª po:abreviatura [n-grama: Sra. ou S.ª]  # señora
+SS.AA. po:abreviatura  # súas altezas
+SS.EE. po:abreviatura  # súas excelencias
+Sta po:abreviatura  # santa
+Sto po:abreviatura  # santo
+V. po:abreviatura [n-grama: V. E.]  # vosa excelencia
+E. po:abreviatura [n-grama: V. E.]  # vosa excelencia
+V.A.R. po:abreviatura  # vosa alteza real
+V.I. po:abreviatura  # vosa ilustrísima
+V.M. po:abreviatura  # vosa maxestade
+V.S. po:abreviatura  # vosa señoría
+Vde. po:abreviatura  # vostede
+Vdes. po:abreviatura  # vostedes
+VV. po:abreviatura [n-grama: VV. EE.]  # vosas excelencias
+EE. po:abreviatura [n-grama: VV. EE.]  # vosas excelencias
+VV. po:abreviatura [n-grama: VV. MM]  # vosas maxestades
+MM po:abreviatura [n-grama: VV. MM]  # vosas maxestades
