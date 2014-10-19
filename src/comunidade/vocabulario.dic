@@ -122,6 +122,7 @@ personalizábel/12 po:adxectivo
 personalizable/10 po:adxectivo
 poboacional/12 po:adxectivo
 postural/12 po:adxectivo
+predefinido/10,15 po:adxectivo
 preditor/10,14 po:adxectivo
 pregábel/12 po:adxectivo
 pregable/10 po:adxectivo
@@ -202,6 +203,7 @@ Dollar po:divisa [n-grama Guyana Dollar]
 # Nomes.
 Android po:nome propio
 BlackBerry po:nome propio
+Blu-ray po:nome propio
 Boing po:nome propio
 Dropbox po:nome propio
 Eurocopa po:nome propio
@@ -209,6 +211,7 @@ Eurovisión po:nome propio
 Facebook po:nome propio
 Firefox po:nome propio
 Galipedia po:nome propio
+GitHub po:nome propio
 Gmail po:nome propio
 Google po:nome propio
 HP po:nome propio
@@ -225,6 +228,7 @@ Neox po:nome propio
 OpenOffice po:nome propio
 Orange po:nome propio
 Panoramio po:nome propio
+PayPal po:nome propio
 Picasa po:nome propio
 Sangriña po:nome propio
 Skype po:nome propio
@@ -240,6 +244,7 @@ volga po:nome propio
 VOLGa po:nome propio
 Wikipedia po:nome propio
 Windows po:nome propio
+YouTube po:nome propio
 
 # Personaxes de ficción.
 C3-PO po:antropónimo        # Personaxe da saga «A guerra das galaxias».
@@ -329,6 +334,8 @@ VLSI po:sigla                       # Very Large Scale Integration
 autoestima po:substantivo feminino
 cartelaría/10 po:substantivo feminino
 conectividade/10 po:substantivo feminino
+desactivación/10 po:substantivo feminino
+descodificación/10 po:substantivo feminino
 discrecionalidade po:substantivo feminino
 exhaustividade po:substantivo feminino
 macro/10 po:substantivo feminino
@@ -344,9 +351,14 @@ xentalla po:substantivo feminino
 xudicialización/10 po:substantivo feminino
 
 # Substantivos masculinos.
+bitcoin/10 po:substantivo masculino
+celacanto/10 po:substantivo masculino # https://gl.wikipedia.org/wiki/Celacanto
 clúster/10 po:substantivo masculino
+códec/10 po:substantivo masculino
+ecualizador/10 po:substantivo masculino
 enchemento po:substantivo masculino
 profundamento/10 po:substantivo masculino
+salvapantallas po:substantivo masculino
 submódulo/10 po:substantivo masculino
 tóner po:substantivo masculino
 varapau/10 po:substantivo masculino
