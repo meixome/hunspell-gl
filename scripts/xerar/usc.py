@@ -127,7 +127,7 @@ class AcronymsGenerator(generator.Generator):
                 continue
 
             if comment:
-                entries[subentry] = line
+                entries[line] = comment
                 comment = None
             else:
                 comment = line
