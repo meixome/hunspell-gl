@@ -155,13 +155,8 @@ class Iso639Generator(generator.Generator):
 
 
     def generateFileContent(self):
-
-        def getSilOrgPageForLetter(letter):
-            return urllib2.urlopen("http://www.sil.org/iso639-3/codes.asp?order=639_3&letter={letter}".format(letter=letter)).read()
-
         codeList = Iso639CodeList()
-        for letter in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']:
-            codeList.mergeFromSilOrgPage(getSilOrgPageForLetter(letter))
+        codeList.mergeFromSilOrgPage(urllib2.urlopen("http://www-01.sil.org/iso639-3/codes.asp?order=639_3&letter=%25").read())
         return codeList.toDicFormat()
 
 
