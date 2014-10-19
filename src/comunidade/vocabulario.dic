@@ -1,11 +1,55 @@
+# Abreviaturas.
+ab po:abreviatura [n-grama: ab init.]       # ab initio (desde o principio)
+init. po:abreviatura [n-grama: ab init.]    # ab initio (desde o principio)
+addor. po:abreviatura                       # administrador
+addora. po:abreviatura                      # administradora
+adva. po:abreviatura                        # administrativa
+advo. po:abreviatura                        # administrativo
+afma. po:abreviatura                        # afectuosísima
+afmo. po:abreviatura                        # afectuosísimo
+amb. po:abreviatura                         # ambiguo
+antepret. po:abreviatura                    # antepretérito
+av. po:abreviatura                          # avenida
+ax. po:abreviatura                          # axudante
+bach. po:abreviatura                        # bacharelato
+calef. po:abreviatura                       # calefacción
+célt. po:abreviatura                        # céltica/o
+der. po:abreviatura                         # dereito
+desv. po:abreviatura                        # desviación
+div. po:abreviatura                         # división
+Em.ª po:abreviatura                         # eminencia
+estac. po:abreviatura                       # estación
+impt. po:abreviatura                        # importe
+N.ª po:abreviatura                          # nosa
+n. po:abreviatura [n-grama: n. f.]          # nome feminino
+f. po:abreviatura [n-grama: n. f.]          # nome feminino
+n. po:abreviatura [n-grama: n. m.]          # nome masculino
+m. po:abreviatura [n-grama: n. m.]          # nome masculino
+pag. po:abreviatura                         # pagamento
+páxs. po:abreviatura                        # páxinas
+ptas. po:abreviatura                        # pesetas
+Revma. po:abreviatura                       # reverendísima
+sarx. po:abreviatura                        # sarxento
+sdade. po:abreviatura                       # sociedade
+segs. po:abreviatura                        # segundos
+Srta. po:abreviatura                        # señorita
+tlf. po:abreviatura                         # teléfono
+veh. po:abreviatura                         # vehículo
+xral. po:abreviatura                        # xeneral
+
 # Adverbios.
 atresadamente po:advervio
 bianualmente po:advervio
 bienalmente po:advervio
+despazo po:adverbio
 disciplinariamente po:advervio
 electronicamente po:advervio
 emocionalmente po:advervio
 exponencialmente po:advervio
+futbolisticamente po:advervio
+meteoroloxicamente po:advervio
+mitoloxicamente po:advervio
+morbidamente po:advervio
 nomeadamente po:advervio
 normativamente po:advervio
 paseniñamente po:advervio
@@ -13,12 +57,21 @@ penalmente po:advervio
 porosamente po:advervio
 potestativamente po:advervio
 secuencialmente po:advervio
+vocalmente po:adverbio
 
 # Adxectivos.
+acrítico/10,15 po:adxectivo
 activábel/12 po:adxectivo
 activable/10 po:adxectivo
-boolenao/10,15 po:adxectivo
+adaptativo/10,15 po:adxectivo
+aeróbico/10,15 po:adxectivo
+anaeróbico/10,15 po:adxectivo
+argumentativo/10,15 po:adxectivo
+autótrofo/10,15 po:adxectivo
+bidimensional/12 po:adxectivo
+booleano/10,15 po:adxectivo
 canalizador/10,14 po:adxectivo
+cohesionado/10,15 po:adxectivo
 conexionado/10,15 po:adxectivo
 consensuado/10,15 po:adxectivo
 conversor/10,14 po:adxectivo
@@ -28,256 +81,172 @@ descodificador/10,14 po:adxectivo
 despregábel/12 po:adxectivo
 despregable/10 po:adxectivo
 dialogante/10 po:adxectivo
+disruptivo/10,15 po:adxectivo
 documentador/10,14 po:adxectivo
+editábel/12 po:adxectivo
+editable/10 po:adxectivo
 expansor/10,14 po:adxectivo
 expedientado/10,15 po:adxectivo
+extraescolar/10 po:adxectivo
+fotocopiábel/12 po:adxectivo
+fotocopiable/10 po:adxectivo
 grupal/12 po:adxectivo
+hexadecimal/12 po:adxectivo
+impredicíbel/12 po:adxectivo
+impredicible/10 po:adxectivo
 imprimíbel/12 po:adxectivo
 imprimible/10 po:adxectivo
+incentivador/10,14 po:adxectivo
+indesexado/10,15 po:adxectivo
+iniciábel/12 po:adxectivo
+iniciable/10 po:adxectivo
+intercultural/12 po:adxectivo
+interdisciplinar/12 po:adxectivo
 interpersoal/12 po:adxectivo
+interrelacionado/10,15 po:adxectivo
+inusual/12 po:adxectivo
+invasivo/10,15 po:adxectivo
+lésbico/10,15 po:adxectivo
+ligábel/12 po:adxectivo
+ligable/10 po:adxectivo
+lonxano/10,15 po:adxectivo
 mediático/10,15 po:adxectivo
 minusvalorado/10,15 po:adxectivo
+multimedia po:adxectivo
 multiplataforma po:adxectivo
 multipunto po:adxectivo
 orzamentado/10,15 po:adxectivo
+participativo/10,15 po:adxectivo
 paseniño/10,15 po:adxectivo
+percusivo/10,15 po:adxectivo
 personalizábel/12 po:adxectivo
 personalizable/10 po:adxectivo
+poboacional/12 po:adxectivo
+postural/12 po:adxectivo
 preditor/10,14 po:adxectivo
 pregábel/12 po:adxectivo
 pregable/10 po:adxectivo
 promocional/12 po:adxectivo
 reprografado/10,15 po:adxectivo
+revitalizante/10 po:adxectivo
+semidestruído/10,15 po:adxectivo
+sobresdrúxulo/10,15 po:adxectivo
+sumativo/10,15 po:adxectivo
+sumatorio/10,15 po:adxectivo
 supraterritorial/12 po:adxectivo
+tacaño/10,15 po:adxectivo
 tecnotrónico/10,15 po:adxectivo
+tímbrico/10,15 po:adxectivo
+vencellado/10,15 po:adxectivo
 xudicializado/10,15 po:adxectivo
 
-# Substantivos femininos.
-autoestima po:substantivo feminino
-caché/10 po:substantivo feminino
-cartelaría/10 po:substantivo feminino
-conectividade/10 po:substantivo feminino
-discrecionalidade po:substantivo feminino
-exhaustividade po:substantivo feminino
-macro/10 po:substantivo feminino
-medianoite po:substantivo feminino
-pervivencia po:substantivo feminino
-preinscrición/10 po:substantivo feminino
-profesionalización/10 po:substantivo feminino
-redirección/10 po:substantivo feminino
-renormativización po:substantivo feminino
-retroalimentación po:substantivo feminino
-sostibilidade/10 po:substantivo feminino
-xentalla po:substantivo feminino
-xudicialización/10 po:substantivo feminino
-
-# Substantivos masculinos.
-cián po:substantivo masculino
-clúster/10 po:substantivo masculino
-enchemento po:substantivo masculino
-maxenta po:substantivo masculino
-profundamento/10 po:substantivo masculino
-submódulo/10 po:substantivo masculino
-tóner po:substantivo masculino
-varapau/10 po:substantivo masculino
-
-# Substantivos neutros
-internauta/10 po:substantivo
-xemente/10 po:substantivo
-
-# Verbos
-adicionar/200,201 po:verbo ts:transitiva al:adiciónar
-adiciónar/666,202 st:adicionar ts:alomorfo adicionar transitiva
-amordiscar/200,201 po:verbo ts:transitiva al:amordíscar
-amordíscar/666,202 st:amordiscar ts:alomorfo amordiscar transitiva
-autopropagar/200,201,230,231 po:verbo ts:transitiva / pronominal al:autopropágar
-autopropágar/666,202,232 st:autopropagar ts:alomorfo autopropagar transitiva / pronominal
-cablear/200,201 po:verbo ts:transitiva al:cabléar
-cabléar/666,202 st:cablear ts:alomorfo cablear transitiva
-formatar/200,201 po:verbo ts:transitiva al:formátar
-formátar/666,202 st:formatar ts:alomorfo formatar transitiva
-interactuar/221 po:verbo ts:intransitiva al:interactúar
-interactúar/666,220,222 st:interactuar ts:alomorfo interactuar intransitiva
-interconectar/200,201,230,231 po:verbo ts:transitiva / pronominal al:interconéctar
-interconéctar/666,202,232 st:interconectar ts:alomorfo interconectar transitiva / pronominal
-minusvalorar/200,201 po:verbo ts:transitiva al:minusvalórar
-minusvalórar/666,202 st:minusvalorar ts:alomorfo minusvalorar transitiva
-monitorizar/200,201 po:verbo ts:transitiva al:monitorízar
-monitorízar/666,202 st:monitorizar ts:alomorfo monitorizar transitiva
-orzamentar/200,201 po:verbo ts:transitiva al:orzaméntar
-orzaméntar/666,202 st:orzamentar ts:alomorfo orzamentar transitiva
-preinscribir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:preinscríbir
-preinscríbir/666,602,802 st:preinscribir ts:alomorfo preinscribir transitiva / pronominal
-priorizar/200,201 po:verbo ts:transitiva al:priorízar
-priorízar/666,202 st:priorizar ts:alomorfo priorizar transitiva
-profesionalizar/200,201,230,231 po:verbo ts:transitiva / pronominal al:profesionalízar
-profesionalízar/666,202,232 st:profesionalizar ts:alomorfo profesionalizar transitiva / pronominal
-recalcular/200,201 po:verbo ts:transitiva al:recalcúlar
-recalcúlar/666,202 st:recalcular ts:alomorfo recalcular transitiva
-redenominar/200,201,230,231 po:verbo ts:transitiva / pronominal al:redenomínar
-redenomínar/666,202,232 st:redenominar ts:alomorfo redenominar transitiva / pronominal
-redirixir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:rediríxir
-rediríxir/666,602,802 st:redirixir ts:alomorfo redirixir transitiva / pronominal
-refritir/600,601 po:verbo ts:transitiva al:refrítir
-refrítir/666,602 st:refritir ts:alomorfo refritir transitiva
-reprografar/200,201 po:verbo ts:transitiva al:reprográfar
-reprográfar/666,202 st:reprografar ts:alomorfo reprografar transitiva
-reutilizar/200,201 po:verbo ts:transitiva al:reutilízar
-reutilízar/666,202 st:reutilizar ts:alomorfo reutilizar transitiva
-respaldar/200,201 po:verbo ts:transitiva al:respáldar
-respáldar/666,202 st:respaldar ts:alomorfo respaldar transitiva
-sobrepasar/200,201 po:verbo ts:transitiva al:sobrepásar
-sobrepásar/666,202 st:sobrepasar ts:alomorfo sobrepasar transitiva
-vencellar/200,201,230,231 po:verbo ts:transitiva / pronominal al:vencéllar
-vencéllar/666,202,232 st:vencellar ts:alomorfo vencellar transitiva / pronominal
-xudicializar/200,201 po:verbo ts:transitiva al:xudicialízar
-xudicialízar/666,202 st:xudicializar ts:alomorfo xudicializar transitiva
-
-# Nomes.
-Galipedia po:nome propio
-hunspell po:nome propio
-Hunspell po:nome propio
-Vichona po:nome propio
-VOLG po:nome propio
-volga po:nome propio
-VOLGa po:nome propio
-
-# Teclas.
-Ctrl po:tecla
-CTRL po:tecla
-Maiús po:tecla
-MAIÚS po:tecla
-
-# Xentilicios.
-capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
-
 # Antropónimos.
-Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
-
-# Topónimos.
-Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
-Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
-Goyang po:topónimo          # https://en.wikipedia.org/wiki/Goyang
-Guarico po:topónimo         # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Venezuela
-Gunungkidoli po:topónimo    # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
-Haora po:topónimo           # https://en.wikipedia.org/wiki/Haora_River
-Hoboken po:topónimo         # https://en.wikipedia.org/wiki/Hoboken
-Indostán po:topónimo        # https://en.wikipedia.org/wiki/Hindustan
-Itaparica po:topónimo       # https://gl.wikipedia.org/wiki/Ba%C3%ADa,_Brasil
-Itapoã po:topónimo          # https://en.wikipedia.org/wiki/Itapo%C3%A3_%28neighborhood%29
-Kalookan po:topónimo        # https://en.wikipedia.org/wiki/Kalookan
-Kebunamen po:topónimo       # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
-Kinabalu po:topónimo        # https://en.wikipedia.org/wiki/Mount_Kinabalu
-Kings po:topónimo           # https://en.wikipedia.org/wiki/Kings_County,_California
-Ladinia po:topónimo         # https://en.wikipedia.org/wiki/Ladinia
-Langosteira po:topónimo     # https://gl.wikipedia.org/wiki/Punta_Langosteira
-Languedoc po:topónimo       # https://gl.wikipedia.org/wiki/Languedoc
-Latinoamérica po:topónimo   # https://gl.wikipedia.org/wiki/Am%C3%A9rica_Latina
-Leverkusen po:topónimo      # https://en.wikipedia.org/wiki/Leverkusen
-Llosas po:topónimo          # https://en.wikipedia.org/wiki/Les_Llosses
-Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
-Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
-Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
-Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
-Maón po:topónimo            # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
-Mogadouro po:topónimo       # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Mogadouro
-Moguer po:topónimo          # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Huelva
-Monagas po:topónimo         # https://gl.wikipedia.org/wiki/Acosta
-Montalvo po:topónimo        # https://gl.wikipedia.org/wiki/Praia_de_Paxari%C3%B1as
-Murillo po:topónimo         # https://en.wikipedia.org/wiki/Murillo_de_R%C3%ADo_Leza
-Nariño po:topónimo          # https://gl.wikipedia.org/wiki/Linares
-Nezahualcóyotl po:topónimo  # https://gl.wikipedia.org/wiki/Toluca_de_Lerdo
-Nuristán po:topónimo        # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Afganist%C3%A1n
-Olvera po:topónimo          # https://gl.wikipedia.org/wiki/Serra_de_C%C3%A1diz
-Oranxe po:topónimo          # https://gl.wikipedia.org/wiki/Namibia (río), https://gl.wikipedia.org/wiki/Virxinia (vila)
-Orgaz po:topónimo           # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Toledo
-Oshawa po:topónimo          # https://gl.wikipedia.org/wiki/Ontario
-Oxapampa po:topónimo        # https://gl.wikipedia.org/wiki/Provincias_do_Per%C3%BA
-Pangandarang po:topónimo    # https://en.wikipedia.org/wiki/Pangandaran
-Parrote po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADos_de_Galicia
-Pasadama po:topónimo        # https://gl.wikipedia.org/wiki/Montes_de_Galicia
-Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
-Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
-Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
-Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
-Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
-Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
-Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
-Riveside po:topónimo        # https://en.wikipedia.org/wiki/Riverside,_Illinois
-Rosellón po:topónimo        # https://gl.wikipedia.org/wiki/Languedoc-Rosell%C3%B3n
-Santarén po:topónimo        # https://gl.wikipedia.org/wiki/Dinis_de_Portugal
-Santomé po:topónimo         # https://gl.wikipedia.org/wiki/Mosteiros_e_conventos_de_Galicia
-Seicheles po:topónimo       # https://gl.wikipedia.org/wiki/%C3%81frica_subsahariana
-Seongnam po:topónimo        # https://gl.wikipedia.org/wiki/Se%C3%BAl
-Silgar po:topónimo          # https://gl.wikipedia.org/wiki/Galer%C3%ADa_de_imaxes_da_praia_de_Silgar
-Silicon po:topónimo         # https://en.wikipedia.org/wiki/Silicon_Valley
-Sipadan po:topónimo         # https://en.wikipedia.org/wiki/Sipadan
-Swansea po:topónimo         # https://gl.wikipedia.org/wiki/Gales
-Tangerang po:topónimo       # https://gl.wikipedia.org/wiki/Iabotabek
-Tapacari po:topónimo        # https://gl.wikipedia.org/wiki/Departamento_de_Cochabamba
-Tasikmalaya po:topónimo     # https://en.wikipedia.org/wiki/Tasikmalaya
-Tlalnepantla po:topónimo    # https://en.wikipedia.org/wiki/Tlalnepantla_de_Baz
-Tolima po:topónimo          # https://gl.wikipedia.org/wiki/Departamentos_de_Colombia
-Tondela po:topónimo         # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Tondela
-Tourada po:topónimo         # https://gl.wikipedia.org/wiki/Modelo:Lp_Vilalonga
-Transkei po:topónimo        # https://en.wikipedia.org/wiki/Transkei
-Transxordania po:topónimo   # https://gl.wikipedia.org/wiki/Xordania
-Tripolitania po:topónimo    # https://en.wikipedia.org/wiki/Tripolitania
-Turquestán po:topónimo      # https://en.wikipedia.org/wiki/Turkestan
-Tíbet po:topónimo           # https://gl.wikipedia.org/wiki/T%C3%ADbet
-Valaquia po:topónimo        # https://gl.wikipedia.org/wiki/Valaquia
-Valley po:topónimo          # https://en.wikipedia.org/wiki/Silicon_Valley
-Vilaodriz po:topónimo       # https://gl.wikipedia.org/wiki/Provincia_de_Mondo%C3%B1edo
-Viliquín po:topónimo        # https://gl.wikipedia.org/wiki/Modelo:Lp_Dena
-Villamil po:topónimo        # https://en.wikipedia.org/wiki/Villamil
-Xermiade po:topónimo        # http://www.edu.xunta.es/centros/ceippalasrei/system/files/rutas.pdf
-Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
-
-# Antropónimos.
+Ainhoa po:antropónimo
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
+Álvarez po:antropónimo
+Analía po:antropónimo
+Ángela po:antropónimo
 Anxelica po:antropónimo     # http://archive.today/kSoG
+Arquímedes po:antropónimo
+Bisbal po:antropónimo
+Cyrus po:antropónimo
+Díaz po:antropónimo
+Domínguez po:antropónimo
+Euclides po:antropónimo
+Euler po:antropónimo
 Eurídice po:antropónimo     # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
 Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
 Exiquia po:antropónimo      # http://www.noome.net/nombre-exiquia-en-espana
 Felícita po:antropónimo     # http://www.deperu.com/nombres-peruanos/significado-Fel%C3%ADcita
+Felipe po:antropónimo
+Fermat po:antropónimo
+Gabilondo po:antropónimo
+García po:antropónimo
+Gutiérrez po:antropónimo
+Henríquez po:antropónimo
 Herodias po:antropónimo     # https://en.wikipedia.org/wiki/Herodias (non vale coller o nome doutras linguas, este é dos que se traducen)
+Iñaki po:antropónimo
+Jesús po:antropónimo
+Juanma po:antropónimo
+Lorenzo po:antropónimo
+Márquez po:antropónimo
+Martínez po:antropónimo
+Mery po:antropónimo
+Montiño po:antropónimo
+Nieves po:antropónimo
+Novás po:antropónimo
+Oliver po:antropónimo
+Pablo po:antropónimo
 Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfeita
+Reyero po:antropónimo
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
-R2-D2 po:antropónimo        # Personaxe da saga «A guerra das galaxias».
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
+Sinde po:antropónimo
+Sobera po:antropónimo
+Suárez po:antropónimo
+Touriñán po:antropónimo
+Velázquez po:antropónimo
+Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
+Villa po:antropónimo
+Zúñiga po:antropónimo
 
-# Abreviaturas.
-addor. po:abreviatura       # administrador
-addora. po:abreviatura      # administradora
-adva. po:abreviatura        # administrativa
-advo. po:abreviatura        # administrativo
-afma. po:abreviatura        # afectuosísima
-afmo. po:abreviatura        # afectuosísimo
-amb. po:abreviatura         # ambiguo
-antepret. po:abreviatura    # antepretérito
-av. po:abreviatura          # avenida
-ax. po:abreviatura          # axudante
-bach. po:abreviatura        # bacharelato
-calef. po:abreviatura       # calefacción
-célt. po:abreviatura        # céltica/o
-der. po:abreviatura         # dereito
-desv. po:abreviatura        # desviación
-div. po:abreviatura         # división
-Em.ª po:abreviatura         # eminencia
-estac. po:abreviatura       # estación
-impt. po:abreviatura        # importe
-N.ª po:abreviatura          # nosa
-pag. po:abreviatura         # pagamento
-páxs. po:abreviatura        # páxinas
-ptas. po:abreviatura        # pesetas
-Revma. po:abreviatura       # reverendísima
-sarx. po:abreviatura        # sarxento
-sdade. po:abreviatura       # sociedade
-segs. po:abreviatura        # segundos
-Srta. po:abreviatura        # señorita
-tlf. po:abreviatura         # teléfono
-veh. po:abreviatura         # vehículo
-xral. po:abreviatura        # xeneral
+# Aumentativos, diminutivos e despectivos.
+elevadísimo/10,15 po:adxectivo
+homón/10,16 po:adxectivo
+mullerona/10 po:adxectivo
+cantarín/10,15 po:adxectivo
+
+# Divisas.
+Guyana po:divisa [n-grama Guyana Dollar]
+Dollar po:divisa [n-grama Guyana Dollar]
+
+# Nomes.
+Android po:nome propio
+BlackBerry po:nome propio
+Boing po:nome propio
+Dropbox po:nome propio
+Eurocopa po:nome propio
+Eurovisión po:nome propio
+Facebook po:nome propio
+Firefox po:nome propio
+Galipedia po:nome propio
+Gmail po:nome propio
+Google po:nome propio
+HP po:nome propio
+hunspell po:nome propio
+Hunspell po:nome propio
+Interviú po:nome propio
+iOS po:nome propio
+iPad po:nome propio
+iPhone po:nome propio
+LibreOffice po:nome propio
+Marzán po:nome propio
+Mozilla po:nome propio
+Neox po:nome propio
+OpenOffice po:nome propio
+Orange po:nome propio
+Panoramio po:nome propio
+Picasa po:nome propio
+Sangriña po:nome propio
+Skype po:nome propio
+Spotify po:nome propio
+Tabagón po:nome propio
+Telecinco po:nome propio
+Tuenti po:nome propio
+Twitter po:nome propio
+Vichona po:nome propio
+Vodafone po:nome propio
+VOLG po:nome propio
+volga po:nome propio
+VOLGa po:nome propio
+Wikipedia po:nome propio
+Windows po:nome propio
+
+# Personaxes de ficción.
+C3-PO po:antropónimo        # Personaxe da saga «A guerra das galaxias».
+Doraemon po:antropónimo     # Personaxe do anime «Doraemon».
+Nobita po:antropónimo       # Personaxe do anime «Doraemon».
+R2-D2 po:antropónimo        # Personaxe da saga «A guerra das galaxias».
 
 # Siglas e acrónimos.
 RR. po:sigla [n-grama: AA. RR.]     # altezas reais
@@ -356,6 +325,178 @@ VHA po:sigla                        # Veterans Health Administration
 VIH po:sigla                        # https://gl.wikipedia.org/wiki/Virus_da_inmunodeficiencia_humana
 VTR po:sigla                        # Video Tape Recorder
 VLSI po:sigla                       # Very Large Scale Integration
+
+# Substantivos femininos.
+autoestima po:substantivo feminino
+caché/10 po:substantivo feminino
+cartelaría/10 po:substantivo feminino
+conectividade/10 po:substantivo feminino
+discrecionalidade po:substantivo feminino
+exhaustividade po:substantivo feminino
+macro/10 po:substantivo feminino
+medianoite po:substantivo feminino
+pervivencia po:substantivo feminino
+preinscrición/10 po:substantivo feminino
+profesionalización/10 po:substantivo feminino
+redirección/10 po:substantivo feminino
+renormativización po:substantivo feminino
+retroalimentación po:substantivo feminino
+sostibilidade/10 po:substantivo feminino
+xentalla po:substantivo feminino
+xudicialización/10 po:substantivo feminino
+
+# Substantivos masculinos.
+cián po:substantivo masculino
+clúster/10 po:substantivo masculino
+enchemento po:substantivo masculino
+maxenta po:substantivo masculino
+profundamento/10 po:substantivo masculino
+submódulo/10 po:substantivo masculino
+tóner po:substantivo masculino
+varapau/10 po:substantivo masculino
+
+# Substantivos neutros
+internauta/10 po:substantivo
+xemente/10 po:substantivo
+
+# Teclas.
+Ctrl po:tecla
+CTRL po:tecla
+Maiús po:tecla
+MAIÚS po:tecla
+
+# Topónimos.
+Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
+Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
+Galápagos po:topónimo
+Goyang po:topónimo          # https://en.wikipedia.org/wiki/Goyang
+Guarico po:topónimo         # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Venezuela
+Güiana po:topónimo
+Gunungkidoli po:topónimo    # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
+Haora po:topónimo           # https://en.wikipedia.org/wiki/Haora_River
+Hoboken po:topónimo         # https://en.wikipedia.org/wiki/Hoboken
+Indostán po:topónimo        # https://en.wikipedia.org/wiki/Hindustan
+Itaparica po:topónimo       # https://gl.wikipedia.org/wiki/Ba%C3%ADa,_Brasil
+Itapoã po:topónimo          # https://en.wikipedia.org/wiki/Itapo%C3%A3_%28neighborhood%29
+Kalookan po:topónimo        # https://en.wikipedia.org/wiki/Kalookan
+Kebunamen po:topónimo       # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
+Kinabalu po:topónimo        # https://en.wikipedia.org/wiki/Mount_Kinabalu
+Kings po:topónimo           # https://en.wikipedia.org/wiki/Kings_County,_California
+Kosovo po:topónimo
+Ladinia po:topónimo         # https://en.wikipedia.org/wiki/Ladinia
+Langosteira po:topónimo     # https://gl.wikipedia.org/wiki/Punta_Langosteira
+Languedoc po:topónimo       # https://gl.wikipedia.org/wiki/Languedoc
+Latinoamérica po:topónimo   # https://gl.wikipedia.org/wiki/Am%C3%A9rica_Latina
+Leverkusen po:topónimo      # https://en.wikipedia.org/wiki/Leverkusen
+Llosas po:topónimo          # https://en.wikipedia.org/wiki/Les_Llosses
+Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
+Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
+Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
+Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
+Maón po:topónimo            # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
+Mogadouro po:topónimo       # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Mogadouro
+Moguer po:topónimo          # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Huelva
+Monagas po:topónimo         # https://gl.wikipedia.org/wiki/Acosta
+Montalvo po:topónimo        # https://gl.wikipedia.org/wiki/Praia_de_Paxari%C3%B1as
+Murillo po:topónimo         # https://en.wikipedia.org/wiki/Murillo_de_R%C3%ADo_Leza
+Nariño po:topónimo          # https://gl.wikipedia.org/wiki/Linares
+Nezahualcóyotl po:topónimo  # https://gl.wikipedia.org/wiki/Toluca_de_Lerdo
+Nuristán po:topónimo        # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Afganist%C3%A1n
+Olvera po:topónimo          # https://gl.wikipedia.org/wiki/Serra_de_C%C3%A1diz
+Oranxe po:topónimo          # https://gl.wikipedia.org/wiki/Namibia (río), https://gl.wikipedia.org/wiki/Virxinia (vila)
+Orgaz po:topónimo           # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Toledo
+Oshawa po:topónimo          # https://gl.wikipedia.org/wiki/Ontario
+Oxapampa po:topónimo        # https://gl.wikipedia.org/wiki/Provincias_do_Per%C3%BA
+Pangandarang po:topónimo    # https://en.wikipedia.org/wiki/Pangandaran
+Parrote po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADos_de_Galicia
+Pasadama po:topónimo        # https://gl.wikipedia.org/wiki/Montes_de_Galicia
+Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
+Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
+Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
+Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
+Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
+Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
+Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
+Riveside po:topónimo        # https://en.wikipedia.org/wiki/Riverside,_Illinois
+Rosellón po:topónimo        # https://gl.wikipedia.org/wiki/Languedoc-Rosell%C3%B3n
+Santarén po:topónimo        # https://gl.wikipedia.org/wiki/Dinis_de_Portugal
+Santomé po:topónimo         # https://gl.wikipedia.org/wiki/Mosteiros_e_conventos_de_Galicia
+Seicheles po:topónimo       # https://gl.wikipedia.org/wiki/%C3%81frica_subsahariana
+Seongnam po:topónimo        # https://gl.wikipedia.org/wiki/Se%C3%BAl
+Silgar po:topónimo          # https://gl.wikipedia.org/wiki/Galer%C3%ADa_de_imaxes_da_praia_de_Silgar
+Silicon po:topónimo         # https://en.wikipedia.org/wiki/Silicon_Valley
+Sipadan po:topónimo         # https://en.wikipedia.org/wiki/Sipadan
+Swansea po:topónimo         # https://gl.wikipedia.org/wiki/Gales
+Tangerang po:topónimo       # https://gl.wikipedia.org/wiki/Iabotabek
+Tapacari po:topónimo        # https://gl.wikipedia.org/wiki/Departamento_de_Cochabamba
+Tasikmalaya po:topónimo     # https://en.wikipedia.org/wiki/Tasikmalaya
+Tlalnepantla po:topónimo    # https://en.wikipedia.org/wiki/Tlalnepantla_de_Baz
+Tolima po:topónimo          # https://gl.wikipedia.org/wiki/Departamentos_de_Colombia
+Tondela po:topónimo         # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_Portugal#Tondela
+Tourada po:topónimo         # https://gl.wikipedia.org/wiki/Modelo:Lp_Vilalonga
+Transkei po:topónimo        # https://en.wikipedia.org/wiki/Transkei
+Transxordania po:topónimo   # https://gl.wikipedia.org/wiki/Xordania
+Tripolitania po:topónimo    # https://en.wikipedia.org/wiki/Tripolitania
+Turquestán po:topónimo      # https://en.wikipedia.org/wiki/Turkestan
+Tíbet po:topónimo           # https://gl.wikipedia.org/wiki/T%C3%ADbet
+Valaquia po:topónimo        # https://gl.wikipedia.org/wiki/Valaquia
+Valley po:topónimo          # https://en.wikipedia.org/wiki/Silicon_Valley
+Vilaodriz po:topónimo       # https://gl.wikipedia.org/wiki/Provincia_de_Mondo%C3%B1edo
+Viliquín po:topónimo        # https://gl.wikipedia.org/wiki/Modelo:Lp_Dena
+Villamil po:topónimo        # https://en.wikipedia.org/wiki/Villamil
+Xermiade po:topónimo        # http://www.edu.xunta.es/centros/ceippalasrei/system/files/rutas.pdf
+Yonkers po:topónimo         # https://en.wikipedia.org/wiki/Yonkers
+
+# Verbos
+adicionar/200,201 po:verbo ts:transitiva al:adiciónar
+adiciónar/666,202 st:adicionar ts:alomorfo adicionar transitiva
+amordiscar/200,201 po:verbo ts:transitiva al:amordíscar
+amordíscar/666,202 st:amordiscar ts:alomorfo amordiscar transitiva
+autopropagar/200,201,230,231 po:verbo ts:transitiva / pronominal al:autopropágar
+autopropágar/666,202,232 st:autopropagar ts:alomorfo autopropagar transitiva / pronominal
+cablear/200,201 po:verbo ts:transitiva al:cabléar
+cabléar/666,202 st:cablear ts:alomorfo cablear transitiva
+formatar/200,201 po:verbo ts:transitiva al:formátar
+formátar/666,202 st:formatar ts:alomorfo formatar transitiva
+interactuar/221 po:verbo ts:intransitiva al:interactúar
+interactúar/666,220,222 st:interactuar ts:alomorfo interactuar intransitiva
+interconectar/200,201,230,231 po:verbo ts:transitiva / pronominal al:interconéctar
+interconéctar/666,202,232 st:interconectar ts:alomorfo interconectar transitiva / pronominal
+minusvalorar/200,201 po:verbo ts:transitiva al:minusvalórar
+minusvalórar/666,202 st:minusvalorar ts:alomorfo minusvalorar transitiva
+monitorizar/200,201 po:verbo ts:transitiva al:monitorízar
+monitorízar/666,202 st:monitorizar ts:alomorfo monitorizar transitiva
+orzamentar/200,201 po:verbo ts:transitiva al:orzaméntar
+orzaméntar/666,202 st:orzamentar ts:alomorfo orzamentar transitiva
+preinscribir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:preinscríbir
+preinscríbir/666,602,802 st:preinscribir ts:alomorfo preinscribir transitiva / pronominal
+priorizar/200,201 po:verbo ts:transitiva al:priorízar
+priorízar/666,202 st:priorizar ts:alomorfo priorizar transitiva
+profesionalizar/200,201,230,231 po:verbo ts:transitiva / pronominal al:profesionalízar
+profesionalízar/666,202,232 st:profesionalizar ts:alomorfo profesionalizar transitiva / pronominal
+recalcular/200,201 po:verbo ts:transitiva al:recalcúlar
+recalcúlar/666,202 st:recalcular ts:alomorfo recalcular transitiva
+redenominar/200,201,230,231 po:verbo ts:transitiva / pronominal al:redenomínar
+redenomínar/666,202,232 st:redenominar ts:alomorfo redenominar transitiva / pronominal
+redirixir/600,601,800,801 po:verbo ts:transitiva / pronominal t pr al:rediríxir
+rediríxir/666,602,802 st:redirixir ts:alomorfo redirixir transitiva / pronominal
+refritir/600,601 po:verbo ts:transitiva al:refrítir
+refrítir/666,602 st:refritir ts:alomorfo refritir transitiva
+reprografar/200,201 po:verbo ts:transitiva al:reprográfar
+reprográfar/666,202 st:reprografar ts:alomorfo reprografar transitiva
+reutilizar/200,201 po:verbo ts:transitiva al:reutilízar
+reutilízar/666,202 st:reutilizar ts:alomorfo reutilizar transitiva
+respaldar/200,201 po:verbo ts:transitiva al:respáldar
+respáldar/666,202 st:respaldar ts:alomorfo respaldar transitiva
+sobrepasar/200,201 po:verbo ts:transitiva al:sobrepásar
+sobrepásar/666,202 st:sobrepasar ts:alomorfo sobrepasar transitiva
+vencellar/200,201,230,231 po:verbo ts:transitiva / pronominal al:vencéllar
+vencéllar/666,202,232 st:vencellar ts:alomorfo vencellar transitiva / pronominal
+xudicializar/200,201 po:verbo ts:transitiva al:xudicialízar
+xudicialízar/666,202 st:xudicializar ts:alomorfo xudicializar transitiva
+
+# Xentilicios.
+capixaba/10 po:xentilicio   # http://gl.wikipedia.org/wiki/Espírito_Santo,_Brasil
 
 # Incertos.
 a\/
@@ -457,3 +598,2617 @@ vix.
 vta.
 W.
 z.
+
+# Substantivos por analizar.
+# apampamento, aporofobia, audio, autoconfianza, autocorrección, azafato, badén, balaventos/as, brigadista, cabullaría, cianobacteria, contextualización, desmotivación, dietista, drogodependencia, emprendemento, etcéteras (en plural), etnocentrismo, glandulación, graneiro, heteroclamídea/s, hiperligazón, homofobia, impostación, infografía, islamofobia, marxinalidade, menaxe, multiculturalidade, navegador -es, pantaloneta, paxinador, percance, percusionista -as, perianto, personalización, píxel -es, platelminto, plus, polinizador, preditor/a/es/as, privacidade, salvidade, secuenciación, siniestralidade, subhasta/s, subpáxina/s, sustentabilidade, tecnotrónica, tedor/es, teletexto, temporalización, temporización, titorización, tríada, tubería, tweet/s, vial, visualizador, web, wikipedista, xenxiva, xeosfera, xiria, zarcillo.
+
+# Verbos por analizar.
+# ampampar, consensuar, desetiquetar, desmotivar, implementar, impostar, interrelacionar, posicionar, potabilizar, predefinir, protagonizar, resintonizar, tosquear, zarpar.
+
+# Vocabulario xeral por analizar.
+#abalorecer
+#abaloufar
+#abecer
+#abesoiro
+#abidueiro
+#abochornar
+#abofetear
+#aborrir
+#abranxer
+#abrula
+#abrumar
+#aburacar
+#abutre
+#acanchada
+#acanchar
+#acaracocharse
+#acarrear
+#acarretar
+#acarreto
+#aceituna
+#acelmado
+#acelmar
+#acequia
+#aceviño
+#acevro
+#achádego
+#achafallar
+#achanar
+#acidar
+#acincentar
+#aclimar
+#acobardar
+#acobillar
+#acogular
+#acolchoar
+#acorrentar
+#acostar
+#acovillar
+#acrecer
+#acreción
+#acrequenar
+#adentrar
+#adentro
+#adoentar
+#adormiñar
+#aduela
+#adversativa
+#afadigar
+#afargallar
+#afeizoado
+#afeizoar
+#afeizón
+#afervorar
+#afixar
+#aflicción
+#afoguear
+#afrentar
+#afundar
+#afuxentar
+#agá
+#agallopar
+#agarimeiro
+#agatear
+#agatiñar
+#agavear
+#aguzadeira
+#alabanca
+#alabarar
+#alacena
+#alambrear
+#alapear
+#alarbiar
+#alastrar
+#albañil
+#albariza
+#albedo
+#albeirar
+#albendar
+#alborear
+#alcantil
+#alcantilado
+#alecrín
+#aleixar
+#aleixoar
+#alelado
+#alelar
+#alemana
+#aletexar
+#alevín
+#alface
+#alfaneiro
+#algueirante
+#alimaria
+#alimpadura
+#aliñavar
+#aliñavo
+#allanar
+#almea
+#almibrar
+#almibre
+#almóndega
+#aloia
+#aloirar
+#alolear
+#alonxar
+#aloucar
+#aloulear
+#aloumiñadeiro
+#aloumiñón
+#alparagata
+#alpavarda
+#alquilar
+#alquiler
+#altaneiro
+#altear
+#aluspado
+#alviscar
+#alxibeira
+#amachucar
+#amadurecer
+#amaiolar
+#amaldizoar
+#amamantar
+#amargurar
+#amartelar
+#amazarocar
+#amazotar
+#ambular
+#amedoñar
+#amedrontar
+#ameixal
+#amenal
+#amenedo
+#amial
+#amigallar
+#aminguar
+#amiudar
+#amiúde
+#amoladeira
+#amoldar
+#amoreira
+#amorote
+#amorrado
+#amorrallarse
+#amorroar
+#amusgañar
+#anagua
+#anceio
+#anchor
+#andaime
+#andanada
+#andorga
+#andorgueiro
+#andurrial
+#anegrar
+#anguria
+#anguriar
+#anibón
+#animalia
+#anseio
+#anteantonte
+#anubear
+#aonde
+#apacible
+#apaciguar
+#apalear
+#apalominado
+#aparvallar
+#apavorar
+#apedrazar
+#apedrexar
+#aperfeizoar
+#apetrechos
+#apiedar
+#apito
+#apodar
+#apodo
+#apoltroarse
+#apouquentar
+#apouquiñar
+#apousar
+#apouso
+#apregoar
+#aprensión
+#apresentar
+#apreta
+#apretar
+#apreto
+#aprofundar
+#apromar
+#apromo
+#aprosmado
+#aqueixar
+#aquerquenarse
+#arábega
+#arabesa
+#arcaz
+#ardil
+#arelar
+#arenoso
+#arexar
+#argüir
+#arilleiro
+#armacén
+#armacenar
+#armadilla
+#arnoia
+#arrá
+#arraizar
+#arrañaceo
+#arrañadura
+#arrañar
+#arrapiñar
+#arreata
+#arredrar
+#arreigar
+#arrempuxar
+#arrempuxón
+#arrente
+#arrentes
+#arrepañota
+#arrevellado
+#arrevesar
+#arrincoar
+#arringleirar
+#arrotear
+#arrular
+#arrumar
+#artículo
+#asadoiro
+#asamblea
+#aseñar
+#aserradeiro
+#aserrar
+#asignatura
+#asinalar
+#asoante
+#asosegar
+#asovallar
+#asqueroso
+#asubiote
+#asulagado
+#asulagar
+#atarefar
+#ateitiñar
+#atemperar
+#atirar
+#atizadoiro
+#atmósfera
+#atolainado
+#atoleiro
+#atorado
+#atorar
+#atordoar
+#atoutizado
+#atoutizar
+#atrabancar
+#atrabanco
+#atraizoado
+#atraizoar
+#atrangallar
+#atroada
+#atroxar
+#atullar
+#aturdido
+#aturdimento
+#aturdir
+#atutar
+#audacioso
+#augaceiro
+#aunar
+#avalizar
+#avanar
+#avanear
+#avanicar
+#avano
+#aveirar
+#aveiro
+#avelá
+#avelaira
+#avelanal
+#aveleira
+#avelorios
+#avenza
+#averiguar
+#avispado
+#avispar
+#avocar
+#avoenza
+#avóvada
+#axoellar
+#axuiciar
+#azafrañar
+#azorrague
+#azúcar
+#baballoada
+#bacallao
+#badalar
+#badallocas
+#balbor
+#balbuciar
+#balcoada
+#baldreu
+#balido
+#balir
+#balume
+#bambalear
+#bambaleo
+#barallante
+#barballoada
+#barballoar
+#barballoas
+#barbullar
+#bastilla
+#baticar
+#batoque
+#batraquio
+#baú
+#bebericar
+#beiga
+#belvís
+#bencedeira
+#bencer
+#benda
+#bendaxe
+#benfadado
+#benzón
+#berisca
+#besadoiro
+#besbellar
+#besbellotar
+#besugo
+#bichelo
+#bigorna
+#bilicroque
+#bimbán
+#bincha
+#birlar
+#birra
+#birrar
+#biruxe
+#bisbillotar
+#bisbilloteiro
+#bitoque
+#bizarro
+#bloco
+#bochada
+#bochecha
+#bochechudo
+#bofé
+#bofetada
+#bofetear
+#bofetón
+#boiar
+#bolbo
+#bonachón
+#bonifate
+#borbotón
+#borbulla
+#borcallarse
+#borcallo
+#borcallón
+#borcar
+#borrifar
+#botixo
+#bourión
+#boxa
+#bragasta
+#bragastazo
+#bramir
+#bravú
+#bregasta
+#bregastada
+#bretemada
+#breu
+#briga
+#brigar
+#brincallón
+#briño
+#broeiro
+#bronca
+#bronco
+#buche
+#buchelo
+#bulizoso
+#bullar
+#burga
+#burgar
+#burrumbiada
+#burrumbio
+#búsola
+#cabaleriza
+#cabecilla
+#cabeleireiro
+#cabezallán
+#cabisbaixo
+#cabresto
+#cacau
+#cacauete
+#cachete
+#cachimbo
+#cachivache
+#cachivallo
+#cagarriñas
+#caído
+#calabouzo
+#calentura
+#calexón
+#cálice
+#calificar
+#calivera
+#caliza
+#callandra
+#callau
+#calostro
+#caloteador
+#caluroso
+#calzadeira
+#calzupas
+#calzupeiro
+#camandulear
+#cambapé
+#cambroeira
+#cambrón
+#camilla
+#campiona
+#canasta
+#canasto
+#canchada
+#canchaperna
+#canoura
+#cantarolar
+#cañota
+#capacho
+#caperucha
+#capitana
+#capullo
+#caracola
+#caramiñola
+#caravella
+#carricento
+#carricoche
+#cartaz
+#casaco
+#casadoiro
+#cascata
+#cascavel
+#cascaveleiro
+#cáseque
+#caserío
+#casquillo
+#cativocho
+#catracego
+#catracegueira
+#cauda
+#caxado
+#ceco
+#cegañoso
+#cegato
+#cegoño
+#ceifar
+#celobre
+#cenoso
+#cenoura
+#centella
+#centopea
+#ceño
+#cercán
+#cercanía
+#cercano
+#cerce
+#cérceo
+#cercido
+#cercir
+#cereixal
+#cerote
+#cerrallada
+#certar
+#cetrina
+#chacharachada
+#chacho
+#chafarico
+#chafarís
+#chafundar
+#chaíñas
+#chaleque
+#chamba
+#chamexar
+#champullar
+#champurrar
+#chanar
+#chaneza
+#chapeo
+#chapiñar
+#charuto
+#chatar
+#chatoleiro
+#chatón
+#chatonar
+#cherivía
+#chichí
+#chichiar
+#chiído
+#chilrear
+#chilro
+#chinchar
+#chinelo
+#chingar
+#chinglar
+#chinguilipé
+#chipirón
+#chiquita
+#chiquitas
+#chiquiteiro
+#chiquito
+#chirimbola
+#chirimbolo
+#chiringlar
+#chiripa
+#chirrar
+#chirriar
+#chirrío
+#chispar
+#chispirrar
+#chispirrazo
+#chisquiño
+#chocallar
+#chocarrada
+#chocarreiro
+#choclear
+#chocleiro
+#chocleo
+#chocolear
+#chófer
+#choquear
+#choracricas
+#choramingar
+#choramingas
+#choromico
+#chousar
+#chouza
+#chovedizo
+#choviscada
+#chovisqueiro
+#chovisquento
+#chumazar
+#chumezgar
+#chunga
+#chupadura
+#chut
+#chuviscoso
+#cibaquiño
+#cibo
+#cichadura
+#cientista
+#ciguda
+#cilada
+#cintilar
+#cinturón
+#cío
+#cipreste
+#cirigaita
+#cirigaitas
+#ciruxán
+#ciruxía
+#ciste
+#ciúme
+#claxon
+#clube
+#coaligar
+#coallar
+#coalleira
+#coallo
+#coaxir
+#cobexar
+#cobo
+#cocaña
+#cochichar
+#cócoras
+#códea
+#codecho
+#coengo
+#cogumelo
+#coitadiño
+#coitar
+#colgador
+#colina
+#colisionar
+#colmillo
+#colorir
+#colostro
+#comba
+#combarse
+#comechona
+#comilón
+#comparencia
+#compartillar
+#complacente
+#componente
+#comprido
+#comprimento
+#comprir
+#comprobativo
+#comulgar
+#concebir
+#concellal
+#conchavar
+#conchegar
+#cónclave
+#concluente
+#concretizar
+#conducción
+#conducta
+#conducto
+#conductor
+#conferencista
+#confiteiro
+#conflagrar
+#conflicto
+#confradía
+#congosta
+#constenla
+#constranxer
+#constricción
+#construcción
+#constructor
+#contornear
+#contradicción
+#contradictorio
+#contratual
+#contributo
+#contricción
+#contundir
+#coñecencia
+#coordenación
+#coordenar
+#corante
+#corazonada
+#cornadura
+#cornar
+#cornecello
+#cornicha
+#corpete
+#correento
+#corruncho
+#cortafogo
+#cortalumes
+#coscorrón
+#costelame
+#costumar
+#costureiro
+#cotidiano
+#cotío
+#cotrento
+#couve
+#couveflor
+#coveiro
+#covil
+#coxeno
+#coxitar
+#crabuñar
+#cravello
+#credor
+#crequenarse
+#crosta
+#crúa
+#crucificación
+#cú
+#cuadrúpedo
+#cuatrienio
+#cuatrimestre
+#cuberteira
+#cubertor
+#cucuruto
+#culatra
+#cumeeira
+#cumulonimbo
+#cuota
+#curricho
+#curteza
+#curuta
+#cutis
+#danzal
+#debacle
+#debalde
+#debecer
+#debeño
+#deborcar
+#deboura
+#deducción
+#degrao
+#delapidar
+#delictivo
+#delicto
+#deloirado
+#demitir
+#demolir
+#dengoso
+#dentel
+#deportivismo
+#deportivista
+#depresa
+#derroteiro
+#desabeso
+#desabrido
+#desabrimento
+#desabrir
+#desabrollar
+#desaguadoiro
+#desamistar
+#desantonte
+#desapiedado
+#desatornillar
+#desatravancar
+#desatrelar
+#desatuar
+#desavenza
+#desaxeitar
+#desbagar
+#descabelar
+#descadasí
+#descalificar
+#descalzadeira
+#descamación
+#descamar
+#descarolar
+#descontra
+#descorazoar
+#desembacadoiro
+#desembarcadeiro
+#desembraiar
+#desembraiaxe
+#desembrullar
+#desempacotar
+#desempanar
+#desempañar
+#desenliar
+#desenrugar
+#desescombrar
+#desescombro
+#desfiado
+#desfiar
+#desforestar
+#desinterés
+#desleigar
+#deslocación
+#deslocar
+#deslumbramento
+#deslumbrante
+#deslumbrar
+#desmacelado
+#desmán
+#desmascarar
+#desmendrellar
+#desmesurar
+#desmigallar
+#desmontaxe
+#desnorteado
+#desnortear
+#desnudar
+#desodorante
+#desorbitante
+#desparafusar
+#despavorido
+#despedazamento
+#despedazar
+#despeitar
+#despeñadeiro
+#despeñar
+#despesa
+#despieitear
+#desponsorio
+#despreciar
+#desprecio
+#despreguizar
+#desprevenir
+#desprocatarse
+#desproporcionar
+#despropositado
+#desquilibrar
+#desratizador
+#desregrar
+#desrespeto
+#destallo
+#destoar
+#destón
+#destonar
+#destragar
+#destrago
+#destrozar
+#destrozo
+#destrucción
+#destruidor
+#desván
+#desvivir
+#desxelar
+#desxelo
+#detentar
+#devagariño
+#devaluto
+#devanear
+#devaneo
+#deveras
+#dexectar
+#dextra
+#diagonalización
+#diccionario
+#dictado
+#dictador
+#dictadura
+#dictame
+#dictar
+#dictatorial
+#dilingueiro
+#diluvieira
+#diócese
+#diplómata
+#disfraz
+#disfrutar
+#disfrute
+#disgustar
+#disminuír
+#diurno
+#diverxir
+#divinidade
+#doación
+#doble
+#doblete
+#docilizar
+#doentío
+#dolorido
+#domadura
+#domingal
+#dormida
+#dormideira
+#dormidor
+#dormiñento
+#dormiñón
+#dormitar
+#doutrinar
+#druida
+#dubío
+#dubitable
+#dulzor
+#duradoiro
+#durez
+#durmidor
+#durmitar
+#eclosionar
+#ecoar
+#efluxo
+#eiba
+#eibada
+#eibado
+#eibar
+#eilo
+#élite
+#elusión
+#embabiolado
+#embaciar
+#embadumada
+#embalde
+#embalorecer
+#embarallar
+#embarcadeiro
+#embarcamento
+#embater
+#embaucar
+#embelezar
+#embercellar
+#embigada
+#embigal
+#embirra
+#embirrar
+#emborcallar
+#emborcar
+#embotado
+#embotar
+#embraiar
+#embraiaxe
+#embrencellar
+#embromarse
+#embroncarse
+#embrullado
+#embrullar
+#embudo
+#emerso
+#empacotar
+#empalidecer
+#empanadiña
+#empapular
+#emparvar
+#empastamento
+#empecemento
+#empechar
+#empeine
+#empeitadizo
+#empeitar
+#empeitizar
+#emperequitado
+#empertigado
+#empestado
+#empinxa
+#empirinxelar
+#emplasmar
+#emplatro
+#empolado
+#empolgado
+#emporrancho
+#emporrar
+#emporro
+#empréstimo
+#emprincipiar
+#encabritarse
+#encabuxamento
+#encalzo
+#encanadura
+#encandilar
+#encarapelar
+#encendedallos
+#encender
+#encetadura
+#enchenta
+#encimar
+#encistar
+#encontroar
+#encordiar
+#encorpado
+#encosta
+#encostado
+#encostar
+#encoveirar
+#encravellar
+#encrenca
+#encrenque
+#encurtadoiro
+#encurtar
+#endebén
+#endemoniñar
+#endiañar
+#endilgar
+#endiñeirado
+#eneasilábico
+#enemistade
+#enemistar
+#enfachendarse
+#enfadoño
+#enfastiamento
+#enfatuado
+#enfatuar
+#enferrollar
+#enfezado
+#enfileirar
+#enfillar
+#enfín
+#enfitar
+#enfrentar
+#enfriar
+#enfroitar
+#enfruscarse
+#enfuciñar
+#enfunfurruñarse
+#engabelar
+#engabelo
+#engachetarse
+#engádega
+#engadelo
+#engaiolador
+#engalichado
+#engarabellar
+#engorromeñado
+#engorromiñarse
+#engorrovellado
+#engre
+#engrellada
+#engripar
+#engrós
+#engrova
+#enguía
+#enguizar
+#enguriñado
+#engurrumiñado
+#engurruñado
+#engurruñar
+#enguruñado
+#enguruñarse
+#enlamear
+#enlameirar
+#enlevar
+#enlevo
+#enliar
+#enlousar
+#enmallar
+#enmedar
+#enmeigallar
+#enmestar
+#enmornar
+#enmorriñado
+#enmourecer
+#enneboado
+#ennodoar
+#ennoitar
+#ennovelar
+#enoxar
+#enoxo
+#enrabuchado
+#enrabuxarse
+#enrevesar
+#enrexelar
+#enribirichado
+#enringleirar
+#enriquichar
+#enrixar
+#enrizado
+#enroupado
+#enroupar
+#enruga
+#enrugar
+#ensexo
+#ensinamento
+#ensoniñar
+#ensoso
+#entanguido
+#entanguirse
+#entapizar
+#entaramelar
+#entardecer
+#entebeada
+#enteirar
+#entemear
+#entendedeiras
+#entenebrecer
+#entepidecer
+#enterar
+#entereza
+#enternecer
+#enterradoiro
+#entesourar
+#entontecer
+#entrebado
+#entrebar
+#entrebillado
+#entremesa
+#entrenó
+#entrenoite
+#entretanto
+#entretenemento
+#entrometer
+#entrometido
+#envaidecemento
+#envaír
+#envasillar
+#envenenar
+#envergoñar
+#envesgar
+#envestida
+#envestir
+#enxaboadela
+#enxabroar
+#enxada
+#enxamiada
+#enxaqueca
+#enxaular
+#enxendrar
+#enxendro
+#enxofrar
+#enxofre
+#enxotar
+#enxurrar
+#enxurreira
+#eoa
+#epopeia
+#equídeo
+#equidna
+#equilicuá
+#equinocio
+#erizar
+#ervilla
+#ervillaca
+#ervillal
+#esbabuxar
+#esbafar
+#esbaforido
+#esbaforirse
+#esbalocar
+#esbarallar
+#esbarballar
+#esbarballeiro
+#esbardalleiro
+#esbardar
+#esborroar
+#esbranquecer
+#esbranquizado
+#esbravear
+#esbroar
+#esbrugado
+#esbugallados
+#esbugallar
+#escachifar
+#escachuflar
+#escádea
+#escadería
+#escadrillado
+#escadrillar
+#escaecer
+#escaer
+#escagarrarse
+#escagarriñado
+#escagarriñarse
+#escairo
+#escalabradura
+#escalabrar
+#escalafrío
+#escalambrar
+#escaldacio
+#escaldarrabo
+#escalfurnado
+#escalixar
+#escalonar
+#escalvar
+#escamballado
+#escambroeira
+#escambroeiro
+#escamisar
+#escampadela
+#escáncara
+#escancarar
+#escancha
+#escanchadas
+#escanchapernas
+#escanchar
+#escandecer
+#escangañar
+#escanifado
+#escanifrar
+#escantar
+#escarabellar
+#escarabello
+#escarcha
+#escarchar
+#escarpar
+#escarpón
+#escarramán
+#escarrancar
+#escarranchapernas
+#escarrapichado
+#escarrapichar
+#escasez
+#escasula
+#escasular
+#escaveirado
+#escocer
+#escol
+#escombreira
+#escoria
+#escoriar
+#escorrallo
+#escorrideiro
+#escorripichar
+#escravatura
+#escrequenado
+#escrequenarse
+#escribano
+#escribideira
+#escuadría
+#escuartexar
+#escuchumizarse
+#escuírse
+#escumexar
+#escupe
+#escupir
+#escurrichar
+#esfachicar
+#esfamear
+#esfanicar
+#esfarnar
+#esfoladela
+#esfoliación
+#esfoliar
+#esforricar
+#esfrega
+#esfregamento
+#esfregar
+#esfriar
+#esgairado
+#esgairo
+#esgaldrapado
+#esgalichado
+#esganizar
+#esgarabellar
+#esgarabelleiro
+#esgarabello
+#esgarabullar
+#esgarna
+#esgoldrachado
+#esgomiado
+#esgónzaro
+#esgrimidor
+#esgrouviado
+#esguella
+#esguío
+#esgumiado
+#esgumiarse
+#esgurrichar
+#esgurripar
+#esgurrumiñarse
+#eslacazado
+#eslairado
+#eslairamento
+#eslairar
+#eslaquizado
+#eslaruzado
+#esleirado
+#esluado
+#esluarse
+#eslumear
+#eslumir
+#esmacelado
+#esmacelar
+#esmagachar
+#esmaiolar
+#esmalloar
+#esmar
+#esmarallar
+#esmelandrar
+#esmiar
+#esmiatar
+#esmo
+#esmochar
+#esmolar
+#esmorgante
+#espabilado
+#espabilar
+#espachurrar
+#espadua
+#espalda
+#espaldar
+#espalecer
+#espampanante
+#espancar
+#espargo
+#espargueira
+#esparrabuñar
+#espaturrar
+#espaventar
+#espavorido
+#especiar
+#espedregar
+#espellado
+#espellar
+#espernear
+#esperteza
+#espigueiro
+#espilido
+#espinel
+#espiñadura
+#espiñalla
+#espiñeira
+#espiración
+#espirar
+#esplanada
+#espoliñar
+#esporcillar
+#espreguizadela
+#espreguizamento
+#espumarada
+#espumexar
+#espureo
+#espuxar
+#esquentado
+#esquentador
+#esquentar
+#esquerquenar
+#esquilo
+#esquineiro
+#esquivanza
+#esquivoso
+#estábulo
+#estabuxado
+#estacar
+#estacoar
+#estadaíña
+#estafeteiro
+#estambre
+#estambullado
+#estambullar
+#estambullo
+#estampida
+#estampido
+#estampilla
+#estampillar
+#estaribel
+#estartaleirado
+#estarulados
+#estarular
+#esteba
+#estelante
+#estemorecer
+#estendal
+#estendedoiro
+#esternudar
+#esternutación
+#esterqueiro
+#esteso
+#estevado
+#estiada
+#estiar
+#esticado
+#esticar
+#estiladeira
+#estilismo
+#estilla
+#estillar
+#estillazar
+#estiva
+#estivar
+#estivaxe
+#estoa
+#estocar
+#estortigar
+#estourido
+#estrabariza
+#estrabiza
+#estrabo
+#estrabuxar
+#estrafulario
+#estraleira
+#estralexar
+#estraloxada
+#estrambólico
+#estranquilar
+#estrapucias
+#estratega
+#estrebariza
+#estrebería
+#estrebillada
+#estrebillar
+#estrebilleiro
+#estrebillo
+#estreladeira
+#estrelexar
+#estremonia
+#estremuñado
+#estremuñar
+#estrencho
+#estrepada
+#estrepe
+#estrepeiro
+#estrepitar
+#estreviñado
+#estribación
+#estribillo
+#estricto
+#estridor
+#estridulación
+#estripar
+#estrochar
+#estrocho
+#estroina
+#estroinar
+#estrollar
+#estrombar
+#estroncado
+#estroncar
+#estrondar
+#estrondear
+#estronicio
+#estronzar
+#estropear
+#estropicio
+#estroquelear
+#estroupelear
+#estrousar
+#estrouso
+#estruchar
+#estructura
+#estrumeira
+#estrupido
+#estruza
+#estudiante
+#estudiar
+#estumballarse
+#esvaciar
+#esvaimento
+#esvaír
+#esvaradeiro
+#esvaradizo
+#eusquera
+#evanescencia
+#evanxelio
+#evanxello
+#evoluír
+#exangüe
+#excavación
+#excavadora
+#excavar
+#excrescencia
+#exculpatorio
+#exectar
+#exido
+#exilado
+#exilar
+#exorbitar
+#exorcismar
+#expelir
+#explodir
+#explorativo
+#expoente
+#exprimir
+#exprobación
+#exprobar
+#exquisiteza
+#exsurxir
+#extender
+#extorquir
+#extranxeirar
+#extranxeiro
+#extrañar
+#extrañeza
+#extraño
+#extrañón
+#extraverter
+#extremaunción
+#extricar
+#extrovertido
+#fachucallada
+#fáctico
+#fadiga
+#fadigar
+#fagulla
+#faina
+#faladuría
+#falopear
+#falsar
+#fanfarronar
+#fango
+#faramallada
+#faramalleiro
+#faramello
+#farangulla
+#farexar
+#farfalleiro
+#farfullar
+#farfullas
+#farola
+#farpón
+#farrallada
+#farrapar
+#farrear
+#fartadela
+#fasquía
+#fastidioso
+#fastiento
+#fatía
+#fatiña
+#fauce
+#faullar
+#feérico
+#feirar
+#feituco
+#feizón
+#fenestra
+#feno
+#fental
+#férido
+#fermosear
+#ferragancheiro
+#ferragancho
+#ferrallada
+#ferralleiro
+#ferranchear
+#ferraxeria
+#ferreiría
+#ferreta
+#ferropea
+#ferrovello
+#fervedura
+#festiñas
+#fiación
+#fiadoría
+#fiambre
+#fiancho
+#figueiredo
+#filar
+#filgueira
+#fincharse
+#findar
+#finiquitar
+#finiquito
+#fisgón
+#fisonomista
+#fixidez
+#flácido
+#flama
+#flauta
+#flecha
+#flema
+#flemón
+#floresta
+#florestal
+#florir
+#fluctuación
+#fluctuante
+#fluctuar
+#fóbico
+#fogacho
+#fogarada
+#fogonazo
+#follame
+#follar
+#follello
+#folloso
+#fondigonada
+#fontana
+#forano
+#formigamento
+#formiguear
+#formiguillo
+#fornalleiro
+#fornido
+#fornir
+#foroncho
+#forqueta
+#forquilla
+#forricalleiro
+#forricallo
+#forteza
+#foscalleiro
+#foupada
+#foupar
+#foupeira
+#foupón
+#fozallada
+#fractal
+#francachada
+#francir
+#frangallar
+#franquicia
+#franxible
+#frechar
+#fregadeiro
+#frenar
+#friacho
+#friaxento
+#frieza
+#frincha
+#frioleira
+#fritallada
+#fritanga
+#fritar
+#friura
+#froco
+#froital
+#froitear
+#froitecer
+#froitificar
+#fronda
+#frondear
+#frotador
+#frotar
+#fructífero
+#fructificación
+#fructuoso
+#fuchicada
+#fuchicallada
+#fuchicar
+#fuchicas
+#fulixe
+#fúlxedo
+#fumarada
+#funcionariado
+#fuñicar
+#furacar
+#furafura
+#furancho
+#fustiga
+#fustigar
+#futricada
+#futricar
+#fuxiente
+#gabizo
+#gadoupar
+#gagoso
+#gagueira
+#galápago
+#galdrapada
+#galdrumar
+#galdrupada
+#galdrupas
+#galdrupeiro
+#galé
+#galeira
+#gallifa
+#gallofada
+#gallofar
+#galloufada
+#gamberna
+#gamberro
+#gamuza
+#gandeiría
+#gandular
+#gangoso
+#gañapán
+#garabatear
+#garabelo
+#garabizo
+#garatuxar
+#garbanzo
+#garduñeiro
+#gargalo
+#garoufeiro
+#garrafallo
+#garrotar
+#garrulada
+#garrular
+#garruleiro
+#garruncho
+#garúa
+#gasallar
+#gasoducto
+#gasoil
+#gaspacho
+#gatafuños
+#gatimaños
+#gatiñar
+#gatunar
+#gatuñar
+#gatuñeiro
+#gatuxa
+#gatuxar
+#gavea
+#gavear
+#gazo
+#gazúa
+#gladiolo
+#glotón
+#glotonear
+#glotonería
+#gobernexar
+#goela
+#golada
+#golechar
+#golella
+#goloso
+#gordurento
+#gorgolexador
+#gorgolexante
+#gorgollada
+#gorgollar
+#gorgolón
+#gorgorexar
+#gorgorexo
+#gorgullo
+#gorismar
+#gornir
+#gorxear
+#gorxeo
+#gracexo
+#gradería
+#gralear
+#grana
+#granar
+#granularidade
+#grasento
+#grasnar
+#grasnido
+#graso
+#grasoso
+#gravitatorio
+#gravura
+#grimo
+#grimpar
+#griseiro
+#griterío
+#grosura
+#grudo
+#gualda
+#guinchar
+#guirigai
+#gulipar
+#gulipas
+#gulusmeiro
+#gurrichar
+#gurrumiñas
+#hidrofóbico
+#himpar
+#himpón
+#hipar
+#hipérbaton
+#hipo
+#hirteza
+#homófobo
+#hostelería
+#hoxendía
+#hucheira
+#illán
+#illota
+#iludir
+#impeitizo
+#imposibilitación
+#imprensa
+#impronta
+#incapacitación
+#incordiar
+#infraestructura
+#inllar
+#inmorrente
+#inquedar
+#inquérito
+#instanciar
+#instrucción
+#interés
+#intereseiro
+#introducción
+#iogurt
+#irmanar
+#isolado
+#isolar
+#ixido
+#Kg
+#Kgm
+#Kilojoule
+#kilovolt
+#kilowatt
+#kirie
+#KL
+#Km
+#KO
+#KV
+#KW
+#laboura
+#labradío
+#lagartixa
+#lamáchega
+#lampexar
+#lampexo
+#lampiño
+#langoretear
+#langoreteiro
+#langranear
+#langrear
+#larear
+#lareca
+#largueiro
+#laricar
+#lástima
+#lavavaixelas
+#laxar
+#léndea
+#lengoreta
+#lengoreteiro
+#lentor
+#lestón
+#levadura
+#levedura
+#levián
+#libeliña
+#liquen
+#liscáncer
+#lisgairo
+#lisonxa
+#llampa
+#llana
+#llanada
+#llandoa
+#llanta
+#lliga
+#llista
+#llóbrego
+#lostregazo
+#loubanza
+#loubar
+#lucubrar
+#lumerada
+#lurpar
+#macío
+#madia
+#madresilva
+#madrigueira
+#maestro
+#magrear
+#maiordomo
+#malalingua
+#malbaratar
+#maleante
+#malear
+#maleficiar
+#malfadar
+#malló
+#malquistar
+#mamelo
+#manantío
+#manecho
+#manosear
+#manoxo
+#mañuza
+#marde
+#marfín
+#maruxía
+#matagal
+#matraca
+#matreiro
+#maula
+#maulear
+#mazacote
+#mecheiro
+#medoñento
+#medoso
+#megalito
+#memorar
+#menospreciar
+#mento
+#mexilloeira
+#miadela
+#michiño
+#millafre
+#mimoso
+#minimización
+#minorizar
+#minotauro
+#minudencia
+#moaxe
+#moimento
+#moledo
+#molegar
+#molexa
+#molinillo
+#monifante
+#moquetazo
+#morcela
+#mordicar
+#mormaña
+#morogueira
+#morral
+#morralla
+#morrazo
+#mortandade
+#mortizo
+#mosa
+#moscamorta
+#mosega
+#motexar
+#motexo
+#moulán
+#mozachón
+#mullerego
+#mullerengo
+#munir
+#muntuleira
+#munxidura
+#munxir
+#muñeca
+#murmullar
+#musgaño
+#neblina
+#nervo
+#néspero
+#nódoa
+#nogueiral
+#nómada
+#nones
+#nosco
+#nú
+#nublar
+#nuboso
+#nuca
+#ñafrar
+#ñáñara
+#ñapa
+#ñapar
+#ñapeiro
+#ñoñada
+#ñoño
+#ñopo
+#ofegar
+#ogallá
+#ogano
+#oleoducto
+#olfato
+#olfear
+#olival
+#olláparo
+#olvidar
+#ombrexar
+#omóplato
+#onomatopeia
+#oponente
+#orcelo
+#ordear
+#ordeñar
+#oubear
+#oubeo
+#oupar
+#ouriol
+#ourizar
+#ourizó
+#paioio
+#paletilla
+#paleto
+#palicar
+#palique
+#palitroque
+#palliza
+#pallizo
+#pampán
+#pamplina
+#pandilla
+#pantorra
+#pantufa
+#papai
+#papalastrán
+#paparruchada
+#papiolo
+#paporoibo
+#paradoxa
+#parafusador
+#parafusar
+#paragüeiro
+#paralisar
+#paramio
+#paranxoleiro
+#parapeito
+#parásito
+#pardillo
+#pardolo
+#parecencia
+#paredaño
+#paripé
+#parrafada
+#parranda
+#páscoa
+#patalexar
+#patañeira
+#pataratada
+#patraña
+#patrona
+#patuxar
+#pavea
+#pedichán
+#pedraceira
+#pedrisco
+#pegote
+#peldracha
+#peldracho
+#peliscar
+#peluqueiro
+#peneco
+#peneque
+#penica
+#perfurar
+#perixel
+#perrera
+#perto
+#perucho
+#perxudicar
+#perxuício
+#pesquisa
+#pesquisar
+#pestilo
+#petaca
+#petadoiro
+#petimetre
+#petrechar
+#petrechos
+#pezuña
+#picafolla
+#picazón
+#picor
+#piedoso
+#pimpollo
+#pinchacarneira
+#pinica
+#pintarado
+#pintarroxo
+#piñoca
+#pipiar
+#piqueta
+#pirarse
+#pisca
+#piscar
+#pispireta
+#pitido
+#pizarrillo
+#planalto
+#pleitear
+#pocho
+#pocilga
+#poente
+#polegar
+#polilla
+#poltrón
+#polvorín
+#porcoespiño
+#porcoteixo
+#porquería
+#portear
+#potro
+#póutega
+#pranchar
+#pratillo
+#precatar
+#preciar
+#predicción
+#preponderar
+#prevenir
+#prexuício
+#pringo
+#producción
+#producto
+#promada
+#promo
+#prosopopeia
+#pubertade
+#pufo
+#puntapé
+#puntón
+#punxir
+#quelle
+#quello
+#querquenarse
+#querquenas
+#quin
+#quintela
+#rabadela
+#rabanada
+#rabear
+#rabicho
+#rabisco
+#racheira
+#rádar
+#radioínte
+#raigame
+#ralador
+#raladura
+#ralar
+#ralear
+#rallante
+#rallar
+#rampa
+#ranxer
+#ranxido
+#rasgado
+#rasgar
+#rasgón
+#rasoira
+#ratoeira
+#raudal
+#raxa
+#raxar
+#reanudar
+#reaxir
+#rebiricar
+#rebirichar
+#rebirico
+#reboldaina
+#rebordán
+#reboredo
+#rebuligar
+#recén
+#rechear
+#rechinar
+#rechoncho
+#rechouchiar
+#recife
+#recrudecer
+#rector
+#redil
+#redixir
+#reducción
+#reemprazar
+#reflexar
+#refrendar
+#refriar
+#regocixo
+#regodearse
+#regodeo
+#regua
+#relámpago
+#relancear
+#reloxio
+#relumbrante
+#relumbrar
+#remesar
+#remoque
+#remozar
+#remusmús
+#renegrido
+#renguear
+#renomeado
+#renquear
+#rentabilidade
+#reña
+#reñer
+#reollo
+#repanchigarse
+#repelir
+#repimpado
+#repoltrearse
+#repostar
+#reproducción
+#requebrar
+#requeixón
+#requeneo
+#resabio
+#reseña
+#resfriar
+#resgatar
+#resgate
+#resmungar
+#resonar
+#respetable
+#respetar
+#respeto
+#respostar
+#resquicio
+#restia
+#restricción
+#restrictivo
+#retábulo
+#retroco
+#retrónicas
+#revaluación
+#reverquer
+#revirichado
+#revoar
+#revolotear
+#revoltado
+#revoltar
+#ribombar
+#ricaz
+#rieiro
+#rimbombar
+#ringla
+#riscadela
+#rispar
+#ríspido
+#rixa
+#roldón
+#rolizo
+#rollo
+#romarieiro
+#rompante
+#ronchar
+#ronquexar
+#roñadela
+#roñadura
+#roñento
+#rosío
+#rosnar
+#rostrir
+#roteiro
+#rotina
+#rouqueira
+#rouquido
+#rousiñol
+#ruela
+#ruga
+#rumo
+#rumorexar
+#runfar
+#runrún
+#ruxe
+#saballón
+#sábalo
+#sabandixa
+#sabichoso
+#saborido
+#sabrazo
+#sacarroña
+#sachadeira
+#saibro
+#salabanco
+#salada
+#saladeira
+#salamandra
+#salamanquesa
+#saleira
+#salfuriarse
+#salgadeira
+#salgueiriña
+#salgueiriño
+#saloio
+#saltareiro
+#salvedade
+#salvoconducto
+#samartiño
+#samborca
+#sanar
+#sangomiño
+#sangradeiro
+#sangrento
+#sanguesuga
+#sanguiñedo
+#sanguiñeiro
+#sarabullento
+#sarampo
+#sardento
+#sarelo
+#sargadelo
+#sargazo
+#sarillar
+#sarilleiro
+#sarmento
+#sarrabullo
+#sarrallo
+#sarrapio
+#sarrento
+#sarrioso
+#sarro
+#sartén
+#sedal
+#seductor
+#segundeiro
+#segurar
+#seique
+#seiturar
+#seixedo
+#selín
+#selvaxe
+#semblante
+#semblanza
+#semear
+#semen
+#senradela
+#seña
+#señeiro
+#seoane
+#sepelio
+#septentrional
+#sequeira
+#serín
+#serna
+#serpentear
+#serradeiro
+#serralla
+#serralleiro
+#serrote
+#serrucho
+#servilleteiro
+#sesamia
+#seseira
+#sesga
+#sesgar
+#sesgo
+#sicólogo
+#sicoloxía
+#simplorio
+#síncopa
+#sindético
+#sinistrar
+#sinte
+#sinxebra
+#sique
+#siquiatría
+#sirgo
+#sisa
+#sisar
+#soallar
+#soalleira
+#soalleiro
+#soallo
+#sob
+#sobardar
+#sobornar
+#sobradar
+#sobral
+#sobrancella
+#sobrancello
+#sobrecoller
+#sobreiro
+#sobresalente
+#socarrón
+#socavón
+#soer
+#soez
+#sofocar
+#soina
+#soinamoina
+#soledade
+#solercia
+#solermiño
+#solerte
+#soluzar
+#soluzo
+#somanta
+#somorgullar
+#sonado
+#sondeo
+#soneira
+#sonicar
+#sonolento
+#sonsa
+#sonsacar
+#sonso
+#sonsonear
+#sonsonete
+#sornexar
+#sornias
+#sornio
+#sorrate
+#sorratear
+#sorrateiro
+#soseira
+#soslaio
+#sótao
+#sotaque
+#souril
+#suadeira
+#subsanar
+#substracción
+#substraer
+#sucre
+#sudeste
+#sudre
+#sueira
+#sugadoiro
+#sugador
+#sugar
+#sugo
+#suíno
+#sulagado
+#sulagar
+#sulago
+#sulcar
+#sulco
+#sumerxir
+#sumideiro
+#suministrar
+#sumisión
+#sumiso
+#sunal
+#suprir
+#surdir
+#surrateiro
+#surrichar
+#surro
+#surtideiro
+#surtir
+#surxir
+#suscribir
+#suscrición
+#sustraer
+#susurrar
+#susurro
+#sutaque
+#suxar
+#suxección
+#suxidade
+#suxo
+#tabao
+#tablado
+#taboeiro
+#tabolete
+#tachonar
+#taimado
+#talega
+#taleigo
+#tambullada
+#tapuxo
+#taramela
+#tatarañar
+#teimouco
+#teixeira
+#teixeiro
+#teixoeira
+#telderete
+#telón
+#tenalla
+#tención
+#tencionar
+#tendedoiro
+#terciar
+#terciopelo
+#terneiro
+#ternura
+#terquedade
+#terrapleno
+#terrecer
+#terruño
+#terzol
+#tesar
+#testabao
+#testoiro
+#tez
+#tibio
+#tifus
+#tilia
+#tinalla
+#tinción
+#tiritar
+#tirria
+#tixeira
+#tixelo
+#tocaio
+#todavía
+#tolaineiro
+#tomballada
+#tomillo
+#tono
+#topeñada
+#topeñar
+#topetada
+#torbeliño
+#torcedela
+#torcicolo
+#torcillón
+#tornocelo
+#torrefacer
+#torrixa
+#tos
+#tosar
+#tosco
+#toupada
+#toupenear
+#touzal
+#tozudo
+#trabanca
+#trabón
+#traducción
+#tráfego
+#trafegueiro
+#trafugar
+#trafulcada
+#tragadeiro
+#traicionar
+#traicioneiro
+#trambilicar
+#trambilico
+#trangallas
+#transpor
+#transtornar
+#transtorno
+#trapaceiro
+#trapallán
+#trapaza
+#trapichear
+#tráquea
+#traquilidade
+#traquinar
+#trasanteonte
+#trashumancia
+#traslación
+#trasmallar
+#trasmán
+#traspés
+#traxín
+#trecho
+#tremura
+#trencolear
+#trenguelear
+#trengueleo
+#trenio
+#trenquear
+#trenquelear
+#tresfolgar
+#tresmallar
+#tresvariar
+#tresvarío
+#treta
+#tribu
+#trifulca
+#trifulqueiro
+#triganza
+#trigar
+#trigaz
+#trigoso
+#trigueirón
+#trinar
+#tringuelear
+#tringueleo
+#tripadela
+#tripadura
+#triquiñola
+#tristoño
+#triza
+#trizar
+#troada
+#troar
+#trobexar
+#troboar
+#trocadillo
+#trombada
+#trombeta
+#trompicar
+#trompicón
+#tronchar
+#troncho
+#tropicada
+#tropicar
+#trouxe
+#tumbo
+#turbillón
+#turnar
+#turva
+#tútano
+#tutear
+#tutor
+#tutoría
+#ulideiras
+#ulular
+#umbigada
+#umbigo
+#umbigueira
+#umbral
+#unllar
+#urcedo
+#urinar
+#usufructo
+#va
+#vaciar
+#vagamundo
+#vagarento
+#vagariñento
+#vagariño
+#vaincela
+#vaixel
+#vanagloria
+#varadeiro
+#varbeito
+#varicose
+#vazar
+#velatorio
+#veliscar
+#velisco
+#vencillo
+#veneno
+#verdasca
+#verderol
+#verdexar
+#vergasta
+#víctima
+#victoria
+#vies
+#vimeiro
+#virollo
+#visco
+#visguento
+#vocería
+#voltar
+#volumoso
+#vosco
+#vulcán
+#vurmo
+#xabalí
+#xabronar
+#xalundres
+#xamardo
+#xambo
+#xango
+#xaruto
+#xelado
+#xelar
+#xelo
+#xemar
+#xemeo
+#xenuino
+#xerfa
+#xeringar
+#xerir
+#xinebra
+#xionllo
+#xirifeiro
+#xirigaita
+#xoeirar
+#xoenllo
+#xogral
+#xordez
+#xoven
+#xudeo
+#xuício
+#xurdio
+#xurisdicción
+#xusticia
+#zafrañar
+#zagal
+#zamancas
+#zambullar
+#zambullo
+#zampar
+#zanga
+#zangal
+#zangar
+#zapexar
+#zarafullar
+#zarafullas
+#zaramallada
+#zarambicar
+#zarapicada
+#zarato
+#zarbatana
+#zopenco
+#zozobra
+#zozobrar
+#zozobro
+#zuchar
+#zuchón
+#zucre
+#zudreira
+#zumbido
+#zumbir
+#zumo
+#zunzunar
+#zurriasca
+#zurriascar
+#zurriascazo
+#zuzar
