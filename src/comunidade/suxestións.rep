@@ -173,6 +173,11 @@ ci ce      # ciar → cear.
 cí ce      # ciar → cear.
 cí cé      # ciar → cear.
 ci z     # Exemplo: espaciar → espazar.
+
+# cián → ciano
+^cián ciano
+^ciá ciana
+
 coall call      # coallar → callar.
 coáll cáll      # coallar → callar.
 coiñ cuiñ      # coiñar → cuiñar.
@@ -199,6 +204,10 @@ conquerín conquistein     # conquerer → conquistar.
 conqueriu conquistou     # conquerer → conquistar.
 conqueríu conquistóu     # conquerer → conquistar.
 convinte conveniente     # convinte → conveniente.
+
+# cookie → rastro
+^cookie rastro
+
 cost cust      # costar → custar.
 cóst cúst      # costar → custar.
 coste custo    # coste → custo.
@@ -365,6 +374,12 @@ espúlg esbúrg      # espulgar → esburgar.
 esté estea         # esté/s → estea/s.
 estonio estoniano  # estonio → estoniano.
 financiación financiamento # financiación → financiamento.
+
+# firmware → microprograma
+^firmware$ microprograma
+^firmware$ microprogramas
+^firmwares$ microprogramas
+
 forne enforn      # fornear → enfornar.
 forné enfórn      # fornear → enfornar.
 frunce pregar     # fruncir → pregar.

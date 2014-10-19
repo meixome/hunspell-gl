@@ -26,6 +26,7 @@ drag            Dicionario da Real Academia Galega
 
                 • correcto. Vocabulario correcto.
                 • tolerado. Vocabulario tolerado.
+                • incorrecto. Suxestións para corrixir vocabulario incorrecto.
 
 
 iso639          Códigos de linguas (ISO 639)

@@ -69,7 +69,6 @@ anaeróbico/10,15 po:adxectivo
 argumentativo/10,15 po:adxectivo
 autótrofo/10,15 po:adxectivo
 bidimensional/12 po:adxectivo
-booleano/10,15 po:adxectivo
 canalizador/10,14 po:adxectivo
 cohesionado/10,15 po:adxectivo
 conexionado/10,15 po:adxectivo
@@ -112,9 +111,9 @@ ligable/10 po:adxectivo
 lonxano/10,15 po:adxectivo
 mediático/10,15 po:adxectivo
 minusvalorado/10,15 po:adxectivo
-multimedia po:adxectivo
 multiplataforma po:adxectivo
 multipunto po:adxectivo
+ofimático/10,15 po:adxectivo
 orzamentado/10,15 po:adxectivo
 participativo/10,15 po:adxectivo
 paseniño/10,15 po:adxectivo
@@ -328,7 +327,6 @@ VLSI po:sigla                       # Very Large Scale Integration
 
 # Substantivos femininos.
 autoestima po:substantivo feminino
-caché/10 po:substantivo feminino
 cartelaría/10 po:substantivo feminino
 conectividade/10 po:substantivo feminino
 discrecionalidade po:substantivo feminino
@@ -346,17 +344,14 @@ xentalla po:substantivo feminino
 xudicialización/10 po:substantivo feminino
 
 # Substantivos masculinos.
-cián po:substantivo masculino
 clúster/10 po:substantivo masculino
 enchemento po:substantivo masculino
-maxenta po:substantivo masculino
 profundamento/10 po:substantivo masculino
 submódulo/10 po:substantivo masculino
 tóner po:substantivo masculino
 varapau/10 po:substantivo masculino
 
 # Substantivos neutros
-internauta/10 po:substantivo
 xemente/10 po:substantivo
 
 # Teclas.
@@ -456,10 +451,6 @@ autopropagar/200,201,230,231 po:verbo ts:transitiva / pronominal al:autopropága
 autopropágar/666,202,232 st:autopropagar ts:alomorfo autopropagar transitiva / pronominal
 cablear/200,201 po:verbo ts:transitiva al:cabléar
 cabléar/666,202 st:cablear ts:alomorfo cablear transitiva
-formatar/200,201 po:verbo ts:transitiva al:formátar
-formátar/666,202 st:formatar ts:alomorfo formatar transitiva
-interactuar/221 po:verbo ts:intransitiva al:interactúar
-interactúar/666,220,222 st:interactuar ts:alomorfo interactuar intransitiva
 interconectar/200,201,230,231 po:verbo ts:transitiva / pronominal al:interconéctar
 interconéctar/666,202,232 st:interconectar ts:alomorfo interconectar transitiva / pronominal
 minusvalorar/200,201 po:verbo ts:transitiva al:minusvalórar
