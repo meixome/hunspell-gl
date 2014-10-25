@@ -14,7 +14,7 @@ def getFirstPathRelativeToSecondPathIfWithin(childPath, parentPath):
 
 
 def getRootPath():
-    return os.path.dirname(os.path.realpath(__file__))  + u"/../.."
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)).decode("utf-8"), u"../..")
 
 
 def getBuildPath():
