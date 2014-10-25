@@ -25,8 +25,8 @@ drag            Dicionario da Real Academia Galega
                 Submódulos:
 
                 • correcto. Vocabulario correcto.
-                • tolerado. Vocabulario tolerado.
                 • incorrecto. Suxestións para corrixir vocabulario incorrecto.
+                • tolerado. Vocabulario tolerado, e suxestións para substituílo con vocabulario correcto.
 
 
 iso639          Códigos de linguas (ISO 639)
@@ -138,15 +138,18 @@ wikipedia       Wikipedia
                             • intelixencia
                             • ministerios
                         • antroponimia. Nomes de persoas.
+                            • ciencia
                             • países
                                 • costa-rica
                                 • españa
+                            • radio
                             • relixión
                         • arquitectura.
                             • relixión. Pezas de arquitectura relixiosa.
                         • arte
                             • escultura
                                 • relixión
+                            • pintura
                         • astronomía
                             • planetas
                         • deporte
@@ -156,11 +159,19 @@ wikipedia       Wikipedia
                         • economía
                             • empresas
                                 • banca
+                                • telecomunicacións
                             • feiras
                             • índices-bolsistas
                         • historia
                             • acontecementos
                             • civilizacións
+                        • informática
+                            • linguaxes
+                            • sistemas-de-almacenamento
+                            • software
+                            • sitios-de-internet
+                        • música
+                            • acontecementos
                         • organizacións
                             • asociacións
                             • deporte
@@ -168,9 +179,12 @@ wikipedia       Wikipedia
                             • internacionais
                         • política
                             • partidos
+                            • primeiros-ministros
                         • televisión
                             • cadeas
+                            • debuxos-animados
                             • grupos
+                            • presentadores
                         • toponimia. Topónimos.
                             • accidentes. Nomes de accidentes xeográficos.
                                 • baías
