@@ -4,13 +4,16 @@ rootFolder="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 code="gl_ES"
 version="$1"
 if [ -z "$1" ]; then
-	version="$(date -u +"%Y%m%d")"
+    version="$(date -u +"%Y%m%d")"
 fi
 
 pushd $rootFolder &> /dev/null
 
 # Eliminar o cartafol de construción existente se o hai.
 rm -rf ./build
+
+# Facer limpeza de ficheiros temporais.
+find . -name "*.pyc" -exec rm {} \;
 
 # Construír e empaquetar o corrector principal (DRAG).
 scons aff=norma dic=drag,norma rep=comunidade,wikipedia code=${code}
@@ -49,7 +52,7 @@ packageName="hunspell-gl-fontes-${version}"
 mkdir ${packageName}
 for folder in scripts src tests
 do
-	cp -R ../${folder} ${packageName}/${folder}
+    cp -R ../${folder} ${packageName}/${folder}
 done
 for filename in $(find .. -name "*.txt") ../builds ../SConstruct
 do
