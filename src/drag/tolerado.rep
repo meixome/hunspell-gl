@@ -1,0 +1,7 @@
+# cookie → rastro
+^cookie rastro
+
+# firmware → microprograma
+^firmware$ microprograma
+^firmware$ microprogramas
+^firmwares$ microprogramas
