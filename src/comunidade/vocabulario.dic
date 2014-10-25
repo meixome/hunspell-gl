@@ -1,5 +1,4 @@
 # Abreviaturas.
-ab po:abreviatura [n-grama: ab init.]       # ab initio (desde o principio)
 init. po:abreviatura [n-grama: ab init.]    # ab initio (desde o principio)
 addor. po:abreviatura                       # administrador
 addora. po:abreviatura                      # administradora
@@ -21,10 +20,6 @@ Em.ª po:abreviatura                         # eminencia
 estac. po:abreviatura                       # estación
 impt. po:abreviatura                        # importe
 N.ª po:abreviatura                          # nosa
-n. po:abreviatura [n-grama: n. f.]          # nome feminino
-f. po:abreviatura [n-grama: n. f.]          # nome feminino
-n. po:abreviatura [n-grama: n. m.]          # nome masculino
-m. po:abreviatura [n-grama: n. m.]          # nome masculino
 pag. po:abreviatura                         # pagamento
 páxs. po:abreviatura                        # páxinas
 ptas. po:abreviatura                        # pesetas
@@ -141,54 +136,24 @@ vencellado/10,15 po:adxectivo
 xudicializado/10,15 po:adxectivo
 
 # Antropónimos.
-Ainhoa po:antropónimo
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
-Álvarez po:antropónimo
-Analía po:antropónimo
-Ángela po:antropónimo
 Anxelica po:antropónimo     # http://archive.today/kSoG
-Arquímedes po:antropónimo
-Bisbal po:antropónimo
-Cyrus po:antropónimo
-Díaz po:antropónimo
-Domínguez po:antropónimo
-Euclides po:antropónimo
 Euler po:antropónimo
 Eurídice po:antropónimo     # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
 Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
 Exiquia po:antropónimo      # http://www.noome.net/nombre-exiquia-en-espana
 Felícita po:antropónimo     # http://www.deperu.com/nombres-peruanos/significado-Fel%C3%ADcita
-Felipe po:antropónimo
 Fermat po:antropónimo
 Gabilondo po:antropónimo
-García po:antropónimo
-Gutiérrez po:antropónimo
-Henríquez po:antropónimo
 Herodias po:antropónimo     # https://en.wikipedia.org/wiki/Herodias (non vale coller o nome doutras linguas, este é dos que se traducen)
-Iñaki po:antropónimo
-Jesús po:antropónimo
-Juanma po:antropónimo
-Lorenzo po:antropónimo
 Márquez po:antropónimo
-Martínez po:antropónimo
-Mery po:antropónimo
-Montiño po:antropónimo
-Nieves po:antropónimo
-Novás po:antropónimo
-Oliver po:antropónimo
-Pablo po:antropónimo
 Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfeita
 Reyero po:antropónimo
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
-Sinde po:antropónimo
 Sobera po:antropónimo
-Suárez po:antropónimo
-Touriñán po:antropónimo
 Velázquez po:antropónimo
 Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
-Villa po:antropónimo
-Zúñiga po:antropónimo
 
 # Aumentativos, diminutivos e despectivos.
 elevadísimo/10,15 po:adxectivo
@@ -204,17 +169,12 @@ Dollar po:divisa [n-grama Guyana Dollar]
 Android po:nome propio
 BlackBerry po:nome propio
 Blu-ray po:nome propio
-Boing po:nome propio
 Dropbox po:nome propio
-Eurocopa po:nome propio
 Eurovisión po:nome propio
-Facebook po:nome propio
 Firefox po:nome propio
 Galipedia po:nome propio
 GitHub po:nome propio
 Gmail po:nome propio
-Google po:nome propio
-HP po:nome propio
 hunspell po:nome propio
 Hunspell po:nome propio
 Interviú po:nome propio
@@ -222,19 +182,14 @@ iOS po:nome propio
 iPad po:nome propio
 iPhone po:nome propio
 LibreOffice po:nome propio
-Marzán po:nome propio
 Mozilla po:nome propio
-Neox po:nome propio
 OpenOffice po:nome propio
-Orange po:nome propio
 Panoramio po:nome propio
 PayPal po:nome propio
 Picasa po:nome propio
 Sangriña po:nome propio
 Skype po:nome propio
 Spotify po:nome propio
-Tabagón po:nome propio
-Telecinco po:nome propio
 Tuenti po:nome propio
 Twitter po:nome propio
 Vichona po:nome propio
@@ -375,21 +330,17 @@ MAIÚS po:tecla
 # Topónimos.
 Chunchura po:topónimo       # http://en.wikipedia.org/wiki/Chunchura_(Vidhan_Sabha_constituency)
 Cilacap po:topónimo         # http://en.wikipedia.org/wiki/Cilacap_Regency
-Galápagos po:topónimo
 Goyang po:topónimo          # https://en.wikipedia.org/wiki/Goyang
 Guarico po:topónimo         # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Venezuela
-Güiana po:topónimo
 Gunungkidoli po:topónimo    # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
 Haora po:topónimo           # https://en.wikipedia.org/wiki/Haora_River
 Hoboken po:topónimo         # https://en.wikipedia.org/wiki/Hoboken
 Indostán po:topónimo        # https://en.wikipedia.org/wiki/Hindustan
-Itaparica po:topónimo       # https://gl.wikipedia.org/wiki/Ba%C3%ADa,_Brasil
 Itapoã po:topónimo          # https://en.wikipedia.org/wiki/Itapo%C3%A3_%28neighborhood%29
 Kalookan po:topónimo        # https://en.wikipedia.org/wiki/Kalookan
 Kebunamen po:topónimo       # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
 Kinabalu po:topónimo        # https://en.wikipedia.org/wiki/Mount_Kinabalu
 Kings po:topónimo           # https://en.wikipedia.org/wiki/Kings_County,_California
-Kosovo po:topónimo
 Ladinia po:topónimo         # https://en.wikipedia.org/wiki/Ladinia
 Langosteira po:topónimo     # https://gl.wikipedia.org/wiki/Punta_Langosteira
 Languedoc po:topónimo       # https://gl.wikipedia.org/wiki/Languedoc
@@ -397,7 +348,6 @@ Latinoamérica po:topónimo   # https://gl.wikipedia.org/wiki/Am%C3%A9rica_Latin
 Leverkusen po:topónimo      # https://en.wikipedia.org/wiki/Leverkusen
 Llosas po:topónimo          # https://en.wikipedia.org/wiki/Les_Llosses
 Lovaina po:topónimo         # https://en.wikipedia.org/wiki/Leuven
-Maluro po:topónimo          # https://gl.wikipedia.org/wiki/Montes_de_Galicia
 Masía po:nome               # https://en.wikipedia.org/wiki/La_Masia
 Masías po:topónimo          # https://en.wikipedia.org/wiki/Les_Masies_de_Roda
 Maón po:topónimo            # https://en.wikipedia.org/wiki/Ma%27on,_Har_Hebron
@@ -416,12 +366,10 @@ Oshawa po:topónimo          # https://gl.wikipedia.org/wiki/Ontario
 Oxapampa po:topónimo        # https://gl.wikipedia.org/wiki/Provincias_do_Per%C3%BA
 Pangandarang po:topónimo    # https://en.wikipedia.org/wiki/Pangandaran
 Parrote po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADos_de_Galicia
-Pasadama po:topónimo        # https://gl.wikipedia.org/wiki/Montes_de_Galicia
 Pasadena po:topónimo        # https://gl.wikipedia.org/wiki/Pasadena
 Pasig po:topónimo           # https://gl.wikipedia.org/wiki/Historia_urbana_de_Manila
 Patagonia po:topónimo       # https://gl.wikipedia.org/wiki/Patagonia
 Postdam po:topónimo         # https://gl.wikipedia.org/wiki/Federico_Guillerme_III_de_Prusia
-Pradela po:topónimo         # https://gl.wikipedia.org/wiki/R%C3%ADo_Burbia
 Preveza po:topónimo         # https://en.wikipedia.org/wiki/Preveza
 Rinca po:topónimo           # https://en.wikipedia.org/wiki/Rinca
 Riveside po:topónimo        # https://en.wikipedia.org/wiki/Riverside,_Illinois
