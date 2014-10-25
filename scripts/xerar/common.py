@@ -11,7 +11,7 @@ from generator import output, wordsToIgnore
 
 
 
-numberPattern = re.compile(u"^[0-9]+(\.?[ºª]|\.)?$")
+numberPattern = re.compile(u"^[0-9-]*[0-9]+(\.?[ºª]|[.°:])?$")
 
 
 def getModulesSourcePath():

@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
 
-import codecs, json, os, re, requests, sys, tempfile, time, unicodedata, urllib
+import codecs, json, os, requests, sys, tempfile, time, unicodedata, urllib
 import urllib2
+import regex as re
 
 from bs4 import BeautifulSoup
 
@@ -26,11 +27,11 @@ sep = u"(?:[-,;]| e ) *"
 colon = u"(?:[:,] *)?"
 nexo = u"(?:do|en) *"
 
-term = u"(?:\'\'\' *[^)]*? *\'\'\'|\'\' *[^)]*? *\'\'|\{\{ *nihongo *\|.*?\}\}) *"
+term = u"(?:\'\'\'\'\' *[^)]*? *\'\'\'\'\'|\'\'\' *[^)]*? *\'\'\'|\'\' *[^)]*? *\'\'|\{\{ *nihongo *\|.*?\}\}) *"
 thisOrThat = u"(?:abreviado *)?{term}(?: *ou *{term})? *".format(term=term)
 language = u"(?:\w+|\[\[[^]|]+\|[^]]+\]\]) *"
 
-termo = u"(?:\'\'\' *([^)]*?) *\'\'\'|\'\' *([^)]*?) *\'\'|\{\{ *nihongo *\| *(.*?) *\|.*?\}\}) *"
+termo = u"(?:\'\'\'\'\' *([^)]*?) *\'\'\'\'\'|\'\'\' *([^)]*?) *\'\'\'|\'\' *([^)]*?) *\'\'|\{\{ *nihongo *\| *(.*?) *\|.*?\}\}) *"
 istoOuAquilo = u"(?:abreviado *)?{term}(?: *ou *{term})? *".format(term=termo)
 galego = u"(?:galego|\[\[[^]|]+\| *galego *\]\]) *"
 
@@ -54,6 +55,7 @@ siglasPl1 = u"\'\'\'\w\'\'\'\w*(?:[\w, -]+\'\'\'\w\'\'\'\w*)*"  # e.g. https://g
 
 highlightedPatternStrings = [
     u"\( *\'\'\' *\[[^ ]+\.ogg +\'\' *[^)]+ *\'\' *\] *\'\'\' *\)",
+    u"\( *{term}, *(?:.*?, *)*literalmente *{term} *\)".format(term=term),  # e.g. https://gl.wikipedia.org/wiki/O_Correcami%C3%B1os
     u"\( *{thisOrThat}{sep}{friends}(?:{sep}{friends})* *\)".format(thisOrThat=istoOuAquilo, sep=sep, friends=friends),
     u"\( *{}\)".format(friends),
     u"\( *{term}{sep}na *actualidade *{term}\)".format(term=termo, sep=sep),
@@ -1062,6 +1064,7 @@ class EntryParser(object):
     def __init__(self,
                  doubleApostropheFilter=True,
                  basqueFilter=False,
+                 colonFilter=True,
                  commaFilter=True,
                  commaSplitter=False,
                  hyphenFilter=True,
@@ -1076,6 +1079,7 @@ class EntryParser(object):
                  unescapeHtml=True,):
         self.doubleApostropheFilter = doubleApostropheFilter
         self.basqueFilter = basqueFilter
+        self.colonFilter = colonFilter
         self.commaFilter = commaFilter
         self.commaSplitter = commaSplitter
         self.hyphenFilter = hyphenFilter
@@ -1136,6 +1140,8 @@ class EntryParser(object):
                 entry = entry.replace(u"\"", u"")
             if self.unescapeHtml and u"&" in entry:
                 entry = self.htmlParser.unescape(entry)
+            if self.colonFilter and u": " in entry:
+                entry = entry.replace(u": ", u" ")
 
             # Splitters.
 

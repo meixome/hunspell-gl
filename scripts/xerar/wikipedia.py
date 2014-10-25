@@ -235,6 +235,42 @@ def loadGeneratorList():
         ],
     ))
 
+    pattern = u"Grafiteiros|Personalidades|Pintores"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/arte/pintura.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Personalidades da pintura"],
+                        invalidPagePattern = u"^(Imaxes |Listas |Premio |{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Biólogos|Bioquímicos|Científicos|Empresarios|Farmacéuticos|Físicos|Matemáticos|Médicos|Personalidades|Químicos"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/ciencia.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Personalidades da ciencia"],
+                        invalidPagePattern = u"^(Día do Científico|Imaxes |Premio |{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
     generators.append(GalipediaGenerator(
         resource = u"onomástica/antroponimia/países/costa-rica.dic",
         partOfSpeech = u"antropónimo",
@@ -277,6 +313,42 @@ def loadGeneratorList():
         ],
     ))
 
+    pattern = u"Chanceleres|Personalidades|Políticos|Presidente do Consello de Comisarios do Pobo|Presidentes|Primeiros [Mm]inistros|Secretarios|Taoiseach"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/política/primeiros-ministros.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Primeiros ministros"],
+                        invalidPagePattern = u"^(Imaxes |Listas |Premio |{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Actores|Personalidades|Xornalistas"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/radio.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Personalidades da radio"],
+                        invalidPagePattern = u"^(Imaxes |Premio |{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
     generators.append(GalipediaGenerator(
         resource = u"onomástica/antroponimia/relixión.dic",
         partOfSpeech = u"antropónimo",
@@ -289,6 +361,24 @@ def loadGeneratorList():
                         ],
                         invalidPagePattern = u"^Apóstolo$",
                         validCategoryPattern = u"^Apóstolos",
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Presentadores"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/antroponimia/televisión/presentadores.dic",
+        partOfSpeech = u"antropónimo",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Presentadores de televisión"],
+                        invalidPagePattern = u"^(Imaxes |Listas |Premio |{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
                     ),
                 ],
                 pageParser = FirstSentenceParser(),
@@ -433,6 +523,21 @@ def loadGeneratorList():
     ))
 
     generators.append(GalipediaGenerator(
+        resource = u"onomástica/economía/empresas/telecomunicacións.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryOfPagesNames = [u"Empresas de telecomunicacións"],
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
         resource = u"onomástica/historia/acontecementos.dic",
         partOfSpeech = u"nome",
         entryGenerators=[
@@ -460,6 +565,93 @@ def loadGeneratorList():
                         invalidPagePattern = u"^((Lista|Pobos) |(Civilización|Cultura dos Campos de Urnas|Sala do hidromel)$)",
                         validCategoryPattern = u"^(Pobos|Reinos) ",
                         invalidCategoryAsPagePattern = u"^(Arquitectura|Xeografía) ",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Linguaxes"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/informática/linguaxes.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Linguaxes informáticas"],
+                        invalidPagePattern = u"^(Imaxes |Listas |Exemplos |Linguaxe compilada|Linguaxe de alto nivel|Linguaxe de programación$|Linguaxe interpretada|{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/informática/sistemas-de-almacenamento.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Sistemas de almacenamento"],
+                        invalidPagePattern = u"^Administrador de base de datos$",
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Redes sociais|Weblogs|Wikipedias|Xornais"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/informática/sitios-de-internet.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Sitios de internet"],
+                        invalidPagePattern = u"^(Imaxes |Listas |(Rede social|Blogueiros)$|{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                        invalidCategoryAsPagePattern = u"^Blogueiros$"
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    pattern = u"Ambientes de escritorio|Aplicacións|Compañías|Conxuntos de aplicacións|Editores|Emuladores|Follas|Kernels|Navegadores|Personaxes|Procesadores|Reprodutores|Servidores|Sistemas operativos|Software|Utilidades|Videoxogos|Xestores"
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/informática/software.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Software móbil", u"Software por tipo"],
+                        invalidPagePattern = u"^(Imaxes |Listas |Premio |Navegador web|Videoxogo|{})".format(pattern),
+                        validCategoryPattern = u"^({})".format(pattern),
+                    ),
+                ],
+                pageParser = FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/música/acontecementos.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Acontecementos musicais"],
+                        validCategoryPattern = u"^(Acontecementos|Festivais|Xiras)",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),
@@ -571,6 +763,23 @@ def loadGeneratorList():
                         validCategoryPattern = u"^(Cadeas|Televisións)",
                         invalidCategoryAsPagePattern = u"^Programas",
                         invalidPagePattern = u"^(Cadea de televisión|Televisión comunitaria)$",
+                    ),
+                ],
+                pageParser=FirstSentenceParser(),
+            )
+        ],
+    ))
+
+    generators.append(GalipediaGenerator(
+        resource = u"onomástica/televisión/debuxos-animados.dic",
+        partOfSpeech = u"nome",
+        entryGenerators=[
+            EntryGenerator(
+                pageGenerators = [
+                    CategoryBrowser(
+                        categoryNames = [u"Debuxos animados"],
+                        validCategoryPattern = u"^(Anime$|Personaxes)",
+                        invalidPagePattern = u"^Anime$",
                     ),
                 ],
                 pageParser=FirstSentenceParser(),

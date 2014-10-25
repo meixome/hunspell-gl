@@ -138,22 +138,14 @@ xudicializado/10,15 po:adxectivo
 # Antropónimos.
 Álavaro po:antropónimo      # https://en.wikipedia.org/wiki/Pr%C3%AAmio_Almirante_%C3%81lavaro_Alberto
 Anxelica po:antropónimo     # http://archive.today/kSoG
-Euler po:antropónimo
 Eurídice po:antropónimo     # https://en.wikipedia.org/wiki/Eurydice (non vale coller o nome doutras linguas, este é dos que se traducen)
 Evanxelina po:antropónimo   # https://www.facebook.com/search/results.php?q=Evanxelina&init=public
 Exiquia po:antropónimo      # http://www.noome.net/nombre-exiquia-en-espana
 Felícita po:antropónimo     # http://www.deperu.com/nombres-peruanos/significado-Fel%C3%ADcita
-Fermat po:antropónimo
-Gabilondo po:antropónimo
 Herodias po:antropónimo     # https://en.wikipedia.org/wiki/Herodias (non vale coller o nome doutras linguas, este é dos que se traducen)
-Márquez po:antropónimo
 Perfeita po:antropónimo     # http://www.ancestry.com/name-origin?surname=perfeita
-Reyero po:antropónimo
 Prácida po:antropónimo      # https://plus.google.com/105024488881974957521/posts
 Romelia po:antropónimo      # http://www.thinkbabynames.com/meaning/0/Romelia
-Sobera po:antropónimo
-Velázquez po:antropónimo
-Viaño po:antropónimo        # https://gl.wikipedia.org/wiki/Xan_Via%C3%B1o
 
 # Aumentativos, diminutivos e despectivos.
 elevadísimo/10,15 po:adxectivo
@@ -161,18 +153,9 @@ homón/10,16 po:adxectivo
 mullerona/10 po:adxectivo
 cantarín/10,15 po:adxectivo
 
-# Divisas.
-Guyana po:divisa [n-grama Guyana Dollar]
-Dollar po:divisa [n-grama Guyana Dollar]
-
 # Nomes.
-Android po:nome propio
 BlackBerry po:nome propio
-Blu-ray po:nome propio
 Dropbox po:nome propio
-Eurovisión po:nome propio
-Firefox po:nome propio
-Galipedia po:nome propio
 GitHub po:nome propio
 Gmail po:nome propio
 hunspell po:nome propio
@@ -181,29 +164,15 @@ Interviú po:nome propio
 iOS po:nome propio
 iPad po:nome propio
 iPhone po:nome propio
-LibreOffice po:nome propio
-Mozilla po:nome propio
-OpenOffice po:nome propio
 Panoramio po:nome propio
-PayPal po:nome propio
-Picasa po:nome propio
 Sangriña po:nome propio
-Skype po:nome propio
-Spotify po:nome propio
-Tuenti po:nome propio
-Twitter po:nome propio
 Vichona po:nome propio
-Vodafone po:nome propio
 VOLG po:nome propio
 volga po:nome propio
 VOLGa po:nome propio
-Wikipedia po:nome propio
-Windows po:nome propio
-YouTube po:nome propio
 
 # Personaxes de ficción.
-C3-PO po:antropónimo        # Personaxe da saga «A guerra das galaxias».
-Doraemon po:antropónimo     # Personaxe do anime «Doraemon».
+C-3PO po:antropónimo        # Personaxe da saga «A guerra das galaxias».
 Nobita po:antropónimo       # Personaxe do anime «Doraemon».
 R2-D2 po:antropónimo        # Personaxe da saga «A guerra das galaxias».
 
@@ -252,7 +221,6 @@ INCODER po:sigla                    # Instituto Colombiano de Desarrollo Rural
 INCORA po:sigla                     # Instituto Colombiano de la Reforma Agraria
 INEFAN po:sigla                     # Instituto Ecuatoriano Forestal y de Areas Naturales
 INRA po:sigla                       # Instituto Nacional de Investigación Agronómica de Francia
-K. po:sigla [n-grama: K. O.]
 LRXPAC po:sigla                     # Réxime Xurídico das Administracións Públicas e do Procedemento Administrativo Común
 MINUGUA po:sigla                    # http://www.un.org/en/peacekeeping/missions/past/minugua.htm
 MPAA po:sigla                       # Motion Picture Association of America
@@ -340,7 +308,6 @@ Itapoã po:topónimo          # https://en.wikipedia.org/wiki/Itapo%C3%A3_%28nei
 Kalookan po:topónimo        # https://en.wikipedia.org/wiki/Kalookan
 Kebunamen po:topónimo       # http://www.libertaddigital.com/sociedad/al-menos-ochenta-personas-mueren-en-un-tsunami-en-el-sur-de-la-isla-indonesia-de-java-1276283766/
 Kinabalu po:topónimo        # https://en.wikipedia.org/wiki/Mount_Kinabalu
-Kings po:topónimo           # https://en.wikipedia.org/wiki/Kings_County,_California
 Ladinia po:topónimo         # https://en.wikipedia.org/wiki/Ladinia
 Langosteira po:topónimo     # https://gl.wikipedia.org/wiki/Punta_Langosteira
 Languedoc po:topónimo       # https://gl.wikipedia.org/wiki/Languedoc
@@ -355,7 +322,6 @@ Mogadouro po:topónimo       # https://gl.wikipedia.org/wiki/Fregues%C3%ADas_de_
 Moguer po:topónimo          # https://gl.wikipedia.org/wiki/Lista_de_concellos_de_Huelva
 Monagas po:topónimo         # https://gl.wikipedia.org/wiki/Acosta
 Montalvo po:topónimo        # https://gl.wikipedia.org/wiki/Praia_de_Paxari%C3%B1as
-Murillo po:topónimo         # https://en.wikipedia.org/wiki/Murillo_de_R%C3%ADo_Leza
 Nariño po:topónimo          # https://gl.wikipedia.org/wiki/Linares
 Nezahualcóyotl po:topónimo  # https://gl.wikipedia.org/wiki/Toluca_de_Lerdo
 Nuristán po:topónimo        # https://gl.wikipedia.org/wiki/Subdivisi%C3%B3ns_de_Afganist%C3%A1n
@@ -395,7 +361,6 @@ Tripolitania po:topónimo    # https://en.wikipedia.org/wiki/Tripolitania
 Turquestán po:topónimo      # https://en.wikipedia.org/wiki/Turkestan
 Tíbet po:topónimo           # https://gl.wikipedia.org/wiki/T%C3%ADbet
 Valaquia po:topónimo        # https://gl.wikipedia.org/wiki/Valaquia
-Valley po:topónimo          # https://en.wikipedia.org/wiki/Silicon_Valley
 Vilaodriz po:topónimo       # https://gl.wikipedia.org/wiki/Provincia_de_Mondo%C3%B1edo
 Viliquín po:topónimo        # https://gl.wikipedia.org/wiki/Modelo:Lp_Dena
 Villamil po:topónimo        # https://en.wikipedia.org/wiki/Villamil
