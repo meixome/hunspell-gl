@@ -9,7 +9,7 @@ sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
 
 def getModulesSourcePath():
-    return os.path.dirname(os.path.realpath(__file__))  + u"/../../src"
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)).decode("utf-8"), u"../../src")
 
 
 

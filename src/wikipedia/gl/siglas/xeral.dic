@@ -157,7 +157,6 @@ GPRS po:sigla
 GPS po:sigla
 Grapo po:sigla
 HB po:sigla
-I po:sigla
 I+D po:sigla
 IAE po:sigla
 IBI po:sigla
@@ -318,10 +317,8 @@ UTC po:sigla
 UV po:sigla
 UXA po:sigla
 UXT po:sigla
-V po:sigla
 VHF po:sigla
 VHS po:sigla
 VIP po:sigla
-W po:sigla
 WAP po:sigla
 WASP po:sigla

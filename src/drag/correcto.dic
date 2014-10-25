@@ -1127,6 +1127,7 @@ bochudo/10,15 po:adxectivo
 boiante/10 po:adxectivo
 bondadoso/10,15 po:adxectivo
 bonito/10,15 po:adxectivo
+booleano/10,15 po:adxectivo
 borbónico/10,15 po:adxectivo
 boreal/12 po:adxectivo
 bórico/10,15 po:adxectivo
@@ -1512,6 +1513,7 @@ chuviñoso/10,15 po:adxectivo
 chuvioso/10,15 po:adxectivo
 cianhídrico/10,15 po:adxectivo
 ciánico/10,15 po:adxectivo
+ciano/10,15 po:adxectivo
 cianótico/10,15 po:adxectivo
 ciático/10,15 po:adxectivo
 cibernético/10,15 po:adxectivo
@@ -4633,6 +4635,7 @@ influenciábel/12 po:adxectivo
 influenciable/10 po:adxectivo
 influente/10 po:adxectivo
 informal/12 po:adxectivo
+informatizado/10,15 po:adxectivo
 informe/10 po:adxectivo
 infortunado/10,15 po:adxectivo
 infrahumano/10,15 po:adxectivo
@@ -5748,6 +5751,7 @@ monocíclico/10,15 po:adxectivo
 monocilíndrico/10,15 po:adxectivo
 monoclinal/12 po:adxectivo
 monoclínico/10,15 po:adxectivo
+monoclino/10,15 po:adxectivo
 monocorde/10 po:adxectivo
 monocotiledóneo/10,15 po:adxectivo
 monocromático/10,15 po:adxectivo
@@ -5851,6 +5855,7 @@ multipolar/10 po:adxectivo
 multirracial/12 po:adxectivo
 multisecular/10 po:adxectivo
 multitudinario/10,15 po:adxectivo
+multiusuario po:adxectivo
 mundanal/12 po:adxectivo
 mundano/10,15 po:adxectivo
 mundial/12 po:adxectivo
@@ -7938,6 +7943,7 @@ teimoso/10,15 po:adxectivo
 teimudo/10,15 po:adxectivo
 telefónico/10,15 po:adxectivo
 telegráfico/10,15 po:adxectivo
+telemático/10,15 po:adxectivo
 telemétrico/10,15 po:adxectivo
 teleolóxico/10,15 po:adxectivo
 telepático/10,15 po:adxectivo
@@ -9204,6 +9210,7 @@ marzal/12 po:adxectivo / substantivo masculino
 mastigatorio/10,15 po:adxectivo / substantivo masculino
 material/12 po:adxectivo / substantivo masculino
 matronímico/10,15 po:adxectivo / substantivo masculino
+maxenta/10 po:adxectivo / substantivo masculino
 maxilar/10 po:adxectivo / substantivo masculino
 máximo/10,15 po:adxectivo / substantivo masculino
 meleiro/10,15 po:adxectivo / substantivo masculino
@@ -11349,6 +11356,7 @@ mudéxar/10 po:adxectivo / substantivo
 mudo/10,15 po:adxectivo / substantivo
 mugardés/10,15 po:adxectivo / substantivo
 mulato/10,15 po:adxectivo / substantivo
+multimedia po:adxectivo / substantivo
 multimillonario/10,15 po:adxectivo / substantivo
 multiplicador/10,14 po:adxectivo / substantivo
 municipalista/10 po:adxectivo / substantivo
@@ -12377,9 +12385,13 @@ zuriqués/10,15 po:adxectivo / substantivo
 igual/12 po:adxectivo / substantivo / adverbio
 mellor/10 po:adxectivo / substantivo / adverbio
 peor/10 po:adxectivo / substantivo / adverbio
+ADP/999 po:abreviatura
+ADSL/999 po:abreviatura
+CD/999 po:abreviatura
 C.G.S./999 po:abreviatura
 cf/999 po:abreviatura
 din/999 po:abreviatura
+DVD/999 po:abreviatura
 kg/999 po:abreviatura
 kl/999 po:abreviatura
 km/999 po:abreviatura
@@ -12390,8 +12402,11 @@ N/999 po:abreviatura
 O/999 po:abreviatura
 q/999 po:abreviatura
 S/999 po:abreviatura
+SMS/999 po:abreviatura
 Sr./999 po:abreviatura
 Sra./999 po:abreviatura
+URL/999 po:abreviatura
+USB/999 po:abreviatura
 v/999 po:abreviatura
 Vde/999 po:abreviatura
 res po:adverbio
@@ -15746,6 +15761,7 @@ bilma/10 po:substantivo feminino
 bima/10 po:substantivo feminino
 bimbarreira/10 po:substantivo feminino
 binación/10 po:substantivo feminino
+biobibliografía/10 po:substantivo feminino
 biocenose/10 po:substantivo feminino
 bioclimatoloxía/10 po:substantivo feminino
 biodinámica/10 po:substantivo feminino
@@ -16042,6 +16058,7 @@ cachaporra/10 po:substantivo feminino
 cacharela/10 po:substantivo feminino
 cacharrada/10 po:substantivo feminino
 cachaza/10 po:substantivo feminino
+caché/10 po:substantivo feminino
 cachea/10 po:substantivo feminino
 cacheira/10 po:substantivo feminino
 cacheirada/10 po:substantivo feminino
@@ -16393,6 +16410,7 @@ caricatura/10 po:substantivo feminino
 caricia/10 po:substantivo feminino
 caridade/10 po:substantivo feminino
 carie/10 po:substantivo feminino
+cariña/10 po:substantivo feminino
 carioca/10 po:substantivo feminino
 cariocinese/10 po:substantivo feminino
 cariópside/10 po:substantivo feminino
@@ -17134,6 +17152,7 @@ colmea/10 po:substantivo feminino
 colmeira/10 po:substantivo feminino
 colmeirada/10 po:substantivo feminino
 colocación/10 po:substantivo feminino
+colocalización/10 po:substantivo feminino
 colonia/10 po:substantivo feminino
 colonización/10 po:substantivo feminino
 coloquíntida/10 po:substantivo feminino
@@ -17544,6 +17563,7 @@ correntada/10 po:substantivo feminino
 correola/10 po:substantivo feminino
 correspondencia/10 po:substantivo feminino
 corretaxe/10 po:substantivo feminino
+corretoría/10 po:substantivo feminino
 corrida/10 po:substantivo feminino
 corripa/10 po:substantivo feminino
 corriza/10 po:substantivo feminino
@@ -18440,6 +18460,7 @@ emigración/10 po:substantivo feminino
 eminencia/10 po:substantivo feminino
 emisión/10 po:substantivo feminino
 emoción/10 po:substantivo feminino
+emoticona/10 po:substantivo feminino
 emotividade/10 po:substantivo feminino
 empacadora/10 po:substantivo feminino
 empadumada/10 po:substantivo feminino
@@ -18669,6 +18690,7 @@ escabrosidade/10 po:substantivo feminino
 escada/10 po:substantivo feminino
 escaiola/10 po:substantivo feminino
 escala/10 po:substantivo feminino
+escalabilidade po:substantivo feminino
 escalada/10 po:substantivo feminino
 escalda/10 po:substantivo feminino
 escaldadela/10 po:substantivo feminino
@@ -19101,6 +19123,7 @@ extorsión/10 po:substantivo feminino
 extracción/10 po:substantivo feminino
 extradición/10 po:substantivo feminino
 extraneidade/10 po:substantivo feminino
+extranet/10 po:substantivo feminino
 extrapolación/10 po:substantivo feminino
 extraterritorialidade/10 po:substantivo feminino
 extravagancia/10 po:substantivo feminino
@@ -20686,6 +20709,7 @@ intermitencia/10 po:substantivo feminino
 internacionalidade/10 po:substantivo feminino
 internacionalización/10 po:substantivo feminino
 internet po:substantivo feminino
+interoperabilidade po:substantivo feminino
 interpelación/10 po:substantivo feminino
 interpolación/10 po:substantivo feminino
 interposición/10 po:substantivo feminino
@@ -20704,6 +20728,7 @@ intitulación/10 po:substantivo feminino
 intolerancia/10 po:substantivo feminino
 intoxicación/10 po:substantivo feminino
 intrahistoria/10 po:substantivo feminino
+intranet/10 po:substantivo feminino
 intranquilidade/10 po:substantivo feminino
 intranscendencia/10 po:substantivo feminino
 intransitividade/10 po:substantivo feminino
@@ -21656,6 +21681,8 @@ menoridade/10 po:substantivo feminino
 menorraxia/10 po:substantivo feminino
 menorrea/10 po:substantivo feminino
 mensaxe/10 po:substantivo feminino
+mensaxaría po:substantivo feminino
+mensaxería po:substantivo feminino
 menstruación/10 po:substantivo feminino
 mensualidade/10 po:substantivo feminino
 ménsula/10 po:substantivo feminino
@@ -21698,6 +21725,7 @@ meta/10 po:substantivo feminino
 metábole/10 po:substantivo feminino
 metade/10 po:substantivo feminino
 metadona/10 po:substantivo feminino
+metaetiqueta/10 po:substantivo feminino
 metafase/10 po:substantivo feminino
 metafísica/10 po:substantivo feminino
 metafonía/10 po:substantivo feminino
@@ -22361,6 +22389,7 @@ oferta/10 po:substantivo feminino
 oficialidade/10 po:substantivo feminino
 oficialización/10 po:substantivo feminino
 oficina/10 po:substantivo feminino
+ofimática po:substantivo feminino
 ofiolatría/10 po:substantivo feminino
 ofiolita/10 po:substantivo feminino
 ofita/10 po:substantivo feminino
@@ -24142,6 +24171,7 @@ remuneración/10 po:substantivo feminino
 renacenza/10 po:substantivo feminino
 renda/10 po:substantivo feminino
 rendeta/10 po:substantivo feminino
+renderización/10 po:substantivo feminino
 rendibilidade/10 po:substantivo feminino
 rendición/10 po:substantivo feminino
 renitencia/10 po:substantivo feminino
@@ -24996,6 +25026,7 @@ suor/10 po:substantivo feminino
 supeditación/10 po:substantivo feminino
 superabundancia/10 po:substantivo feminino
 superación/10 po:substantivo feminino
+supercomputación po:substantivo feminino
 supercondutividade/10 po:substantivo feminino
 superestrutura/10 po:substantivo feminino
 superfemia/10 po:substantivo feminino
@@ -25041,6 +25072,7 @@ tabardilla/10 po:substantivo feminino
 tabasa/10 po:substantivo feminino
 tabe/10 po:substantivo feminino
 taberna/10 po:substantivo feminino
+tableta/10 po:substantivo feminino
 táboa/10 po:substantivo feminino
 tabulatura/10 po:substantivo feminino
 tacada/10 po:substantivo feminino
@@ -25162,7 +25194,7 @@ telefonía/10 po:substantivo feminino
 telefoto/10 po:substantivo feminino
 telefotografía/10 po:substantivo feminino
 telegrafía/10 po:substantivo feminino
-telemática/10 po:substantivo feminino
+telemática po:substantivo feminino
 telemetría/10 po:substantivo feminino
 telenovela/10 po:substantivo feminino
 teleoloxía/10 po:substantivo feminino
@@ -25637,6 +25669,7 @@ tumoración/10 po:substantivo feminino
 tuna/10 po:substantivo feminino
 tunda/10 po:substantivo feminino
 tundra/10 po:substantivo feminino
+tunelización po:substantivo feminino
 tungstita/10 po:substantivo feminino
 túnica/10 po:substantivo feminino
 tunicela/10 po:substantivo feminino
@@ -25933,6 +25966,8 @@ vidalla/10 po:substantivo feminino
 vide/10 po:substantivo feminino
 videira/10 po:substantivo feminino
 videocasete/10 po:substantivo feminino
+videochamada/10 po:substantivo feminino
+videoescritura/10 po:substantivo feminino
 videofrecuencia/10 po:substantivo feminino
 videoteca/10 po:substantivo feminino
 vidra/10 po:substantivo feminino
@@ -26060,7 +26095,10 @@ vulnerabilidade/10 po:substantivo feminino
 vulneración/10 po:substantivo feminino
 vulva/10 po:substantivo feminino
 vulvite/10 po:substantivo feminino
+Web po:substantivo feminino
+web/10 po:substantivo feminino
 weltanschauung/10 po:substantivo feminino
+wifi/10 po:substantivo feminino
 xácea/10 po:substantivo feminino
 xácoma/10 po:substantivo feminino
 xactancia/10 po:substantivo feminino
@@ -26974,6 +27012,7 @@ agrarismo/10 po:substantivo masculino
 agravamento/10 po:substantivo masculino
 agravio/10 po:substantivo masculino
 agrego/10 po:substantivo masculino
+agregador/10 po:substantivo masculino
 agremán/10 po:substantivo masculino
 agrimensor/10 po:substantivo masculino
 agrión/10 po:substantivo masculino
@@ -27331,6 +27370,7 @@ antipapa/10 po:substantivo masculino
 antiparlamentarismo/10 po:substantivo masculino
 antipatriotismo/10 po:substantivo masculino
 antirroubo/10 po:substantivo masculino
+antivirus po:substantivo masculino
 antíxeno/10 po:substantivo masculino
 antófito/10 po:substantivo masculino
 antollo/10 po:substantivo masculino
@@ -27727,6 +27767,7 @@ autoconsumo/10 po:substantivo masculino
 autocontrol/12 po:substantivo masculino
 autócrata/10 po:substantivo masculino
 autodominio/10 po:substantivo masculino
+autoenchemento/10 po:substantivo masculino
 autofinanciamento/10 po:substantivo masculino
 autogoberno/10 po:substantivo masculino
 automatismo/10 po:substantivo masculino
@@ -27883,6 +27924,7 @@ bandoleirismo/10 po:substantivo masculino
 bandougo/10 po:substantivo masculino
 bandoxo/10 po:substantivo masculino
 bandullo/10 po:substantivo masculino
+báner/11 po:substantivo masculino
 baño/10 po:substantivo masculino
 banquete/10 po:substantivo masculino
 banzado/10 po:substantivo masculino
@@ -28091,6 +28133,7 @@ biol/12 po:substantivo masculino
 biolo/10 po:substantivo masculino
 biombo/10 po:substantivo masculino
 biorritmo/10 po:substantivo masculino
+biosbardo/10 po:substantivo masculino
 biotipo/10 po:substantivo masculino
 biótopo/10 po:substantivo masculino
 bióxido/10 po:substantivo masculino
@@ -28123,6 +28166,7 @@ bizantinismo/10 po:substantivo masculino
 blastema/10 po:substantivo masculino
 blastoderma/10 po:substantivo masculino
 blastómero/10 po:substantivo masculino
+blog/10 po:substantivo masculino
 bloque/10 po:substantivo masculino
 bloqueo/10 po:substantivo masculino
 blusón/10 po:substantivo masculino
@@ -28940,6 +28984,7 @@ cebullo/10 po:substantivo masculino
 ceceo/10 po:substantivo masculino
 cecidio/10 po:substantivo masculino
 cecimbre/10 po:substantivo masculino
+cedé/10 po:substantivo masculino
 cedro/10 po:substantivo masculino
 cefalómetro/10 po:substantivo masculino
 cefalotórax po:substantivo masculino
@@ -29158,12 +29203,14 @@ chuvasco/10 po:substantivo masculino
 chuvasqueiro/10 po:substantivo masculino
 chuzo/10 po:substantivo masculino
 cianato/10 po:substantivo masculino
+ciano po:substantivo masculino
 cianóxeno/10 po:substantivo masculino
 cianuro/10 po:substantivo masculino
 ciatio/10 po:substantivo masculino
 cíato/10 po:substantivo masculino
 cibaco/10 po:substantivo masculino
 ciballo/10 po:substantivo masculino
+cibercafé/10 po:substantivo masculino
 ciborio/10 po:substantivo masculino
 cicel/12 po:substantivo masculino
 cicelado/10 po:substantivo masculino
@@ -30052,6 +30099,7 @@ descarrilamento/10 po:substantivo masculino
 descarte/10 po:substantivo masculino
 descendemento/10 po:substantivo masculino
 descenso/10 po:substantivo masculino
+descodificador/10 po:substantivo masculino
 descoido/10 po:substantivo masculino
 descomedimento/10 po:substantivo masculino
 desconcerto/10 po:substantivo masculino
@@ -30197,6 +30245,7 @@ deus/10 po:substantivo masculino
 deuterio/10 po:substantivo masculino
 deuterón/10 po:substantivo masculino
 deutón/10 po:substantivo masculino
+deuvedé/10 po:substantivo masculino
 devalo/10 po:substantivo masculino
 devezo/10 po:substantivo masculino
 devir/10 po:substantivo masculino
@@ -30484,6 +30533,8 @@ encaixe/10 po:substantivo masculino
 encalado/10 po:substantivo masculino
 encalco/10 po:substantivo masculino
 encallamento/10 po:substantivo masculino
+encamiñador/10 po:substantivo masculino
+encamiñamento/10 po:substantivo masculino
 encanamento/10 po:substantivo masculino
 encano/10 po:substantivo masculino
 encantamento/10 po:substantivo masculino
@@ -30574,6 +30625,7 @@ enguedello/10 po:substantivo masculino
 enigma/10 po:substantivo masculino
 enlace/10 po:substantivo masculino
 enlatado/10 po:substantivo masculino
+enlazador/10 po:substantivo masculino
 enlazamento/10 po:substantivo masculino
 enleo/10 po:substantivo masculino
 enlizo/10 po:substantivo masculino
@@ -30747,6 +30799,7 @@ escáncer/10 po:substantivo masculino
 escandallo/10 po:substantivo masculino
 escándalo/10 po:substantivo masculino
 escandio/10 po:substantivo masculino
+escaneamento/10 po:substantivo masculino
 escano/10 po:substantivo masculino
 escantillón/10 po:substantivo masculino
 escaparate/10 po:substantivo masculino
@@ -31941,6 +31994,7 @@ hiperboloide/10 po:substantivo masculino
 hiperenxebrismo/10 po:substantivo masculino
 hiperón/10 po:substantivo masculino
 hiperónimo/10 po:substantivo masculino
+hipertexto/10 po:substantivo masculino
 hipertiroidismo/10 po:substantivo masculino
 hipnotismo/10 po:substantivo masculino
 hipocampo/10 po:substantivo masculino
@@ -32822,6 +32876,7 @@ mediomundo/10 po:substantivo masculino
 medo/10 po:substantivo masculino
 medouco/10 po:substantivo masculino
 mefitismo/10 po:substantivo masculino
+megabyte/10 po:substantivo masculino
 megaciclo/10 po:substantivo masculino
 megacolon/10 po:substantivo masculino
 megáfono/10 po:substantivo masculino
@@ -32954,6 +33009,7 @@ micro/10 po:substantivo masculino
 microampere/10 po:substantivo masculino
 microamperímetro/10 po:substantivo masculino
 microbio/10 po:substantivo masculino
+microblog/10 po:substantivo masculino
 microbús/10 po:substantivo masculino
 microcircuíto/10 po:substantivo masculino
 microclima/10 po:substantivo masculino
@@ -32971,8 +33027,10 @@ microordenador/10 po:substantivo masculino
 microorganismo/10 po:substantivo masculino
 micrópilo/10 po:substantivo masculino
 microprocesador/10 po:substantivo masculino
+microprograma/10 po:substantivo masculino
 microscopio/10 po:substantivo masculino
 microsegundo/10 po:substantivo masculino
+micrositio/10 po:substantivo masculino
 microsporanxio/10 po:substantivo masculino
 micrótomo/10 po:substantivo masculino
 mieloblasto/10 po:substantivo masculino
@@ -33277,6 +33335,7 @@ naufraxio/10 po:substantivo masculino
 nauta/10 po:substantivo masculino
 náutilo/10 po:substantivo masculino
 navallón/10 po:substantivo masculino
+navegador/10 po:substantivo masculino
 navío/10 po:substantivo masculino
 nazismo/10 po:substantivo masculino
 neboeiro/10 po:substantivo masculino
@@ -34238,6 +34297,7 @@ pitón/10 po:substantivo masculino
 pitósporo/10 po:substantivo masculino
 pivote/10 po:substantivo masculino
 pixama/10 po:substantivo masculino
+píxel/12 po:substantivo masculino
 pizzicato/10 po:substantivo masculino
 placebo/10 po:substantivo masculino
 plácet/10 po:substantivo masculino
@@ -34380,6 +34440,7 @@ porro/10 po:substantivo masculino
 porrón/10 po:substantivo masculino
 portaavións po:substantivo masculino
 portabandeira/10 po:substantivo masculino
+portacedés po:substantivo masculino
 portádego/10 po:substantivo masculino
 portaenxertos po:substantivo masculino
 portaestandarte/10 po:substantivo masculino
@@ -34394,6 +34455,7 @@ portamento/10 po:substantivo masculino
 portaminas po:substantivo masculino
 portamoedas po:substantivo masculino
 portaobxectos po:substantivo masculino
+portapapeis po:substantivo masculino
 portavultos po:substantivo masculino
 porte/10 po:substantivo masculino
 porteleiro/10 po:substantivo masculino
@@ -34414,6 +34476,7 @@ positón/10 po:substantivo masculino
 positonio/10 po:substantivo masculino
 positrón/10 po:substantivo masculino
 pospretérito/10 po:substantivo masculino
+posprocesamento/10 po:substantivo masculino
 posromanticismo/10 po:substantivo masculino
 postallo/10 po:substantivo masculino
 poste/10 po:substantivo masculino
@@ -34603,6 +34666,7 @@ proxectil/12 po:substantivo masculino
 proxecto/10 po:substantivo masculino
 proxector/10 po:substantivo masculino
 proxenetismo/10 po:substantivo masculino
+proxy/11 po:substantivo masculino
 prurito/10 po:substantivo masculino
 prusianismo/10 po:substantivo masculino
 prusiato/10 po:substantivo masculino
@@ -34694,6 +34758,8 @@ quid/10 po:substantivo masculino
 quietismo/10 po:substantivo masculino
 quilate/10 po:substantivo masculino
 quilo/10 po:substantivo masculino
+quilobit/10 po:substantivo masculino
+quilobyte/10 po:substantivo masculino
 quilociclo/10 po:substantivo masculino
 quilográmetro/10 po:substantivo masculino
 quilogramo/10 po:substantivo masculino
@@ -34825,6 +34891,7 @@ raspallo/10 po:substantivo masculino
 raspón/10 po:substantivo masculino
 rasquiño/10 po:substantivo masculino
 rasquizo/10 po:substantivo masculino
+rastrexo/10 po:substantivo masculino
 rastro/10 po:substantivo masculino
 ratel/12 po:substantivo masculino
 rateo/10 po:substantivo masculino
@@ -35058,6 +35125,7 @@ repocho/10 po:substantivo masculino
 repoleiro/10 po:substantivo masculino
 repolgo/10 po:substantivo masculino
 repolo/10 po:substantivo masculino
+repositorio/10 po:substantivo masculino
 repotón/10 po:substantivo masculino
 repousabrazos po:substantivo masculino
 repousacabezas po:substantivo masculino
@@ -35762,6 +35830,7 @@ subdesenvolvemento/10 po:substantivo masculino
 subdiaconado/10 po:substantivo masculino
 subdiácono/10 po:substantivo masculino
 subdialecto/10 po:substantivo masculino
+subdominio/10 po:substantivo masculino
 subemprego/10 po:substantivo masculino
 subfusil/12 po:substantivo masculino
 subgrupo/10 po:substantivo masculino
@@ -35996,6 +36065,7 @@ telencéfalo/10 po:substantivo masculino
 teleobxectivo/10 po:substantivo masculino
 telescopio/10 po:substantivo masculino
 telesquí/10 po:substantivo masculino
+teletexto po:substantivo masculino
 teletipo/10 po:substantivo masculino
 televisor/10 po:substantivo masculino
 télex po:substantivo masculino
@@ -36148,6 +36218,7 @@ tisne/10 po:substantivo masculino
 tisú/10 po:substantivo masculino
 titán/10 po:substantivo masculino
 titanio/10 po:substantivo masculino
+titorial/12 po:substantivo masculino
 titubeo/10 po:substantivo masculino
 título/10 po:substantivo masculino
 tixolo/10 po:substantivo masculino
@@ -36573,6 +36644,7 @@ valado/10 po:substantivo masculino
 vale/10 po:substantivo masculino
 valemento/10 po:substantivo masculino
 valí/10 po:substantivo masculino
+validador/10 po:substantivo masculino
 valido/10 po:substantivo masculino
 valigato/10 po:substantivo masculino
 valo/10 po:substantivo masculino
@@ -36810,8 +36882,10 @@ walkie-talkie/10 po:substantivo masculino
 warrant/10 po:substantivo masculino
 wáter-polo/10 po:substantivo masculino
 watt/10 po:substantivo masculino
+web/10 po:substantivo masculino
 wéber/10 po:substantivo masculino
 whisky/11 po:substantivo masculino
+wiki/10 po:substantivo masculino
 wínchester/10 po:substantivo masculino
 windsurf/10 po:substantivo masculino
 x po:substantivo masculino
@@ -36914,6 +36988,7 @@ xexuno/10 po:substantivo masculino
 xi/10 po:substantivo masculino
 xibardo/10 po:substantivo masculino
 xibón/10 po:substantivo masculino
+xigabyte/10 po:substantivo masculino
 xigantismo/10 po:substantivo masculino
 xileno/10 po:substantivo masculino
 xílgaro/10 po:substantivo masculino
@@ -38500,6 +38575,7 @@ biógrafo/10,15 po:substantivo
 biólogo/10,15 po:substantivo
 bisavó/10,17 po:substantivo
 bisneto/10,15 po:substantivo
+blogueiro/10,15 po:substantivo
 bodegueiro/10,15 po:substantivo
 boieiro/10,15 po:substantivo
 bolseiro/10,15 po:substantivo
@@ -38700,6 +38776,7 @@ coreógrafo/10,15 po:substantivo
 corista/10 po:substantivo
 corneta/10 po:substantivo
 corógrafo/10,15 po:substantivo
+corretor/10,14 po:substantivo
 cortexador/10,14 po:substantivo
 corzo/10,15 po:substantivo
 cosedor/10,14 po:substantivo
@@ -38990,6 +39067,7 @@ instrumentista/10 po:substantivo
 insultador/10,14 po:substantivo
 intendente/10 po:substantivo
 interlocutor/10,14 po:substantivo
+internauta/10 po:substantivo
 internista/10 po:substantivo
 interpolador/10,14 po:substantivo
 intérprete/10 po:substantivo
@@ -39725,6 +39803,7 @@ Fl/999 po:símbolo
 Fm/999 po:símbolo
 Fr/999 po:símbolo
 Ga/999 po:símbolo
+GB/999 po:símbolo
 Gd/999 po:símbolo
 Ge/999 po:símbolo
 H/999 po:símbolo
@@ -39738,6 +39817,8 @@ In/999 po:símbolo
 Ir/999 po:símbolo
 J/999 po:símbolo
 K/999 po:símbolo
+kb/999 po:símbolo
+kB/999 po:símbolo
 Khz/999 po:símbolo
 Kr/999 po:símbolo
 kV/999 po:símbolo
@@ -39751,6 +39832,7 @@ Lu/999 po:símbolo
 Lv/999 po:símbolo
 Lw/999 po:símbolo
 lx/999 po:símbolo
+MB/999 po:símbolo
 Md/999 po:símbolo
 Mg/999 po:símbolo
 mg/999 po:símbolo
@@ -39779,6 +39861,7 @@ Po/999 po:símbolo
 Pr/999 po:símbolo
 Pt/999 po:símbolo
 Pu/999 po:símbolo
+px/999 po:símbolo
 R/999 po:símbolo
 Ra/999 po:símbolo
 Rb/999 po:símbolo
@@ -40172,6 +40255,8 @@ xunto po:locución preposicional [n-grama: xunto a]
 xunto po:locución preposicional [n-grama: xunto de]
 alter po:locución substantiva [n-grama: alter ego]
 ego po:locución substantiva [n-grama: alter ego]
+desenvolvedor/10,14 po:locución substantiva [n-grama: desenvolvedor de software]
+monoespazo po:locución substantiva [n-grama: fonte monoespazo]
 homo po:locución substantiva [n-grama: homo faber]
 faber po:locución substantiva [n-grama: homo faber]
 homo po:locución substantiva [n-grama: homo sapiens]
@@ -41997,6 +42082,8 @@ auspiciar/200,201 po:verbo ts:transitiva VOLG: t al:auspíciar
 auspíciar/666,202 st:auspiciar ts:alomorfo auspiciar transitiva
 autenticar/200,201 po:verbo ts:transitiva VOLG: t al:autentícar
 autentícar/666,202 st:autenticar ts:alomorfo autenticar transitiva
+autocompletar/200,201 po:verbo ts:transitiva VOLG: t al:autocomplétar
+autocomplétar/666,202 st:autocompletar ts:alomorfo completar transitiva
 autodeterminar/230,231 po:verbo ts:pronominal VOLG: pr al:autodetermínar
 autodetermínar/666,232 st:autodeterminar ts:alomorfo autodeterminar pronominal
 autofinanciar/230,231 po:verbo ts:pronominal VOLG: pr al:autofinánciar
@@ -44370,6 +44457,8 @@ desencrequenar/200,201 po:verbo ts:transitiva VOLG: t al:desencrequénar
 desencrequénar/666,202 st:desencrequenar ts:alomorfo desencrequenar transitiva
 desencrespar/200,201 po:verbo ts:transitiva VOLG: t al:desencréspar
 desencréspar/666,202 st:desencrespar ts:alomorfo desencrespar transitiva
+desencriptar/200,201 po:verbo ts:transitiva VOLG: t al:desencríptar
+desencríptar/666,202 st:desencriptar ts:alomorfo desencriptar transitiva
 desencuñar/200,201 po:verbo ts:transitiva VOLG: t al:desencúñar
 desencúñar/666,202 st:desencuñar ts:alomorfo desencuñar transitiva
 desencurvar/200,201 po:verbo ts:transitiva VOLG: t al:desencúrvar
@@ -45685,6 +45774,8 @@ encrequenar/230,231 po:verbo ts:pronominal VOLG: pr al:encrequénar
 encrequénar/666,232 st:encrequenar ts:alomorfo encrequenar pronominal
 encrespar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:encréspar
 encréspar/666,202,232 st:encrespar ts:alomorfo encrespar transitiva / pronominal
+encriptar/200,201 po:verbo ts:transitiva VOLG: t al:encríptar
+encríptar/666,202 st:encriptar ts:alomorfo encriptar transitiva
 encristar/230,231 po:verbo ts:pronominal VOLG: pr al:encrístar
 encrístar/666,232 st:encristar ts:alomorfo encristar pronominal
 encruar/221 po:verbo ts:intransitiva VOLG: i al:encrúar
@@ -47247,6 +47338,8 @@ formalizar/200,201 po:verbo ts:transitiva VOLG: t al:formalízar
 formalízar/666,202 st:formalizar ts:alomorfo formalizar transitiva
 formar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t pr i al:fórmar
 fórmar/666,202,222,232 st:formar ts:alomorfo formar transitiva / intransitiva / pronominal
+formatar/200,201 po:verbo ts:transitiva al:formátar
+formátar/666,202 st:formatar ts:alomorfo formatar transitiva
 formigar/220,221 po:verbo ts:intransitiva VOLG: i al:formígar
 formígar/666,222 st:formigar ts:alomorfo formigar intransitiva
 formular/200,201 po:verbo ts:transitiva VOLG: t al:formúlar
@@ -47853,6 +47946,8 @@ intensificar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:i
 intensifícar/666,202,232 st:intensificar ts:alomorfo intensificar transitiva / pronominal
 intentar/200,201 po:verbo ts:transitiva VOLG: t al:inténtar
 inténtar/666,202 st:intentar ts:alomorfo intentar transitiva
+interactuar/221 po:verbo ts:intransitiva al:interactúar
+interactúar/666,220,222 st:interactuar ts:alomorfo interactuar intransitiva
 intercalar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:intercálar
 intercálar/666,202,232 st:intercalar ts:alomorfo intercalar transitiva / pronominal
 intercambiar/200,201 po:verbo ts:transitiva VOLG: t al:intercámbiar
@@ -49428,6 +49523,8 @@ raspiñar/200,201 po:verbo ts:transitiva VOLG: t al:raspíñar
 raspíñar/666,202 st:raspiñar ts:alomorfo raspiñar transitiva
 raspuñar/200,201 po:verbo ts:transitiva VOLG: t al:raspúñar
 raspúñar/666,202 st:raspuñar ts:alomorfo raspuñar transitiva
+rasterizar/200,201 po:verbo ts:transitiva VOLG: t al:rasterízar
+rasterízar/666,202 st:rasterizar ts:alomorfo rasterizar transitiva
 rastrear/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rastréar
 rastréar/666,202,222 st:rastrear ts:alomorfo rastrear transitiva / intransitiva
 rastrexar/200,201,220,221 po:verbo ts:transitiva / intransitiva VOLG: t i al:rastréxar
@@ -49549,6 +49646,8 @@ rechamar/220,221 po:verbo ts:intransitiva VOLG: i al:rechámar
 rechámar/666,222 st:rechamar ts:alomorfo rechamar intransitiva
 rechiar/221 po:verbo ts:intransitiva VOLG: i al:rechíar
 rechíar/666,220,222 st:rechiar ts:alomorfo rechiar intransitiva
+rechouchiar/201 po:verbo ts:intransitiva VOLG: i al:rechouchíar
+rechouchíar/666,200,202 st:rechouchiar ts:alomorfo rechouchiar intransitiva
 reciclar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:recíclar
 recíclar/666,202,232 st:reciclar ts:alomorfo reciclar transitiva / pronominal
 recitar/200,201 po:verbo ts:transitiva VOLG: t al:recítar
@@ -51333,6 +51432,8 @@ atraer/310,311,312,410,411,412 po:verbo ts:transitiva / intransitiva VOLG t i al
 atráer/666,315,415 st:atraer ts:alomorfo atraer transitiva / intransitiva
 atrever/510,511,512 po:verbo ts:pronominal VOLG pr al:atréver
 atréver/666,515 st:atrever ts:alomorfo atrever pronominal
+autoencher/310,311,312 po:verbo ts:transitiva / intransitiva / pronominal VOLG t i pr al:autoéncher
+autoéncher/666,315 st:autoencher ts:alomorfo autoencher transitiva / intransitiva / pronominal
 avecer/410,411,412 po:verbo ts:intransitiva VOLG i al:avécer
 avécer/666,415 st:avecer ts:alomorfo avecer intransitiva
 avivecer/310,311,312,410,411,412,510,511,512 po:verbo ts:transitiva / intransitiva / pronominal VOLG i t pr al:avivécer

@@ -3,6 +3,14 @@ Datos a partir dos rexistros de Github (https://github.com/meixome/hunspell-gl)
 Cambios desde a versión 13.10.1
 ===============================
 
++ ceg (novo)
+    • Baseado en publicacións da Confederación de Empresarios de Galicia.
+    • O módulo contén os seguintes submódulos baseados en documentos
+      publicados pola universidade que inclúen listas de palabras:
+        • abreviaturas
+        • siglas
+        • símbolos
+
 • comunidade/suxestións:
     + -á, -án → -ana, -ano
     + -aba → -ía
@@ -10,6 +18,7 @@ Cambios desde a versión 13.10.1
     + -ana, -ano → -á, -án
     + andiven → andei
     + chaval → rapaz
+    + cián → ciano
     + columpiar → arrandear
     + columpio → randeeira
     + decodificar → descodificar
@@ -24,76 +33,124 @@ Cambios desde a versión 13.10.1
     + -xo → -ciu
 
 • comunidade/vocabulario:
+    + ab init.
+    + acrítico
     + activábel
     + activable
+    + adaptativo
     + adicionar
+    + aeróbico
     + amordiscar
+    + anaeróbico
+    + argumentativo
     + atresadamente
     + autoestima
     + autopropagar
+    + autótrofo
+    + BlackBerry
     + bianualmente
+    + bidimensional
     + bienalmente
-    + booleano
+    + bitcoin
+    + C-3PO
     + cablear
-    + caché
     + canalizador
+    + cantarín
     + cartelaría
-    + cián
+    + celacanto
     + clúster
+    + códec
+    + cohesionado
     + conectividade
     + conexionado
     + consensuado
     + controverso
     + conversor
     + Ctrl, CTRL
+    + desactivación
     + desaglutinado
-    + descodificador
+    + descodificación
+    + despazo
     + despregábel
     + despregable
     + dialogante
     + disciplinariamente
     + discrecionalidade
+    + disruptivo
+    + Dropbox
     + documentador
+    + ecualizador
+    + editábel, editable
     + electronicamente
+    + elevadísimo
     + emocionalmente
     + enchemento
     + exhaustividade
     + expansor
     + expedientado
     + exponencialmente
-    + formatar
-    + Galipedia
+    + extraescolar
+    + fotocopiábel, fotocopiable
+    + futbolisticamente
+    + GitHub
+    + Gmail
     + grupal
+    + hexadecimal
+    + homón
     + hunspell, Hunspell
+    + impredicíbel, impredicible
     + imprimíbel
     + imprimible
-    + interactuar
+    + incentivador
+    + indesexado
+    + iniciábel, iniciable
     + interconectar
-    + internauta
+    + intercultural
+    + interdisciplinar
     + interpersoal
+    + interrelacionado
+    + Interviú
+    + inusual
+    + invasivo
+    + iOS
+    + iPad
+    + iPhone
+    + lésbico
+    + ligábel, ligable
+    + lonxano
     + macro
     + Maiús, MAIÚS
-    + maxenta
     + medianoite
     + mediático
+    + meteoroloxicamente
     + minusvalorado
     + minusvalorar
+    + mitoloxicamente
     + monitorizar
+    + morbidamente
+    + mullerona
     + multiplataforma
     + multipunto
+    + Nobita
     + nomeadamente
     + normativamente
     + Office
+    + ofimático
     + orzamentado
     + orzamentar
+    + Panoramio
+    + participativo
     + paseniñamente
-    + paseniño
     + penalmente
+    + percusivo
     + personalizábel
     + personalizable
     + pervivencia
+    + poboacional
     + porosamente
+    + postural
     + potestativamente
+    + predefinido
     + preditor
     + pregábel
     + pregable
@@ -111,15 +168,26 @@ Cambios desde a versión 13.10.1
     + respaldar
     + retroalimentación
     + reutilizar
+    + revitalizante
+    + salvapantallas
+    + Sangriña
     + secuencialmente
+    + semidestruído
     + sobrepasar
+    + sobresdrúxulo
     + sostibilidade
     + submódulo
+    + sumativo
+    + sumatorio
     + supraterritorial
+    + tacaño
     + tecnotrónico
+    + tímbrico
     + tóner
     + varapau
+    + vencellado
     + vencellar
+    + vocalmente
     + VOLG, volga, VOLGa
     + xemente
     + xentalla
@@ -130,27 +198,114 @@ Cambios desde a versión 13.10.1
 • drag (novo)
     • Baseado no dicionario da Real Academia Galega.
     • Substitúe ao «volga» como módulo principal de vocabulario.
-    • O módulo contén dous ficheiros de vocabulario:
+    • O módulo contén dous ficheiros de vocabulario e dous :
         • «correcto.dic» está copiado do módulo «volga», a partir do cal recibiu os seguintes cambios:
+            + ADP
+            + ADSL
+            + agregador
+            + antepretérito
+            + antivirus
+            + autocompletar
+            + autoenchemento, autoencher
+            + báner
+            + biobibliografía
+            + biosbardo
+            + blog, blogueiro
+            + booleano
+            + caché
+            + cariña
+            + carrocería, carrozaría
+            + CD
+            + cedé
+            + ciano
+            + cibercafé
+            + colocalización
+            + copretérito
+            + corretor, corretoría
+            + descodificador
+            + desencriptar
+            + desenvolvedor de software
+            + deuvedé
+            + DVD
+            + emoticona
+            + encamiñador, encamiñamento
+            + encriptar
+            + enlazador
+            + escaneamento
+            + escalabilidade
+            + extranet
+            + fonte monoespazo
+            + formatar
+            + hipertexto
+            + interactuar
+            + informatizado
+            + internauta
+            + interoperabilidade
+            + intranet
+            + Marte
+            + maxenta
+            + megabyte, MB
+            + mensaxaría, mensaxería
+            + metaetiqueta
+            + microblog
+            + microprograma
+            + micrositio
+            + monoclino
+            + multimedia
+            + multiusuario
+            + navegador
+            + Neptuno
+            + ofimática
+            + píxel, px
+            + portacedés
+            + portapapeis
+            + pospretérito
+            + posprocesamento
+            + proxy
+            + quilobit, kb
+            + quilobyte, kB
+            + rasterizar
+            + rastrexo
+            + rechouchiar
+            + renderización
+            + repositorio
+            + SMS
+            + subdominio
+            + supercomputación
+            + tableta
+            + telemático
+            + teletexto
+            + titorial
+            + tunelización
+            + Urano
+            + URL
+            + USB
+            + validador
+            + videochamada
+            + videoescritura
+            + vinculación
+            + web, Web
+            + wifi
+            + xigabyte, GB
+            + Xúpiter
             • dedicar (+pronominal)
             • delirium tremens → delírium tremens
             • ganés → ghanés
             • plutón/s → Plutón
             • saturno/s → Saturno
             • Venus → venus
-            + antepretérito
-            + carrocería, carrozaría
-            + copretérito
-            + Marte
-            + Neptuno
-            + pospretérito
-            + Urano
-            + vinculación
-            + Xúpiter
             - anque
             - apeadeiro
             - columpio
+        • «incorrecto.rep», creado desde cero coas seguintes suxestións:
+            • hashtag → cancelo
+            • trending topic → tema do momento
+        • «tolerado.rep», creado desde cero coas seguintes suxestións:
+            • cookie → rastro
+            • firmware → microprograma
         • «tolerado.dic», creado desde cero co seguinte vocabulario:
+            • cookie
+            • firmware
             • seudónimo
 
 • galipedia → wikipedia/gl
@@ -158,66 +313,15 @@ Cambios desde a versión 13.10.1
 • iso4217 (actualizouse)
 • iso639 (actualizouse)
 
-• norma
-    • Engadíronse números enteiros, decimais e porcentaxes.
-    • Engadíronse números ordinais. Por exemplo: 1.ª, 23ª, 456.º, 7890º.
-
-• volga
-    + romántica/s (só estaban as formas masculinas)
-    - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
-
-• wikipedia/gl/onomástica/arquitectura/relixión (actualizouse)
-• wikipedia/gl/onomástica/toponimia/accidentes/illas (actualizouse)
-• wikipedia/gl/onomástica/toponimia/accidentes/praias (actualizouse)
-• wikipedia/gl/onomástica/toponimia/accidentes/ríos (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/alemaña (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/bélxica (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/brasil (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/colombia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/dinamarca (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/españa (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/estados-unidos-de-américa (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/finlandia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/francia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/grecia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/israel (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/italia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/oceanía (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/países-baixos (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/polonia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/portugal (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/qatar (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/reino-unido (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/romanía (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/sudáfrica → wikipedia/gl/onomástica/toponimia/localidades/suráfrica (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/turquía (actualizouse)
-• wikipedia/gl/onomástica/toponimia/localidades/xapón (actualizouse)
-• wikipedia/gl/onomástica/toponimia/lugares/galicia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/países (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/brasil (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/españa (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/estados-unidos-de-américa (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/francia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/italia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/méxico (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/países-baixos (actualizouse)
-• wikipedia/gl/onomástica/toponimia/rexións/rusia (actualizouse)
-• wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
-• wikipedia/gl/suxestións (actualizouse)
-
-+ ceg (novo)
-    • Baseado en publicacións da Confederación de Empresarios de Galicia.
-    • O módulo contén os seguintes submódulos baseados en documentos
-      publicados pola universidade que inclúen listas de palabras:
-        • abreviaturas
-        • siglas
-        • símbolos
-
 + microsoft (novo)
     • Baseado da guía de estilo de Microsoft para a localización de software ao
       galego.
     • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
       na guía de estilo.
+
+• norma
+    • Engadíronse números enteiros, decimais e porcentaxes.
+    • Engadíronse números ordinais. Por exemplo: 1.ª, 23ª, 456.º, 7890º.
 
 + santiago (novo)
     • Baseado en publicacións do Concello de Santiago de Compostela.
@@ -248,6 +352,108 @@ Cambios desde a versión 13.10.1
       de dúbidas lingüísticas da universidade, que inclúe unha lista de
       abreviaturas e siglas frecuentes.
 
+• volga
+    + romántica/s (só estaban as formas masculinas)
+    - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
+
++ wikipedia/en
++ wikipedia/es
++ wikipedia/gl/bioquímica
++ wikipedia/gl/onomástica/administración
++ wikipedia/gl/onomástica/antroponimia
+• wikipedia/gl/onomástica/arquitectura/relixión (actualizouse)
++ wikipedia/gl/onomástica/arte
++ wikipedia/gl/onomástica/astronomía
++ wikipedia/gl/onomástica/deporte
++ wikipedia/gl/onomástica/economía
++ wikipedia/gl/onomástica/historia
++ wikipedia/gl/onomástica/informática
++ wikipedia/gl/onomástica/música
++ wikipedia/gl/onomástica/organizacións
++ wikipedia/gl/onomástica/política
++ wikipedia/gl/onomástica/televisión
++ wikipedia/gl/onomástica/toponimia/accidentes/baías
++ wikipedia/gl/onomástica/toponimia/accidentes/desertos
+• wikipedia/gl/onomástica/toponimia/accidentes/illas (actualizouse)
++ wikipedia/gl/onomástica/toponimia/accidentes/mares
+• wikipedia/gl/onomástica/toponimia/accidentes/montañas
++ wikipedia/gl/onomástica/toponimia/accidentes/penínsulas
+• wikipedia/gl/onomástica/toponimia/accidentes/praias (actualizouse)
+• wikipedia/gl/onomástica/toponimia/accidentes/rexións (actualizouse)
+• wikipedia/gl/onomástica/toponimia/accidentes/ríos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/alemaña (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/austria
+• wikipedia/gl/onomástica/toponimia/localidades/bélxica (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/brasil (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/burkina-faso
++ wikipedia/gl/onomástica/toponimia/localidades/cambodja
++ wikipedia/gl/onomástica/toponimia/localidades/canadá
++ wikipedia/gl/onomástica/toponimia/localidades/china
+• wikipedia/gl/onomástica/toponimia/localidades/colombia (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/corea-do-norte
+• wikipedia/gl/onomástica/toponimia/localidades/dinamarca (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/dominica
+• wikipedia/gl/onomástica/toponimia/localidades/emiratos-árabes-unidos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/españa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/estados-unidos-de-américa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/finlandia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/francia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/grecia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/india (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/irlanda (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/islandia
+• wikipedia/gl/onomástica/toponimia/localidades/israel (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/italia (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/kenya
+• wikipedia/gl/onomástica/toponimia/localidades/líbano (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/malaisia
++ wikipedia/gl/onomástica/toponimia/localidades/marrocos
++ wikipedia/gl/onomástica/toponimia/localidades/mozambique
++ wikipedia/gl/onomástica/toponimia/localidades/nepal
+• wikipedia/gl/onomástica/toponimia/localidades/oceanía (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/omán
+• wikipedia/gl/onomástica/toponimia/localidades/países-baixos (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/paquistán
+• wikipedia/gl/onomástica/toponimia/localidades/polonia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/portugal (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/qatar (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/reino-unido (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/romanía (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/rusia
+• wikipedia/gl/onomástica/toponimia/localidades/sudáfrica → wikipedia/gl/onomástica/toponimia/localidades/suráfrica (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/sudán-do-sur
++ wikipedia/gl/onomástica/toponimia/localidades/suecia
+• wikipedia/gl/onomástica/toponimia/localidades/suíza (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/turquía (actualizouse)
++ wikipedia/gl/onomástica/toponimia/localidades/ucraína
+• wikipedia/gl/onomástica/toponimia/localidades/venezuela (actualizouse)
+• wikipedia/gl/onomástica/toponimia/localidades/xapón (actualizouse)
+• wikipedia/gl/onomástica/toponimia/lugares/galicia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/países (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/alemaña (actualizouse)
++ wikipedia/gl/onomástica/toponimia/rexións/bélxica
+• wikipedia/gl/onomástica/toponimia/rexións/brasil (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/colombia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/españa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/estados-unidos-de-américa (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/francia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/grecia (actualizouse)
++ wikipedia/gl/onomástica/toponimia/rexións/guatemala
++ wikipedia/gl/onomástica/toponimia/rexións/india
+• wikipedia/gl/onomástica/toponimia/rexións/italia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/méxico (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/países-baixos (actualizouse)
+• wikipedia/gl/onomástica/toponimia/rexións/portugal (actualizouse)
++ wikipedia/gl/onomástica/toponimia/rexións/reino-unido
+• wikipedia/gl/onomástica/toponimia/rexións/rusia (actualizouse)
+• wikipedia/gl/onomástica/toponimia/zonas/españa (actualizouse)
++ wikipedia/gl/onomástica/toponimia/zonas/mónaco
++ wikipedia/gl/onomástica/transporte
++ wikipedia/gl/siglas
+• wikipedia/gl/suxestións (actualizouse)
++ wikipedia/hu
++ wikipedia/pt
+
 + wiktionary (novo)
     • Baseado no proxecto Wiktionary da fundación Wikimedia.
     • O ideal é que pouco a pouco este proxecto vaxa fornecendo módulos que
@@ -258,51 +464,6 @@ Cambios desde a versión 13.10.1
         • Topónimos, distribuídos entre «gl/toponimia/xeral.dic» e
           «gl/toponimia/galicia.dic», imitando as categorías do proxecto.
 
-+ wikipedia/en
-+ wikipedia/es
-+ wikipedia/gl/bioquímica
-+ wikipedia/gl/onomástica/administración
-+ wikipedia/gl/onomástica/antroponimia
-+ wikipedia/gl/onomástica/arte
-+ wikipedia/gl/onomástica/astronomía
-+ wikipedia/gl/onomástica/deporte
-+ wikipedia/gl/onomástica/economía
-+ wikipedia/gl/onomástica/historia
-+ wikipedia/gl/onomástica/organizacións
-+ wikipedia/gl/onomástica/política
-+ wikipedia/gl/onomástica/televisión
-+ wikipedia/gl/onomástica/toponimia/accidentes/baías
-+ wikipedia/gl/onomástica/toponimia/accidentes/desertos
-+ wikipedia/gl/onomástica/toponimia/accidentes/mares
-+ wikipedia/gl/onomástica/toponimia/accidentes/penínsulas
-+ wikipedia/gl/onomástica/toponimia/localidades/austria
-+ wikipedia/gl/onomástica/toponimia/localidades/burkina-faso
-+ wikipedia/gl/onomástica/toponimia/localidades/cambodja
-+ wikipedia/gl/onomástica/toponimia/localidades/canadá
-+ wikipedia/gl/onomástica/toponimia/localidades/china
-+ wikipedia/gl/onomástica/toponimia/localidades/corea-do-norte
-+ wikipedia/gl/onomástica/toponimia/localidades/dominica
-+ wikipedia/gl/onomástica/toponimia/localidades/islandia
-+ wikipedia/gl/onomástica/toponimia/localidades/kenya
-+ wikipedia/gl/onomástica/toponimia/localidades/malaisia
-+ wikipedia/gl/onomástica/toponimia/localidades/marrocos
-+ wikipedia/gl/onomástica/toponimia/localidades/mozambique
-+ wikipedia/gl/onomástica/toponimia/localidades/nepal
-+ wikipedia/gl/onomástica/toponimia/localidades/omán
-+ wikipedia/gl/onomástica/toponimia/localidades/paquistán
-+ wikipedia/gl/onomástica/toponimia/localidades/rusia
-+ wikipedia/gl/onomástica/toponimia/localidades/sudán-do-sur
-+ wikipedia/gl/onomástica/toponimia/localidades/suecia
-+ wikipedia/gl/onomástica/toponimia/localidades/ucraína
-+ wikipedia/gl/onomástica/toponimia/rexións/bélxica
-+ wikipedia/gl/onomástica/toponimia/rexións/guatemala
-+ wikipedia/gl/onomástica/toponimia/rexións/india
-+ wikipedia/gl/onomástica/toponimia/rexións/reino-unido
-+ wikipedia/gl/onomástica/toponimia/zonas/mónaco
-+ wikipedia/gl/onomástica/transporte
-+ wikipedia/gl/siglas
-+ wikipedia/hu
-+ wikipedia/pt
 
 
 Versión 13.10.1

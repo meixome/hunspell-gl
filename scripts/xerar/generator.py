@@ -37,6 +37,10 @@ class Generator(object):
 
 
 tupleOfWordsToIgnore = (
+
+    # Símbolos.
+    u"+", u"=", u"&", u",", u".", u";", u":",
+
     # Nexos comúns.
     u"A", u"As", u"O", u"Os",
     u"Á", u"Ás", u"Ao", u"Aos", u"Ó", u"Ós",

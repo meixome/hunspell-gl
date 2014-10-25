@@ -8,8 +8,11 @@ Albany po:topónimo
 Albuquerque po:topónimo
 Allentown po:topónimo
 Amarillo po:topónimo
+Amherst po:topónimo
 Anaheim po:topónimo
 Anchorage po:topónimo
+Anna's po:topónimo [n-grama: Anna's Retreat]
+Retreat po:topónimo [n-grama: Anna's Retreat]
 Annapolis po:topónimo
 Asheville po:topónimo
 Astoria po:topónimo
@@ -42,9 +45,15 @@ Carson po:topónimo [n-grama: Carson City]
 City po:topónimo [n-grama: Carson City]
 Charleston po:topónimo
 Charlotte po:topónimo
+Charlotte po:topónimo [n-grama: Charlotte Amalie]
+Amalie po:topónimo [n-grama: Charlotte Amalie]
+Charlotte po:topónimo [n-grama: Charlotte Amalie West]
+Amalie po:topónimo [n-grama: Charlotte Amalie West]
+West po:topónimo [n-grama: Charlotte Amalie West]
 Chesapeake po:topónimo
 Cheyenne po:topónimo
 Chicago po:topónimo
+Christiansted po:topónimo
 Chula po:topónimo [n-grama: Chula Vista]
 Vista po:topónimo [n-grama: Chula Vista]
 Cincinnati po:topónimo
@@ -59,10 +68,10 @@ Concord po:topónimo
 Conurbación po:topónimo [n-grama: Conurbación de Florida]
 Florida po:topónimo [n-grama: Conurbación de Florida]
 Conurbación po:topónimo [n-grama: Conurbación do sur de California]
-sur po:topónimo [n-grama: Conurbación do sur de California]
 California po:topónimo [n-grama: Conurbación do sur de California]
 Corpus po:topónimo [n-grama: Corpus Christi]
 Christi po:topónimo [n-grama: Corpus Christi]
+Bay po:topónimo [n-grama: Cruz Bay]
 Cupertino po:topónimo
 Dallas po:topónimo
 Dartmouth po:topónimo
@@ -118,6 +127,7 @@ Lincoln po:topónimo
 Little po:topónimo [n-grama: Little Rock]
 Rock po:topónimo [n-grama: Little Rock]
 Livingston po:topónimo
+Logan po:topónimo
 Long po:topónimo [n-grama: Long Beach]
 Beach po:topónimo [n-grama: Long Beach]
 Los po:topónimo [n-grama: Los Gatos]
@@ -197,6 +207,7 @@ Petersburgo po:topónimo [n-grama: San Petersburgo]
 Xoán po:topónimo [n-grama: San Xoán]
 Ana po:topónimo [n-grama: Santa Ana]
 Fe po:topónimo [n-grama: Santa Fe]
+Monica po:topónimo [n-grama: Santa Monica]
 Sauk po:topónimo [n-grama: Sauk Centre]
 Centre po:topónimo [n-grama: Sauk Centre]
 Savannah po:topónimo

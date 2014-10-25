@@ -3,7 +3,7 @@
 from __future__ import print_function
 
 import os, pickle, re, requests, sys, time, urllib
-from datetime import datetime
+from datetime import datetime, timedelta
 from xdg.BaseDirectory import save_cache_path
 import PyICU
 
@@ -11,11 +11,11 @@ from generator import output, wordsToIgnore
 
 
 
-numberPattern = re.compile(u"^[0-9]+(\.?[ºª]|\.)?$")
+numberPattern = re.compile(u"^[0-9-]*[0-9]+(\.?[ºª]|[.°:])?$")
 
 
 def getModulesSourcePath():
-    return os.path.dirname(os.path.realpath(__file__))  + u"/../../src"
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)).decode("utf-8"), u"../../src")
 
 
 
@@ -175,12 +175,21 @@ class ContentCache(object):
             return localPath
 
         request = requests.head(url)
-        remoteFileDate = datetime.strptime(request.headers.get("Last-Modified"), '%a, %d %b %Y %H:%M:%S GMT')
         localFileDate = datetime.strptime(time.ctime(os.path.getmtime(localPath)), "%a %b %d %H:%M:%S %Y")
 
-        if remoteFileDate > localFileDate:
-            urllib.urlretrieve(url, localPath)
+        # Cache for at least 24 hours. This is specially important for URLs that do not provide a
+        # last modified time.
+        yesterday = datetime.now() - timedelta(days=1)
+        if localFileDate >= yesterday:
+            return localPath
 
+        lastModified = request.headers.get("Last-Modified")
+        if lastModified:
+            remoteFileDate = datetime.strptime(lastModified, '%a, %d %b %Y %H:%M:%S GMT')
+            if localFileDate >= remoteFileDate:
+                return localPath
+
+        urllib.urlretrieve(url, localPath)
         return localPath
 
 

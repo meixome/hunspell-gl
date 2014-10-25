@@ -12,7 +12,7 @@
 # sincronización entre ambos os dous recursos. Para a seguinte actualización, abonda con comprobar os cambios feitos na
 # páxina da Galipedia con posterioridade á data indicada, aplicar eses cambios neste ficheiro, e actualizar a data:
 #
-#   2013-12-07
+#   2014-10-19
 #
 #
 # Limitacións
@@ -1993,9 +1993,9 @@ atorníll aparafús
 ^desenvóc desembóc
 ^desenvóqu desembóqu
 
-# desglose → detalle, reparto, especificación
+# desglose → detalle, repartimento, especificación
 ^desglose detalle
-^desglose reparto
+^desglose repartimento
 ^desglose especificación
 
 # desinterés → desinterese
@@ -3483,6 +3483,9 @@ ja ha
 # merindad → meiriñado
 ^merindad meiriñado
 
+# meramente → soamente
+^meramente$ soamente
+
 # mermar → minguar
 ^merm mingu
 ^mérm míngu
@@ -3493,9 +3496,8 @@ ja ha
 # metereoloxía → meteoroloxía.
 ^metereoloxía meteoroloxía
 
-# mezcla, mistura → mestura
+# mezcla → mestura
 ^mezcla mestura
-^mistura mestura
 
 # miércoles → mércores
 ^miércoles$ mércores
@@ -3515,6 +3517,9 @@ ja ha
 
 # minusválido → discapacitado
 ^minusválid discapacitad
+
+# misturar → mesturar
+^mist mest
 
 # modais → modos
 # CORRECTA
@@ -3570,6 +3575,9 @@ móvil móbil
 
 # naranxo → laranxeira
 ^naranxo laranxeira
+
+# naturaleza → natureza
+^naturaleza$ natureza
 
 # Navidade → Nadal
 ^Navidade$ Nadal
@@ -4007,6 +4015,10 @@ móvil móbil
 ^plantéx realíc
 
 
+# plantexamento → plan
+^plantexamento plan
+
+
 # plantexar → propor
 
 ^plantexa propo     # infinitivo
@@ -4322,6 +4334,9 @@ móvil móbil
 # recorrer → percorrer (distancias)
 # CORRECTA
 
+# recorrido → percorrido (distancias)
+# CORRECTA
+
 # rector → reitor
 ^rector reitor
 
@@ -4468,6 +4483,9 @@ móvil móbil
 ^rentable rendible
 ^rentábe rendíbe
 ^rentabilidade rendibilidade
+
+# reparto → repartimento, repartición
+# CORRECTA
 
 # reptil → réptil (pl. réptiles)
 ^reptil$ réptil
@@ -5412,9 +5430,9 @@ móvil móbil
 ^tubería tubo
 ^tubería cano
 
-# tuerca → porca (tamén torca)
+# tuerca → porca, porqueta
 ^tuerca porca
-^tuerca torca
+^tuerca porqueta
 
 # tullido → fanado
 ^tullido fanado

@@ -11,8 +11,11 @@ Aaron po:antropónimo
 Aarón po:antropónimo
 Aart po:antropónimo
 Aarti po:antropónimo
+Abagor po:antropónimo
 Ábal po:antropónimo
+Abamon po:antropónimo
 Abass po:antropónimo
+Abataly po:antropónimo
 Abba po:antropónimo
 Abbad po:antropónimo
 Abbán po:antropónimo
@@ -24,6 +27,7 @@ Abd po:antropónimo [n-grama: Abd Manaf]
 Manaf po:antropónimo [n-grama: Abd Manaf]
 Abd po:antropónimo [n-grama: Abd Rabbo]
 Rabbo po:antropónimo [n-grama: Abd Rabbo]
+Abdaikl po:antropónimo
 Abdel po:antropónimo [n-grama: Abdel Fattah]
 Fattah po:antropónimo [n-grama: Abdel Fattah]
 Abdel po:antropónimo [n-grama: Abdel Nour]
@@ -100,8 +104,6 @@ Abdul po:antropónimo [n-grama: Abdul Qayyum]
 Qayyum po:antropónimo [n-grama: Abdul Qayyum]
 Abdul po:antropónimo [n-grama: Abdul Quddus]
 Quddus po:antropónimo [n-grama: Abdul Quddus]
-Abdul po:antropónimo [n-grama: Abdul Rasul]
-Rasul po:antropónimo [n-grama: Abdul Rasul]
 Abdul po:antropónimo [n-grama: Abdul Samad]
 Samad po:antropónimo [n-grama: Abdul Samad]
 Abdul po:antropónimo [n-grama: Abdul Sattar]
@@ -112,10 +114,10 @@ Abdul po:antropónimo [n-grama: Abdul Wahhab]
 Wahhab po:antropónimo [n-grama: Abdul Wahhab]
 Abdul po:antropónimo [n-grama: Abdul Wahid]
 Wahid po:antropónimo [n-grama: Abdul Wahid]
-Abdul po:antropónimo [n-grama: Abdul Wali]
-Wali po:antropónimo [n-grama: Abdul Wali]
 Abdul po:antropónimo [n-grama: Abdul Zahir]
 Zahir po:antropónimo [n-grama: Abdul Zahir]
+Abdul po:antropónimo [n-grama: Abdul Zahra]
+Zahra po:antropónimo [n-grama: Abdul Zahra]
 Abdullah po:antropónimo
 Abdullahi po:antropónimo
 Abdur po:antropónimo [n-grama: Abdur Rab]
@@ -138,9 +140,11 @@ Abdus po:antropónimo [n-grama: Abdus Salam]
 Salam po:antropónimo [n-grama: Abdus Salam]
 Abdus po:antropónimo [n-grama: Abdus Shakur]
 Shakur po:antropónimo [n-grama: Abdus Shakur]
+Abdyl po:antropónimo
 Abeer po:antropónimo
 Abel po:antropónimo
 Abelardo po:antropónimo
+Abelyar po:antropónimo
 Abhay po:antropónimo
 Abhinav po:antropónimo
 Abhishek po:antropónimo
@@ -151,6 +155,9 @@ Abida po:antropónimo
 Abidin po:antropónimo
 Abigail po:antropónimo
 Abiha po:antropónimo
+Abijah po:antropónimo
+Abily po:antropónimo
+Abnody po:antropónimo
 Abo po:antropónimo
 Abolfazl po:antropónimo
 Abraham po:antropónimo
@@ -165,16 +172,9 @@ Abu po:antropónimo [n-grama: Abu Hafs]
 Hafs po:antropónimo [n-grama: Abu Hafs]
 Abu po:antropónimo [n-grama: Abu Hamza]
 Hamza po:antropónimo [n-grama: Abu Hamza]
-Abu po:antropónimo [n-grama: Abu Musab]
-Musab po:antropónimo [n-grama: Abu Musab]
-Abu po:antropónimo [n-grama: Abu Omar]
-Omar po:antropónimo [n-grama: Abu Omar]
-Abu po:antropónimo [n-grama: Abu Talha]
-Talha po:antropónimo [n-grama: Abu Talha]
-Abu po:antropónimo [n-grama: Abu Talib]
-Talib po:antropónimo [n-grama: Abu Talib]
 Abu'l po:antropónimo [n-grama: Abu'l Qasim]
 Qasim po:antropónimo [n-grama: Abu'l Qasim]
+Aburom po:antropónimo
 Acamas po:antropónimo
 Ace po:antropónimo
 Achille po:antropónimo
@@ -193,7 +193,6 @@ Adela po:antropónimo
 Adelaide po:antropónimo
 Adelasia po:antropónimo
 Adele po:antropónimo
-Adelelm po:antropónimo
 Adelheid po:antropónimo
 Adeline po:antropónimo
 Adelmo po:antropónimo
@@ -207,6 +206,7 @@ Adhamh po:antropónimo
 Adhemar po:antropónimo
 Adi po:antropónimo [n-grama: Adi Parashakti]
 Parashakti po:antropónimo [n-grama: Adi Parashakti]
+Adia po:antropónimo
 Adib po:antropónimo
 Adile po:antropónimo
 Adílio po:antropónimo
@@ -235,7 +235,6 @@ Aedhghal po:antropónimo
 Aengus po:antropónimo
 Aenor po:antropónimo
 Aernout po:antropónimo
-Æthelred po:antropónimo
 Afanasy po:antropónimo
 Afet po:antropónimo
 Afif po:antropónimo
@@ -247,13 +246,13 @@ Agatha po:antropónimo
 Åge po:antropónimo
 Agénor po:antropónimo
 Aghvan po:antropónimo
+Agim po:antropónimo
 Aglaé po:antropónimo
-Agnar po:antropónimo
 Agnes po:antropónimo
 Agneya po:antropónimo
-Agnieszka po:antropónimo
 Agnolo po:antropónimo
 Agostino po:antropónimo
+Agra po:antropónimo
 Agustina po:antropónimo
 Ahad po:antropónimo
 Aharon po:antropónimo
@@ -345,6 +344,7 @@ Alanna po:antropónimo
 Alaric po:antropónimo
 Alasdair po:antropónimo
 Alba po:antropónimo
+Alban po:antropónimo
 Albert po:antropónimo
 Albertet po:antropónimo
 Alberto po:antropónimo
@@ -384,21 +384,18 @@ Alfred po:antropónimo
 Alfredas po:antropónimo
 Alfredo po:antropónimo
 Algimantas po:antropónimo
+Algirdas po:antropónimo
 Algis po:antropónimo
 Algy po:antropónimo
 Ali po:antropónimo
-Ali po:antropónimo [n-grama: Ali Akbar]
-Akbar po:antropónimo [n-grama: Ali Akbar]
 Ali po:antropónimo [n-grama: Ali Naqi]
 Naqi po:antropónimo [n-grama: Ali Naqi]
 Ali po:antropónimo [n-grama: Ali Reza]
 Reza po:antropónimo [n-grama: Ali Reza]
-Alican po:antropónimo
 Alice po:antropónimo
 Alicia po:antropónimo
 Alim po:antropónimo
 Alina po:antropónimo
-Alişan po:antropónimo
 Alisha po:antropónimo
 Alison po:antropónimo
 Alistair po:antropónimo
@@ -417,7 +414,6 @@ Alonso po:antropónimo
 Aloysius po:antropónimo
 Alp po:antropónimo
 Alpár po:antropónimo
-Alparslan po:antropónimo
 Alpaslan po:antropónimo
 Alpay po:antropónimo
 Alper po:antropónimo
@@ -428,8 +424,8 @@ James po:antropónimo [n-grama: Alphonse James]
 Alphonse po:antropónimo [n-grama: Alphonse Joseph]
 Joseph po:antropónimo [n-grama: Alphonse Joseph]
 Altan po:antropónimo
-Altay po:antropónimo
 Althea po:antropónimo
+Altin po:antropónimo
 Alun po:antropónimo
 Alva po:antropónimo
 Álvaro po:antropónimo
@@ -442,7 +438,6 @@ Alys po:antropónimo
 Alysa po:antropónimo
 Alyson po:antropónimo
 Alyssa po:antropónimo
-Amad po:antropónimo
 Amadeo po:antropónimo
 Amadeus po:antropónimo
 Amal po:antropónimo
@@ -461,7 +456,6 @@ Amedeo po:antropónimo
 Amelia po:antropónimo
 Amélie po:antropónimo
 Amer po:antropónimo
-Amerigo po:antropónimo
 Amhalgaidh po:antropónimo
 Amhladh po:antropónimo
 Amhlaidh po:antropónimo
@@ -483,6 +477,7 @@ Amory po:antropónimo
 Amos po:antropónimo
 Amr po:antropónimo
 Amrita po:antropónimo
+Amvrosy po:antropónimo
 Amy po:antropónimo
 Ana po:antropónimo
 Anabel po:antropónimo
@@ -490,8 +485,8 @@ Anabelle po:antropónimo
 Anahit po:antropónimo
 Anahita po:antropónimo
 Anaïs po:antropónimo
+Anamol po:antropónimo
 Anane po:antropónimo
-Anann po:antropónimo
 Anas po:antropónimo
 Anastasia po:antropónimo
 Anastasija po:antropónimo
@@ -553,9 +548,11 @@ Anjali po:antropónimo
 Anjem po:antropónimo
 Ankalamma po:antropónimo
 Ankalaparamecuvari po:antropónimo
+Anker po:antropónimo
 Ankita po:antropónimo
 Anlaith po:antropónimo
 Anmchad po:antropónimo
+Ann-Louise po:antropónimo
 Anna po:antropónimo
 Anna po:antropónimo [n-grama: Anna Magdalena]
 Magdalena po:antropónimo [n-grama: Anna Magdalena]
@@ -572,10 +569,8 @@ Anneli po:antropónimo
 Anneliese po:antropónimo
 Annelise po:antropónimo
 Annetta po:antropónimo
-Annick po:antropónimo
 Annika po:antropónimo
 Anning po:antropónimo
-Anousheh po:antropónimo
 Anri po:antropónimo
 Ansgar po:antropónimo
 Anssi po:antropónimo
@@ -595,9 +590,11 @@ Antonietta po:antropónimo
 Antonija po:antropónimo
 Antonín po:antropónimo
 Antonio po:antropónimo
+Antoon po:antropónimo
 Ants po:antropónimo
 Antti po:antropónimo
 Antun po:antropónimo
+Anu po:antropónimo
 Anuj po:antropónimo
 Anumati po:antropónimo
 Anup po:antropónimo
@@ -626,14 +623,14 @@ Arata po:antropónimo
 Archibald po:antropónimo
 Archie po:antropónimo
 Arda po:antropónimo
-Ardeshir po:antropónimo
+Ardian po:antropónimo
 Ardis po:antropónimo
+Ardit po:antropónimo
 Areg po:antropónimo
 Arend po:antropónimo
 Aretha po:antropónimo
 Areum po:antropónimo
 Ari po:antropónimo
-Aria po:antropónimo
 Arían po:antropónimo
 Ariana po:antropónimo
 Ariane po:antropónimo
@@ -646,7 +643,6 @@ Arihiro po:antropónimo
 Arik po:antropónimo
 Arina po:antropónimo
 Arinaga po:antropónimo
-Aris po:antropónimo
 Aristophanes po:antropónimo
 Aritomo po:antropónimo
 Arja po:antropónimo
@@ -685,6 +681,7 @@ Artūras po:antropónimo
 Arturo po:antropónimo
 Artūrs po:antropónimo
 Artyom po:antropónimo
+Arumugam po:antropónimo
 Arun po:antropónimo
 Arūnas po:antropónimo
 Arvi po:antropónimo
@@ -697,11 +694,14 @@ Arvydas po:antropónimo
 Arwa po:antropónimo
 Arwel po:antropónimo
 Arwyn po:antropónimo
+Arya po:antropónimo
 Arzu po:antropónimo
 Asad po:antropónimo
 Asadullah po:antropónimo
 Asako po:antropónimo
 Asami po:antropónimo
+Asanbibi po:antropónimo
+Asante po:antropónimo
 Asao po:antropónimo
 Asbjørn po:antropónimo
 Aseem po:antropónimo
@@ -713,6 +713,7 @@ Mata po:antropónimo [n-grama: Ashapura Mata]
 Ashbel po:antropónimo
 Ashhad po:antropónimo
 Åshild po:antropónimo
+Ashish po:antropónimo
 Ashk po:antropónimo
 Ashley po:antropónimo
 Ashoka po:antropónimo
@@ -727,6 +728,7 @@ Asil po:antropónimo
 Asinrthegn po:antropónimo
 Aşık po:antropónimo
 Asko po:antropónimo
+Aslam po:antropónimo
 Aslan po:antropónimo
 Aslaug po:antropónimo
 Aslı po:antropónimo
@@ -739,6 +741,7 @@ Astrid po:antropónimo
 Astrithr po:antropónimo
 Asuka po:antropónimo
 Asumi po:antropónimo
+Asuna po:antropónimo
 Asvayujau po:antropónimo
 Ata po:antropónimo
 Atanas po:antropónimo
@@ -750,6 +753,7 @@ Athanasius po:antropónimo
 Athos po:antropónimo
 Athracht po:antropónimo
 Atif po:antropónimo
+Atikah po:antropónimo
 Atil po:antropónimo
 Atiq po:antropónimo
 Atiqullah po:antropónimo
@@ -768,6 +772,7 @@ Attila po:antropónimo
 Atusa po:antropónimo
 Aubin po:antropónimo
 Audrey po:antropónimo
+Audrius po:antropónimo
 August po:antropónimo
 Augusta po:antropónimo
 Auguste po:antropónimo
@@ -778,6 +783,8 @@ Aulay po:antropónimo
 Auley po:antropónimo
 Auliffe po:antropónimo
 Aurea po:antropónimo
+Aurel po:antropónimo
+Aurél po:antropónimo
 Aurélie po:antropónimo
 Aurelijus po:antropónimo
 Aurick po:antropónimo
@@ -787,6 +794,10 @@ Austėja po:antropónimo
 Austen po:antropónimo
 Autumn po:antropónimo
 Ava po:antropónimo
+Avessalom po:antropónimo
+Avgar po:antropónimo
+Avgury po:antropónimo
+Avgusta po:antropónimo
 Avie po:antropónimo
 Avis po:antropónimo
 Aviv po:antropónimo
@@ -794,7 +805,11 @@ Avni po:antropónimo
 Avo po:antropónimo
 Avram po:antropónimo
 Avrom po:antropónimo
+Avsey po:antropónimo
 Avtandil po:antropónimo
+Avva po:antropónimo
+Avvakir po:antropónimo
+Avvakum po:antropónimo
 Awa po:antropónimo
 Awad po:antropónimo
 Awley po:antropónimo
@@ -848,7 +863,6 @@ Azhar po:antropónimo
 Azim po:antropónimo
 Azimullah po:antropónimo
 Aziz po:antropónimo
-Aziza po:antropónimo
 Azizullah po:antropónimo
 Azmat po:antropónimo
 Azmi po:antropónimo
@@ -872,6 +886,7 @@ Bagrat po:antropónimo
 Baha po:antropónimo
 Baha' po:antropónimo [n-grama: Baha' al-Din]
 al-Din po:antropónimo [n-grama: Baha' al-Din]
+Bahadabibi po:antropónimo
 Bahadır po:antropónimo
 Bahadur po:antropónimo
 Bahar po:antropónimo
@@ -883,6 +898,10 @@ Baiba po:antropónimo
 Bailey po:antropónimo
 Baki po:antropónimo
 Bakir po:antropónimo
+Bala po:antropónimo [n-grama: Bala Tripurasundari]
+Tripurasundari po:antropónimo [n-grama: Bala Tripurasundari]
+Balasingam po:antropónimo
+Balasubramaniam po:antropónimo
 Balázs po:antropónimo
 Baldassare po:antropónimo
 Baldur po:antropónimo
@@ -899,6 +918,7 @@ Barak po:antropónimo
 Barbara po:antropónimo
 Barbu po:antropónimo
 Bård po:antropónimo
+Bardhyl po:antropónimo
 Bardiya po:antropónimo
 Barend po:antropónimo
 Barış po:antropónimo
@@ -914,17 +934,19 @@ Barnim po:antropónimo
 Barrdhubh po:antropónimo
 Barthélemy po:antropónimo
 Bartholomew po:antropónimo
+Bartolomeo po:antropónimo
 Bartosz po:antropónimo
 Başak po:antropónimo
 Başar po:antropónimo
 Bashar po:antropónimo
+Bashir po:antropónimo
+Bashkim po:antropónimo
 Basri po:antropónimo
 Bastian po:antropónimo
 Batıkan po:antropónimo
 Batu po:antropónimo
 Batuhan po:antropónimo
 Bayard po:antropónimo
-Baykal po:antropónimo
 Bayram po:antropónimo
 Bé po:antropónimo [n-grama: Bé Chuille]
 Chuille po:antropónimo [n-grama: Bé Chuille]
@@ -958,7 +980,7 @@ Ben po:antropónimo
 Ben po:antropónimo [n-grama: Ben Muman]
 Muman po:antropónimo [n-grama: Ben Muman]
 Ben-Ami po:antropónimo
-Beñat po:antropónimo
+Benas po:antropónimo
 Benazir po:antropónimo
 Bence po:antropónimo
 Benedetto po:antropónimo
@@ -972,6 +994,8 @@ Benjamin po:antropónimo
 Benjaminas po:antropónimo
 Benoît po:antropónimo
 Benvenuto po:antropónimo
+Beñat po:antropónimo
+Beom-seok po:antropónimo
 Beppe po:antropónimo
 Beppo po:antropónimo
 Berat po:antropónimo
@@ -980,7 +1004,6 @@ Berény po:antropónimo
 Berislav po:antropónimo
 Berk po:antropónimo
 Berkay po:antropónimo
-Bernabé po:antropónimo
 Bernadeta po:antropónimo
 Bernadette po:antropónimo
 Bernadine po:antropónimo
@@ -1003,7 +1026,6 @@ Bethwell po:antropónimo
 Bettina po:antropónimo
 Betül po:antropónimo
 Beulah po:antropónimo
-Bevin po:antropónimo
 Beyazid po:antropónimo
 Bhadra po:antropónimo
 Bhadrakali po:antropónimo
@@ -1012,7 +1034,6 @@ Bhairavi po:antropónimo
 Bharat po:antropónimo
 Bharat po:antropónimo [n-grama: Bharat Mata]
 Mata po:antropónimo [n-grama: Bharat Mata]
-Bhargavi po:antropónimo
 Bhavani po:antropónimo
 Bhavesh po:antropónimo
 Bhūmi po:antropónimo
@@ -1045,17 +1066,18 @@ Birkan po:antropónimo
 Biróg po:antropónimo
 Birol po:antropónimo
 Birsen po:antropónimo
+Bit-na po:antropónimo
 Bita po:antropónimo
 Bjarne po:antropónimo
 Bjarni po:antropónimo
 Björg po:antropónimo
+Bjørk po:antropónimo
 Bjorn po:antropónimo
 Blagoje po:antropónimo
 Blagoy po:antropónimo
 Blair po:antropónimo
 Blaise po:antropónimo
 Blake po:antropónimo
-Blanca po:antropónimo
 Blanche po:antropónimo
 Blathmac po:antropónimo
 Bleddyn po:antropónimo
@@ -1065,9 +1087,11 @@ Blodwen po:antropónimo
 Blythe po:antropónimo
 Bo po:antropónimo
 Bo-kyung po:antropónimo
+Bo-yeon po:antropónimo
 Bo-young po:antropónimo
 Boa po:antropónimo
 Boann po:antropónimo
+Boban po:antropónimo
 Bodhmall po:antropónimo
 Bogdan po:antropónimo
 Boglárka po:antropónimo
@@ -1164,7 +1188,6 @@ Bukola po:antropónimo
 Buksh po:antropónimo
 Bülent po:antropónimo
 Bulut po:antropónimo
-Bum-suk po:antropónimo
 Bunji po:antropónimo
 Bunta po:antropónimo
 Bünyamin po:antropónimo
@@ -1176,6 +1199,7 @@ Burdine po:antropónimo
 Burhan po:antropónimo
 Burhan po:antropónimo [n-grama: Burhan al-Din]
 al-Din po:antropónimo [n-grama: Burhan al-Din]
+Burim po:antropónimo
 Burwell po:antropónimo
 Bushra po:antropónimo
 Büyük po:antropónimo
@@ -1186,6 +1210,8 @@ Byung-ho po:antropónimo
 Byung-hoon po:antropónimo
 Byung-hun po:antropónimo
 Byung-joon po:antropónimo
+Byung-woo po:antropónimo
+Byung-wook po:antropónimo
 Cacht po:antropónimo
 Cadell po:antropónimo
 Caden po:antropónimo
@@ -1246,6 +1272,7 @@ Carin po:antropónimo
 Carine po:antropónimo
 Carl po:antropónimo
 Carla po:antropónimo
+Carlene po:antropónimo
 Carlos po:antropónimo
 Carlos po:antropónimo [n-grama: Carlos Alberto]
 Alberto po:antropónimo [n-grama: Carlos Alberto]
@@ -1278,12 +1305,12 @@ Cathleen po:antropónimo
 Catriona po:antropónimo
 Catríona po:antropónimo
 Catrìona po:antropónimo
-Cavit po:antropónimo
 Cecil po:antropónimo
 Cécile po:antropónimo
 Cecilia po:antropónimo
 Cecily po:antropónimo
 Čedomir po:antropónimo
+Cédric po:antropónimo
 Celal po:antropónimo
 Celestin po:antropónimo
 Celia po:antropónimo
@@ -1313,6 +1340,7 @@ Cevher po:antropónimo
 Çevik po:antropónimo
 Ceyda po:antropónimo
 Ceyhun po:antropónimo
+Cezar po:antropónimo
 Cezary po:antropónimo
 Chad po:antropónimo
 Chadi po:antropónimo
@@ -1326,6 +1354,7 @@ Yom po:antropónimo [n-grama: Chananya Yom Tov Lipa]
 Tov po:antropónimo [n-grama: Chananya Yom Tov Lipa]
 Lipa po:antropónimo [n-grama: Chananya Yom Tov Lipa]
 Chance po:antropónimo
+Chandbibi po:antropónimo
 Chandi po:antropónimo
 Chang-ho po:antropónimo
 Chang-hoon po:antropónimo
@@ -1333,6 +1362,7 @@ Chang-min po:antropónimo
 Chang-woo po:antropónimo
 Changezi po:antropónimo
 Changrui po:antropónimo
+Chapa po:antropónimo
 Charis po:antropónimo
 Charisse po:antropónimo
 Charity po:antropónimo
@@ -1343,6 +1373,8 @@ Charlotte po:antropónimo
 Charmaine po:antropónimo
 Chee po:antropónimo
 Chelamma po:antropónimo
+Chelvanayakam po:antropónimo
+Chemene po:antropónimo
 Cheol-min po:antropónimo
 Cheryl po:antropónimo
 Chester po:antropónimo
@@ -1384,6 +1416,7 @@ Christel po:antropónimo
 Christer po:antropónimo
 Christi po:antropónimo
 Christian po:antropónimo
+Christiane po:antropónimo
 Christien po:antropónimo
 Christina po:antropónimo
 Christine po:antropónimo
@@ -1395,6 +1428,7 @@ Chrysanthos po:antropónimo
 Chūichi po:antropónimo
 Chul po:antropónimo
 Chul-soo po:antropónimo
+Chul-soon po:antropónimo
 Chun-hee po:antropónimo
 Chun-hwa po:antropónimo
 Chun-ja po:antropónimo
@@ -1424,6 +1458,7 @@ Claudine po:antropónimo
 Claudio po:antropónimo
 Claudiu po:antropónimo
 Claudius po:antropónimo
+Cléber po:antropónimo
 Clelia po:antropónimo
 Clemens po:antropónimo
 Clément po:antropónimo
@@ -1433,6 +1468,7 @@ Cleo po:antropónimo
 Clíodhna po:antropónimo
 Clodagh po:antropónimo
 Cobhlaith po:antropónimo
+Coenraad po:antropónimo
 Colette po:antropónimo
 Colin po:antropónimo
 Colley po:antropónimo
@@ -1445,6 +1481,7 @@ Concepción po:antropónimo
 Conchobar po:antropónimo
 Condal po:antropónimo
 Conleth po:antropónimo
+Conn po:antropónimo
 Connor po:antropónimo
 Conor po:antropónimo
 Conrad po:antropónimo
@@ -1470,6 +1507,7 @@ Cosima po:antropónimo
 Cosimo po:antropónimo
 Coşkun po:antropónimo
 Cosmin po:antropónimo
+Cosmina po:antropónimo
 Costanzo po:antropónimo
 Costea po:antropónimo
 Costel po:antropónimo
@@ -1497,15 +1535,18 @@ Cumali po:antropónimo
 Cumhur po:antropónimo
 Cumman po:antropónimo
 Cüneyt po:antropónimo
+Curtis po:antropónimo
 Cuthbert po:antropónimo
 Cyndeyrn po:antropónimo
 Cynthia po:antropónimo
 Cyril po:antropónimo
 Cyrus po:antropónimo
-Czeslaw po:antropónimo
+Czesław po:antropónimo
+Da-bin po:antropónimo
 Da-hee po:antropónimo
 Dabiživ po:antropónimo
 Dace po:antropónimo
+Dae-hyun po:antropónimo
 Dae-sung po:antropónimo
 Dae-won po:antropónimo
 Dafydd po:antropónimo
@@ -1518,12 +1559,14 @@ Dahn po:antropónimo
 Dai po:antropónimo
 Daichi po:antropónimo
 Daig po:antropónimo
+Daiga po:antropónimo
 Daigo po:antropónimo
 Daiki po:antropónimo
 Dailfind po:antropónimo
 Daina po:antropónimo
 Dainis po:antropónimo
 Dainius po:antropónimo
+Dainuvīte po:antropónimo
 Dáire po:antropónimo
 Dairoku po:antropónimo
 Daishin po:antropónimo
@@ -1536,6 +1579,7 @@ Dale po:antropónimo
 Dalia po:antropónimo
 Dalibor po:antropónimo
 Dalton po:antropónimo
+Damaschin po:antropónimo
 Damaskinos po:antropónimo
 Damayanti po:antropónimo
 Damian po:antropónimo
@@ -1550,6 +1594,7 @@ Danah po:antropónimo
 Danand po:antropónimo
 Dani po:antropónimo
 Daniel po:antropónimo
+Daniela po:antropónimo
 Daniele po:antropónimo
 Danielle po:antropónimo
 Daniil po:antropónimo
@@ -1572,6 +1617,7 @@ Darko po:antropónimo
 Darold po:antropónimo
 Darragh po:antropónimo
 Darrell po:antropónimo
+Darryl po:antropónimo
 Daud po:antropónimo
 Daumantas po:antropónimo
 David po:antropónimo
@@ -1579,7 +1625,6 @@ Davíð po:antropónimo
 Davide po:antropónimo
 Davidson po:antropónimo
 Davina po:antropónimo
-Davod po:antropónimo
 Davor po:antropónimo
 Dayana po:antropónimo
 Dayna po:antropónimo
@@ -1614,10 +1659,12 @@ Denisse po:antropónimo
 Deniz po:antropónimo
 Denny po:antropónimo
 Denyse po:antropónimo
+Deok-su po:antropónimo
 Derbforgaill po:antropónimo
 Derfel po:antropónimo
 Derk po:antropónimo
 Derviş po:antropónimo
+Dervla po:antropónimo
 Derya po:antropónimo
 Desiderius po:antropónimo
 Désiré po:antropónimo
@@ -1625,6 +1672,7 @@ Desiree po:antropónimo
 Désirée po:antropónimo
 Despina po:antropónimo
 Destiny po:antropónimo
+Devasena po:antropónimo
 Devesh po:antropónimo
 Devi po:antropónimo
 Devi po:antropónimo [n-grama: Devi Kanya Kumari]
@@ -1639,6 +1687,7 @@ Danu po:antropónimo [n-grama: Dewi Danu]
 Dexter po:antropónimo
 Dezső po:antropónimo
 Dhikrullah po:antropónimo
+Dhimitër po:antropónimo
 Dhumavati po:antropónimo
 Diamond po:antropónimo
 Diana po:antropónimo
@@ -1659,16 +1708,20 @@ Dilaver po:antropónimo
 Dilawar po:antropónimo
 Dilys po:antropónimo
 Dimitar po:antropónimo
+Dimitrije po:antropónimo
 Dina po:antropónimo
 Dinis po:antropónimo
 Dino po:antropónimo
 Dionne po:antropónimo
 Dipankar po:antropónimo
+Dirk po:antropónimo
 Diti po:antropónimo
 Dmitry po:antropónimo
 Dmytro po:antropónimo
+Do-hee po:antropónimo
 Do-hun po:antropónimo
 Do-hyun po:antropónimo
+Do-won po:antropónimo
 Do-yeon po:antropónimo
 Dobiesław po:antropónimo
 Dobrivoje po:antropónimo
@@ -1677,10 +1730,12 @@ Dobromil po:antropónimo
 Dobromir po:antropónimo
 Dobroniega po:antropónimo
 Dobroslav po:antropónimo
+Dod po:antropónimo
 Doğan po:antropónimo
 Doğu po:antropónimo
 Doğukan po:antropónimo
 Doğuş po:antropónimo
+Doina po:antropónimo
 Dollard po:antropónimo
 Dolores po:antropónimo
 Domagoj po:antropónimo
@@ -1690,10 +1745,17 @@ Dominique po:antropónimo
 Don po:antropónimo
 Donald po:antropónimo
 Donatas po:antropónimo
+Donatella po:antropónimo
+Dong-chan po:antropónimo
 Dong-chul po:antropónimo
+Dong-geun po:antropónimo
 Dong-gun po:antropónimo
+Dong-ha po:antropónimo
+Dong-hoon po:antropónimo
 Dong-hyuk po:antropónimo
 Dong-hyun po:antropónimo
+Dong-il po:antropónimo
+Dong-joo po:antropónimo
 Dong-jun po:antropónimo
 Dong-soo po:antropónimo
 Dong-suk po:antropónimo
@@ -1716,6 +1778,7 @@ Douglas po:antropónimo
 Dove po:antropónimo
 Dragan po:antropónimo
 Dragana po:antropónimo
+Dragica po:antropónimo
 Dragiša po:antropónimo
 Drago po:antropónimo
 Dragoje po:antropónimo
@@ -1727,6 +1790,7 @@ Drahomíra po:antropónimo
 Draško po:antropónimo
 Dražen po:antropónimo
 Dren po:antropónimo
+Dries po:antropónimo
 Drita po:antropónimo
 Drummond po:antropónimo
 Drusilla po:antropónimo
@@ -1752,10 +1816,10 @@ Dunja po:antropónimo
 Dúnlaith po:antropónimo
 Đurađ po:antropónimo
 Durante po:antropónimo
-Durbin po:antropónimo
 Durga po:antropónimo
 Durga po:antropónimo [n-grama: Durga Puja]
 Puja po:antropónimo [n-grama: Durga Puja]
+Duri po:antropónimo
 Durk po:antropónimo
 Durmuş po:antropónimo
 Đuro po:antropónimo
@@ -1782,7 +1846,6 @@ Ece po:antropónimo
 Ecem po:antropónimo
 Eda po:antropónimo
 Eddie po:antropónimo
-Edebe po:antropónimo
 Edgar po:antropónimo
 Edgaras po:antropónimo
 Edgars po:antropónimo
@@ -1798,7 +1861,9 @@ Edna po:antropónimo
 Edoardo po:antropónimo
 Édouard po:antropónimo
 Edsel po:antropónimo
+Édson po:antropónimo
 Eduardo po:antropónimo
+Eduards po:antropónimo
 Edvard po:antropónimo
 Edvardas po:antropónimo
 Edvin po:antropónimo
@@ -1843,6 +1908,7 @@ Eisuke po:antropónimo
 Eithne po:antropónimo
 Eivind po:antropónimo
 Eizō po:antropónimo
+Ejnar po:antropónimo
 Ekanamsha po:antropónimo
 Ekaterina po:antropónimo
 Ekin po:antropónimo
@@ -1853,11 +1919,13 @@ Ela po:antropónimo
 Elayne po:antropónimo
 Elchin po:antropónimo
 Eldar po:antropónimo
+Elder po:antropónimo
 Eldin po:antropónimo
 Eldon po:antropónimo
 Eleanor po:antropónimo
 Elec po:antropónimo
 Elektra po:antropónimo
+Elemér po:antropónimo
 Elen po:antropónimo
 Elena po:antropónimo
 Eleni po:antropónimo
@@ -1876,6 +1944,7 @@ Elizabeth po:antropónimo
 Elke po:antropónimo
 Ella po:antropónimo
 Ellen po:antropónimo
+Elliot po:antropónimo
 Elmer po:antropónimo
 Elmo po:antropónimo
 Élodie po:antropónimo
@@ -1888,6 +1957,7 @@ Eluned po:antropónimo
 Elvan po:antropónimo
 Elvira po:antropónimo
 Emel po:antropónimo
+Emélie po:antropónimo
 Emi po:antropónimo
 Emiko po:antropónimo
 Emil po:antropónimo
@@ -1914,6 +1984,7 @@ Emrys po:antropónimo
 Emyr po:antropónimo
 Endel po:antropónimo
 Ender po:antropónimo
+Endrit po:antropónimo
 Eneko po:antropónimo
 Enes po:antropónimo
 Engelbert po:antropónimo
@@ -1954,9 +2025,11 @@ Eric po:antropónimo
 Ericka po:antropónimo
 Erika po:antropónimo
 Eriko po:antropónimo
+Ēriks po:antropónimo
 Erin po:antropónimo
 Eriş po:antropónimo
 Ériu po:antropónimo
+Erjon po:antropónimo
 Erkan po:antropónimo
 Erki po:antropónimo
 Erkin po:antropónimo
@@ -1964,6 +2037,7 @@ Erkki po:antropónimo
 Erland po:antropónimo
 Erlea po:antropónimo
 Erman po:antropónimo
+Ermenegildo po:antropónimo
 Erminia po:antropónimo
 Ernan po:antropónimo
 Ernest po:antropónimo
@@ -2009,9 +2083,11 @@ Eugène po:antropónimo
 Eugenia po:antropónimo
 Eugenija po:antropónimo
 Eugenijus po:antropónimo
+Eugênio po:antropónimo
 Euhel po:antropónimo
 Eula po:antropónimo
 Eun-ah po:antropónimo
+Eun-bi po:antropónimo
 Eun-byul po:antropónimo
 Eun-chae po:antropónimo
 Eun-ha po:antropónimo
@@ -2023,6 +2099,7 @@ Eun-jin po:antropónimo
 Eun-ju po:antropónimo
 Eun-jung po:antropónimo
 Eun-kyung po:antropónimo
+Eun-mi po:antropónimo
 Eun-sang po:antropónimo
 Eun-soo po:antropónimo
 Eun-sook po:antropónimo
@@ -2030,9 +2107,9 @@ Eun-suh po:antropónimo
 Eun-sung po:antropónimo
 Eun-young po:antropónimo
 Eunice po:antropónimo
-Euphrosyne po:antropónimo
 Eustathius po:antropónimo
 Euthemia po:antropónimo
+Eva po:antropónimo
 Evald po:antropónimo
 Evaldas po:antropónimo
 Evan po:antropónimo
@@ -2043,15 +2120,14 @@ Evelyn po:antropónimo
 Even po:antropónimo
 Evilásio po:antropónimo
 Evon po:antropónimo
-Evren po:antropónimo
 Evrim po:antropónimo
 Ewald po:antropónimo
+Exemeno po:antropónimo
 Exequiel po:antropónimo
 Eyerusalem po:antropónimo
 Eylem po:antropónimo
 Eyüp po:antropónimo
 Ezel po:antropónimo
-Ezgi po:antropónimo
 Ezzo po:antropónimo
 Fabia po:antropónimo
 Fabian po:antropónimo
@@ -2061,6 +2137,7 @@ Fabio po:antropónimo
 Fabrice po:antropónimo
 Fabricio po:antropónimo
 Fabrizio po:antropónimo
+Fachtna po:antropónimo
 Fadel po:antropónimo
 Fadi po:antropónimo
 Fahd po:antropónimo
@@ -2097,6 +2174,7 @@ Fatih po:antropónimo
 Fatima po:antropónimo
 Fatin po:antropónimo
 Fatmirë po:antropónimo
+Fatos po:antropónimo
 Fausto po:antropónimo
 Fawaz po:antropónimo
 Fawzi po:antropónimo
@@ -2105,6 +2183,7 @@ Fayez po:antropónimo
 Fazil po:antropónimo
 Fazlallah po:antropónimo
 Fazli po:antropónimo
+Feđa po:antropónimo
 Fedelm po:antropónimo
 Federico po:antropónimo
 Federigo po:antropónimo
@@ -2114,6 +2193,7 @@ Felicia po:antropónimo
 Feliciano po:antropónimo
 Felicity po:antropónimo
 Feliks po:antropónimo
+Feliksas po:antropónimo
 Felipe po:antropónimo
 Felix po:antropónimo
 Félix po:antropónimo
@@ -2149,18 +2229,23 @@ Fevzi po:antropónimo
 Feyrouz po:antropónimo
 Feyyaz po:antropónimo
 Ffion po:antropónimo
+Fiach po:antropónimo
+Fiacha po:antropónimo
+Fiachna po:antropónimo
+Fiachra po:antropónimo
 Fiachrae po:antropónimo
 Fiamma po:antropónimo
 Fidan po:antropónimo
 Fidel po:antropónimo
 Fidelma po:antropónimo
-Fikret po:antropónimo
 Fikri po:antropónimo
+Filip po:antropónimo
 Filipa po:antropónimo
 Filipe po:antropónimo
 Filippa po:antropónimo
 Filippo po:antropónimo
 Filiz po:antropónimo
+Filomena po:antropónimo
 Filotije po:antropónimo
 Fín po:antropónimo
 Finbil po:antropónimo
@@ -2181,6 +2266,8 @@ Flannabhra po:antropónimo
 Flannán po:antropónimo
 Flavia po:antropónimo
 Flávia po:antropónimo
+Flavio po:antropónimo
+Flávio po:antropónimo
 Flemming po:antropónimo
 Fletcher po:antropónimo
 Fleur po:antropónimo
@@ -2205,6 +2292,7 @@ Frances po:antropónimo
 Francesca po:antropónimo
 Francesco po:antropónimo
 Francis po:antropónimo
+Francisc po:antropónimo
 Francisca po:antropónimo
 Franck po:antropónimo
 Franco po:antropónimo
@@ -2222,6 +2310,7 @@ Frederica po:antropónimo
 Frederick po:antropónimo
 Frederico po:antropónimo
 Frederique po:antropónimo
+Fredo po:antropónimo
 Fredrik po:antropónimo
 Freya po:antropónimo
 Fricis po:antropónimo
@@ -2231,6 +2320,7 @@ Friedemann po:antropónimo
 Friedrich po:antropónimo
 Fritz po:antropónimo
 Frøydis po:antropónimo
+Fryderyk po:antropónimo
 Fuad po:antropónimo
 Fuat po:antropónimo
 Fujiko po:antropónimo
@@ -2264,7 +2354,6 @@ Gábor po:antropónimo
 Gabriel po:antropónimo
 Gabriella po:antropónimo
 Gabrielle po:antropónimo
-Gadhimai po:antropónimo
 Gaetano po:antropónimo
 Gaffar po:antropónimo
 Gaimdibhla po:antropónimo
@@ -2289,6 +2378,7 @@ Gaspare po:antropónimo
 Gaston po:antropónimo
 Gastone po:antropónimo
 Gatis po:antropónimo
+Gaurav po:antropónimo
 Gavin po:antropónimo
 Gavrilo po:antropónimo
 Gayane po:antropónimo
@@ -2320,6 +2410,7 @@ George po:antropónimo
 George po:antropónimo [n-grama: George Washington]
 Washington po:antropónimo [n-grama: George Washington]
 Georges po:antropónimo
+Georgi po:antropónimo
 Georgiana po:antropónimo
 Georgina po:antropónimo
 Georgios po:antropónimo
@@ -2336,13 +2427,13 @@ Gerasim po:antropónimo
 Gerbaud po:antropónimo
 Gerbrand po:antropónimo
 Gerd po:antropónimo
+Gergana po:antropónimo
 Gerhardt po:antropónimo
 Gerli po:antropónimo
 Germain po:antropónimo
 Germán po:antropónimo
 Germar po:antropónimo
 Gernot po:antropónimo
-Geronimo po:antropónimo
 Gerri po:antropónimo
 Gerrie po:antropónimo
 Gerrit po:antropónimo
@@ -2351,7 +2442,10 @@ Gert po:antropónimo
 Gertie po:antropónimo
 Gertrude po:antropónimo
 Gethin po:antropónimo
+Getoar po:antropónimo
+Geun po:antropónimo
 Géza po:antropónimo
+Gëzim po:antropónimo
 Ghanem po:antropónimo
 Ghasem po:antropónimo
 Ghassan po:antropónimo
@@ -2383,6 +2477,8 @@ Giedrė po:antropónimo
 Giedrius po:antropónimo
 Gifford po:antropónimo
 Giichi po:antropónimo
+Gijs po:antropónimo
+Gijsbert po:antropónimo
 Gilbert po:antropónimo
 Gilberto po:antropónimo
 Giles po:antropónimo
@@ -2427,7 +2523,9 @@ Giulio po:antropónimo
 Giuseppe po:antropónimo
 Giuseppina po:antropónimo
 Gizem po:antropónimo
+Gjergj po:antropónimo
 Gjon po:antropónimo
+Gjonaj po:antropónimo
 Gjoni po:antropónimo
 Gladys po:antropónimo
 Gleb po:antropónimo
@@ -2459,6 +2557,7 @@ Goleuddydd po:antropónimo
 Gönül po:antropónimo
 Gonxha po:antropónimo
 Gonzague po:antropónimo
+Gopinathan po:antropónimo
 Goran po:antropónimo
 Göran po:antropónimo
 Gorana po:antropónimo
@@ -2497,6 +2596,7 @@ Gretchen po:antropónimo
 Grete po:antropónimo
 Grigol po:antropónimo
 Grigor po:antropónimo
+Grigore po:antropónimo
 Grigory po:antropónimo
 Grischa po:antropónimo
 Griselda po:antropónimo
@@ -2537,7 +2637,6 @@ Guntis po:antropónimo
 Guoqiang po:antropónimo
 Gür po:antropónimo
 Gurandukht po:antropónimo
-Gurbuz po:antropónimo
 Gurcharan po:antropónimo
 Gurdeep po:antropónimo
 Gurgen po:antropónimo
@@ -2548,6 +2647,7 @@ Gurunath po:antropónimo
 Gustav po:antropónimo
 Gustavo po:antropónimo
 Gustavs po:antropónimo
+Guus po:antropónimo
 Güven po:antropónimo
 Güvenç po:antropónimo
 Guy po:antropónimo
@@ -2564,6 +2664,7 @@ Gyöngyi po:antropónimo
 György po:antropónimo
 Győző po:antropónimo
 Gyula po:antropónimo
+Gyuri po:antropónimo
 Ha-eun po:antropónimo
 Ha-neul po:antropónimo
 Ha-sun po:antropónimo
@@ -2583,10 +2684,10 @@ Hae-il po:antropónimo
 Hae-jin po:antropónimo
 Hae-joo po:antropónimo
 Hae-seong po:antropónimo
+Hae-won po:antropónimo
 Hafeez po:antropónimo
 Hafizullah po:antropónimo
 Hagar po:antropónimo
-Hagi po:antropónimo
 Hagop po:antropónimo
 Haitao po:antropónimo
 Haitham po:antropónimo
@@ -2596,6 +2697,7 @@ Hajj po:antropónimo
 Hajji po:antropónimo
 Hajnal po:antropónimo
 Hajra po:antropónimo
+Hakam po:antropónimo
 Hakan po:antropónimo
 Håkan po:antropónimo
 Hakaru po:antropónimo
@@ -2624,6 +2726,8 @@ Hamish po:antropónimo
 Hamit po:antropónimo
 Hamlet po:antropónimo
 Hamza po:antropónimo
+Han-bin po:antropónimo
+Han-jae po:antropónimo
 Hana po:antropónimo
 Hanae po:antropónimo
 Hanako po:antropónimo
@@ -2715,6 +2819,8 @@ Hee-chul po:antropónimo
 Hee-joon po:antropónimo
 Hee-jung po:antropónimo
 Hee-kyung po:antropónimo
+Hee-sun po:antropónimo
+Hee-sung po:antropónimo
 Heidemarie po:antropónimo
 Heidi po:antropónimo
 Heihachirō po:antropónimo
@@ -2751,11 +2857,12 @@ Henri po:antropónimo
 Henrietta po:antropónimo
 Henrik po:antropónimo
 Henrika po:antropónimo
+Henrikas po:antropónimo
 Henry po:antropónimo
 Henryk po:antropónimo
 Hephzibah po:antropónimo
 Herb po:antropónimo
-Heri po:antropónimo
+Héri po:antropónimo
 Heriberto po:antropónimo
 Herman po:antropónimo
 Hermann po:antropónimo
@@ -2857,10 +2964,12 @@ Hisae po:antropónimo
 Hisahito po:antropónimo
 Hisako po:antropónimo
 Hisamitsu po:antropónimo
+Hisamoto po:antropónimo
 Hisanobu po:antropónimo
 Hisanori po:antropónimo
 Hisao po:antropónimo
 Hisashi po:antropónimo
+Hisataka po:antropónimo
 Hisateru po:antropónimo
 Hisato po:antropónimo
 Hisaya po:antropónimo
@@ -2877,15 +2986,19 @@ Hitoshi po:antropónimo
 Hıfzı po:antropónimo
 Hızır po:antropónimo
 Hjalmar po:antropónimo
+Ho po:antropónimo
 Ho-jin po:antropónimo
+Ho-jun po:antropónimo
 Ho-jung po:antropónimo
 Ho-sung po:antropónimo
 Hoca po:antropónimo
+Høgni po:antropónimo
 Hokuto po:antropónimo
 Holger po:antropónimo
 Homa po:antropónimo
 Homayoun po:antropónimo
 Homer po:antropónimo
+Hong-gi po:antropónimo
 Hong-joo po:antropónimo
 Honor po:antropónimo
 Honoré po:antropónimo
@@ -2926,23 +3039,28 @@ Hyacinth po:antropónimo
 Hyacinthe po:antropónimo
 Hye-bin po:antropónimo
 Hye-in po:antropónimo
+Hye-ja po:antropónimo
 Hye-jin po:antropónimo
 Hye-jung po:antropónimo
 Hye-kyung po:antropónimo
 Hye-mi po:antropónimo
 Hye-rim po:antropónimo
+Hye-su po:antropónimo
 Hye-sung po:antropónimo
+Hye-won po:antropónimo
 Hymen po:antropónimo
 Hyo-jin po:antropónimo
 Hyo-joo po:antropónimo
 Hyo-rin po:antropónimo
 Hyuk po:antropónimo
+Hyun-a po:antropónimo
 Hyun-hee po:antropónimo
 Hyun-jin po:antropónimo
 Hyun-joo po:antropónimo
 Hyun-jun po:antropónimo
 Hyun-jung po:antropónimo
 Hyun-kyung po:antropónimo
+Hyun-mi po:antropónimo
 Hyun-seok po:antropónimo
 Hyun-seung po:antropónimo
 Hyun-sik po:antropónimo
@@ -2950,19 +3068,23 @@ Hyun-soo po:antropónimo
 Hyun-sook po:antropónimo
 Hyun-tae po:antropónimo
 Hyun-woo po:antropónimo
+Hyun-wook po:antropónimo
+Hyung-joo po:antropónimo
 Hyung-joon po:antropónimo
+Hyung-min po:antropónimo
+Hyung-won po:antropónimo
 Hywel po:antropónimo
 Ian po:antropónimo
 Ianto po:antropónimo
 Ibrahim po:antropónimo
 Ibro po:antropónimo
 Ibtisam po:antropónimo
-Ibuka po:antropónimo
 Ichabod po:antropónimo
 Ichiei po:antropónimo
 Ichiko po:antropónimo
 Ichirō po:antropónimo
 Ida po:antropónimo
+Íde po:antropónimo
 İdil po:antropónimo
 Idina po:antropónimo
 Idris po:antropónimo
@@ -2990,17 +3112,20 @@ Ikue po:antropónimo
 Ikumi po:antropónimo
 Ikuo po:antropónimo
 Ikurō po:antropónimo
+Il po:antropónimo
 Il-sung po:antropónimo
 Ila po:antropónimo
 Ilana po:antropónimo
 Ileana po:antropónimo
 Ilene po:antropónimo
 Ilgın po:antropónimo
+Ilgonis po:antropónimo
 Ilhami po:antropónimo
 Ilhan po:antropónimo
 Ilídio po:antropónimo
 Ilie po:antropónimo
 Ilija po:antropónimo
+Ilir po:antropónimo
 İlkay po:antropónimo
 Ilker po:antropónimo
 Ilkka po:antropónimo
@@ -3024,9 +3149,10 @@ Imogen po:antropónimo
 Imre po:antropónimo
 Imtiaz po:antropónimo
 In-hye po:antropónimo
+In-sik po:antropónimo
 In-soo po:antropónimo
 In-sook po:antropónimo
-Iñaki po:antropónimo
+In-young po:antropónimo
 Inal po:antropónimo
 İnan po:antropónimo
 İnanç po:antropónimo
@@ -3045,12 +3171,15 @@ Inger po:antropónimo
 Ingo po:antropónimo
 Ingram po:antropónimo
 Ingrid po:antropónimo
+Inguna po:antropónimo
 Ingus po:antropónimo
 Inigo po:antropónimo
 Inna po:antropónimo
 Innar po:antropónimo
+Innogen po:antropónimo
 Inoke po:antropónimo
 Inta po:antropónimo
+Iñaki po:antropónimo
 Ioan po:antropónimo
 Ioana po:antropónimo
 Iolo po:antropónimo
@@ -3076,6 +3205,7 @@ Irina po:antropónimo
 Iris po:antropónimo
 Irma po:antropónimo
 Irmak po:antropónimo
+Irmela po:antropónimo
 İrşadi po:antropónimo
 Irvine po:antropónimo
 Irving po:antropónimo
@@ -3095,6 +3225,7 @@ Ishak po:antropónimo
 Ishana po:antropónimo
 Ishtiaq po:antropónimo
 Ishwari po:antropónimo
+Isidora po:antropónimo
 Isidore po:antropónimo
 Işık po:antropónimo
 Işıl po:antropónimo
@@ -3123,6 +3254,7 @@ Itsumi po:antropónimo
 Itziar po:antropónimo
 Iuliu po:antropónimo
 Iurie po:antropónimo
+Iustin po:antropónimo
 Ivalu po:antropónimo
 Ivan po:antropónimo
 Ivana po:antropónimo
@@ -3178,18 +3310,26 @@ Jacquet po:antropónimo
 Jacqui po:antropónimo
 Jacquie po:antropónimo
 Jadranko po:antropónimo
+Jae-beom po:antropónimo
 Jae-eun po:antropónimo
+Jae-geun po:antropónimo
 Jae-gyu po:antropónimo
 Jae-hee po:antropónimo
+Jae-ho po:antropónimo
 Jae-hyuk po:antropónimo
+Jae-hyun po:antropónimo
 Jae-in po:antropónimo
+Jae-joon po:antropónimo
 Jae-kyung po:antropónimo
 Jae-shin po:antropónimo
 Jae-suk po:antropónimo
 Jae-sung po:antropónimo
 Jae-won po:antropónimo
+Jae-woo po:antropónimo
 Jae-wook po:antropónimo
+Jae-woong po:antropónimo
 Jae-yong po:antropónimo
+Jae-yoon po:antropónimo
 Jae-young po:antropónimo
 Jagaddhatri po:antropónimo
 Jagannath po:antropónimo
@@ -3201,7 +3341,9 @@ Jahangir po:antropónimo
 Jahid po:antropónimo
 Jaime po:antropónimo
 Jaipal po:antropónimo
+Jairus po:antropónimo
 Jaison po:antropónimo
+Jakkamma po:antropónimo
 Jakov po:antropónimo
 Jalal po:antropónimo
 Jalal po:antropónimo [n-grama: Jalal ad-Din]
@@ -3221,7 +3363,9 @@ Jamshid po:antropónimo
 Jan po:antropónimo
 Jana po:antropónimo
 Jane po:antropónimo
+Janee po:antropónimo
 Janez po:antropónimo
+Jang-mi po:antropónimo
 Janica po:antropónimo
 Jānis po:antropónimo
 Janko po:antropónimo
@@ -3239,6 +3383,7 @@ Jarosław po:antropónimo
 Jarrah po:antropónimo
 Jasem po:antropónimo
 Jasen po:antropónimo
+Jasmina po:antropónimo
 Jasmine po:antropónimo
 Jasna po:antropónimo
 Jason po:antropónimo
@@ -3248,6 +3393,8 @@ Jawahir po:antropónimo
 Jawdat po:antropónimo
 Jawed po:antropónimo
 Jayant po:antropónimo
+Jayanti po:antropónimo
+Jayaraj po:antropónimo
 Jayden po:antropónimo
 Jayson po:antropónimo
 Jean po:antropónimo
@@ -3274,6 +3421,7 @@ Jean-Michel po:antropónimo
 Jean-Noël po:antropónimo
 Jean-Pascal po:antropónimo
 Jean-Paul po:antropónimo
+Jean-Philippe po:antropónimo
 Jean-Pierre po:antropónimo
 Jean-René po:antropónimo
 Jean-Robert po:antropónimo
@@ -3294,7 +3442,6 @@ Jemma po:antropónimo
 Jena po:antropónimo
 Jenna po:antropónimo
 Jenni po:antropónimo
-Jennica po:antropónimo
 Jennifer po:antropónimo
 Jenny po:antropónimo
 Jenő po:antropónimo
@@ -3304,6 +3451,7 @@ Jeong-ja po:antropónimo
 Jeremiah po:antropónimo
 Jérémie po:antropónimo
 Jérémy po:antropónimo
+Jermaine po:antropónimo
 Jeroen po:antropónimo
 Jerolim po:antropónimo
 Jerome po:antropónimo
@@ -3319,8 +3467,11 @@ Jesminder po:antropónimo
 Jesnie po:antropónimo
 Jessica po:antropónimo
 Jessie po:antropónimo
+Jhetunebibi po:antropónimo
+Jholabibi po:antropónimo
 Ji-ae po:antropónimo
 Ji-eun po:antropónimo
+Ji-ha po:antropónimo
 Ji-hae po:antropónimo
 Ji-ho po:antropónimo
 Ji-hoon po:antropónimo
@@ -3334,11 +3485,12 @@ Ji-su po:antropónimo
 Ji-tae po:antropónimo
 Ji-won po:antropónimo
 Ji-woo po:antropónimo
+Ji-woon po:antropónimo
+Ji-woong po:antropónimo
 Ji-yeon po:antropónimo
 Ji-yoon po:antropónimo
 Ji-young po:antropónimo
 Jihad po:antropónimo
-Jihan po:antropónimo
 Jiichirō po:antropónimo
 Jillian po:antropónimo
 Jilly po:antropónimo
@@ -3347,12 +3499,16 @@ Jin po:antropónimo
 Jin-hee po:antropónimo
 Jin-ho po:antropónimo
 Jin-hwan po:antropónimo
+Jin-hyuk po:antropónimo
 Jin-joo po:antropónimo
 Jin-soo po:antropónimo
+Jin-sun po:antropónimo
 Jin-sung po:antropónimo
+Jin-woo po:antropónimo
 Jin-wook po:antropónimo
 Jin-young po:antropónimo
 Jin'ichi po:antropónimo
+Jina po:antropónimo
 Jinhua po:antropónimo
 Jinpachi po:antropónimo
 Jinyu po:antropónimo
@@ -3360,6 +3516,7 @@ Jiřina po:antropónimo
 Jiro po:antropónimo
 Jitka po:antropónimo
 Jitsuko po:antropónimo
+Jitu po:antropónimo
 Jivdani po:antropónimo [n-grama: Jivdani Mata]
 Mata po:antropónimo [n-grama: Jivdani Mata]
 Joachim po:antropónimo
@@ -3381,6 +3538,7 @@ Joël po:antropónimo
 Joeli po:antropónimo
 Joelle po:antropónimo
 Joëlle po:antropónimo
+Jógvan po:antropónimo
 Johan po:antropónimo
 Johann po:antropónimo
 Johanna po:antropónimo
@@ -3405,19 +3563,25 @@ Jonas po:antropónimo
 Jong-hoon po:antropónimo
 Jong-hyuk po:antropónimo
 Jong-hyun po:antropónimo
+Jong-il po:antropónimo
+Jong-ok po:antropónimo
+Jong-seok po:antropónimo
 Jong-soo po:antropónimo
-Jong-suk po:antropónimo
 Jong-yul po:antropónimo
 Jonjo po:antropónimo
 Jonn po:antropónimo
 Jonni po:antropónimo
 Jonnie po:antropónimo
 Jonny po:antropónimo
+Jonuz po:antropónimo
+Joo-hwan po:antropónimo
 Joo-hyun po:antropónimo
 Joo-won po:antropónimo
 Joon-hee po:antropónimo
 Joon-ho po:antropónimo
 Joon-hyuk po:antropónimo
+Joon-ki po:antropónimo
+Joon-tae po:antropónimo
 Joonas po:antropónimo
 Joost po:antropónimo
 Jordan po:antropónimo
@@ -3425,6 +3589,7 @@ Jörg po:antropónimo
 Jorge po:antropónimo
 Jorge po:antropónimo [n-grama: Jorge Luís]
 Luís po:antropónimo [n-grama: Jorge Luís]
+Jørgen po:antropónimo
 Jorien po:antropónimo
 Jorunn po:antropónimo
 Jos po:antropónimo
@@ -3474,10 +3639,12 @@ Julio po:antropónimo
 Júlio po:antropónimo
 Julio po:antropónimo [n-grama: Julio Cesar]
 Cesar po:antropónimo [n-grama: Julio Cesar]
+Jumana po:antropónimo
 Jun po:antropónimo
 Jun-ha po:antropónimo
 Jun-sang po:antropónimo
 Jun-seo po:antropónimo
+Jun-seok po:antropónimo
 Jun-young po:antropónimo
 Jun'ichi po:antropónimo
 Jun'ichirō po:antropónimo
@@ -3492,10 +3659,13 @@ Jung-hoon po:antropónimo
 Jung-hwa po:antropónimo
 Jung-hwan po:antropónimo
 Jung-hyun po:antropónimo
+Jung-il po:antropónimo
 Jung-jin po:antropónimo
 Jung-min po:antropónimo
+Jung-mo po:antropónimo
 Jung-myung po:antropónimo
 Jung-nam po:antropónimo
+Jung-sik po:antropónimo
 Jung-soo po:antropónimo
 Jung-sook po:antropónimo
 Jung-soon po:antropónimo
@@ -3514,6 +3684,7 @@ Juraj po:antropónimo
 Jūratė po:antropónimo
 Jürgen po:antropónimo
 Jurgis po:antropónimo
+Jurģis po:antropónimo
 Jüri po:antropónimo
 Juris po:antropónimo
 Jusepe po:antropónimo
@@ -3539,7 +3710,6 @@ Kadeem po:antropónimo
 Kadia po:antropónimo
 Kadir po:antropónimo
 Kadri po:antropónimo
-Kadriye po:antropónimo
 Kaede po:antropónimo
 Kafeel po:antropónimo
 Kağan po:antropónimo
@@ -3555,6 +3725,7 @@ Kain po:antropónimo
 Kaire po:antropónimo
 Kaisa po:antropónimo
 Kaito po:antropónimo
+Kaiva po:antropónimo
 Kajsa po:antropónimo
 Kakhaber po:antropónimo
 Kakichi po:antropónimo
@@ -3563,12 +3734,15 @@ Kakuji po:antropónimo
 Kale po:antropónimo
 Kalev po:antropónimo
 Kali po:antropónimo
+Kalimuthu po:antropónimo
 Kalina po:antropónimo
+Kalinik po:antropónimo
 Kaljo po:antropónimo
 Kalju po:antropónimo
 Kalle po:antropónimo
 Kálmán po:antropónimo
 Kaltrina po:antropónimo
+Kamadhenu po:antropónimo
 Kamakhya po:antropónimo
 Kamal po:antropónimo [n-grama: Kamal ad-Din]
 ad-Din po:antropónimo [n-grama: Kamal ad-Din]
@@ -3582,8 +3756,11 @@ Kamui po:antropónimo
 Kan'ichi po:antropónimo
 Kana po:antropónimo
 Kanae po:antropónimo
+Kanagaratnam po:antropónimo
+Kanagasabai po:antropónimo
 Kanako po:antropónimo
 Kaname po:antropónimo
+Kandiah po:antropónimo
 Kanehira po:antropónimo
 Kanehiro po:antropónimo
 Kanematsu po:antropónimo
@@ -3593,6 +3770,7 @@ Kanetake po:antropónimo
 Kaneto po:antropónimo
 Kanetsugu po:antropónimo
 Kaneyoshi po:antropónimo
+Kang-min po:antropónimo
 Kanika po:antropónimo
 Kanike po:antropónimo
 Kanjirottu po:antropónimo [n-grama: Kanjirottu Yakshi]
@@ -3625,11 +3803,12 @@ Károly po:antropónimo
 Karsten po:antropónimo
 Kartal po:antropónimo
 Karthik po:antropónimo
-Kartika po:antropónimo
+Kartik po:antropónimo
 Kashif po:antropónimo
 Kasia po:antropónimo
 Kašpar po:antropónimo
 Kaspars po:antropónimo
+Kastriot po:antropónimo
 Kasumi po:antropónimo
 Katalin po:antropónimo
 Katarina po:antropónimo
@@ -3661,6 +3840,7 @@ Katsuo po:antropónimo
 Katsushi po:antropónimo
 Katsusuke po:antropónimo
 Katsutarō po:antropónimo
+Katsuteru po:antropónimo
 Katsutomo po:antropónimo
 Katsutoshi po:antropónimo
 Katsuya po:antropónimo
@@ -3671,6 +3851,7 @@ Katya po:antropónimo
 Katyayini po:antropónimo
 Kaushiki po:antropónimo
 Kaveh po:antropónimo
+Kavin po:antropónimo
 Kaya po:antropónimo
 Kaye po:antropónimo
 Kayla po:antropónimo
@@ -3783,7 +3964,14 @@ Khodiyar po:antropónimo
 Khorshid po:antropónimo
 Khosrau po:antropónimo
 Khushal po:antropónimo
+Ki-ha po:antropónimo
+Ki-jung po:antropónimo
+Ki-moon po:antropónimo
 Ki-nam po:antropónimo
+Ki-tae po:antropónimo
+Ki-woo po:antropónimo
+Ki-woong po:antropónimo
+Ki-young po:antropónimo
 Kierra po:antropónimo
 Kihachi po:antropónimo
 Kihachirō po:antropónimo
@@ -3842,6 +4030,7 @@ Kjell po:antropónimo
 Klaas po:antropónimo
 Klaus po:antropónimo
 Kliment po:antropónimo
+Klodian po:antropónimo
 Koca po:antropónimo
 Kofi po:antropónimo
 Kofman po:antropónimo
@@ -3865,6 +4054,7 @@ Konrad po:antropónimo
 Konstantin po:antropónimo
 Konstantine po:antropónimo
 Konstantinos po:antropónimo
+Korab po:antropónimo
 Korati po:antropónimo
 Koray po:antropónimo
 Korel po:antropónimo
@@ -3889,6 +4079,7 @@ Krasimir po:antropónimo
 Krešimir po:antropónimo
 Krikor po:antropónimo
 Krishnan po:antropónimo
+Krishnappa po:antropónimo
 Krishnayya po:antropónimo
 Krišjānis po:antropónimo
 Krista po:antropónimo
@@ -3900,14 +4091,15 @@ Kristian po:antropónimo
 Kristin po:antropónimo
 Kristina po:antropónimo
 Kristjan po:antropónimo
+Kristo po:antropónimo
 Krsto po:antropónimo
 Krzesimir po:antropónimo
 Krzysztof po:antropónimo
 Kubilay po:antropónimo
 Kubra po:antropónimo
-Küçük po:antropónimo
 Kulthum po:antropónimo
 Kumar po:antropónimo
+Kumaraswamy po:antropónimo
 Kumari po:antropónimo
 Kumatarō po:antropónimo
 Kumi po:antropónimo
@@ -3949,12 +4141,14 @@ Kwame po:antropónimo
 Kwang-hee po:antropónimo
 Kwang-ho po:antropónimo
 Kwang-hoon po:antropónimo
+Kwang-hwan po:antropónimo
 Kwang-hyok po:antropónimo
 Kwang-hyun po:antropónimo
 Kwang-jo po:antropónimo
 Kwang-min po:antropónimo
 Kwang-seok po:antropónimo
 Kwang-seon po:antropónimo
+Kwang-sik po:antropónimo
 Kwang-su po:antropónimo
 Kyle po:antropónimo
 Kyo po:antropónimo
@@ -3965,6 +4159,8 @@ Kyoko po:antropónimo
 Kyōsuke po:antropónimo
 Kyril po:antropónimo
 Kyrylo po:antropónimo
+Kyu-chul po:antropónimo
+Kyu-won po:antropónimo
 Kyukichi po:antropónimo
 Kyung-ah po:antropónimo
 Kyung-chul po:antropónimo
@@ -3972,6 +4168,7 @@ Kyung-gu po:antropónimo
 Kyung-hee po:antropónimo
 Kyung-ho po:antropónimo
 Kyung-hwa po:antropónimo
+Kyung-hwan po:antropónimo
 Kyung-ja po:antropónimo
 Kyung-jae po:antropónimo
 Kyung-joon po:antropónimo
@@ -3980,8 +4177,10 @@ Kyung-lim po:antropónimo
 Kyung-min po:antropónimo
 Kyung-mo po:antropónimo
 Kyung-ok po:antropónimo
+Kyung-seok po:antropónimo
 Kyung-soo po:antropónimo
 Kyung-sook po:antropónimo
+Kyung-sun po:antropónimo
 Kyung-tae po:antropónimo
 Kyung-taek po:antropónimo
 Kyung-wan po:antropónimo
@@ -4018,6 +4217,7 @@ Larry po:antropónimo
 Lars po:antropónimo
 Lasairfhíona po:antropónimo
 Lascăr po:antropónimo
+Lāsma po:antropónimo
 Lassana po:antropónimo
 László po:antropónimo
 Lathir po:antropónimo
@@ -4041,8 +4241,11 @@ Lauri po:antropónimo
 Laurits po:antropónimo
 Lauritz po:antropónimo
 Laurynas po:antropónimo
+Lavinia po:antropónimo
 Lawton po:antropónimo
+Laxman po:antropónimo
 Layan po:antropónimo
+Lazar po:antropónimo
 Lea po:antropónimo
 Leah po:antropónimo
 Leandro po:antropónimo
@@ -4065,6 +4268,7 @@ Leonara po:antropónimo
 Leonard po:antropónimo
 Leonardas po:antropónimo
 Leonardo po:antropónimo
+Leonas po:antropónimo
 Léonce po:antropónimo
 Leone po:antropónimo
 Leonid po:antropónimo
@@ -4123,7 +4327,6 @@ Lina po:antropónimo
 Linas po:antropónimo
 Linda po:antropónimo
 Lindita po:antropónimo
-Lindsey po:antropónimo
 Line po:antropónimo
 Linnéa po:antropónimo
 Linos po:antropónimo
@@ -4146,12 +4349,14 @@ Livia po:antropónimo
 Livio po:antropónimo
 Liviu po:antropónimo
 Lizabeth po:antropónimo
+Ljiljana po:antropónimo
 Ljuba po:antropónimo
 Ljubica po:antropónimo
 Ljubisav po:antropónimo
 Ljubo po:antropónimo
 Lloyd po:antropónimo
 Logan po:antropónimo
+Loganathan po:antropónimo
 Loïc po:antropónimo
 Lois po:antropónimo
 Lokman po:antropónimo
@@ -4160,7 +4365,6 @@ Lolita po:antropónimo
 London po:antropónimo
 Loredana po:antropónimo
 Lorelei po:antropónimo
-Loren po:antropónimo
 Lorena po:antropónimo
 Lorentz po:antropónimo
 Lorenzo po:antropónimo
@@ -4201,6 +4405,7 @@ Lucinda po:antropónimo
 Lucio po:antropónimo
 Lucious po:antropónimo
 Lucius po:antropónimo
+Lucjan po:antropónimo
 Lucrezia po:antropónimo
 Lucy po:antropónimo
 Luděk po:antropónimo
@@ -4217,12 +4422,14 @@ Luis po:antropónimo [n-grama: Luis Filipe]
 Filipe po:antropónimo [n-grama: Luis Filipe]
 Luisa po:antropónimo
 Luitpold po:antropónimo
+Lukas po:antropónimo
 Łukasz po:antropónimo
 Luke po:antropónimo
 Lukyan po:antropónimo
 Luljeta po:antropónimo
 Lulwa po:antropónimo
 Lupe po:antropónimo
+Lutfullah po:antropónimo
 Lütold po:antropónimo
 Lutz po:antropónimo
 Lya po:antropónimo
@@ -4238,6 +4445,7 @@ Maalikapurathamma po:antropónimo
 Maarja po:antropónimo
 Maaya po:antropónimo
 Mabel po:antropónimo
+Macarena po:antropónimo
 Macarius po:antropónimo
 Macdara po:antropónimo
 Macha po:antropónimo
@@ -4281,7 +4489,6 @@ Mahboob po:antropónimo
 Mahbubur po:antropónimo
 Mahdi po:antropónimo
 Mahendra po:antropónimo
-Mahesh po:antropónimo
 Mahir po:antropónimo
 Mahiro po:antropónimo
 Mahkameh po:antropónimo
@@ -4297,6 +4504,7 @@ Mai po:antropónimo
 Maia po:antropónimo
 Maicel po:antropónimo
 Maicon po:antropónimo
+Maigonis po:antropónimo
 Maiko po:antropónimo
 Mair po:antropónimo
 Máire po:antropónimo
@@ -4330,6 +4538,10 @@ Mamdouh po:antropónimo
 Mami po:antropónimo
 Mamiko po:antropónimo
 Mamoru po:antropónimo
+Man-hee po:antropónimo
+Man-seok po:antropónimo
+Man-sik po:antropónimo
+Man-soo po:antropónimo
 Mana po:antropónimo
 Manabu po:antropónimo
 Manakamana po:antropónimo
@@ -4344,6 +4556,7 @@ Maneh po:antropónimo
 Manish po:antropónimo
 Manisha po:antropónimo
 Manjirō po:antropónimo
+Manmohan po:antropónimo
 Manny po:antropónimo
 Manole po:antropónimo
 Manolito po:antropónimo
@@ -4361,7 +4574,6 @@ Maol po:antropónimo [n-grama: Maol Chosna]
 Chosna po:antropónimo [n-grama: Maol Chosna]
 Maolán po:antropónimo
 Maqsud po:antropónimo
-Mara po:antropónimo
 Marais po:antropónimo
 Marat po:antropónimo
 Marc po:antropónimo
@@ -4404,6 +4616,8 @@ Margus po:antropónimo
 Mari po:antropónimo
 Maria po:antropónimo
 Mária po:antropónimo
+María po:antropónimo [n-grama: María de Lourdes]
+Lourdes po:antropónimo [n-grama: María de Lourdes]
 María po:antropónimo [n-grama: María José]
 José po:antropónimo [n-grama: María José]
 Maria po:antropónimo [n-grama: Maria Sole]
@@ -4441,6 +4655,7 @@ Marilyn po:antropónimo
 Marin po:antropónimo
 Marina po:antropónimo
 Marine po:antropónimo
+Marinko po:antropónimo
 Marino po:antropónimo
 Marinus po:antropónimo
 Mario po:antropónimo
@@ -4549,7 +4764,7 @@ Mateo po:antropónimo
 Mateusz po:antropónimo
 Mathias po:antropónimo
 Mathieu po:antropónimo
-Matias po:antropónimo
+Matías po:antropónimo
 Matilda po:antropónimo
 Matilde po:antropónimo
 Matrikas po:antropónimo
@@ -4566,15 +4781,17 @@ Matthew po:antropónimo
 Matthias po:antropónimo
 Matthieu po:antropónimo
 Matti po:antropónimo
-Mattia po:antropónimo
 Mattias po:antropónimo
 Mattithyahu po:antropónimo
 Mattityahu po:antropónimo
 Maud po:antropónimo
 Maude po:antropónimo
+Maula po:antropónimo [n-grama: Maula Kalika]
+Kalika po:antropónimo [n-grama: Maula Kalika]
 Maura po:antropónimo
 Maureen po:antropónimo
 Maurice po:antropónimo
+Maurício po:antropónimo
 Maurilio po:antropónimo
 Maurine po:antropónimo
 Mauritz po:antropónimo
@@ -4617,7 +4834,6 @@ Mehmet po:antropónimo [n-grama: Mehmet Ali]
 Ali po:antropónimo [n-grama: Mehmet Ali]
 Mehmet po:antropónimo [n-grama: Mehmet Emin]
 Emin po:antropónimo [n-grama: Mehmet Emin]
-Mehran po:antropónimo
 Mehrdad po:antropónimo
 Mehtap po:antropónimo
 Mei po:antropónimo
@@ -4666,8 +4882,14 @@ Metehan po:antropónimo
 Metin po:antropónimo
 Mette po:antropónimo
 Mevlüt po:antropónimo
+Mi-hee po:antropónimo
+Mi-ja po:antropónimo
+Mi-jung po:antropónimo
 Mi-kyung po:antropónimo
+Mi-ran po:antropónimo
 Mi-sook po:antropónimo
+Mi-sun po:antropónimo
+Mi-yeon po:antropónimo
 Mi-young po:antropónimo
 Mia po:antropónimo
 Michael po:antropónimo
@@ -4717,9 +4939,13 @@ Mihkel po:antropónimo
 Miho po:antropónimo
 Mihovil po:antropónimo
 Miiko po:antropónimo
+Mijat po:antropónimo
 Mika po:antropónimo
 Mikako po:antropónimo
+Mikalojus po:antropónimo
+Mikel po:antropónimo
 Miķelis po:antropónimo
+Mikhail po:antropónimo
 Miki po:antropónimo
 Mikiko po:antropónimo
 Mikio po:antropónimo
@@ -4744,6 +4970,7 @@ Milić po:antropónimo
 Milica po:antropónimo
 Milivoj po:antropónimo
 Miljan po:antropónimo
+Miljko po:antropónimo
 Milka po:antropónimo
 Milko po:antropónimo
 Miloje po:antropónimo
@@ -4751,6 +4978,7 @@ Milomir po:antropónimo
 Milorad po:antropónimo
 Miloš po:antropónimo
 Miloslav po:antropónimo
+Milot po:antropónimo
 Miloud po:antropónimo
 Milovan po:antropónimo
 Miltiades po:antropónimo
@@ -4771,7 +4999,9 @@ Min-ki po:antropónimo
 Min-kyu po:antropónimo
 Min-kyung po:antropónimo
 Min-seo po:antropónimo
+Min-seok po:antropónimo
 Min-soo po:antropónimo
+Min-sun po:antropónimo
 Min-woo po:antropónimo
 Min-young po:antropónimo
 Mina po:antropónimo
@@ -4864,6 +5094,7 @@ Modris po:antropónimo
 Modwenna po:antropónimo
 Moe po:antropónimo
 Moeen po:antropónimo
+Mogens po:antropónimo
 Mohammad po:antropónimo [n-grama: Mohammad Taqi]
 Taqi po:antropónimo [n-grama: Mohammad Taqi]
 Mohammad-Reza po:antropónimo
@@ -4893,10 +5124,11 @@ Moninne po:antropónimo
 Monique po:antropónimo
 Montague po:antropónimo
 Montserrat po:antropónimo
+Moon-sik po:antropónimo
+Moon-soo po:antropónimo
 Mór po:antropónimo
 Mór po:antropónimo [n-grama: Mór Muman]
 Muman po:antropónimo [n-grama: Mór Muman]
-Morag po:antropónimo
 Morena po:antropónimo
 Morfydd po:antropónimo
 Morgan po:antropónimo
@@ -4943,6 +5175,7 @@ Mua'dh po:antropónimo
 Muammer po:antropónimo
 Muazzez po:antropónimo
 Mubarak po:antropónimo
+Mudrīte po:antropónimo
 Müfit po:antropónimo
 Mugur po:antropónimo
 Muhammad po:antropónimo
@@ -5003,16 +5236,22 @@ Myron po:antropónimo
 Myrtle po:antropónimo
 Myung-hee po:antropónimo
 Myung-hoon po:antropónimo
+Myung-hwa po:antropónimo
 Myung-hwan po:antropónimo
+Myung-ok po:antropónimo
 Myung-soo po:antropónimo
 Myung-sook po:antropónimo
+Myung-soon po:antropónimo
+Myung-yong po:antropónimo
 Na-young po:antropónimo
 Nabi po:antropónimo
 Nabih po:antropónimo
 Nabil po:antropónimo
 Naci po:antropónimo
+Nadarajah po:antropónimo
 Nadeem po:antropónimo
 Nader po:antropónimo
+Nadesan po:antropónimo
 Nadezhda po:antropónimo
 Nadia po:antropónimo
 Nadine po:antropónimo
@@ -5025,6 +5264,7 @@ Nafiz po:antropónimo
 Nagaharu po:antropónimo
 Nagahide po:antropónimo
 Nagako po:antropónimo
+Nagalingam po:antropónimo
 Nagamasa po:antropónimo
 Nagamichi po:antropónimo
 Naganao po:antropónimo
@@ -5037,6 +5277,7 @@ Naguib po:antropónimo
 Nahla po:antropónimo
 Nahyan po:antropónimo
 Naif po:antropónimo
+Nail po:antropónimo
 Naila po:antropónimo
 Naim po:antropónimo
 Naima po:antropónimo
@@ -5052,9 +5293,7 @@ Najm po:antropónimo
 Najm po:antropónimo [n-grama: Najm al-Din]
 al-Din po:antropónimo [n-grama: Najm al-Din]
 Najma po:antropónimo
-Najwa po:antropónimo
 Nakia po:antropónimo
-Nakisa po:antropónimo
 Nalan po:antropónimo
 Nalini po:antropónimo
 Nam-gi po:antropónimo
@@ -5098,11 +5337,13 @@ Naoto po:antropónimo
 Naoya po:antropónimo
 Naoyuki po:antropónimo
 Naozumi po:antropónimo
+Napoleone po:antropónimo
 Naqibullah po:antropónimo
 Narciso po:antropónimo
 Narcissa po:antropónimo
 Nareh po:antropónimo
 Nargess po:antropónimo
+Nari po:antropónimo
 Nariaki po:antropónimo
 Nariakira po:antropónimo
 Nariman po:antropónimo
@@ -5133,20 +5374,24 @@ Natalie po:antropónimo
 Natallia po:antropónimo
 Nataly po:antropónimo
 Natasha po:antropónimo
+Nate po:antropónimo
 Nathalie po:antropónimo
 Nathan po:antropónimo
+Natsue po:antropónimo
 Natsuki po:antropónimo
 Natsuko po:antropónimo
 Natsume po:antropónimo
 Natsumi po:antropónimo
 Navadurga po:antropónimo
 Navadurgas po:antropónimo
+Navaratnam po:antropónimo
 Navid po:antropónimo
 Navin po:antropónimo
 Navneet po:antropónimo
 Nawaf po:antropónimo
 Nawaz po:antropónimo
 Nawfal po:antropónimo
+Nayla po:antropónimo
 Naz po:antropónimo
 Nazan po:antropónimo
 Nazanin po:antropónimo
@@ -5191,6 +5436,7 @@ Nestor po:antropónimo
 Néstor po:antropónimo
 Nevan po:antropónimo
 Neven po:antropónimo
+Nevena po:antropónimo
 Nevin po:antropónimo
 Nezamysl po:antropónimo
 Nezha po:antropónimo
@@ -5216,6 +5462,7 @@ Niels po:antropónimo
 Nihad po:antropónimo
 Nihal po:antropónimo
 Nihan po:antropónimo
+Nihar po:antropónimo
 Nihat po:antropónimo
 Niilo po:antropónimo
 Nika po:antropónimo
@@ -5231,6 +5478,7 @@ Nilay po:antropónimo
 Nilesh po:antropónimo
 Niloufar po:antropónimo
 Nils po:antropónimo
+Nílton po:antropónimo
 Nilüfer po:antropónimo
 Nima po:antropónimo
 Nimatullah po:antropónimo
@@ -5239,10 +5487,12 @@ Nino po:antropónimo
 Nirav po:antropónimo
 Nirdesh po:antropónimo
 Nirṛti po:antropónimo
+Nitesh po:antropónimo
 Nitin po:antropónimo
 Nivea po:antropónimo
 Nizam po:antropónimo [n-grama: Nizam al-Din]
 al-Din po:antropónimo [n-grama: Nizam al-Din]
+Nizamettin po:antropónimo
 Njeri po:antropónimo
 Noa po:antropónimo
 Noah po:antropónimo
@@ -5328,6 +5578,7 @@ Ognjen po:antropónimo
 Ogün po:antropónimo
 Oğuz po:antropónimo
 Oğuzhan po:antropónimo
+Oh-seong po:antropónimo
 Oier po:antropónimo
 Oisin po:antropónimo
 Øivind po:antropónimo
@@ -5368,6 +5619,7 @@ Olwen po:antropónimo
 Olympias po:antropónimo
 Omar po:antropónimo
 Omero po:antropónimo
+Omi po:antropónimo
 Omid po:antropónimo
 Önder po:antropónimo
 Ondrej po:antropónimo
@@ -5400,12 +5652,16 @@ Oskars po:antropónimo
 Osman po:antropónimo
 Osmo po:antropónimo
 Osric po:antropónimo
+Osvald po:antropónimo
+Osvaldas po:antropónimo
 Osvaldo po:antropónimo
 Oswaldo po:antropónimo
 Otakar po:antropónimo
+Otávio po:antropónimo
 Othmar po:antropónimo
 Otoha po:antropónimo
 Otohiko po:antropónimo
+Otome po:antropónimo
 Ott po:antropónimo
 Ottavio po:antropónimo
 Otto po:antropónimo
@@ -5434,6 +5690,7 @@ Oylum po:antropónimo
 Özlem po:antropónimo
 Öznur po:antropónimo
 Öztürk po:antropónimo
+Paa po:antropónimo
 Paavo po:antropónimo
 Pablo po:antropónimo
 Paco po:antropónimo
@@ -5468,6 +5725,7 @@ Pasqual po:antropónimo
 Pasquale po:antropónimo
 Paterson po:antropónimo
 Pathibhara po:antropónimo
+Pathmanathan po:antropónimo
 Patience po:antropónimo
 Patrice po:antropónimo
 Patricia po:antropónimo
@@ -5485,7 +5743,9 @@ Paulette po:antropónimo
 Pauli po:antropónimo
 Paulina po:antropónimo
 Pauline po:antropónimo
+Paulius po:antropónimo
 Paulo po:antropónimo
+Paulus po:antropónimo
 Pauric po:antropónimo
 Pavel po:antropónimo
 Pavla po:antropónimo
@@ -5496,7 +5756,6 @@ Peadar po:antropónimo
 Pearl po:antropónimo
 Peep po:antropónimo
 Peeter po:antropónimo
-Pegah po:antropónimo
 Pegeen po:antropónimo
 Pejman po:antropónimo
 Pekka po:antropónimo
@@ -5547,16 +5806,17 @@ Pieter po:antropónimo
 Pietro po:antropónimo
 Piia po:antropónimo
 Pilar po:antropónimo
+Pim po:antropónimo
 Piotr po:antropónimo
 Pipaluk po:antropónimo
 Pipo po:antropónimo
 Pippa po:antropónimo
 Pirjo po:antropónimo
 Pınar po:antropónimo
-Pjeter po:antropónimo
+Pjetër po:antropónimo
 Placid po:antropónimo
+Plamen po:antropónimo
 Plor po:antropónimo [n-grama: Plor na mBan]
-na po:antropónimo [n-grama: Plor na mBan]
 mBan po:antropónimo [n-grama: Plor na mBan]
 Plutarch po:antropónimo
 Pól po:antropónimo
@@ -5565,12 +5825,15 @@ Polina po:antropónimo
 Polly po:antropónimo
 Polychronis po:antropónimo
 Pompeo po:antropónimo
+Ponnambalam po:antropónimo
 Poonam po:antropónimo
 Poppy po:antropónimo
 Porter po:antropónimo
+Poul po:antropónimo
 Pourang po:antropónimo
 Pouria po:antropónimo
 Povilas po:antropónimo
+Povl po:antropónimo
 Praharshitha po:antropónimo
 Prakash po:antropónimo
 Pramod po:antropónimo
@@ -5592,6 +5855,7 @@ Prija po:antropónimo
 Priscilla po:antropónimo
 Priska po:antropónimo
 Prithvi po:antropónimo
+Priyabrata po:antropónimo
 Prudence po:antropónimo
 Prunella po:antropónimo
 Przemysł po:antropónimo
@@ -5601,6 +5865,7 @@ Puccio po:antropónimo
 Puiu po:antropónimo
 Putana po:antropónimo
 Pygmalion po:antropónimo
+Pyotr po:antropónimo
 Qaid po:antropónimo
 Qaisar po:antropónimo
 Qamar po:antropónimo [n-grama: Qamar ud-Din]
@@ -5651,6 +5916,7 @@ Rafał po:antropónimo
 Raffaella po:antropónimo
 Raffaello po:antropónimo
 Rafiq po:antropónimo
+Raghavan po:antropónimo
 Raghnailt po:antropónimo
 Ragıp po:antropónimo
 Ragnall po:antropónimo
@@ -5673,6 +5939,7 @@ Raizo po:antropónimo
 Raj po:antropónimo
 Rajab po:antropónimo
 Rajaei po:antropónimo
+Rajaratnam po:antropónimo
 Raji po:antropónimo
 Rajinder po:antropónimo
 Rajiv po:antropónimo
@@ -5680,30 +5947,37 @@ Rajko po:antropónimo
 Rakesh po:antropónimo
 Ralph po:antropónimo
 Ramakant po:antropónimo
+Ramanathan po:antropónimo
 Ramazan po:antropónimo
 Ramesh po:antropónimo
+Rameshwor po:antropónimo
 Ramesses po:antropónimo
 Rami po:antropónimo
 Ramin po:antropónimo
 Raminta po:antropónimo
 Ramiz po:antropónimo
 Ramona po:antropónimo
+Ramūnas po:antropónimo
 Ramya po:antropónimo
 Ramzan po:antropónimo
 Ramzi po:antropónimo
 Ran po:antropónimo
-Rana po:antropónimo
 Ranald po:antropónimo
 Ranbir po:antropónimo
 Randall po:antropónimo
 Randel po:antropónimo
 Randell po:antropónimo
+Randhir po:antropónimo
 Rando po:antropónimo
 Randolf po:antropónimo
 Randolph po:antropónimo
 Randy po:antropónimo
 Ranganath po:antropónimo
+Ranganathan po:antropónimo
 Ranganayaki po:antropónimo
+Rani po:antropónimo
+Rani po:antropónimo [n-grama: Rani Bhatiyani]
+Bhatiyani po:antropónimo [n-grama: Rani Bhatiyani]
 Rania po:antropónimo
 Ranko po:antropónimo
 Ranulf po:antropónimo
@@ -5712,7 +5986,6 @@ Raoul po:antropónimo
 Raphael po:antropónimo
 Raphaël po:antropónimo
 Raquel po:antropónimo
-Rareș po:antropónimo
 Rashad po:antropónimo
 Rashid po:antropónimo
 Rashid po:antropónimo [n-grama: Rashid al-Din]
@@ -5736,6 +6009,8 @@ Ravirandal po:antropónimo [n-grama: Ravirandal Mataji]
 Mataji po:antropónimo [n-grama: Ravirandal Mataji]
 Rayan po:antropónimo
 Rayburn po:antropónimo
+Raymond po:antropónimo
+Răzvan po:antropónimo
 Rebecca po:antropónimo
 Recep po:antropónimo
 Redd po:antropónimo
@@ -5755,9 +6030,11 @@ Rein po:antropónimo
 Reinaldo po:antropónimo
 Reinhard po:antropónimo
 Reinhold po:antropónimo
+Reinis po:antropónimo
 Reizō po:antropónimo
 Réjean po:antropónimo
 Réka po:antropónimo
+Rekha po:antropónimo
 Rémi po:antropónimo
 Remigijus po:antropónimo
 Rémy po:antropónimo
@@ -5777,6 +6054,7 @@ Reşat po:antropónimo
 Reşid po:antropónimo
 Rex po:antropónimo
 Rexford po:antropónimo
+Rexhep po:antropónimo
 Reyhan po:antropónimo
 Reynold po:antropónimo
 Reza po:antropónimo
@@ -5787,6 +6065,7 @@ Rhoda po:antropónimo
 Rhodri po:antropónimo
 Rhona po:antropónimo
 Rhonda po:antropónimo
+Rhydian po:antropónimo
 Rhys po:antropónimo
 Riad po:antropónimo
 Riaz po:antropónimo
@@ -5857,12 +6136,14 @@ Rojina po:antropónimo
 Rok po:antropónimo
 Roko po:antropónimo
 Rokurō po:antropónimo
+Roland po:antropónimo
 Rolandas po:antropónimo
 Rolando po:antropónimo
 Roldán po:antropónimo
 Rolf po:antropónimo
 Rollin po:antropónimo
 Roma po:antropónimo
+Romain po:antropónimo
 Roman po:antropónimo
 Romana po:antropónimo
 Roméo po:antropónimo
@@ -5886,6 +6167,7 @@ Rosaria po:antropónimo
 Rosario po:antropónimo
 Rose po:antropónimo
 Rosemary po:antropónimo
+Rosendo po:antropónimo
 Rosetta po:antropónimo
 Roshanak po:antropónimo
 Rosie po:antropónimo
@@ -5911,7 +6193,6 @@ Ruggiero po:antropónimo
 Ruhi po:antropónimo
 Ruhullah po:antropónimo
 Rui po:antropónimo
-Rukmini po:antropónimo
 Rukn po:antropónimo [n-grama: Rukn al-Din]
 al-Din po:antropónimo [n-grama: Rukn al-Din]
 Rumi po:antropónimo
@@ -5971,6 +6252,7 @@ al-Din po:antropónimo [n-grama: Sa'd al-Din]
 Sa‘id po:antropónimo
 Saad po:antropónimo
 Saadallah po:antropónimo
+Saadia po:antropónimo
 Saara po:antropónimo
 Sabahattin po:antropónimo
 Sabatino po:antropónimo
@@ -5998,10 +6280,8 @@ Sadhbh po:antropónimo
 Sadik po:antropónimo
 Sadr po:antropónimo [n-grama: Sadr al-Din]
 al-Din po:antropónimo [n-grama: Sadr al-Din]
-Sadri po:antropónimo
 Saeko po:antropónimo
 Şafak po:antropónimo
-Safala po:antropónimo
 Safet po:antropónimo
 Saffet po:antropónimo
 Safi po:antropónimo
@@ -6009,6 +6289,7 @@ Safi po:antropónimo [n-grama: Safi al-Din]
 al-Din po:antropónimo [n-grama: Safi al-Din]
 Safiullah po:antropónimo
 Safiye po:antropónimo
+Sagar po:antropónimo
 Şahan po:antropónimo
 Sahar po:antropónimo
 Sahil po:antropónimo
@@ -6034,10 +6315,12 @@ Sajida po:antropónimo
 Sajjad po:antropónimo
 Sakae po:antropónimo
 Saket po:antropónimo
+Sakhra po:antropónimo
 Saki po:antropónimo
 Sakichi po:antropónimo
 Sakie po:antropónimo
 Sakiko po:antropónimo
+Sakina po:antropónimo
 Şakir po:antropónimo
 Sakura po:antropónimo
 Sakurako po:antropónimo
@@ -6070,9 +6353,9 @@ Samir po:antropónimo
 Samira po:antropónimo
 Samiullah po:antropónimo
 Sampurna po:antropónimo
+Samson po:antropónimo
 Samthann po:antropónimo
 Samuel po:antropónimo
-Sanada po:antropónimo
 Sanae po:antropónimo
 Sanah po:antropónimo
 Sanaullah po:antropónimo
@@ -6080,21 +6363,27 @@ Sanaz po:antropónimo
 Sancak po:antropónimo
 Sancho po:antropónimo
 Sandeep po:antropónimo
+Sandeep po:antropónimo [n-grama: Sandeep Kumar]
+Kumar po:antropónimo [n-grama: Sandeep Kumar]
 Sander po:antropónimo
 Sandhya po:antropónimo
+Sandipan po:antropónimo
 Sandis po:antropónimo
 Sándor po:antropónimo
+Sandra po:antropónimo
 Sandrine po:antropónimo
-Sandro po:antropónimo
 Sanem po:antropónimo
+Sang po:antropónimo
 Sang-chul po:antropónimo
 Sang-eun po:antropónimo
 Sang-hoon po:antropónimo
 Sang-hyun po:antropónimo
 Sang-jun po:antropónimo
 Sang-mi po:antropónimo
+Sang-won po:antropónimo
 Sang-woo po:antropónimo
 Sang-wook po:antropónimo
+Sanita po:antropónimo
 Sanna po:antropónimo
 Sante po:antropónimo
 Santeri po:antropónimo
@@ -6106,8 +6395,6 @@ Saoirse po:antropónimo
 Saorbhreathach po:antropónimo
 Saori po:antropónimo
 Saorlaith po:antropónimo
-Sapta po:antropónimo [n-grama: Sapta Matruka]
-Matruka po:antropónimo [n-grama: Sapta Matruka]
 Saqib po:antropónimo
 Saqlain po:antropónimo
 Sara po:antropónimo
@@ -6118,10 +6405,12 @@ Saranyu po:antropónimo
 Saraswati po:antropónimo
 Saraswati po:antropónimo [n-grama: Saraswati Devi]
 Devi po:antropónimo [n-grama: Saraswati Devi]
+Saravanan po:antropónimo
 Sardar po:antropónimo
 Sareh po:antropónimo
 Sarma po:antropónimo
 Sarmad po:antropónimo
+Sarmīte po:antropónimo
 Sarojini po:antropónimo
 Šarūnas po:antropónimo
 Saša po:antropónimo
@@ -6130,7 +6419,6 @@ Sasho po:antropónimo
 Saskia po:antropónimo
 Satam po:antropónimo
 Satenik po:antropónimo
-Sati po:antropónimo
 Satoko po:antropónimo
 Satomi po:antropónimo
 Satonari po:antropónimo
@@ -6148,6 +6436,7 @@ Saulius po:antropónimo
 Sava po:antropónimo
 Savannah po:antropónimo
 Savaş po:antropónimo
+Savatije po:antropónimo
 Savea po:antropónimo
 Saverio po:antropónimo
 Savitri po:antropónimo [n-grama: Savitri Brata]
@@ -6177,7 +6466,6 @@ Sebastian po:antropónimo
 Sébastien po:antropónimo
 Sebdann po:antropónimo
 Şebnem po:antropónimo
-Seda po:antropónimo
 Sedat po:antropónimo
 Sefa po:antropónimo
 Sefer po:antropónimo
@@ -6204,6 +6492,7 @@ Selblaith po:antropónimo
 Selçuk po:antropónimo
 Selina po:antropónimo
 Selma po:antropónimo
+Selvam po:antropónimo
 Semen po:antropónimo
 Semih po:antropónimo
 Semiha po:antropónimo
@@ -6217,7 +6506,12 @@ Seo-hyeon po:antropónimo
 Seo-jun po:antropónimo
 Seo-yeon po:antropónimo
 Seo-yun po:antropónimo
+Seok-ho po:antropónimo
+Seok-ju po:antropónimo
+Seol-hee po:antropónimo
+Seon-ok po:antropónimo
 Seonaidh po:antropónimo
+Seong-han po:antropónimo
 Seong-ja po:antropónimo
 Sepideh po:antropónimo
 Serafim po:antropónimo
@@ -6249,20 +6543,24 @@ Setsuna po:antropónimo
 Seul-ki po:antropónimo
 Seumas po:antropónimo
 Seung-ah po:antropónimo
+Seung-chul po:antropónimo
 Seung-eun po:antropónimo
 Seung-gi po:antropónimo
 Seung-hee po:antropónimo
 Seung-heon po:antropónimo
 Seung-ho po:antropónimo
 Seung-hoon po:antropónimo
+Seung-hwa po:antropónimo
 Seung-hwan po:antropónimo
 Seung-hyun po:antropónimo
+Seung-jae po:antropónimo
 Seung-jun po:antropónimo
 Seung-min po:antropónimo
 Seung-soo po:antropónimo
 Seung-won po:antropónimo
 Seung-woo po:antropónimo
 Seung-yeon po:antropónimo
+Seung-yong po:antropónimo
 Seung-yoon po:antropónimo
 Sevag po:antropónimo
 Severi po:antropónimo
@@ -6282,6 +6580,7 @@ Sezer po:antropónimo
 Sezgin po:antropónimo
 Shaaban po:antropónimo
 Shabana po:antropónimo
+Shabtai po:antropónimo
 Shachi po:antropónimo
 Shad po:antropónimo
 Shafiq po:antropónimo [n-grama: Shafiq ur Rahman]
@@ -6292,7 +6591,6 @@ Shahaf po:antropónimo
 Shahbaz po:antropónimo
 Shahd po:antropónimo
 Shahid po:antropónimo
-Shahnaz po:antropónimo
 Shahriyar po:antropónimo
 Shahrokh po:antropónimo
 Shahzad po:antropónimo
@@ -6395,6 +6693,7 @@ Shinzō po:antropónimo
 Shion po:antropónimo
 Shiori po:antropónimo
 Shira po:antropónimo
+Shire po:antropónimo
 Shirley po:antropónimo
 Shishir po:antropónimo
 Shishira po:antropónimo
@@ -6403,9 +6702,12 @@ Shizue po:antropónimo
 Shizuka po:antropónimo
 Shizuko po:antropónimo
 Shizuo po:antropónimo
+Shkodran po:antropónimo
+Shkumbin po:antropónimo
 Shō po:antropónimo
 Shōgo po:antropónimo
 Shōhei po:antropónimo
+Shohreh po:antropónimo
 Shōichi po:antropónimo
 Shōji po:antropónimo
 Shōjirō po:antropónimo
@@ -6459,6 +6761,7 @@ Sidqi po:antropónimo
 Sienna po:antropónimo
 Sigfried po:antropónimo
 Sigismund po:antropónimo
+Sigitas po:antropónimo
 Sigmar po:antropónimo
 Sigmund po:antropónimo
 Sigrid po:antropónimo
@@ -6478,8 +6781,10 @@ Sima po:antropónimo
 Sīmanis po:antropónimo
 Šime po:antropónimo
 Simin po:antropónimo
+Simion po:antropónimo
 Simo po:antropónimo
 Simon po:antropónimo
+Simona po:antropónimo
 Simonas po:antropónimo
 Simone po:antropónimo
 Šimun po:antropónimo
@@ -6523,6 +6828,7 @@ Smeet po:antropónimo
 Snežana po:antropónimo
 Snorri po:antropónimo
 So-hyun po:antropónimo
+So-won po:antropónimo
 So-yi po:antropónimo
 So-young po:antropónimo
 Sobieslaw po:antropónimo
@@ -6543,6 +6849,8 @@ Sonia po:antropónimo
 Sönmez po:antropónimo
 Sonosuke po:antropónimo
 Soo-ah po:antropónimo
+Soo-geun po:antropónimo
+Soo-hee po:antropónimo
 Soo-hyun po:antropónimo
 Soo-jin po:antropónimo
 Soo-jung po:antropónimo
@@ -6566,7 +6874,6 @@ Sōtarō po:antropónimo
 Sotiria po:antropónimo
 Sotirios po:antropónimo
 Sotiris po:antropónimo
-Soumen po:antropónimo
 Soumitra po:antropónimo
 Soumya po:antropónimo
 Sourav po:antropónimo
@@ -6574,6 +6881,7 @@ Spasoje po:antropónimo
 Spencer po:antropónimo
 Spiridon po:antropónimo
 Spiro po:antropónimo
+Spodris po:antropónimo
 Spyridon po:antropónimo
 Srđan po:antropónimo
 Srećko po:antropónimo
@@ -6632,7 +6940,11 @@ Su-ji po:antropónimo
 Su-mi po:antropónimo
 Suat po:antropónimo
 Subaru po:antropónimo
+Subramaniam po:antropónimo
 Subrata po:antropónimo
+Sudhir po:antropónimo
+Sudhir po:antropónimo [n-grama: Sudhir Kumar]
+Kumar po:antropónimo [n-grama: Sudhir Kumar]
 Suehiro po:antropónimo
 Suguru po:antropónimo
 Suha po:antropónimo
@@ -6660,6 +6972,7 @@ Summer po:antropónimo
 Sumru po:antropónimo
 Sun-hee po:antropónimo
 Sun-hwa po:antropónimo
+Sun-mi po:antropónimo
 Sun-ok po:antropónimo
 Sun-woo po:antropónimo
 Sun-young po:antropónimo
@@ -6667,26 +6980,35 @@ Suna po:antropónimo
 Sunaila po:antropónimo
 Sunao po:antropónimo
 Sunay po:antropónimo
+Sundar po:antropónimo
 Sunder po:antropónimo
 Sune po:antropónimo
 Sung-chul po:antropónimo
+Sung-ha po:antropónimo
+Sung-hee po:antropónimo
 Sung-ho po:antropónimo
 Sung-hoon po:antropónimo
 Sung-hyun po:antropónimo
+Sung-il po:antropónimo
 Sung-jae po:antropónimo
 Sung-jin po:antropónimo
+Sung-keun po:antropónimo
 Sung-ki po:antropónimo
+Sung-mi po:antropónimo
 Sung-min po:antropónimo
 Sung-mo po:antropónimo
 Sung-nam po:antropónimo
 Sung-soo po:antropónimo
 Sung-sook po:antropónimo
 Sung-won po:antropónimo
+Sung-woo po:antropónimo
+Sung-yong po:antropónimo
 Sunil po:antropónimo
 Sunniva po:antropónimo
 Surena po:antropónimo
+Surendranath po:antropónimo
 Suresh po:antropónimo
-Sureyya po:antropónimo
+Süreyya po:antropónimo
 Sureza po:antropónimo
 Surinder po:antropónimo
 Susan po:antropónimo
@@ -6746,6 +7068,7 @@ Tadanobu po:antropónimo
 Tadanori po:antropónimo
 Tadao po:antropónimo
 Tadaoki po:antropónimo
+Tadas po:antropónimo
 Tadashi po:antropónimo
 Tadataka po:antropónimo
 Tadateru po:antropónimo
@@ -6762,6 +7085,7 @@ Tae po:antropónimo
 Tae-hee po:antropónimo
 Tae-ho po:antropónimo
 Tae-hyun po:antropónimo
+Tae-il po:antropónimo
 Tae-joon po:antropónimo
 Tae-soo po:antropónimo
 Tae-suk po:antropónimo
@@ -6771,6 +7095,7 @@ Tae-woo po:antropónimo
 Tae-wook po:antropónimo
 Tae-woong po:antropónimo
 Tae-yeon po:antropónimo
+Tae-yong po:antropónimo
 Tae-young po:antropónimo
 Taeko po:antropónimo
 Táethen po:antropónimo
@@ -6849,7 +7174,6 @@ Talat po:antropónimo
 Talib po:antropónimo
 Talis po:antropónimo
 Talitha po:antropónimo
-Tālivaldis po:antropónimo
 Tallulah po:antropónimo
 Tamaki po:antropónimo
 Tamao po:antropónimo
@@ -6862,8 +7186,10 @@ Tammy po:antropónimo
 Tamotsu po:antropónimo
 Tamta po:antropónimo
 Tanel po:antropónimo
+Taneli po:antropónimo
 Taner po:antropónimo
 Tanguy po:antropónimo
+Tanisha po:antropónimo
 Tanju po:antropónimo
 Tanner po:antropónimo
 Tansel po:antropónimo
@@ -6927,19 +7253,20 @@ Teiji po:antropónimo
 Teijirō po:antropónimo
 Teiko po:antropónimo
 Teimuraz po:antropónimo
+Teitur po:antropónimo
 Teizō po:antropónimo
 Tejal po:antropónimo
 Tekin po:antropónimo
 Temba po:antropónimo
 Temel po:antropónimo
 Teodor po:antropónimo
-Teodoro po:antropónimo
 Teodosije po:antropónimo
 Teoman po:antropónimo
 Teppei po:antropónimo
 Terence po:antropónimo
 Teresa po:antropónimo
 Teri po:antropónimo
+Terry po:antropónimo
 Teru po:antropónimo
 Teruaki po:antropónimo
 Teruhiko po:antropónimo
@@ -6964,6 +7291,8 @@ Tetsuzō po:antropónimo
 Tettey po:antropónimo
 Tevfik po:antropónimo
 Tezcan po:antropónimo
+Thambiah po:antropónimo
+Thanasis po:antropónimo
 The po:antropónimo [n-grama: The Morrígan]
 Morrígan po:antropónimo [n-grama: The Morrígan]
 Thea po:antropónimo
@@ -6972,6 +7301,7 @@ Theo po:antropónimo
 Theodora po:antropónimo
 Theodore po:antropónimo
 Théodore po:antropónimo
+Théodule po:antropónimo
 Theophilus po:antropónimo
 Therapont po:antropónimo
 Thierry po:antropónimo
@@ -6988,6 +7318,7 @@ Thurmann po:antropónimo
 Thurza po:antropónimo
 Thyrsus po:antropónimo
 Tian po:antropónimo
+Tiberiu po:antropónimo
 Tibor po:antropónimo
 Tidiane po:antropónimo
 Tiffany po:antropónimo
@@ -7013,7 +7344,6 @@ Toby po:antropónimo
 Todor po:antropónimo
 Togan po:antropónimo
 Togo po:antropónimo
-Togrul po:antropónimo
 Toini po:antropónimo
 Toivo po:antropónimo
 Tokihiko po:antropónimo
@@ -7033,6 +7363,7 @@ Toma po:antropónimo
 Tomas po:antropónimo
 Tomás po:antropónimo
 Tomáš po:antropónimo
+Tomasz po:antropónimo
 Tomaž po:antropónimo
 Tomiko po:antropónimo
 Tomio po:antropónimo
@@ -7127,15 +7458,18 @@ Toyoko po:antropónimo
 Toyomatsu po:antropónimo
 Toyoshige po:antropónimo
 Toyozō po:antropónimo
+Traian po:antropónimo
 Tranquilino po:antropónimo
 Travis po:antropónimo
 Trevor po:antropónimo
 Tridevi po:antropónimo
+Trijata po:antropónimo
 Trina po:antropónimo
 Tripura po:antropónimo [n-grama: Tripura Sundari]
 Sundari po:antropónimo [n-grama: Tripura Sundari]
 Tristan po:antropónimo
 Trond po:antropónimo
+Tróndur po:antropónimo
 Troy po:antropónimo
 Truus po:antropónimo
 Trygve po:antropónimo
@@ -7215,6 +7549,7 @@ Ulaş po:antropónimo
 Uldis po:antropónimo
 Ulf po:antropónimo
 Ulick po:antropónimo
+Ulla po:antropónimo
 Üllar po:antropónimo
 Ülle po:antropónimo
 Ülo po:antropónimo
@@ -7222,7 +7557,6 @@ Ulric po:antropónimo
 Ulrica po:antropónimo
 Ulrich po:antropónimo
 Ulrik po:antropónimo
-Ulrike po:antropónimo
 Ulvi po:antropónimo
 Ulysse po:antropónimo
 Ulysses po:antropónimo
@@ -7252,13 +7586,11 @@ Ursula po:antropónimo
 Urtzi po:antropónimo
 Urve po:antropónimo
 Ushas po:antropónimo
-Usna po:antropónimo
 Uthman po:antropónimo
 Utto po:antropónimo
 Uuno po:antropónimo
 Uwe po:antropónimo
 Uxue po:antropónimo
-Uzay po:antropónimo
 Üzeyir po:antropónimo
 Vāc po:antropónimo
 Vache po:antropónimo
@@ -7291,6 +7623,7 @@ Valon po:antropónimo
 Valter po:antropónimo
 Valters po:antropónimo
 Valto po:antropónimo
+Van po:antropónimo
 Vance po:antropónimo
 Vanessa po:antropónimo
 Vanita po:antropónimo
@@ -7298,12 +7631,15 @@ Vanja po:antropónimo
 Vanna po:antropónimo
 Vanya po:antropónimo
 Varahi po:antropónimo
+Varatharajah po:antropónimo
+Varis po:antropónimo
 Varlam po:antropónimo
 Varsha po:antropónimo
 Varuni po:antropónimo
 Varuzhan po:antropónimo
 Vasavi po:antropónimo
 Vašek po:antropónimo
+Vasil po:antropónimo
 Vasile po:antropónimo
 Vasilisa po:antropónimo
 Vasily po:antropónimo
@@ -7321,6 +7657,7 @@ Veli po:antropónimo
 Velibor po:antropónimo
 Velichko po:antropónimo
 Velimir po:antropónimo
+Velizar po:antropónimo
 Veljko po:antropónimo
 Velma po:antropónimo
 Velta po:antropónimo
@@ -7359,11 +7696,13 @@ Vijayadurga po:antropónimo
 Vikas po:antropónimo
 Vikentije po:antropónimo
 Viktor po:antropónimo
+Viktoras po:antropónimo
 Viktoriya po:antropónimo
 Viktors po:antropónimo
 Vilhelm po:antropónimo
 Vilhjálmur po:antropónimo
 Viliamu po:antropónimo
+Vilis po:antropónimo
 Viljar po:antropónimo
 Viljo po:antropónimo
 Ville po:antropónimo
@@ -7397,9 +7736,10 @@ Vishva po:antropónimo [n-grama: Vishva Shakti Durga Mandir]
 Shakti po:antropónimo [n-grama: Vishva Shakti Durga Mandir]
 Durga po:antropónimo [n-grama: Vishva Shakti Durga Mandir]
 Mandir po:antropónimo [n-grama: Vishva Shakti Durga Mandir]
+Vishwambhari po:antropónimo
+Viswanathan po:antropónimo
 Vito po:antropónimo
 Vitomir po:antropónimo
-Vitthala-Rakhumai po:antropónimo
 Vittoria po:antropónimo
 Vittorio po:antropónimo
 Vivan po:antropónimo
@@ -7433,6 +7773,7 @@ Vsevolod po:antropónimo
 Vugar po:antropónimo
 Vujadin po:antropónimo
 Vuk po:antropónimo
+Vukajlo po:antropónimo
 Vukan po:antropónimo
 Vukašin po:antropónimo
 Vukmir po:antropónimo
@@ -7494,15 +7835,23 @@ Wolde po:antropónimo
 Woldemar po:antropónimo
 Wolf po:antropónimo
 Wolfgang po:antropónimo
+Won-chul po:antropónimo
+Won-ho po:antropónimo
+Won-il po:antropónimo
+Won-jae po:antropónimo
+Won-sik po:antropónimo
+Won-yong po:antropónimo
 Woo-jin po:antropónimo
 Woo-sung po:antropónimo
 Woodson po:antropónimo
+Woong po:antropónimo
 Wouter po:antropónimo
 Wyn po:antropónimo
 Xavier po:antropónimo
 Xemen po:antropónimo
 Xiaoliang po:antropónimo
 Xiaoling po:antropónimo
+Ximeno po:antropónimo
 Xiomara po:antropónimo
 Xóchitl po:antropónimo
 Yaeko po:antropónimo
@@ -7530,6 +7879,7 @@ Yara po:antropónimo
 Yaşar po:antropónimo
 Yash po:antropónimo
 Yasin po:antropónimo
+Yasmani po:antropónimo
 Yasmin po:antropónimo
 Yasser po:antropónimo
 Yasuaki po:antropónimo
@@ -7564,10 +7914,12 @@ Yavuz po:antropónimo
 Yaw po:antropónimo
 Yayoi po:antropónimo
 Yazar po:antropónimo
-Yazid po:antropónimo
 Ye-eun po:antropónimo
+Ye-ji po:antropónimo
 Ye-jin po:antropónimo
 Ye-jun po:antropónimo
+Ye-rin po:antropónimo
+Ye-seo po:antropónimo
 Ye-won po:antropónimo
 Yechiel po:antropónimo
 Yefim po:antropónimo
@@ -7579,8 +7931,11 @@ Yelena po:antropónimo
 Yeliz po:antropónimo
 Yenal po:antropónimo
 Yener po:antropónimo
+Yeo-jin po:antropónimo
+Yeon-hee po:antropónimo
 Yeon-seok po:antropónimo
 Yeon-woo po:antropónimo
+Yeong-ok po:antropónimo
 Yermolay po:antropónimo
 Yeşim po:antropónimo
 Yevhen po:antropónimo
@@ -7607,6 +7962,7 @@ Yōjirō po:antropónimo
 Yoko po:antropónimo
 Yonca po:antropónimo
 Yong-gi po:antropónimo
+Yong-ho po:antropónimo
 Yong-joon po:antropónimo
 Yoo-gun po:antropónimo
 Yoo-jung po:antropónimo
@@ -7677,13 +8033,16 @@ Young-ja po:antropónimo
 Young-jae po:antropónimo
 Young-jin po:antropónimo
 Young-joo po:antropónimo
+Young-jun po:antropónimo
 Young-mi po:antropónimo
 Young-min po:antropónimo
 Young-nam po:antropónimo
-Young-shik po:antropónimo
 Young-shin po:antropónimo
+Young-sik po:antropónimo
 Young-soo po:antropónimo
 Young-sook po:antropónimo
+Young-tae po:antropónimo
+Young-wook po:antropónimo
 Yōzō po:antropónimo
 Yū po:antropónimo
 Yu-jin po:antropónimo
@@ -7722,6 +8081,7 @@ Yulia po:antropónimo
 Yumei po:antropónimo
 Yumeko po:antropónimo
 Yumi po:antropónimo
+Yumika po:antropónimo
 Yumiko po:antropónimo
 Yun-seo po:antropónimo
 Yun-seok po:antropónimo
@@ -7734,7 +8094,9 @@ Yurina po:antropónimo
 Yury po:antropónimo
 Yūsaku po:antropónimo
 Yūsei po:antropónimo
+Yusha po:antropónimo
 Yūshi po:antropónimo
+Yustinus po:antropónimo
 Yusuf po:antropónimo
 Yusuf po:antropónimo [n-grama: Yusuf Ali]
 Ali po:antropónimo [n-grama: Yusuf Ali]
@@ -7748,7 +8110,6 @@ Yūzō po:antropónimo
 Yvan po:antropónimo
 Yves po:antropónimo
 Yvette po:antropónimo
-Yvo po:antropónimo
 Yvon po:antropónimo
 Yvonne po:antropónimo
 Zacharie po:antropónimo
@@ -7757,6 +8118,7 @@ Zadoc po:antropónimo
 Zafar po:antropónimo
 Zafarullah po:antropónimo
 Zafer po:antropónimo
+Zaharia po:antropónimo
 Zahed po:antropónimo
 Zahid po:antropónimo
 Zahida po:antropónimo
@@ -7779,7 +8141,6 @@ Zane po:antropónimo
 Žanis po:antropónimo
 Zanobi po:antropónimo
 Zara po:antropónimo
-Zarina po:antropónimo
 Žarko po:antropónimo
 Zawisza po:antropónimo
 Zayd po:antropónimo
@@ -7814,7 +8175,6 @@ Zenzō po:antropónimo
 Zerrin po:antropónimo
 Zeynel po:antropónimo
 Zeynep po:antropónimo
-Zhaleh po:antropónimo
 Zhijian po:antropónimo
 Zhiming po:antropónimo
 Zia po:antropónimo
@@ -7827,9 +8187,11 @@ Zigmas po:antropónimo
 Zihni po:antropónimo
 Zinoviy po:antropónimo
 Zinovy po:antropónimo
+Zinta po:antropónimo
 Zita po:antropónimo
 Zivah po:antropónimo
 Živan po:antropónimo
+Zivar po:antropónimo
 Živko po:antropónimo
 Živojin po:antropónimo
 Živorad po:antropónimo
@@ -7845,6 +8207,7 @@ Zoilos po:antropónimo
 Zoltán po:antropónimo
 Zora po:antropónimo
 Zoran po:antropónimo
+Zorica po:antropónimo
 Zoya po:antropónimo
 Zrinko po:antropónimo
 Zsófia po:antropónimo
@@ -7855,5 +8218,6 @@ Zülfü po:antropónimo
 Zvi po:antropónimo
 Zvonimir po:antropónimo
 Žydrūnas po:antropónimo
+Žygimantas po:antropónimo
 Þorsteinn po:antropónimo
 Þorvaldur po:antropónimo

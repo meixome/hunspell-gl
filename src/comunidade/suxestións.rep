@@ -173,6 +173,11 @@ ci ce      # ciar → cear.
 cí ce      # ciar → cear.
 cí cé      # ciar → cear.
 ci z     # Exemplo: espaciar → espazar.
+
+# cián → ciano
+^cián ciano
+^ciá ciana
+
 coall call      # coallar → callar.
 coáll cáll      # coallar → callar.
 coiñ cuiñ      # coiñar → cuiñar.

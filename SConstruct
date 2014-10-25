@@ -6,7 +6,7 @@ import mmap, os, PyICU, re, subprocess
 
 defaultAff  = u'norma'
 defaultDic  = u'drag,norma'
-defaultRep  = u'comunidade,wikipedia'
+defaultRep  = u'comunidade,drag,wikipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#

@@ -1,0 +1,6 @@
+# hashtag → cancelo
+^hashtag cancelo
+
+# trending topic
+^trending$ do_momento
+^topic tema

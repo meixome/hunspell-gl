@@ -1,8 +1,5 @@
 Rioxa po:topónimo [n-grama: A Rioxa]
-Alacant po:topónimo
 Alacantí po:topónimo
-Albacete po:topónimo
-Almería po:topónimo
 Alpujarras po:topónimo
 Alt po:topónimo [n-grama: Alt Camp]
 Camp po:topónimo [n-grama: Alt Camp]
@@ -22,8 +19,6 @@ Anoia po:topónimo
 Aragón po:topónimo
 Aranda po:topónimo
 Asturias po:topónimo
-Ávila po:topónimo
-Badaxoz po:topónimo
 Bages po:topónimo
 Baix po:topónimo [n-grama: Baix Camp]
 Camp po:topónimo [n-grama: Baix Camp]
@@ -45,22 +40,19 @@ Bajo po:topónimo [n-grama: Bajo Cinca]
 Cinca po:topónimo [n-grama: Bajo Cinca]
 Bajo po:topónimo [n-grama: Bajo Martín]
 Martín po:topónimo [n-grama: Bajo Martín]
-Barcelona po:topónimo
 Barcelonès po:topónimo
 Berguedà po:topónimo
 Bisbarra po:topónimo [n-grama: Bisbarra de Seabra]
 Seabra po:topónimo [n-grama: Bisbarra de Seabra]
 Biscaia po:topónimo
-Burgos po:topónimo
-Cáceres po:topónimo
-Cádiz po:topónimo
-Calatayud po:topónimo
 Camp po:topónimo [n-grama: Camp de Tarragona]
 Tarragona po:topónimo [n-grama: Camp de Tarragona]
 Camp po:topónimo [n-grama: Camp de Túria]
 Túria po:topónimo [n-grama: Camp de Túria]
 Belchite po:topónimo [n-grama: Campo de Belchite]
 Borja po:topónimo [n-grama: Campo de Borja]
+Cariñena po:topónimo [n-grama: Campo de Cariñena]
+Daroca po:topónimo [n-grama: Campo de Daroca]
 Xibraltar po:topónimo [n-grama: Campo de Xibraltar]
 Canarias po:topónimo
 Cantabria po:topónimo
@@ -68,10 +60,10 @@ Castela po:topónimo [n-grama: Castela e León]
 León po:topónimo [n-grama: Castela e León]
 Castela-A po:topónimo [n-grama: Castela-A Mancha]
 Mancha po:topónimo [n-grama: Castela-A Mancha]
-Castelló po:topónimo
 Cataluña po:topónimo
 Cerdaña po:topónimo
-Cinco po:topónimo [n-grama: Cinco Villas]
+Cinca po:topónimo [n-grama: Cinca Medio]
+Medio po:topónimo [n-grama: Cinca Medio]
 Villas po:topónimo [n-grama: Cinco Villas]
 Limia po:topónimo [n-grama: Comarca da Baixa Limia]
 Barbanza po:topónimo [n-grama: Comarca da Barbanza]
@@ -154,14 +146,6 @@ Xallas po:topónimo [n-grama: Comarca do Xallas]
 Ancares po:topónimo [n-grama: Comarca dos Ancares]
 Valles po:topónimo [n-grama: Comarca dos Valles Pasiegos]
 Pasiegos po:topónimo [n-grama: Comarca dos Valles Pasiegos]
-Comunidade po:topónimo [n-grama: Comarcas da Comunidade Valenciana]
-Valenciana po:topónimo [n-grama: Comarcas da Comunidade Valenciana]
-Aragón po:topónimo [n-grama: Comarcas de Aragón]
-Asturias po:topónimo [n-grama: Comarcas de Asturias]
-Biscaia po:topónimo [n-grama: Comarcas de Biscaia]
-Cantabria po:topónimo [n-grama: Comarcas de Cantabria]
-Cataluña po:topónimo [n-grama: Comarcas de Cataluña]
-Galicia po:topónimo [n-grama: Comarcas de Galicia]
 Comunidade po:topónimo [n-grama: Comunidade de Calatayud]
 Calatayud po:topónimo [n-grama: Comunidade de Calatayud]
 Comunidade po:topónimo [n-grama: Comunidade de Madrid]
@@ -172,29 +156,24 @@ Comunidade po:topónimo [n-grama: Comunidade Valenciana]
 Valenciana po:topónimo [n-grama: Comunidade Valenciana]
 Conca po:topónimo [n-grama: Conca de Barberà]
 Barberà po:topónimo [n-grama: Conca de Barberà]
-Córdoba po:topónimo
-Coruña po:topónimo
-occidental po:topónimo [n-grama: Costa occidental de Cantabria]
 Cantabria po:topónimo [n-grama: Costa occidental de Cantabria]
-oriental po:topónimo [n-grama: Costa oriental de Cantabria]
 Cantabria po:topónimo [n-grama: Costa oriental de Cantabria]
 Costera po:topónimo
 Cuadrillas po:topónimo [n-grama: Cuadrillas de Áraba]
 Áraba po:topónimo [n-grama: Cuadrillas de Áraba]
-Cuenca po:topónimo
+Cuencas po:topónimo [n-grama: Cuencas Mineras]
+Mineras po:topónimo [n-grama: Cuencas Mineras]
 Duranguesado po:topónimo
 Empordà po:topónimo
 Estremadura po:topónimo
 Foia po:topónimo [n-grama: Foia de Bunyol]
 Bunyol po:topónimo [n-grama: Foia de Bunyol]
-Galicia po:topónimo
 Garraf po:topónimo
 Garrigues po:topónimo
 Garrotxa po:topónimo
 Gironès po:topónimo
 Bilbao po:topónimo [n-grama: Gran Bilbao]
-Granada po:topónimo
-Guadalaxara po:topónimo
+Gúdar-Javalambre po:topónimo
 Guipúscoa po:topónimo
 Horta po:topónimo [n-grama: Horta Nord]
 Nord po:topónimo [n-grama: Horta Nord]
@@ -204,10 +183,9 @@ Horta po:topónimo [n-grama: Horta Sud]
 Sud po:topónimo [n-grama: Horta Sud]
 Hoya po:topónimo [n-grama: Hoya de Huesca]
 Huesca po:topónimo [n-grama: Hoya de Huesca]
-Huelva po:topónimo
-Huesca po:topónimo
 Baleares po:topónimo [n-grama: Illas Baleares]
 Jacetania po:topónimo
+Jiloca po:topónimo
 La po:topónimo [n-grama: La Alcarria]
 Alcarria po:topónimo [n-grama: La Alcarria]
 La po:topónimo [n-grama: La Litera]
@@ -217,82 +195,119 @@ Serranía po:topónimo [n-grama: La Serranía]
 Las po:topónimo [n-grama: Las Hurdes]
 Hurdes po:topónimo [n-grama: Las Hurdes]
 Lea-Artibai po:topónimo
-León po:topónimo
 Liébana po:topónimo
-Lleida po:topónimo
 Los po:topónimo [n-grama: Los Monegros]
 Monegros po:topónimo [n-grama: Los Monegros]
-Lugo po:topónimo
-Málaga po:topónimo
+Maestrazgo po:topónimo
+Maragatería po:topónimo
 Maresme po:topónimo
 Marina po:topónimo [n-grama: Marina Alta]
 Marina po:topónimo [n-grama: Marina Baixa]
 Mariña po:topónimo [n-grama: Mariña de Lugo]
 Lugo po:topónimo [n-grama: Mariña de Lugo]
+Matarraña po:topónimo
 Montsià po:topónimo
 Navarra po:topónimo
 Noguera po:topónimo
 Bierzo po:topónimo [n-grama: O Bierzo]
 Osona po:topónimo
-Ourense po:topónimo
 Vasco po:topónimo [n-grama: País Vasco]
-Palencia po:topónimo
 Pallars po:topónimo
 Pallars po:topónimo [n-grama: Pallars Jussà]
 Jussà po:topónimo [n-grama: Pallars Jussà]
 Pallars po:topónimo [n-grama: Pallars Sobirà]
 Sobirà po:topónimo [n-grama: Pallars Sobirà]
-Palmas po:topónimo
 Penedès po:topónimo
 Pla po:topónimo [n-grama: Pla d'Urgell]
 d'Urgell po:topónimo [n-grama: Pla d'Urgell]
 Pla po:topónimo [n-grama: Pla de l'Estany]
 l'Estany po:topónimo [n-grama: Pla de l'Estany]
-Pontevedra po:topónimo
 Priorat po:topónimo
+Coruña po:topónimo [n-grama: Provincia da Coruña]
+Palmas po:topónimo [n-grama: Provincia das Palmas]
+Alacant po:topónimo [n-grama: Provincia de Alacant]
+Albacete po:topónimo [n-grama: Provincia de Albacete]
+Almería po:topónimo [n-grama: Provincia de Almería]
+Ávila po:topónimo [n-grama: Provincia de Ávila]
+Badaxoz po:topónimo [n-grama: Provincia de Badaxoz]
+Barcelona po:topónimo [n-grama: Provincia de Barcelona]
+Burgos po:topónimo [n-grama: Provincia de Burgos]
+Cáceres po:topónimo [n-grama: Provincia de Cáceres]
+Cádiz po:topónimo [n-grama: Provincia de Cádiz]
+Calatayud po:topónimo [n-grama: Provincia de Calatayud]
+Castelló po:topónimo [n-grama: Provincia de Castelló]
+Córdoba po:topónimo [n-grama: Provincia de Córdoba]
+Cuenca po:topónimo [n-grama: Provincia de Cuenca]
+Granada po:topónimo [n-grama: Provincia de Granada]
+Guadalaxara po:topónimo [n-grama: Provincia de Guadalaxara]
+Huelva po:topónimo [n-grama: Provincia de Huelva]
+Huesca po:topónimo [n-grama: Provincia de Huesca]
+León po:topónimo [n-grama: Provincia de León]
+Lleida po:topónimo [n-grama: Provincia de Lleida]
+Lugo po:topónimo [n-grama: Provincia de Lugo]
+Málaga po:topónimo [n-grama: Provincia de Málaga]
+Ourense po:topónimo [n-grama: Provincia de Ourense]
+Palencia po:topónimo [n-grama: Provincia de Palencia]
+Pontevedra po:topónimo [n-grama: Provincia de Pontevedra]
+Salamanca po:topónimo [n-grama: Provincia de Salamanca]
+Tenerife po:topónimo [n-grama: Provincia de Santa Cruz de Tenerife]
+Segovia po:topónimo [n-grama: Provincia de Segovia]
+Sevilla po:topónimo [n-grama: Provincia de Sevilla]
+Soria po:topónimo [n-grama: Provincia de Soria]
+Tarragona po:topónimo [n-grama: Provincia de Tarragona]
+Teruel po:topónimo [n-grama: Provincia de Teruel]
+Toledo po:topónimo [n-grama: Provincia de Toledo]
+Valencia po:topónimo [n-grama: Provincia de Valencia]
+Valladolid po:topónimo [n-grama: Provincia de Valladolid]
+Vigo po:topónimo [n-grama: Provincia de Vigo]
+Xaén po:topónimo [n-grama: Provincia de Xaén]
+Xirona po:topónimo [n-grama: Provincia de Xirona]
+Zamora po:topónimo [n-grama: Provincia de Zamora]
+Zaragoza po:topónimo [n-grama: Provincia de Zaragoza]
 Murcia po:topónimo [n-grama: Rexión de Murcia]
 Ribagorza po:topónimo
+Ribera po:topónimo [n-grama: Ribera Alta del Ebro]
+del po:topónimo [n-grama: Ribera Alta del Ebro]
+Ebro po:topónimo [n-grama: Ribera Alta del Ebro]
+Ribera po:topónimo [n-grama: Ribera Baja del Ebro]
+Baja po:topónimo [n-grama: Ribera Baja del Ebro]
+del po:topónimo [n-grama: Ribera Baja del Ebro]
+Ebro po:topónimo [n-grama: Ribera Baja del Ebro]
 Ribera po:topónimo [n-grama: Ribera d'Ebre]
 d'Ebre po:topónimo [n-grama: Ribera d'Ebre]
 Rincón po:topónimo [n-grama: Rincón de Ademuz]
 Ademuz po:topónimo [n-grama: Rincón de Ademuz]
 Ripollès po:topónimo
-Salamanca po:topónimo
-Tenerife po:topónimo [n-grama: Santa Cruz de Tenerife]
 Seabra po:topónimo
 Segarra po:topónimo
-Segovia po:topónimo
 Segrià po:topónimo
 Selva po:topónimo
 Serrans po:topónimo
-Sevilla po:topónimo
+Sierra po:topónimo [n-grama: Sierra de Albarracín]
+Albarracín po:topónimo [n-grama: Sierra de Albarracín]
 Sobrarbe po:topónimo
 Solsonès po:topónimo
 Somontano po:topónimo [n-grama: Somontano de Barbastro]
 Barbastro po:topónimo [n-grama: Somontano de Barbastro]
-Soria po:topónimo
-Tarragona po:topónimo
+Tarazona po:topónimo [n-grama: Tarazona y el Moncayo]
+y po:topónimo [n-grama: Tarazona y el Moncayo]
+el po:topónimo [n-grama: Tarazona y el Moncayo]
+Moncayo po:topónimo [n-grama: Tarazona y el Moncayo]
 Tarragonès po:topónimo
 Terra po:topónimo [n-grama: Terra Alta]
-Teruel po:topónimo
 Tierra po:topónimo [n-grama: Tierra de Alba]
 Alba po:topónimo [n-grama: Tierra de Alba]
 Tierra po:topónimo [n-grama: Tierra de Campos]
+Tierra po:topónimo [n-grama: Tierra de Ledesma]
+Ledesma po:topónimo [n-grama: Tierra de Ledesma]
 Tierra po:topónimo [n-grama: Tierra del Pan]
 del po:topónimo [n-grama: Tierra del Pan]
 Pan po:topónimo [n-grama: Tierra del Pan]
 Tierras po:topónimo [n-grama: Tierras Altas]
-Toledo po:topónimo
 Urgell po:topónimo
 Arán po:topónimo [n-grama: Val de Arán]
 Miñor po:topónimo [n-grama: Val Miñor]
-Valencia po:topónimo
-Valladolid po:topónimo
+Valdejalón po:topónimo
 Vallès po:topónimo
 Vallès po:topónimo [n-grama: Vallès Occidental]
 Vallès po:topónimo [n-grama: Vallès Oriental]
-Vigo po:topónimo
-Xaén po:topónimo
-Xirona po:topónimo
-Zamora po:topónimo
-Zaragoza po:topónimo
