@@ -85,6 +85,7 @@ Team po:nome [n-grama: Connew Racing Team]
 Cooper po:nome [n-grama: Cooper Car Company]
 Car po:nome [n-grama: Cooper Car Company]
 Company po:nome [n-grama: Cooper Car Company]
+Copersucar po:nome
 Coventry po:nome [n-grama: Coventry Climax]
 Climax po:nome [n-grama: Coventry Climax]
 Tomaso po:nome [n-grama: De Tomaso Automobili SpA]
@@ -116,6 +117,14 @@ ERA po:nome
 Ettore po:nome [n-grama: Ettore Bugatti Automobiles]
 Bugatti po:nome [n-grama: Ettore Bugatti Automobiles]
 Automobiles po:nome [n-grama: Ettore Bugatti Automobiles]
+EuroBrun po:nome [n-grama: EuroBrun Racing]
+Racing po:nome [n-grama: EuroBrun Racing]
+First po:nome [n-grama: First Racing]
+Racing po:nome [n-grama: First Racing]
+FIRST po:nome [n-grama: FIRST Racing]
+Racing po:nome [n-grama: FIRST Racing]
+Fittipaldi po:nome [n-grama: Fittipaldi Automotive]
+Automotive po:nome [n-grama: Fittipaldi Automotive]
 Force po:nome [n-grama: Force India Formula One Team Limited]
 India po:nome [n-grama: Force India Formula One Team Limited]
 Formula po:nome [n-grama: Force India Formula One Team Limited]
@@ -159,10 +168,14 @@ Cars po:nome [n-grama: JBW Cars]
 Jordan po:nome [n-grama: Jordan Grand Prix]
 Grand po:nome [n-grama: Jordan Grand Prix]
 Prix po:nome [n-grama: Jordan Grand Prix]
+Kauhsen po:nome
 Klenk-Meteor po:nome
+Kojima po:nome [n-grama: Kojima Engineering]
+Engineering po:nome [n-grama: Kojima Engineering]
 Kurtis po:nome [n-grama: Kurtis Kraft]
 Kraft po:nome [n-grama: Kurtis Kraft]
 LDS po:nome
+LEC po:nome
 Lola po:nome
 Lola po:nome [n-grama: Lola Racing Cars]
 Racing po:nome [n-grama: Lola Racing Cars]
@@ -187,10 +200,12 @@ Marussia po:nome [n-grama: Marussia Virgin Racing]
 Virgin po:nome [n-grama: Marussia Virgin Racing]
 Racing po:nome [n-grama: Marussia Virgin Racing]
 Matra po:nome
+McGuire po:nome
 McLaren po:nome
 Mécanique po:nome [n-grama: Mécanique Aviation Traction]
 Aviation po:nome [n-grama: Mécanique Aviation Traction]
 Traction po:nome [n-grama: Mécanique Aviation Traction]
+Mercedes-Benz po:nome [n-grama: Mercedes-Benz na Fórmula 1]
 Mercedes-Benz|Mercedes po:nome [n-grama: Mercedes-Benz|Mercedes AMG Petronas Formula One Team]
 AMG po:nome [n-grama: Mercedes-Benz|Mercedes AMG Petronas Formula One Team]
 Petronas po:nome [n-grama: Mercedes-Benz|Mercedes AMG Petronas Formula One Team]
@@ -200,6 +215,7 @@ Team po:nome [n-grama: Mercedes-Benz|Mercedes AMG Petronas Formula One Team]
 Mercedes-Benz|Mercedes po:nome [n-grama: Mercedes-Benz|Mercedes Grand Prix]
 Grand po:nome [n-grama: Mercedes-Benz|Mercedes Grand Prix]
 Prix po:nome [n-grama: Mercedes-Benz|Mercedes Grand Prix]
+Merzario po:nome
 MF1 po:nome [n-grama: MF1 Racing]
 Racing po:nome [n-grama: MF1 Racing]
 Midland po:nome [n-grama: Midland F1 Racing]
@@ -220,10 +236,16 @@ Costruzioni po:nome [n-grama: Officine Specializzate Costruzioni Automobili]
 Automobili po:nome [n-grama: Officine Specializzate Costruzioni Automobili]
 Osca po:nome
 OSCA po:nome
+Penske po:nome [n-grama: Penske Racing]
+Racing po:nome [n-grama: Penske Racing]
 RBR po:nome
+RE po:nome
+Realpha po:nome
 Red po:nome [n-grama: Red Bull Racing]
 Bull po:nome [n-grama: Red Bull Racing]
 Racing po:nome [n-grama: Red Bull Racing]
+Resultados po:nome [n-grama: Resultados de Mercedes-Benz]
+Mercedes-Benz po:nome [n-grama: Resultados de Mercedes-Benz]
 Sahara po:nome [n-grama: Sahara Force India Formula One Team]
 Force po:nome [n-grama: Sahara Force India Formula One Team]
 India po:nome [n-grama: Sahara Force India Formula One Team]
@@ -238,6 +260,8 @@ Scirocco po:nome
 Scuderia po:nome [n-grama: Scuderia Ferrari Marlboro]
 Ferrari po:nome [n-grama: Scuderia Ferrari Marlboro]
 Marlboro po:nome [n-grama: Scuderia Ferrari Marlboro]
+Scuderia po:nome [n-grama: Scuderia Milano]
+Milano po:nome [n-grama: Scuderia Milano]
 Scuderia po:nome [n-grama: Scuderia Toro Rosso]
 Toro po:nome [n-grama: Scuderia Toro Rosso]
 Rosso po:nome [n-grama: Scuderia Toro Rosso]
@@ -277,6 +301,10 @@ Talbot po:nome
 Talbot-Lago po:nome
 Team po:nome [n-grama: Team Lotus]
 Lotus po:nome [n-grama: Team Lotus]
+Team po:nome [n-grama: Team Penske]
+Penske po:nome [n-grama: Team Penske]
+Team po:nome [n-grama: Team Rebaque]
+Rebaque po:nome [n-grama: Team Rebaque]
 Tec-Mec po:nome
 Tecno po:nome
 Token po:nome [n-grama: Token Racing]

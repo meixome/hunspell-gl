@@ -2,7 +2,9 @@ ALÉNA po:nome
 Banco po:nome [n-grama: Banco Central Europeo]
 Banco po:nome [n-grama: Banco Europeo de Investimento]
 Investimento po:nome [n-grama: Banco Europeo de Investimento]
+BEI po:nome
 BRICS po:nome
+CECA po:nome
 Comunidade po:nome [n-grama: Comunidade Económica e Monetaria de África Central]
 Económica po:nome [n-grama: Comunidade Económica e Monetaria de África Central]
 Monetaria po:nome [n-grama: Comunidade Económica e Monetaria de África Central]
@@ -16,10 +18,16 @@ G20 po:nome
 G8 po:nome
 Grupo po:nome [n-grama: Grupo dos 20]
 Grupo po:nome [n-grama: Grupo dos Oito]
-Oito po:nome [n-grama: Grupo dos Oito]
+Mercado po:nome [n-grama: Mercado Común do Sur]
+Común po:nome [n-grama: Mercado Común do Sur]
 Mercosul po:nome
 Mercosur po:nome
 NAFTA po:nome
+North po:nome [n-grama: North American Free Trade Agreement]
+American po:nome [n-grama: North American Free Trade Agreement]
+Free po:nome [n-grama: North American Free Trade Agreement]
+Trade po:nome [n-grama: North American Free Trade Agreement]
+Agreement po:nome [n-grama: North American Free Trade Agreement]
 Oficina po:nome [n-grama: Oficina Europea de Patentes]
 Patentes po:nome [n-grama: Oficina Europea de Patentes]
 Organización po:nome [n-grama: Organización de Países Exportadores de Petróleo]
@@ -44,6 +52,13 @@ comercio po:nome [n-grama: Tratado de libre comercio de América do Norte]
 América po:nome [n-grama: Tratado de libre comercio de América do Norte]
 Tratado po:nome [n-grama: Tratado de Niza]
 Niza po:nome [n-grama: Tratado de Niza]
+UE po:nome
+UEa po:nome
+UEEa po:nome
+Euroasia po:nome [n-grama: Unión da Euroasia]
 del po:nome [n-grama: Unión del Magreb Árabe]
 Magreb po:nome [n-grama: Unión del Magreb Árabe]
 Árabe po:nome [n-grama: Unión del Magreb Árabe]
+Económica po:nome [n-grama: Unión Económica Eurasiática]
+Eurasiática po:nome [n-grama: Unión Económica Eurasiática]
+Euroasiática po:nome [n-grama: Unión Euroasiática]

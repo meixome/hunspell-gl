@@ -21,11 +21,56 @@ tableStartTagPattern = re.compile(u"(?<!\{)\{\|")
 tableEndTagPattern = re.compile(u"\|\}(?!\})")
 fileStartTagPattern = re.compile(u"(?i)\[\[ *(File|Image|Ficheiro|Imaxe):")
 
-highlightedPattern = re.compile(u"(\'\'\'(\'\')?|\(\'\'\'?) *(?P<entry>.*?) *((\'\')?\'\'\'|\'\'\'?\))")
+
+sep = u"(?:[-,;]| e ) *"
+colon = u"(?:[:,] *)?"
+nexo = u"(?:do|en) *"
+
+term = u"(?:\'\'\' *[^)]*? *\'\'\'|\'\' *[^)]*? *\'\'|\{\{ *nihongo *\|.*?\}\}) *"
+thisOrThat = u"(?:abreviado *)?{term}(?: *ou *{term})? *".format(term=term)
+language = u"(?:\w+|\[\[[^]|]+\|[^]]+\]\]) *"
+
+termo = u"(?:\'\'\' *([^)]*?) *\'\'\'|\'\' *([^)]*?) *\'\'|\{\{ *nihongo *\| *(.*?) *\|.*?\}\}) *"
+istoOuAquilo = u"(?:abreviado *)?{term}(?: *ou *{term})? *".format(term=termo)
+galego = u"(?:galego|\[\[[^]|]+\| *galego *\]\]) *"
+
+friends = u"(?:(?:(?:{frase1}|{frase2})(?:{sep}{istoOuAquilo})?)|(?:(?:{phrase1}|{phrase2}|{phrase4})(?:{sep}{thisOrThat})?))" \
+         u"(?:{sep}(?:(?:(?:{frase1}|{frase2}|{frase3})(?:{sep}{istoOuAquilo})?)|(?:(?:{phrase1}|{phrase2}|{phrase3}|{phrase4})(?:{sep}{thisOrThat})?)))*".format(
+    frase1=nexo+galego+colon+istoOuAquilo,
+    frase2=istoOuAquilo+nexo+galego,
+    frase3=galego+colon+istoOuAquilo,
+    phrase1=nexo+language+colon+thisOrThat,
+    phrase2=thisOrThat+nexo+language,
+    phrase3=language+colon+thisOrThat,
+    phrase4=u"\{{\{{ *lang-[^|]+\|{}\}}\}}".format(term),
+    sep=sep,
+    istoOuAquilo=istoOuAquilo,
+    thisOrThat=thisOrThat,
+)
+
+siglasWasp = u"\'\'\'\w\'\'\'\'\'\w*\'\'(?:[\w, -]+\'\'\'\w\'\'\'\'\'\w*\'\')*"  # e.g. https://gl.wikipedia.org/wiki/WASP
+siglasAbap = u"\'\'\'\'\'\w\'\'\'\w*(?:[\w, -]+\'\'\'\w\'\'\'\w*)*\'\'"  # e.g. https://gl.wikipedia.org/wiki/ABAP
+siglasPl1 = u"\'\'\'\w\'\'\'\w*(?:[\w, -]+\'\'\'\w\'\'\'\w*)*"  # e.g. https://gl.wikipedia.org/wiki/PL/1
+
+highlightedPatternStrings = [
+    u"\( *\'\'\' *\[[^ ]+\.ogg +\'\' *[^)]+ *\'\' *\] *\'\'\' *\)",
+    u"\( *{thisOrThat}{sep}{friends}(?:{sep}{friends})* *\)".format(thisOrThat=istoOuAquilo, sep=sep, friends=friends),
+    u"\( *{}\)".format(friends),
+    u"\( *{term}{sep}na *actualidade *{term}\)".format(term=termo, sep=sep),
+    u"\( *{term},? *ou *{term}\)".format(term=termo),
+    u"\( *{term}{sep}{term}\)".format(term=termo, sep=sep),
+    u"\( *(?:{}) *\)".format(u"|".join((siglasWasp, siglasAbap, siglasPl1))),
+    u"\( *{}\)".format(termo),
+    u"|".join((siglasWasp, siglasAbap, siglasPl1)),
+    u"\'\'\'\'\' *(.*?) *\'\'\'\'\'",
+    u"\'\'\' *\{\{ *nihongo *\| *(.*?) *\|.*?\}\} *\'\'\'",
+    u"\'\'\' *(.*?) *\'\'\'",
+]
+highlightedPatterns = [re.compile(patternString, re.UNICODE) for patternString in highlightedPatternStrings]
+
 
 parenthesis = re.compile(u" *\([^)]*\)")
 reference = re.compile(u"< *ref[^>]*>.*?< */ *ref *>")
-wikiTags = re.compile(u"\[\[|\]\]")
 sentenceSeparatorPattern = re.compile(u"(?<!(a\.C|..D|d\.C|.St|..[A-Z]))\. ")
 
 
@@ -251,6 +296,7 @@ class CategoryBrowser(PageGenerator):
 
     def __init__(self, site=None,
                  categoryNames=[], ignoreCategoryNames=[], categoryOfCategoriesNames=[],
+                 categoryOfPagesNames=[],
                  validPagePattern=None, invalidPagePattern=None,
                  validCategoryPattern=None, invalidCategoryPattern=None,
                  invalidCategoryAsPagePattern=None):
@@ -262,6 +308,7 @@ class CategoryBrowser(PageGenerator):
         self.categoryNames = categoryNames
         self.ignoreCategoryNames = ignoreCategoryNames
         self.categoryOfCategoriesNames = categoryOfCategoriesNames
+        self.categoryOfPagesNames = categoryOfPagesNames
 
         # Patterns.
         self.validPagePattern = parsePattern(validPagePattern)
@@ -306,15 +353,19 @@ class CategoryBrowser(PageGenerator):
 
 
     def loadPagesFromCategory(self, category, reporter):
-        self.visitedCategoryNames.add(category.title(withNamespace=False))
+        category_name = category.title(withNamespace=False)
+        self.visitedCategoryNames.add(category_name)
         for page in category.articles(namespaces=0):
             if self.pageIsValid(page):
                 yield page
         reporter.done()
         for subcategory in category.subcategories():
             subcategoryName = subcategory.title(withNamespace=False)
-            if subcategoryName not in self.visitedCategoryNames:
-                if self.canLoadPagesFromCategory(subcategory):
+            if subcategoryName not in self.visitedCategoryNames and \
+               subcategoryName not in self.categoryNames and \
+               subcategoryName not in self.categoryOfCategoriesNames and \
+               subcategoryName not in self.categoryOfPagesNames:
+                if not self.categoryOfPagesNames and self.canLoadPagesFromCategory(subcategory):
                     subcategoryReporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(subcategoryName), indent=reporter.indent+2)
                     for page in self.loadPagesFromCategory(subcategory, subcategoryReporter):
                         yield page
@@ -346,6 +397,14 @@ class CategoryBrowser(PageGenerator):
                     reporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(categoryName), indent=2)
                     for page in self.loadPagesFromCategory(pywikibot.Category(self.site, categoryName), reporter):
                         yield page
+
+        if self.categoryOfPagesNames:
+            output(u"• Obtendo páxinas da lista de categorías de páxinas…\n")
+            for categoryName in self.categoryOfPagesNames:
+                reporter = TaskInProgressReporter(u"Cargando o contido da categoría «{}»".format(categoryName), indent=2)
+                category = pywikibot.Category(self.site, categoryName)
+                for page in self.loadPagesFromCategory(category, reporter):
+                    yield page
 
         if self.categoryOfCategoriesNames:
             output(u"• Obtendo páxinas da lista de categorías de categorías…\n")
@@ -974,15 +1033,26 @@ class FirstSentenceParser(PageContentParser):
             self.registerPageWithWrongContent(page, source)
             return
 
-        matches = list(highlightedPattern.finditer(firstSentence))
-        if len(matches) == 0:
-            self.registerPageWithWrongContent(page, source)
-            return
+        foundAMatch = False
 
-        for match in matches:
-            entry = match.group(u"entry")
-            entry = wikiTags.sub(u"", entry) # Eliminar etiquetas MediaWiki, como [[ ou ]].
-            yield entry
+        for pattern in highlightedPatterns:
+
+            matches = list(pattern.finditer(firstSentence))
+
+            if not foundAMatch and len(matches):
+                foundAMatch = True
+
+            for match in matches:
+                print pattern.pattern
+                print match.groups()
+                for entry in match.groups():
+                    if entry is not None:
+                        yield entry
+
+            firstSentence = pattern.sub(u"", firstSentence)
+
+        if not foundAMatch:
+            self.registerPageWithWrongContent(page, source)
 
 
 # Entry parser.
@@ -1025,9 +1095,10 @@ class EntryParser(object):
 
 
     def applyMandatoryFilters(self, entry):
-        entry = re.sub(parenthesis, u"", entry) # Eliminar contido entre parénteses.
         entry = entry.strip()
         entry = entry.strip(u'\ufeff') # http://stackoverflow.com/a/6786646
+        entry = entry.lstrip(u'¡')
+        entry = entry.rstrip(u'!')
         if entry and entry not in self.ignoredEntries:
             yield entry
 
@@ -1044,10 +1115,9 @@ class EntryParser(object):
             # Skippers.
             if not entry:
                 continue
-            if self.noRtlFilter and self.isRtl(entry):
-                continue
 
             # Modifiers.
+            entry = re.sub(parenthesis, u"", entry) # Eliminar contido entre parénteses.
             if self.doubleApostropheFilter and u"''" in entry:
                 entry = entry.replace(u"''", u"")
             if self.commaFilter and u"," in entry: # Datos adicionais para localizar o lugar. Por exemplo: «Durango, País Vasco».
@@ -1055,8 +1125,7 @@ class EntryParser(object):
             if self.hyphenFilter and u" - " in entry: # Nome en galego e no idioma local. Por exemplo: «Bilbao - Bilbo».
                 entry = entry.split(u" - ")[0]
             if self.linkFilter and u"[[" in entry:
-                entry = re.sub(u"\[\[[^]|]+\|([^]|]+)\]\]", u"\\1", entry)
-                entry = entry.replace(u"[[", u"").replace(u"]]", u"") # Non está preparado para texto nas ligazóns de momento.
+                entry = re.sub(u"\[\[(?:[^]|]+\|)?([^]|]+)\]\]", u"\\1", entry)
             if self.quoteFilter and u"\"" in entry:
                 entry = entry.replace(u"\"", u"")
             if self.subscriptFilter and u"<sub>" in entry:
@@ -1067,7 +1136,6 @@ class EntryParser(object):
                 entry = entry.replace(u"\"", u"")
             if self.unescapeHtml and u"&" in entry:
                 entry = self.htmlParser.unescape(entry)
-
 
             # Splitters.
 
@@ -1117,4 +1185,6 @@ class EntryParser(object):
 
             for outputEntry in outputEntries:
                 for item in self.applyMandatoryFilters(outputEntry):
+                    if self.noRtlFilter and self.isRtl(item):
+                        continue
                     yield item

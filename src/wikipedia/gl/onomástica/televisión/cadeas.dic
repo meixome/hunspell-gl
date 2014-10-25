@@ -53,6 +53,12 @@ Group po:nome [n-grama: British Sky Broadcasting Group plc]
 plc po:nome [n-grama: British Sky Broadcasting Group plc]
 BTV po:nome
 Buzz po:nome
+Cable po:nome [n-grama: Cable News Network]
+News po:nome [n-grama: Cable News Network]
+Network po:nome [n-grama: Cable News Network]
+Cadea po:nome [n-grama: Cadea de Noticias por Cable]
+Noticias po:nome [n-grama: Cadea de Noticias por Cable]
+Cable po:nome [n-grama: Cadea de Noticias por Cable]
 Canadian po:nome [n-grama: Canadian Broadcasting Corporation]
 Broadcasting po:nome [n-grama: Canadian Broadcasting Corporation]
 Corporation po:nome [n-grama: Canadian Broadcasting Corporation]
@@ -82,14 +88,19 @@ China po:nome [n-grama: China Central Television]
 Television po:nome [n-grama: China Central Television]
 CHV po:nome
 Clan po:nome
-CNN po:nome [n-grama: CNN International]
-International po:nome [n-grama: CNN International]
+CNN po:nome
 CNN+ po:nome
 Columbia po:nome [n-grama: Columbia Broadcasting System]
 Broadcasting po:nome [n-grama: Columbia Broadcasting System]
 System po:nome [n-grama: Columbia Broadcasting System]
 Compañía po:nome [n-grama: Compañía Nacional de Televisión de Ucraína]
 Ucraína po:nome [n-grama: Compañía Nacional de Televisión de Ucraína]
+Corporación po:nome [n-grama: Corporación Británica de Radiodifusión]
+Radiodifusión po:nome [n-grama: Corporación Británica de Radiodifusión]
+Corporación po:nome [n-grama: Corporación de Radiodifusión australiana]
+Radiodifusión po:nome [n-grama: Corporación de Radiodifusión australiana]
+Corporación po:nome [n-grama: Corporación Turca de Radio e Televisión]
+Turca po:nome [n-grama: Corporación Turca de Radio e Televisión]
 Correo po:nome [n-grama: Correo TV]
 TV po:nome [n-grama: Correo TV]
 Cuatro po:nome
@@ -101,8 +112,6 @@ Networks po:nome [n-grama: Discovery Channel Networks]
 Discovery po:nome [n-grama: Discovery Health]
 Health po:nome [n-grama: Discovery Health]
 Discovery po:nome [n-grama: Discovery Home & Health]
-Home po:nome [n-grama: Discovery Home & Health]
-& po:nome [n-grama: Discovery Home & Health]
 Health po:nome [n-grama: Discovery Home & Health]
 Discovery po:nome [n-grama: Discovery MAX]
 MAX po:nome [n-grama: Discovery MAX]
@@ -137,15 +146,14 @@ radiodiffusion-télévision po:nome [n-grama: Établissement de la radiodiffusio
 tunisienne po:nome [n-grama: Établissement de la radiodiffusion-télévision tunisienne]
 ETV po:nome
 Euronews po:nome
-European po:nome [n-grama: European Broadcasting Union]
-Broadcasting po:nome [n-grama: European Broadcasting Union]
-Union po:nome [n-grama: European Broadcasting Union]
 Factoría po:nome [n-grama: Factoría de Ficción]
 Ficción po:nome [n-grama: Factoría de Ficción]
 FOX po:nome
 Fox po:nome [n-grama: Fox Broadcasting Company]
 Broadcasting po:nome [n-grama: Fox Broadcasting Company]
 Company po:nome [n-grama: Fox Broadcasting Company]
+FOX po:nome [n-grama: FOX Italia]
+Italia po:nome [n-grama: FOX Italia]
 France po:nome [n-grama: France 2]
 Cero po:nome [n-grama: Galiza Ano Cero]
 Georgian po:nome [n-grama: Georgian Public Broadcaster]
@@ -155,7 +163,6 @@ Gol po:nome [n-grama: Gol Televisión]
 GPB po:nome
 Hamburg po:nome [n-grama: Hamburg 1]
 HBO po:nome
-Home po:nome [n-grama: Home Box Office]
 Box po:nome [n-grama: Home Box Office]
 Office po:nome [n-grama: Home Box Office]
 IB3 po:nome [n-grama: IB3 Televisió]
@@ -221,6 +228,9 @@ Telekompaniya po:nome [n-grama: Natsionalna Telekompaniya Ukrayïny]
 Ukrayïny po:nome [n-grama: Natsionalna Telekompaniya Ukrayïny]
 NBC po:nome [n-grama: NBC Universal]
 Universal po:nome [n-grama: NBC Universal]
+Néa po:nome [n-grama: Néa Ellinikí Radiofonía]
+Ellinikí po:nome [n-grama: Néa Ellinikí Radiofonía]
+Radiofonía po:nome [n-grama: Néa Ellinikí Radiofonía]
 Neox po:nome
 Neox8 po:nome
 NET po:nome
@@ -247,10 +257,6 @@ Rádio po:nome [n-grama: Rádio e Televisão de Portugal]
 Televisão po:nome [n-grama: Rádio e Televisão de Portugal]
 Portugal po:nome [n-grama: Rádio e Televisão de Portugal]
 Andorra po:nome [n-grama: Radio e Televisión de Andorra]
-Ràdio po:nome [n-grama: Ràdio i Televisió d'Andorra]
-i po:nome [n-grama: Ràdio i Televisió d'Andorra]
-Televisió po:nome [n-grama: Ràdio i Televisió d'Andorra]
-d'Andorra po:nome [n-grama: Ràdio i Televisió d'Andorra]
 Cerceda po:nome [n-grama: Radio Televisión de Cerceda]
 Municipal po:nome [n-grama: Radio Televisión Municipal de Ponteareas]
 Ponteareas po:nome [n-grama: Radio Televisión Municipal de Ponteareas]
@@ -258,14 +264,20 @@ Televizija po:nome [n-grama: Radio Televizija Crne Gore]
 Crne po:nome [n-grama: Radio Televizija Crne Gore]
 Gore po:nome [n-grama: Radio Televizija Crne Gore]
 Televizioni po:nome [n-grama: Radio Televizioni i Kosovës]
-i po:nome [n-grama: Radio Televizioni i Kosovës]
 Kosovës po:nome [n-grama: Radio Televizioni i Kosovës]
+Radiodifusión po:nome [n-grama: Radiodifusión Pública de Estonia]
+Estonia po:nome [n-grama: Radiodifusión Pública de Estonia]
+Radiotelevisión po:nome [n-grama: Radiotelevisión eslovena]
+eslovena po:nome [n-grama: Radiotelevisión eslovena]
+Radiotelevisión po:nome [n-grama: Radiotelevisión iugoslava]
+iugoslava po:nome [n-grama: Radiotelevisión iugoslava]
 Radiotelevisione po:nome [n-grama: Radiotelevisione Italiana]
 Italiana po:nome [n-grama: Radiotelevisione Italiana]
 Radiotelevizija po:nome [n-grama: Radiotelevizija Slovenija]
 Slovenija po:nome [n-grama: Radiotelevizija Slovenija]
 RAI po:nome
 Rai po:nome [n-grama: Rai 1]
+Rai po:nome [n-grama: Rai dous]
 Rai po:nome [n-grama: Rai due]
 due po:nome [n-grama: Rai due]
 Raidió po:nome [n-grama: Raidió Teilifís Éireann]
@@ -303,7 +315,9 @@ Region po:nome [n-grama: Satellite Television Asia Region]
 SBS po:nome
 SBT po:nome
 Alemá po:nome [n-grama: Segunda Televisión Alemá]
-Sistema po:nome [n-grama: Sistema Brasileiro de Televisão]
+Especial po:nome [n-grama: Servizo Especial de Radiodifusión]
+Radiodifusión po:nome [n-grama: Servizo Especial de Radiodifusión]
+Radiodifusión po:nome [n-grama: Servizo Público de Radiodifusión]
 Brasileiro po:nome [n-grama: Sistema Brasileiro de Televisão]
 Televisão po:nome [n-grama: Sistema Brasileiro de Televisão]
 Société po:nome [n-grama: Société Radio-Canada]
@@ -349,6 +363,7 @@ Valenciana po:nome [n-grama: Televisió Valenciana Internacional]
 Canaria po:nome [n-grama: Televisión Canaria]
 Educativa po:nome [n-grama: Televisión Educativa Nacional]
 Ferrol po:nome [n-grama: Televisión Ferrol Canal 31]
+Húngara po:nome [n-grama: Televisión Húngara]
 Chile po:nome [n-grama: Televisión Nacional de Chile]
 Télévision po:nome [n-grama: Télévision Suisse Romande]
 Suisse po:nome [n-grama: Télévision Suisse Romande]
@@ -366,6 +381,7 @@ Akcyjna po:nome [n-grama: Telewizja Polska Spółka Akcyjna]
 TF1 po:nome
 TLC po:nome
 TRM po:nome
+Trojka po:nome
 TRT po:nome
 Türkiye po:nome [n-grama: Türkiye Radyo Televizyon Kurumu]
 Radyo po:nome [n-grama: Türkiye Radyo Televizyon Kurumu]
@@ -388,10 +404,6 @@ TVSB po:nome
 TVU po:nome
 TVVi po:nome
 Radiodifusión po:nome [n-grama: Unión Europea de Radiodifusión]
-Union po:nome [n-grama: Union européenne de radio-télévision]
-européenne po:nome [n-grama: Union européenne de radio-télévision]
-radio-télévision po:nome [n-grama: Union européenne de radio-télévision]
-V po:nome [n-grama: V Televisión]
 V-me po:nome
 VIA po:nome [n-grama: VIA Televisión]
 Wallis po:nome [n-grama: Wallis et Futuna 1ère]
@@ -402,6 +414,7 @@ WHSV po:nome [n-grama: WHSV News 3]
 News po:nome [n-grama: WHSV News 3]
 WHSV-TV po:nome
 WJAC-TV po:nome
+Xplora po:nome
 Yleisradio po:nome
 Zambia po:nome [n-grama: Zambia National Broadcasting Corporation]
 National po:nome [n-grama: Zambia National Broadcasting Corporation]
@@ -418,3 +431,4 @@ ZNBC po:nome
 Zweites po:nome [n-grama: Zweites Deutsches Fernsehen]
 Deutsches po:nome [n-grama: Zweites Deutsches Fernsehen]
 Fernsehen po:nome [n-grama: Zweites Deutsches Fernsehen]
+中国中央电视台 po:nome

@@ -54,6 +54,9 @@ Ciérbana po:topónimo [n-grama: Abanto y Ciérbana]
 Abanto po:topónimo [n-grama: Abanto Zierbena]
 Zierbena po:topónimo [n-grama: Abanto Zierbena]
 Abarca po:topónimo [n-grama: Abarca de Campos]
+Abartzuza po:topónimo
+Abaurregaina po:topónimo
+Abaurrepea po:topónimo
 Abegondo po:topónimo
 Abejar po:topónimo
 Abejuela po:topónimo
@@ -61,16 +64,18 @@ Abezames po:topónimo
 Abia po:topónimo [n-grama: Abia de las Torres]
 las po:topónimo [n-grama: Abia de las Torres]
 Abiego po:topónimo
-Acebedo po:topónimo
+Abrera po:topónimo
 Aceituna po:topónimo
-Aciveiros po:topónimo
+Acevedo po:topónimo [n-grama: Acevedo do Río]
 Adamuz po:topónimo
 Adeje po:topónimo
 Ademuz po:topónimo
 Adrada po:topónimo [n-grama: Adrada de Haza]
 Haza po:topónimo [n-grama: Adrada de Haza]
 Adradas po:topónimo
+Aduna po:topónimo
 Agaete po:topónimo
+Agoitz po:topónimo
 Agolada po:topónimo
 Agoncillo po:topónimo
 Ágreda po:topónimo
@@ -95,6 +100,8 @@ Alfambra po:topónimo [n-grama: Aguilar del Alfambra]
 Agüimes po:topónimo
 Agulo po:topónimo
 Agurain po:topónimo
+Aia po:topónimo
+Aibar po:topónimo
 Aiegi po:topónimo
 Aiguamúrcia po:topónimo
 Aísa po:topónimo
@@ -134,6 +141,8 @@ Iregua po:topónimo [n-grama: Albelda de Iregua]
 Alberguería po:topónimo
 Alberite po:topónimo
 Albillos po:topónimo
+Albolote po:topónimo
+Albons po:topónimo
 Alboraia po:topónimo
 Albuixech po:topónimo
 Alcalá po:topónimo [n-grama: Alcalá de Guadaíra]
@@ -150,9 +159,9 @@ del po:topónimo [n-grama: Alcalá del Valle]
 Valle po:topónimo [n-grama: Alcalá del Valle]
 Alcalá po:topónimo [n-grama: Alcalá la Real]
 la po:topónimo [n-grama: Alcalá la Real]
+Alcantarilla po:topónimo
 Alcañices po:topónimo
 Alcañiz po:topónimo
-Alcantarilla po:topónimo
 Alcaracejos po:topónimo
 Alcàsser po:topónimo
 Alcázar po:topónimo [n-grama: Alcázar de San Juan]
@@ -191,6 +200,7 @@ del po:topónimo [n-grama: Alfara del Patriarca]
 Patriarca po:topónimo [n-grama: Alfara del Patriarca]
 Alfaraz po:topónimo [n-grama: Alfaraz de Sayago]
 Sayago po:topónimo [n-grama: Alfaraz de Sayago]
+Alfarnate po:topónimo
 Alfaro po:topónimo
 Alfoz po:topónimo
 Alfoz po:topónimo [n-grama: Alfoz de Bricia]
@@ -201,7 +211,6 @@ Alfoz po:topónimo [n-grama: Alfoz de Quintanadueñas]
 Quintanadueñas po:topónimo [n-grama: Alfoz de Quintanadueñas]
 Alfoz po:topónimo [n-grama: Alfoz de Santa Gadea]
 Gadea po:topónimo [n-grama: Alfoz de Santa Gadea]
-Algadefe po:topónimo
 Algaida po:topónimo
 Algar po:topónimo
 Algarra po:topónimo
@@ -218,9 +227,6 @@ Alhaurín po:topónimo [n-grama: Alhaurín de la Torre]
 la po:topónimo [n-grama: Alhaurín de la Torre]
 Alhaurín po:topónimo [n-grama: Alhaurín el Grande]
 el po:topónimo [n-grama: Alhaurín el Grande]
-Alija po:topónimo [n-grama: Alija del Infantado]
-del po:topónimo [n-grama: Alija del Infantado]
-Infantado po:topónimo [n-grama: Alija del Infantado]
 Aliud po:topónimo
 Allande po:topónimo
 Allariz po:topónimo
@@ -232,7 +238,6 @@ Almagro po:topónimo
 Almajano po:topónimo
 Almaluez po:topónimo
 Almansa po:topónimo
-Almanza po:topónimo
 Almaraz po:topónimo [n-grama: Almaraz de Douro]
 Douro po:topónimo [n-grama: Almaraz de Douro]
 Almarza po:topónimo
@@ -266,6 +271,7 @@ Alxeciras po:topónimo
 Alzira po:topónimo
 Amayuelas po:topónimo [n-grama: Amayuelas de Arriba]
 Ambel po:topónimo
+Amer po:topónimo
 Ames po:topónimo
 Ameyugo po:topónimo
 Amieva po:topónimo
@@ -283,12 +289,13 @@ Andavías po:topónimo
 Andorra po:topónimo
 Andratx po:topónimo
 Andújar po:topónimo
+Anglès po:topónimo
 Anguiano po:topónimo
 Anguix po:topónimo
 Anievas po:topónimo
 Anlleo po:topónimo
-Añora po:topónimo
 Ansó po:topónimo
+Ansoáin po:topónimo
 Antas po:topónimo [n-grama: Antas de Ulla]
 Ulla po:topónimo [n-grama: Antas de Ulla]
 Antequera po:topónimo
@@ -298,6 +305,7 @@ Antillón po:topónimo
 Antsoain po:topónimo
 Antzuola po:topónimo
 Anue po:topónimo
+Añora po:topónimo
 Arafo po:topónimo
 Aragón po:topónimo
 Aragües po:topónimo [n-grama: Aragües del Puerto]
@@ -326,6 +334,8 @@ Arbatzegi po:topónimo [n-grama: Arbatzegi Gerrikaitz]
 Gerrikaitz po:topónimo [n-grama: Arbatzegi Gerrikaitz]
 Arbo po:topónimo
 Arbolí po:topónimo
+Arbuciès po:topónimo
+Arce po:topónimo
 Arcenillas po:topónimo
 Archena po:topónimo
 Arconada po:topónimo
@@ -340,8 +350,10 @@ Llana po:topónimo [n-grama: Arcos de la Llana]
 Arcos po:topónimo [n-grama: Arcos de la Polvorosa]
 la po:topónimo [n-grama: Arcos de la Polvorosa]
 Polvorosa po:topónimo [n-grama: Arcos de la Polvorosa]
-Ardón po:topónimo
 Areatza po:topónimo
+Arenas po:topónimo
+Arenas po:topónimo [n-grama: Arenas de Cabrales]
+Cabrales po:topónimo [n-grama: Arenas de Cabrales]
 Arenas po:topónimo [n-grama: Arenas de Iguña]
 Iguña po:topónimo [n-grama: Arenas de Iguña]
 Arenas po:topónimo [n-grama: Arenas de San Pedro]
@@ -361,8 +373,9 @@ Sierra po:topónimo [n-grama: Arévalo de la Sierra]
 Arganda po:topónimo [n-grama: Arganda del Rey]
 del po:topónimo [n-grama: Arganda del Rey]
 Rey po:topónimo [n-grama: Arganda del Rey]
-Argañín po:topónimo
 Arganza po:topónimo
+Argañín po:topónimo
+Argelaguer po:topónimo
 Argentona po:topónimo
 Argoños po:topónimo
 Ariany po:topónimo
@@ -385,6 +398,7 @@ Arrieta po:topónimo
 Arrigorriaga po:topónimo
 Artà po:topónimo
 Artea po:topónimo
+Arteaga po:topónimo
 Arteixo po:topónimo
 Artenara po:topónimo
 Artesa po:topónimo [n-grama: Artesa de Lleida]
@@ -393,7 +407,6 @@ Artieda po:topónimo
 Artzentales po:topónimo
 Arucas po:topónimo
 Arzúa po:topónimo
-Edradas po:topónimo [n-grama: As Edradas]
 Ellas po:topónimo [n-grama: As Ellas]
 Figueiras po:topónimo [n-grama: As Figueiras]
 Neves po:topónimo [n-grama: As Neves]
@@ -407,14 +420,15 @@ Somozas po:topónimo [n-grama: As Somozas]
 Travesas po:topónimo [n-grama: As Travesas]
 Asadur po:topónimo
 Astierna po:topónimo
-Astorga po:topónimo
 Astudillo po:topónimo
 Atapuerca po:topónimo
+Atarfe po:topónimo
 Atarrabia po:topónimo
 Ateca po:topónimo
 Atienza po:topónimo
 Atxondo po:topónimo
 Aulesti po:topónimo
+Auritz po:topónimo
 Ausejo po:topónimo [n-grama: Ausejo de la Sierra]
 la po:topónimo [n-grama: Ausejo de la Sierra]
 Sierra po:topónimo [n-grama: Ausejo de la Sierra]
@@ -428,9 +442,11 @@ Avellanosa po:topónimo [n-grama: Avellanosa de Muñó]
 Muñó po:topónimo [n-grama: Avellanosa de Muñó]
 Ávila po:topónimo
 Avilés po:topónimo
+Avinyonet po:topónimo [n-grama: Avinyonet de Puigventós]
+Puigventós po:topónimo [n-grama: Avinyonet de Puigventós]
 Avión po:topónimo
 Ayamonte po:topónimo
-Ayegui po:topónimo
+Ayande po:topónimo
 Ayerbe po:topónimo
 Ayuela po:topónimo
 Azaila po:topónimo
@@ -440,6 +456,9 @@ Azuqueca po:topónimo [n-grama: Azuqueca de Henares]
 Henares po:topónimo [n-grama: Azuqueca de Henares]
 Badalona po:topónimo
 Badaxoz po:topónimo
+Badia po:topónimo [n-grama: Badia del Vallès]
+del po:topónimo [n-grama: Badia del Vallès]
+Vallès po:topónimo [n-grama: Badia del Vallès]
 Baells po:topónimo
 Baena po:topónimo
 Baeza po:topónimo
@@ -449,24 +468,27 @@ Bailo po:topónimo
 Baiona po:topónimo
 Bakio po:topónimo
 Balaguer po:topónimo
+Balboa po:topónimo
 Baldriz po:topónimo
 Baleira po:topónimo
 Ballesteros po:topónimo [n-grama: Ballesteros de Calatrava]
 Calatrava po:topónimo [n-grama: Ballesteros de Calatrava]
 Balmaseda po:topónimo
 Balneario po:topónimo
+Balouta po:topónimo
 Baltanás po:topónimo
 Baltar po:topónimo
 Bande po:topónimo
+Banyalbufar po:topónimo
+Banyoles po:topónimo
 Baños po:topónimo [n-grama: Baños de Molgas]
 Molgas po:topónimo [n-grama: Baños de Molgas]
 Baños po:topónimo [n-grama: Baños de Valdearados]
 Valdearados po:topónimo [n-grama: Baños de Valdearados]
 Bañuelos po:topónimo [n-grama: Bañuelos de Bureba]
 Bureba po:topónimo [n-grama: Bañuelos de Bureba]
-Banyalbufar po:topónimo
-Banyoles po:topónimo
 Baquerín po:topónimo [n-grama: Baquerín de Campos]
+Barahona po:topónimo
 Barakaldo po:topónimo
 Baralla po:topónimo
 Barañáin po:topónimo
@@ -497,6 +519,7 @@ Pie po:topónimo [n-grama: Bárcena de Pie de Concha]
 Concha po:topónimo [n-grama: Bárcena de Pie de Concha]
 Barcones po:topónimo
 Bareyo po:topónimo
+Barjas po:topónimo
 Barlovento po:topónimo
 Barrantes po:topónimo
 Barreiros po:topónimo
@@ -507,7 +530,6 @@ Barro po:topónimo
 Barrosas po:topónimo
 Barruelo po:topónimo [n-grama: Barruelo de Santullán]
 Santullán po:topónimo [n-grama: Barruelo de Santullán]
-Barxacova po:topónimo
 Barxas po:topónimo
 Basauri po:topónimo
 Basconcillos po:topónimo [n-grama: Basconcillos del Tozo]
@@ -549,7 +571,6 @@ Benamejí po:topónimo
 Benaocaz po:topónimo
 Benasque po:topónimo
 Benavente po:topónimo
-Benavides po:topónimo
 Benegiles po:topónimo
 Benetússer po:topónimo
 Benicarló po:topónimo
@@ -560,12 +581,6 @@ Benuza po:topónimo
 Berango po:topónimo
 Beratón po:topónimo
 Berberana po:topónimo
-Bercianos po:topónimo [n-grama: Bercianos del Páramo]
-del po:topónimo [n-grama: Bercianos del Páramo]
-Páramo po:topónimo [n-grama: Bercianos del Páramo]
-Bercianos po:topónimo [n-grama: Bercianos del Real Camino]
-del po:topónimo [n-grama: Bercianos del Real Camino]
-Camino po:topónimo [n-grama: Bercianos del Real Camino]
 Berga po:topónimo
 Bergara po:topónimo
 Bergondo po:topónimo
@@ -579,6 +594,7 @@ Berlangas po:topónimo [n-grama: Berlangas de Roa]
 Roa po:topónimo [n-grama: Berlangas de Roa]
 Bermeo po:topónimo
 Berriatua po:topónimo
+Berriobeiti po:topónimo
 Berriozar po:topónimo
 Berriz po:topónimo
 Berzosa po:topónimo [n-grama: Berzosa de Bureba]
@@ -587,8 +603,10 @@ Berzosilla po:topónimo
 Besalú po:topónimo
 Betancuria po:topónimo
 Betanzos po:topónimo
+Betelu po:topónimo
 Bétera po:topónimo
 Beuda po:topónimo
+Bidankoze po:topónimo
 Bielsa po:topónimo
 Bilbao po:topónimo
 Binéfar po:topónimo
@@ -609,8 +627,6 @@ Boadilla po:topónimo [n-grama: Boadilla del Monte]
 del po:topónimo [n-grama: Boadilla del Monte]
 Boal po:topónimo
 Boborás po:topónimo
-Boca po:topónimo [n-grama: Boca de Huérgano]
-Huérgano po:topónimo [n-grama: Boca de Huérgano]
 Bodonal po:topónimo [n-grama: Bodonal de la Sierra]
 la po:topónimo [n-grama: Bodonal de la Sierra]
 Sierra po:topónimo [n-grama: Bodonal de la Sierra]
@@ -620,9 +636,7 @@ Bolibar po:topónimo
 Bollullos po:topónimo [n-grama: Bollullos de la Mitación]
 la po:topónimo [n-grama: Bollullos de la Mitación]
 Mitación po:topónimo [n-grama: Bollullos de la Mitación]
-Boñar po:topónimo
 Bonrepòs po:topónimo [n-grama: Bonrepòs i Mirambell]
-i po:topónimo [n-grama: Bonrepòs i Mirambell]
 Mirambell po:topónimo [n-grama: Bonrepòs i Mirambell]
 Boqueixón po:topónimo
 Borau po:topónimo
@@ -631,14 +645,15 @@ Borjabad po:topónimo
 Bormujos po:topónimo
 Bornos po:topónimo
 Borobia po:topónimo
+Borrenes po:topónimo
 Borrés po:topónimo
 Borriana po:topónimo
 Botorrita po:topónimo
+Bouzas po:topónimo
 Bóveda po:topónimo
 Bozoó po:topónimo
 Brañosera po:topónimo
 Brazacorta po:topónimo
-Brazuelo po:topónimo
 Breña po:topónimo [n-grama: Breña Alta]
 Breña po:topónimo [n-grama: Breña Baja]
 Baja po:topónimo [n-grama: Breña Baja]
@@ -659,15 +674,12 @@ Burbáguena po:topónimo
 Burela po:topónimo
 Burgos po:topónimo
 Burjassot po:topónimo
+Burlada po:topónimo
 Burlata po:topónimo
-Burón po:topónimo
 Busmaior po:topónimo
 Bustillo po:topónimo [n-grama: Bustillo de la Vega]
 la po:topónimo [n-grama: Bustillo de la Vega]
 Vega po:topónimo [n-grama: Bustillo de la Vega]
-Bustillo po:topónimo [n-grama: Bustillo del Páramo]
-del po:topónimo [n-grama: Bustillo del Páramo]
-Páramo po:topónimo [n-grama: Bustillo del Páramo]
 Bustillo po:topónimo [n-grama: Bustillo del Páramo de Carrión]
 del po:topónimo [n-grama: Bustillo del Páramo de Carrión]
 Páramo po:topónimo [n-grama: Bustillo del Páramo de Carrión]
@@ -699,16 +711,12 @@ Cabrejas po:topónimo [n-grama: Cabrejas del Pinar]
 del po:topónimo [n-grama: Cabrejas del Pinar]
 Pinar po:topónimo [n-grama: Cabrejas del Pinar]
 Cabrera po:topónimo [n-grama: Cabrera de Mar]
-Cabreros po:topónimo [n-grama: Cabreros del Río]
-del po:topónimo [n-grama: Cabreros del Río]
-Cabrillanes po:topónimo
 Cabrils po:topónimo
 Cabuérniga po:topónimo
 Cacabelos po:topónimo
 Cáceres po:topónimo
 Cádavos po:topónimo
 Cádiz po:topónimo
-Calabor po:topónimo
 Calaf po:topónimo
 Calafell po:topónimo
 Calahorra po:topónimo
@@ -717,8 +725,6 @@ Boedo po:topónimo [n-grama: Calahorra de Boedo]
 Calanda po:topónimo
 Calatañazor po:topónimo
 Calatayud po:topónimo
-Caldas po:topónimo [n-grama: Caldas de Luna]
-Luna po:topónimo [n-grama: Caldas de Luna]
 Caldas po:topónimo [n-grama: Caldas de Reis]
 Caldes po:topónimo [n-grama: Caldes d'Estrac]
 d'Estrac po:topónimo [n-grama: Caldes d'Estrac]
@@ -736,9 +742,6 @@ Randín po:topónimo [n-grama: Calvos de Randín]
 Calzada po:topónimo [n-grama: Calzada de los Molinos]
 los po:topónimo [n-grama: Calzada de los Molinos]
 Molinos po:topónimo [n-grama: Calzada de los Molinos]
-Calzada po:topónimo [n-grama: Calzada del Coto]
-del po:topónimo [n-grama: Calzada del Coto]
-Coto po:topónimo [n-grama: Calzada del Coto]
 Camaleño po:topónimo
 Camargo po:topónimo
 Camariñas po:topónimo
@@ -750,24 +753,16 @@ Caminomorisco po:topónimo
 Camós po:topónimo
 Campanet po:topónimo
 Campaspero po:topónimo
-Campazas po:topónimo
 Campillo po:topónimo [n-grama: Campillo de Aranda]
 Aranda po:topónimo [n-grama: Campillo de Aranda]
 Criptana po:topónimo [n-grama: Campo de Criptana]
 Lebre po:topónimo [n-grama: Campo de Lebre]
-Villavidel po:topónimo [n-grama: Campo de Villavidel]
 Lameiro po:topónimo [n-grama: Campo Lameiro]
 Campolara po:topónimo
 Camponaraia po:topónimo
 del po:topónimo [n-grama: Campos del Paraíso]
 Paraíso po:topónimo [n-grama: Campos del Paraíso]
-Cañada po:topónimo [n-grama: Cañada del Hoyo]
-del po:topónimo [n-grama: Cañada del Hoyo]
-Hoyo po:topónimo [n-grama: Cañada del Hoyo]
-Canal po:topónimo [n-grama: Canal de Verdún]
 Verdún po:topónimo [n-grama: Canal de Verdún]
-Cañamaque po:topónimo
-Cañaveras po:topónimo
 Candamo po:topónimo
 Candás po:topónimo
 Candelaria po:topónimo
@@ -776,8 +771,6 @@ Candín po:topónimo
 Canedo po:topónimo
 Canejan po:topónimo
 Canet po:topónimo [n-grama: Canet de Mar]
-Cañete po:topónimo [n-grama: Cañete de las Torres]
-las po:topónimo [n-grama: Cañete de las Torres]
 Canfranc po:topónimo
 Cangas po:topónimo
 Cangas po:topónimo [n-grama: Cangas de Onís]
@@ -796,6 +789,13 @@ Canteixeira po:topónimo
 Cantillana po:topónimo
 Cantimpalos po:topónimo
 Canyelles po:topónimo
+Cañada po:topónimo [n-grama: Cañada del Hoyo]
+del po:topónimo [n-grama: Cañada del Hoyo]
+Hoyo po:topónimo [n-grama: Cañada del Hoyo]
+Cañamaque po:topónimo
+Cañaveras po:topónimo
+Cañete po:topónimo [n-grama: Cañete de las Torres]
+las po:topónimo [n-grama: Cañete de las Torres]
 Capdepera po:topónimo
 Capillas po:topónimo
 Carabantes po:topónimo
@@ -829,7 +829,6 @@ Volpejera po:topónimo [n-grama: Cardeñosa de Volpejera]
 Cardeñuela po:topónimo [n-grama: Cardeñuela Riopico]
 Riopico po:topónimo [n-grama: Cardeñuela Riopico]
 Cariño po:topónimo
-Cármenes po:topónimo
 Carmona po:topónimo
 Carnota po:topónimo
 Carracedelo po:topónimo
@@ -841,13 +840,13 @@ la po:topónimo [n-grama: Carrascosa de la Sierra]
 Sierra po:topónimo [n-grama: Carrascosa de la Sierra]
 Carreño po:topónimo
 Carrias po:topónimo
+Carrícola po:topónimo
 Carrión po:topónimo [n-grama: Carrión de los Céspedes]
 los po:topónimo [n-grama: Carrión de los Céspedes]
 Céspedes po:topónimo [n-grama: Carrión de los Céspedes]
 Carrión po:topónimo [n-grama: Carrión de los Condes]
 los po:topónimo [n-grama: Carrión de los Condes]
 Condes po:topónimo [n-grama: Carrión de los Condes]
-Carrocera po:topónimo
 Cartagena po:topónimo
 Cártama po:topónimo
 Cartelle po:topónimo
@@ -886,6 +885,7 @@ Plana po:topónimo [n-grama: Castelló de la Plana]
 Castellonet po:topónimo [n-grama: Castellonet de la Conquesta]
 la po:topónimo [n-grama: Castellonet de la Conquesta]
 Conquesta po:topónimo [n-grama: Castellonet de la Conquesta]
+Castielfabib po:topónimo
 Castiello po:topónimo [n-grama: Castiello de Jaca]
 Jaca po:topónimo [n-grama: Castiello de Jaca]
 Castil po:topónimo [n-grama: Castil de Peones]
@@ -893,7 +893,6 @@ Peones po:topónimo [n-grama: Castil de Peones]
 Castil po:topónimo [n-grama: Castil de Vela]
 Vela po:topónimo [n-grama: Castil de Vela]
 Castildelgado po:topónimo
-Castilfalé po:topónimo
 Castilfrío po:topónimo [n-grama: Castilfrío de la Sierra]
 la po:topónimo [n-grama: Castilfrío de la Sierra]
 Sierra po:topónimo [n-grama: Castilfrío de la Sierra]
@@ -901,6 +900,9 @@ Castilleja po:topónimo [n-grama: Castilleja del Campo]
 del po:topónimo [n-grama: Castilleja del Campo]
 Castillejo po:topónimo [n-grama: Castillejo de Robledo]
 Robledo po:topónimo [n-grama: Castillejo de Robledo]
+Castillo po:topónimo [n-grama: Castillo y Elejabeitia]
+y po:topónimo [n-grama: Castillo y Elejabeitia]
+Elejabeitia po:topónimo [n-grama: Castillo y Elejabeitia]
 Castilruiz po:topónimo
 Castrejón po:topónimo [n-grama: Castrejón de la Peña]
 la po:topónimo [n-grama: Castrejón de la Peña]
@@ -908,17 +910,12 @@ Peña po:topónimo [n-grama: Castrejón de la Peña]
 Castrelo po:topónimo [n-grama: Castrelo de Miño]
 Miño po:topónimo [n-grama: Castrelo de Miño]
 Castrelo po:topónimo [n-grama: Castrelo do Val]
-Castrillo po:topónimo [n-grama: Castrillo de Cabrera]
-Cabrera po:topónimo [n-grama: Castrillo de Cabrera]
 Castrillo po:topónimo [n-grama: Castrillo de Don Juan]
 Don po:topónimo [n-grama: Castrillo de Don Juan]
 Juan po:topónimo [n-grama: Castrillo de Don Juan]
 Castrillo po:topónimo [n-grama: Castrillo de la Reina]
 la po:topónimo [n-grama: Castrillo de la Reina]
 Reina po:topónimo [n-grama: Castrillo de la Reina]
-Castrillo po:topónimo [n-grama: Castrillo de la Valduerna]
-la po:topónimo [n-grama: Castrillo de la Valduerna]
-Valduerna po:topónimo [n-grama: Castrillo de la Valduerna]
 Castrillo po:topónimo [n-grama: Castrillo de la Vega]
 la po:topónimo [n-grama: Castrillo de la Vega]
 Vega po:topónimo [n-grama: Castrillo de la Vega]
@@ -935,18 +932,13 @@ Matajudíos po:topónimo [n-grama: Castrillo Matajudíos]
 Castrillón po:topónimo
 Caldelas po:topónimo [n-grama: Castro Caldelas]
 del po:topónimo [n-grama: Castro del Río]
-Castrocalbón po:topónimo
-Castrocontrigo po:topónimo
+Urdiales po:topónimo [n-grama: Castro Urdiales]
 Castrojeriz po:topónimo
-Castromil po:topónimo
 Castromocho po:topónimo
 Castropodame po:topónimo
 Castropol po:topónimo
-Castrotierra po:topónimo [n-grama: Castrotierra de Valmadrigal]
-Valmadrigal po:topónimo [n-grama: Castrotierra de Valmadrigal]
 Castroverde po:topónimo
 Catarroja po:topónimo
-Catatayud po:topónimo
 Catoira po:topónimo
 Cavia po:topónimo
 Cayuela po:topónimo
@@ -954,13 +946,9 @@ Cazalla po:topónimo [n-grama: Cazalla de la Sierra]
 la po:topónimo [n-grama: Cazalla de la Sierra]
 Sierra po:topónimo [n-grama: Cazalla de la Sierra]
 Cazás po:topónimo
-Cea po:topónimo
-Cebanico po:topónimo
 ceboliño po:topónimo
 Cebrecos po:topónimo
 Cebreros po:topónimo
-Cebrones po:topónimo [n-grama: Cebrones del Río]
-del po:topónimo [n-grama: Cebrones del Río]
 Cedeira po:topónimo
 Cee po:topónimo
 Cehegín po:topónimo
@@ -969,6 +957,8 @@ del po:topónimo [n-grama: Celada del Camino]
 Camino po:topónimo [n-grama: Celada del Camino]
 Celanova po:topónimo
 Celoriu po:topónimo
+Cendea po:topónimo [n-grama: Cendea de Olza]
+Olza po:topónimo [n-grama: Cendea de Olza]
 Cenicero po:topónimo
 Cenlle po:topónimo
 Centenera po:topónimo [n-grama: Centenera de Andaluz]
@@ -1009,16 +999,14 @@ Chamosiños po:topónimo
 Chandrexa po:topónimo [n-grama: Chandrexa de Queixa]
 Queixa po:topónimo [n-grama: Chandrexa de Queixa]
 Chantada po:topónimo
-Chaos po:topónimo
 Chelva po:topónimo
+Chiclana po:topónimo
 Chiclana po:topónimo [n-grama: Chiclana de la Frontera]
 la po:topónimo [n-grama: Chiclana de la Frontera]
 Frontera po:topónimo [n-grama: Chiclana de la Frontera]
 Chinchilla po:topónimo [n-grama: Chinchilla de Monte]
 Chipiona po:topónimo
 Chiva po:topónimo
-Chozas po:topónimo [n-grama: Chozas de Abajo]
-Abajo po:topónimo [n-grama: Chozas de Abajo]
 Ciadoncha po:topónimo
 Cidones po:topónimo
 Ciempozuelos po:topónimo
@@ -1029,12 +1017,6 @@ Cillaperlata po:topónimo
 Cilleruelo po:topónimo [n-grama: Cilleruelo de Abajo]
 Abajo po:topónimo [n-grama: Cilleruelo de Abajo]
 Cilleruelo po:topónimo [n-grama: Cilleruelo de Arriba]
-Cimanes po:topónimo [n-grama: Cimanes de la Vega]
-la po:topónimo [n-grama: Cimanes de la Vega]
-Vega po:topónimo [n-grama: Cimanes de la Vega]
-Cimanes po:topónimo [n-grama: Cimanes del Tejar]
-del po:topónimo [n-grama: Cimanes del Tejar]
-Tejar po:topónimo [n-grama: Cimanes del Tejar]
 Cintruénigo po:topónimo
 Ciria po:topónimo
 Ciruelos po:topónimo [n-grama: Ciruelos de Cervera]
@@ -1042,7 +1024,6 @@ Cervera po:topónimo [n-grama: Ciruelos de Cervera]
 Cirujales po:topónimo [n-grama: Cirujales del Río]
 del po:topónimo [n-grama: Cirujales del Río]
 Cisneros po:topónimo
-Cistierna po:topónimo
 Ciudad po:topónimo [n-grama: Ciudad de Osma]
 Osma po:topónimo [n-grama: Ciudad de Osma]
 Ciudad po:topónimo [n-grama: Ciudad Rodrigo]
@@ -1065,7 +1046,6 @@ Colmenar po:topónimo [n-grama: Colmenar Viejo]
 Viejo po:topónimo [n-grama: Colmenar Viejo]
 Colunga po:topónimo
 Comares po:topónimo
-Trasparga po:topónimo [n-grama: concello de Trasparga]
 Treviño po:topónimo [n-grama: Condado de Treviño]
 Condemios po:topónimo [n-grama: Condemios de Arriba]
 Congosto po:topónimo
@@ -1077,9 +1057,7 @@ Frontera po:topónimo [n-grama: Conil de la Frontera]
 Conquista po:topónimo
 Consell po:topónimo
 Contreras po:topónimo
-Corbillos po:topónimo [n-grama: Corbillos de los Oteros]
-los po:topónimo [n-grama: Corbillos de los Oteros]
-Oteros po:topónimo [n-grama: Corbillos de los Oteros]
+Conxo po:topónimo
 Corcubión po:topónimo
 Córdoba po:topónimo
 Cordovilla po:topónimo [n-grama: Cordovilla la Real]
@@ -1109,9 +1087,7 @@ Covaleda po:topónimo
 Covarrubias po:topónimo
 Covelo po:topónimo
 Crecente po:topónimo
-Crémenes po:topónimo
 Crevillent po:topónimo
-Cuadros po:topónimo
 Cualedro po:topónimo
 Cuarte po:topónimo [n-grama: Cuarte de Huerva]
 Huerva po:topónimo [n-grama: Cuarte de Huerva]
@@ -1119,11 +1095,6 @@ Cubelles po:topónimo
 Cubilla po:topónimo
 Cubillas po:topónimo [n-grama: Cubillas de Cerrato]
 Cerrato po:topónimo [n-grama: Cubillas de Cerrato]
-Cubillas po:topónimo [n-grama: Cubillas de los Oteros]
-los po:topónimo [n-grama: Cubillas de los Oteros]
-Oteros po:topónimo [n-grama: Cubillas de los Oteros]
-Cubillas po:topónimo [n-grama: Cubillas de Rueda]
-Rueda po:topónimo [n-grama: Cubillas de Rueda]
 Cubillas po:topónimo [n-grama: Cubillas de Santa Marta]
 Marta po:topónimo [n-grama: Cubillas de Santa Marta]
 Cubillo po:topónimo [n-grama: Cubillo del Campo]
@@ -1164,7 +1135,6 @@ Deià po:topónimo
 Deltebre po:topónimo
 Dénia po:topónimo
 Derio po:topónimo
-Destriana po:topónimo
 Dévanos po:topónimo
 Deza po:topónimo
 Dima po:topónimo
@@ -1177,9 +1147,10 @@ Vidán po:topónimo [n-grama: Divino Salvador de Vidán]
 Dodro po:topónimo
 Don po:topónimo [n-grama: Don Benito]
 Benito po:topónimo [n-grama: Don Benito]
+Doneztebe po:topónimo
+Donostia po:topónimo
 Doña po:topónimo [n-grama: Doña Mencía]
 Mencía po:topónimo [n-grama: Doña Mencía]
-Donostia po:topónimo
 Hermanas po:topónimo [n-grama: Dos Hermanas]
 Dosrius po:topónimo
 Dozón po:topónimo
@@ -1191,7 +1162,6 @@ la po:topónimo [n-grama: Duruelo de la Sierra]
 Sierra po:topónimo [n-grama: Duruelo de la Sierra]
 Ea po:topónimo
 Écija po:topónimo
-Edroso po:topónimo
 Egüés po:topónimo
 Eibar po:topónimo
 Éibar po:topónimo
@@ -1211,9 +1181,6 @@ Bosque po:topónimo [n-grama: El Bosque]
 El po:topónimo [n-grama: El Burgo de Osma]
 Burgo po:topónimo [n-grama: El Burgo de Osma]
 Osma po:topónimo [n-grama: El Burgo de Osma]
-El po:topónimo [n-grama: El Burgo Ranero]
-Burgo po:topónimo [n-grama: El Burgo Ranero]
-Ranero po:topónimo [n-grama: El Burgo Ranero]
 El po:topónimo [n-grama: El Campello]
 Campello po:topónimo [n-grama: El Campello]
 El po:topónimo [n-grama: El Carpio]
@@ -1291,43 +1258,44 @@ del po:topónimo [n-grama: El Viso del Alcor]
 Alcor po:topónimo [n-grama: El Viso del Alcor]
 Elantxobe po:topónimo
 Elda po:topónimo
+Elexabeitia po:topónimo
 Elorrio po:topónimo
 Elx po:topónimo
 Encinas po:topónimo [n-grama: Encinas Reales]
 Reales po:topónimo [n-grama: Encinas Reales]
-Encinedo po:topónimo
 Encío po:topónimo
 engra po:topónimo
 Enguídanos po:topónimo
-Enrique po:topónimo
 Entrena po:topónimo
 Entrimo po:topónimo
+Eo po:topónimo
 Erandio po:topónimo
 Ereño po:topónimo
 Ermua po:topónimo
 Errenteria po:topónimo
+Erriberri po:topónimo
 Errigoiti po:topónimo
 Erro po:topónimo
+Erronkari po:topónimo
 Es po:topónimo [n-grama: Es Castell]
 Castell po:topónimo [n-grama: Es Castell]
 Es po:topónimo [n-grama: Es Mercadal]
 Mercadal po:topónimo [n-grama: Es Mercadal]
 Es po:topónimo [n-grama: Es Migjorn Gran]
 Migjorn po:topónimo [n-grama: Es Migjorn Gran]
-Escobar po:topónimo [n-grama: Escobar de Campos]
 Escobosa po:topónimo [n-grama: Escobosa de Almazán]
 Almazán po:topónimo [n-grama: Escobosa de Almazán]
 Escorca po:topónimo
 Esgos po:topónimo
 Esparreguera po:topónimo
+Espartza po:topónimo [n-grama: Espartza Zaraitzu]
+Zaraitzu po:topónimo [n-grama: Espartza Zaraitzu]
 Espeja po:topónimo [n-grama: Espeja de San Marcelino]
 Marcelino po:topónimo [n-grama: Espeja de San Marcelino]
 Espejo po:topónimo
 Espejón po:topónimo
 Espera po:topónimo
 Espiel po:topónimo
-Espiñeireda po:topónimo [n-grama: Espiñeireda de Ancares]
-Ancares po:topónimo [n-grama: Espiñeireda de Ancares]
 Espinosa po:topónimo [n-grama: Espinosa de Cerrato]
 Cerrato po:topónimo [n-grama: Espinosa de Cerrato]
 Espinosa po:topónimo [n-grama: Espinosa de Cervera]
@@ -1340,26 +1308,31 @@ Villagonzalo po:topónimo [n-grama: Espinosa de Villagonzalo]
 Espinosa po:topónimo [n-grama: Espinosa del Camino]
 del po:topónimo [n-grama: Espinosa del Camino]
 Camino po:topónimo [n-grama: Espinosa del Camino]
+Espiñeireda po:topónimo [n-grama: Espiñeireda de Ancares]
+Ancares po:topónimo [n-grama: Espiñeireda de Ancares]
 Esplugues po:topónimo [n-grama: Esplugues de Llobregat]
 Llobregat po:topónimo [n-grama: Esplugues de Llobregat]
 Esplús po:topónimo
 Esponellà po:topónimo
 Esporles po:topónimo
-Estella po:topónimo
 Estellencs po:topónimo
 Estepa po:topónimo
 Estepa po:topónimo [n-grama: Estepa de San Juan]
 Juan po:topónimo [n-grama: Estepa de San Juan]
 Estépar po:topónimo
 Estepona po:topónimo
+etam po:topónimo
+etum po:topónimo
 Etxalar po:topónimo
 Etxano po:topónimo
 Etxebarri po:topónimo
 Etxebarria po:topónimo
 Ezcaray po:topónimo
+Ezkaroze po:topónimo
 Fabeiro po:topónimo
 Fago po:topónimo
 Falset po:topónimo
+faucem po:topónimo
 Felanitx po:topónimo
 Fene po:topónimo
 Fermoselle po:topónimo
@@ -1373,6 +1346,7 @@ Figueres po:topónimo
 Fika po:topónimo
 Firgas po:topónimo
 Fisterra po:topónimo
+focem po:topónimo
 Folgoso po:topónimo [n-grama: Folgoso de la Ribera]
 la po:topónimo [n-grama: Folgoso de la Ribera]
 Ribera po:topónimo [n-grama: Folgoso de la Ribera]
@@ -1380,7 +1354,6 @@ Folgoso po:topónimo [n-grama: Folgoso do Courel]
 Courel po:topónimo [n-grama: Folgoso do Courel]
 Folgueroles po:topónimo
 Fontanar po:topónimo
-Fontanosas po:topónimo
 Fontihoyuelo po:topónimo
 Fontioso po:topónimo
 Fonzaleche po:topónimo
@@ -1408,9 +1381,6 @@ las po:topónimo [n-grama: Fresnillo de las Dueñas]
 Dueñas po:topónimo [n-grama: Fresnillo de las Dueñas]
 Fresno po:topónimo [n-grama: Fresno de Caracena]
 Caracena po:topónimo [n-grama: Fresno de Caracena]
-Fresno po:topónimo [n-grama: Fresno de la Vega]
-la po:topónimo [n-grama: Fresno de la Vega]
-Vega po:topónimo [n-grama: Fresno de la Vega]
 Fresno po:topónimo [n-grama: Fresno de Río Tirón]
 Tirón po:topónimo [n-grama: Fresno de Río Tirón]
 Fresno po:topónimo [n-grama: Fresno de Rodilla]
@@ -1453,8 +1423,6 @@ Fuentenovilla po:topónimo
 Fuentepinilla po:topónimo
 Fuentes po:topónimo [n-grama: Fuentes de Andalucía]
 Andalucía po:topónimo [n-grama: Fuentes de Andalucía]
-Fuentes po:topónimo [n-grama: Fuentes de Carbajal]
-Carbajal po:topónimo [n-grama: Fuentes de Carbajal]
 Fuentes po:topónimo [n-grama: Fuentes de Magaña]
 Magaña po:topónimo [n-grama: Fuentes de Magaña]
 Fuentes po:topónimo [n-grama: Fuentes de Nava]
@@ -1483,14 +1451,14 @@ Gandesa po:topónimo
 Gandia po:topónimo
 Garafía po:topónimo
 Garai po:topónimo
-Garrafe po:topónimo [n-grama: Garrafe de Torío]
-Torío po:topónimo [n-grama: Garrafe de Torío]
+Gares po:topónimo
 Garray po:topónimo
 Gasteiz po:topónimo
 Gatika po:topónimo
 Gautegiz po:topónimo [n-grama: Gautegiz Arteaga]
 Arteaga po:topónimo [n-grama: Gautegiz Arteaga]
 Gavà po:topónimo
+Gaztelu po:topónimo
 Gernika po:topónimo
 Getxo po:topónimo
 Gilena po:topónimo
@@ -1500,17 +1468,12 @@ Golmayo po:topónimo
 Gómara po:topónimo
 Gomesende po:topónimo
 Gondomar po:topónimo
-Gordaliza po:topónimo [n-grama: Gordaliza del Pino]
-del po:topónimo [n-grama: Gordaliza del Pino]
-Pino po:topónimo [n-grama: Gordaliza del Pino]
 Gordexola po:topónimo
-Gordoncillo po:topónimo
 Gorliz po:topónimo
 Gormaz po:topónimo
+Gorza po:topónimo
 Gotarrendura po:topónimo
 Gotor po:topónimo
-Gradefes po:topónimo
-Grajal po:topónimo [n-grama: Grajal de Campos]
 Granada po:topónimo
 Granadilla po:topónimo [n-grama: Granadilla de Abona]
 Abona po:topónimo [n-grama: Granadilla de Abona]
@@ -1531,6 +1494,7 @@ Guadix po:topónimo
 Guardo po:topónimo
 Guareña po:topónimo
 Guaza po:topónimo [n-grama: Guaza de Campos]
+Gueñes po:topónimo
 Güeñes po:topónimo
 Guía po:topónimo
 Guía po:topónimo [n-grama: Guía de Isora]
@@ -1544,9 +1508,6 @@ Gumiel po:topónimo [n-grama: Gumiel de Mercado]
 Mercado po:topónimo [n-grama: Gumiel de Mercado]
 Guntín po:topónimo
 Gurb po:topónimo
-Gusendos po:topónimo [n-grama: Gusendos de los Oteros]
-los po:topónimo [n-grama: Gusendos de los Oteros]
-Oteros po:topónimo [n-grama: Gusendos de los Oteros]
 Hacinas po:topónimo
 Haría po:topónimo
 Haro po:topónimo
@@ -1571,6 +1532,7 @@ del po:topónimo [n-grama: Hinojosa del Campo]
 Hinojosa po:topónimo [n-grama: Hinojosa del Duque]
 del po:topónimo [n-grama: Hinojosa del Duque]
 Duque po:topónimo [n-grama: Hinojosa del Duque]
+Hiriberri po:topónimo
 Hondarribia po:topónimo
 Hontanas po:topónimo
 Hontangas po:topónimo
@@ -1589,10 +1551,9 @@ Hornillos po:topónimo [n-grama: Hornillos del Camino]
 del po:topónimo [n-grama: Hornillos del Camino]
 Camino po:topónimo [n-grama: Hornillos del Camino]
 Hortigüela po:topónimo
-Hospital po:topónimo [n-grama: Hospital de Órbigo]
-Órbigo po:topónimo [n-grama: Hospital de Órbigo]
 Hoyales po:topónimo [n-grama: Hoyales de Roa]
 Roa po:topónimo [n-grama: Hoyales de Roa]
+Huarte po:topónimo
 Huelva po:topónimo
 Huérmeces po:topónimo
 Huerta po:topónimo [n-grama: Huerta de Arriba]
@@ -1620,6 +1581,7 @@ Igualada po:topónimo
 Igüeña po:topónimo
 Ikaztegieta po:topónimo
 Ilche po:topónimo
+Illano po:topónimo
 Illescas po:topónimo
 Illueca po:topónimo
 Inca po:topónimo
@@ -1627,6 +1589,8 @@ Ingenio po:topónimo
 Iniesta po:topónimo
 Irixoa po:topónimo
 Irún po:topónimo
+Iruña po:topónimo
+Irurtzun po:topónimo
 Isar po:topónimo
 Íscar po:topónimo
 Isla po:topónimo [n-grama: Isla Cristina]
@@ -1641,11 +1605,13 @@ Vega po:topónimo [n-grama: Itero de la Vega]
 Itero po:topónimo [n-grama: Itero del Castillo]
 del po:topónimo [n-grama: Itero del Castillo]
 Castillo po:topónimo [n-grama: Itero del Castillo]
+Itzaltzu po:topónimo
 Iurreta po:topónimo
 Izagre po:topónimo
 Iznájar po:topónimo
 Izurtza po:topónimo
 Jaca po:topónimo
+Jaitz po:topónimo
 Jaraba po:topónimo
 Jaramillo po:topónimo [n-grama: Jaramillo de la Fuente]
 la po:topónimo [n-grama: Jaramillo de la Fuente]
@@ -1661,9 +1627,6 @@ Caballeros po:topónimo [n-grama: Jerez de los Caballeros]
 Jimena po:topónimo [n-grama: Jimena de la Frontera]
 la po:topónimo [n-grama: Jimena de la Frontera]
 Frontera po:topónimo [n-grama: Jimena de la Frontera]
-Joarilla po:topónimo [n-grama: Joarilla de las Matas]
-las po:topónimo [n-grama: Joarilla de las Matas]
-Matas po:topónimo [n-grama: Joarilla de las Matas]
 Jumilla po:topónimo
 Junta po:topónimo [n-grama: Junta de Traslaloma]
 Traslaloma po:topónimo [n-grama: Junta de Traslaloma]
@@ -1676,7 +1639,9 @@ Jurisdicción po:topónimo [n-grama: Jurisdicción de San Zadornil]
 Zadornil po:topónimo [n-grama: Jurisdicción de San Zadornil]
 Karrantza po:topónimo
 Kortezubi po:topónimo
-L'Estartit po:topónimo
+L'Escala po:topónimo
+L'Espluga po:topónimo [n-grama: L'Espluga de Francolí]
+Francolí po:topónimo [n-grama: L'Espluga de Francolí]
 L'Hospitalet po:topónimo [n-grama: L'Hospitalet de Llobregat]
 Llobregat po:topónimo [n-grama: L'Hospitalet de Llobregat]
 La po:topónimo [n-grama: La Aldea de San Nicolás]
@@ -1689,10 +1654,6 @@ La po:topónimo [n-grama: La Almunia de Doña Godina]
 Almunia po:topónimo [n-grama: La Almunia de Doña Godina]
 Doña po:topónimo [n-grama: La Almunia de Doña Godina]
 Godina po:topónimo [n-grama: La Almunia de Doña Godina]
-La po:topónimo [n-grama: La Antigua]
-Antigua po:topónimo [n-grama: La Antigua]
-La po:topónimo [n-grama: La Bañeza]
-Bañeza po:topónimo [n-grama: La Bañeza]
 La po:topónimo [n-grama: La Baronia de Rialb]
 Baronia po:topónimo [n-grama: La Baronia de Rialb]
 Rialb po:topónimo [n-grama: La Baronia de Rialb]
@@ -1713,8 +1674,6 @@ Mallorca po:topónimo [n-grama: La Ciutat de Mallorca]
 La po:topónimo [n-grama: La Cueva de Roa]
 Cueva po:topónimo [n-grama: La Cueva de Roa]
 Roa po:topónimo [n-grama: La Cueva de Roa]
-La po:topónimo [n-grama: La Ercina]
-Ercina po:topónimo [n-grama: La Ercina]
 La po:topónimo [n-grama: La Felguera]
 Felguera po:topónimo [n-grama: La Felguera]
 La po:topónimo [n-grama: La Figuera]
@@ -1764,9 +1723,6 @@ Segur po:topónimo [n-grama: La Pobla de Segur]
 La po:topónimo [n-grama: La Pobla de Vallbona]
 Pobla po:topónimo [n-grama: La Pobla de Vallbona]
 Vallbona po:topónimo [n-grama: La Pobla de Vallbona]
-La po:topónimo [n-grama: La Pola de Gordón]
-Pola po:topónimo [n-grama: La Pola de Gordón]
-Gordón po:topónimo [n-grama: La Pola de Gordón]
 La po:topónimo [n-grama: La Póveda de Soria]
 Póveda po:topónimo [n-grama: La Póveda de Soria]
 Soria po:topónimo [n-grama: La Póveda de Soria]
@@ -1795,8 +1751,6 @@ Riba po:topónimo [n-grama: La Riba de Escalote]
 Escalote po:topónimo [n-grama: La Riba de Escalote]
 La po:topónimo [n-grama: La Rinconada]
 Rinconada po:topónimo [n-grama: La Rinconada]
-La po:topónimo [n-grama: La Robla]
-Robla po:topónimo [n-grama: La Robla]
 La po:topónimo [n-grama: La Roda]
 Roda po:topónimo [n-grama: La Roda]
 La po:topónimo [n-grama: La Seca]
@@ -1820,8 +1774,6 @@ d'Uixó po:topónimo [n-grama: La Vall d'Uixó]
 La po:topónimo [n-grama: La Vall de Boí]
 Vall po:topónimo [n-grama: La Vall de Boí]
 Boí po:topónimo [n-grama: La Vall de Boí]
-La po:topónimo [n-grama: La Vecilla]
-Vecilla po:topónimo [n-grama: La Vecilla]
 La po:topónimo [n-grama: La Victoria]
 Victoria po:topónimo [n-grama: La Victoria]
 La po:topónimo [n-grama: La Vid de Bureba]
@@ -1841,14 +1793,11 @@ Villa po:topónimo [n-grama: La Villa]
 La po:topónimo [n-grama: La Zoma]
 Zoma po:topónimo [n-grama: La Zoma]
 Labastida po:topónimo
+Labastida\/Bastida po:topónimo
 Láchar po:topónimo
 Ladrillar po:topónimo
 Lagartos po:topónimo
-Lagoa po:topónimo [n-grama: Lagoa de Negrillos]
-Negrillos po:topónimo [n-grama: Lagoa de Negrillos]
 Laguardia po:topónimo
-Laguna po:topónimo [n-grama: Laguna Dalga]
-Dalga po:topónimo [n-grama: Laguna Dalga]
 Laguna po:topónimo [n-grama: Laguna de Duero]
 Duero po:topónimo [n-grama: Laguna de Duero]
 Laguna po:topónimo [n-grama: Laguna del Marquesado]
@@ -1875,7 +1824,6 @@ Aldehuelas po:topónimo [n-grama: Las Aldehuelas]
 Las po:topónimo [n-grama: Las Arenas]
 Arenas po:topónimo [n-grama: Las Arenas]
 Las po:topónimo [n-grama: Las Cabezas de San Juan]
-Cabezas po:topónimo [n-grama: Las Cabezas de San Juan]
 Juan po:topónimo [n-grama: Las Cabezas de San Juan]
 Las po:topónimo [n-grama: Las Hormazas]
 Hormazas po:topónimo [n-grama: Las Hormazas]
@@ -1883,8 +1831,6 @@ Las po:topónimo [n-grama: Las Navas de la Concepción]
 Navas po:topónimo [n-grama: Las Navas de la Concepción]
 la po:topónimo [n-grama: Las Navas de la Concepción]
 Concepción po:topónimo [n-grama: Las Navas de la Concepción]
-Las po:topónimo [n-grama: Las Omañas]
-Omañas po:topónimo [n-grama: Las Omañas]
 Las po:topónimo [n-grama: Las Quintanillas]
 Quintanillas po:topónimo [n-grama: Las Quintanillas]
 Las po:topónimo [n-grama: Las Rozas]
@@ -1897,6 +1843,8 @@ Cotillas po:topónimo [n-grama: Las Torres de Cotillas]
 Laspuña po:topónimo
 Laudio po:topónimo
 Laukiz po:topónimo
+lauretum po:topónimo
+laurum po:topónimo
 Lavadores po:topónimo
 Laviana po:topónimo
 Laxe po:topónimo
@@ -1911,7 +1859,6 @@ Leiro po:topónimo
 Lekeitio po:topónimo
 Lemoa po:topónimo
 Lemoiz po:topónimo
-León po:topónimo
 Lepe po:topónimo
 Lerma po:topónimo
 Les po:topónimo [n-grama: Les Borges Blanques]
@@ -1927,9 +1874,7 @@ Liceras po:topónimo
 Linares po:topónimo
 Litago po:topónimo
 Lizarra po:topónimo
-Llamas po:topónimo [n-grama: Llamas de la Ribera]
-la po:topónimo [n-grama: Llamas de la Ribera]
-Ribera po:topónimo [n-grama: Llamas de la Ribera]
+Llagostera po:topónimo
 Llanera po:topónimo
 Llanes po:topónimo
 Llano po:topónimo [n-grama: Llano de Bureba]
@@ -1972,8 +1917,6 @@ Balbases po:topónimo [n-grama: Los Balbases]
 Los po:topónimo [n-grama: Los Barrios]
 Los po:topónimo [n-grama: Los Barrios de Bureba]
 Bureba po:topónimo [n-grama: Los Barrios de Bureba]
-Los po:topónimo [n-grama: Los Barrios de Luna]
-Luna po:topónimo [n-grama: Los Barrios de Luna]
 Los po:topónimo [n-grama: Los Blázquez]
 Blázquez po:topónimo [n-grama: Los Blázquez]
 Los po:topónimo [n-grama: Los Corrales de Buelna]
@@ -2000,14 +1943,13 @@ Lousame po:topónimo
 Luarca po:topónimo
 Lubián po:topónimo
 Lucena po:topónimo
-Lucillo po:topónimo
 Luena po:topónimo
 Lugo po:topónimo
 Lumeiras po:topónimo
 Lumo po:topónimo
 Luque po:topónimo
-Luyego po:topónimo
 Luzaga po:topónimo
+Luzaide po:topónimo
 Macastre po:topónimo
 Maceda po:topónimo
 Macotera po:topónimo
@@ -2018,8 +1960,6 @@ del po:topónimo [n-grama: Madrigal del Monte]
 Madrigalejo po:topónimo [n-grama: Madrigalejo del Monte]
 del po:topónimo [n-grama: Madrigalejo del Monte]
 Magaña po:topónimo
-Magaz po:topónimo [n-grama: Magaz de Cepeda]
-Cepeda po:topónimo [n-grama: Magaz de Cepeda]
 Magaz po:topónimo [n-grama: Magaz de Pisuerga]
 Pisuerga po:topónimo [n-grama: Magaz de Pisuerga]
 Mahamud po:topónimo
@@ -2044,7 +1984,6 @@ Mambrillas po:topónimo [n-grama: Mambrillas de Lara]
 Lara po:topónimo [n-grama: Mambrillas de Lara]
 Mamolar po:topónimo
 Manacor po:topónimo
-Mañaria po:topónimo
 Manciles po:topónimo
 Mancomunidade po:topónimo [n-grama: Mancomunidade de Concellos da Bisbarra de Ponferrada]
 Bisbarra po:topónimo [n-grama: Mancomunidade de Concellos da Bisbarra de Ponferrada]
@@ -2054,20 +1993,15 @@ la po:topónimo [n-grama: Mancor de la Vall]
 Vall po:topónimo [n-grama: Mancor de la Vall]
 Manises po:topónimo
 Manlleu po:topónimo
-Mañón po:topónimo
 Manquillos po:topónimo
 Manresa po:topónimo
-Mansilla po:topónimo [n-grama: Mansilla de las Mulas]
-las po:topónimo [n-grama: Mansilla de las Mulas]
-Mulas po:topónimo [n-grama: Mansilla de las Mulas]
-Mansilla po:topónimo [n-grama: Mansilla Mayor]
-Mayor po:topónimo [n-grama: Mansilla Mayor]
 Mantinos po:topónimo
 Manzanares po:topónimo
 Manzaneda po:topónimo
+Mañaria po:topónimo
+Mañón po:topónimo
 Maó po:topónimo
 Mara po:topónimo
-Maraña po:topónimo
 Marbella po:topónimo
 Marchena po:topónimo
 Marcilla po:topónimo [n-grama: Marcilla de Campos]
@@ -2085,21 +2019,15 @@ Martos po:topónimo
 Maruri po:topónimo
 Maside po:topónimo
 Massanassa po:topónimo
-Matadeón po:topónimo [n-grama: Matadeón de los Oteros]
-los po:topónimo [n-grama: Matadeón de los Oteros]
-Oteros po:topónimo [n-grama: Matadeón de los Oteros]
 Matalebreras po:topónimo
-Matallana po:topónimo [n-grama: Matallana de Torío]
-Torío po:topónimo [n-grama: Matallana de Torío]
 Matamala po:topónimo [n-grama: Matamala de Almazán]
 Almazán po:topónimo [n-grama: Matamala de Almazán]
-Matanza po:topónimo [n-grama: Matanza de los Oteros]
-los po:topónimo [n-grama: Matanza de los Oteros]
-Oteros po:topónimo [n-grama: Matanza de los Oteros]
 Mataró po:topónimo
 Matilla po:topónimo [n-grama: Matilla la Seca]
 la po:topónimo [n-grama: Matilla la Seca]
 Seca po:topónimo [n-grama: Matilla la Seca]
+mattiana po:topónimo
+mattianeta po:topónimo
 Mayalde po:topónimo
 Mazaricos po:topónimo
 Mazariegos po:topónimo
@@ -2132,11 +2060,11 @@ Yuso po:topónimo [n-grama: Melgar de Yuso]
 Melide po:topónimo
 Melilla po:topónimo
 Melón po:topónimo
-Meñaka po:topónimo
 Mendaro po:topónimo
 Mendata po:topónimo
 Mendexa po:topónimo
 Meneses po:topónimo [n-grama: Meneses de Campos]
+Meñaka po:topónimo
 Mequinenza po:topónimo
 Mérida po:topónimo
 Merindad po:topónimo [n-grama: Merindad de Cuesta]
@@ -2211,11 +2139,11 @@ Lemos po:topónimo [n-grama: Monforte de Lemos]
 Monistrol po:topónimo [n-grama: Monistrol de Calders]
 Calders po:topónimo [n-grama: Monistrol de Calders]
 Monòver po:topónimo
+Monreal po:topónimo
 Montalbán po:topónimo [n-grama: Montalbán de Córdoba]
 Córdoba po:topónimo [n-grama: Montalbán de Córdoba]
 Montblanc po:topónimo
 Montcada po:topónimo [n-grama: Montcada i Reixac]
-i po:topónimo [n-grama: Montcada i Reixac]
 Reixac po:topónimo [n-grama: Montcada i Reixac]
 Monteagudo po:topónimo [n-grama: Monteagudo de las Vicarías]
 las po:topónimo [n-grama: Monteagudo de las Vicarías]
@@ -2256,6 +2184,7 @@ del po:topónimo [n-grama: Morales del Vino]
 Vino po:topónimo [n-grama: Morales del Vino]
 Moraña po:topónimo
 Moratinos po:topónimo
+Moreiras po:topónimo
 Morella po:topónimo
 Morga po:topónimo
 Moriles po:topónimo
@@ -2285,8 +2214,6 @@ Mungia po:topónimo
 Munitibar po:topónimo
 Muras po:topónimo
 Murcia po:topónimo
-Murias po:topónimo [n-grama: Murias de Paredes]
-Paredes po:topónimo [n-grama: Murias de Paredes]
 Muriel po:topónimo [n-grama: Muriel de la Fuente]
 la po:topónimo [n-grama: Muriel de la Fuente]
 Fuente po:topónimo [n-grama: Muriel de la Fuente]
@@ -2325,6 +2252,7 @@ Navarrete po:topónimo
 Navas po:topónimo
 Navas po:topónimo [n-grama: Navas de Bureba]
 Bureba po:topónimo [n-grama: Navas de Bureba]
+Navascués po:topónimo
 Navia po:topónimo
 Navia po:topónimo [n-grama: Navia de Suarna]
 Suarna po:topónimo [n-grama: Navia de Suarna]
@@ -2413,6 +2341,8 @@ Pereiro po:topónimo [n-grama: O Pereiro de Aguiar]
 Aguiar po:topónimo [n-grama: O Pereiro de Aguiar]
 Pino po:topónimo [n-grama: O Pino]
 Porriño po:topónimo [n-grama: O Porriño]
+Portal po:topónimo [n-grama: O Portal da Horta]
+Horta po:topónimo [n-grama: O Portal da Horta]
 Rosal po:topónimo [n-grama: O Rosal]
 Sagrado po:topónimo [n-grama: O Sagrado Corazón da Pontenova]
 Corazón po:topónimo [n-grama: O Sagrado Corazón da Pontenova]
@@ -2443,6 +2373,8 @@ Oiartzun po:topónimo
 Oímbra po:topónimo
 Okondo po:topónimo
 Olaberria po:topónimo
+Olatzagutia po:topónimo
+Olazti po:topónimo
 Olea po:topónimo [n-grama: Olea de Boedo]
 Boedo po:topónimo [n-grama: Olea de Boedo]
 Oleiros po:topónimo
@@ -2460,16 +2392,17 @@ Muñó po:topónimo [n-grama: Olmillos de Muñó]
 Olmos po:topónimo [n-grama: Olmos de Ojeda]
 Ojeda po:topónimo [n-grama: Olmos de Ojeda]
 Olot po:topónimo
+Oltza po:topónimo [n-grama: Oltza Zendea]
+Zendea po:topónimo [n-grama: Oltza Zendea]
 Ólvega po:topónimo
 Olvena po:topónimo
-Oña po:topónimo
-Oñati po:topónimo
 Oncala po:topónimo
 Onda po:topónimo
 Ondarroa po:topónimo
 Oneta po:topónimo
 Ontinyent po:topónimo
-Onzonilla po:topónimo
+Oña po:topónimo
+Oñati po:topónimo
 Oquillas po:topónimo
 Orbaneja po:topónimo [n-grama: Orbaneja Riopico]
 Riopico po:topónimo [n-grama: Orbaneja Riopico]
@@ -2478,19 +2411,17 @@ Ordizia po:topónimo
 Orduña po:topónimo
 Orereta po:topónimo
 Orihuela po:topónimo
+Orontze po:topónimo
 Oroso po:topónimo
+Orotz po:topónimo
 Orozko po:topónimo
 Orpesa po:topónimo
 Òrrius po:topónimo
 Ortigueira po:topónimo
 Ortuella po:topónimo
-Blancos po:topónimo [n-grama: Os Blancos]
-Coutos po:topónimo [n-grama: Os Coutos]
 Osa po:topónimo [n-grama: Osa de la Vega]
 la po:topónimo [n-grama: Osa de la Vega]
 Vega po:topónimo [n-grama: Osa de la Vega]
-Oseja po:topónimo [n-grama: Oseja de Sajambre]
-Sajambre po:topónimo [n-grama: Oseja de Sajambre]
 Osornillo po:topónimo
 Osorno po:topónimo [n-grama: Osorno la Mayor]
 la po:topónimo [n-grama: Osorno la Mayor]
@@ -2504,7 +2435,7 @@ Ourol po:topónimo
 Outes po:topónimo
 Oviedo po:topónimo
 Oza po:topónimo
-Oza po:topónimo [n-grama: Oza do Ríos]
+Oza po:topónimo [n-grama: Oza dos Ríos]
 Pacheco po:topónimo
 Paderne po:topónimo
 Paderne po:topónimo [n-grama: Paderne de Allariz]
@@ -2512,7 +2443,6 @@ Allariz po:topónimo [n-grama: Paderne de Allariz]
 Padilla po:topónimo [n-grama: Padilla de Abajo]
 Abajo po:topónimo [n-grama: Padilla de Abajo]
 Padilla po:topónimo [n-grama: Padilla de Arriba]
-Padornelo po:topónimo
 Padre po:topónimo [n-grama: Padre Eterno de Quintela de Umoso]
 Eterno po:topónimo [n-grama: Padre Eterno de Quintela de Umoso]
 Quintela po:topónimo [n-grama: Padre Eterno de Quintela de Umoso]
@@ -2523,27 +2453,19 @@ Padrones po:topónimo [n-grama: Padrones de Bureba]
 Bureba po:topónimo [n-grama: Padrones de Bureba]
 Paiporta po:topónimo
 Pájara po:topónimo
-Pajares po:topónimo [n-grama: Pajares de los Oteros]
-los po:topónimo [n-grama: Pajares de los Oteros]
-Oteros po:topónimo [n-grama: Pajares de los Oteros]
 Pajaroncillo po:topónimo
 Palacios po:topónimo [n-grama: Palacios de la Sierra]
 la po:topónimo [n-grama: Palacios de la Sierra]
 Sierra po:topónimo [n-grama: Palacios de la Sierra]
-Palacios po:topónimo [n-grama: Palacios de la Valduerna]
-la po:topónimo [n-grama: Palacios de la Valduerna]
-Valduerna po:topónimo [n-grama: Palacios de la Valduerna]
 Palacios po:topónimo [n-grama: Palacios de Riopisuerga]
 Riopisuerga po:topónimo [n-grama: Palacios de Riopisuerga]
 Palacios po:topónimo [n-grama: Palacios de Sanabria]
 Sanabria po:topónimo [n-grama: Palacios de Sanabria]
-Palacios po:topónimo [n-grama: Palacios del Sil]
-del po:topónimo [n-grama: Palacios del Sil]
-Sil po:topónimo [n-grama: Palacios del Sil]
 Palafolls po:topónimo
 Palafrugell po:topónimo
 Palamós po:topónimo
 Palas po:topónimo [n-grama: Palas de Rei]
+Palau po:topónimo
 Palazuelos po:topónimo [n-grama: Palazuelos de la Sierra]
 la po:topónimo [n-grama: Palazuelos de la Sierra]
 Sierra po:topónimo [n-grama: Palazuelos de la Sierra]
@@ -2616,6 +2538,7 @@ Pego po:topónimo
 Peleas po:topónimo [n-grama: Peleas de Abajo]
 Abajo po:topónimo [n-grama: Peleas de Abajo]
 Peligros po:topónimo
+Peníscola po:topónimo
 Peñafiel po:topónimo
 Peñaranda po:topónimo [n-grama: Peñaranda de Bracamonte]
 Bracamonte po:topónimo [n-grama: Peñaranda de Bracamonte]
@@ -2623,7 +2546,6 @@ Peñaranda po:topónimo [n-grama: Peñaranda de Duero]
 Duero po:topónimo [n-grama: Peñaranda de Duero]
 Peñarroya po:topónimo
 Peñausende po:topónimo
-Peníscola po:topónimo
 Perafort po:topónimo
 Peral po:topónimo [n-grama: Peral de Arlanza]
 Arlanza po:topónimo [n-grama: Peral de Arlanza]
@@ -2635,6 +2557,7 @@ Peranzais po:topónimo
 Pereda po:topónimo [n-grama: Pereda de Ancares]
 Ancares po:topónimo [n-grama: Pereda de Ancares]
 Periana po:topónimo
+Pesoz po:topónimo
 Petín po:topónimo
 Petra po:topónimo
 Petrer po:topónimo
@@ -2645,14 +2568,12 @@ Picassent po:topónimo
 Piélagos po:topónimo
 Piérnigas po:topónimo
 Piloña po:topónimo
-Piña po:topónimo [n-grama: Piña de Campos]
 Pineda po:topónimo [n-grama: Pineda de la Sierra]
 la po:topónimo [n-grama: Pineda de la Sierra]
 Sierra po:topónimo [n-grama: Pineda de la Sierra]
 Pineda po:topónimo [n-grama: Pineda de Mar]
 Pineda po:topónimo [n-grama: Pineda Trasmonte]
 Trasmonte po:topónimo [n-grama: Pineda Trasmonte]
-Piñeira po:topónimo
 Pinilla po:topónimo [n-grama: Pinilla de los Barruecos]
 los po:topónimo [n-grama: Pinilla de los Barruecos]
 Barruecos po:topónimo [n-grama: Pinilla de los Barruecos]
@@ -2666,8 +2587,10 @@ Trasmonte po:topónimo [n-grama: Pinilla Trasmonte]
 Pino po:topónimo [n-grama: Pino del Río]
 del po:topónimo [n-grama: Pino del Río]
 Pinofranqueado po:topónimo
-Piñor po:topónimo
 Pinto po:topónimo
+Piña po:topónimo [n-grama: Piña de Campos]
+Piñeira po:topónimo
+Piñor po:topónimo
 Plasencia po:topónimo
 Plentzia po:topónimo
 Población po:topónimo [n-grama: Población de Arroyo]
@@ -2675,9 +2598,6 @@ Arroyo po:topónimo [n-grama: Población de Arroyo]
 Población po:topónimo [n-grama: Población de Campos]
 Población po:topónimo [n-grama: Población de Cerrato]
 Cerrato po:topónimo [n-grama: Población de Cerrato]
-Pobladura po:topónimo [n-grama: Pobladura de Pelayo García]
-Pelayo po:topónimo [n-grama: Pobladura de Pelayo García]
-García po:topónimo [n-grama: Pobladura de Pelayo García]
 Poblenou po:topónimo [n-grama: Poblenou de la Corona]
 la po:topónimo [n-grama: Poblenou de la Corona]
 Corona po:topónimo [n-grama: Poblenou de la Corona]
@@ -2685,7 +2605,6 @@ Pobra po:topónimo [n-grama: Pobra de Seabra]
 Seabra po:topónimo [n-grama: Pobra de Seabra]
 Poio po:topónimo
 Pol po:topónimo
-Pola po:topónimo [n-grama: Pola de Allande]
 Allande po:topónimo [n-grama: Pola de Allande]
 Polaviella po:topónimo
 Polentinos po:topónimo
@@ -2712,8 +2631,6 @@ Soria po:topónimo [n-grama: Portillo de Soria]
 Son po:topónimo [n-grama: Porto do Son]
 Portomarín po:topónimo
 Portugalete po:topónimo
-Posada po:topónimo [n-grama: Posada de Valdeón]
-Valdeón po:topónimo [n-grama: Posada de Valdeón]
 Potes po:topónimo
 Poza po:topónimo [n-grama: Poza de la Sal]
 la po:topónimo [n-grama: Poza de la Sal]
@@ -2728,16 +2645,15 @@ Pozoblanco po:topónimo
 Pozorrubio po:topónimo
 Pozuelo po:topónimo [n-grama: Pozuelo de Alarcón]
 Alarcón po:topónimo [n-grama: Pozuelo de Alarcón]
-Pozuelo po:topónimo [n-grama: Pozuelo del Páramo]
-del po:topónimo [n-grama: Pozuelo del Páramo]
-Páramo po:topónimo [n-grama: Pozuelo del Páramo]
+Pozuelo po:topónimo [n-grama: Pozuelo del Rey]
+del po:topónimo [n-grama: Pozuelo del Rey]
+Rey po:topónimo [n-grama: Pozuelo del Rey]
+Pozuelo po:topónimo [n-grama: Pozuelo do Rei]
 Prádanos po:topónimo [n-grama: Prádanos de Bureba]
 Bureba po:topónimo [n-grama: Prádanos de Bureba]
 Prádanos po:topónimo [n-grama: Prádanos de Ojeda]
 Ojeda po:topónimo [n-grama: Prádanos de Ojeda]
 Pradejón po:topónimo
-la po:topónimo [n-grama: Prado de la Guzpeña]
-Guzpeña po:topónimo [n-grama: Prado de la Guzpeña]
 Pradoluengo po:topónimo
 Pravia po:topónimo
 Premià po:topónimo [n-grama: Premià de Dalt]
@@ -2748,11 +2664,13 @@ Priaranza po:topónimo
 Priego po:topónimo
 Priego po:topónimo [n-grama: Priego de Córdoba]
 Córdoba po:topónimo [n-grama: Priego de Córdoba]
-Prioro po:topónimo
 Puçol po:topónimo
-Puebla po:topónimo [n-grama: Puebla de Lillo]
-Lillo po:topónimo [n-grama: Puebla de Lillo]
+Puebla po:topónimo [n-grama: Puebla de Sanabria]
+Sanabria po:topónimo [n-grama: Puebla de Sanabria]
 Pueblonuevo po:topónimo
+Puente po:topónimo [n-grama: Puente de Domingo Flórez]
+Domingo po:topónimo [n-grama: Puente de Domingo Flórez]
+Flórez po:topónimo [n-grama: Puente de Domingo Flórez]
 Puente po:topónimo [n-grama: Puente Genil]
 Genil po:topónimo [n-grama: Puente Genil]
 Puente po:topónimo [n-grama: Puente la Reina]
@@ -2787,13 +2705,7 @@ Quart po:topónimo [n-grama: Quart de Poblet]
 Poblet po:topónimo [n-grama: Quart de Poblet]
 Quatretonda po:topónimo
 Quemada po:topónimo
-Quiñonería po:topónimo
-Quintana po:topónimo [n-grama: Quintana del Castillo]
-del po:topónimo [n-grama: Quintana del Castillo]
-Castillo po:topónimo [n-grama: Quintana del Castillo]
-Quintana po:topónimo [n-grama: Quintana del Marco]
-del po:topónimo [n-grama: Quintana del Marco]
-Marco po:topónimo [n-grama: Quintana del Marco]
+Quins po:topónimo
 Quintana po:topónimo [n-grama: Quintana del Pidio]
 del po:topónimo [n-grama: Quintana del Pidio]
 Pidio po:topónimo [n-grama: Quintana del Pidio]
@@ -2802,9 +2714,6 @@ del po:topónimo [n-grama: Quintana del Puente]
 Puente po:topónimo [n-grama: Quintana del Puente]
 Quintana po:topónimo [n-grama: Quintana Redonda]
 Redonda po:topónimo [n-grama: Quintana Redonda]
-Quintana po:topónimo [n-grama: Quintana y Congosto]
-y po:topónimo [n-grama: Quintana y Congosto]
-Congosto po:topónimo [n-grama: Quintana y Congosto]
 Quintanabureba po:topónimo
 Quintanaélez po:topónimo
 Quintanaortuño po:topónimo
@@ -2840,6 +2749,7 @@ Quintela po:topónimo [n-grama: Quintela de Leirado]
 Leirado po:topónimo [n-grama: Quintela de Leirado]
 Quintela po:topónimo [n-grama: Quintela do Pando]
 Pando po:topónimo [n-grama: Quintela do Pando]
+Quiñonería po:topónimo
 Quiroga po:topónimo
 Quirós po:topónimo
 Rábade po:topónimo
@@ -2857,6 +2767,8 @@ Ramales po:topónimo [n-grama: Ramales de la Victoria]
 la po:topónimo [n-grama: Ramales de la Victoria]
 Victoria po:topónimo [n-grama: Ramales de la Victoria]
 Ramirás po:topónimo
+Astillero po:topónimo [n-grama: Real Astillero de Guarnizo]
+Guarnizo po:topónimo [n-grama: Real Astillero de Guarnizo]
 Sitio po:topónimo [n-grama: Real Sitio de La Granja de San Ildefonso]
 La po:topónimo [n-grama: Real Sitio de La Granja de San Ildefonso]
 Granja po:topónimo [n-grama: Real Sitio de La Granja de San Ildefonso]
@@ -2871,7 +2783,6 @@ Camino po:topónimo [n-grama: Redecilla del Camino]
 Redecilla po:topónimo [n-grama: Redecilla del Campo]
 del po:topónimo [n-grama: Redecilla del Campo]
 Redondela po:topónimo
-Regueras po:topónimo [n-grama: Regueras de Arriba]
 Regumiel po:topónimo [n-grama: Regumiel de la Sierra]
 la po:topónimo [n-grama: Regumiel de la Sierra]
 Sierra po:topónimo [n-grama: Regumiel de la Sierra]
@@ -2905,15 +2816,15 @@ del po:topónimo [n-grama: Revilla del Campo]
 Revilla po:topónimo [n-grama: Revilla Vallejera]
 Vallejera po:topónimo [n-grama: Revilla Vallejera]
 Revillarruz po:topónimo
-Reyero po:topónimo
 Rezmondo po:topónimo
 Reznos po:topónimo
-Riaño po:topónimo
 Rianxo po:topónimo
 Ribadavia po:topónimo
 Ribadeo po:topónimo
 Ribadesella po:topónimo
 Ribadumia po:topónimo
+Ribamontán po:topónimo [n-grama: Ribamontán al Mar]
+al po:topónimo [n-grama: Ribamontán al Mar]
 Ribamontán po:topónimo [n-grama: Ribamontán al Monte]
 al po:topónimo [n-grama: Ribamontán al Monte]
 Ribas po:topónimo [n-grama: Ribas de Campos]
@@ -2924,12 +2835,6 @@ Riberos po:topónimo [n-grama: Riberos de la Cueza]
 la po:topónimo [n-grama: Riberos de la Cueza]
 Cueza po:topónimo [n-grama: Riberos de la Cueza]
 Ricla po:topónimo
-Riego po:topónimo [n-grama: Riego de la Vega]
-la po:topónimo [n-grama: Riego de la Vega]
-Vega po:topónimo [n-grama: Riego de la Vega]
-Riello po:topónimo
-Rihonor po:topónimo [n-grama: Rihonor de Castilla]
-Castilla po:topónimo [n-grama: Rihonor de Castilla]
 Rincón po:topónimo [n-grama: Rincón de la Victoria]
 la po:topónimo [n-grama: Rincón de la Victoria]
 Victoria po:topónimo [n-grama: Rincón de la Victoria]
@@ -2941,8 +2846,6 @@ Sierra po:topónimo [n-grama: Riocavado de la Sierra]
 Riós po:topónimo
 Rioseco po:topónimo [n-grama: Rioseco de Soria]
 Soria po:topónimo [n-grama: Rioseco de Soria]
-Rioseco po:topónimo [n-grama: Rioseco de Tapia]
-Tapia po:topónimo [n-grama: Rioseco de Tapia]
 Riotorto po:topónimo
 Ripoll po:topónimo
 Ripollet po:topónimo
@@ -2951,6 +2854,8 @@ Roa po:topónimo
 Roales po:topónimo
 Roca po:topónimo
 Rocafort po:topónimo
+Roda po:topónimo [n-grama: Roda de Barà]
+Barà po:topónimo [n-grama: Roda de Barà]
 Roda po:topónimo [n-grama: Roda de Berà]
 Berà po:topónimo [n-grama: Roda de Berà]
 Rodeiro po:topónimo
@@ -2961,9 +2866,6 @@ Romanillos po:topónimo [n-grama: Romanillos de Atienza]
 Atienza po:topónimo [n-grama: Romanillos de Atienza]
 Roncesvales po:topónimo
 Ronda po:topónimo
-Roperuelos po:topónimo [n-grama: Roperuelos del Páramo]
-del po:topónimo [n-grama: Roperuelos del Páramo]
-Páramo po:topónimo [n-grama: Roperuelos del Páramo]
 Roquetas po:topónimo [n-grama: Roquetas de Mar]
 Roses po:topónimo
 Rota po:topónimo
@@ -2982,7 +2884,6 @@ Ruiloba po:topónimo
 Sa po:topónimo [n-grama: Sa Pobla]
 Pobla po:topónimo [n-grama: Sa Pobla]
 Sabadell po:topónimo
-Sabero po:topónimo
 Sabiñánigo po:topónimo
 Sacardebois po:topónimo
 Sada po:topónimo
@@ -2991,7 +2892,6 @@ Corazón po:topónimo [n-grama: Sagrado Corazón de Xesús de Freixido]
 Xesús po:topónimo [n-grama: Sagrado Corazón de Xesús de Freixido]
 Freixido po:topónimo [n-grama: Sagrado Corazón de Xesús de Freixido]
 Sagunt po:topónimo
-Sahagún po:topónimo
 Salamanca po:topónimo
 Salas po:topónimo [n-grama: Salas de Bureba]
 Bureba po:topónimo [n-grama: Salas de Bureba]
@@ -3016,17 +2916,12 @@ Salou po:topónimo
 Salt po:topónimo
 Salvaterra po:topónimo [n-grama: Salvaterra de Miño]
 Miño po:topónimo [n-grama: Salvaterra de Miño]
-Salvatierra po:topónimo
 Salvatierra po:topónimo [n-grama: Salvatierra de Esca]
 Esca po:topónimo [n-grama: Salvatierra de Esca]
-Salvatierra\/Agurain po:topónimo
 Samos po:topónimo
 Adrián po:topónimo [n-grama: San Adrián]
 Adrián po:topónimo [n-grama: San Adrián de Juarros]
 Juarros po:topónimo [n-grama: San Adrián de Juarros]
-Adrián po:topónimo [n-grama: San Adrián del Valle]
-del po:topónimo [n-grama: San Adrián del Valle]
-Valle po:topónimo [n-grama: San Adrián del Valle]
 Amaro po:topónimo [n-grama: San Amaro]
 Amaro po:topónimo [n-grama: San Amaro das Regadas]
 Regadas po:topónimo [n-grama: San Amaro das Regadas]
@@ -3038,11 +2933,10 @@ Amedio po:topónimo [n-grama: San Amedio de Bamiro]
 Bamiro po:topónimo [n-grama: San Amedio de Bamiro]
 Amedio po:topónimo [n-grama: San Amedio de Millarada]
 Millarada po:topónimo [n-grama: San Amedio de Millarada]
+Amedio po:topónimo [n-grama: San Amedio de Sarces]
+Sarces po:topónimo [n-grama: San Amedio de Sarces]
 André po:topónimo [n-grama: San André de Campo Redondo]
 Redondo po:topónimo [n-grama: San André de Campo Redondo]
-Andrés po:topónimo [n-grama: San Andrés del Rabanedo]
-del po:topónimo [n-grama: San Andrés del Rabanedo]
-Rabanedo po:topónimo [n-grama: San Andrés del Rabanedo]
 Andrés po:topónimo [n-grama: San Andrés y Sauces]
 y po:topónimo [n-grama: San Andrés y Sauces]
 Sauces po:topónimo [n-grama: San Andrés y Sauces]
@@ -3117,7 +3011,6 @@ Vilarbuxán po:topónimo [n-grama: San Bartolomeu de Vilarbuxán]
 Bartolomeu po:topónimo [n-grama: San Bartolomeu de Xesta]
 Xesta po:topónimo [n-grama: San Bartolomeu de Xesta]
 Bartolomeu po:topónimo [n-grama: San Bartolomeu do Couto]
-Couto po:topónimo [n-grama: San Bartolomeu do Couto]
 Bernabé po:topónimo [n-grama: San Bernabé de Chaguazoso]
 Chaguazoso po:topónimo [n-grama: San Bernabé de Chaguazoso]
 Bernabé po:topónimo [n-grama: San Bernabé de Valencia do Sil]
@@ -3137,18 +3030,11 @@ Bernaldo po:topónimo [n-grama: San Bernaldo de Tibiás]
 Tibiás po:topónimo [n-grama: San Bernaldo de Tibiás]
 Bertomeu po:topónimo [n-grama: San Bertomeu de Cabaneiro]
 Cabaneiro po:topónimo [n-grama: San Bertomeu de Cabaneiro]
-Bieito po:topónimo [n-grama: San Bieito de Cabeza de Vaca]
-Cabeza po:topónimo [n-grama: San Bieito de Cabeza de Vaca]
 Vaca po:topónimo [n-grama: San Bieito de Cabeza de Vaca]
-Bieito po:topónimo [n-grama: San Bieito de Carraxo]
 Carraxo po:topónimo [n-grama: San Bieito de Carraxo]
-Bieito po:topónimo [n-grama: San Bieito de Golmar]
 Golmar po:topónimo [n-grama: San Bieito de Golmar]
-Bieito po:topónimo [n-grama: San Bieito de Gondomar]
 Gondomar po:topónimo [n-grama: San Bieito de Gondomar]
-Bieito po:topónimo [n-grama: San Bieito de Rabiño]
 Rabiño po:topónimo [n-grama: San Bieito de Rabiño]
-Bieito po:topónimo [n-grama: San Bieito de Vilameán]
 Vilameán po:topónimo [n-grama: San Bieito de Vilameán]
 Boulo po:topónimo [n-grama: San Boulo de Caaveiro]
 Caaveiro po:topónimo [n-grama: San Boulo de Caaveiro]
@@ -3190,7 +3076,6 @@ Sergude po:topónimo [n-grama: San Breixo de Sergude]
 Breixo po:topónimo [n-grama: San Breixo de Vilaquinte]
 Vilaquinte po:topónimo [n-grama: San Breixo de Vilaquinte]
 Breixo po:topónimo [n-grama: San Breixo dos Blancos]
-Blancos po:topónimo [n-grama: San Breixo dos Blancos]
 Breixo po:topónimo [n-grama: San Breixo dos Espiñeiros]
 Espiñeiros po:topónimo [n-grama: San Breixo dos Espiñeiros]
 Caetano po:topónimo [n-grama: San Caetano]
@@ -3281,7 +3166,6 @@ Cibrao po:topónimo [n-grama: San Cibrao do Carballiño]
 Carballiño po:topónimo [n-grama: San Cibrao do Carballiño]
 Cibrao po:topónimo [n-grama: San Cibrao dos Ferreiros]
 Ferreiros po:topónimo [n-grama: San Cibrao dos Ferreiros]
-Ciprián po:topónimo [n-grama: San Ciprián]
 Cirilo po:topónimo [n-grama: San Cirilo de Recesende]
 Recesende po:topónimo [n-grama: San Cirilo de Recesende]
 Clemente po:topónimo [n-grama: San Clemente de Arnado]
@@ -3357,9 +3241,6 @@ Boedo po:topónimo [n-grama: San Cristóbal de Boedo]
 Cristóbal po:topónimo [n-grama: San Cristóbal de La Laguna]
 La po:topónimo [n-grama: San Cristóbal de La Laguna]
 Laguna po:topónimo [n-grama: San Cristóbal de La Laguna]
-Cristóbal po:topónimo [n-grama: San Cristóbal de la Polantera]
-la po:topónimo [n-grama: San Cristóbal de la Polantera]
-Polantera po:topónimo [n-grama: San Cristóbal de la Polantera]
 Cristobo po:topónimo [n-grama: San Cristobo de Guntín]
 Guntín po:topónimo [n-grama: San Cristobo de Guntín]
 Cristovo po:topónimo [n-grama: San Cristovo]
@@ -3406,6 +3287,8 @@ Cristovo po:topónimo [n-grama: San Cristovo de Corzón]
 Corzón po:topónimo [n-grama: San Cristovo de Corzón]
 Cristovo po:topónimo [n-grama: San Cristovo de Couso]
 Couso po:topónimo [n-grama: San Cristovo de Couso]
+Cristovo po:topónimo [n-grama: San Cristovo de Couzadoiro]
+Couzadoiro po:topónimo [n-grama: San Cristovo de Couzadoiro]
 Cristovo po:topónimo [n-grama: San Cristovo de Cuíñas]
 Cuíñas po:topónimo [n-grama: San Cristovo de Cuíñas]
 Cristovo po:topónimo [n-grama: San Cristovo de Dombodán]
@@ -3483,11 +3366,8 @@ Domingos po:topónimo [n-grama: San Domingos de Ribadavia]
 Ribadavia po:topónimo [n-grama: San Domingos de Ribadavia]
 Donato po:topónimo [n-grama: San Donato de Vilaseco]
 Vilaseco po:topónimo [n-grama: San Donato de Vilaseco]
-Emiliano po:topónimo [n-grama: San Emiliano]
 Esteban po:topónimo [n-grama: San Esteban de Gormaz]
 Gormaz po:topónimo [n-grama: San Esteban de Gormaz]
-Esteban po:topónimo [n-grama: San Esteban de Nogales]
-Nogales po:topónimo [n-grama: San Esteban de Nogales]
 Facundo po:topónimo [n-grama: San Facundo da Pereira]
 Pereira po:topónimo [n-grama: San Facundo da Pereira]
 Facundo po:topónimo [n-grama: San Facundo de Busto]
@@ -3601,9 +3481,6 @@ Javier po:topónimo [n-grama: San Javier]
 Juan po:topónimo [n-grama: San Juan del Monte]
 del po:topónimo [n-grama: San Juan del Monte]
 Justo po:topónimo [n-grama: San Justo]
-Justo po:topónimo [n-grama: San Justo de la Vega]
-la po:topónimo [n-grama: San Justo de la Vega]
-Vega po:topónimo [n-grama: San Justo de la Vega]
 Lázaro po:topónimo [n-grama: San Lázaro]
 Leonardo po:topónimo [n-grama: San Leonardo de Yagüe]
 Yagüe po:topónimo [n-grama: San Leonardo de Yagüe]
@@ -3657,6 +3534,8 @@ Lourenzo po:topónimo [n-grama: San Lourenzo de Castiñeira]
 Castiñeira po:topónimo [n-grama: San Lourenzo de Castiñeira]
 Lourenzo po:topónimo [n-grama: San Lourenzo de Covelo]
 Covelo po:topónimo [n-grama: San Lourenzo de Covelo]
+Lourenzo po:topónimo [n-grama: San Lourenzo de Doso]
+Doso po:topónimo [n-grama: San Lourenzo de Doso]
 Lourenzo po:topónimo [n-grama: San Lourenzo de Escuadra]
 Escuadra po:topónimo [n-grama: San Lourenzo de Escuadra]
 Lourenzo po:topónimo [n-grama: San Lourenzo de Fión]
@@ -3791,6 +3670,8 @@ Carnota po:topónimo [n-grama: San Mamede de Carnota]
 Mamede po:topónimo [n-grama: San Mamede de Castro]
 Mamede po:topónimo [n-grama: San Mamede de Coence]
 Coence po:topónimo [n-grama: San Mamede de Coence]
+Mamede po:topónimo [n-grama: San Mamede de Corvillón]
+Corvillón po:topónimo [n-grama: San Mamede de Corvillón]
 Mamede po:topónimo [n-grama: San Mamede de Estevesiños]
 Estevesiños po:topónimo [n-grama: San Mamede de Estevesiños]
 Mamede po:topónimo [n-grama: San Mamede de Ferreiros]
@@ -3910,7 +3791,6 @@ Mamede po:topónimo [n-grama: San Mamede do Carballal]
 Carballal po:topónimo [n-grama: San Mamede do Carballal]
 Mamede po:topónimo [n-grama: San Mamede do Castro]
 Mamede po:topónimo [n-grama: San Mamede do Couto]
-Couto po:topónimo [n-grama: San Mamede do Couto]
 Mamede po:topónimo [n-grama: San Mamede do Río]
 Mamede po:topónimo [n-grama: San Mamede dos Ánxeles]
 Ánxeles po:topónimo [n-grama: San Mamede dos Ánxeles]
@@ -3937,7 +3817,6 @@ María po:topónimo [n-grama: San María de Cruces]
 María po:topónimo [n-grama: San María de Erboedo]
 Erboedo po:topónimo [n-grama: San María de Erboedo]
 María po:topónimo [n-grama: San María de Grobas]
-Grobas po:topónimo [n-grama: San María de Grobas]
 María po:topónimo [n-grama: San María de Lira]
 Lira po:topónimo [n-grama: San María de Lira]
 María po:topónimo [n-grama: San María de Melide]
@@ -3967,12 +3846,13 @@ Pedrouzos po:topónimo [n-grama: San Mariña de Pedrouzos]
 Mariño po:topónimo [n-grama: San Mariño de Fruíme]
 Fruíme po:topónimo [n-grama: San Mariño de Fruíme]
 Mariño po:topónimo [n-grama: San Mariño de Galegos]
-Galegos po:topónimo [n-grama: San Mariño de Galegos]
 Martín po:topónimo [n-grama: San Martín da Ribeira]
 Martín po:topónimo [n-grama: San Martín de Arroxo]
 Arroxo po:topónimo [n-grama: San Martín de Arroxo]
 Martín po:topónimo [n-grama: San Martín de Lúa]
 Lúa po:topónimo [n-grama: San Martín de Lúa]
+Martín po:topónimo [n-grama: San Martín de Oscos]
+Oscos po:topónimo [n-grama: San Martín de Oscos]
 Martín po:topónimo [n-grama: San Martín de Ozcos]
 Ozcos po:topónimo [n-grama: San Martín de Ozcos]
 Martín po:topónimo [n-grama: San Martín de Rubiales]
@@ -4089,10 +3969,10 @@ Martiño po:topónimo [n-grama: San Martiño de Candás]
 Candás po:topónimo [n-grama: San Martiño de Candás]
 Martiño po:topónimo [n-grama: San Martiño de Canduas]
 Canduas po:topónimo [n-grama: San Martiño de Canduas]
-Martiño po:topónimo [n-grama: San Martiño de Caraño]
-Caraño po:topónimo [n-grama: San Martiño de Caraño]
 Martiño po:topónimo [n-grama: San Martiño de Carantoña]
 Carantoña po:topónimo [n-grama: San Martiño de Carantoña]
+Martiño po:topónimo [n-grama: San Martiño de Caraño]
+Caraño po:topónimo [n-grama: San Martiño de Caraño]
 Martiño po:topónimo [n-grama: San Martiño de Carballido]
 Carballido po:topónimo [n-grama: San Martiño de Carballido]
 Martiño po:topónimo [n-grama: San Martiño de Carral]
@@ -4131,7 +4011,6 @@ Cotá po:topónimo [n-grama: San Martiño de Cotá]
 Martiño po:topónimo [n-grama: San Martiño de Coucieiro]
 Coucieiro po:topónimo [n-grama: San Martiño de Coucieiro]
 Martiño po:topónimo [n-grama: San Martiño de Couto]
-Couto po:topónimo [n-grama: San Martiño de Couto]
 Martiño po:topónimo [n-grama: San Martiño de Covas]
 Martiño po:topónimo [n-grama: San Martiño de Cruzul]
 Cruzul po:topónimo [n-grama: San Martiño de Cruzul]
@@ -4231,6 +4110,8 @@ Martiño po:topónimo [n-grama: San Martiño de Lousada]
 Lousada po:topónimo [n-grama: San Martiño de Lousada]
 Martiño po:topónimo [n-grama: San Martiño de Louseiro]
 Louseiro po:topónimo [n-grama: San Martiño de Louseiro]
+Martiño po:topónimo [n-grama: San Martiño de Luama]
+Luama po:topónimo [n-grama: San Martiño de Luama]
 Martiño po:topónimo [n-grama: San Martiño de Maceira]
 Maceira po:topónimo [n-grama: San Martiño de Maceira]
 Martiño po:topónimo [n-grama: San Martiño de Mariz]
@@ -4302,12 +4183,12 @@ Martiño po:topónimo [n-grama: San Martiño de Pedrafita]
 Pedrafita po:topónimo [n-grama: San Martiño de Pedrafita]
 Martiño po:topónimo [n-grama: San Martiño de Peites]
 Peites po:topónimo [n-grama: San Martiño de Peites]
+Martiño po:topónimo [n-grama: San Martiño de Pino]
+Pino po:topónimo [n-grama: San Martiño de Pino]
 Martiño po:topónimo [n-grama: San Martiño de Piñeira]
 Piñeira po:topónimo [n-grama: San Martiño de Piñeira]
 Martiño po:topónimo [n-grama: San Martiño de Piñeiro]
 Piñeiro po:topónimo [n-grama: San Martiño de Piñeiro]
-Martiño po:topónimo [n-grama: San Martiño de Pino]
-Pino po:topónimo [n-grama: San Martiño de Pino]
 Martiño po:topónimo [n-grama: San Martiño de Porqueira]
 Porqueira po:topónimo [n-grama: San Martiño de Porqueira]
 Martiño po:topónimo [n-grama: San Martiño de Porto]
@@ -4345,6 +4226,8 @@ Martiño po:topónimo [n-grama: San Martiño de Sagra]
 Sagra po:topónimo [n-grama: San Martiño de Sagra]
 Martiño po:topónimo [n-grama: San Martiño de Salcedo]
 Salcedo po:topónimo [n-grama: San Martiño de Salcedo]
+Martiño po:topónimo [n-grama: San Martiño de Sésamo]
+Sésamo po:topónimo [n-grama: San Martiño de Sésamo]
 Martiño po:topónimo [n-grama: San Martiño de Siós]
 Siós po:topónimo [n-grama: San Martiño de Siós]
 Martiño po:topónimo [n-grama: San Martiño de Sobrán]
@@ -4421,6 +4304,8 @@ Mateo po:topónimo [n-grama: San Mateo de Pusmazán]
 Pusmazán po:topónimo [n-grama: San Mateo de Pusmazán]
 Mateo po:topónimo [n-grama: San Mateo de Toutón]
 Toutón po:topónimo [n-grama: San Mateo de Toutón]
+Mateo po:topónimo [n-grama: San Mateo de Trasancos]
+Trasancos po:topónimo [n-grama: San Mateo de Trasancos]
 Mateo po:topónimo [n-grama: San Mateo de Vidal]
 Vidal po:topónimo [n-grama: San Mateo de Vidal]
 Miguel po:topónimo [n-grama: San Miguel da Bastida]
@@ -4556,7 +4441,6 @@ Fofe po:topónimo [n-grama: San Miguel de Fofe]
 Miguel po:topónimo [n-grama: San Miguel de Frollais]
 Frollais po:topónimo [n-grama: San Miguel de Frollais]
 Miguel po:topónimo [n-grama: San Miguel de Galegos]
-Galegos po:topónimo [n-grama: San Miguel de Galegos]
 Miguel po:topónimo [n-grama: San Miguel de Goián]
 Goián po:topónimo [n-grama: San Miguel de Goián]
 Miguel po:topónimo [n-grama: San Miguel de Goiás]
@@ -4715,9 +4599,6 @@ la po:topónimo [n-grama: San Millán de la Cogolla]
 Cogolla po:topónimo [n-grama: San Millán de la Cogolla]
 Millán po:topónimo [n-grama: San Millán de Lara]
 Lara po:topónimo [n-grama: San Millán de Lara]
-Millán po:topónimo [n-grama: San Millán de los Caballeros]
-los po:topónimo [n-grama: San Millán de los Caballeros]
-Caballeros po:topónimo [n-grama: San Millán de los Caballeros]
 Munio po:topónimo [n-grama: San Munio de Veiga]
 Nicolao po:topónimo [n-grama: San Nicolao de Cis]
 Cis po:topónimo [n-grama: San Nicolao de Cis]
@@ -4735,6 +4616,8 @@ Ventoxo po:topónimo [n-grama: San Nicolao de Ventoxo]
 Nicolao po:topónimo [n-grama: San Nicolao do Castro]
 Nicolás po:topónimo [n-grama: San Nicolás de Folgueira]
 Folgueira po:topónimo [n-grama: San Nicolás de Folgueira]
+Nicolás po:topónimo [n-grama: San Nicolás de Neda]
+Neda po:topónimo [n-grama: San Nicolás de Neda]
 Paio po:topónimo [n-grama: San Paio da Estrada]
 Estrada po:topónimo [n-grama: San Paio da Estrada]
 Paio po:topónimo [n-grama: San Paio da Veiga]
@@ -4830,8 +4713,8 @@ Paulo po:topónimo [n-grama: San Paulo de Río Barba]
 Barba po:topónimo [n-grama: San Paulo de Río Barba]
 Paulo po:topónimo [n-grama: San Paulo de Xende]
 Xende po:topónimo [n-grama: San Paulo de Xende]
-Pedro po:topónimo [n-grama: San Pedro Bercianos]
-Bercianos po:topónimo [n-grama: San Pedro Bercianos]
+Paulo po:topónimo [n-grama: San Paulo dos Freires]
+Freires po:topónimo [n-grama: San Paulo dos Freires]
 Pedro po:topónimo [n-grama: San Pedro da Baíña]
 Baíña po:topónimo [n-grama: San Pedro da Baíña]
 Pedro po:topónimo [n-grama: San Pedro da Esperela]
@@ -4869,14 +4752,16 @@ Pedro po:topónimo [n-grama: San Pedro de Aldurfe]
 Aldurfe po:topónimo [n-grama: San Pedro de Aldurfe]
 Pedro po:topónimo [n-grama: San Pedro de Anafreita]
 Anafreita po:topónimo [n-grama: San Pedro de Anafreita]
+Pedro po:topónimo [n-grama: San Pedro de Anca]
+Anca po:topónimo [n-grama: San Pedro de Anca]
 Pedro po:topónimo [n-grama: San Pedro de Ancorados]
 Ancorados po:topónimo [n-grama: San Pedro de Ancorados]
 Pedro po:topónimo [n-grama: San Pedro de Angoares]
 Angoares po:topónimo [n-grama: San Pedro de Angoares]
-Pedro po:topónimo [n-grama: San Pedro de Añobre]
-Añobre po:topónimo [n-grama: San Pedro de Añobre]
 Pedro po:topónimo [n-grama: San Pedro de Ansemil]
 Ansemil po:topónimo [n-grama: San Pedro de Ansemil]
+Pedro po:topónimo [n-grama: San Pedro de Añobre]
+Añobre po:topónimo [n-grama: San Pedro de Añobre]
 Pedro po:topónimo [n-grama: San Pedro de Arante]
 Arante po:topónimo [n-grama: San Pedro de Arante]
 Pedro po:topónimo [n-grama: San Pedro de Arantei]
@@ -5107,6 +4992,8 @@ Pedro po:topónimo [n-grama: San Pedro de Laroá]
 Laroá po:topónimo [n-grama: San Pedro de Laroá]
 Pedro po:topónimo [n-grama: San Pedro de Laxes]
 Laxes po:topónimo [n-grama: San Pedro de Laxes]
+Pedro po:topónimo [n-grama: San Pedro de Ledoño]
+Ledoño po:topónimo [n-grama: San Pedro de Ledoño]
 Pedro po:topónimo [n-grama: San Pedro de Leirado]
 Leirado po:topónimo [n-grama: San Pedro de Leirado]
 Pedro po:topónimo [n-grama: San Pedro de Leiro]
@@ -5206,8 +5093,6 @@ Pedro po:topónimo [n-grama: San Pedro de Paradela]
 Paradela po:topónimo [n-grama: San Pedro de Paradela]
 Pedro po:topónimo [n-grama: San Pedro de Perbes]
 Perbes po:topónimo [n-grama: San Pedro de Perbes]
-Pedro po:topónimo [n-grama: San Pedro de Pésaras]
-Pésaras po:topónimo [n-grama: San Pedro de Pésaras]
 Pedro po:topónimo [n-grama: San Pedro de Pígara]
 Pígara po:topónimo [n-grama: San Pedro de Pígara]
 Pedro po:topónimo [n-grama: San Pedro de Portomarín]
@@ -5218,6 +5103,8 @@ Pedro po:topónimo [n-grama: San Pedro de Poulo]
 Poulo po:topónimo [n-grama: San Pedro de Poulo]
 Pedro po:topónimo [n-grama: San Pedro de Pradolongo]
 Pradolongo po:topónimo [n-grama: San Pedro de Pradolongo]
+Pedro po:topónimo [n-grama: San Pedro de Présaras]
+Présaras po:topónimo [n-grama: San Pedro de Présaras]
 Pedro po:topónimo [n-grama: San Pedro de Queixeiro]
 Queixeiro po:topónimo [n-grama: San Pedro de Queixeiro]
 Pedro po:topónimo [n-grama: San Pedro de Queizás]
@@ -5585,6 +5472,8 @@ Salvador po:topónimo [n-grama: San Salvador de Colúns]
 Colúns po:topónimo [n-grama: San Salvador de Colúns]
 Salvador po:topónimo [n-grama: San Salvador de Coruxo]
 Coruxo po:topónimo [n-grama: San Salvador de Coruxo]
+Salvador po:topónimo [n-grama: San Salvador de Couzadoiro]
+Couzadoiro po:topónimo [n-grama: San Salvador de Couzadoiro]
 Salvador po:topónimo [n-grama: San Salvador de Covas]
 Salvador po:topónimo [n-grama: San Salvador de Cristiñade]
 Cristiñade po:topónimo [n-grama: San Salvador de Cristiñade]
@@ -5657,6 +5546,8 @@ Salvador po:topónimo [n-grama: San Salvador de Noalla]
 Noalla po:topónimo [n-grama: San Salvador de Noalla]
 Salvador po:topónimo [n-grama: San Salvador de Nogueira]
 Nogueira po:topónimo [n-grama: San Salvador de Nogueira]
+Salvador po:topónimo [n-grama: San Salvador de Orro]
+Orro po:topónimo [n-grama: San Salvador de Orro]
 Salvador po:topónimo [n-grama: San Salvador de Pacios]
 Pacios po:topónimo [n-grama: San Salvador de Pacios]
 Salvador po:topónimo [n-grama: San Salvador de Pacios da Serra]
@@ -5673,6 +5564,8 @@ Parga po:topónimo [n-grama: San Salvador de Parga]
 Salvador po:topónimo [n-grama: San Salvador de Pazos]
 Salvador po:topónimo [n-grama: San Salvador de Pazos de Arenteiro]
 Arenteiro po:topónimo [n-grama: San Salvador de Pazos de Arenteiro]
+Salvador po:topónimo [n-grama: San Salvador de Pedroso]
+Pedroso po:topónimo [n-grama: San Salvador de Pedroso]
 Salvador po:topónimo [n-grama: San Salvador de Peñosiños]
 Peñosiños po:topónimo [n-grama: San Salvador de Peñosiños]
 Salvador po:topónimo [n-grama: San Salvador de Piñeira]
@@ -5792,6 +5685,7 @@ Mato po:topónimo [n-grama: San Salvador do Mato]
 Salvador po:topónimo [n-grama: San Salvador do Outeiro das Camoiras]
 Camoiras po:topónimo [n-grama: San Salvador do Outeiro das Camoiras]
 Salvador po:topónimo [n-grama: San Salvador do Río]
+Sebastián po:topónimo [n-grama: San Sebastián]
 Sebastián po:topónimo [n-grama: San Sebastián das Achas]
 Achas po:topónimo [n-grama: San Sebastián das Achas]
 Sebastián po:topónimo [n-grama: San Sebastián de Cabeiras]
@@ -5803,6 +5697,8 @@ Sebastián po:topónimo [n-grama: San Sebastián de Castro Caldelas]
 Caldelas po:topónimo [n-grama: San Sebastián de Castro Caldelas]
 Sebastián po:topónimo [n-grama: San Sebastián de Covelo]
 Covelo po:topónimo [n-grama: San Sebastián de Covelo]
+Sebastián po:topónimo [n-grama: San Sebastián de Devesos]
+Devesos po:topónimo [n-grama: San Sebastián de Devesos]
 Sebastián po:topónimo [n-grama: San Sebastián de la Gomera]
 la po:topónimo [n-grama: San Sebastián de la Gomera]
 Gomera po:topónimo [n-grama: San Sebastián de la Gomera]
@@ -5830,11 +5726,14 @@ Silvestre po:topónimo [n-grama: San Silvestre de Freixo]
 Freixo po:topónimo [n-grama: San Silvestre de Freixo]
 Silvestre po:topónimo [n-grama: San Silvestre de Seceda]
 Seceda po:topónimo [n-grama: San Silvestre de Seceda]
+Silvestre po:topónimo [n-grama: San Silvestre de Veiga]
 Simón po:topónimo [n-grama: San Simón da Costa]
 Simón po:topónimo [n-grama: San Simón de Lentellais]
 Lentellais po:topónimo [n-grama: San Simón de Lentellais]
 Simón po:topónimo [n-grama: San Simón de Lira]
 Lira po:topónimo [n-grama: San Simón de Lira]
+Simón po:topónimo [n-grama: San Simón de Nande]
+Nande po:topónimo [n-grama: San Simón de Nande]
 Simón po:topónimo [n-grama: San Simón de Ons de Cacheiras]
 Ons po:topónimo [n-grama: San Simón de Ons de Cacheiras]
 Cacheiras po:topónimo [n-grama: San Simón de Ons de Cacheiras]
@@ -5842,6 +5741,8 @@ Simón po:topónimo [n-grama: San Simón de Rodieiros]
 Rodieiros po:topónimo [n-grama: San Simón de Rodieiros]
 Simón po:topónimo [n-grama: San Simón de Santigoso]
 Santigoso po:topónimo [n-grama: San Simón de Santigoso]
+Tirso po:topónimo [n-grama: San Tirso de Abres]
+Abres po:topónimo [n-grama: San Tirso de Abres]
 Tirso po:topónimo [n-grama: San Tirso de Ambroa]
 Ambroa po:topónimo [n-grama: San Tirso de Ambroa]
 Tirso po:topónimo [n-grama: San Tirso de Cando]
@@ -5864,8 +5765,12 @@ Tirso po:topónimo [n-grama: San Tirso de Portocelo]
 Portocelo po:topónimo [n-grama: San Tirso de Portocelo]
 Tirso po:topónimo [n-grama: San Tirso de Santa Cristina]
 Cristina po:topónimo [n-grama: San Tirso de Santa Cristina]
+Tiso po:topónimo [n-grama: San Tiso d'Abres]
+d'Abres po:topónimo [n-grama: San Tiso d'Abres]
 Tomé po:topónimo [n-grama: San Tomé da Broza]
 Broza po:topónimo [n-grama: San Tomé da Broza]
+Tomé po:topónimo [n-grama: San Tomé das Olas]
+Olas po:topónimo [n-grama: San Tomé das Olas]
 Tomé po:topónimo [n-grama: San Tomé de Alvite]
 Alvite po:topónimo [n-grama: San Tomé de Alvite]
 Tomé po:topónimo [n-grama: San Tomé de Ames]
@@ -5952,9 +5857,9 @@ Tomé po:topónimo [n-grama: San Tomé de Xaviña]
 Xaviña po:topónimo [n-grama: San Tomé de Xaviña]
 Tomé po:topónimo [n-grama: San Tomé dos Vaos]
 Vaos po:topónimo [n-grama: San Tomé dos Vaos]
-Tomé po:topónimo [n-grama: San Tomé e Santa María de Caldas de Rei]
-María po:topónimo [n-grama: San Tomé e Santa María de Caldas de Rei]
-Caldas po:topónimo [n-grama: San Tomé e Santa María de Caldas de Rei]
+Tomé po:topónimo [n-grama: San Tomé e Santa María de Caldas de Reis]
+María po:topónimo [n-grama: San Tomé e Santa María de Caldas de Reis]
+Caldas po:topónimo [n-grama: San Tomé e Santa María de Caldas de Reis]
 Trocado po:topónimo [n-grama: San Trocado]
 Trocado po:topónimo [n-grama: San Trocado de Santa Comba]
 Comba po:topónimo [n-grama: San Trocado de Santa Comba]
@@ -6134,6 +6039,8 @@ Vicenzo po:topónimo [n-grama: San Vicenzo de Infesta]
 Infesta po:topónimo [n-grama: San Vicenzo de Infesta]
 Vicenzo po:topónimo [n-grama: San Vicenzo de Meirás]
 Meirás po:topónimo [n-grama: San Vicenzo de Meirás]
+Vicenzo po:topónimo [n-grama: San Vicenzo de Oubiña]
+Oubiña po:topónimo [n-grama: San Vicenzo de Oubiña]
 Vicenzo po:topónimo [n-grama: San Vicenzo de Paradela]
 Paradela po:topónimo [n-grama: San Vicenzo de Paradela]
 Vicenzo po:topónimo [n-grama: San Vicenzo de Ribadulla]
@@ -6181,6 +6088,8 @@ Xes po:topónimo [n-grama: San Xes de Vilariño]
 Vilariño po:topónimo [n-grama: San Xes de Vilariño]
 Xián po:topónimo [n-grama: San Xián da Pereiriña]
 Pereiriña po:topónimo [n-grama: San Xián da Pereiriña]
+Xián po:topónimo [n-grama: San Xián de Almeiras]
+Almeiras po:topónimo [n-grama: San Xián de Almeiras]
 Xián po:topónimo [n-grama: San Xián de Artes]
 Artes po:topónimo [n-grama: San Xián de Artes]
 Xián po:topónimo [n-grama: San Xián de Barrañán]
@@ -6270,6 +6179,8 @@ Xiao po:topónimo [n-grama: San Xiao de Mos]
 Mos po:topónimo [n-grama: San Xiao de Mos]
 Xiao po:topónimo [n-grama: San Xiao de Muimenta]
 Muimenta po:topónimo [n-grama: San Xiao de Muimenta]
+Xiao po:topónimo [n-grama: San Xiao de Narón]
+Narón po:topónimo [n-grama: San Xiao de Narón]
 Xiao po:topónimo [n-grama: San Xiao de Nois]
 Nois po:topónimo [n-grama: San Xiao de Nois]
 Xiao po:topónimo [n-grama: San Xiao de Ousá]
@@ -6465,6 +6376,8 @@ Xoán po:topónimo [n-grama: San Xoán de Escudeiros]
 Escudeiros po:topónimo [n-grama: San Xoán de Escudeiros]
 Xoán po:topónimo [n-grama: San Xoán de Esmelle]
 Esmelle po:topónimo [n-grama: San Xoán de Esmelle]
+Xoán po:topónimo [n-grama: San Xoán de Espasante]
+Espasante po:topónimo [n-grama: San Xoán de Espasante]
 Xoán po:topónimo [n-grama: San Xoán de Fafián]
 Fafián po:topónimo [n-grama: San Xoán de Fafián]
 Xoán po:topónimo [n-grama: San Xoán de Fecha]
@@ -6497,6 +6410,7 @@ Xoán po:topónimo [n-grama: San Xoán de Guntimil]
 Guntimil po:topónimo [n-grama: San Xoán de Guntimil]
 Xoán po:topónimo [n-grama: San Xoán de Hospital]
 Hospital po:topónimo [n-grama: San Xoán de Hospital]
+Xoán po:topónimo [n-grama: San Xoán de Insua]
 Xoán po:topónimo [n-grama: San Xoán de Lagoa]
 Lagoa po:topónimo [n-grama: San Xoán de Lagoa]
 Xoán po:topónimo [n-grama: San Xoán de Lagostelle]
@@ -6612,6 +6526,8 @@ Remesar po:topónimo [n-grama: San Xoán de Remesar]
 Xoán po:topónimo [n-grama: San Xoán de Ribeiras de Lea]
 Lea po:topónimo [n-grama: San Xoán de Ribeiras de Lea]
 Xoán po:topónimo [n-grama: San Xoán de Río]
+Xoán po:topónimo [n-grama: San Xoán de Roblido]
+Roblido po:topónimo [n-grama: San Xoán de Roblido]
 Xoán po:topónimo [n-grama: San Xoán de Romariz]
 Romariz po:topónimo [n-grama: San Xoán de Romariz]
 Xoán po:topónimo [n-grama: San Xoán de Roo]
@@ -6784,6 +6700,7 @@ Vista po:topónimo [n-grama: San Xosé de Vista Fermosa]
 Fermosa po:topónimo [n-grama: San Xosé de Vista Fermosa]
 Xosé po:topónimo [n-grama: San Xosé do Cereixal]
 Cereixal po:topónimo [n-grama: San Xosé do Cereixal]
+Xulián po:topónimo [n-grama: San Xulián]
 Xulián po:topónimo [n-grama: San Xulián da Illa de Arousa]
 Arousa po:topónimo [n-grama: San Xulián da Illa de Arousa]
 Xulián po:topónimo [n-grama: San Xulián da Portela]
@@ -6791,6 +6708,8 @@ Portela po:topónimo [n-grama: San Xulián da Portela]
 Xulián po:topónimo [n-grama: San Xulián da Veiga]
 Xulián po:topónimo [n-grama: San Xulián de Astureses]
 Astureses po:topónimo [n-grama: San Xulián de Astureses]
+Xulián po:topónimo [n-grama: San Xulián de Barbos]
+Barbos po:topónimo [n-grama: San Xulián de Barbos]
 Xulián po:topónimo [n-grama: San Xulián de Bastavales]
 Bastavales po:topónimo [n-grama: San Xulián de Bastavales]
 Xulián po:topónimo [n-grama: San Xulián de Cabarcos]
@@ -6821,6 +6740,8 @@ Xulián po:topónimo [n-grama: San Xulián de Freixo]
 Freixo po:topónimo [n-grama: San Xulián de Freixo]
 Xulián po:topónimo [n-grama: San Xulián de Guláns]
 Guláns po:topónimo [n-grama: San Xulián de Guláns]
+Xulián po:topónimo [n-grama: San Xulián de Loiba]
+Loiba po:topónimo [n-grama: San Xulián de Loiba]
 Xulián po:topónimo [n-grama: San Xulián de Luaña]
 Luaña po:topónimo [n-grama: San Xulián de Luaña]
 Xulián po:topónimo [n-grama: San Xulián de Malpica de Bergantiños]
@@ -6849,6 +6770,8 @@ Sabiña po:topónimo [n-grama: San Xulián de Santa Sabiña]
 Xulián po:topónimo [n-grama: San Xulián de Santalla de Bardaos]
 Santalla po:topónimo [n-grama: San Xulián de Santalla de Bardaos]
 Bardaos po:topónimo [n-grama: San Xulián de Santalla de Bardaos]
+Xulián po:topónimo [n-grama: San Xulián de Senra]
+Senra po:topónimo [n-grama: San Xulián de Senra]
 Xulián po:topónimo [n-grama: San Xulián de Serode]
 Serode po:topónimo [n-grama: San Xulián de Serode]
 Xulián po:topónimo [n-grama: San Xulián de Teibilide]
@@ -6863,6 +6786,8 @@ Xulián po:topónimo [n-grama: San Xulián de Vilacaíz]
 Vilacaíz po:topónimo [n-grama: San Xulián de Vilacaíz]
 Xulián po:topónimo [n-grama: San Xulián do Carballal]
 Carballal po:topónimo [n-grama: San Xulián do Carballal]
+Xulián po:topónimo [n-grama: San Xulián do Ermo]
+Ermo po:topónimo [n-grama: San Xulián do Ermo]
 Xurxo po:topónimo [n-grama: San Xurxo da Mariña]
 Mariña po:topónimo [n-grama: San Xurxo da Mariña]
 Xurxo po:topónimo [n-grama: San Xurxo da Touza]
@@ -6956,6 +6881,7 @@ Sancti po:topónimo [n-grama: Sancti Spiritus de Fontarón]
 Spiritus po:topónimo [n-grama: Sancti Spiritus de Fontarón]
 Fontarón po:topónimo [n-grama: Sancti Spiritus de Fontarón]
 Sandiás po:topónimo
+Sangüesa po:topónimo
 Sanlúcar po:topónimo [n-grama: Sanlúcar de Barrameda]
 Barrameda po:topónimo [n-grama: Sanlúcar de Barrameda]
 Sant po:topónimo [n-grama: Sant Adrià de Besòs]
@@ -7189,10 +7115,6 @@ Farners po:topónimo [n-grama: Santa Coloma de Farners]
 Coloma po:topónimo [n-grama: Santa Coloma de Gramenet]
 Gramenet po:topónimo [n-grama: Santa Coloma de Gramenet]
 Colomba po:topónimo [n-grama: Santa Colomba]
-Colomba po:topónimo [n-grama: Santa Colomba de Curueño]
-Curueño po:topónimo [n-grama: Santa Colomba de Curueño]
-Colomba po:topónimo [n-grama: Santa Colomba de Somoza]
-Somoza po:topónimo [n-grama: Santa Colomba de Somoza]
 Comba po:topónimo [n-grama: Santa Comba]
 Comba po:topónimo [n-grama: Santa Comba da Órrea]
 Órrea po:topónimo [n-grama: Santa Comba da Órrea]
@@ -7200,8 +7122,6 @@ Comba po:topónimo [n-grama: Santa Comba de Bértola]
 Bértola po:topónimo [n-grama: Santa Comba de Bértola]
 Comba po:topónimo [n-grama: Santa Comba de Carnota]
 Carnota po:topónimo [n-grama: Santa Comba de Carnota]
-Comba po:topónimo [n-grama: Santa Comba de Cerceda]
-Cerceda po:topónimo [n-grama: Santa Comba de Cerceda]
 Comba po:topónimo [n-grama: Santa Comba de Cordeiro]
 Cordeiro po:topónimo [n-grama: Santa Comba de Cordeiro]
 Comba po:topónimo [n-grama: Santa Comba de Córgomo]
@@ -7224,6 +7144,8 @@ Comba po:topónimo [n-grama: Santa Comba de Veigue]
 Veigue po:topónimo [n-grama: Santa Comba de Veigue]
 Comba po:topónimo [n-grama: Santa Comba de Vilapún]
 Vilapún po:topónimo [n-grama: Santa Comba de Vilapún]
+Comba po:topónimo [n-grama: Santa Comba de Xesteda]
+Xesteda po:topónimo [n-grama: Santa Comba de Xesteda]
 Comba po:topónimo [n-grama: Santa Comba do Trevoedo]
 Trevoedo po:topónimo [n-grama: Santa Comba do Trevoedo]
 Crisitina po:topónimo [n-grama: Santa Crisitina de Caldesiños]
@@ -7275,8 +7197,6 @@ Cristina po:topónimo [n-grama: Santa Cristina de Tintores]
 Tintores po:topónimo [n-grama: Santa Cristina de Tintores]
 Cristina po:topónimo [n-grama: Santa Cristina de Valeixe]
 Valeixe po:topónimo [n-grama: Santa Cristina de Valeixe]
-Cristina po:topónimo [n-grama: Santa Cristina de Valmadrigal]
-Valmadrigal po:topónimo [n-grama: Santa Cristina de Valmadrigal]
 Cristina po:topónimo [n-grama: Santa Cristina de Vea]
 Vea po:topónimo [n-grama: Santa Cristina de Vea]
 Cristina po:topónimo [n-grama: Santa Cristina de Vilariño]
@@ -7295,6 +7215,7 @@ Bezana po:topónimo [n-grama: Santa Cruz de Bezana]
 Boedo po:topónimo [n-grama: Santa Cruz de Boedo]
 Brosmos po:topónimo [n-grama: Santa Cruz de Brosmos]
 Campolongo po:topónimo [n-grama: Santa Cruz de Campolongo]
+Castrelo po:topónimo [n-grama: Santa Cruz de Castrelo]
 Gondulfes po:topónimo [n-grama: Santa Cruz de Gondulfes]
 Grolos po:topónimo [n-grama: Santa Cruz de Grolos]
 Grou po:topónimo [n-grama: Santa Cruz de Grou]
@@ -7334,8 +7255,6 @@ Valadouro po:topónimo [n-grama: Santa Cruz do Valadouro]
 Dorotea po:topónimo [n-grama: Santa Dorotea de Folgoso]
 Folgoso po:topónimo [n-grama: Santa Dorotea de Folgoso]
 Einés po:topónimo [n-grama: Santa Einés de Parada dos Montes]
-Elena po:topónimo [n-grama: Santa Elena de Jamuz]
-Jamuz po:topónimo [n-grama: Santa Elena de Jamuz]
 Eufemia po:topónimo [n-grama: Santa Eufemia da Esculqueira]
 Esculqueira po:topónimo [n-grama: Santa Eufemia da Esculqueira]
 Eufemia po:topónimo [n-grama: Santa Eufemia de Folgueiras]
@@ -7369,6 +7288,8 @@ Eulalia po:topónimo [n-grama: Santa Eulalia de Dena]
 Dena po:topónimo [n-grama: Santa Eulalia de Dena]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Guilfrei]
 Guilfrei po:topónimo [n-grama: Santa Eulalia de Guilfrei]
+Eulalia po:topónimo [n-grama: Santa Eulalia de Ladrido]
+Ladrido po:topónimo [n-grama: Santa Eulalia de Ladrido]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Lago]
 Lago po:topónimo [n-grama: Santa Eulalia de Lago]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Limodre]
@@ -7383,6 +7304,8 @@ Eulalia po:topónimo [n-grama: Santa Eulalia de Merille]
 Merille po:topónimo [n-grama: Santa Eulalia de Merille]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Mos]
 Mos po:topónimo [n-grama: Santa Eulalia de Mos]
+Eulalia po:topónimo [n-grama: Santa Eulalia de Oscos]
+Oscos po:topónimo [n-grama: Santa Eulalia de Oscos]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Ponte Caldelas]
 Caldelas po:topónimo [n-grama: Santa Eulalia de Ponte Caldelas]
 Eulalia po:topónimo [n-grama: Santa Eulalia de Portela]
@@ -7451,6 +7374,7 @@ Caramiñal po:topónimo [n-grama: Santa María a Antiga do Caramiñal]
 María po:topónimo [n-grama: Santa María a Maior]
 María po:topónimo [n-grama: Santa María a Maior de Verín]
 Verín po:topónimo [n-grama: Santa María a Maior de Verín]
+María po:topónimo [n-grama: Santa María a Maior do Val]
 María po:topónimo [n-grama: Santa María a Real de Entrimo]
 Entrimo po:topónimo [n-grama: Santa María a Real de Entrimo]
 María po:topónimo [n-grama: Santa María a Real de Oseira]
@@ -7469,7 +7393,6 @@ Armenteira po:topónimo [n-grama: Santa María da Armenteira]
 María po:topónimo [n-grama: Santa María da Barra]
 Barra po:topónimo [n-grama: Santa María da Barra]
 María po:topónimo [n-grama: Santa María da Cabeza da Vilavella]
-Cabeza po:topónimo [n-grama: Santa María da Cabeza da Vilavella]
 Vilavella po:topónimo [n-grama: Santa María da Cabeza da Vilavella]
 María po:topónimo [n-grama: Santa María da Capela]
 María po:topónimo [n-grama: Santa María da Cela]
@@ -7593,12 +7516,12 @@ María po:topónimo [n-grama: Santa María de Ameixenda]
 Ameixenda po:topónimo [n-grama: Santa María de Ameixenda]
 María po:topónimo [n-grama: Santa María de Amoeiro]
 Amoeiro po:topónimo [n-grama: Santa María de Amoeiro]
-María po:topónimo [n-grama: Santa María de Añá]
-Añá po:topónimo [n-grama: Santa María de Añá]
 María po:topónimo [n-grama: Santa María de Ansemil]
 Ansemil po:topónimo [n-grama: Santa María de Ansemil]
 María po:topónimo [n-grama: Santa María de Anxeriz]
 Anxeriz po:topónimo [n-grama: Santa María de Anxeriz]
+María po:topónimo [n-grama: Santa María de Añá]
+Añá po:topónimo [n-grama: Santa María de Añá]
 María po:topónimo [n-grama: Santa María de Arabexo]
 Arabexo po:topónimo [n-grama: Santa María de Arabexo]
 María po:topónimo [n-grama: Santa María de Arada]
@@ -7784,6 +7707,8 @@ María po:topónimo [n-grama: Santa María de Cee]
 Cee po:topónimo [n-grama: Santa María de Cee]
 María po:topónimo [n-grama: Santa María de Cela]
 Cela po:topónimo [n-grama: Santa María de Cela]
+María po:topónimo [n-grama: Santa María de Celas]
+Celas po:topónimo [n-grama: Santa María de Celas]
 María po:topónimo [n-grama: Santa María de Cenlle]
 Cenlle po:topónimo [n-grama: Santa María de Cenlle]
 María po:topónimo [n-grama: Santa María de Centroña]
@@ -7892,7 +7817,6 @@ Dozón po:topónimo [n-grama: Santa María de Dozón]
 María po:topónimo [n-grama: Santa María de Duancos]
 Duancos po:topónimo [n-grama: Santa María de Duancos]
 María po:topónimo [n-grama: Santa María de Dúas Igrexas]
-Dúas po:topónimo [n-grama: Santa María de Dúas Igrexas]
 María po:topónimo [n-grama: Santa María de Entíns]
 Entíns po:topónimo [n-grama: Santa María de Entíns]
 María po:topónimo [n-grama: Santa María de Escornabois]
@@ -7980,7 +7904,6 @@ Trepa po:topónimo [n-grama: Santa María de Fumaces e A Trepa]
 María po:topónimo [n-grama: Santa María de Galdo]
 Galdo po:topónimo [n-grama: Santa María de Galdo]
 María po:topónimo [n-grama: Santa María de Galegos]
-Galegos po:topónimo [n-grama: Santa María de Galegos]
 María po:topónimo [n-grama: Santa María de Gándara]
 Gándara po:topónimo [n-grama: Santa María de Gándara]
 María po:topónimo [n-grama: Santa María de Gargamala]
@@ -8008,6 +7931,10 @@ Grixoa po:topónimo [n-grama: Santa María de Grixoa]
 María po:topónimo [n-grama: Santa María de Grixoa de Esternande]
 Grixoa po:topónimo [n-grama: Santa María de Grixoa de Esternande]
 Esternande po:topónimo [n-grama: Santa María de Grixoa de Esternande]
+María po:topónimo [n-grama: Santa María de Guadalupe del Algar]
+Guadalupe po:topónimo [n-grama: Santa María de Guadalupe del Algar]
+del po:topónimo [n-grama: Santa María de Guadalupe del Algar]
+Algar po:topónimo [n-grama: Santa María de Guadalupe del Algar]
 María po:topónimo [n-grama: Santa María de Guamil]
 Guamil po:topónimo [n-grama: Santa María de Guamil]
 María po:topónimo [n-grama: Santa María de Guía de Gran Canaria]
@@ -8034,9 +7961,6 @@ Iria po:topónimo [n-grama: Santa María de Iria Flavia]
 Flavia po:topónimo [n-grama: Santa María de Iria Flavia]
 María po:topónimo [n-grama: Santa María de Isorna]
 Isorna po:topónimo [n-grama: Santa María de Isorna]
-María po:topónimo [n-grama: Santa María de la Isla]
-la po:topónimo [n-grama: Santa María de la Isla]
-Isla po:topónimo [n-grama: Santa María de la Isla]
 María po:topónimo [n-grama: Santa María de Labacengos]
 Labacengos po:topónimo [n-grama: Santa María de Labacengos]
 María po:topónimo [n-grama: Santa María de Labrada]
@@ -8061,6 +7985,8 @@ Larouco po:topónimo [n-grama: Santa María de Larouco]
 María po:topónimo [n-grama: Santa María de las Hoyas]
 las po:topónimo [n-grama: Santa María de las Hoyas]
 Hoyas po:topónimo [n-grama: Santa María de las Hoyas]
+María po:topónimo [n-grama: Santa María de Laxe]
+Laxe po:topónimo [n-grama: Santa María de Laxe]
 María po:topónimo [n-grama: Santa María de Leborei]
 Leborei po:topónimo [n-grama: Santa María de Leborei]
 María po:topónimo [n-grama: Santa María de Leiloio]
@@ -8099,6 +8025,8 @@ María po:topónimo [n-grama: Santa María de Lucenza]
 Lucenza po:topónimo [n-grama: Santa María de Lucenza]
 María po:topónimo [n-grama: Santa María de Ludrio]
 Ludrio po:topónimo [n-grama: Santa María de Ludrio]
+María po:topónimo [n-grama: Santa María de Luía]
+Luía po:topónimo [n-grama: Santa María de Luía]
 María po:topónimo [n-grama: Santa María de Luneda]
 Luneda po:topónimo [n-grama: Santa María de Luneda]
 María po:topónimo [n-grama: Santa María de Luou]
@@ -8111,12 +8039,12 @@ María po:topónimo [n-grama: Santa María de Magazos]
 Magazos po:topónimo [n-grama: Santa María de Magazos]
 María po:topónimo [n-grama: Santa María de Mandín]
 Mandín po:topónimo [n-grama: Santa María de Mandín]
-María po:topónimo [n-grama: Santa María de Mañón]
-Mañón po:topónimo [n-grama: Santa María de Mañón]
 María po:topónimo [n-grama: Santa María de Mántaras]
 Mántaras po:topónimo [n-grama: Santa María de Mántaras]
 María po:topónimo [n-grama: Santa María de Manzalvos]
 Manzalvos po:topónimo [n-grama: Santa María de Manzalvos]
+María po:topónimo [n-grama: Santa María de Mañón]
+Mañón po:topónimo [n-grama: Santa María de Mañón]
 María po:topónimo [n-grama: Santa María de Marei]
 Marei po:topónimo [n-grama: Santa María de Marei]
 María po:topónimo [n-grama: Santa María de Maroxo]
@@ -8149,6 +8077,8 @@ María po:topónimo [n-grama: Santa María de Melias]
 Melias po:topónimo [n-grama: Santa María de Melias]
 María po:topónimo [n-grama: Santa María de Melón]
 Melón po:topónimo [n-grama: Santa María de Melón]
+María po:topónimo [n-grama: Santa María de Mera de Arriba]
+Mera po:topónimo [n-grama: Santa María de Mera de Arriba]
 María po:topónimo [n-grama: Santa María de Merza]
 Merza po:topónimo [n-grama: Santa María de Merza]
 María po:topónimo [n-grama: Santa María de Mesego]
@@ -8206,6 +8136,8 @@ María po:topónimo [n-grama: Santa María de Narón]
 Narón po:topónimo [n-grama: Santa María de Narón]
 María po:topónimo [n-grama: Santa María de Nebra]
 Nebra po:topónimo [n-grama: Santa María de Nebra]
+María po:topónimo [n-grama: Santa María de Neda]
+Neda po:topónimo [n-grama: Santa María de Neda]
 María po:topónimo [n-grama: Santa María de Nieva]
 Nieva po:topónimo [n-grama: Santa María de Nieva]
 María po:topónimo [n-grama: Santa María de Nigoi]
@@ -8252,8 +8184,6 @@ María po:topónimo [n-grama: Santa María de Ons]
 Ons po:topónimo [n-grama: Santa María de Ons]
 María po:topónimo [n-grama: Santa María de Orbán]
 Orbán po:topónimo [n-grama: Santa María de Orbán]
-María po:topónimo [n-grama: Santa María de Ordás]
-Ordás po:topónimo [n-grama: Santa María de Ordás]
 María po:topónimo [n-grama: Santa María de Ordes]
 Ordes po:topónimo [n-grama: Santa María de Ordes]
 María po:topónimo [n-grama: Santa María de Ordoeste]
@@ -8312,18 +8242,18 @@ María po:topónimo [n-grama: Santa María de Piloño]
 Piloño po:topónimo [n-grama: Santa María de Piloño]
 María po:topónimo [n-grama: Santa María de Pin]
 Pin po:topónimo [n-grama: Santa María de Pin]
-María po:topónimo [n-grama: Santa María de Piñeira]
-Piñeira po:topónimo [n-grama: Santa María de Piñeira]
-María po:topónimo [n-grama: Santa María de Piñeiro]
-Piñeiro po:topónimo [n-grama: Santa María de Piñeiro]
 María po:topónimo [n-grama: Santa María de Pinel]
 Pinel po:topónimo [n-grama: Santa María de Pinel]
-María po:topónimo [n-grama: Santa María de Piño]
-Piño po:topónimo [n-grama: Santa María de Piño]
 María po:topónimo [n-grama: Santa María de Pinza]
 Pinza po:topónimo [n-grama: Santa María de Pinza]
 María po:topónimo [n-grama: Santa María de Pinzás]
 Pinzás po:topónimo [n-grama: Santa María de Pinzás]
+María po:topónimo [n-grama: Santa María de Piñeira]
+Piñeira po:topónimo [n-grama: Santa María de Piñeira]
+María po:topónimo [n-grama: Santa María de Piñeiro]
+Piñeiro po:topónimo [n-grama: Santa María de Piñeiro]
+María po:topónimo [n-grama: Santa María de Piño]
+Piño po:topónimo [n-grama: Santa María de Piño]
 María po:topónimo [n-grama: Santa María de Pitelos]
 Pitelos po:topónimo [n-grama: Santa María de Pitelos]
 María po:topónimo [n-grama: Santa María de Piúca ou Araúxo]
@@ -8363,8 +8293,6 @@ María po:topónimo [n-grama: Santa María de Queixas]
 Queixas po:topónimo [n-grama: Santa María de Queixas]
 María po:topónimo [n-grama: Santa María de Queizán]
 Queizán po:topónimo [n-grama: Santa María de Queizán]
-María po:topónimo [n-grama: Santa María de Quins]
-Quins po:topónimo [n-grama: Santa María de Quins]
 María po:topónimo [n-grama: Santa María de Quintá de Lor]
 Quintá po:topónimo [n-grama: Santa María de Quintá de Lor]
 Lor po:topónimo [n-grama: Santa María de Quintá de Lor]
@@ -8426,6 +8354,8 @@ María po:topónimo [n-grama: Santa María de Rubín]
 Rubín po:topónimo [n-grama: Santa María de Rubín]
 María po:topónimo [n-grama: Santa María de Rus]
 Rus po:topónimo [n-grama: Santa María de Rus]
+María po:topónimo [n-grama: Santa María de Rutis]
+Rutis po:topónimo [n-grama: Santa María de Rutis]
 María po:topónimo [n-grama: Santa María de Saa]
 Saa po:topónimo [n-grama: Santa María de Saa]
 María po:topónimo [n-grama: Santa María de Saavedra]
@@ -8453,13 +8383,13 @@ Samieira po:topónimo [n-grama: Santa María de Samieira]
 María po:topónimo [n-grama: Santa María de San Breixo mártir|Breixo]
 Breixo po:topónimo [n-grama: Santa María de San Breixo mártir|Breixo]
 mártir|Breixo po:topónimo [n-grama: Santa María de San Breixo mártir|Breixo]
+María po:topónimo [n-grama: Santa María de San Claudio]
+Claudio po:topónimo [n-grama: Santa María de San Claudio]
 María po:topónimo [n-grama: Santa María de San Lourezo de Penamaior]
 Lourezo po:topónimo [n-grama: Santa María de San Lourezo de Penamaior]
 Penamaior po:topónimo [n-grama: Santa María de San Lourezo de Penamaior]
 María po:topónimo [n-grama: Santa María de San Millao]
 Millao po:topónimo [n-grama: Santa María de San Millao]
-María po:topónimo [n-grama: Santa María de San Tomé]
-Tomé po:topónimo [n-grama: Santa María de San Tomé]
 María po:topónimo [n-grama: Santa María de Sanguiñeda]
 Sanguiñeda po:topónimo [n-grama: Santa María de Sanguiñeda]
 María po:topónimo [n-grama: Santa María de Sanguiñedo]
@@ -8480,6 +8410,8 @@ María po:topónimo [n-grama: Santa María de Sela]
 Sela po:topónimo [n-grama: Santa María de Sela]
 María po:topónimo [n-grama: Santa María de Sendelle]
 Sendelle po:topónimo [n-grama: Santa María de Sendelle]
+María po:topónimo [n-grama: Santa María de Serantes]
+Serantes po:topónimo [n-grama: Santa María de Serantes]
 María po:topónimo [n-grama: Santa María de Servoi]
 Servoi po:topónimo [n-grama: Santa María de Servoi]
 María po:topónimo [n-grama: Santa María de Seteventos]
@@ -8492,13 +8424,13 @@ María po:topónimo [n-grama: Santa María de Sirvián]
 Sirvián po:topónimo [n-grama: Santa María de Sirvián]
 María po:topónimo [n-grama: Santa María de Sistín]
 Sistín po:topónimo [n-grama: Santa María de Sistín]
-María po:topónimo [n-grama: Santa María de Soaxe]
-Soaxe po:topónimo [n-grama: Santa María de Soaxe]
 María po:topónimo [n-grama: Santa María de Sobradelo]
 Sobradelo po:topónimo [n-grama: Santa María de Sobradelo]
 María po:topónimo [n-grama: Santa María de Sobrado do Bispo]
 Sobrado po:topónimo [n-grama: Santa María de Sobrado do Bispo]
 Bispo po:topónimo [n-grama: Santa María de Sobrado do Bispo]
+María po:topónimo [n-grama: Santa María de Soexo]
+Soexo po:topónimo [n-grama: Santa María de Soexo]
 María po:topónimo [n-grama: Santa María de Son]
 Son po:topónimo [n-grama: Santa María de Son]
 María po:topónimo [n-grama: Santa María de Souto]
@@ -8738,12 +8670,6 @@ Invierno po:topónimo [n-grama: Santa María del Invierno]
 María po:topónimo [n-grama: Santa María del Mercadillo]
 del po:topónimo [n-grama: Santa María del Mercadillo]
 Mercadillo po:topónimo [n-grama: Santa María del Mercadillo]
-María po:topónimo [n-grama: Santa María del Monte de Cea]
-del po:topónimo [n-grama: Santa María del Monte de Cea]
-Cea po:topónimo [n-grama: Santa María del Monte de Cea]
-María po:topónimo [n-grama: Santa María del Páramo]
-del po:topónimo [n-grama: Santa María del Páramo]
-Páramo po:topónimo [n-grama: Santa María del Páramo]
 María po:topónimo [n-grama: Santa María do Alto de Xestoso]
 Xestoso po:topónimo [n-grama: Santa María do Alto de Xestoso]
 María po:topónimo [n-grama: Santa María do Aparral]
@@ -8994,6 +8920,8 @@ Mariña po:topónimo [n-grama: Santa Mariña de Cabral]
 Cabral po:topónimo [n-grama: Santa Mariña de Cabral]
 Mariña po:topónimo [n-grama: Santa Mariña de Cabreiros]
 Cabreiros po:topónimo [n-grama: Santa Mariña de Cabreiros]
+Mariña po:topónimo [n-grama: Santa Mariña de Cambados]
+Cambados po:topónimo [n-grama: Santa Mariña de Cambados]
 Mariña po:topónimo [n-grama: Santa Mariña de Cangas]
 Cangas po:topónimo [n-grama: Santa Mariña de Cangas]
 Mariña po:topónimo [n-grama: Santa Mariña de Carracedo]
@@ -9033,7 +8961,6 @@ Fragas po:topónimo [n-grama: Santa Mariña de Fragas]
 Mariña po:topónimo [n-grama: Santa Mariña de Gafoi]
 Gafoi po:topónimo [n-grama: Santa Mariña de Gafoi]
 Mariña po:topónimo [n-grama: Santa Mariña de Galegos]
-Galegos po:topónimo [n-grama: Santa Mariña de Galegos]
 Mariña po:topónimo [n-grama: Santa Mariña de Gastrar]
 Gastrar po:topónimo [n-grama: Santa Mariña de Gastrar]
 Mariña po:topónimo [n-grama: Santa Mariña de Lagostelle]
@@ -9127,12 +9054,8 @@ Mariña po:topónimo [n-grama: Santa Mariña de Xinzo de Limia]
 Xinzo po:topónimo [n-grama: Santa Mariña de Xinzo de Limia]
 Limia po:topónimo [n-grama: Santa Mariña de Xinzo de Limia]
 Mariña po:topónimo [n-grama: Santa Mariña de Xuño]
-Xuño po:topónimo [n-grama: Santa Mariña de Xuño]
 Mariña po:topónimo [n-grama: Santa Mariña de Zobra]
 Zobra po:topónimo [n-grama: Santa Mariña de Zobra]
-Marina po:topónimo [n-grama: Santa Marina del Rey]
-del po:topónimo [n-grama: Santa Marina del Rey]
-Rey po:topónimo [n-grama: Santa Marina del Rey]
 Mariña po:topónimo [n-grama: Santa Mariña do Barro]
 Barro po:topónimo [n-grama: Santa Mariña do Barro]
 Mariña po:topónimo [n-grama: Santa Mariña do Castro]
@@ -9155,6 +9078,8 @@ Marta po:topónimo [n-grama: Santa Marta de Meilán]
 Meilán po:topónimo [n-grama: Santa Marta de Meilán]
 Marta po:topónimo [n-grama: Santa Marta de Moreiras]
 Moreiras po:topónimo [n-grama: Santa Marta de Moreiras]
+Marta po:topónimo [n-grama: Santa Marta de Ortigueira]
+Ortigueira po:topónimo [n-grama: Santa Marta de Ortigueira]
 Marta po:topónimo [n-grama: Santa Marta de Tormes]
 Tormes po:topónimo [n-grama: Santa Marta de Tormes]
 Marta po:topónimo [n-grama: Santa Marta de Velle]
@@ -9179,7 +9104,6 @@ Pedro po:topónimo [n-grama: Santa Pedro de Ardemil]
 Ardemil po:topónimo [n-grama: Santa Pedro de Ardemil]
 Perpètua po:topónimo [n-grama: Santa Perpètua de Mogoda]
 Mogoda po:topónimo [n-grama: Santa Perpètua de Mogoda]
-Pola po:topónimo [n-grama: Santa Pola]
 Rosa po:topónimo [n-grama: Santa Rosa de Viterbo da Graña]
 Viterbo po:topónimo [n-grama: Santa Rosa de Viterbo da Graña]
 Graña po:topónimo [n-grama: Santa Rosa de Viterbo da Graña]
@@ -9246,6 +9170,8 @@ Santalla po:topónimo
 Santalla po:topónimo [n-grama: Santalla  de Madelos]
  po:topónimo [n-grama: Santalla  de Madelos]
 Madelos po:topónimo [n-grama: Santalla  de Madelos]
+Santalla po:topónimo [n-grama: Santalla d'Ozcos]
+d'Ozcos po:topónimo [n-grama: Santalla d'Ozcos]
 Santalla po:topónimo [n-grama: Santalla da Devesa]
 Devesa po:topónimo [n-grama: Santalla da Devesa]
 Santalla po:topónimo [n-grama: Santalla de Agrón]
@@ -9321,7 +9247,6 @@ Santalla po:topónimo [n-grama: Santalla do Bierzo]
 Bierzo po:topónimo [n-grama: Santalla do Bierzo]
 Santander po:topónimo
 Santanyí po:topónimo
-Martas po:topónimo [n-grama: Santas Martas]
 Santervás po:topónimo [n-grama: Santervás de la Vega]
 la po:topónimo [n-grama: Santervás de la Vega]
 Vega po:topónimo [n-grama: Santervás de la Vega]
@@ -9344,7 +9269,6 @@ Medorra po:topónimo [n-grama: Santiago da Medorra]
 Santiago po:topónimo [n-grama: Santiago da Peroxa]
 Peroxa po:topónimo [n-grama: Santiago da Peroxa]
 Santiago po:topónimo [n-grama: Santiago da Ría de Abres]
-Ría po:topónimo [n-grama: Santiago da Ría de Abres]
 Abres po:topónimo [n-grama: Santiago da Ría de Abres]
 Santiago po:topónimo [n-grama: Santiago da Veiga]
 Santiago po:topónimo [n-grama: Santiago das Caldas]
@@ -9468,6 +9392,7 @@ Santiago po:topónimo [n-grama: Santiago de Casardeita]
 Casardeita po:topónimo [n-grama: Santiago de Casardeita]
 Santiago po:topónimo [n-grama: Santiago de Castañedo]
 Castañedo po:topónimo [n-grama: Santiago de Castañedo]
+Santiago po:topónimo [n-grama: Santiago de Castelo]
 Santiago po:topónimo [n-grama: Santiago de Castelo dos Infantes]
 Infantes po:topónimo [n-grama: Santiago de Castelo dos Infantes]
 Santiago po:topónimo [n-grama: Santiago de Castillón]
@@ -9516,6 +9441,8 @@ Santiago po:topónimo [n-grama: Santiago de Covelo]
 Covelo po:topónimo [n-grama: Santiago de Covelo]
 Santiago po:topónimo [n-grama: Santiago de Cubilledo]
 Cubilledo po:topónimo [n-grama: Santiago de Cubilledo]
+Santiago po:topónimo [n-grama: Santiago de Cuíña]
+Cuíña po:topónimo [n-grama: Santiago de Cuíña]
 Santiago po:topónimo [n-grama: Santiago de Doncos]
 Doncos po:topónimo [n-grama: Santiago de Doncos]
 Santiago po:topónimo [n-grama: Santiago de Dorra]
@@ -9574,7 +9501,6 @@ Freixo po:topónimo [n-grama: Santiago de Freixo]
 Santiago po:topónimo [n-grama: Santiago de Gaioso]
 Gaioso po:topónimo [n-grama: Santiago de Gaioso]
 Santiago po:topónimo [n-grama: Santiago de Galegos]
-Galegos po:topónimo [n-grama: Santiago de Galegos]
 Santiago po:topónimo [n-grama: Santiago de Garabelos do Bouzo]
 Garabelos po:topónimo [n-grama: Santiago de Garabelos do Bouzo]
 Bouzo po:topónimo [n-grama: Santiago de Garabelos do Bouzo]
@@ -9614,10 +9540,10 @@ Santiago po:topónimo [n-grama: Santiago de Lestedo]
 Lestedo po:topónimo [n-grama: Santiago de Lestedo]
 Santiago po:topónimo [n-grama: Santiago de Ligonde]
 Ligonde po:topónimo [n-grama: Santiago de Ligonde]
-Santiago po:topónimo [n-grama: Santiago de Liñares]
-Liñares po:topónimo [n-grama: Santiago de Liñares]
 Santiago po:topónimo [n-grama: Santiago de Lindín]
 Lindín po:topónimo [n-grama: Santiago de Lindín]
+Santiago po:topónimo [n-grama: Santiago de Liñares]
+Liñares po:topónimo [n-grama: Santiago de Liñares]
 Santiago po:topónimo [n-grama: Santiago de Loroño]
 Loroño po:topónimo [n-grama: Santiago de Loroño]
 Santiago po:topónimo [n-grama: Santiago de Louredo]
@@ -9642,6 +9568,8 @@ Santiago po:topónimo [n-grama: Santiago de Méixome]
 Méixome po:topónimo [n-grama: Santiago de Méixome]
 Santiago po:topónimo [n-grama: Santiago de Mens]
 Mens po:topónimo [n-grama: Santiago de Mens]
+Santiago po:topónimo [n-grama: Santiago de Mera de Abaixo]
+Mera po:topónimo [n-grama: Santiago de Mera de Abaixo]
 Santiago po:topónimo [n-grama: Santiago de Milleirós]
 Milleirós po:topónimo [n-grama: Santiago de Milleirós]
 Santiago po:topónimo [n-grama: Santiago de Miranda]
@@ -9801,6 +9729,8 @@ Santiago po:topónimo [n-grama: Santiago de Torcela]
 Torcela po:topónimo [n-grama: Santiago de Torcela]
 Santiago po:topónimo [n-grama: Santiago de Tortoreos]
 Tortoreos po:topónimo [n-grama: Santiago de Tortoreos]
+Santiago po:topónimo [n-grama: Santiago de Traba]
+Traba po:topónimo [n-grama: Santiago de Traba]
 Santiago po:topónimo [n-grama: Santiago de Trasariz]
 Trasariz po:topónimo [n-grama: Santiago de Trasariz]
 Santiago po:topónimo [n-grama: Santiago de Trasmonte]
@@ -9861,6 +9791,8 @@ Santiago po:topónimo [n-grama: Santiago de Zoó]
 Zoó po:topónimo [n-grama: Santiago de Zoó]
 Santiago po:topónimo [n-grama: Santiago de Zorelle]
 Zorelle po:topónimo [n-grama: Santiago de Zorelle]
+Santiago po:topónimo [n-grama: Santiago do Burgo]
+Burgo po:topónimo [n-grama: Santiago do Burgo]
 Santiago po:topónimo [n-grama: Santiago do Carril]
 Carril po:topónimo [n-grama: Santiago do Carril]
 Santiago po:topónimo [n-grama: Santiago do Sexo]
@@ -9868,8 +9800,6 @@ Sexo po:topónimo [n-grama: Santiago do Sexo]
 Santiago po:topónimo [n-grama: Santiago e San Salvador de Cangas]
 Salvador po:topónimo [n-grama: Santiago e San Salvador de Cangas]
 Cangas po:topónimo [n-grama: Santiago e San Salvador de Cangas]
-Santiago po:topónimo [n-grama: Santiago Millas]
-Millas po:topónimo [n-grama: Santiago Millas]
 Santiago po:topónimo [n-grama: Santiago Peregrino do Burgo]
 Peregrino po:topónimo [n-grama: Santiago Peregrino do Burgo]
 Burgo po:topónimo [n-grama: Santiago Peregrino do Burgo]
@@ -9925,6 +9855,7 @@ Adrao po:topónimo [n-grama: Santo Adrao de Ousón]
 Ousón po:topónimo [n-grama: Santo Adrao de Ousón]
 Adrao po:topónimo [n-grama: Santo Adrao de Solbeira]
 Solbeira po:topónimo [n-grama: Santo Adrao de Solbeira]
+Adrao po:topónimo [n-grama: Santo Adrao de Veiga]
 Adrao po:topónimo [n-grama: Santo Adrao de Zapeaus]
 Zapeaus po:topónimo [n-grama: Santo Adrao de Zapeaus]
 Adrián po:topónimo [n-grama: Santo Adrián de Calvos]
@@ -10058,6 +9989,8 @@ André po:topónimo [n-grama: Santo André de Valongo]
 Valongo po:topónimo [n-grama: Santo André de Valongo]
 André po:topónimo [n-grama: Santo André de Vea]
 Vea po:topónimo [n-grama: Santo André de Vea]
+André po:topónimo [n-grama: Santo André de Viladonelle]
+Viladonelle po:topónimo [n-grama: Santo André de Viladonelle]
 André po:topónimo [n-grama: Santo André de Vilarello]
 Vilarello po:topónimo [n-grama: Santo André de Vilarello]
 André po:topónimo [n-grama: Santo André de Xeve]
@@ -10126,6 +10059,8 @@ Forneá po:topónimo [n-grama: Santo Estevo da Forneá]
 Estevo po:topónimo [n-grama: Santo Estevo da Mota]
 Mota po:topónimo [n-grama: Santo Estevo da Mota]
 Estevo po:topónimo [n-grama: Santo Estevo da Ribeira]
+Estevo po:topónimo [n-grama: Santo Estevo da Rúa de Valdeorras]
+Valdeorras po:topónimo [n-grama: Santo Estevo da Rúa de Valdeorras]
 Estevo po:topónimo [n-grama: Santo Estevo das Nocedas]
 Nocedas po:topónimo [n-grama: Santo Estevo das Nocedas]
 Estevo po:topónimo [n-grama: Santo Estevo de Abellá]
@@ -10139,7 +10074,6 @@ Ambía po:topónimo [n-grama: Santo Estevo de Ambía]
 Estevo po:topónimo [n-grama: Santo Estevo de Anllo]
 Anllo po:topónimo [n-grama: Santo Estevo de Anllo]
 Estevo po:topónimo [n-grama: Santo Estevo de Anos]
-Anos po:topónimo [n-grama: Santo Estevo de Anos]
 Estevo po:topónimo [n-grama: Santo Estevo de Ansar]
 Ansar po:topónimo [n-grama: Santo Estevo de Ansar]
 Estevo po:topónimo [n-grama: Santo Estevo de Atán]
@@ -10182,6 +10116,8 @@ Corexido po:topónimo [n-grama: Santo Estevo de Corexido]
 Estevo po:topónimo [n-grama: Santo Estevo de Cos]
 Cos po:topónimo [n-grama: Santo Estevo de Cos]
 Estevo po:topónimo [n-grama: Santo Estevo de Covas]
+Estevo po:topónimo [n-grama: Santo Estevo de Culleredo]
+Culleredo po:topónimo [n-grama: Santo Estevo de Culleredo]
 Estevo po:topónimo [n-grama: Santo Estevo de Cumiar]
 Cumiar po:topónimo [n-grama: Santo Estevo de Cumiar]
 Estevo po:topónimo [n-grama: Santo Estevo de Eirexalba]
@@ -10223,7 +10159,6 @@ Morás po:topónimo [n-grama: Santo Estevo de Morás]
 Estevo po:topónimo [n-grama: Santo Estevo de Moucide]
 Moucide po:topónimo [n-grama: Santo Estevo de Moucide]
 Estevo po:topónimo [n-grama: Santo Estevo de Negros]
-Negros po:topónimo [n-grama: Santo Estevo de Negros]
 Estevo po:topónimo [n-grama: Santo Estevo de Noalla]
 Noalla po:topónimo [n-grama: Santo Estevo de Noalla]
 Estevo po:topónimo [n-grama: Santo Estevo de Nóvoa]
@@ -10279,10 +10214,16 @@ Estevo po:topónimo [n-grama: Santo Estevo de Saiar]
 Saiar po:topónimo [n-grama: Santo Estevo de Saiar]
 Estevo po:topónimo [n-grama: Santo Estevo de Sandiás]
 Sandiás po:topónimo [n-grama: Santo Estevo de Sandiás]
+Estevo po:topónimo [n-grama: Santo Estevo de Sedes]
+Sedes po:topónimo [n-grama: Santo Estevo de Sedes]
 Estevo po:topónimo [n-grama: Santo Estevo de Silán]
 Silán po:topónimo [n-grama: Santo Estevo de Silán]
 Estevo po:topónimo [n-grama: Santo Estevo de Sismundi]
 Sismundi po:topónimo [n-grama: Santo Estevo de Sismundi]
+Estevo po:topónimo [n-grama: Santo Estevo de Soesto]
+Soesto po:topónimo [n-grama: Santo Estevo de Soesto]
+Estevo po:topónimo [n-grama: Santo Estevo de Sueiro]
+Sueiro po:topónimo [n-grama: Santo Estevo de Sueiro]
 Estevo po:topónimo [n-grama: Santo Estevo de Sumoas]
 Sumoas po:topónimo [n-grama: Santo Estevo de Sumoas]
 Estevo po:topónimo [n-grama: Santo Estevo de Trasestrada]
@@ -10317,6 +10258,8 @@ Estevo po:topónimo [n-grama: Santo Estevo do Vicedo]
 Vicedo po:topónimo [n-grama: Santo Estevo do Vicedo]
 Eusebio po:topónimo [n-grama: Santo Eusebio da Peroxa]
 Peroxa po:topónimo [n-grama: Santo Eusebio da Peroxa]
+Hadrián po:topónimo [n-grama: Santo Hadrián de Vilariño]
+Vilariño po:topónimo [n-grama: Santo Hadrián de Vilariño]
 Ildefonso po:topónimo [n-grama: Santo Ildefonso de San Cibrao das Viñas]
 Cibrao po:topónimo [n-grama: Santo Ildefonso de San Cibrao das Viñas]
 Viñas po:topónimo [n-grama: Santo Ildefonso de San Cibrao das Viñas]
@@ -10339,9 +10282,6 @@ Santoña po:topónimo
 Xusto po:topónimo [n-grama: Santos Xusto e Pastor de Entenza]
 Pastor po:topónimo [n-grama: Santos Xusto e Pastor de Entenza]
 Entenza po:topónimo [n-grama: Santos Xusto e Pastor de Entenza]
-Santovenia po:topónimo [n-grama: Santovenia de la Valdoncina]
-la po:topónimo [n-grama: Santovenia de la Valdoncina]
-Valdoncina po:topónimo [n-grama: Santovenia de la Valdoncina]
 Santovenia po:topónimo [n-grama: Santovenia de Pisuerga]
 Pisuerga po:topónimo [n-grama: Santovenia de Pisuerga]
 Santoyo po:topónimo
@@ -10351,21 +10291,20 @@ Sanxenxo po:topónimo
 Sargentes po:topónimo [n-grama: Sargentes de la Lora]
 la po:topónimo [n-grama: Sargentes de la Lora]
 Lora po:topónimo [n-grama: Sargentes de la Lora]
-Sariegos po:topónimo
 Sariñena po:topónimo
 Saro po:topónimo
 Sarracín po:topónimo
 Sarreaus po:topónimo
 Sarria po:topónimo
+Sartze po:topónimo
 Sasamón po:topónimo
 seca po:topónimo
 Sedaví po:topónimo
 Segovia po:topónimo
 Selaya po:topónimo
 Selva po:topónimo
-Sena po:topónimo [n-grama: Sena de Luna]
-Luna po:topónimo [n-grama: Sena de Luna]
 Sencelles po:topónimo
+Serantes po:topónimo
 Serón po:topónimo [n-grama: Serón de Nágima]
 Nágima po:topónimo [n-grama: Serón de Nágima]
 Serviz po:topónimo
@@ -10392,6 +10331,8 @@ Sobrado po:topónimo
 Socuéllamos po:topónimo
 Solarana po:topónimo
 Soliedra po:topónimo
+solità po:topónimo [n-grama: solità i Plegamans]
+Plegamans po:topónimo [n-grama: solità i Plegamans]
 Sóller po:topónimo
 Solórzano po:topónimo
 Solsona po:topónimo
@@ -10414,14 +10355,8 @@ del po:topónimo [n-grama: Sotillo del Rincón]
 Rincón po:topónimo [n-grama: Sotillo del Rincón]
 Soto po:topónimo [n-grama: Soto de Cerrato]
 Cerrato po:topónimo [n-grama: Soto de Cerrato]
-Soto po:topónimo [n-grama: Soto de la Vega]
-la po:topónimo [n-grama: Soto de la Vega]
-Vega po:topónimo [n-grama: Soto de la Vega]
 Soto po:topónimo [n-grama: Soto del Real]
 del po:topónimo [n-grama: Soto del Real]
-Soto po:topónimo [n-grama: Soto y Amío]
-y po:topónimo [n-grama: Soto y Amío]
-Amío po:topónimo [n-grama: Soto y Amío]
 Sotobañado po:topónimo [n-grama: Sotobañado y Priorato]
 y po:topónimo [n-grama: Sotobañado y Priorato]
 Priorato po:topónimo [n-grama: Sotobañado y Priorato]
@@ -10460,6 +10395,8 @@ Tamarite po:topónimo [n-grama: Tamarite de Litera]
 Litera po:topónimo [n-grama: Tamarite de Litera]
 Tamarón po:topónimo
 Tapia po:topónimo
+Tapia po:topónimo [n-grama: Tapia de Casariego]
+Casariego po:topónimo [n-grama: Tapia de Casariego]
 Taramundi po:topónimo
 Tarancón po:topónimo
 Tarazona po:topónimo
@@ -10487,7 +10424,7 @@ Terra po:topónimo [n-grama: Terra Eo]
 Eo po:topónimo [n-grama: Terra Eo]
 Terradillos po:topónimo [n-grama: Terradillos de Esgueva]
 Esgueva po:topónimo [n-grama: Terradillos de Esgueva]
-Terrassa po:topónimo
+Terrasa po:topónimo
 Teruel po:topónimo
 Teverga po:topónimo
 Texeda po:topónimo
@@ -10507,9 +10444,9 @@ Tomares po:topónimo
 Tomelloso po:topónimo
 Tomiño po:topónimo
 Toques po:topónimo
-Toral po:topónimo [n-grama: Toral de los Guzmanes]
-los po:topónimo [n-grama: Toral de los Guzmanes]
-Guzmanes po:topónimo [n-grama: Toral de los Guzmanes]
+Toral po:topónimo [n-grama: Toral de los Vados]
+los po:topónimo [n-grama: Toral de los Vados]
+Vados po:topónimo [n-grama: Toral de los Vados]
 Tordera po:topónimo
 Tordesillas po:topónimo
 Tordoia po:topónimo
@@ -10521,7 +10458,6 @@ Torquemada po:topónimo
 del po:topónimo [n-grama: Torre del Bierzo]
 Bierzo po:topónimo [n-grama: Torre del Bierzo]
 los po:topónimo [n-grama: Torre los Negros]
-Negros po:topónimo [n-grama: Torre los Negros]
 Torrecampo po:topónimo
 Torrecilla po:topónimo [n-grama: Torrecilla del Monte]
 del po:topónimo [n-grama: Torrecilla del Monte]
@@ -10540,6 +10476,8 @@ Torrepadre po:topónimo
 Berrellén po:topónimo [n-grama: Torres de Berrellén]
 Torresandino po:topónimo
 Torrevieja po:topónimo
+Torroella po:topónimo [n-grama: Torroella de Montgrí]
+Montgrí po:topónimo [n-grama: Torroella de Montgrí]
 Torrox po:topónimo
 Tórtoles po:topónimo [n-grama: Tórtoles de Esgueva]
 Esgueva po:topónimo [n-grama: Tórtoles de Esgueva]
@@ -10557,10 +10495,10 @@ Trabado po:topónimo
 Trapagaran po:topónimo
 Trasmiras po:topónimo
 Trasmoz po:topónimo
+Trasparga po:topónimo
 Trazo po:topónimo
 Trefacio po:topónimo
 Tremp po:topónimo
-Tres po:topónimo [n-grama: Tres Cantos]
 Cantos po:topónimo [n-grama: Tres Cantos]
 Trespaderne po:topónimo
 Tresviso po:topónimo
@@ -10568,7 +10506,6 @@ Trevías po:topónimo
 Triacastela po:topónimo
 Triollo po:topónimo
 Trubia po:topónimo
-Truchas po:topónimo
 Trucios po:topónimo
 Trujillo po:topónimo
 Tubilla po:topónimo [n-grama: Tubilla del Agua]
@@ -10582,7 +10519,6 @@ Tudela po:topónimo
 Tui po:topónimo
 Tuilla po:topónimo
 Tuineje po:topónimo
-Turcia po:topónimo
 Turtzioz po:topónimo
 Úbeda po:topónimo
 Ubide po:topónimo
@@ -10597,23 +10533,20 @@ Uña po:topónimo
 Úrbel po:topónimo [n-grama: Úrbel del Castillo]
 del po:topónimo [n-grama: Úrbel del Castillo]
 Castillo po:topónimo [n-grama: Úrbel del Castillo]
-Urdiales po:topónimo
-Urdiales po:topónimo [n-grama: Urdiales del Páramo]
-del po:topónimo [n-grama: Urdiales del Páramo]
-Páramo po:topónimo [n-grama: Urdiales del Páramo]
+Urdazubi po:topónimo
 Urduliz po:topónimo
 Urduña po:topónimo
 Urnieta po:topónimo
 Urretxu po:topónimo
 Urria po:topónimo
 Urueña po:topónimo
+Urzainki po:topónimo
 Usurbil po:topónimo
 Utebo po:topónimo
 Utiel po:topónimo
 Utrera po:topónimo
 Vaciamadrid po:topónimo
 Vadocondes po:topónimo
-Lorenzo po:topónimo [n-grama: Val de San Lorenzo]
 Vicente po:topónimo [n-grama: Val de San Vicente]
 Dubra po:topónimo [n-grama: Val do Dubra]
 Valacloche po:topónimo
@@ -10623,12 +10556,7 @@ Pisuerga po:topónimo [n-grama: Valbuena de Pisuerga]
 Valdáliga po:topónimo
 Valde po:topónimo
 Valdeande po:topónimo
-Valdefresno po:topónimo
-Valdefuentes po:topónimo [n-grama: Valdefuentes del Páramo]
-del po:topónimo [n-grama: Valdefuentes del Páramo]
-Páramo po:topónimo [n-grama: Valdefuentes del Páramo]
-Valdelugueros po:topónimo
-Valdemora po:topónimo
+Valdegeña po:topónimo
 Valdemorillo po:topónimo [n-grama: Valdemorillo de la Sierra]
 la po:topónimo [n-grama: Valdemorillo de la Sierra]
 Sierra po:topónimo [n-grama: Valdemorillo de la Sierra]
@@ -10636,27 +10564,17 @@ Valdemoro po:topónimo
 Valdeolea po:topónimo
 Valdeolmillos po:topónimo
 Valdepeñas po:topónimo
-Valdepiélago po:topónimo
-Valdepolo po:topónimo
 Valdeprado po:topónimo [n-grama: Valdeprado del Río]
 del po:topónimo [n-grama: Valdeprado del Río]
-Valderas po:topónimo
 Valderrábano po:topónimo
 Valderredible po:topónimo
-Valderrey po:topónimo
-Valderrueda po:topónimo
 Valdés po:topónimo
-Valdesamario po:topónimo
-Valdevimbre po:topónimo
 Valdezate po:topónimo
 Valdorros po:topónimo
 Valdoviño po:topónimo
 Valencia po:topónimo
 Valencia po:topónimo [n-grama: Valencia de Alcántara]
 Alcántara po:topónimo [n-grama: Valencia de Alcántara]
-Valencia po:topónimo [n-grama: Valencia de Don Juan]
-Don po:topónimo [n-grama: Valencia de Don Juan]
-Juan po:topónimo [n-grama: Valencia de Don Juan]
 Valencina po:topónimo [n-grama: Valencina de la Concepción]
 la po:topónimo [n-grama: Valencina de la Concepción]
 Concepción po:topónimo [n-grama: Valencina de la Concepción]
@@ -10704,7 +10622,6 @@ del po:topónimo [n-grama: Valle del Retortillo]
 Retortillo po:topónimo [n-grama: Valle del Retortillo]
 Valle po:topónimo [n-grama: Valle Gran Rey]
 Rey po:topónimo [n-grama: Valle Gran Rey]
-Vallecillo po:topónimo
 Vallehermoso po:topónimo
 Vallejera po:topónimo
 Valles po:topónimo [n-grama: Valles de Palenzuela]
@@ -10718,28 +10635,21 @@ Valtablado po:topónimo [n-grama: Valtablado del Río]
 del po:topónimo [n-grama: Valtablado del Río]
 Valtierra po:topónimo
 Valverde po:topónimo
-Valverde po:topónimo [n-grama: Valverde de la Virgen]
-la po:topónimo [n-grama: Valverde de la Virgen]
-Virgen po:topónimo [n-grama: Valverde de la Virgen]
 Valverde po:topónimo [n-grama: Valverde de Mérida]
 Mérida po:topónimo [n-grama: Valverde de Mérida]
 Valverde po:topónimo [n-grama: Valverde do Fresno]
 Fresno po:topónimo [n-grama: Valverde do Fresno]
 Vandellòs po:topónimo [n-grama: Vandellòs i l'Hospitalet de l'Infant]
-i po:topónimo [n-grama: Vandellòs i l'Hospitalet de l'Infant]
 l'Hospitalet po:topónimo [n-grama: Vandellòs i l'Hospitalet de l'Infant]
 l'Infant po:topónimo [n-grama: Vandellòs i l'Hospitalet de l'Infant]
 Vedra po:topónimo
-Vega po:topónimo [n-grama: Vega de Infanzones]
-Infanzones po:topónimo [n-grama: Vega de Infanzones]
 Vega po:topónimo [n-grama: Vega de Liébana]
 Liébana po:topónimo [n-grama: Vega de Liébana]
 Vega po:topónimo [n-grama: Vega de Pas]
 Pas po:topónimo [n-grama: Vega de Pas]
-Vegacervera po:topónimo
-Vegaquemada po:topónimo
-Vegas po:topónimo [n-grama: Vegas del Condado]
-del po:topónimo [n-grama: Vegas del Condado]
+Vega po:topónimo [n-grama: Vega de Valcarce]
+Valcarce po:topónimo [n-grama: Vega de Valcarce]
+Vegadeo po:topónimo
 Camba po:topónimo [n-grama: Veigas de Camba]
 Vejer po:topónimo [n-grama: Vejer de la Frontera]
 la po:topónimo [n-grama: Vejer de la Frontera]
@@ -10786,14 +10696,19 @@ Caldelas po:topónimo [n-grama: Vilamaior de Caldelas]
 Vilamarín po:topónimo
 Vilamartín po:topónimo [n-grama: Vilamartín de Valdeorras]
 Valdeorras po:topónimo [n-grama: Vilamartín de Valdeorras]
+Vilameá po:topónimo
+Vilanova po:topónimo [n-grama: Vilanova d'Ozcos]
+d'Ozcos po:topónimo [n-grama: Vilanova d'Ozcos]
 Vilanova po:topónimo [n-grama: Vilanova de Arousa]
 Arousa po:topónimo [n-grama: Vilanova de Arousa]
 Vilanova po:topónimo [n-grama: Vilanova de Ozcos]
 Ozcos po:topónimo [n-grama: Vilanova de Ozcos]
+Vilanova po:topónimo [n-grama: Vilanova dos Infantes]
+Infantes po:topónimo [n-grama: Vilanova dos Infantes]
 Vilanova po:topónimo [n-grama: Vilanova i la Geltrú]
-i po:topónimo [n-grama: Vilanova i la Geltrú]
 la po:topónimo [n-grama: Vilanova i la Geltrú]
 Geltrú po:topónimo [n-grama: Vilanova i la Geltrú]
+Vilaoudriz po:topónimo
 Lebres po:topónimo [n-grama: Vilar de Lebres]
 Vilarbón po:topónimo
 Vilardevós po:topónimo
@@ -10813,20 +10728,12 @@ Villa po:topónimo [n-grama: Villa del Río]
 del po:topónimo [n-grama: Villa del Río]
 Villabasta po:topónimo [n-grama: Villabasta de Valdavia]
 Valdavia po:topónimo [n-grama: Villabasta de Valdavia]
-Villablino po:topónimo
 Villabona po:topónimo
-Villabraz po:topónimo
 Villacarriedo po:topónimo
 Villacid po:topónimo [n-grama: Villacid de Campos]
 Villacidaler po:topónimo
 Villaconancio po:topónimo
 Villada po:topónimo
-Villadangos po:topónimo [n-grama: Villadangos del Páramo]
-del po:topónimo [n-grama: Villadangos del Páramo]
-Páramo po:topónimo [n-grama: Villadangos del Páramo]
-Villademor po:topónimo [n-grama: Villademor de la Vega]
-la po:topónimo [n-grama: Villademor de la Vega]
-Vega po:topónimo [n-grama: Villademor de la Vega]
 Villadiego po:topónimo
 Villaeles po:topónimo [n-grama: Villaeles de Valdavia]
 Valdavia po:topónimo [n-grama: Villaeles de Valdavia]
@@ -10847,12 +10754,14 @@ Villafranca po:topónimo [n-grama: Villafranca de Ordicia]
 Ordicia po:topónimo [n-grama: Villafranca de Ordicia]
 Villafranca po:topónimo [n-grama: Villafranca de Oria]
 Oria po:topónimo [n-grama: Villafranca de Oria]
+Villafranca po:topónimo [n-grama: Villafranca del Bierzo]
+del po:topónimo [n-grama: Villafranca del Bierzo]
+Bierzo po:topónimo [n-grama: Villafranca del Bierzo]
 Villafranca po:topónimo [n-grama: Villafranca Montes de Oca]
 Oca po:topónimo [n-grama: Villafranca Montes de Oca]
 Villafruela po:topónimo
 Villafufre po:topónimo
 Villagalijo po:topónimo
-Villagatón po:topónimo
 Villagonzalo po:topónimo [n-grama: Villagonzalo Pedernales]
 Pedernales po:topónimo [n-grama: Villagonzalo Pedernales]
 Villahán po:topónimo
@@ -10881,14 +10790,8 @@ Villalpando po:topónimo
 Villaluenga po:topónimo [n-grama: Villaluenga de la Vega]
 la po:topónimo [n-grama: Villaluenga de la Vega]
 Vega po:topónimo [n-grama: Villaluenga de la Vega]
-Villamañán po:topónimo
-Villamandos po:topónimo
-Villamanín po:topónimo
 Villamartín po:topónimo
 Villamartín po:topónimo [n-grama: Villamartín de Campos]
-Villamartín po:topónimo [n-grama: Villamartín de Don Sancho]
-Don po:topónimo [n-grama: Villamartín de Don Sancho]
-Sancho po:topónimo [n-grama: Villamartín de Don Sancho]
 Villamayor po:topónimo [n-grama: Villamayor de los Montes]
 los po:topónimo [n-grama: Villamayor de los Montes]
 Villamayor po:topónimo [n-grama: Villamayor de Treviño]
@@ -10898,19 +10801,11 @@ Villamediana po:topónimo
 Villamediana po:topónimo [n-grama: Villamediana de Iregua]
 Iregua po:topónimo [n-grama: Villamediana de Iregua]
 Villamedianilla po:topónimo
-Villamejil po:topónimo
 Villameriel po:topónimo
 Villamiel po:topónimo
 Villamiel po:topónimo [n-grama: Villamiel de la Sierra]
 la po:topónimo [n-grama: Villamiel de la Sierra]
 Sierra po:topónimo [n-grama: Villamiel de la Sierra]
-Villamol po:topónimo
-Villamontán po:topónimo [n-grama: Villamontán de la Valduerna]
-la po:topónimo [n-grama: Villamontán de la Valduerna]
-Valduerna po:topónimo [n-grama: Villamontán de la Valduerna]
-Villamoratiel po:topónimo [n-grama: Villamoratiel de las Matas]
-las po:topónimo [n-grama: Villamoratiel de las Matas]
-Matas po:topónimo [n-grama: Villamoratiel de las Matas]
 Villamoronta po:topónimo
 Villamuera po:topónimo [n-grama: Villamuera de la Cueza]
 la po:topónimo [n-grama: Villamuera de la Cueza]
@@ -10919,6 +10814,7 @@ Villamuriel po:topónimo [n-grama: Villamuriel de Cerrato]
 Cerrato po:topónimo [n-grama: Villamuriel de Cerrato]
 Villangómez po:topónimo
 Villanúa po:topónimo
+Villanubla po:topónimo
 Villanueva po:topónimo [n-grama: Villanueva de Argaño]
 Argaño po:topónimo [n-grama: Villanueva de Argaño]
 Villanueva po:topónimo [n-grama: Villanueva de Carazo]
@@ -10935,9 +10831,8 @@ Jara po:topónimo [n-grama: Villanueva de la Jara]
 Villanueva po:topónimo [n-grama: Villanueva de la Serena]
 la po:topónimo [n-grama: Villanueva de la Serena]
 Serena po:topónimo [n-grama: Villanueva de la Serena]
-Villanueva po:topónimo [n-grama: Villanueva de las Manzanas]
-las po:topónimo [n-grama: Villanueva de las Manzanas]
-Manzanas po:topónimo [n-grama: Villanueva de las Manzanas]
+Villanueva po:topónimo [n-grama: Villanueva de Oscos]
+Oscos po:topónimo [n-grama: Villanueva de Oscos]
 Villanueva po:topónimo [n-grama: Villanueva de San Juan]
 Juan po:topónimo [n-grama: Villanueva de San Juan]
 Villanueva po:topónimo [n-grama: Villanueva de Teba]
@@ -10956,14 +10851,8 @@ del po:topónimo [n-grama: Villanueva del Trabuco]
 Trabuco po:topónimo [n-grama: Villanueva del Trabuco]
 Villanuño po:topónimo [n-grama: Villanuño de Valdavia]
 Valdavia po:topónimo [n-grama: Villanuño de Valdavia]
-Villaobispo po:topónimo [n-grama: Villaobispo de Otero]
-Otero po:topónimo [n-grama: Villaobispo de Otero]
-Villaornate po:topónimo [n-grama: Villaornate y Castro]
-y po:topónimo [n-grama: Villaornate y Castro]
 Villapedre po:topónimo
 Villaprovedo po:topónimo
-Villaquejida po:topónimo
-Villaquilambre po:topónimo
 Villaquirán po:topónimo [n-grama: Villaquirán de la Puebla]
 la po:topónimo [n-grama: Villaquirán de la Puebla]
 Puebla po:topónimo [n-grama: Villaquirán de la Puebla]
@@ -10979,33 +10868,30 @@ Villaralbo po:topónimo
 Villaralto po:topónimo
 Villarcayo po:topónimo [n-grama: Villarcayo de Merindad de Castilla la Vieja]
 Merindad po:topónimo [n-grama: Villarcayo de Merindad de Castilla la Vieja]
-Castilla po:topónimo [n-grama: Villarcayo de Merindad de Castilla la Vieja]
 la po:topónimo [n-grama: Villarcayo de Merindad de Castilla la Vieja]
 Vieja po:topónimo [n-grama: Villarcayo de Merindad de Castilla la Vieja]
-Villarejo po:topónimo [n-grama: Villarejo de Órbigo]
-Órbigo po:topónimo [n-grama: Villarejo de Órbigo]
-Villares po:topónimo [n-grama: Villares de Órbigo]
-Órbigo po:topónimo [n-grama: Villares de Órbigo]
 Villariezo po:topónimo
 Villarmentero po:topónimo [n-grama: Villarmentero de Campos]
 Villarrabé po:topónimo
 Villarramiel po:topónimo
 Villarrobledo po:topónimo
-Villasabariego po:topónimo
 Villasandino po:topónimo
 Villasarracino po:topónimo
 Villasayas po:topónimo
-Villaselán po:topónimo
+Villasdardo po:topónimo
 Villasila po:topónimo [n-grama: Villasila de Valdavia]
 Valdavia po:topónimo [n-grama: Villasila de Valdavia]
 Villasumil po:topónimo
+Villasumile po:topónimo
 Villasur po:topónimo [n-grama: Villasur de Herreros]
 Herreros po:topónimo [n-grama: Villasur de Herreros]
 Villatuelda po:topónimo
 Villaturde po:topónimo
-Villaturiel po:topónimo
 Villaumbrales po:topónimo
+Villava po:topónimo
 Villaverde po:topónimo
+Villaverde po:topónimo [n-grama: Villaverde de Trucíos]
+Trucíos po:topónimo [n-grama: Villaverde de Trucíos]
 Villaverde po:topónimo [n-grama: Villaverde del Monte]
 del po:topónimo [n-grama: Villaverde del Monte]
 Villaviciosa po:topónimo
@@ -11016,9 +10902,7 @@ Odón po:topónimo [n-grama: Villaviciosa de Odón]
 Villaviudas po:topónimo
 Villayerno po:topónimo [n-grama: Villayerno Morquillas]
 Morquillas po:topónimo [n-grama: Villayerno Morquillas]
-Villazala po:topónimo
-Villazanzo po:topónimo [n-grama: Villazanzo de Valderaduey]
-Valderaduey po:topónimo [n-grama: Villazanzo de Valderaduey]
+Villayón po:topónimo
 Villazopeque po:topónimo
 Villegas po:topónimo
 Villena po:topónimo
@@ -11031,6 +10915,8 @@ Villota po:topónimo [n-grama: Villota del Páramo]
 del po:topónimo [n-grama: Villota del Páramo]
 Páramo po:topónimo [n-grama: Villota del Páramo]
 Villovieco po:topónimo
+Vilobí po:topónimo [n-grama: Vilobí d'Onyar]
+d'Onyar po:topónimo [n-grama: Vilobí d'Onyar]
 Viloria po:topónimo [n-grama: Viloria de Rioja]
 Rioja po:topónimo [n-grama: Viloria de Rioja]
 Vilvestre po:topónimo
@@ -11040,8 +10926,9 @@ Pinar po:topónimo [n-grama: Vilviestre del Pinar]
 Vimianzo po:topónimo
 Vinalesa po:topónimo
 Vinaròs po:topónimo
-Viñas po:topónimo
 Vinuesa po:topónimo
+Viñas po:topónimo
+Virallé po:topónimo
 Carme po:topónimo [n-grama: Virxe do Carme de Moaña]
 Moaña po:topónimo [n-grama: Virxe do Carme de Moaña]
 Vitigudino po:topónimo
@@ -11079,6 +10966,7 @@ Yepes po:topónimo
 Yuncler po:topónimo
 Yunclillos po:topónimo
 Yuncos po:topónimo
+Zabalza po:topónimo
 Zael po:topónimo
 Zafarraya po:topónimo
 Zahara po:topónimo [n-grama: Zahara de la Sierra]
@@ -11107,17 +10995,18 @@ Zerain po:topónimo
 Zestoa po:topónimo
 Zierbana po:topónimo
 Ziortza po:topónimo
+Ziritza po:topónimo
+Zizur po:topónimo [n-grama: Zizur Mayor]
+Mayor po:topónimo [n-grama: Zizur Mayor]
 Zizur po:topónimo [n-grama: Zizur Nagusia]
 Nagusia po:topónimo [n-grama: Zizur Nagusia]
 Zizurkil po:topónimo
-Zotes po:topónimo [n-grama: Zotes del Páramo]
-del po:topónimo [n-grama: Zotes del Páramo]
-Páramo po:topónimo [n-grama: Zotes del Páramo]
 Zubiri po:topónimo
 Zuera po:topónimo
 Zuheros po:topónimo
 Zumaia po:topónimo
 Zumarraga po:topónimo
 Zuñeda po:topónimo
+Zuñiga po:topónimo
 Zúñiga po:topónimo
 Zurgena po:topónimo

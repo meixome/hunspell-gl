@@ -8,11 +8,16 @@ acetoacetil-CoA po:substantivo
 acetoacetil-coencima po:substantivo [n-grama: acetoacetil-coencima A]
 ácido po:substantivo [n-grama: ácido tetrahidrofólico]
 tetrahidrofólico po:substantivo [n-grama: ácido tetrahidrofólico]
+CoA po:substantivo
 coencima po:substantivo [n-grama: coencima A]
 coencima po:substantivo [n-grama: coencima B]
 B po:substantivo [n-grama: coencima B]
+coencima po:substantivo [n-grama: coencima M]
+M po:substantivo [n-grama: coencima M]
 coencimas po:substantivo [n-grama: coencimas Q]
 Q po:substantivo [n-grama: coencimas Q]
+coenzima po:substantivo [n-grama: coenzima M]
+M po:substantivo [n-grama: coenzima M]
 dinucleótido po:substantivo [n-grama: dinucleótido de flavina e adenina]
 flavina po:substantivo [n-grama: dinucleótido de flavina e adenina]
 adenina po:substantivo [n-grama: dinucleótido de flavina e adenina]
@@ -36,6 +41,7 @@ adenina po:substantivo [n-grama: fosfato do dinucleótido de nicotinamida e aden
 HMG-CoA po:substantivo
 malonil-CoA po:substantivo
 malonil-coencima po:substantivo [n-grama: malonil-coencima A]
+metanofuranos po:substantivo
 mononucleótido po:substantivo [n-grama: mononucleótido de flavina]
 flavina po:substantivo [n-grama: mononucleótido de flavina]
 NAD⁺ po:substantivo
@@ -72,6 +78,7 @@ tiamina po:substantivo [n-grama: tiamina difosfato]
 difosfato po:substantivo [n-grama: tiamina difosfato]
 tiamina po:substantivo [n-grama: tiamina pirofosfato]
 pirofosfato po:substantivo [n-grama: tiamina pirofosfato]
+TPP po:substantivo
 ubiquinonas po:substantivo
 UDP-glicosa po:substantivo
 β-hidroxi-β-metilglutaril-coencima po:substantivo [n-grama: β-hidroxi-β-metilglutaril-coencima A]

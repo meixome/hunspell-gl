@@ -29,9 +29,6 @@ Paz po:nome [n-grama: Asociación para a Paz]
 BRICS po:nome
 British–Irish po:nome [n-grama: British–Irish Council]
 Council po:nome [n-grama: British–Irish Council]
-British–Irish po:nome [n-grama: British–Irish Parliamentary Assembly]
-Parliamentary po:nome [n-grama: British–Irish Parliamentary Assembly]
-Assembly po:nome [n-grama: British–Irish Parliamentary Assembly]
 CAME po:nome
 CBI po:nome
 CEI po:nome
@@ -84,9 +81,7 @@ Grupo po:nome [n-grama: Grupo de Estados de África]
 África po:nome [n-grama: Grupo de Estados de África]
 Grupo po:nome [n-grama: Grupo dos 20]
 Grupo po:nome [n-grama: Grupo dos Oito]
-Oito po:nome [n-grama: Grupo dos Oito]
 IMF po:nome
-Inter po:nome
 International po:nome [n-grama: International Monetary Fund]
 Monetary po:nome [n-grama: International Monetary Fund]
 Fund po:nome [n-grama: International Monetary Fund]
@@ -98,13 +93,11 @@ L po:nome
 Céltica po:nome [n-grama: Liga Céltica]
 Árabes po:nome [n-grama: Liga de Estados Árabes]
 Marcha po:nome [n-grama: Marcha Mundial das Mulleres]
-Mulleres po:nome [n-grama: Marcha Mundial das Mulleres]
 Movemento po:nome [n-grama: Movemento de Países Non Aliñados]
 Non po:nome [n-grama: Movemento de Países Non Aliñados]
 Aliñados po:nome [n-grama: Movemento de Países Non Aliñados]
-NOAL po:nome [n-grama: NOAL ou MPNA]
-ou po:nome [n-grama: NOAL ou MPNA]
-MPNA po:nome [n-grama: NOAL ou MPNA]
+MPNA po:nome
+NOAL po:nome
 Nordiska po:nome [n-grama: Nordiska rådet]
 rådet po:nome [n-grama: Nordiska rådet]
 OCDE po:nome
@@ -115,8 +108,6 @@ Organización po:nome [n-grama: Organización Común Africana e Malgaxe]
 Común po:nome [n-grama: Organización Común Africana e Malgaxe]
 Africana po:nome [n-grama: Organización Común Africana e Malgaxe]
 Malgaxe po:nome [n-grama: Organización Común Africana e Malgaxe]
-Organización po:nome [n-grama: Organización da Conferencia Islámica]
-Conferencia po:nome [n-grama: Organización da Conferencia Islámica]
 Organización po:nome [n-grama: Organización das Nacións e Pobos Non Representados]
 Nacións po:nome [n-grama: Organización das Nacións e Pobos Non Representados]
 Non po:nome [n-grama: Organización das Nacións e Pobos Non Representados]
@@ -148,6 +139,8 @@ Organización po:nome [n-grama: Organización para a Cooperación e o Desenvolve
 Cooperación po:nome [n-grama: Organización para a Cooperación e o Desenvolvemento Económico]
 Desenvolvemento po:nome [n-grama: Organización para a Cooperación e o Desenvolvemento Económico]
 Económico po:nome [n-grama: Organización para a Cooperación e o Desenvolvemento Económico]
+Organización po:nome [n-grama: Organización para a Cooperación Islámica]
+Cooperación po:nome [n-grama: Organización para a Cooperación Islámica]
 Organización po:nome [n-grama: Organización para a Seguridade e a Cooperación en Europa]
 Seguridade po:nome [n-grama: Organización para a Seguridade e a Cooperación en Europa]
 Cooperación po:nome [n-grama: Organización para a Seguridade e a Cooperación en Europa]
@@ -159,8 +152,6 @@ OSCE po:nome
 OTI po:nome
 P po:nome
 PALOP po:nome
-PfP po:nome
-Pol po:nome
 Slow po:nome [n-grama: Slow Food]
 Food po:nome [n-grama: Slow Food]
 Sociedade po:nome [n-grama: Sociedade de Nacións]
@@ -169,12 +160,9 @@ The po:nome [n-grama: The World Conservation Union]
 World po:nome [n-grama: The World Conservation Union]
 Conservation po:nome [n-grama: The World Conservation Union]
 Union po:nome [n-grama: The World Conservation Union]
-Tionól po:nome [n-grama: Tionól Pharlaiminteach na Breataine agus na hÉireann]
-Pharlaiminteach po:nome [n-grama: Tionól Pharlaiminteach na Breataine agus na hÉireann]
-Breataine po:nome [n-grama: Tionól Pharlaiminteach na Breataine agus na hÉireann]
-agus po:nome [n-grama: Tionól Pharlaiminteach na Breataine agus na hÉireann]
-hÉireann po:nome [n-grama: Tionól Pharlaiminteach na Breataine agus na hÉireann]
 UE po:nome
+UEa po:nome
+UEEa po:nome
 UICN po:nome
 UNASUR po:nome
 Union po:nome [n-grama: Union Africaine et Malgache]
@@ -183,11 +171,15 @@ et po:nome [n-grama: Union Africaine et Malgache]
 Malgache po:nome [n-grama: Union Africaine et Malgache]
 Africana po:nome [n-grama: Unión Africana e Malgaxe]
 Malgaxe po:nome [n-grama: Unión Africana e Malgaxe]
+Euroasia po:nome [n-grama: Unión da Euroasia]
 Nacións po:nome [n-grama: Unión de Nacións Suramericanas]
 Suramericanas po:nome [n-grama: Unión de Nacións Suramericanas]
 del po:nome [n-grama: Unión del Magreb Árabe]
 Magreb po:nome [n-grama: Unión del Magreb Árabe]
 Árabe po:nome [n-grama: Unión del Magreb Árabe]
+Económica po:nome [n-grama: Unión Económica Eurasiática]
+Eurasiática po:nome [n-grama: Unión Económica Eurasiática]
+Euroasiática po:nome [n-grama: Unión Euroasiática]
 Conservación po:nome [n-grama: Unión Internacional para a Conservación da Natureza e dos Recursos Naturais]
 Natureza po:nome [n-grama: Unión Internacional para a Conservación da Natureza e dos Recursos Naturais]
 Recursos po:nome [n-grama: Unión Internacional para a Conservación da Natureza e dos Recursos Naturais]

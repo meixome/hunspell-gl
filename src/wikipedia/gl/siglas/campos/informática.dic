@@ -1,18 +1,43 @@
+ABAP po:sigla
 ACPI po:sigla
 ADSL po:sigla
 AGP po:sigla
+Algol po:sigla
+ALGOL po:sigla
+American po:sigla [n-grama: American Standard Code for Information Interchange]
+Standard po:sigla [n-grama: American Standard Code for Information Interchange]
+Code po:sigla [n-grama: American Standard Code for Information Interchange]
+for po:sigla [n-grama: American Standard Code for Information Interchange]
+Information po:sigla [n-grama: American Standard Code for Information Interchange]
+Interchange po:sigla [n-grama: American Standard Code for Information Interchange]
 API po:sigla
 APIC po:sigla
+APL po:sigla
 APM po:sigla
 ARP po:sigla
+ASCII po:sigla
 ATA po:sigla
+AWK po:sigla
+BCPL po:sigla
+Biblioteca po:sigla [n-grama: Biblioteca de Infraestrutura de Tecnoloxías de Información]
+Infraestrutura po:sigla [n-grama: Biblioteca de Infraestrutura de Tecnoloxías de Información]
+Tecnoloxías po:sigla [n-grama: Biblioteca de Infraestrutura de Tecnoloxías de Información]
+Información po:sigla [n-grama: Biblioteca de Infraestrutura de Tecnoloxías de Información]
 Bit po:sigla
 BMP po:sigla
 BSC po:sigla
 Byte po:sigla
 CAD po:sigla
 CIFS po:sigla
+CLU po:sigla
+Código po:sigla [n-grama: Código Estándar Americano para o Intercambio de Información]
+Estándar po:sigla [n-grama: Código Estándar Americano para o Intercambio de Información]
+Americano po:sigla [n-grama: Código Estándar Americano para o Intercambio de Información]
+Intercambio po:sigla [n-grama: Código Estándar Americano para o Intercambio de Información]
+Información po:sigla [n-grama: Código Estándar Americano para o Intercambio de Información]
+CRM po:sigla
 DNS po:sigla
+DOI po:sigla
 DOS po:sigla
 DPI po:sigla
 DRI po:sigla
@@ -27,18 +52,35 @@ HTML po:sigla
 ICMP po:sigla
 ICQ po:sigla
 IDE po:sigla
+identificación po:sigla [n-grama: identificación de material dixital]
+material po:sigla [n-grama: identificación de material dixital]
+dixital po:sigla [n-grama: identificación de material dixital]
+IEEE po:sigla
+Instituto po:sigla [n-grama: Instituto de Enxeñeiros Eléctricos e Electrónicos]
+Enxeñeiros po:sigla [n-grama: Instituto de Enxeñeiros Eléctricos e Electrónicos]
+Eléctricos po:sigla [n-grama: Instituto de Enxeñeiros Eléctricos e Electrónicos]
+Electrónicos po:sigla [n-grama: Instituto de Enxeñeiros Eléctricos e Electrónicos]
 IP po:sigla
 ISA po:sigla
 ISWIM po:sigla
+ITIL po:sigla
 JPEG po:sigla
 JPG po:sigla
+JSON po:sigla
 KDE po:sigla
+LDAP po:sigla
+Lightweight po:sigla [n-grama: Lightweight Directory Access Protocol]
+Directory po:sigla [n-grama: Lightweight Directory Access Protocol]
+Access po:sigla [n-grama: Lightweight Directory Access Protocol]
+Protocol po:sigla [n-grama: Lightweight Directory Access Protocol]
 LUG po:sigla
 MIDI po:sigla
 MIME po:sigla
 MNG po:sigla
 MP3 po:sigla
 MPEG po:sigla
+n\/a po:sigla
+N\/A po:sigla
 NCP po:sigla
 NFS po:sigla
 NTFS po:sigla
@@ -48,16 +90,30 @@ PC po:sigla
 PCI po:sigla
 PGP po:sigla
 PHP po:sigla
+PL\/1 po:sigla
 PNG po:sigla
+Point-to-point po:sigla [n-grama: Point-to-point Protocol]
+Protocol po:sigla [n-grama: Point-to-point Protocol]
+RADIUS po:sigla
 RLE po:sigla
+SCADA po:sigla
 SCSI po:sigla
 SMB po:sigla
+Tcl po:sigla
 TCP po:sigla
+The po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+Institute po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+of po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+Electrical po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+and po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+Electronics po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
+Engineers po:sigla [n-grama: The Institute of Electrical and Electronics Engineers]
 TIFF po:sigla
 TWAIN po:sigla
 UDP po:sigla
 VESA po:sigla
 WAI po:sigla
+Wine po:sigla
 WINE po:sigla
 WYSIWYG po:sigla
 XML po:sigla

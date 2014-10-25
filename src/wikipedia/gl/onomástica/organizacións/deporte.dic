@@ -14,6 +14,7 @@ Paraguaia po:nome [n-grama: Asociación Paraguaia de Fútbol]
 Polaca po:nome [n-grama: Asociación Polaca de Fútbol]
 Profesional po:nome [n-grama: Asociación Profesional de Xadrez]
 Uruguaia po:nome [n-grama: Asociación Uruguaia de Fútbol]
+AUF po:nome
 Comité po:nome [n-grama: Comité Técnico de Árbitros]
 Técnico po:nome [n-grama: Comité Técnico de Árbitros]
 Árbitros po:nome [n-grama: Comité Técnico de Árbitros]
@@ -33,6 +34,9 @@ CONMEBOL po:nome
 Consello po:nome [n-grama: Consello Mundial de Automobilismo]
 Automobilismo po:nome [n-grama: Consello Mundial de Automobilismo]
 CSF po:nome
+DFB po:nome
+FEB po:nome
+FEDAS po:nome
 Aeronáutica po:nome [n-grama: Federación Aeronáutica Galega]
 Alemá po:nome [n-grama: Federación Alemá de Fútbol]
 Boliviana po:nome [n-grama: Federación Boliviana de Fútbol]
@@ -53,6 +57,7 @@ Espeleoloxía po:nome [n-grama: Federación Galega de Espeleoloxía]
 Golf po:nome [n-grama: Federación Galega de Golf]
 Montañismo po:nome [n-grama: Federación Galega de Montañismo]
 Natación po:nome [n-grama: Federación Galega de Natación]
+Esgrima po:nome [n-grama: Federación Internacional de Esgrima]
 Motociclismo po:nome [n-grama: Federación Internacional de Motociclismo]
 Automóbil po:nome [n-grama: Federación Internacional do Automóbil]
 Marfilesa po:nome [n-grama: Federación Marfilesa de Fútbol]
@@ -67,18 +72,38 @@ Fédération po:nome [n-grama: Fédération Internationale de Football Associati
 Internationale po:nome [n-grama: Fédération Internationale de Football Association]
 Football po:nome [n-grama: Fédération Internationale de Football Association]
 Association po:nome [n-grama: Fédération Internationale de Football Association]
+Fédération po:nome [n-grama: Fédération Internationale de l'Automobile]
+Internationale po:nome [n-grama: Fédération Internationale de l'Automobile]
+l'Automobile po:nome [n-grama: Fédération Internationale de l'Automobile]
 Fédération po:nome [n-grama: Fédération Internationale du Sport Automobile]
 Internationale po:nome [n-grama: Fédération Internationale du Sport Automobile]
 du po:nome [n-grama: Fédération Internationale du Sport Automobile]
 Sport po:nome [n-grama: Fédération Internationale du Sport Automobile]
 Automobile po:nome [n-grama: Fédération Internationale du Sport Automobile]
+FEGABA po:nome
+FFA po:nome
+FFC po:nome
+FFF po:nome
+FFU po:nome
+FGB po:nome
+FGF po:nome
 FIBA po:nome
+FIE po:nome
+FIF po:nome
+FIM po:nome
 Formula po:nome [n-grama: Formula One Group]
 One po:nome [n-grama: Formula One Group]
 Group po:nome [n-grama: Formula One Group]
+FOTA po:nome
+FRF po:nome
+FSJ po:nome
+KNVB po:nome
 LFP po:nome
 Profesional po:nome [n-grama: Liga Nacional de Fútbol Profesional]
 OFC po:nome
+PZPN po:nome
 Belga po:nome [n-grama: Real Federación Belga de Fútbol]
+RFEF po:nome
 UEFA po:nome
 ULEB po:nome
+URBSFA\/KBVB po:nome

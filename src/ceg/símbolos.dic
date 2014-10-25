@@ -45,6 +45,5 @@ s po:símbolo  # Segundo
 S po:símbolo  # Sur
 t po:símbolo  # Tonelada
 U po:símbolo [n-grama: U A]  # Unidade astronómica
-V po:símbolo  # Voltio
 W po:símbolo  # Vatio, watt
 Wh po:símbolo  # Vatio-hora

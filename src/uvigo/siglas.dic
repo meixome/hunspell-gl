@@ -75,8 +75,6 @@ FMI po:sigla  # Fondo Monetario Internacional
 FP po:sigla  # Formación profesional
 FPI po:sigla  # Formación do persoal investigador
 GATT po:sigla  # Acordo xeral sobre Tarifas Alfandegarias e Comercio
-I po:sigla [n-grama: I + D]  # Investigación e desenvolvemento
-+ po:sigla [n-grama: I + D]  # Investigación e desenvolvemento
 D po:sigla [n-grama: I + D]  # Investigación e desenvolvemento
 IAE po:sigla  # Imposto das actividades económicas
 ICE po:sigla  # Instituto de Ciencias da Educación

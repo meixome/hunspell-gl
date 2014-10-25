@@ -4,7 +4,6 @@ Pedro po:topónimo [n-grama: Águas de São Pedro]
 Alegrete po:topónimo
 Anápolis po:topónimo
 Angra po:topónimo [n-grama: Angra dos Reis]
-Reis po:topónimo [n-grama: Angra dos Reis]
 Apucarana po:topónimo
 Aracaju po:topónimo
 Arapongas po:topónimo
@@ -57,6 +56,7 @@ Fortaleza po:topónimo
 Foz po:topónimo [n-grama: Foz do Iguaçu]
 Iguaçu po:topónimo [n-grama: Foz do Iguaçu]
 Garanhuns po:topónimo
+Glaucilândia po:topónimo
 Goiana po:topónimo
 Goiania po:topónimo
 Gramado po:topónimo
@@ -64,6 +64,7 @@ Guarapuava po:topónimo
 Guaratinguetá po:topónimo
 Guarujá po:topónimo
 Guarulhos po:topónimo
+Igarapé-Miri po:topónimo
 Imperatriz po:topónimo
 Itabuna po:topónimo
 Itajaí po:topónimo
@@ -85,8 +86,9 @@ Maceió po:topónimo
 Manaus po:topónimo
 Marília po:topónimo
 Maringá po:topónimo
-Megalópole po:topónimo [n-grama: Megalópole de San Paulo]
-Paulo po:topónimo [n-grama: Megalópole de San Paulo]
+Megalópole po:topónimo [n-grama: Megalópole de São Paulo]
+São po:topónimo [n-grama: Megalópole de São Paulo]
+Paulo po:topónimo [n-grama: Megalópole de São Paulo]
 Mogi po:topónimo [n-grama: Mogi das Cruzes]
 Cruzes po:topónimo [n-grama: Mogi das Cruzes]
 Natal po:topónimo
@@ -124,7 +126,6 @@ Roca po:topónimo [n-grama: Roca Sales]
 Sales po:topónimo [n-grama: Roca Sales]
 Sabará po:topónimo
 Salvador po:topónimo
-Paulo po:topónimo [n-grama: San Paulo]
 Maria po:topónimo [n-grama: Santa Maria]
 André po:topónimo [n-grama: Santo André]
 Ângelo po:topónimo [n-grama: Santo Ângelo]
@@ -140,7 +141,6 @@ Vista po:topónimo [n-grama: São João da Boa Vista]
 São po:topónimo [n-grama: São João del Rei]
 João po:topónimo [n-grama: São João del Rei]
 del po:topónimo [n-grama: São João del Rei]
-Rei po:topónimo [n-grama: São João del Rei]
 São po:topónimo [n-grama: São Joaquim]
 Joaquim po:topónimo [n-grama: São Joaquim]
 São po:topónimo [n-grama: São José do Rio Preto]
@@ -158,9 +158,10 @@ Maranhão po:topónimo [n-grama: São Luís do Maranhão]
 São po:topónimo [n-grama: São Miguel das Missões]
 Miguel po:topónimo [n-grama: São Miguel das Missões]
 Missões po:topónimo [n-grama: São Miguel das Missões]
+São po:topónimo [n-grama: São Paulo]
+Paulo po:topónimo [n-grama: São Paulo]
 São po:topónimo [n-grama: São Vicente]
 Vicente po:topónimo [n-grama: São Vicente]
-Negra po:topónimo [n-grama: Serra Negra]
 Sorocaba po:topónimo
 Taubaté po:topónimo
 Telêmaco po:topónimo [n-grama: Telêmaco Borba]
@@ -176,6 +177,7 @@ Ubatuba po:topónimo
 Uberlândia po:topónimo
 Umuarama po:topónimo
 Uruburetama po:topónimo
+Várzea po:topónimo [n-grama: Várzea Grande]
 Vitória po:topónimo
 Vitória po:topónimo [n-grama: Vitória da Conquista]
 Conquista po:topónimo [n-grama: Vitória da Conquista]
