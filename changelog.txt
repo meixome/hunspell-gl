@@ -34,6 +34,7 @@ Cambios desde a versión 13.10.1
 
 • comunidade/vocabulario:
     + ab init.
+    + abraiante
     + acrítico
     + activábel
     + activable
