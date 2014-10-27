@@ -27,7 +27,7 @@ class SpellingTest(test.Test):
                     self._config = json.load(fileObject)
             except ValueError:
                 self._config = {}
-            defaultModules = ["drag", "norma"]
+            defaultModules = ["rag/gl", "norma"]
             if "aff" not in self._config: self._config["aff"] = defaultModules
             if "dic" not in self._config: self._config["dic"] = defaultModules
             if "rep" not in self._config: self._config["rep"] = defaultModules

@@ -18,7 +18,7 @@ import generator
 class AbbreviationsGenerator(generator.Generator):
 
     def __init__(self):
-        self.resource = "drag/abreviaturas.dic"
+        self.resource = "rag/gl/abreviaturas.dic"
 
 
     def generateFileContent(self):
