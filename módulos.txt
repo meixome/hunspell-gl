@@ -18,17 +18,6 @@ comunidade      Módulo da comunidade do corrector de galego Hunspell
                 • suxestións
 
 
-drag            Dicionario da Real Academia Galega
-                Real Academia Galega, 2012
-                http://www.realacademiagalega.org/dicionario
-
-                Submódulos:
-
-                • correcto. Vocabulario correcto.
-                • incorrecto. Suxestións para corrixir vocabulario incorrecto.
-                • tolerado. Vocabulario tolerado, e suxestións para substituílo con vocabulario correcto.
-
-
 iso639          Códigos de linguas (ISO 639)
                 http://gl.wikipedia.org/wiki/ISO_639
 
@@ -48,6 +37,17 @@ microsoft       Microsoft
 norma           Normas ortográficas e morfolóxicas do idioma galego
                 Real Academia Galega / Instituto da Lingua Galega, 2003
                 http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+
+
+rag             Módulo da Real Academia Galega
+
+                Submódulos:
+
+                • es-gl. Dicionario castelán-galego do 2004.
+                • gl. Dicionario de galego (http://www.realacademiagalega.org/dicionario).
+                    • correcto. Vocabulario correcto.
+                    • incorrecto. Suxestións para corrixir vocabulario incorrecto.
+                    • tolerado. Vocabulario tolerado, e suxestións para substituílo con vocabulario correcto.
 
 
 santiago        Concello de Santiago de Compostela

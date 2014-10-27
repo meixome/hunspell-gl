@@ -16,7 +16,7 @@ rm -rf ./build
 find . -name "*.pyc" -exec rm {} \;
 
 # Construír e empaquetar o corrector principal (DRAG).
-scons aff=norma dic=drag,norma rep=comunidade,wikipedia code=${code}
+scons aff=norma dic=rag/gl,norma rep=comunidade,rag/gl,wikipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-drag-${version}"
 mkdir ${packageName}
@@ -31,7 +31,7 @@ mv ${packageName}.tar.xz ../${packageName}.tar.xz
 popd &> /dev/null
 
 # Construír e empaquetar o corrector da comunidade.
-scons aff=norma,trasno,unidades dic=comunidade,drag,iso639,iso4217,norma,trasno,unidades,uvigo,wikipedia,wiktionary rep=comunidade,wikipedia code=${code}
+scons aff=norma,trasno,unidades dic=comunidade,rag,iso639,iso4217,norma,trasno,unidades,uvigo,wikipedia,wiktionary rep=comunidade,rag,wikipedia code=${code}
 pushd build &> /dev/null
 packageName="hunspell-gl-comunidade-${version}"
 mkdir ${packageName}

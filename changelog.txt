@@ -195,7 +195,28 @@ Cambios desde a versión 13.10.1
     + xudicializado
     + xudicializar
 
-• drag (novo)
+• galipedia → wikipedia/gl
+
+• iso4217 (actualizouse)
+• iso639 (actualizouse)
+
++ microsoft (novo)
+    • Baseado da guía de estilo de Microsoft para a localización de software ao
+      galego.
+    • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
+      na guía de estilo.
+
+• norma
+    • Engadíronse números enteiros, decimais e porcentaxes.
+    • Engadíronse números ordinais. Por exemplo: 1.ª, 23ª, 456.º, 7890º.
+
++ rag/es-gl (novo)
+    • Baseado no dicionario Castelán-Galego de 2004 da Real Academia Galega.
+    • O módulo contén «vocabulario.dic» co seguinte vocabulario:
+        • encartábel, encartable
+        • pregábel, pregable
+
++ rag/gl (novo)
     • Baseado no dicionario da Real Academia Galega.
     • Substitúe ao «volga» como módulo principal de vocabulario.
     • O módulo contén dous ficheiros de vocabulario e dous :
@@ -308,21 +329,6 @@ Cambios desde a versión 13.10.1
             • firmware
             • seudónimo
 
-• galipedia → wikipedia/gl
-
-• iso4217 (actualizouse)
-• iso639 (actualizouse)
-
-+ microsoft (novo)
-    • Baseado da guía de estilo de Microsoft para a localización de software ao
-      galego.
-    • O módulo contén «abreviaturas.dic», con abreviaturas frecuentes listadas
-      na guía de estilo.
-
-• norma
-    • Engadíronse números enteiros, decimais e porcentaxes.
-    • Engadíronse números ordinais. Por exemplo: 1.ª, 23ª, 456.º, 7890º.
-
 + santiago (novo)
     • Baseado en publicacións do Concello de Santiago de Compostela.
     • O módulo contén os seguintes submódulos baseados en documentos
@@ -354,7 +360,7 @@ Cambios desde a versión 13.10.1
 
 • volga
     + romántica/s (só estaban as formas masculinas)
-    - carrocería, carrozaría (pero engadíronse ao novo módulo «drag»)
+    - carrocería, carrozaría (pero engadíronse ao novo módulo «rag/gl»)
 
 + wikipedia/en
 + wikipedia/es

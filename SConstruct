@@ -5,8 +5,8 @@ import mmap, os, PyICU, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = u'norma'
-defaultDic  = u'drag,norma'
-defaultRep  = u'comunidade,drag,wikipedia'
+defaultDic  = u'rag/gl,norma'
+defaultRep  = u'comunidade,rag/gl,wikipedia'
 defaultCode = u'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
@@ -22,7 +22,7 @@ nome dos ficheiros.
 
 Para combinar varios módulos, sepáreos con comas (sen espazos). Por exemplo:
 
-    scons dic=drag,norma
+    scons dic=rag/gl,norma
 
 Para incluír submódulos, sepáreos do módulo pai cunha barra inclinada. Por exemplo, para incluír o vocabulario do
 submódulo «onomástica» do módulo «wikipedia», use:
