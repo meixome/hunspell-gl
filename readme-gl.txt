@@ -18,7 +18,7 @@ Colaboradores
 Desde que existe este recurso, e o seu predecesor, ispell, moita xente e varias organizacións teñen participado no seu desenvolvemento e mantemento. Entre eles, debemos salientar as achegas de:
 
 - André Ventas e Ramón Flores (para ispell). until 2003
-- Imaxin Software, para Mancomún (primeira versión version hunspell, dicionario e regras básicas). 2006
+- Xavier Gómez Guinovart, para Imaxin Software e este para Mancomún (primeira versión version hunspell, dicionario e regras básicas). 2006
 - Mancomún, Iniciativa Galega para Software Libre, para Xunta de Galicia (Mar Castro, regras formais e dicionario; Francisco Rial, extensión oxt). 2006-2008
 - Proxecto Trasno (Miguel Solla, regras avanzadas e dicionario). 2009-2010
 - Proxecto Trasno (Adrián Chaves, regras novas e reestruturación do código para a compilación, dicionario). 2010-2013
