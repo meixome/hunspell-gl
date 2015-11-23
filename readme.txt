@@ -19,7 +19,7 @@ Since this resource exists, and his predecessor, ispell, a lot of people and sev
 Among those, we must highlight the contributions of:
 
 - André Ventas and Ramón Flores (over ispell). until 2003
-- Imaxin Software, for Mancomún (first version hunspell, dictionary and basic rules). 2006
+- Xavier Gómez Guinovart for Imaxin Software, and he for Mancomún (first version hunspell, dictionary and basic rules). 2006
 - Mancomún-CESGA, Galician Iniciative for Free Software, for Xunta de Galicia (Mar Castro, formal rules and dic; Francisco Rial, oxt). 2006-2008
 - Proxecto Trasno (Miguel Solla, advanced rules and dic). 2009-2010
 - Proxecto Trasno (Adrián Chaves, new rules and revamp source code for building, dic). 2010-2013
