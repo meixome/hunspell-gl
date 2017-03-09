@@ -7,7 +7,7 @@ Mantido por Proxecto Trasno (http://trasno.net) baixo a coordinación de Antón 
 
 Sobre a normativa lingüística
 -----------------------------
-Este corrector asume como modelo oficial para as regras gramaticais: Normas ortográficas e morfolóxicas do idioma galego, Real Academia Galega / Instituto da Lingua Galega, 2003. http://www.realacademiagalega.org/PlainRAG/catalog/publications/files/normas_galego05.pdf
+Este corrector asume como modelo oficial para as regras gramaticais: Normas ortográficas e morfolóxicas do idioma galego, Real Academia Galega / Instituto da Lingua Galega, 2003. http://academia.gal/documents/10157/704901/Normas+ortogr%C3%A1ficas+e+morfol%C3%B3xicas+do+idioma+galego.pdf
 
  Sobre a normativa:
   http://gl.wikipedia.org/wiki/Normativa_oficial_do_galego
