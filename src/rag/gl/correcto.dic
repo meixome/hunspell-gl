@@ -719,6 +719,7 @@ arquivábel/12 po:adxectivo
 arquivable/10 po:adxectivo
 arquivístico/10,15 po:adxectivo
 arrabaldeiro/10,15 po:adxectivo
+arraiano/10,15 po:adxectivo
 arramado/10,15 po:adxectivo
 arraposado/10,15 po:adxectivo
 arrebatador/10,14 po:adxectivo
@@ -1266,6 +1267,7 @@ cambelo/10,15 po:adxectivo
 cambiábel/12 po:adxectivo
 cambiable/10 po:adxectivo
 cambiante/10 po:adxectivo
+cambodjano/10,15 po:adxectivo
 camiñeiro/10,15 po:adxectivo
 camítico/10,15 po:adxectivo
 camoés/10,15 po:adxectivo
@@ -3996,6 +3998,7 @@ homérico/10,15 po:adxectivo
 homocéntrico/10,15 po:adxectivo
 homocerco/10,15 po:adxectivo
 homodonte/10 po:adxectivo
+homófobo/10,15 po:adxectivo
 homófono/10,15 po:adxectivo
 homógrafo/10,15 po:adxectivo
 homologábel/12 po:adxectivo
@@ -18521,6 +18524,7 @@ endocardite/10 po:substantivo feminino
 endocrinoloxía/10 po:substantivo feminino
 endodoncia/10 po:substantivo feminino
 endogamia/10 po:substantivo feminino
+endometriose/10 po:substantivo feminino
 endometrite/10 po:substantivo feminino
 endoscopia/10 po:substantivo feminino
 endosfera/10 po:substantivo feminino
@@ -19520,6 +19524,7 @@ fornalla/10 po:substantivo feminino
 fornalleira/10 po:substantivo feminino
 fornela/10 po:substantivo feminino
 fornicación/10 po:substantivo feminino
+forquella/10 po:substantivo feminino
 forquita/10 po:substantivo feminino
 forquitada/10 po:substantivo feminino
 forra/10 po:substantivo feminino
@@ -20233,6 +20238,7 @@ homilética/10 po:substantivo feminino
 homilía/10 po:substantivo feminino
 hominización/10 po:substantivo feminino
 homocromía/10 po:substantivo feminino
+homofobia/10 po:substantivo feminino
 homofonía/10 po:substantivo feminino
 homografía/10 po:substantivo feminino
 homologación/10 po:substantivo feminino
@@ -27508,6 +27514,7 @@ areal/12 po:substantivo masculino
 areallo/10 po:substantivo masculino
 arelo/10 po:substantivo masculino
 arengo/10 po:substantivo masculino
+arenito/10 po:substantivo masculino
 arenque/10 po:substantivo masculino
 arento/10 po:substantivo masculino
 areómetro/10 po:substantivo masculino
@@ -27538,6 +27545,7 @@ armario/10 po:substantivo masculino
 armatoste/10 po:substantivo masculino
 armeiro/10 po:substantivo masculino
 armentío/10 po:substantivo masculino
+arminianismo/10 po:substantivo masculino
 armiño/10 po:substantivo masculino
 armisticio/10 po:substantivo masculino
 armón/10 po:substantivo masculino
@@ -27547,7 +27555,7 @@ arneste/10 po:substantivo masculino
 aro/10 po:substantivo masculino
 aroma/10 po:substantivo masculino
 arouxo/10 po:substantivo masculino
-arpeo/10 po:substantivo masculino
+arpeu/10 po:substantivo masculino
 arpexo/10 po:substantivo masculino
 arpoador/10 po:substantivo masculino
 arpón/10 po:substantivo masculino
@@ -32965,6 +32973,7 @@ mesotórax po:substantivo masculino
 mesteiral/12 po:substantivo masculino
 mester/10 po:substantivo masculino
 mestoiro/10 po:substantivo masculino
+mestrado/10 po:substantivo masculino
 mestresala/10 po:substantivo masculino
 mestruzo/10 po:substantivo masculino
 metabolismo/10 po:substantivo masculino
@@ -34297,7 +34306,7 @@ pitón/10 po:substantivo masculino
 pitósporo/10 po:substantivo masculino
 pivote/10 po:substantivo masculino
 pixama/10 po:substantivo masculino
-píxel/12 po:substantivo masculino
+píxel/10 po:substantivo masculino
 pizzicato/10 po:substantivo masculino
 placebo/10 po:substantivo masculino
 plácet/10 po:substantivo masculino
@@ -40164,6 +40173,7 @@ in po:locución adverbial / substantivo masculino [n-grama: in quarto]
 quarto po:locución adverbial / substantivo masculino [n-grama: in quarto]
 ende po:locución conxuntiva [n-grama: ende ben]
 ende po:locución conxuntiva [n-grama: ende mal]
+entanto po:locución conxuntiva [n-grama: no entanto]
 abaixo po:locución preposicional [n-grama: abaixo de]
 acerca po:locución preposicional [n-grama: acerca de]
 ademais po:locución preposicional [n-grama: ademais de]
@@ -40666,6 +40676,8 @@ aconséllar/666,202,232 st:aconsellar ts:alomorfo aconsellar transitiva / pronom
 acoplar/200,201,230,231 po:verbo ts:transitiva / pronominal VOLG: t pr al:acórar
 acorar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:acórar
 acórar/666,202,222,232 st:acorar st:acoplartransitiva / intransitiva / pronominal acorar st: is:
+acorchetar/200,201 po:verbo ts:transitiva VOLG: t al:acorchétar
+acorchétar/666,202 st:acorchetar ts:alomorfo acorchetar transitiva
 acordar/200,201,220,221,230,231 po:verbo ts:transitiva / intransitiva / pronominal VOLG: t i pr al:acórdar
 acórdar/666,202,222,232 st:acordar ts:alomorfo acordar transitiva / intransitiva / pronominal
 acordoar/200,201 po:verbo ts:transitiva VOLG: t al:acordóar
