@@ -67,6 +67,7 @@ autótrofo/10,15 po:adxectivo
 bidimensional/12 po:adxectivo
 canalizador/10,14 po:adxectivo
 cohesionado/10,15 po:adxectivo
+colaborativo/10,15 po:adxectivo
 conexionado/10,15 po:adxectivo
 consensuado/10,15 po:adxectivo
 conversor/10,14 po:adxectivo
@@ -85,6 +86,7 @@ expedientado/10,15 po:adxectivo
 extraescolar/10 po:adxectivo
 fotocopiábel/12 po:adxectivo
 fotocopiable/10 po:adxectivo
+globalizador/10,14 po:adxectivo
 grupal/12 po:adxectivo
 impredicíbel/12 po:adxectivo
 impredicible/10 po:adxectivo
@@ -105,7 +107,9 @@ ligábel/12 po:adxectivo
 ligable/10 po:adxectivo
 lonxano/10,15 po:adxectivo
 mediático/10,15 po:adxectivo
+minorizado/10,15 po:adxectivo
 minusvalorado/10,15 po:adxectivo
+multicultural/12 po:adxectivo
 multiplataforma po:adxectivo
 multipunto po:adxectivo
 ofimático/10,15 po:adxectivo
@@ -253,19 +257,32 @@ VIH po:sigla                        # https://gl.wikipedia.org/wiki/Virus_da_inm
 VTR po:sigla                        # Video Tape Recorder
 VLSI po:sigla                       # Very Large Scale Integration
 
-# Substantivos femininos.
+# Substantivos
 autoestima po:substantivo feminino
+bitcoin/10 po:substantivo masculino
 cartelaría/10 po:substantivo feminino
+celacanto/10 po:substantivo masculino # https://gl.wikipedia.org/wiki/Celacanto
+ciberacoso po:substantivo masculino
+clúster/10 po:substantivo masculino
+códec/10 po:substantivo masculino
 conectividade/10 po:substantivo feminino
 desactivación/10 po:substantivo feminino
 descodificación/10 po:substantivo feminino
 discrecionalidade po:substantivo feminino
+ecualizador/10 po:substantivo masculino
+enchemento po:substantivo masculino
 exhaustividade po:substantivo feminino
+intercomunicación/10 po:substantivo feminino
+interdisciplinariedade po:substantivo feminino
 macro/10 po:substantivo feminino
 medianoite po:substantivo feminino
+optatividade po:substantivo feminino
 pervivencia po:substantivo feminino
+plurilingüismo po:substantivo masculino
 preinscrición/10 po:substantivo feminino
 profesionalización/10 po:substantivo feminino
+profundamento/10 po:substantivo masculino
+psicopedagóxico/10,15 po:substantivo
 redirección/10 po:substantivo feminino
 renormativización po:substantivo feminino
 retroalimentación po:substantivo feminino
@@ -283,12 +300,13 @@ enchemento po:substantivo masculino
 entaboamento/10 po:substantivo masculino
 profundamento/10 po:substantivo masculino
 salvapantallas po:substantivo masculino
+sostibilidade/10 po:substantivo feminino
 submódulo/10 po:substantivo masculino
 tóner po:substantivo masculino
 varapau/10 po:substantivo masculino
-
-# Substantivos neutros
 xemente/10 po:substantivo
+xentalla po:substantivo feminino
+xudicialización/10 po:substantivo feminino
 
 # Teclas.
 Ctrl po:tecla
