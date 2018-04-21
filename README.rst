@@ -46,7 +46,7 @@ inclúen as regras ortográficas para os módulos predeterminados do corrector.
 Para construír a edición especial para tradución ao galego, cos acordos
 terminolóxicos do Proxecto Trasno, execute::
 
-    scons aff=norma,trasno,unidades dic=iso639,iso4217,trasno,unidades,volga
+    scons aff=norma,trasno,unidades dic=rag,trasno,unidades
 
 Para volver construír o corrector ortográfico despois de cambiar algún
 ficheiro, primeiro debe facer limpeza con::
