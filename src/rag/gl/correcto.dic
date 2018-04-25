@@ -39803,8 +39803,10 @@ D/999 po:símbolo
 dB/999 po:símbolo
 Db/999 po:símbolo
 Dy/999 po:símbolo
+ENE/999 po:símbolo
 Er/999 po:símbolo
 Es/999 po:símbolo
+ESE/999 po:símbolo
 Eu/999 po:símbolo
 F/999 po:símbolo
 Fe/999 po:símbolo
@@ -39855,9 +39857,13 @@ Na/999 po:símbolo
 Nb/999 po:símbolo
 Nd/999 po:símbolo
 Ne/999 po:símbolo
+NE/999 po:símbolo
 Ni/999 po:símbolo
+NNE/999 po:símbolo
+NNW/999 po:símbolo
 No/999 po:símbolo
 Np/999 po:símbolo
+NW/999 po:símbolo
 O/999 po:símbolo
 Oe/999 po:símbolo
 Os/999 po:símbolo
@@ -39885,11 +39891,13 @@ S/999 po:símbolo
 Sb/999 po:símbolo
 Sc/999 po:símbolo
 Se/999 po:símbolo
+SE/999 po:símbolo
 Sg/999 po:símbolo
 Si/999 po:símbolo
 Sm/999 po:símbolo
 Sn/999 po:símbolo
 Sr/999 po:símbolo
+SW/999 po:símbolo
 Ta/999 po:símbolo
 Tb/999 po:símbolo
 Tc/999 po:símbolo
@@ -39906,6 +39914,8 @@ Uut/999 po:símbolo
 V/999 po:símbolo
 W/999 po:símbolo
 Wb/999 po:símbolo
+WNW/999 po:símbolo
+WSW/999 po:símbolo
 Xe/999 po:símbolo
 Y/999 po:símbolo
 Yb/999 po:símbolo
