@@ -160,7 +160,11 @@ carbunco carafuncho     # Erro común.
 carbunco nacida     # Erro común.
 carcoma caruncho     # Erro común.
 carcoma couza     # Erro común.
-cc c     # Exemplo: construcción → construción.
+
+# -cc- → -c-
+# e.g. construcción → construción
+cc c
+
 champú xampú     # Erro común.
 champurr chapuz     # champurrar → chapuzar.
 champúrr chapúz     # champurrar → chapuzar.
@@ -451,6 +455,13 @@ inxert enxert      # inxertar → enxertar.
 inxért enxért      # inxertar → enxertar.
 is les             # Exemplo: cais → cales.
 K k                # Exemplos: Kg → kg, Km → km.
+
+# kitsch → charramangueiro
+^kitsch$ charramangueira
+^kitsch$ charramangueiras
+^kitsch$ charramangueiro
+^kitsch$ charramangueiros
+
 laric latric      # laricar → latricar.
 laríc latríc      # laricar → latricar.
 les is            # Exemplo: casuales → casuais.
