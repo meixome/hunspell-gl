@@ -211,6 +211,7 @@ convinte conveniente     # convinte → conveniente.
 cost cust      # costar → custar.
 cóst cúst      # costar → custar.
 coste custo    # coste → custo.
+^crisálida crisálide
 ct t     # Exemplo: conflicto → conflito.
 cuall call      # cuallar → callar.
 cuáll cáll      # cuallar → callar.
