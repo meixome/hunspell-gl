@@ -40,10 +40,8 @@ aig ai
 áig ái
 alambr aram      # alambrar → aramar.
 alámbr arám      # alambrar → aramar.
-
-# Alemania → Alemaña
 ^Alemania$ Alemaña
-
+^almohadilla cancelo
 ^aluguer$ alugamento    # aluguer → alugamento, alugueiro, renda.
 ^aluguer$ alugueiro     # aluguer → alugamento, alugueiro, renda.
 ^aluguer$ renda         # aluguer → alugamento, alugueiro, renda.
@@ -191,6 +189,7 @@ coínc cuínc      # coincar → cuincar.
 ^columpio randeeira             # columpio → randeeira.
 ^columpi arrande                # columpiar → arrandear.
 ^colúmpi arrandé                # columpiar → arrandear.
+^comilla comiña
 comulg comung      # comulgar → comungar.
 comúlg comúng      # comulgar → comungar.
 conceb concib      # concebir → concibir.
@@ -231,6 +230,7 @@ decomís comís      # decomisar → comisar.
 demit dimit      # demitir → dimitir.
 derrab desrab      # derrabar → desrabar.
 derráb desráb      # derrabar → desrabar.
+^desagüe desaugadoiro
 desaprom desachumb      # desapromar → desachumbar.
 desapróm desachúmb      # desapromar → desachumbar.
 descalific descualific      # descalificar → descualificar.
@@ -291,6 +291,10 @@ detentóu detívo      # detentar → deter.
 detentab detiñ      # detentar → deter.
 detentáb detíñ      # detentar → deter.
 dice di      # decir → dicir.
+^diecinueve dezanove
+^dieciocho dezaoito
+^dieciséis$ dezaseis
+^diecisiete dezasete
 disculp desculp      # disculpar → desculpar.
 discúlp descúlp      # disculpar → desculpar.
 discurr discorr      # discurrir → discorrer.
@@ -455,6 +459,9 @@ inxér enxér      # inxerir → enxerir.
 inxert enxert      # inxertar → enxertar.
 inxért enxért      # inxertar → enxertar.
 is les             # Exemplo: cais → cales.
+^jueves$ xoves
+^julio xullo
+^junio xuño
 K k                # Exemplos: Kg → kg, Km → km.
 
 # kitsch → charramangueiro
@@ -466,6 +473,7 @@ K k                # Exemplos: Kg → kg, Km → km.
 laric latric      # laricar → latricar.
 laríc latríc      # laricar → latricar.
 les is            # Exemplo: casuales → casuais.
+^levadura lévedo
 línea liña        # línea → liña.
 ll x
 lonxan afastad     # lonxano → afastado.
@@ -473,6 +481,7 @@ lonxano distante     # lonxano → distante.
 lonxanos distantes     # lonxano → distante.
 lonxana distante     # lonxano → distante.
 lonxanas distantes     # lonxano → distante.
+^luna lúa
 manose sob     # manosear → sobar.
 manosé sób      # manosear → sobar.
 manose apalp      # manosear → apalpar.
@@ -525,6 +534,7 @@ olvidéi esquecín      # olvidar → esquecer.
 olvidou esqueceu      # olvidar → esquecer.
 olvidóu esquecéu      # olvidar → esquecer.
 ^órdenes$ ordes       # órdenes → ordes.
+^otoño outono
 pale padex      # palear → padexar.
 palé padéx      # palear → padexar.
 per pre
@@ -749,6 +759,7 @@ uniformíc unifórm     # uniformizar → uniformar.
 ^vial$ viario   # vial → viario.
 ^viais$ viarias # vial → viario.
 ^viais$ viarios # vial → viario.
+^vocablo vocábulo
 x ll                  # Exemplo: parexa → parella.
 xener xer             # xenerar → xerar.
 xeralic xeneralic     # xeralizar → xeneralizar.
