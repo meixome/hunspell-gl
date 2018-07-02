@@ -5,7 +5,7 @@ import mmap, os, icu, re, subprocess
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
 defaultAff  = 'norma'
-defaultDic  = 'rag/gl/abreviaturas,rag/gl/correcto,norma'
+defaultDic  = 'rag/gl,norma'
 defaultRep  = 'comunidade,rag/gl,wikipedia'
 defaultCode = 'gl'
 
