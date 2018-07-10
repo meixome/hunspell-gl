@@ -104,7 +104,7 @@ Entre eles, debemos salientar as achegas de:
 
 -   Proxecto Trasno (Adrián Chaves, regras novas e reestruturación do código
     para a compilación, dicionario). 2010-2013.
-
+    
 Desde o comezo e hoxe en día as fontes principais para o dicionario son os
 públicos Vocabulario Ortográfico da Lingua Galega (VOLGa) e o Dicionario da
 Real Academia Galega en liña e as súas evolucións no tempos. Debemos
@@ -115,6 +115,10 @@ lingüísticos.
 -   VOLG(a) Santamarina Fernández, Antón e González González, Manuel (coord.).
     Real Academia Galega / Instituto da Lingua Galega, 2004.
     http://www.realacademiagalega.org/volga/.
+
+O dicionario tamén se alimenta tanto das suxestións dos usuarios como de recursos
+libres descontinuados coma o Benposto ou o suxestións de corrección da Wikipedia en
+galego.
 
 Unha descrición técnica sobre o comportamento morfolóxico e sintáctico escrita
 por Miguel Solla pódese ver en:
