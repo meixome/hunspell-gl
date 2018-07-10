@@ -117,8 +117,8 @@ lingüísticos.
     http://www.realacademiagalega.org/volga/.
 
 O dicionario tamén se alimenta tanto das suxestións dos usuarios como de recursos
-libres descontinuados coma o Benposto ou o suxestións de corrección da Wikipedia en
-galego.
+libres descontinuados coma motor de suxestións de erros frecuentes Benposto ou
+suxestións de corrección da Wikipedia en galego.
 
 Unha descrición técnica sobre o comportamento morfolóxico e sintáctico escrita
 por Miguel Solla pódese ver en:
