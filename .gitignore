@@ -2,6 +2,7 @@ pywikibot
 
 # Distribution / packaging
 build/*
+.sconsign.dblite
 
 # Environments
 .env

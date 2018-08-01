@@ -86,7 +86,6 @@ extraescolar/10 po:adxectivo
 fotocopiábel/12 po:adxectivo
 fotocopiable/10 po:adxectivo
 grupal/12 po:adxectivo
-hexadecimal/12 po:adxectivo
 impredicíbel/12 po:adxectivo
 impredicible/10 po:adxectivo
 imprimíbel/12 po:adxectivo
@@ -281,6 +280,7 @@ clúster/10 po:substantivo masculino
 códec/10 po:substantivo masculino
 ecualizador/10 po:substantivo masculino
 enchemento po:substantivo masculino
+entaboamento/10 po:substantivo masculino
 profundamento/10 po:substantivo masculino
 salvapantallas po:substantivo masculino
 submódulo/10 po:substantivo masculino
@@ -622,7 +622,6 @@ z.
 #allanar
 #almea
 #almibrar
-#almibre
 #almóndega
 #aloia
 #aloirar
@@ -640,7 +639,6 @@ z.
 #altear
 #aluspado
 #alviscar
-#alxibeira
 #amachucar
 #amadurecer
 #amaiolar

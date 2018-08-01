@@ -1,13 +1,13 @@
 # coding=utf-8
 
-import mmap, os, PyICU, re, subprocess
+import mmap, os, icu, re, subprocess
 
 #---# Valores predeterminados #----------------------------------------------------------------------------------------#
 
-defaultAff  = u'norma'
-defaultDic  = u'rag/gl,norma'
-defaultRep  = u'comunidade,rag/gl,wikipedia'
-defaultCode = u'gl'
+defaultAff  = 'norma'
+defaultDic  = 'rag/gl,norma'
+defaultRep  = 'comunidade,rag/gl,wikipedia'
+defaultCode = 'gl'
 
 #---# Axuda #----------------------------------------------------------------------------------------------------------#
 
@@ -115,11 +115,11 @@ def createAff(targetFilename, sourceFilenames):
     """
     baseFilesCount = len(sourceFilenames)
     if baseFilesCount > 1:
-        print u"O corrector só pode constar dun único ficheiro «.base»."
+        print("O corrector só pode constar dun único ficheiro «.base».")
         raise Exception()
     elif baseFilesCount < 1:
-        print u"O corrector debe incluír un ficheiro «.base»."
-        print u"Inclúa un módulo con ficheiro de regras base (por exemplo, «norma») na lista de ficheiros do parámetro «aff»."
+        print("O corrector debe incluír un ficheiro «.base».")
+        print("Inclúa un módulo con ficheiro de regras base (por exemplo, «norma») na lista de ficheiros do parámetro «aff».")
         raise Exception()
 
     initialize(targetFilename)
@@ -151,8 +151,8 @@ def addReplacementsToAff(targetFilename, sourceFilenames):
     if linesSeen:
 
         formattedContentWithoutDuplicates = "REP {count}\n".format(count=len(linesSeen))
-        collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-        for line in sorted(linesSeen, cmp=collator.compare):
+        collator = icu.Collator.createInstance(icu.Locale('gl.UTF-8'))
+        for line in sorted(linesSeen, key=collator.getSortKey):
             formattedContentWithoutDuplicates += "REP {replacement}\n".format(replacement=line)
 
         extendAffFromString(targetFilename, formattedContentWithoutDuplicates)
@@ -185,8 +185,8 @@ def createDic(targetFilename, sourceFilenames):
             linesSeen.add(line)
 
     contentWithoutDuplicates = ""
-    collator = PyICU.Collator.createInstance(PyICU.Locale('gl.UTF-8'))
-    for line in sorted(linesSeen, cmp=collator.compare):
+    collator = icu.Collator.createInstance(icu.Locale('gl.UTF-8'))
+    for line in sorted(linesSeen, key=collator.getSortKey):
         contentWithoutDuplicates += line + '\n'
 
     with open(targetFilename, 'w') as targetFile:
@@ -278,8 +278,8 @@ def getFilenamesFromFileEntriesWithMatchingExtensions(fileEntries, extensionList
 
 
 def createSpellchecker(target, source, env):
-    aff = unicode(target[0])
-    dic = unicode(target[1])
+    aff = str(target[0])
+    dic = str(target[1])
     createAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.base']))
     addContentToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.aff']))
     addReplacementsToAff(aff, getFilenamesFromFileEntriesWithMatchingExtensions(source, ['.rep']))

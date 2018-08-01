@@ -1,3 +1,11 @@
+# brión → veo, vío
+^brión veo
+^brión vío
+
+# contraseña → contrasinal
+^contraseña$ contrasinal
+^contraseñas$ contrasinais
+
 # hashtag → cancelo
 ^hashtag cancelo
 
