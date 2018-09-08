@@ -15529,7 +15529,28 @@ remite remitente # remite -> remitente
 ^promocionadas$ promovidas
 ^promocionado$ promovido
 ^promocionados$ promovidos
-^promocionar$ promover
+
+# promocionar → promover
+^promocion promov
+^promoción promóv
+^promociona promove
+^promocióna promóve
+^promocioná promové
+^promociona promovi
+^promocioná promoví
+^promocionab promoví
+^promocionáb promoví
+^promocionab promovi
+^promocione promova
+^promocióne promóva
+^promocioné promová
+^promocionei promovín
+^promocionei promovin
+^promocionéi promovín
+^promocionein promovin
+^promociono promove
+^promocionó promové
+
 ^pronombre$ pronome
 ^pronombres$ pronomes
 ^pronóstico$ prognóstico
