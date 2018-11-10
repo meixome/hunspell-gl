@@ -34,6 +34,11 @@ acuciante perentoria # acuciante → perentorio, urxente.
 acuciante perentorio # acuciante → perentorio, urxente.
 acuciante urxente    # acuciante → perentorio, urxente.
 adosad contigu      # adosado, encostado → contiguo.
+
+# advenimento → chegada
+^advenimento$ chegada
+^advenimentos$ chegadas
+
 afosc afusc     # afoscar → afuscar.
 afósc afúsc     # afoscar → afuscar.
 aig ai
@@ -142,16 +147,24 @@ calamares luras     # calamar → lura.
 calaveira caveira     # Erro común.
 calific cualific      # calificar → cualificar.
 califíc cualifíc      # calificar → cualificar.
-^callejón$      calella     # callejón → calella, calello, canella, canellón, quella.
-^callejones^    calellas    # callejón → calella, calello, canella, canellón, quella.
-^callejón$      calello     # callejón → calella, calello, canella, canellón, quella.
-^callejones^    calellos    # callejón → calella, calello, canella, canellón, quella.
-^callejón$      canella     # callejón → calella, calello, canella, canellón, quella.
-^callejones^    canellas    # callejón → calella, calello, canella, canellón, quella.
-^callejón$      canellón    # callejón → calella, calello, canella, canellón, quella.
-^callejones^    canellóns   # callejón → calella, calello, canella, canellón, quella.
-^callejón$      quella      # callejón → calella, calello, canella, canellón, quella.
-^callejones^    quellas     # callejón → calella, calello, canella, canellón, quella.
+
+# callejón → calella, calello, canella, canellón, quella
+^callejón$ calella
+^callejóns$ calellas
+^callejones$ calellas
+^callejón$ calello
+^callejóns$ calellos
+^callejones$ calellos
+^callejón$ canella
+^callejóns$ canellas
+^callejones$ canellas
+^callejón$ canellón
+^callejóns$ canellóns
+^callejones$ canellóns
+^callejón$ quella
+^callejóns$ quellas
+^callejones$ quellas
+
 cañ can      # cañonear → canonear.
 carbunco carbuncho     # Erro común.
 carbunco carafuncho     # Erro común.
@@ -537,6 +550,11 @@ olvidóu esquecéu      # olvidar → esquecer.
 ^otoño outono
 pale padex      # palear → padexar.
 palé padéx      # palear → padexar.
+
+# papeleo → papelame
+^papeleo$ papelame
+^papeleos$ papelames
+
 per pre
 ^perxudic prexudic              # perxudicar → prexudicar.
 ^perxudíc prexudíc              # perxudicar → prexudicar.
@@ -15810,6 +15828,13 @@ remite remitente # remite -> remitente
 ^rating$ clasificación
 ^rating$ avaliación
 ^rating$ clase
+
+# ratio → cociente, proporción
+^ratio$ cociente
+^ratios$ cocientes
+^ratio$ proporción
+^ratios$ proporcións
+
 ^raviolis$ ravioli
 ^razonabeis$ razoables
 ^razonabel$ razoable
@@ -15831,36 +15856,106 @@ remite remitente # remite -> remitente
 ^realquilado$ realugado
 ^realquilados$ realugados
 ^realquilar$ realugar
-^reanudación$ restablecemento
-^reanudación$ reinicio
+
+# reanudación → continuación, recomezo, reinicio, restabelecemento, restablecemento, restauración, restitución
+^reanudación$ continuación
+^reanudacións$ continuacións
 ^reanudación$ recomezo
 ^reanudacións$ recomezos
+^reanudación$ reinicio
+^reanudacións$ reinicios
+^reanudación$ restabelecemento
+^reanudacións$ restabelecementos
+^reanudación$ restablecemento
 ^reanudacións$ restablecementos
-^reanudada$ retomada
-^reanudada$ recomezada
-^reanudada$ restablecida
-^reanudada$ reiniciada
-^reanudada$ continuada
-^reanudadas$ retomadas
-^reanudadas$ reiniciadas
-^reanudadas$ restablecidas
-^reanudadas$ recomezadas
-^reanudadas$ continuadas
-^reanudado$ reiniciado
-^reanudado$ retomado
-^reanudado$ recomezado
-^reanudado$ continuado
-^reanudado$ restablecido
-^reanudados$ recomezados
-^reanudados$ continuados
-^reanudados$ reiniciados
-^reanudados$ retomados
-^reanudados$ restablecidos
-^reanudar$ recomezar
-^reanudar$ retomar
-^reanudar$ continuar
-^reanudar$ reiniciar
-^reanudar$ restablecer
+^reanudación$ restauración
+^reanudacións$ restauracións
+^reanudación$ restitución
+^reanudacións$ restitucións
+
+# reanudar → continuar
+^reanud continu
+^reanúd continú
+
+# reanudar → recomezar
+^reanud recomec
+^reanúd recoméc
+^reanud recomez
+^reanúd recoméz
+
+# reanudar → reiniciar
+^reanud reinici
+^reanúd reiníci
+
+# reanudar → restabelecer
+^reanud restabelez
+^reanúd restabeléz
+^reanuda restabelece
+^reanúda restabeléce
+^reanudá restabelecé
+^reanuda restabeleci
+^reanudá restabelecí
+^reanudab restabelecí
+^reanudáb restabelecí
+^reanudab restabeleci
+^reanude restabeleza
+^reanúde restabeléza
+^reanudé restabelezá
+^reanudei restabelecín
+^reanudei restabelecin
+^reanudéi restabelecín
+^reanudein restabelecin
+^reanudo restabelece
+^reanudó restabelecé
+
+# reanudar → restablecer
+^reanud restablez
+^reanúd restabléz
+^reanuda restablece
+^reanúda restabléce
+^reanudá restablecé
+^reanuda restableci
+^reanudá restablecí
+^reanudab restablecí
+^reanudáb restablecí
+^reanudab restableci
+^reanude restableza
+^reanúde restabléza
+^reanudé restablezá
+^reanudei restablecín
+^reanudei restablecin
+^reanudéi restablecín
+^reanudein restablecin
+^reanudo restablece
+^reanudó restablecé
+
+# reanudar → restaurar
+^reanud restaur
+^reanúd restáur
+
+# reanudar → restituír
+^reanud restitú
+^reanúd restitú
+^reanuda restitúe
+^reanúda restitúe
+^reanuda restituí
+^reanudá restituí
+^reanudab restituí
+^reanudáb restituí
+^reanudab restituï
+^reanude restitúa
+^reanúde restitúa
+^reanudé restituá
+^reanudei restituín
+^reanudéi restituín
+^reanudein restituí
+^reanudo restituí
+^reanudó restituí
+
+# reanudar → retomar
+^reanud retom
+^reanúd retóm
+
 ^rebanada$ rebanda
 ^rebanadas$ rebandas
 ^rebaño$ rabaño
@@ -16503,11 +16598,6 @@ remite remitente # remite -> remitente
 ^respetoso$ respectuoso
 ^respetosos$ respectuosos
 ^resplendor$ resplandor
-^restabelecer$ restablecer
-^restabelecida$ restablecida
-^restabelecidas$ restablecidas
-^restabelecido$ restablecido
-^restabelecidos$ restablecidos
 ^restaurán$ restaurante
 ^restauráns$ restaurantes
 ^restaurant$ restaurante
@@ -17595,15 +17685,91 @@ remite remitente # remite -> remitente
 ^subsanados$ arranxados
 ^subsanados$ amañados
 ^subsanados$ gobernados
-^subsanar$ solucionar
-^subsanar$ resolver
-^subsanar$ amañar
-^subsanar$ corrixir
-^subsanar$ emendar
-^subsanar$ gobernar
-^subsanar$ rectificar
-^subsanar$ arranxar
-^subsanar$ reparar
+
+# subsanación → amaño, arranxo, corrección, emenda, rectificación, reparación, solución
+^subsanación$ amaño
+^subsanacións$ amaños
+^subsanación$ arranxo
+^subsanacións$ arranxos
+^subsanación$ corrección
+^subsanacións$ correccións
+^subsanación$ emenda
+^subsanacións$ emendas
+^subsanación$ rectificación
+^subsanacións$ rectificacións
+^subsanación$ reparación
+^subsanacións$ reparacións
+^subsanación$ solución
+^subsanacións$ solucións
+
+# subsanar → arranxar
+^subsan arranx
+^subsán arránx
+
+# subsanar → corrixir
+^subsan corrix
+^subsán corríx
+^subsana corrixe
+^subsána corríxe
+^subsaná corrixé
+^subsana corrixi
+^subsaná corrixí
+^subsanab corrixí
+^subsanáb corrixí
+^subsanab corrixi
+^subsane corrixa
+^subsáne corríxa
+^subsané corrixá
+^subsanei corrixín
+^subsanei corrixin
+^subsanéi corrixín
+^subsanein corrixin
+^subsano corrixi
+^subsanó corrixí
+
+# subsanar → emendar
+^subsan emend
+^subsán eménd
+
+# subsanar → gobernar
+^subsan gobern
+^subsán gobérn
+
+# subsanar → rectificar
+^subsan rectific
+^subsán rectifíc
+^subsan rectifiqu
+^subsán rectifíqu
+
+# subsanar → reparar
+^subsan repar
+^subsán repár
+
+# subsanar → resolver
+^subsan resolv
+^subsán resólv
+^subsana resolve
+^subsána resólve
+^subsaná resolvé
+^subsana resolvi
+^subsaná resolví
+^subsanab resolví
+^subsanáb resolví
+^subsanab resolvi
+^subsane resolva
+^subsáne resólva
+^subsané resolvá
+^subsanei resolvín
+^subsanei resolvin
+^subsanéi resolvín
+^subsanein resolvin
+^subsano resolve
+^subsanó resolvé
+
+# subsanar → solucionar
+^subsan solucion
+^subsán solución
+
 ^subscribida$ subscrita
 ^subscribidas$ subscritas
 ^subscribido$ subscrito
