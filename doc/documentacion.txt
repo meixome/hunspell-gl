@@ -1,0 +1,17 @@
+A documentación sobre o corrector Hunspell de galego está aloxada no sitio web do Proxecto Trasno.
+
+• Información xeral: http://www.trasno.net/corrector-de-galego-hunspell/
+• Documentación para usuarios: http://wiki.trasno.net/Corrector_Hunspell_de_galego
+• Documentación para colaboradores:
+    • http://wiki.trasno.net/Coordinación_do_desenvolvemento_do_corrector_Hunspell_de_galego
+    • http://wiki.trasno.net/Guía_de_desenvolvemento_do_corrector_Hunspell_de_galego
+• Código fonte: https://github.com/meixome/hunspell-gl
+• Versións compiladas:https://sourceforge.net/projects/hunspell-gl/
+
+Contactar co equipo de desenvolvemento:
+
+- Enviar unha mensaxe á lista de correo: proxecto@trasno.net coa etiqueta [hunspell] na liña de asunto
+- Enviar unha mensaxe ás listas galegas de correo de LibreOffice: discuss@gl.libreoffice.org / users@gl.libreoffice.org
+- Deixar unha mensaxe no blog de proxecto: http://blog.openoffice.gl/recursos-ortograficos/article/contactar-cos-desenvolvedores
+- Cubrir unha nota de incidencia no repositorio de desenvolvemento: https://github.com/meixome/hunspell-gl/issues
+- Máis opcións: http://www.trasno.net/corrector-de-galego-hunspell/

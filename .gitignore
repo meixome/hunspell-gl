@@ -1,2 +1,14 @@
+pywikibot
+
+# Distribution / packaging
+build/*
 .sconsign.dblite
-build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
