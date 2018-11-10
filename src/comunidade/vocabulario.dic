@@ -287,6 +287,7 @@ psicopedagóxico/10,15 po:substantivo
 redirección/10 po:substantivo feminino
 renormativización po:substantivo feminino
 retroalimentación po:substantivo feminino
+revexetación/10 po:substantivo feminino
 sostibilidade/10 po:substantivo feminino
 xentalla po:substantivo feminino
 xudicialización/10 po:substantivo feminino
@@ -422,6 +423,8 @@ reprografar/200,201 po:verbo ts:transitiva al:reprográfar
 reprográfar/666,202 st:reprografar ts:alomorfo reprografar transitiva
 reutilizar/200,201 po:verbo ts:transitiva al:reutilízar
 reutilízar/666,202 st:reutilizar ts:alomorfo reutilizar transitiva
+revexetar/200,201 po:verbo ts:transitiva al:revexétar
+revexétar/666,202 st:revexetar ts:alomorfo revexetar transitiva
 respaldar/200,201 po:verbo ts:transitiva al:respáldar
 respáldar/666,202 st:respaldar ts:alomorfo respaldar transitiva
 sobrepasar/200,201 po:verbo ts:transitiva al:sobrepásar
