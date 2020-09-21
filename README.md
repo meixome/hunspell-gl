@@ -29,6 +29,13 @@ From the start and now master word's source for the dictionary are the public Vo
 
 A technical description about verbal morphosintactical behavior write by Miguel Solla is in:
   - Núm. 1 da revista Linguamática (ISSN: 1647-0818) http://linguamatica.com/index.php/linguamatica/article/view/13
+  
+Update
+------
+From august 2020 this repository is now allocated in 
+https://gitlab.com/proxecto-trasno/hunspell-gl
+
+See there for new releases, for example, new version 20.08
 
 License
 -------
